@@ -1,7 +1,7 @@
 _site
 
 # Ignore node_modules
-/node_modules
+node_modules
 
 # Ignore sass-cache files.
 /*.sass-cache*
