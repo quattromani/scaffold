@@ -1,0 +1,95 @@
+// Base Site Settings
+$site-width: 1024px;
+
+// Navigation
+$nav-items: 5;
+
+// ---------------------------------------------------------------------- //
+
+// Column / Grid Control
+$site-column-count: 12;
+$site-gutter-width: 2%;
+
+// Breakpoints
+$bp-big: 68.75em;
+$bp-medium: 48em;
+$bp-small: 40em;
+
+// Sizing
+$padding: 1em;
+$margin: 1em;
+
+//Border-Radius
+$border-radius: 4px;
+
+// ---------------------------------------------------------------------- //
+
+// Colors
+$color-white: #fff;
+$color-off-white: #f2f2f2;
+$color-black: #000;
+$color-grey: #666;
+$color-light-grey: #ccc;
+
+$color-primary-red: #ed5565;
+$color-secondary-red: #da4453;
+$color-primary-green: #a0d468;
+$color-secondary-green: #8cc152;
+$color-primary-blue: #4fc1e9;
+$color-secondary-blue: #3bafda;
+$color-primary-lav: #ac92ec;
+$color-secondary-lav: #967adc;
+
+$color-dark-grey: darken($color-grey, 20%);
+$color-light-grey: lighten($color-grey, 20%);
+$color-light-light-grey: lighten($color-light-grey, 20%);
+
+// Typography
+$text: $color-dark-grey;
+$text-color: $text;
+$link: $color-primary-blue;
+$link-hover: $color-secondary-blue;
+$text-grey: $color-grey;
+$text-light-grey: $color-light-grey;
+$text-link: $link;
+$text-white: $color-white;
+$text-error: $color-primary-red;
+$text-success: $color-secondary-green;
+$text-info: $color-secondary-blue;
+
+// Always declare site background fallback
+$site-background: $color-white;
+
+// Buttons
+$color-button-primary: $color-primary-blue;
+$color-button-primary-hover: $color-secondary-blue;
+
+// ---------------------------------------------------------------------- //
+
+// Typography
+// Fonts
+$base-font-size: 16;
+$base-line-height: 1.443;
+
+$base-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$base-font-alt: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+$arial-bold: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+$heading-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$heading-font-alt: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+$fontawesome: 'FontAwesome';
+$pre: Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+
+$h1: 28;
+$h2: 26;
+$h3: 24;
+$h4: 20;
+$h5: 18;
+$h6: 18;
+
+$lede-text: ($base-font-size * 1.125);
+$body-text: $base-font-size;
+$small-body-text: ($base-font-size *.75);
+$disclaimer-text: ($base-font-size *.675);
+
+// ---------------------------------------------------------------------- //

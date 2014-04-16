@@ -1,0 +1,161 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Colors & Gradients -- Version: 0.4.2 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.color-white {
+  background: $color-white;
+}
+
+.color-black {
+  background: $color-black;
+}
+
+.color-grey {
+  background: $color-grey;
+}
+
+.color-light-grey {
+  background: $color-light-grey;
+}
+
+.color-primary-red {
+  background: $color-primary-red;
+}
+
+.color-primary-green {
+  background: $color-primary-green;
+}
+
+.color-primary-blue {
+  background: $color-primary-blue;
+}
+
+.color-primary-lav {
+  background: $color-primary-lav;
+}
+
+.color-secondary-red {
+  background: $color-secondary-red;
+}
+
+.color-secondary-green {
+  background: $color-secondary-green;
+}
+
+.color-secondary-blue {
+  background: $color-secondary-blue;
+}
+
+.color-secondary-lav {
+  background: $color-secondary-lav;
+}
+
+/* Typography Colors */
+
+.text {
+  color: $text;
+}
+
+.color-text {
+  background: $text;
+}
+
+.color-link {
+  background: $link;
+}
+
+.color-error {
+  background: $text-error;
+}
+
+.color-info {
+  background: $text-info;
+}
+
+.color-success {
+  background: $text-success;
+}
+
+.link {
+  color: $link;
+}
+
+.text-grey {
+  color: $text-grey;
+}
+
+.text-light-grey {
+  color: $text-light-grey;
+}
+
+.text-link {
+  color: $text-link;
+}
+
+.text-white {
+  color: $text-white;
+}
+
+.text-info {
+  color: $text-info;
+}
+
+.text-muted, .muted {
+  color: $text-light-grey;
+}
+
+.text-warning, .text-error {
+  color: $text-error;
+}
+
+.error, .is-error {
+  background: lighten($text-error, 25%);
+  color: $text-error;
+}
+
+.text-info {
+  color: $text-info;
+}
+
+.text-success {
+  color: $text-success;
+}
+
+/* ==========================
+    Primary Color Palette
+   ========================== */
+
+.outline { border: 1px solid $text; }
+
+/* ==========================
+  backgrounds
+   ========================== */
+
+.background-1 { background: #161d22; }
+
+.background-2 { background: #1e262c; }
+
+.background-3 { background: #424e57; }
+
+.background-4 { background: #445f74; }
+
+.background-5 { background: #5d84a3; }
+
+.background-6 { background: #8e96a0; }
+
+.background-7 { background: #c6c9cf; }
+
+.background-8 { background: #d2d5da; }
+
+.background-9 { background: #f2f4f6; }
+
+.gradient { filter: none; }
+
+/* ie9 (.ie9) */
+
+.ie9 [class*='gradient'] {
+  filter: none;
+}

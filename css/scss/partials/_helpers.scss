@@ -1,0 +1,319 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.clear {
+  clear: both;
+}
+
+.relative {
+  position: relative;
+}
+
+.left {
+  float: left;
+  left: 0;
+}
+
+.right {
+  float: right;
+  right: 0;
+}
+
+.fs16 {
+  @include font-size(16);
+}
+
+.fs18 {
+  @include font-size(18);
+}
+
+.fs20 {
+  @include font-size(20);
+}
+
+.fs22 {
+  @include font-size(22);
+}
+
+.fs24 {
+  @include font-size(24);
+}
+
+.fs26 {
+  @include font-size(26);
+}
+
+.fs28 {
+  @include font-size(28);
+}
+
+.fs30 {
+  @include font-size(30);
+}
+
+.fs32 {
+  @include font-size(32);
+}
+
+.fs34 {
+  @include font-size(34);
+}
+
+.fs36 {
+  @include font-size(36);
+}
+
+.fs38 {
+  @include font-size(38);
+}
+
+.fs40 {
+  @include font-size(40);
+}
+
+.fs45 {
+  @include font-size(45);
+}
+
+.fs50 {
+  @include font-size(50);
+}
+
+.fs55 {
+  @include font-size(55);
+}
+
+.fs60 {
+  @include font-size(60);
+}
+
+.fs65 {
+  @include font-size(65);
+}
+
+.fs70 {
+  @include font-size(70);
+}
+
+.w10 {
+  @include inline-block;
+  width: 10%;
+}
+
+.w20 {
+  @include inline-block;
+  width: 20%;
+}
+
+.w30 {
+  @include inline-block;
+  width: 30%;
+}
+
+.w40 {
+  @include inline-block;
+  width: 40%;
+}
+
+.w50 {
+  @include inline-block;
+  width: 50%;
+}
+
+.w55 {
+  @include inline-block;
+  width: 55%;
+}
+
+.w60 {
+  @include inline-block;
+  width: 60%;
+}
+
+.w70 {
+  @include inline-block;
+  width: 70%;
+}
+
+.w75 {
+  @include inline-block;
+  width: 75%;
+}
+
+.w80 {
+  @include inline-block;
+  width: 80%;
+}
+
+.w90 {
+  @include inline-block;
+  width: 90%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+  clear: both;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.image-left {
+  float: left;
+  margin-right: $margin;
+}
+
+.image-center {
+  @include margin(0,auto);
+  text-align: center;
+}
+
+.image-right {
+  float: right;
+  margin-left: $margin;
+}
+
+.box {
+  @include margin(0,0,$margin,0);
+  @include padding($padding);
+  background: #e7eef4;
+}
+
+.border-radius {
+  @include border-radius;
+}
+
+.bordered-solid {
+  @include padding($padding);
+  border: 1px solid $color-grey;
+}
+
+.bordered-dotted {
+  @include padding($padding);
+  border: 1px dotted $color-grey;
+}
+
+.bordered-left {
+  padding-left: $site-gutter-width;
+  border-left: 1px dotted $color-grey;
+}
+
+.bordered-left-dark {
+  @extend .bordered-left;
+  border-left: 1px solid $text;
+}
+
+.bordered-right {
+  padding-right: $site-gutter-width;
+  border-right: 1px dotted $color-grey;
+}
+
+.bordered-right-dark {
+  @extend .bordered-right;
+  border-right: 1px solid $text;
+}
+
+.column-count-2 {
+  @include columns(2,$margin * 2);
+}
+
+.column-count-3 {
+  @include columns(3,$margin * 2);
+}
+
+.column-count-4 {
+  @include columns(4,$margin * 2);
+}
+
+.column-count-6 {
+  @include columns(6,$margin * 2);
+}
+
+.nowrap {
+  overflow: hidden;
+}
+
+.hidden, .desktop-hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.no-fouc {
+  display: none;
+}
+
+.js-last {
+  border-bottom: 0;
+}
+
+.desktop-br { display: block; }
+
+// Text Truncation
+
+[class*='truncate'] {
+  overflow: hidden;
+  margin-bottom: $margin;
+}
+
+@media (max-width: $bp-medium) {
+  .tablet-hidden {
+    display: none !important;
+  }
+  .desktop-hidden {
+    display: block;
+  }
+
+  .tablet-br {
+    display: block;
+  }
+
+  .bordered-left, .bordered-right {
+    @include padding;
+    border: none;
+  }
+
+  .column-count-2, .column-count-3, .column-count-4 {
+    @include columns(2, $margin * 2)
+  }
+
+  .column-count-6 {
+    @include columns(3,$margin * 2);
+  }
+
+}
+
+@media (max-width: $bp-small) {
+
+  .mobile-hidden {
+    display: none !important;
+  }
+  .mobile-full {
+    display: block;
+    float: none;
+  }
+
+  .mobile-br {
+    display: block;
+  }
+
+  .column-count-2, .column-count-3, .column-count-4 {
+    @include columns(1,0)
+  }
+
+}

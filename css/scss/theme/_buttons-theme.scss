@@ -1,0 +1,41 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Buttons Theme -- Version: 0.4.2 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.btn, button {
+  color: $link;
+  &:hover {
+    background: darken($color-off-white, 5%);
+  }
+  &:focus {
+    background: darken($color-off-white, 20%);
+    background-image: 0;
+  }
+  &.btn-primary {
+    background: $color-button-primary;
+    color: $color-white;
+    &:hover {
+      background: $color-button-primary-hover;
+    }
+    &:active {
+      background: darken($color-button-primary, 20%);
+      background-image: 0;
+      color: $color-white;
+   }
+  }
+  &:disabled, &.js-disabled, &.disabled {
+    cursor: default;
+    background: $color-light-grey;
+    color: $text-white;
+    &:hover, &:active {
+      @extend .disabled;
+    }
+  }
+  &.js-active {
+    background: $color-primary-green;
+    color: $color-white;
+  }
+}

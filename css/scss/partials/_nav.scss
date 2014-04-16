@@ -1,0 +1,21 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Nav -- Version: 0.4.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+nav {
+  .container {
+    display: table;
+    width: 100%;
+  }
+  ul {
+    display: table-row;
+    width: 100%;
+    li {
+      display: table-cell;
+      width: (100% / $nav-items);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Base Theme -- Version: 0.4.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+body {
+  background-color: $site-background;
+}

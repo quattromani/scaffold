@@ -1,0 +1,229 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Typography -- Version: 1.9.0.0  - Compiled: #{timestamp()}
+   ========================================================================== */
+
+html {
+  height: 100%;
+  @include font-family($base-font);
+  font-size: 10px; /* set absolutely to handle zoomed/user-defined font size state */
+  color: $text;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, button, input, select, textarea {
+  @include font-size($base-font-size);
+  line-height: $base-line-height;
+}
+
+@font-face {
+  font-family: $fontawesome;
+  src: url('fonts/icons/fontawesome-webfont.eot');
+  src: url('fonts/icons/fontawesome-webfont.eot?#iefix') format("embedded-opentype"),
+       url('fonts/icons/fontawesome-webfont.svg#svgFontAwesome') format("svg"),
+       url('fonts/icons/fontawesome-webfont.woff') format("woff"),
+       url('fonts/icons/fontawesome-webfont.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.base-font {
+  font-family: $base-font;
+}
+
+.base-font-alt {
+  font-family: $base-font-alt;
+}
+
+.arial {
+  font-family: $arial;
+}
+
+.arialBold {
+  font-family: $arial-bold;
+}
+
+/* ==========================
+	  Body Text
+   ========================== */
+
+.lede {
+  @include font-size($lede-text);
+}
+
+.body-text {
+  @include font-size($body-text);
+}
+
+.small-body-text {
+  @include font-size($small-body-text);
+}
+
+.disclaimer-text {
+  @include font-size($disclaimer-text);
+}
+
+/* ==========================
+	  Links
+   ========================== */
+
+a {
+  @include margin;
+  @include padding;
+  border-bottom: 1px dotted;
+  background: transparent;
+  vertical-align: baseline;
+  @include font-family($base-font);
+  font-weight: 700;
+  color: $link;
+  text-decoration: none;
+  cursor: pointer;
+  img {
+    border: 0 none;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+/* ==========================
+	  Headings
+   ========================== */
+
+h1, .h1 {
+  @include font-size($h1);
+  font-family: $heading-font;
+  font-weight: 100;
+}
+
+h2, .h2 {
+  @include font-size($h2);
+  font-family: $heading-font-alt;
+  font-weight: 100;
+}
+
+h3, .h3 {
+  @include font-size($h3);
+  font-family: $heading-font;
+  font-weight: 100;
+}
+
+h4, .h4 {
+  @include font-size($h4);
+  font-family: $heading-font-alt;
+  font-weight: 100;
+}
+
+h5, .h5 {
+  @include font-size($h5);
+  font-family: $heading-font;
+  font-weight: 100;
+  color: inherit;
+}
+
+h6, .h6 {
+  @include font-size($h6);
+  font-family: $heading-font;
+  font-weight: 100;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  @include inline-block;
+}
+
+small {
+  @include inline-block;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+  clear: inherit;
+  margin-bottom: $margin / 3;
+  vertical-align: middle;
+}
+
+p, .p {
+  display: block;
+  font-family: $base-font;
+  word-wrap: break-word;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: capitalize;
+}
+
+blockquote {
+  border-left: 3px solid $color-light-grey;
+  color: $text-light-grey;
+  font-style: italic;
+  padding-left: $padding;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+abbr {
+  border-bottom: 1px dotted $color-grey;
+  cursor: help;
+}
+
+address {
+  font-style: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: bottom;
+}
+
+mark {
+  background: yellow;
+}
+
+/* ==========================
+	  Pre
+   ========================== */
+pre {
+  @include margin($margin,0);
+  background-color: $text;
+  @include border-radius();
+  overflow: auto;
+  padding: $padding;
+  word-wrap: break-word;
+}
+
+code {
+  @include padding($padding / 10, $padding / 3);
+  @include border-radius;
+  border: 1px solid $color-light-light-grey;
+  background: lighten($color-light-grey, 30%);
+  color: $color-primary-red;
+  font-size: 90%;
+  white-space: nowrap;
+}
+
+kbd, samp {
+  font-family: $pre;
+}
+
+kbd, samp {
+  color: $color-primary-green;
+}
+
+.valid, .is-valid {
+  color: $color-primary-green;
+}
+
+.code-comment {
+  @include opacity(.5);
+}

@@ -1,0 +1,51 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Styleguide -- Version: 0.4.2  - Compiled: #{timestamp()}
+   ========================================================================== */
+
+// For Styleguide Demo ONLY!! Don't ever ingest this file...EVER!
+
+.styleguide {
+
+  .colors {
+    @include padding($padding);
+    @include border-radius;
+    &.color-white {
+      outline: 1px solid lighten($color-light-grey, 30%);
+    }
+    @media (max-width: $bp-medium) {
+      margin-bottom: $margin;
+    }
+  }
+
+  .swatch {
+    border: 1px solid lighten($color-light-grey,30%);
+    @include border-radius(4px);
+    overflow: auto;
+  }
+  .swatch-color {
+    @include padding(5em, $padding);
+  }
+  .swatch-info {
+    @include padding($padding);
+    background: $color-white;
+    color: $text;
+    text-align: center;
+  }
+
+  .grid {
+    @extend .colors;
+    @include border-radius(0);
+      background: $color-secondary-blue;
+    &:nth-of-type(even) {
+      background: lighten($color-primary-blue, 20%);
+    }
+  }
+
+  .prettyprint {
+    display: none;
+  }
+
+}

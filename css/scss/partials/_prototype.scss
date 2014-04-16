@@ -1,0 +1,47 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Prototype -- Version: 0.4.4  - Updated: #{timestamp()}
+   ========================================================================== */
+
+// For Prototype Demo ONLY!! Don't ever ingest this file...EVER!
+
+.viewport, .loadtime {
+  position: fixed;
+  @include padding(.5em, 1em);
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.675);
+  font-family: $pre;
+  color: #0f0;
+}
+
+.viewport {
+  top: 0;
+  right: 0;
+  @include border-radius(0 0 0 $border-radius);
+}
+
+.loadtime {
+  bottom: 0;
+  left: 0;
+  @include border-radius(0 $border-radius 0 0);
+}
+
+.internal {
+  margin-bottom: $margin;
+  @include padding($padding);
+  color: $color-primary-blue;
+  text-align: center;
+}
+
+@include bp(bp-small) {
+  .fold {
+    position: absolute;
+    top: 480px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #0f0;
+    z-index: 10000;
+  }
+}

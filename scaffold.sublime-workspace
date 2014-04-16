@@ -1,0 +1,389 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 171.0,
+		"selected_items":
+		[
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"gru",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"gru t",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"GRUNT",
+				"Grunt"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sublimelint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Add..."
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Q/Sites/scaffold/_layouts/default.html",
+		"/Users/Q/Sites/scaffold/_includes/foot.html",
+		"/Users/Q/Sites/scaffold/index.html",
+		"/Users/Q/Sites/skeleton/includes/header.php",
+		"/Users/Q/Sites/skeleton/css/main.min.css",
+		"/Users/Q/Sites/skeleton/css/main.css",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Grunt/SublimeGrunt.sublime-settings",
+		"/Users/Q/Sites/skeleton/about/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/index.php",
+		"/Users/Q/Sites/skeleton/about/content.php",
+		"/Users/Q/Sites/skeleton/index.php",
+		"/Users/Q/Sites/skeleton/includes/banner.php",
+		"/Users/Q/Sites/skeleton/css/scss/partials/_nav.scss",
+		"/Users/Q/Sites/skeleton/includes/nav.php",
+		"/Users/Q/Sites/skeleton/css/scss/theme/_nav-theme.scss",
+		"/Users/Q/Sites/skeleton/styleguide/best_practices/content.php",
+		"/Users/Q/Sites/skeleton/css/scss/partials/_accessibility.scss",
+		"/Users/Q/Sites/skeleton/css/scss/main.scss",
+		"/Users/Q/Sites/skeleton/Gruntfile.js",
+		"/Users/Q/Sites/skeleton/config.rb",
+		"/Users/Q/Sites/skeleton/js/_styleguide.js",
+		"/Users/Q/Sites/skeleton/js/jumpTo.js",
+		"/Users/Q/Sites/skeleton/css/scss/partials/nav.scss",
+		"/Users/Q/Sites/skeleton/css/scss/theme/nav-theme.scss",
+		"/Users/Q/Sites/skeleton/css/scss/theme/buttons-theme.scss",
+		"/Users/Q/Sites/skeleton/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/skeleton/styleguide/nav/content.php",
+		"/Users/Q/Sites/skeleton/css/scss/partials/base.scss",
+		"/Users/Q/Sites/skeleton/css/scss/theme/base-theme.scss",
+		"/Users/Q/Sites/skeleton/styleguide/flexbox/content.php",
+		"/Users/Q/Sites/skeleton/sandbox/flexbox/content.php",
+		"/Users/Q/Sites/skeleton/includes/prototype.php",
+		"/Users/Q/Sites/skeleton/styleguide/forms/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/combinations/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/lists/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/pagination/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/tables/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/video/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/best_practices/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/breadcrumbs/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/buttons/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/colors/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/content.php",
+		"/Users/Q/Sites/skeleton/sandbox/flexbox/index.php",
+		"/Users/Q/Sites/skeleton/css/scss/partials/layout.scss",
+		"/Users/Q/Sites/skeleton/styleguide/flexbox/index.php",
+		"/Users/Q/Sites/skeleton/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/flexbox.scss",
+		"/Users/Q/Sites/skeleton/styleguide/breadcrumbs/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/lists/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/images/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/images/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/tables/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/pagination/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/buttons/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/colors/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/forms/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/audio/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/audio/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/marginless/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/marginless/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/combinations/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/about/content.php",
+		"/Users/Q/Sites/skeleton/.gitignore",
+		"/Users/Q/Sites/skeleton/js/build/production.js",
+		"/Users/Q/Sites/skeleton/includes/footer.php",
+		"/Users/Q/Sites/skeleton/js/main.js",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Q/Sites/skeleton/css/partials/base.css",
+		"/Users/Q/Sites/skeleton/css/scss/partials/colors.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/_styleguide.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/accessibility.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/forms.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/helpers.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/images.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/jumpTo.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/lists.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/modules.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/pagination.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/print.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/scrollTo.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/tables.scss",
+		"/Users/Q/Sites/skeleton/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/skeleton/timestamp.rb",
+		"/Users/Q/Sites/skeleton/css/scss/partials/videos.scss",
+		"/Users/Q/Sites/skeleton/sandbox/media/index.php",
+		"/Users/Q/Sites/skeleton/css/scss/partials/_prototype.scss",
+		"/Users/Q/Sites/skeleton/css/accessibility.css",
+		"/Users/Q/Sites/skeleton/sandbox/media/content.php",
+		"/Users/Q/Sites/skeleton/images/Skeleton.pdf",
+		"/Users/Q/Sites/skeleton/sandbox/color-swatches/index.php",
+		"/Users/Q/Sites/skeleton/sandbox/_skeleton/content.php",
+		"/Users/Q/Sites/skeleton/sandbox/_skeleton/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/about/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/body_text/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/headings/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/fonts/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/icons/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/inline_text/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/text_alignment/index.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/marginless/combinations/index.php",
+		"/Users/Q/Sites/skeleton/includes/variables/global_variables.php",
+		"/Users/Q/Sites/skeleton/includes/single.php",
+		"/Users/Q/Sites/skeleton/sandbox/color-swatches/content.php",
+		"/Users/Q/Sites/skeleton/sandbox/color-swatches/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/colors/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/config.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/marginless/combinations/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/video/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/content.php",
+		"/Users/Q/Sites/skeleton/styleguide/forms/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/combinations/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/grid/marginless/combinations/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/images/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/lists/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/pagination/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/tables/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/body_text/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/fonts/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/headings/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/icons/includes/variables/page_variables.php",
+		"/Users/Q/Sites/skeleton/styleguide/typography/includes/variables/page_variables.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"them",
+			"theme",
+			"color-swatch",
+			"php",
+			" } ",
+			"index",
+			"include",
+			"inc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"swatch"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 122.0
+	},
+	"output.sftp":
+	{
+		"height": 122.0
+	},
+	"project": "scaffold.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/maxquattromani/TWC/twc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

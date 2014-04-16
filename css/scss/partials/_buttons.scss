@@ -1,0 +1,70 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Buttons -- Version: 0.4.2 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.btn, button {
+  @include inline-block();
+  @include padding(.5em, $padding);
+  @include border-radius();
+  border: none;
+  background: none;
+  font-family: $base-font-alt;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  &.block {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  &.btn-xl {
+    @include padding(1em, ($padding * 2));
+  }
+  &.btn-lg {
+    @include padding(.75em, ($padding * 1.5));
+  }
+  &.btn-sm {
+    @include padding(($padding / 3), ($padding / 1.5));
+  }
+  @media (max-width: $bp-small) {
+
+    &.mobile-full {
+      display: block;
+      width: 100%;
+      a {
+        display: block;
+        text-align: center;
+      }
+      & + & {
+        margin-top: $margin;
+      }
+    }
+
+  }
+}
+
+/* Firefox */
+
+@-moz-document url-prefix() {
+  /* Remove button padding in FF */
+  button::-moz-focus-inner {
+    @include padding;
+    border: 0 none;
+  }
+  input {
+    &[type="button"]::-moz-focus-inner, &[type="submit"]::-moz-focus-inner, &[type="reset"]::-moz-focus-inner {
+      @include padding;
+      border: 0 none;
+    }
+  }
+}
+
+/* ie (.ie) */
+/* make buttons play nice in IE */
+.ie button {
+  overflow: visible;
+  width: auto;
+}

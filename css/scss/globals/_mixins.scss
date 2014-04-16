@@ -1,0 +1,227 @@
+// Mixins
+
+// Column / Grid Control
+$width: 100%;   // total with of page
+$site-column-count: 12 !default;    // number of columns
+$site-gutter-width: 2% !default;  // margin between columns
+$marginless: 0;
+
+// math magic
+$col-width: ($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count;
+$col-total-width: $col-width + $site-gutter-width;
+
+$marginless-col-width: $width / $site-column-count;
+
+// create row
+@mixin row() {
+  float: left;
+  clear: both;
+  width: $width;
+  margin-bottom: $margin;
+}
+
+// create a column
+@mixin col($n: 1) {
+  float: left;
+  @include span($n);
+}
+
+// create a marginless column
+@mixin marginless_col($n: 1) {
+  float: left;
+  @include marginless_span($n);
+}
+
+// element span n columns
+@mixin span($n: 1) {
+  width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
+  @if $n == $site-column-count {
+    margin-right: 0;
+  } @else {
+    margin-right: $site-gutter-width;
+  }
+}
+
+@mixin marginless_span($n: 1) {
+  width: ($n * $marginless-col-width);
+  margin-right: 0;
+}
+
+// remove margin from all last columns
+@mixin last() {
+  margin-right: 0;
+}
+
+// prepend n blank columns
+@mixin prepend($n: 1) {
+  margin-left: $col-total-width * $n;
+}
+
+// append n blank columns
+@mixin append($n: 1) {
+  margin-right: $col-total-width * $n + $site-gutter-width;
+}
+
+// Flexbox
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
+
+// Breakpoint
+@mixin bp($point) {
+  @if $point == bp-medium {
+    @media (max-width: $bp-medium) { @content; }
+  }
+  @else if $point == bp-small {
+    @media (max-width: $bp-small)  { @content; }
+  }
+}
+
+// Margin
+@mixin margin($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+// Padding
+@mixin padding($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+// Background Clip
+@mixin background-clip($type: padding-box) {
+  -webkit-background-clip: $type;
+     -moz-background-clip: $type;
+          background-clip: $type;
+}
+
+// Border Radius
+@mixin border-radius($radius: $border-radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+  @include background-clip;
+}
+
+// Background Gradients
+@mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
+  background-color: $startColor;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
+  background-image: -webkit-linear-gradient(top, $startColor, $endColor);
+  background-image:    -moz-linear-gradient(top, $startColor, $endColor);
+  background-image:     -ms-linear-gradient(top, $startColor, $endColor);
+  background-image:      -o-linear-gradient(top, $startColor, $endColor);
+  background-image:         linear-gradient(top, $startColor, $endColor);
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', EndColorStr='#{$endColor}')"; */
+}
+
+@mixin horizontal-gradient($startColor, $to, $endColor: 100%) {
+  /* fallback/image non-cover color */
+  background-color: $startColor;
+  background-image: -moz-linear-gradient(left, $startColor 0%, $to $endColor);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $startColor), color-stop($endColor, $to));
+  background-image: -webkit-linear-gradient(left, $startColor 0%, $to $endColor);
+  background-image: -o-linear-gradient(left, $startColor 0%, $to $endColor);
+  background: -ms-linear-gradient(left, $startColor 0%, $to $endColor);
+  background: linear-gradient(to right, $startColor 0%, $to $endColor);
+}
+
+// Box-Shadow
+@mixin box-shadow($value: 0 1px 2px 0 #888) {
+  -webkit-box-shadow: $value;
+     -moz-box-shadow: $value;
+          box-shadow: $value;
+}
+
+// Vertical Align
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+// Inline-Block IE
+@mixin inline-block {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+// Opacity
+@mixin opacity($opacity) {
+  filter: alpha(opacity=($opacity * 100));
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity * 100})";
+  -moz-opacity: $opacity;
+  -khtml-opacity: $opacity;
+  opacity: $opacity;
+}
+
+// Transform
+@mixin rotate($degrees) {
+  -webkit-transform: rotate($degrees);
+     -moz-transform: rotate($degrees);
+       -o-transform: rotate($degrees);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
+      filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+  zoom: 1;
+}
+
+// Transitions
+@mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
+  -webkit-transition: $what $length $easing;
+     -moz-transition: $what $length $easing;
+      -ms-transition: $what $length $easing;
+       -o-transition: $what $length $easing;
+          transition: $what $length $easing;
+}
+
+@mixin font-family($font, $style: normal, $weight: normal) {
+  font-family: $font,Arial,Sans-Serif;
+  font-style: $style;
+  font-weight: $weight;
+}
+
+// Font Size
+@mixin font-size($size) {
+  font-size: $size * 1px;
+  font-size: $size * 0.1rem;
+}
+
+// Column Count
+@mixin columns($count, $gap) {
+  -webkit-column-count: $count;
+     -moz-column-count: $count;
+      -ms-column-count: $count;
+          column-count: $count;
+  -webkit-column-gap: $gap;
+     -moz-column-gap: $gap;
+      -ms-column-gap: $gap;
+          column-gap: $gap;
+}

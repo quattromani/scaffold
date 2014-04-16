@@ -1,0 +1,23 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Modules -- Version: 0.4.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.box-column {
+  @extend %clearfix !optional;
+  padding: ($padding);
+  @include margin($margin / 2, 0, $margin);
+  background: $site-background;
+  border: 1px solid $color-light-grey;
+  @include border-radius;
+  overflow: auto;
+}
+
+hr {
+  @include margin($margin,0);
+  border: 0;
+  border-top: 1px solid $text-light-grey;
+  border-bottom: 1px solid $text-white;
+}
