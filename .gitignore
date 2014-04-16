@@ -1,1 +1,17 @@
 _site
+
+# Ignore node_modules
+/node_modules
+
+# Ignore sass-cache files.
+/*.sass-cache*
+
+# Ignore grunt files
+/*.sublime-grunt.cache
+
+# Ignore sublime project files
+/*.sublime-project
+/*.sublime-workspace
+
+# Ignore sandbox builds
+/sandbox
