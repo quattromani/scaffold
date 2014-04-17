@@ -2,5 +2,3 @@ name: Scaffold
 markdown: redcarpet
 pygments: true
 baseurl: /scaffold
-
-relative_permalinks: false
