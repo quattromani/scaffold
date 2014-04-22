@@ -202,16 +202,17 @@ $marginless-col-width: $width / $site-column-count;
           transition: $what $length $easing;
 }
 
-@mixin font-family($font, $style: normal, $weight: normal) {
-  font-family: $font,Arial,Sans-Serif;
-  font-style: $style;
-  font-weight: $weight;
-}
-
 // Font Size
 @mixin font-size($size) {
   font-size: $size * 1px;
   font-size: $size * 0.1rem;
+}
+
+@mixin font-family($font, $style: normal, $weight: normal) {
+  font-family: $font,Arial,Sans-Serif;
+  font-style: $style;
+  font-weight: $weight;
+  @inlcude font-size($base-font-size);
 }
 
 // Column Count
