@@ -1,0 +1,92 @@
+---
+layout: default
+title: Grid - Flexbox
+---
+
+<style>
+	.flex-row {
+		display: inline-flex;
+		display: -webkit-inline-flex;
+		display: -moz-inline-flex;
+		flex-direction: row;
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+	}
+	.flex-column {
+		padding: 1em;
+	}
+
+	@media (max-width: 40em) {
+		.flex-row {
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+			flex-direction: column;
+		}
+		.flex-row.two, .flex-row.four {
+			-webkit-flex-direction: row;
+			-moz-flex-direction: row;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.flex-row.four .flex-column, .flex-row.two .flex-column {
+			width: 50%;
+		}
+		.ie8 .flex-row {
+			display: block;
+		}
+		.ie8 .flex-column {
+			float: left;
+		}
+	}
+</style>
+
+
+	<div class="flex-row one">
+
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+
+	</div>
+
+	<div class="flex-row two">
+
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+
+	</div>
+
+	<div class="flex-row three">
+
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+
+	</div>
+
+	<div class="flex-row four">
+
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+		<div class="flex-column">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, odit, natus at commodi rerum ullam nam fugiat corporis in voluptate?
+		</div>
+
+	</div>
