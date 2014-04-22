@@ -35,6 +35,11 @@
 			-moz-flex-direction: column;
 			flex-direction: column;
 		}
+		.flex-row.one {
+			-webkit-flex-order: 2;
+			-moz-flex-order: 2;
+			order: 2;
+		}
 		.flex-row.two, .flex-row.four {
 			-webkit-flex-direction: row;
 			-moz-flex-direction: row;
