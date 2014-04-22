@@ -29,7 +29,7 @@
 		width: 25%;
 	}
 
-	@media screen and (max-width: 400px) {
+	@media screen and (max-width: 40em) {
 		.flex-row {
 			-webkit-flex-direction: column;
 			-moz-flex-direction: column;
