@@ -35,7 +35,7 @@
 			-moz-flex-direction: column;
 			flex-direction: column;
 		}
-		.flex-row.one {
+		.flex-row.one .flex-column {
 			-webkit-flex-order: 2;
 			-moz-flex-order: 2;
 			order: 2;
@@ -45,6 +45,8 @@
 			-moz-flex-direction: row;
 			flex-direction: row;
 			flex-wrap: wrap;
+		}
+		.flex-row.two .flex-column, .flex-row.four .flex-column {
 			-webkit-flex-order: 0;
 			-moz-flex-order: 0;
 			order: 0;
