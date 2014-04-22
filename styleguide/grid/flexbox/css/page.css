@@ -42,7 +42,7 @@
 			flex-wrap: wrap;
 			-webkit-flex-order: 0;
 			-moz-flex-order: 0;
-			flex-order: 0;
+			order: 0;
 		}
 		.flex-row.four .flex-column, .flex-row.two .flex-column {
 			width: 50%;
