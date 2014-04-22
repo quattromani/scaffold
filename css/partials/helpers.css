@@ -19,9 +19,180 @@
   right: 0;
 }
 
+/* Font Size Helpers */
+.fs-1 {
+  font-size: 1px;
+  font-size: 0.1rem;
+}
+
+.fs1 {
+  font-size: 1px;
+  font-size: 0.1rem;
+}
+
+.fs-2 {
+  font-size: 2px;
+  font-size: 0.2rem;
+}
+
+.fs2 {
+  font-size: 2px;
+  font-size: 0.2rem;
+}
+
+.fs-3 {
+  font-size: 3px;
+  font-size: 0.3rem;
+}
+
+.fs3 {
+  font-size: 3px;
+  font-size: 0.3rem;
+}
+
+.fs-4 {
+  font-size: 4px;
+  font-size: 0.4rem;
+}
+
+.fs4 {
+  font-size: 4px;
+  font-size: 0.4rem;
+}
+
+.fs-5 {
+  font-size: 5px;
+  font-size: 0.5rem;
+}
+
+.fs5 {
+  font-size: 5px;
+  font-size: 0.5rem;
+}
+
+.fs-6 {
+  font-size: 6px;
+  font-size: 0.6rem;
+}
+
+.fs6 {
+  font-size: 6px;
+  font-size: 0.6rem;
+}
+
+.fs-7 {
+  font-size: 7px;
+  font-size: 0.7rem;
+}
+
+.fs7 {
+  font-size: 7px;
+  font-size: 0.7rem;
+}
+
+.fs-8 {
+  font-size: 8px;
+  font-size: 0.8rem;
+}
+
+.fs8 {
+  font-size: 8px;
+  font-size: 0.8rem;
+}
+
+.fs-9 {
+  font-size: 9px;
+  font-size: 0.9rem;
+}
+
+.fs9 {
+  font-size: 9px;
+  font-size: 0.9rem;
+}
+
+.fs-10 {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.fs10 {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.fs-11 {
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.fs11 {
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.fs-12 {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.fs12 {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.fs-13 {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.fs13 {
+  font-size: 13px;
+  font-size: 1.3rem;
+}
+
+.fs-14 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.fs14 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.fs-15 {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+.fs15 {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+.fs-16 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
 .fs16 {
   font-size: 16px;
   font-size: 1.6rem;
+}
+
+.fs-17 {
+  font-size: 17px;
+  font-size: 1.7rem;
+}
+
+.fs17 {
+  font-size: 17px;
+  font-size: 1.7rem;
+}
+
+.fs-18 {
+  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .fs18 {
@@ -29,9 +200,39 @@
   font-size: 1.8rem;
 }
 
+.fs-19 {
+  font-size: 19px;
+  font-size: 1.9rem;
+}
+
+.fs19 {
+  font-size: 19px;
+  font-size: 1.9rem;
+}
+
+.fs-20 {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
 .fs20 {
   font-size: 20px;
   font-size: 2rem;
+}
+
+.fs-21 {
+  font-size: 21px;
+  font-size: 2.1rem;
+}
+
+.fs21 {
+  font-size: 21px;
+  font-size: 2.1rem;
+}
+
+.fs-22 {
+  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .fs22 {
@@ -39,9 +240,39 @@
   font-size: 2.2rem;
 }
 
+.fs-23 {
+  font-size: 23px;
+  font-size: 2.3rem;
+}
+
+.fs23 {
+  font-size: 23px;
+  font-size: 2.3rem;
+}
+
+.fs-24 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
 .fs24 {
   font-size: 24px;
   font-size: 2.4rem;
+}
+
+.fs-25 {
+  font-size: 25px;
+  font-size: 2.5rem;
+}
+
+.fs25 {
+  font-size: 25px;
+  font-size: 2.5rem;
+}
+
+.fs-26 {
+  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 .fs26 {
@@ -49,9 +280,39 @@
   font-size: 2.6rem;
 }
 
+.fs-27 {
+  font-size: 27px;
+  font-size: 2.7rem;
+}
+
+.fs27 {
+  font-size: 27px;
+  font-size: 2.7rem;
+}
+
+.fs-28 {
+  font-size: 28px;
+  font-size: 2.8rem;
+}
+
 .fs28 {
   font-size: 28px;
   font-size: 2.8rem;
+}
+
+.fs-29 {
+  font-size: 29px;
+  font-size: 2.9rem;
+}
+
+.fs29 {
+  font-size: 29px;
+  font-size: 2.9rem;
+}
+
+.fs-30 {
+  font-size: 30px;
+  font-size: 3rem;
 }
 
 .fs30 {
@@ -59,9 +320,39 @@
   font-size: 3rem;
 }
 
+.fs-31 {
+  font-size: 31px;
+  font-size: 3.1rem;
+}
+
+.fs31 {
+  font-size: 31px;
+  font-size: 3.1rem;
+}
+
+.fs-32 {
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+
 .fs32 {
   font-size: 32px;
   font-size: 3.2rem;
+}
+
+.fs-33 {
+  font-size: 33px;
+  font-size: 3.3rem;
+}
+
+.fs33 {
+  font-size: 33px;
+  font-size: 3.3rem;
+}
+
+.fs-34 {
+  font-size: 34px;
+  font-size: 3.4rem;
 }
 
 .fs34 {
@@ -69,9 +360,39 @@
   font-size: 3.4rem;
 }
 
+.fs-35 {
+  font-size: 35px;
+  font-size: 3.5rem;
+}
+
+.fs35 {
+  font-size: 35px;
+  font-size: 3.5rem;
+}
+
+.fs-36 {
+  font-size: 36px;
+  font-size: 3.6rem;
+}
+
 .fs36 {
   font-size: 36px;
   font-size: 3.6rem;
+}
+
+.fs-37 {
+  font-size: 37px;
+  font-size: 3.7rem;
+}
+
+.fs37 {
+  font-size: 37px;
+  font-size: 3.7rem;
+}
+
+.fs-38 {
+  font-size: 38px;
+  font-size: 3.8rem;
 }
 
 .fs38 {
@@ -79,9 +400,69 @@
   font-size: 3.8rem;
 }
 
+.fs-39 {
+  font-size: 39px;
+  font-size: 3.9rem;
+}
+
+.fs39 {
+  font-size: 39px;
+  font-size: 3.9rem;
+}
+
+.fs-40 {
+  font-size: 40px;
+  font-size: 4rem;
+}
+
 .fs40 {
   font-size: 40px;
   font-size: 4rem;
+}
+
+.fs-41 {
+  font-size: 41px;
+  font-size: 4.1rem;
+}
+
+.fs41 {
+  font-size: 41px;
+  font-size: 4.1rem;
+}
+
+.fs-42 {
+  font-size: 42px;
+  font-size: 4.2rem;
+}
+
+.fs42 {
+  font-size: 42px;
+  font-size: 4.2rem;
+}
+
+.fs-43 {
+  font-size: 43px;
+  font-size: 4.3rem;
+}
+
+.fs43 {
+  font-size: 43px;
+  font-size: 4.3rem;
+}
+
+.fs-44 {
+  font-size: 44px;
+  font-size: 4.4rem;
+}
+
+.fs44 {
+  font-size: 44px;
+  font-size: 4.4rem;
+}
+
+.fs-45 {
+  font-size: 45px;
+  font-size: 4.5rem;
 }
 
 .fs45 {
@@ -89,9 +470,99 @@
   font-size: 4.5rem;
 }
 
+.fs-46 {
+  font-size: 46px;
+  font-size: 4.6rem;
+}
+
+.fs46 {
+  font-size: 46px;
+  font-size: 4.6rem;
+}
+
+.fs-47 {
+  font-size: 47px;
+  font-size: 4.7rem;
+}
+
+.fs47 {
+  font-size: 47px;
+  font-size: 4.7rem;
+}
+
+.fs-48 {
+  font-size: 48px;
+  font-size: 4.8rem;
+}
+
+.fs48 {
+  font-size: 48px;
+  font-size: 4.8rem;
+}
+
+.fs-49 {
+  font-size: 49px;
+  font-size: 4.9rem;
+}
+
+.fs49 {
+  font-size: 49px;
+  font-size: 4.9rem;
+}
+
+.fs-50 {
+  font-size: 50px;
+  font-size: 5rem;
+}
+
 .fs50 {
   font-size: 50px;
   font-size: 5rem;
+}
+
+.fs-51 {
+  font-size: 51px;
+  font-size: 5.1rem;
+}
+
+.fs51 {
+  font-size: 51px;
+  font-size: 5.1rem;
+}
+
+.fs-52 {
+  font-size: 52px;
+  font-size: 5.2rem;
+}
+
+.fs52 {
+  font-size: 52px;
+  font-size: 5.2rem;
+}
+
+.fs-53 {
+  font-size: 53px;
+  font-size: 5.3rem;
+}
+
+.fs53 {
+  font-size: 53px;
+  font-size: 5.3rem;
+}
+
+.fs-54 {
+  font-size: 54px;
+  font-size: 5.4rem;
+}
+
+.fs54 {
+  font-size: 54px;
+  font-size: 5.4rem;
+}
+
+.fs-55 {
+  font-size: 55px;
+  font-size: 5.5rem;
 }
 
 .fs55 {
@@ -99,9 +570,99 @@
   font-size: 5.5rem;
 }
 
+.fs-56 {
+  font-size: 56px;
+  font-size: 5.6rem;
+}
+
+.fs56 {
+  font-size: 56px;
+  font-size: 5.6rem;
+}
+
+.fs-57 {
+  font-size: 57px;
+  font-size: 5.7rem;
+}
+
+.fs57 {
+  font-size: 57px;
+  font-size: 5.7rem;
+}
+
+.fs-58 {
+  font-size: 58px;
+  font-size: 5.8rem;
+}
+
+.fs58 {
+  font-size: 58px;
+  font-size: 5.8rem;
+}
+
+.fs-59 {
+  font-size: 59px;
+  font-size: 5.9rem;
+}
+
+.fs59 {
+  font-size: 59px;
+  font-size: 5.9rem;
+}
+
+.fs-60 {
+  font-size: 60px;
+  font-size: 6rem;
+}
+
 .fs60 {
   font-size: 60px;
   font-size: 6rem;
+}
+
+.fs-61 {
+  font-size: 61px;
+  font-size: 6.1rem;
+}
+
+.fs61 {
+  font-size: 61px;
+  font-size: 6.1rem;
+}
+
+.fs-62 {
+  font-size: 62px;
+  font-size: 6.2rem;
+}
+
+.fs62 {
+  font-size: 62px;
+  font-size: 6.2rem;
+}
+
+.fs-63 {
+  font-size: 63px;
+  font-size: 6.3rem;
+}
+
+.fs63 {
+  font-size: 63px;
+  font-size: 6.3rem;
+}
+
+.fs-64 {
+  font-size: 64px;
+  font-size: 6.4rem;
+}
+
+.fs64 {
+  font-size: 64px;
+  font-size: 6.4rem;
+}
+
+.fs-65 {
+  font-size: 65px;
+  font-size: 6.5rem;
 }
 
 .fs65 {
@@ -109,86 +670,717 @@
   font-size: 6.5rem;
 }
 
+.fs-66 {
+  font-size: 66px;
+  font-size: 6.6rem;
+}
+
+.fs66 {
+  font-size: 66px;
+  font-size: 6.6rem;
+}
+
+.fs-67 {
+  font-size: 67px;
+  font-size: 6.7rem;
+}
+
+.fs67 {
+  font-size: 67px;
+  font-size: 6.7rem;
+}
+
+.fs-68 {
+  font-size: 68px;
+  font-size: 6.8rem;
+}
+
+.fs68 {
+  font-size: 68px;
+  font-size: 6.8rem;
+}
+
+.fs-69 {
+  font-size: 69px;
+  font-size: 6.9rem;
+}
+
+.fs69 {
+  font-size: 69px;
+  font-size: 6.9rem;
+}
+
+.fs-70 {
+  font-size: 70px;
+  font-size: 7rem;
+}
+
 .fs70 {
   font-size: 70px;
   font-size: 7rem;
 }
 
-.w10 {
+.fs-71 {
+  font-size: 71px;
+  font-size: 7.1rem;
+}
+
+.fs71 {
+  font-size: 71px;
+  font-size: 7.1rem;
+}
+
+.fs-72 {
+  font-size: 72px;
+  font-size: 7.2rem;
+}
+
+.fs72 {
+  font-size: 72px;
+  font-size: 7.2rem;
+}
+
+.fs-73 {
+  font-size: 73px;
+  font-size: 7.3rem;
+}
+
+.fs73 {
+  font-size: 73px;
+  font-size: 7.3rem;
+}
+
+.fs-74 {
+  font-size: 74px;
+  font-size: 7.4rem;
+}
+
+.fs74 {
+  font-size: 74px;
+  font-size: 7.4rem;
+}
+
+.fs-75 {
+  font-size: 75px;
+  font-size: 7.5rem;
+}
+
+.fs75 {
+  font-size: 75px;
+  font-size: 7.5rem;
+}
+
+.fs-76 {
+  font-size: 76px;
+  font-size: 7.6rem;
+}
+
+.fs76 {
+  font-size: 76px;
+  font-size: 7.6rem;
+}
+
+.fs-77 {
+  font-size: 77px;
+  font-size: 7.7rem;
+}
+
+.fs77 {
+  font-size: 77px;
+  font-size: 7.7rem;
+}
+
+.fs-78 {
+  font-size: 78px;
+  font-size: 7.8rem;
+}
+
+.fs78 {
+  font-size: 78px;
+  font-size: 7.8rem;
+}
+
+.fs-79 {
+  font-size: 79px;
+  font-size: 7.9rem;
+}
+
+.fs79 {
+  font-size: 79px;
+  font-size: 7.9rem;
+}
+
+.fs-80 {
+  font-size: 80px;
+  font-size: 8rem;
+}
+
+.fs80 {
+  font-size: 80px;
+  font-size: 8rem;
+}
+
+.fs-81 {
+  font-size: 81px;
+  font-size: 8.1rem;
+}
+
+.fs81 {
+  font-size: 81px;
+  font-size: 8.1rem;
+}
+
+.fs-82 {
+  font-size: 82px;
+  font-size: 8.2rem;
+}
+
+.fs82 {
+  font-size: 82px;
+  font-size: 8.2rem;
+}
+
+.fs-83 {
+  font-size: 83px;
+  font-size: 8.3rem;
+}
+
+.fs83 {
+  font-size: 83px;
+  font-size: 8.3rem;
+}
+
+.fs-84 {
+  font-size: 84px;
+  font-size: 8.4rem;
+}
+
+.fs84 {
+  font-size: 84px;
+  font-size: 8.4rem;
+}
+
+.fs-85 {
+  font-size: 85px;
+  font-size: 8.5rem;
+}
+
+.fs85 {
+  font-size: 85px;
+  font-size: 8.5rem;
+}
+
+.fs-86 {
+  font-size: 86px;
+  font-size: 8.6rem;
+}
+
+.fs86 {
+  font-size: 86px;
+  font-size: 8.6rem;
+}
+
+.fs-87 {
+  font-size: 87px;
+  font-size: 8.7rem;
+}
+
+.fs87 {
+  font-size: 87px;
+  font-size: 8.7rem;
+}
+
+.fs-88 {
+  font-size: 88px;
+  font-size: 8.8rem;
+}
+
+.fs88 {
+  font-size: 88px;
+  font-size: 8.8rem;
+}
+
+.fs-89 {
+  font-size: 89px;
+  font-size: 8.9rem;
+}
+
+.fs89 {
+  font-size: 89px;
+  font-size: 8.9rem;
+}
+
+.fs-90 {
+  font-size: 90px;
+  font-size: 9rem;
+}
+
+.fs90 {
+  font-size: 90px;
+  font-size: 9rem;
+}
+
+.fs-91 {
+  font-size: 91px;
+  font-size: 9.1rem;
+}
+
+.fs91 {
+  font-size: 91px;
+  font-size: 9.1rem;
+}
+
+.fs-92 {
+  font-size: 92px;
+  font-size: 9.2rem;
+}
+
+.fs92 {
+  font-size: 92px;
+  font-size: 9.2rem;
+}
+
+.fs-93 {
+  font-size: 93px;
+  font-size: 9.3rem;
+}
+
+.fs93 {
+  font-size: 93px;
+  font-size: 9.3rem;
+}
+
+.fs-94 {
+  font-size: 94px;
+  font-size: 9.4rem;
+}
+
+.fs94 {
+  font-size: 94px;
+  font-size: 9.4rem;
+}
+
+.fs-95 {
+  font-size: 95px;
+  font-size: 9.5rem;
+}
+
+.fs95 {
+  font-size: 95px;
+  font-size: 9.5rem;
+}
+
+.fs-96 {
+  font-size: 96px;
+  font-size: 9.6rem;
+}
+
+.fs96 {
+  font-size: 96px;
+  font-size: 9.6rem;
+}
+
+.fs-97 {
+  font-size: 97px;
+  font-size: 9.7rem;
+}
+
+.fs97 {
+  font-size: 97px;
+  font-size: 9.7rem;
+}
+
+.fs-98 {
+  font-size: 98px;
+  font-size: 9.8rem;
+}
+
+.fs98 {
+  font-size: 98px;
+  font-size: 9.8rem;
+}
+
+.fs-99 {
+  font-size: 99px;
+  font-size: 9.9rem;
+}
+
+.fs99 {
+  font-size: 99px;
+  font-size: 9.9rem;
+}
+
+.fs-100 {
+  font-size: 100px;
+  font-size: 10rem;
+}
+
+.fs100 {
+  font-size: 100px;
+  font-size: 10rem;
+}
+
+.fs-101 {
+  font-size: 101px;
+  font-size: 10.1rem;
+}
+
+.fs101 {
+  font-size: 101px;
+  font-size: 10.1rem;
+}
+
+.fs-102 {
+  font-size: 102px;
+  font-size: 10.2rem;
+}
+
+.fs102 {
+  font-size: 102px;
+  font-size: 10.2rem;
+}
+
+.fs-103 {
+  font-size: 103px;
+  font-size: 10.3rem;
+}
+
+.fs103 {
+  font-size: 103px;
+  font-size: 10.3rem;
+}
+
+.fs-104 {
+  font-size: 104px;
+  font-size: 10.4rem;
+}
+
+.fs104 {
+  font-size: 104px;
+  font-size: 10.4rem;
+}
+
+.fs-105 {
+  font-size: 105px;
+  font-size: 10.5rem;
+}
+
+.fs105 {
+  font-size: 105px;
+  font-size: 10.5rem;
+}
+
+.fs-106 {
+  font-size: 106px;
+  font-size: 10.6rem;
+}
+
+.fs106 {
+  font-size: 106px;
+  font-size: 10.6rem;
+}
+
+.fs-107 {
+  font-size: 107px;
+  font-size: 10.7rem;
+}
+
+.fs107 {
+  font-size: 107px;
+  font-size: 10.7rem;
+}
+
+.fs-108 {
+  font-size: 108px;
+  font-size: 10.8rem;
+}
+
+.fs108 {
+  font-size: 108px;
+  font-size: 10.8rem;
+}
+
+.fs-109 {
+  font-size: 109px;
+  font-size: 10.9rem;
+}
+
+.fs109 {
+  font-size: 109px;
+  font-size: 10.9rem;
+}
+
+.fs-110 {
+  font-size: 110px;
+  font-size: 11rem;
+}
+
+.fs110 {
+  font-size: 110px;
+  font-size: 11rem;
+}
+
+.fs-111 {
+  font-size: 111px;
+  font-size: 11.1rem;
+}
+
+.fs111 {
+  font-size: 111px;
+  font-size: 11.1rem;
+}
+
+.fs-112 {
+  font-size: 112px;
+  font-size: 11.2rem;
+}
+
+.fs112 {
+  font-size: 112px;
+  font-size: 11.2rem;
+}
+
+.fs-113 {
+  font-size: 113px;
+  font-size: 11.3rem;
+}
+
+.fs113 {
+  font-size: 113px;
+  font-size: 11.3rem;
+}
+
+.fs-114 {
+  font-size: 114px;
+  font-size: 11.4rem;
+}
+
+.fs114 {
+  font-size: 114px;
+  font-size: 11.4rem;
+}
+
+.fs-115 {
+  font-size: 115px;
+  font-size: 11.5rem;
+}
+
+.fs115 {
+  font-size: 115px;
+  font-size: 11.5rem;
+}
+
+.fs-116 {
+  font-size: 116px;
+  font-size: 11.6rem;
+}
+
+.fs116 {
+  font-size: 116px;
+  font-size: 11.6rem;
+}
+
+.fs-117 {
+  font-size: 117px;
+  font-size: 11.7rem;
+}
+
+.fs117 {
+  font-size: 117px;
+  font-size: 11.7rem;
+}
+
+.fs-118 {
+  font-size: 118px;
+  font-size: 11.8rem;
+}
+
+.fs118 {
+  font-size: 118px;
+  font-size: 11.8rem;
+}
+
+.fs-119 {
+  font-size: 119px;
+  font-size: 11.9rem;
+}
+
+.fs119 {
+  font-size: 119px;
+  font-size: 11.9rem;
+}
+
+.fs-120 {
+  font-size: 120px;
+  font-size: 12rem;
+}
+
+.fs120 {
+  font-size: 120px;
+  font-size: 12rem;
+}
+
+.fs-121 {
+  font-size: 121px;
+  font-size: 12.1rem;
+}
+
+.fs121 {
+  font-size: 121px;
+  font-size: 12.1rem;
+}
+
+.fs-122 {
+  font-size: 122px;
+  font-size: 12.2rem;
+}
+
+.fs122 {
+  font-size: 122px;
+  font-size: 12.2rem;
+}
+
+.fs-123 {
+  font-size: 123px;
+  font-size: 12.3rem;
+}
+
+.fs123 {
+  font-size: 123px;
+  font-size: 12.3rem;
+}
+
+.fs-124 {
+  font-size: 124px;
+  font-size: 12.4rem;
+}
+
+.fs124 {
+  font-size: 124px;
+  font-size: 12.4rem;
+}
+
+.fs-125 {
+  font-size: 125px;
+  font-size: 12.5rem;
+}
+
+.fs125 {
+  font-size: 125px;
+  font-size: 12.5rem;
+}
+
+.fs-126 {
+  font-size: 126px;
+  font-size: 12.6rem;
+}
+
+.fs126 {
+  font-size: 126px;
+  font-size: 12.6rem;
+}
+
+.fs-127 {
+  font-size: 127px;
+  font-size: 12.7rem;
+}
+
+.fs127 {
+  font-size: 127px;
+  font-size: 12.7rem;
+}
+
+.fs-128 {
+  font-size: 128px;
+  font-size: 12.8rem;
+}
+
+.fs128 {
+  font-size: 128px;
+  font-size: 12.8rem;
+}
+
+/* Create widths in increments of 5% */
+[class*='width-'] {
   display: inline-block;
   *zoom: 1;
   *display: inline;
+}
+
+.width-5 {
+  width: 5%;
+}
+
+.width-10 {
   width: 10%;
 }
 
-.w20 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-15 {
+  width: 15%;
+}
+
+.width-20 {
   width: 20%;
 }
 
-.w30 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-25 {
+  width: 25%;
+}
+
+.width-30 {
   width: 30%;
 }
 
-.w40 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-35 {
+  width: 35%;
+}
+
+.width-40 {
   width: 40%;
 }
 
-.w50 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-45 {
+  width: 45%;
+}
+
+.width-50 {
   width: 50%;
 }
 
-.w55 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-55 {
   width: 55%;
 }
 
-.w60 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-60 {
   width: 60%;
 }
 
-.w70 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-65 {
+  width: 65%;
+}
+
+.width-70 {
   width: 70%;
 }
 
-.w75 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-75 {
   width: 75%;
 }
 
-.w80 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-80 {
   width: 80%;
 }
 
-.w90 {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
+.width-85 {
+  width: 85%;
+}
+
+.width-90 {
   width: 90%;
+}
+
+.width-95 {
+  width: 95%;
 }
 
 .text-left {

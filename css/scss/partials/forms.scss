@@ -12,7 +12,7 @@ input[type='search'], input[type='text'], input[type='email'], input[type='texta
 input, textarea {
   width: 100%;
   max-width: 100%;
-  @include padding(.4125em,.5em);
+  @include padding(.25em,.5em);
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
@@ -29,14 +29,15 @@ input, textarea {
 select {
   width: 100%;
   max-width: 100%;
-  @include padding(.375em,.5em);
+  @include padding(.25em,.5em);
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
+  -webkit-appearance: none;
 }
 
 textarea {
-  min-height: 7em;
+  min-height: 4em;
 }
 
 textarea, datalist {
@@ -113,13 +114,14 @@ input:required:invalid.instruct ~ span:after {
   color: #d10010;
 }
 
+/* Honeypot */
 #fillit {
   display: none;
 }
 
+/* Webkit */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* Webkit browsers add a 2px margin outside the chrome of form elements */
-  select { height: 42px; }
   form {
     input::-webkit-validation-bubble-message, select::-webkit-validation-bubble-message, textarea::-webkit-validation-bubble-message {
       display: none;
@@ -128,7 +130,6 @@ input:required:invalid.instruct ~ span:after {
 }
 
 /* ie (.ie) */
-
 .ie input[type="radio"] {
   border: 0px !important;
 }

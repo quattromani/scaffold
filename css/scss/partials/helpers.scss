@@ -23,135 +23,27 @@
   right: 0;
 }
 
-.fs16 {
-  @include font-size(16);
+/* Font Size Helpers */
+@for $i from 1 through 128 {
+  .fs-#{$i} {
+    @include font-size($i);
+  }
+  .fs#{$i} {
+    @include font-size($i);
+  }
 }
 
-.fs18 {
-  @include font-size(18);
-}
-
-.fs20 {
-  @include font-size(20);
-}
-
-.fs22 {
-  @include font-size(22);
-}
-
-.fs24 {
-  @include font-size(24);
-}
-
-.fs26 {
-  @include font-size(26);
-}
-
-.fs28 {
-  @include font-size(28);
-}
-
-.fs30 {
-  @include font-size(30);
-}
-
-.fs32 {
-  @include font-size(32);
-}
-
-.fs34 {
-  @include font-size(34);
-}
-
-.fs36 {
-  @include font-size(36);
-}
-
-.fs38 {
-  @include font-size(38);
-}
-
-.fs40 {
-  @include font-size(40);
-}
-
-.fs45 {
-  @include font-size(45);
-}
-
-.fs50 {
-  @include font-size(50);
-}
-
-.fs55 {
-  @include font-size(55);
-}
-
-.fs60 {
-  @include font-size(60);
-}
-
-.fs65 {
-  @include font-size(65);
-}
-
-.fs70 {
-  @include font-size(70);
-}
-
-.w10 {
+/* Create widths in increments of 5% */
+[class*='width-'] {
   @include inline-block;
-  width: 10%;
 }
 
-.w20 {
-  @include inline-block;
-  width: 20%;
-}
-
-.w30 {
-  @include inline-block;
-  width: 30%;
-}
-
-.w40 {
-  @include inline-block;
-  width: 40%;
-}
-
-.w50 {
-  @include inline-block;
-  width: 50%;
-}
-
-.w55 {
-  @include inline-block;
-  width: 55%;
-}
-
-.w60 {
-  @include inline-block;
-  width: 60%;
-}
-
-.w70 {
-  @include inline-block;
-  width: 70%;
-}
-
-.w75 {
-  @include inline-block;
-  width: 75%;
-}
-
-.w80 {
-  @include inline-block;
-  width: 80%;
-}
-
-.w90 {
-  @include inline-block;
-  width: 90%;
+$widths: 5;
+@while $widths < 100 {
+  .width-#{$widths} {
+    width: ($widths * 1%);
+  }
+  $widths: $widths + 5 !global;
 }
 
 .text-left {

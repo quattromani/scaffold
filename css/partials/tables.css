@@ -7,7 +7,7 @@ table {
 }
 
 th {
-  background: whitesmoke;
+  background: transparent;
 }
 
 tr:nth-of-type(even) {

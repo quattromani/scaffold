@@ -1,5 +1,5 @@
 /* ==========================================================================
-    Colors & Gradients -- Version: 0.4.2 - Compiled: timestamp()
+    Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
 .color-white {
   background: white;
@@ -119,57 +119,11 @@
   color: #8cc152;
 }
 
-/* ==========================
-    Primary Color Palette
-   ========================== */
-.outline {
-  border: 1px solid #333333;
-}
-
-/* ==========================
-  backgrounds
-   ========================== */
-.background-1 {
-  background: #161d22;
-}
-
-.background-2 {
-  background: #1e262c;
-}
-
-.background-3 {
-  background: #424e57;
-}
-
-.background-4 {
-  background: #445f74;
-}
-
-.background-5 {
-  background: #5d84a3;
-}
-
-.background-6 {
-  background: #8e96a0;
-}
-
-.background-7 {
-  background: #c6c9cf;
-}
-
-.background-8 {
-  background: #d2d5da;
-}
-
-.background-9 {
-  background: #f2f4f6;
-}
-
-.gradient {
+/* ie9 (.ie9) */
+.ie9 .gradient {
   filter: none;
 }
 
-/* ie9 (.ie9) */
-.ie9 [class*='gradient'] {
+.ie9 [class*="gradient"] {
   filter: none;
 }

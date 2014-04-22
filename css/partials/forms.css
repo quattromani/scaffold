@@ -9,9 +9,9 @@ input[type='search'], input[type='text'], input[type='email'], input[type='texta
 input, textarea {
   width: 100%;
   max-width: 100%;
-  padding-top: 0.4125em;
+  padding-top: 0.25em;
   padding-right: 0.5em;
-  padding-bottom: 0.4125em;
+  padding-bottom: 0.25em;
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #cccccc;
@@ -32,9 +32,9 @@ input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-s
 select {
   width: 100%;
   max-width: 100%;
-  padding-top: 0.375em;
+  padding-top: 0.25em;
   padding-right: 0.5em;
-  padding-bottom: 0.375em;
+  padding-bottom: 0.25em;
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #cccccc;
@@ -44,10 +44,11 @@ select {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
+  -webkit-appearance: none;
 }
 
 textarea {
-  min-height: 7em;
+  min-height: 4em;
 }
 
 textarea, datalist {
@@ -142,16 +143,14 @@ input:required:invalid.instruct ~ span:after {
   color: #d10010;
 }
 
+/* Honeypot */
 #fillit {
   display: none;
 }
 
+/* Webkit */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* Webkit browsers add a 2px margin outside the chrome of form elements */
-  select {
-    height: 42px;
-  }
-
   form input::-webkit-validation-bubble-message, form select::-webkit-validation-bubble-message, form textarea::-webkit-validation-bubble-message {
     display: none;
   }
