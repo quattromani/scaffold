@@ -1,8 +1,18 @@
-<h1><? echo ucfirst($project); ?> Style Guide</h1>
+---
+layout: default
+title: Styleguide + Pattern Library
+---
+
+<h1>{{ name }} Style Guide</h1>
 
 <hr>
 <p>Version: <? echo($version); ?> -- Updated: <? echo($project_date); ?></p>
 <hr>
+
+{% include styleguide/about/index.html %}
+
+
+
 
 <!-- Loop through and include all styleguide sections -->
 <!-- TODO // add true/false variables to project/includes/global_variables.php -->

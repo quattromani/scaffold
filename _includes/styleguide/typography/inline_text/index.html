@@ -1,0 +1,48 @@
+<span id="inline-anchor" class="h2 jumpTo-anchor">Inline</span>
+  <div class="vertical lined">
+    <ul>
+      <li><code>&lt;a&gt;</code> - <a href="#">This is a text link</a></li>
+      <li><code>&lt;strong&gt;</code> - <strong>Strong is used to indicate strong importance</strong></li>
+      <li><code>&lt;em&gt;</code> - <em>This text has added emphasis</em></li>
+      <li><code>&lt;b&gt;</code> - The <b>b element</b> is stylistically different text from normal text, without any special importance</li>
+      <li><code>&lt;i&gt;</code> - The <i>i element is text that is set off from the normal text</i></li>
+      <li><code>&lt;u&gt;</code> - The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation</li>
+      <li><code>&lt;del&gt; &amp; &lt;ins&gt;</code> -  This text is <del>deleted</del> and <ins>This text is inserted</ins></li>
+      <li><code>&lt;s&gt;</code> - <s>This text has a strikethrough</s></li>
+      <li><code>&lt;sup&gt;</code> - Superscript<sup>&reg;</sup></li>
+      <li><code>&lt;sub&gt;</code> - Subscript for things like H<sub>2</sub>O</li>
+      <li><code>&lt;abbr&gt;</code> - Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></li>
+      <li><code>&lt;kbd&gt;</code> - Keybord input: <kbd>Cmd</kbd></li>
+      <li><code>&lt;q&gt;</code> - <q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation</q></li>
+      <li><code>&lt;cite&gt;</code> - <cite>This is a citation</cite></li>
+      <li><code>&lt;dfn&gt;</code> - The <dfn>dfn element</dfn> indicates a definition.</li>
+      <li><code>&lt;mark&gt;</code> - The <mark>mark element</mark> indicates a highlight</li>
+      <li><code>&lt;var&gt;</code> - The <var>var element</var> defines a variable</li>
+      <li>
+        <code>&lt;address&gt;</code>
+        <br><br>
+        <address>
+          Address Name<br>
+          1234 Main St.<br>
+          Anywhere, US 12345
+        </address>
+      </li>
+      <li>
+        <code>&lt;tel&gt;</code> - <a class="tel" href="tel:+18008519530">1-800-851-9530</a>
+      </li>
+      <li>
+        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate=""><? $now = new DateTime(null, new DateTimeZone('America/Denver'));
+    echo $now->format('Y-m-d H:i:s'); ?></time>
+      </li>
+      <li>
+        <code>&lt;blockquote&gt;</code>
+        <br><br>
+        <blockquote>
+          One small step for man, one giant leap for mankind.
+        </blockquote>
+      </li>
+      <li><span class="text-info"><code>.text-info</code> - This text is informative</span></li>
+      <li><span class="text-error"><code>.text-error</code> - This text is an error</span></li>
+      <li><span class="text-success"><code>.text-success</code> - This text is a success</span></li>
+    </ul>
+  </div>
