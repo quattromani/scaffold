@@ -699,6 +699,8 @@ html {
   font-style: normal;
   font-weight: normal;
   @inlcude font-size(16);
+  font-size: 10px;
+  /* absolutely set to maintain ratio around user settings */
   color: #333333;
   -webkit-font-smoothing: antialiased; }
 
@@ -830,7 +832,7 @@ p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
 
 p, .p {
   display: block;
-  font-family: 16;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word; }
 
 .b {

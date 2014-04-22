@@ -8,6 +8,7 @@
 html {
   height: 100%;
   @include font-family($base-font);
+  font-size: 10px; /* absolutely set to maintain ratio around user settings */
   color: $text;
   -webkit-font-smoothing: antialiased;
 }
@@ -145,7 +146,7 @@ p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
 
 p, .p {
   display: block;
-  font-family: $base-font-size;
+  font-family: $base-font;
   word-wrap: break-word;
 }
 
