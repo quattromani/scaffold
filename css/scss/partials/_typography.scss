@@ -8,7 +8,7 @@
 html {
   height: 100%;
   @include font-family($base-font);
-  font-size: 10px; /* set absolutely to handle zoomed/user-defined font size state */
+  font-size: 62.5%;
   color: $text;
   -webkit-font-smoothing: antialiased;
 }
