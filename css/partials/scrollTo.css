@@ -1,0 +1,41 @@
+/* ==========================================================================
+    Scroll To -- Version: 1.9.0.1 - Compiled: timestamp()
+   ========================================================================== */
+.scrollToTop, .scrollToTop-modal {
+  position: fixed;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  right: 1em;
+  bottom: .5em;
+  margin-top: 0.5em;
+  margin-right: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background: rgba(0, 0, 0, 0.1);
+  font-weight: 100;
+  z-index: 999999;
+  -webkit-transform: translateZ(0);
+}
+.scrollToTop:after, .scrollToTop-modal:after {
+  padding-left: 0.5em;
+  font-family: "FontAwesome";
+  font-size: inherit;
+  font-weight: inherit;
+  content: '\f093';
+}
+
+.scrollToTop-modal {
+  position: relative;
+  float: right;
+}

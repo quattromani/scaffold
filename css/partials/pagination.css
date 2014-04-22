@@ -1,0 +1,33 @@
+/* ==========================================================================
+    Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
+.pagination ol {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.pagination li {
+  display: inline;
+  position: relative;
+}
+.pagination li a {
+  border: none;
+}
+.pagination li.js-last {
+  margin-right: 0;
+}
+@media (max-width: 40em) {
+  .pagination {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,175 @@
+/* ==========================================================================
+    Colors & Gradients -- Version: 0.4.2 - Compiled: timestamp()
+   ========================================================================== */
+.color-white {
+  background: white;
+}
+
+.color-black {
+  background: black;
+}
+
+.color-grey {
+  background: #555555;
+}
+
+.color-light-grey {
+  background: #cccccc;
+}
+
+.color-primary-red {
+  background: #ef4135;
+}
+
+.color-primary-green {
+  background: #a0d468;
+}
+
+.color-primary-blue {
+  background: #0088cc;
+}
+
+.color-primary-lav {
+  background: #ac92ec;
+}
+
+.color-secondary-red {
+  background: #da4453;
+}
+
+.color-secondary-green {
+  background: #8cc152;
+}
+
+.color-secondary-blue {
+  background: #0044cc;
+}
+
+.color-secondary-lav {
+  background: #967adc;
+}
+
+/* Typography Colors */
+.text {
+  color: #333333;
+}
+
+.color-text {
+  background: #333333;
+}
+
+.color-link {
+  background: #0088cc;
+}
+
+.color-error {
+  background: #ef4135;
+}
+
+.color-info {
+  background: #0044cc;
+}
+
+.color-success {
+  background: #8cc152;
+}
+
+.link {
+  color: #0088cc;
+}
+
+.text-grey {
+  color: #555555;
+}
+
+.text-light-grey {
+  color: #cccccc;
+}
+
+.text-link {
+  color: #0088cc;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-info {
+  color: #0044cc;
+}
+
+.text-muted, .muted {
+  color: #cccccc;
+}
+
+.text-warning, .text-error {
+  color: #ef4135;
+}
+
+.error, .is-error {
+  background: #f8b0ab;
+  color: #ef4135;
+}
+
+.text-info {
+  color: #0044cc;
+}
+
+.text-success {
+  color: #8cc152;
+}
+
+/* ==========================
+    Primary Color Palette
+   ========================== */
+.outline {
+  border: 1px solid #333333;
+}
+
+/* ==========================
+  backgrounds
+   ========================== */
+.background-1 {
+  background: #161d22;
+}
+
+.background-2 {
+  background: #1e262c;
+}
+
+.background-3 {
+  background: #424e57;
+}
+
+.background-4 {
+  background: #445f74;
+}
+
+.background-5 {
+  background: #5d84a3;
+}
+
+.background-6 {
+  background: #8e96a0;
+}
+
+.background-7 {
+  background: #c6c9cf;
+}
+
+.background-8 {
+  background: #d2d5da;
+}
+
+.background-9 {
+  background: #f2f4f6;
+}
+
+.gradient {
+  filter: none;
+}
+
+/* ie9 (.ie9) */
+.ie9 [class*='gradient'] {
+  filter: none;
+}

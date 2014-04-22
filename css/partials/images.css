@@ -1,0 +1,78 @@
+/* ==========================================================================
+    Images -- Version: 0.4.0 - Compiled: timestamp()
+   ========================================================================== */
+figure {
+  position: relative;
+  width: 100%;
+}
+figure img {
+  max-width: 100%;
+  margin: 0 auto 1em;
+}
+
+figcaption {
+  margin-bottom: 0.5em;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+img {
+  display: inherit;
+  border: 0;
+}
+
+.image-rounded {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.image-circular {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.image-bordered {
+  border: 0.5em solid white;
+  outline: 1px solid #555555;
+}
+
+[class*='image-focus-'] {
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-focus-1 {
+  background-position: left center;
+}
+
+.image-focus-2 {
+  background-position: 25% center;
+}
+
+.image-focus-3 {
+  background-position: 50% center;
+}
+
+.image-focus-4 {
+  background-position: 75% center;
+}
+
+.image-focus-5 {
+  background-position: right center;
+}
+
+/* ie9 (.twc-ie9) */
+/* Fix IE9 overflow bug */
+.ie9 svg:not(:root) {
+  overflow: hidden;
+}

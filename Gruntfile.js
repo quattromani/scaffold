@@ -31,7 +31,7 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'css/scss/partials',
             src: ['*.scss'],
-            dest: 'css/',
+            dest: 'css/partials',
             ext: '.css'
           }], 'main.css': 'main.scss',
         },

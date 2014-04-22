@@ -1,0 +1,30 @@
+/* ==========================================================================
+    Videos -- Version: 0.401 - Compiled: timestamp()
+   ========================================================================== */
+video {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+@media (max-width: 40em) {
+  video video {
+    height: auto;
+  }
+}
+figure video {
+  margin-bottom: 1em;
+}
+
+audio {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  max-width: 100%;
+}
+audio:not([controls]) {
+  display: none;
+}

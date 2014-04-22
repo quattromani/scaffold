@@ -1,0 +1,119 @@
+/* ==========================================================================
+    Lists -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
+ol {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+ol ol {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+ul ul {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+/* Bulleted List Items */
+.bulleted ~ ul {
+  margin-bottom: 0;
+}
+.bulleted li {
+  list-style: outside disc;
+  margin-left: 1em;
+  border-bottom: none;
+}
+
+/* Horizontal List Items */
+.horizontal li {
+  display: inline;
+}
+.horizontal [class*='column-count-'] li {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.horizontal.slashes li {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.horizontal.slashes li:after {
+  content: '/';
+  padding-top: 0;
+  padding-right: 0.5em;
+  padding-bottom: 0;
+  padding-left: 0.5em;
+}
+.horizontal.slashes li.js-last:after {
+  content: '';
+}
+.horizontal.pipes li {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.horizontal.pipes li:after {
+  content: '|';
+  padding-top: 0;
+  padding-right: 0.25em;
+  padding-bottom: 0;
+  padding-left: 0.5em;
+}
+.horizontal.pipes li.js-last:after {
+  content: '';
+}
+
+/* Vertical List Items */
+.vertical > ul > li,
+.vertical > ol > li {
+  padding-top: 0.5em;
+  padding-right: 0;
+  padding-bottom: 0.5em;
+  padding-left: 0;
+}
+.vertical.lined > ul > li, .vertical.lined > ol > li {
+  overflow: auto;
+  border-bottom: 1px dotted white;
+}
+.vertical.lined > ul > li.js-last, .vertical.lined > ol > li.js-last {
+  border-bottom: none;
+}
+.vertical.alt > ul > li:nth-child(even) {
+  background: white;
+}
+
+/* Ordered List */
+ol li {
+  list-style: decimal;
+  list-style-position: outside;
+}
+
+/* Definition List */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 1em;
+}
