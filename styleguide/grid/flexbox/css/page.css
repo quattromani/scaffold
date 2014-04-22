@@ -35,21 +35,16 @@
 			-moz-flex-direction: column;
 			flex-direction: column;
 		}
-		.flex-row.one .flex-column {
-			-webkit-flex-order: 2;
-			-moz-flex-order: 2;
-			order: 2;
-		}
 		.flex-row.two, .flex-row.four {
 			-webkit-flex-direction: row;
 			-moz-flex-direction: row;
 			flex-direction: row;
 			flex-wrap: wrap;
 		}
-		.flex-row.two .flex-column, .flex-row.four .flex-column {
-			-webkit-flex-order: 0;
-			-moz-flex-order: 0;
-			order: 0;
+		.flex-row.three .flex-column:nth-child(1) {
+			-webkit-flex-order: 3;
+			-moz-flex-order: 3;
+			order: 3;
 		}
 		.flex-row.four .flex-column, .flex-row.two .flex-column {
 			width: 50%;
