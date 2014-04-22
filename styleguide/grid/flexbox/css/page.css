@@ -47,4 +47,7 @@
 		.ie8 .flex-row.two .flex-column {
 			width: 100%;
 		}
+		.ie8 .flex-row.four .flex-column {
+			width: 50%;
+		}
 	}
