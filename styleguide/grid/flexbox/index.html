@@ -16,6 +16,25 @@ title: Grid - Flexbox
 		padding: 1em;
 	}
 
+	.ie8 .flex-row {
+		display: inline-block;
+	}
+	.ie8 .flex-column {
+		float: left;
+	}
+	.ie8 .flex-row.one .flex-column {
+		width: 100%;
+	}
+	.ie8 .flex-row.two .flex-column {
+		width: 50%;
+	}
+	.ie8 .flex-row.three .flex-column  {
+		width: 33.3333334%;
+	}
+	.ie8 .flex-row.four .flex-column  {
+		width: 25%;
+	}
+
 	@media (max-width: 40em) {
 		.flex-row {
 			-webkit-flex-direction: column;
@@ -31,26 +50,11 @@ title: Grid - Flexbox
 		.flex-row.four .flex-column, .flex-row.two .flex-column {
 			width: 50%;
 		}
-
-	}
-	.ie8 .flex-row {
-			display: inline-block;
-		}
-		.ie8 .flex-column {
-			float: left;
-		}
-		.ie8 .flex-row.one .flex-column {
+		.ie8 .flex-row.two .flex-column {
 			width: 100%;
 		}
-		.ie8 .flex-row.two .flex-column {
-			width: 50%;
-		}
-		.ie8 .flex-row.three .flex-column  {
-			width: 33.3333334%;
-		}
-		.ie8 .flex-row.four .flex-column  {
-			width: 25%;
-		}
+	}
+
 </style>
 
 
