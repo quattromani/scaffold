@@ -128,6 +128,12 @@ $marginless-col-width: $width / $site-column-count;
   @include background-clip;
 }
 
+// RGBa Colors
+@mixin rgba($hexcolor, $opacity) {
+  background-color: $hexcolor;
+  background-color: rgba($hexcolor, $opacity);
+}
+
 // Background Gradients
 @mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
   background-color: $startColor;
