@@ -86,7 +86,7 @@ input[type="text"], input[type="search"], input[type="tel"] {
   margin-left: 0;
 }
 .formitem input, .formitem select, .formitem textarea {
-  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .formitem input[type="radio"], .formitem input[type="checkbox"] {
   float: left;
