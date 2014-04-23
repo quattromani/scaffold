@@ -6,12 +6,8 @@ _site
 # Ignore sass-cache files.
 /*.sass-cache*
 
-# Ignore grunt files
-/*.sublime-grunt.cache
-
 # Ignore sublime project files
-/*.sublime-project
-/*.sublime-workspace
+*.sublime-*
 
 # Ignore sandbox builds
 /sandbox
