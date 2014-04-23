@@ -68,6 +68,7 @@ input {
       margin-left: 0;
   }
   input, select, textarea {
+    margin-top: 0; // override browser default
     margin-bottom: $margin / 2;
   }
   input[type="radio"], input[type="checkbox"] {

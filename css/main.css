@@ -2508,6 +2508,7 @@ input {
   .formitem:first-of-type {
     margin-left: 0; }
   .formitem input, .formitem select, .formitem textarea {
+    margin-top: 0;
     margin-bottom: 0.5em; }
   .formitem input[type="radio"], .formitem input[type="checkbox"] {
     float: left;
