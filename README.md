@@ -1,9 +1,9 @@
 #scaffold
 ========
 ##Dependencies
-*bower*
-*npm*
-*grunt*
-*jekyll*
+*bower  
+*npm  
+*grunt  
+*jekyll  
 
 
