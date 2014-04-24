@@ -72,10 +72,10 @@ $base-line-height: 1.443;
 
 $base-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
-$base-font-alt: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-alt: $arial;
 $arial-bold: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 $heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$heading-font-alt: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font-alt: $arial;
 $fontawesome: 'FontAwesome';
 $pre: Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
 

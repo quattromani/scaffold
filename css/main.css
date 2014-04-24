@@ -679,7 +679,7 @@ body, button, input, select, textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .base-font-alt {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 .arial {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
@@ -746,7 +746,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 26px;
   font-size: 2.6rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 h3, .h3 {
   font-size: 24px;
@@ -756,7 +756,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 20px;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 h5, .h5 {
   font-size: 18px;
@@ -2288,7 +2288,7 @@ dd {
   background-clip: padding-box;
   border: none;
   background: none;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: normal;
   text-align: center;
   cursor: pointer; }
