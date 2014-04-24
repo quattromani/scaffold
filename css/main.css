@@ -872,6 +872,12 @@ kbd, samp {
   -khtml-opacity: 0.5;
   opacity: 0.5; }
 
+i.fa {
+  font-family: "FontAwesome", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  @inlcude font-size(16); }
+
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
