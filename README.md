@@ -1,5 +1,9 @@
-scaffold
-
-#Dependencies
->bower
+#scaffold
 ========
+##Dependencies
+*bower
+*npm
+*grunt
+*jekyll
+
+
