@@ -116,7 +116,7 @@ input:required ~ span:after {
   position: absolute;
   left: 0;
   bottom: .25em;
-  color: #ef4135;
+  color: #ef272d;
   font-weight: 700;
   filter: alpha(opacity=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";

@@ -18,7 +18,7 @@
 }
 
 .color-primary-red {
-  background: #ef4135;
+  background: #ef272d;
 }
 
 .color-primary-green {
@@ -34,7 +34,7 @@
 }
 
 .color-secondary-red {
-  background: #da4453;
+  background: #ef4135;
 }
 
 .color-secondary-green {
@@ -63,7 +63,7 @@
 }
 
 .color-error {
-  background: #ef4135;
+  background: #ef272d;
 }
 
 .color-info {
@@ -103,12 +103,12 @@
 }
 
 .text-warning, .text-error {
-  color: #ef4135;
+  color: #ef272d;
 }
 
 .error, .is-error {
-  background: #f8b0ab;
-  color: #ef4135;
+  background: #f89ea0;
+  color: #ef272d;
 }
 
 .text-info {
