@@ -1,0 +1,27 @@
+{
+  "name": "scaffold",
+  "version": "0.1.1",
+  "homepage": "https://github.com/quattromani/scaffold",
+  "authors": [
+    "quattromani <max@maxquattromani.com>"
+  ],
+  "description": "a basic project setup scaffolding",
+  "keywords": [
+    "boilerplate",
+    "RWD",
+    "html",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.0"
+  },
+  homepage: 'https://github.com/quattromani/scaffold'
+}
