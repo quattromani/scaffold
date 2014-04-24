@@ -101,14 +101,14 @@ a:hover {
 	  Headings
    ========================== */
 h1, .h1 {
-  font-size: 36px;
-  font-size: 3.6rem;
+  font-size: 40px;
+  font-size: 4rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h2, .h2 {
-  font-size: 26px;
-  font-size: 2.6rem;
+  font-size: 32px;
+  font-size: 3.2rem;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
