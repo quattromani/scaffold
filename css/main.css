@@ -1987,6 +1987,9 @@ kbd, samp {
 .text-right {
   text-align: right; }
 
+.text-justify {
+  text-align: justify; }
+
 .text-bold {
   font-weight: 700; }
 
