@@ -23,5 +23,4 @@
   "dependencies": {
     "jquery": ">=1.9.0"
   },
-  homepage: 'https://github.com/quattromani/scaffold'
 }
