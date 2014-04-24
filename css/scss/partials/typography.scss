@@ -96,38 +96,32 @@ a {
 h1, .h1 {
   @include font-size($h1);
   font-family: $heading-font;
-  font-weight: 100;
 }
 
 h2, .h2 {
   @include font-size($h2);
   font-family: $heading-font-alt;
-  font-weight: 100;
 }
 
 h3, .h3 {
   @include font-size($h3);
   font-family: $heading-font;
-  font-weight: 100;
 }
 
 h4, .h4 {
   @include font-size($h4);
   font-family: $heading-font-alt;
-  font-weight: 100;
 }
 
 h5, .h5 {
   @include font-size($h5);
   font-family: $heading-font;
-  font-weight: 100;
   color: inherit;
 }
 
 h6, .h6 {
   @include font-size($h6);
   font-family: $heading-font;
-  font-weight: 100;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {

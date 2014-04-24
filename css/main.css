@@ -741,39 +741,33 @@ a {
 h1, .h1 {
   font-size: 36px;
   font-size: 3.6rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h2, .h2 {
   font-size: 26px;
   font-size: 2.6rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h3, .h3 {
   font-size: 24px;
   font-size: 2.4rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h4, .h4 {
   font-size: 20px;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h5, .h5 {
   font-size: 18px;
   font-size: 1.8rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
   color: inherit; }
 
 h6, .h6 {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
   display: inline-block;
