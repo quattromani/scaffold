@@ -1,2 +1,5 @@
 scaffold
+
+#Dependencies
+>bower
 ========
