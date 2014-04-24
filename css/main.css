@@ -585,7 +585,7 @@ nav {
   background: #8cc152; }
 
 .color-secondary-blue {
-  background: #0044cc; }
+  background: #005580; }
 
 .color-secondary-lav {
   background: #967adc; }
@@ -604,7 +604,7 @@ nav {
   background: #ef272d; }
 
 .color-info {
-  background: #0044cc; }
+  background: #005580; }
 
 .color-success {
   background: #8cc152; }
@@ -625,7 +625,7 @@ nav {
   color: white; }
 
 .text-info {
-  color: #0044cc; }
+  color: #005580; }
 
 .text-muted, .muted {
   color: #cccccc; }
@@ -638,7 +638,7 @@ nav {
   color: #ef272d; }
 
 .text-info {
-  color: #0044cc; }
+  color: #005580; }
 
 .text-success {
   color: #8cc152; }
@@ -733,7 +733,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #0044cc; }
+    color: #005580; }
 
 /* ==========================
 	  Headings
@@ -2838,7 +2838,7 @@ hr {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: #0044cc; }
+  background: #005580; }
   .styleguide .grid:nth-of-type(even) {
     background: #33bbff; }
 .styleguide .prettyprint {
