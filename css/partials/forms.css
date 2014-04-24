@@ -21,6 +21,7 @@ input, textarea {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
+  font-weight: 300;
 }
 input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea[type='search'], textarea[type='text'], textarea[type='email'], textarea[type='textarea'], textarea[type='password'], textarea[type='tel'] {
   -webkit-appearance: none;

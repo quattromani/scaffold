@@ -16,6 +16,7 @@ input, textarea {
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
+  font-weight: 300;
   &[type='search'], &[type='text'], &[type='email'], &[type='textarea'], &[type='password'], &[type='tel'] {
     -webkit-appearance: none;
   }
