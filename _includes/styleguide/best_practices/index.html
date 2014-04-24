@@ -26,7 +26,9 @@
         <h5>HTML5 doctype</h5>
 
         <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
-<pre class="prettyprint">&lt;!DOCTYPE html&gt;</pre>
+{% highlight html %}
+<!DOCTYPE html>
+{% endhighlight %}
       </li>
       <li>
         <div class="bulleted">
@@ -80,13 +82,14 @@
           </ul>
         </div>
 
-<pre class="prettyprint">
-&lt;!-- Component Name --&gt;
-&lt;div class="componentName"&gt;
+{% highlight html %}
+<!-- Component Name -->
+<div class="componentName">
 ...
-&lt;/div&gt;
-&lt;!-- ./Component Name --&gt;
-</pre>
+</div>
+<!-- ./Component Name -->
+{% endhighlight %}
+
       </li>
     </ul>
   </div>
@@ -124,7 +127,7 @@
           <li>Other</li>
         </ol>
 
-<pre class="prettyprint">
+{% highlight css %}
 .someDiv { color: #222; }
 
 .someOtherDiv,
@@ -132,13 +135,15 @@
   margin: 0 auto;
   color: #222;
 }
-</pre>
+{% endhighlight %}
+
     </li>
     <li>
       <h5>General Formatting</h5>
 
       <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding</p>
-<pre class="prettyprint">
+
+{% highlight css %}
 .print {
   display: block;
   margin: 0;
@@ -149,20 +154,23 @@
 }
 
 .print:hover { background: #265a83; }
-</pre>
+{% endhighlight %}
+
   </li>
   <li>
     <p>Avoid Qualifying ID and class names with type selectors</p>
-<pre class="prettyprint">
+
+{% highlight css %}
 // this is bad
 ul#example { color: #ff0; }
 div.error { color: red; }
-</pre>
-<pre class="prettyprint">
+{% endhighlight %}
+
+{% highlight css %}
 // this is good
 #example { color: #0f0; }
 .error { color: green; }
-</pre>
+{% endhighlight %}
 
     <p>p.s. ID's are bad for CSS, only use ID's for javascript hooks when necessary</p>
   </li>
@@ -170,14 +178,16 @@ div.error { color: red; }
     <h5>Hexadecimal Notation</h5>
 
     <p>For color values that permit, 3 character hexadecimal is preferred</p>
-<pre class="prettyprint">
+
+{% highlight css %}
 /* not recommended */
 color: #00ff00;
-</pre>
-<pre class="prettyprint">
-/* not recommended */
+{% endhighlight %}
+{% highlight css %}
+/* recommended */
 color: #0f0;
-</pre>
+{% endhighlight %}
+
   </li>
   <li>
     <h4 class="error">!important</h4>
@@ -187,7 +197,8 @@ color: #0f0;
   </li>
   <li>
     <h5>Use the SMACSS Approach</h5>
-<pre class="prettyprint">
+
+{% highlight css %}
 .componentName {
 
   Base {
@@ -211,29 +222,34 @@ color: #0f0;
   }
 
 }
-</pre>
+{% endhighlight %}
+
 </li>
 <li>
 <h5>Commenting</h5>
-<pre class="prettyprint">
-<br class="code-comment">// File headers are commented thusly:
+
+{% highlight html %}
+// File headers are commented thusly:
 
 /* ==========================================================================
     Component Name -- Version: 1.0.0.0 - Updated: MM/DD/YYYY
    ========================================================================== */
-</pre>
-<pre class="prettyprint">
-<br class="code-comment">// Section chunks get styled as such:
+{% endhighlight %}
+
+{% highlight html %}
+// Section chunks get styled as such:
 /*
 * Chunk of long
 * text gets commented
 * like this
 */
-</pre>
-<pre class="prettyprint">
-<br class="code-comment">// Hints get styled like this:
+{% endhighlight %}
+
+{% highlight html %}
+// Hints get styled like this:
 /* Hint */
-</pre>
+{% endhighlight %}
+
 </li>
 </ul>
 </div>
@@ -260,7 +276,8 @@ color: #0f0;
   </ul>
 </div>
 
-<pre class="prettyprint">sass/
+{% highlight html %}
+sass/
   ├── main.scss
   ├── globals/
   |   ├── _mixins.scss
@@ -274,7 +291,8 @@ color: #0f0;
   |   ├── _btn-theme.scss
   └── vendor/
     └── _jquery.ui.core.scss
-</pre>
+{% endhighlight %}
+
     </li>
     <li>
       <h5>Main Stylesheet</h5>
@@ -282,7 +300,7 @@ color: #0f0;
 <p>The main.scss file serves as a "table of contents" and the @import directives should be listed with vendor dependencies first, then author dependencies and core stylesheets, then components.</p>
 <p>Organize the components imports in a manner that makes sense, in other words, group components with the component they extend or inherit from.</p>
 
-<pre class="prettyprint">
+{% highlight scss %}
 /* Mixins and Variables */
 // All globals are combined in allModules.scss to reduce the nuber of updates necessary to add new files
 @import "global/allModules";
@@ -324,7 +342,8 @@ color: #0f0;
 @import "partials/_styleguide";
 
 /* Components */
-</pre>
+{% endhighlight %}
+
     </li>
     <li>
       <h5>Structuring Code</h5>
@@ -418,29 +437,35 @@ If you find yourself writing a number other than 0 or 100% more than once, make 
       <h5>Landmark Roles</h5>
 
       <p>banner - typically the "header" of the page</p>
-<pre class="prettyprint">
-&lt;header role="banner" class="header"&gt;&lt;/header&gt;
-</pre>
+
+{% highlight html %}
+<header role="banner" class="header"></header>
+{% endhighlight %}
 
       <p>navigation - any navigation list, typically the nav element</p>
-<pre class="prettyprint">
-&lt;nav role="navigation" class="nav"&gt;&lt;/nav&gt;
-</pre>
+
+{% highlight html %}
+<nav role="navigation" class="nav"></nav>
+{% endhighlight %}
 
       <p>main - the main content area</p>
-<pre class="prettyprint">
-&lt;section role="main" class="main"&gt;&lt;/main&gt;
-</pre>
+
+{% highlight html %}
+<section role="main" class="main"></main>
+{% endhighlight %}
 
       <p>complimentary - information that is tangentially related to the main content</p>
-<pre class="prettyprint">
-&lt;aside role="complimentary" class="aside"&gt;&lt;/aside&gt;
-</pre>
+
+{% highlight html %}
+<aside role="complimentary" class="aside"></aside>
+{% endhighlight %}
 
       <p>contentinfo - contains information about the parent document such as copyrights and privacy statements</p>
-<pre class="prettyprint">
-&lt;footer role="contentinfo" class="footer"&gt;&lt;/footer&gt;
-</pre>
+
+{% highlight html %}
+<footer role="contentinfo" class="footer"></footer>
+{% endhighlight %}
+
     </li>
     <li>
       <h5>Using alt Text Properly</h5>

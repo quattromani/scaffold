@@ -189,22 +189,22 @@ mark {
    ========================== */
 pre {
   @include margin($margin,0);
-  background-color: $text;
+  background-color: $color-light-light-grey;
   @include border-radius();
   overflow: auto;
   padding: $padding;
   word-wrap: break-word;
 }
 
-code {
-  @include padding($padding / 10, $padding / 3);
-  @include border-radius;
-  border: 1px solid $color-light-light-grey;
-  background: lighten($color-light-grey, 30%);
-  color: $color-primary-red;
-  font-size: 90%;
-  white-space: nowrap;
-}
+// code {
+//   @include padding($padding / 10, $padding / 3);
+//   @include border-radius;
+//   border: 1px solid $color-light-light-grey;
+//   background: lighten($color-light-grey, 30%);
+//   color: $color-primary-red;
+//   font-size: 90%;
+//   white-space: nowrap;
+// }
 
 kbd, samp {
   font-family: $pre;

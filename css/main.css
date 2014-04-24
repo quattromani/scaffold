@@ -81,6 +81,10 @@ body {
 .content {
   position: relative;
   overflow: auto;
+  padding-top: 0.5em;
+  padding-right: 0;
+  padding-bottom: 0.5em;
+  padding-left: 0;
   z-index: 0; }
 
 /* Clearfix */
@@ -828,7 +832,7 @@ pre {
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  background-color: #333333;
+  background-color: whitesmoke;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -838,23 +842,6 @@ pre {
   overflow: auto;
   padding: 1em;
   word-wrap: break-word; }
-
-code {
-  padding-top: 0.1em;
-  padding-right: 0.33333em;
-  padding-bottom: 0.1em;
-  padding-left: 0.33333em;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box;
-  border: 1px solid whitesmoke;
-  background: white;
-  color: #ef272d;
-  font-size: 90%;
-  white-space: nowrap; }
 
 kbd, samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace; }
