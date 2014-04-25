@@ -9,12 +9,14 @@
   @include padding(.15em,.75em);
   @include border-radius(50px);
   background: black;
+  @include font-size(13);
   color: $color-white;
   &-black {
     @extend .pill;
   }
   &-white {
     @extend .pill;
+    border: 1px solid $text;
     background: white;
     color: $text;
   }

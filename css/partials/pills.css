@@ -13,9 +13,12 @@
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   background: black;
+  font-size: 13px;
+  font-size: 1.3rem;
   color: white;
 }
 .pill-white {
+  border: 1px solid #333333;
   background: white;
   color: #333333;
 }
