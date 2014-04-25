@@ -1448,7 +1448,7 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px solid #555555;
+  border: 1px solid #5b5b5b;
 }
 
 .bordered-dotted {
@@ -1456,12 +1456,12 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px dotted #555555;
+  border: 1px dotted #5b5b5b;
 }
 
 .bordered-left, .bordered-left-dark {
   padding-left: 2%;
-  border-left: 1px dotted #555555;
+  border-left: 1px dotted #5b5b5b;
 }
 
 .bordered-left-dark {
@@ -1470,7 +1470,7 @@
 
 .bordered-right, .bordered-right-dark {
   padding-right: 2%;
-  border-right: 1px dotted #555555;
+  border-right: 1px dotted #5b5b5b;
 }
 
 .bordered-right-dark {

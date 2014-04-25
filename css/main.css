@@ -575,7 +575,7 @@ nav {
   background: black; }
 
 .color-grey {
-  background: #555555; }
+  background: #5b5b5b; }
 
 .color-light-grey {
   background: #cccccc; }
@@ -627,7 +627,7 @@ nav {
   color: #0088cc; }
 
 .text-grey {
-  color: #555555; }
+  color: #5b5b5b; }
 
 .text-light-grey {
   color: #cccccc; }
@@ -821,7 +821,7 @@ q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 abbr {
-  border-bottom: 1px dotted #555555;
+  border-bottom: 1px dotted #5b5b5b;
   cursor: help; }
 
 address {
@@ -2037,25 +2037,25 @@ i.fa {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px solid #555555; }
+  border: 1px solid #5b5b5b; }
 
 .bordered-dotted {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px dotted #555555; }
+  border: 1px dotted #5b5b5b; }
 
 .bordered-left, .bordered-left-dark {
   padding-left: 2%;
-  border-left: 1px dotted #555555; }
+  border-left: 1px dotted #5b5b5b; }
 
 .bordered-left-dark {
   border-left: 1px solid #333333; }
 
 .bordered-right, .bordered-right-dark {
   padding-right: 2%;
-  border-right: 1px dotted #555555; }
+  border-right: 1px dotted #5b5b5b; }
 
 .bordered-right-dark {
   border-right: 1px solid #333333; }
@@ -2615,7 +2615,7 @@ img {
 
 .image-bordered {
   border: 0.5em solid white;
-  outline: 1px solid #555555; }
+  outline: 1px solid #5b5b5b; }
 
 [class*='image-focus-'] {
   min-height: 200px;
