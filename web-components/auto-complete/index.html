@@ -21,7 +21,7 @@
 
     		<div class="formitem">
     			<label for="auto-complete">auto-complete</label>
-    			<input id="auto-complete" list="artists" type="text" placeholder="Colors:" autocomplete="off">
+    			<input id="auto-complete" list="artists" type="text" placeholder="Artists:" autocomplete="off">
 
     			<datalist id="artists">
     			  <option template repeat="{{ e in artists }}" value="{{ e.artist }}" label="{{ e.style }}">{{ e.artist }}</option>
@@ -70,6 +70,42 @@
           {
             artist: "Pablo Picasso",
             style: "Cubism"
+          },
+          {
+            artist: "Giacomo Balla",
+            style: "Futurism"
+          },
+          {
+            artist: "Kazimir Malevich",
+            style: "Suprematism"
+          },
+          {
+            artist: "El Lissitzky",
+            style: "Constructivism"
+          },
+          {
+            artist: "Piet Mondrian",
+            style: "De Stijl"
+          },
+          {
+            artist: "Caravaggio",
+            style: "Baroque Art"
+          },
+          {
+            artist: "Jean Honore Fragonard",
+            style: "Rococo Art"
+          },
+          {
+            artist: "Jan Vermeer",
+            style: "Dutch Art"
+          },
+          {
+            artist: "Jacques Louis David",
+            style: "Neoclassicm"
+          },
+          {
+            artist: "Gustave Courbet",
+            style: "Realism"
           },]
         });
       </script>
