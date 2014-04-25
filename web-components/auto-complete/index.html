@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <polymer-element name="colors-element">
+    <polymer-element name="feed-element">
       <template>
   			<link rel="stylesheet" href="css/base.css">
   			<link rel="stylesheet" href="css/typography.css">
@@ -24,14 +24,14 @@
     			<input id="auto-complete" list="colors" type="text" placeholder="Colors:" autocomplete="off">
 
     			<datalist id="colors">
-    			  <option template repeat="{{ c in colors }}" value="{{ e.color }}" label="{{ e.hex }}">{{ e.color }}</option>
+    			  <option template repeat="{{ e in elements }}" value="{{ e.color }}" label="{{ e.hex }}">{{ e.color }}</option>
     			</datalist>
     		</div>
 
       </template>
       <script>
-        Polymer('colors-element', {
-          colors: [{
+        Polymer('feed-element', {
+          elements: [{
             color: "red",
             hex: "#f00"
           },
@@ -63,7 +63,7 @@
       </script>
     </polymer-element>
 
-  	<colors-element></colors-element>
+  	<feed-element></feed-element>
 
   </body>
 </html>
