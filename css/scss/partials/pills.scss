@@ -6,6 +6,8 @@
    ========================================================================== */
 
 .pill {
+  @include padding(.15em,.75em);
+  @include border-radius(50px);
   background: black;
   color: $color-white;
   &-black {
