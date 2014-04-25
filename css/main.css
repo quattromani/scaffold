@@ -2415,6 +2415,7 @@ dd {
   padding-right: 0.75em;
   padding-bottom: 0.15em;
   padding-left: 0.75em;
+  border: 1px solid white;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;

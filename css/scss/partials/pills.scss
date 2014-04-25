@@ -7,6 +7,7 @@
 
 .pill {
   @include padding(.15em,.75em);
+  border: 1px solid $color-white;
   @include border-radius(50px);
   background: black;
   @include font-size(13);
