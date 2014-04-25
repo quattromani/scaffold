@@ -612,7 +612,7 @@ nav {
   background: #333333; }
 
 .color-link {
-  background: #0088cc; }
+  background: #ef272d; }
 
 .color-error {
   background: #ef272d; }
@@ -624,7 +624,7 @@ nav {
   background: #8cc152; }
 
 .link {
-  color: #0088cc; }
+  color: #ef272d; }
 
 .text-grey {
   color: #5b5b5b; }
@@ -633,7 +633,7 @@ nav {
   color: #cccccc; }
 
 .text-link {
-  color: #0088cc; }
+  color: #ef272d; }
 
 .text-white {
   color: white; }
@@ -740,14 +740,14 @@ a {
   font-weight: normal;
   @inlcude font-size(16);
   font-weight: 700;
-  color: #0088cc;
+  color: #ef272d;
   text-decoration: none;
   cursor: pointer; }
   a img {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #005580; }
+    color: #a82620; }
 
 /* ==========================
 	  Headings
@@ -2355,7 +2355,7 @@ dd {
     Buttons Theme -- Version: 0.4.2 - Compiled: timestamp()
    ========================================================================== */
 .btn, button {
-  color: #0088cc; }
+  color: #ef272d; }
   .btn:hover, button:hover {
     background: #e5e5e5; }
   .btn:focus, button:focus {

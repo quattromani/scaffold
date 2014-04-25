@@ -85,7 +85,7 @@ a {
   font-weight: normal;
   @inlcude font-size(16);
   font-weight: 700;
-  color: #0088cc;
+  color: #ef272d;
   text-decoration: none;
   cursor: pointer;
 }
@@ -94,7 +94,7 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  color: #005580;
+  color: #a82620;
 }
 
 /* ==========================
