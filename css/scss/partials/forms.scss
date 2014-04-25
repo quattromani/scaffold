@@ -21,7 +21,7 @@ input, textarea {
     -webkit-appearance: none;
   }
   &[type='search'] {
-    &::-webkit-search-decoration, &::-webkit-search-cancel-button {
+    &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-datetime-edit-fields-wrapper  {
       -webkit-appearance: none;
     }
   }
