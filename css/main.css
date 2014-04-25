@@ -2407,6 +2407,18 @@ dd {
     margin: 0 auto;
     text-align: center; } }
 
+/* ==========================================================================
+    Pills -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
+.pill, .pill-black, .pill-white, .pill-red {
+  background: black;
+  color: white; }
+  .pill-white {
+    background: white;
+    color: #333333; }
+  .pill-red {
+    background: #ef272d; }
+
 /* ===========================================================================================
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()
    =========================================================================================== */
