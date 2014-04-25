@@ -15,17 +15,6 @@
 </head>
 <body>
 
-  <polymer-element name="html-echo" attributes="html">
-    <script>
-      Polymer('html-echo', {
-        htmlChanged: function() {
-          // WARNING: potential XSS vulnerability if `html` comes from an untrusted source
-          this.innerHTML = this.html;
-        }
-      });
-    </script>
-  </polymer-element>
-
   <polymer-element name="feed-element">
     <template>
 			<link rel="stylesheet" href="css/base.css">
@@ -36,14 +25,14 @@
 			<link rel="stylesheet" href="css/accessibility.css">
 			<link rel="stylesheet" href="css/auto-complete.css">
 
-		<div class="formitem">
-			<label for="auto-complete">auto-complete</label>
-			<input id="auto-complete" list="names" type="text" placeholder="Girls Name:">
+  		<div class="formitem">
+  			<label for="auto-complete">auto-complete</label>
+  			<input id="auto-complete" list="names" type="text" placeholder="Girls Name:">
 
-			<datalist id="names">
-			  <option template repeat="{{ element in elements }}" value="{{ element }}" label="first name">{{ element }}</option>
-			</datalist>
-		</div>
+  			<datalist id="names">
+  			  <option template repeat="{{ element in elements }}" value="{{ element }}" label="first name">{{ element }}</option>
+  			</datalist>
+  		</div>
 
     </template>
     <script>
