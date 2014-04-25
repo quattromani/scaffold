@@ -2375,7 +2375,7 @@ dd {
   .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, button:disabled, button.js-disabled, button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #cccccc;
-    color: white; }
+    color: #5b5b5b; }
   .btn.js-active, button.js-active {
     background: #a0d468;
     color: white; }

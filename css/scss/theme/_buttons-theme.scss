@@ -30,7 +30,7 @@
   &:disabled, &.js-disabled, &.disabled {
     cursor: default;
     background: $color-light-grey;
-    color: $text-white;
+    color: $text-grey;
     &:hover, &:active {
       @extend .disabled;
     }
