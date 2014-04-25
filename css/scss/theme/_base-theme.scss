@@ -8,3 +8,7 @@
 body {
   background-color: $site-background;
 }
+
+footer {
+	@include margin($margin,0);
+}
