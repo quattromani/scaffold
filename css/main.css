@@ -563,7 +563,7 @@ nav {
     nav li.active {
       background: #eb1118; }
     nav li:hover {
-      background: #ef4135; }
+      background: #a82620; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -593,7 +593,7 @@ nav {
   background: #ac92ec; }
 
 .color-secondary-red {
-  background: #ef4135; }
+  background: #a82620; }
 
 .color-secondary-green {
   background: #8cc152; }
@@ -2365,7 +2365,7 @@ dd {
     background: #ef272d;
     color: white; }
     .btn.btn-primary:hover, button.btn-primary:hover {
-      background: #ef4135; }
+      background: #a82620; }
     .btn.btn-primary:active, button.btn-primary:active {
       background: #a40c11;
       background-image: 0;
