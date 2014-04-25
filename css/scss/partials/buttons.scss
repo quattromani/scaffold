@@ -7,8 +7,9 @@
 
 .btn, button {
   @include inline-block();
+  min-width: 8em;
   @include padding(.5em, $padding);
-  @include border-radius();
+  @include border-radius(1px);
   border: none;
   background: none;
   font-family: $base-font-alt;
