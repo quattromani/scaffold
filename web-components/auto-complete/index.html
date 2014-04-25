@@ -21,10 +21,10 @@
 
     		<div class="formitem">
     			<label for="auto-complete">auto-complete</label>
-    			<input id="auto-complete" list="names" type="text" placeholder="Colors:" autocomplete="off">
+    			<input id="auto-complete" list="colors" type="text" placeholder="Colors:" autocomplete="off">
 
-    			<datalist id="names">
-    			  <option template repeat="{{ element in elements }}" value="{ color }" label="{ value }">{ color }</option>
+    			<datalist id="colors">
+    			  <option template repeat="{{ element in elements }}" value="{{ color }}" label="{{ value }}">{{ color }}</option>
     			</datalist>
     		</div>
 
