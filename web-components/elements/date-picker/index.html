@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>auto-complete test</title>
+    <title>date-picker test</title>
 
     <script src="bower_components/platform/platform.js"></script>
     <link rel="import" href="bower_components/polymer/polymer.html">
@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <polymer-element name="feed-element">
+    <polymer-element name="date-picker">
       <template>
   			<link rel="stylesheet" href="css/base.css">
   			<link rel="stylesheet" href="css/typography.css">
@@ -20,102 +20,13 @@
   			<link rel="stylesheet" href="css/auto-complete.css">
 
     		<div class="formitem">
-    			<label for="auto-complete">auto-complete</label>
-    			<input id="auto-complete" list="artists" type="text" placeholder="Artists:" autocomplete="off">
-
-    			<datalist id="artists">
-    			  <option template repeat="{{ e in artists }}" value="{{ e.artist }}" label="{{ e.style }}">{{ e.artist }}</option>
-    			</datalist>
+    			<input type="date">
     		</div>
 
-        <div class="formitem">
-          <span id="placed"></span>
-        </div>
-
       </template>
-      <script>
-        Polymer('feed-element', {
-          artists: [{
-            artist: "Jackson Pollock",
-            style: "Abstract Expressionism"
-          },
-          {
-            artist: "Andy Warhol",
-            style: "Pop Art"
-          },
-          {
-            artist: "Victor Vasarely",
-            style: "Op Art"
-          },
-          {
-            artist: "Frank Stella",
-            style: "Minimalism"
-          },
-          {
-            artist: "Claude Monet",
-            style: "Impressionism"
-          },
-          {
-            artist: "Vincent Van Gogh",
-            style: "Post Impressionism"
-          },
-          {
-            artist: "Henri Matisse",
-            style: "Fauvism"
-          },
-          {
-            artist: "Ernst Ludwig Kirchner",
-            style: "German Expressionism"
-          },
-          {
-            artist: "Georges Braque",
-            style: "Abstract Art"
-          },
-          {
-            artist: "Pablo Picasso",
-            style: "Cubism"
-          },
-          {
-            artist: "Giacomo Balla",
-            style: "Futurism"
-          },
-          {
-            artist: "Kazimir Malevich",
-            style: "Suprematism"
-          },
-          {
-            artist: "El Lissitzky",
-            style: "Constructivism"
-          },
-          {
-            artist: "Piet Mondrian",
-            style: "De Stijl"
-          },
-          {
-            artist: "Caravaggio",
-            style: "Baroque Art"
-          },
-          {
-            artist: "Jean Honore Fragonard",
-            style: "Rococo Art"
-          },
-          {
-            artist: "Jan Vermeer",
-            style: "Dutch Art"
-          },
-          {
-            artist: "Jacques Louis David",
-            style: "Neoclassicm"
-          },
-          {
-            artist: "Gustave Courbet",
-            style: "Realism"
-          },]
-        });
-      </script>
     </polymer-element>
 
-  	<feed-element></feed-element>
+  	<date-picker></date-picker>
 
   </body>
 </html>
