@@ -1,0 +1,23 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Pills -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.pill {
+  background: black;
+  color: $color-white;
+  &-black {
+    @extend .pill;
+  }
+  &-white {
+    @extend .pill;
+    background: white;
+    color: $text;
+  }
+  &-red {
+    @extend .pill;
+    background: $color-primary-red;
+  }
+}
