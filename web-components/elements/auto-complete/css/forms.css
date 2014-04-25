@@ -1,7 +1,7 @@
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
-input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea, label, select {
+input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], input[type='date'], textarea, label, select {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
 }
 
