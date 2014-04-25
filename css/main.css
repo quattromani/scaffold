@@ -2358,6 +2358,7 @@ dd {
 .btn, button {
   color: #ef272d; }
   .btn:hover, button:hover {
+    border-bottom: none;
     background: #e5e5e5; }
   .btn:focus, button:focus {
     background: #bfbfbf;

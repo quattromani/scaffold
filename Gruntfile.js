@@ -68,7 +68,7 @@ module.exports = function(grunt) {
           }
         },
         css: {
-          files: ['css/scss/partials/*.scss','css/scss/globals/*.scss'],
+          files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
           tasks: ['sass', 'cssmin'],
           options: {
             spawn: false,
