@@ -21,44 +21,56 @@
 
     		<div class="formitem">
     			<label for="auto-complete">auto-complete</label>
-    			<input id="auto-complete" list="colors" type="text" placeholder="Colors:" autocomplete="off">
+    			<input id="auto-complete" list="artists" type="text" placeholder="Colors:" autocomplete="off">
 
-    			<datalist id="colors">
-    			  <option template repeat="{{ e in colors }}" value="{{ e.color }}" label="{{ e.hex }}">{{ e.color }}</option>
+    			<datalist id="artists">
+    			  <option template repeat="{{ e in artists }}" value="{{ e.artist }}" label="{{ e.style }}">{{ e.artist }}</option>
     			</datalist>
     		</div>
 
       </template>
       <script>
         Polymer('feed-element', {
-          colors: [{
-            color: "<b>red</b>",
-            hex: "#f00"
+          artists: [{
+            artist: "Jackson Pollock",
+            style: "Abstract Expressionism"
           },
           {
-            color: "green",
-            hex: "#0f0"
+            artist: "Andy Warhol",
+            style: "Pop Art"
           },
           {
-            color: "blue",
-            hex: "#00f"
+            artist: "Victor Vasarely",
+            style: "Op Art"
           },
           {
-            color: "cyan",
-            hex: "#0ff"
+            artist: "Frank Stella",
+            style: "Minimalism"
           },
           {
-            color: "magenta",
-            hex: "#f0f"
+            artist: "Claude Monet",
+            style: "Impressionism"
           },
           {
-            color: "yellow",
-            hex: "#ff0"
+            artist: "Vincent Van Gogh",
+            style: "Post Impressionism"
           },
           {
-            color: "black",
-            hex: "#000"
-          }]
+            artist: "Henri Matisse",
+            style: "Fauvism"
+          },
+          {
+            artist: "Ernst Ludwig Kirchner",
+            style: "German Expressionism"
+          },
+          {
+            artist: "Georges Braque",
+            style: "Abstract Art"
+          },
+          {
+            artist: "Pablo Picasso",
+            style: "Cubism"
+          },]
         });
       </script>
     </polymer-element>
