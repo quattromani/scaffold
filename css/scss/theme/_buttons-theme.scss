@@ -8,6 +8,7 @@
 .btn, button {
   color: $link;
   &:hover {
+    border-bottom: none;
     background: darken($color-off-white, 5%);
   }
   &:focus {
