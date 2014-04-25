@@ -24,7 +24,7 @@
     			<input id="auto-complete" list="names" type="text" placeholder="Girls Name:" autocomplete="off">
 
     			<datalist id="names">
-    			  <option template repeat="{{ color in elements }}" value="{{ color }}" label="first name">{{ color }}</option>
+    			  <option template repeat="{{ element in elements }}" value="{ color }" label="{ value }">{ color }</option>
     			</datalist>
     		</div>
 
