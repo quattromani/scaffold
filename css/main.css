@@ -69,15 +69,6 @@ body {
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: timestamp()
    ========================================================================== */
-.container {
-  display: block;
-  max-width: 960px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  overflow: visible; }
-
 .content {
   position: relative;
   overflow: auto;
@@ -86,6 +77,19 @@ body {
   padding-bottom: 0.5em;
   padding-left: 0;
   z-index: 0; }
+
+.container {
+  display: block;
+  max-width: 960px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding-top: 0;
+  padding-right: 1em;
+  padding-bottom: 0;
+  padding-left: 1em;
+  overflow: visible; }
 
 /* Clearfix */
 .clearfix, .box-column {
