@@ -22,7 +22,7 @@ input, textarea {
   background-clip: padding-box;
   font-weight: 300;
 }
-input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea[type='search'], textarea[type='text'], textarea[type='email'], textarea[type='textarea'], textarea[type='password'], textarea[type='tel'] {
+input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], input[type='date'], textarea[type='search'], textarea[type='text'], textarea[type='email'], textarea[type='textarea'], textarea[type='password'], textarea[type='tel'] {
   -webkit-appearance: none;
 }
 input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-search-cancel-button, textarea[type='search']::-webkit-search-decoration, textarea[type='search']::-webkit-search-cancel-button {
