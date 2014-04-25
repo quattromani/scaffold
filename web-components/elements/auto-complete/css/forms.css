@@ -29,7 +29,7 @@ input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-s
   -webkit-appearance: none;
 }
 
-input[type='date']::-webkit-datetime-edit-fields-wrapper {
+input::-webkit-datetime-edit-fields-wrapper {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
 }
 
