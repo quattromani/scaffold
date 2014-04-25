@@ -86,9 +86,9 @@ body {
   margin-bottom: 0;
   margin-left: auto;
   padding-top: 0;
-  padding-right: 1em;
+  padding-right: 0.5em;
   padding-bottom: 0;
-  padding-left: 1em;
+  padding-left: 0.5em;
   overflow: visible; }
 
 /* Clearfix */
@@ -793,7 +793,6 @@ p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
   vertical-align: middle; }
 
 p, .p {
-  display: block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word; }
 
