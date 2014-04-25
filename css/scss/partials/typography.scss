@@ -72,7 +72,6 @@ body, button, input, select, textarea {
 a {
   @include margin;
   @include padding;
-  border-bottom: 1px dotted;
   background: transparent;
   vertical-align: baseline;
   @include font-family($base-font);
@@ -85,6 +84,7 @@ a {
     text-decoration: none;
   }
   &:hover {
+    border-bottom: 1px dotted;
     color: $link-hover;
   }
 }

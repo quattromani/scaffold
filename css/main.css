@@ -732,7 +732,6 @@ a {
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0;
-  border-bottom: 1px dotted;
   background: transparent;
   vertical-align: baseline;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
@@ -747,6 +746,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
+    border-bottom: 1px dotted;
     color: #a82620; }
 
 /* ==========================
