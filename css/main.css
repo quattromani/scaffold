@@ -755,12 +755,14 @@ a {
 h1, .h1 {
   font-size: 40px;
   font-size: 4rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200; }
 
 h2, .h2 {
   font-size: 32px;
   font-size: 3.2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200; }
 
 h3, .h3 {
   font-size: 24px;
@@ -770,7 +772,8 @@ h3, .h3 {
 h4, .h4 {
   font-size: 20px;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200; }
 
 h5, .h5 {
   font-size: 18px;
@@ -842,9 +845,9 @@ pre {
   margin-bottom: 1em;
   margin-left: 0;
   background-color: whitesmoke;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -2022,9 +2025,9 @@ i.fa {
   background: #e7eef4; }
 
 .border-radius {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box; }
@@ -2285,9 +2288,9 @@ dd {
   padding-right: 1em;
   padding-bottom: 0.5em;
   padding-left: 1em;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -2448,9 +2451,9 @@ input, textarea {
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #cccccc;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -2469,9 +2472,9 @@ select {
   padding-left: 0.5em;
   border: 0;
   border: 1px solid #cccccc;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -2595,9 +2598,9 @@ img {
   border: 0; }
 
 .image-rounded {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box; }
@@ -2694,9 +2697,9 @@ th, td {
   margin-left: 0;
   background: white;
   border: 1px solid #cccccc;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -2724,9 +2727,9 @@ hr {
   padding-bottom: 0.5em;
   padding-left: 1em;
   border: none;
-  -webkit-border-radius: 6px 0 0 0;
-  -moz-border-radius: 6px 0 0 0;
-  border-radius: 6px 0 0 0;
+  -webkit-border-radius: 2px 0 0 0;
+  -moz-border-radius: 2px 0 0 0;
+  border-radius: 2px 0 0 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -2758,9 +2761,9 @@ hr {
 .viewport {
   top: 0;
   right: 0;
-  -webkit-border-radius: 0 0 0 6px;
-  -moz-border-radius: 0 0 0 6px;
-  border-radius: 0 0 0 6px;
+  -webkit-border-radius: 0 0 0 2px;
+  -moz-border-radius: 0 0 0 2px;
+  border-radius: 0 0 0 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box; }
@@ -2768,9 +2771,9 @@ hr {
 .loadtime {
   bottom: 0;
   left: 0;
-  -webkit-border-radius: 0 6px 0 0;
-  -moz-border-radius: 0 6px 0 0;
-  border-radius: 0 6px 0 0;
+  -webkit-border-radius: 0 2px 0 0;
+  -moz-border-radius: 0 2px 0 0;
+  border-radius: 0 2px 0 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box; }
@@ -2800,9 +2803,9 @@ hr {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box; }

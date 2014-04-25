@@ -96,11 +96,13 @@ a {
 h1, .h1 {
   @include font-size($h1);
   font-family: $heading-font;
+  font-weight: 200;
 }
 
 h2, .h2 {
   @include font-size($h2);
   font-family: $heading-font-alt;
+  font-weight: 200;
 }
 
 h3, .h3 {
@@ -111,6 +113,7 @@ h3, .h3 {
 h4, .h4 {
   @include font-size($h4);
   font-family: $heading-font-alt;
+  font-weight: 200;
 }
 
 h5, .h5 {

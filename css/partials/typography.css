@@ -104,12 +104,14 @@ h1, .h1 {
   font-size: 40px;
   font-size: 4rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
 }
 
 h2, .h2 {
   font-size: 32px;
   font-size: 3.2rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
 }
 
 h3, .h3 {
@@ -122,6 +124,7 @@ h4, .h4 {
   font-size: 20px;
   font-size: 2rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
 }
 
 h5, .h5 {
@@ -209,9 +212,9 @@ pre {
   margin-bottom: 1em;
   margin-left: 0;
   background-color: whitesmoke;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
