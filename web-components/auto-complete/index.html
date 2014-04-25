@@ -24,7 +24,7 @@
     			<input id="auto-complete" list="colors" type="text" placeholder="Colors:" autocomplete="off">
 
     			<datalist id="colors">
-    			  <option template repeat="{{ element in elements }}" value="{ color }" label="{{ value }}">{ color }</option>
+    			  <option template repeat="{{ element in elements }}" value="{{ color }}" label="{{ hex }}">{{ color }}</option>
     			</datalist>
     		</div>
 
@@ -33,31 +33,31 @@
         Polymer('feed-element', {
           elements: [{
             "color": "red",
-            "value": "#f00"
+            "hex": "#f00"
           },
           {
             "color": "green",
-            "value": "#0f0"
+            "hex": "#0f0"
           },
           {
             "color": "blue",
-            "value": "#00f"
+            "hex": "#00f"
           },
           {
             "color": "cyan",
-            "value": "#0ff"
+            "hex": "#0ff"
           },
           {
             "color": "magenta",
-            "value": "#f0f"
+            "hex": "#f0f"
           },
           {
             "color": "yellow",
-            "value": "#ff0"
+            "hex": "#ff0"
           },
           {
             "color": "black",
-            "value": "#000"
+            "hex": "#000"
           }]
         });
       </script>
