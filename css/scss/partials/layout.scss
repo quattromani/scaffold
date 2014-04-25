@@ -16,7 +16,7 @@
   display: block;
   max-width: $site-width;
   @include margin(0,auto);
-  @include padding(0,$padding);
+  @include padding(0,($padding / 2);
   overflow: visible;
 }
 
