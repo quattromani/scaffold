@@ -65,7 +65,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 body {
   background-color: white; }
 
-footer {
+footer.container {
   margin-top: 1em;
   margin-right: 0;
   margin-bottom: 1em;

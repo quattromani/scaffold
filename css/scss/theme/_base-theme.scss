@@ -9,6 +9,6 @@ body {
   background-color: $site-background;
 }
 
-footer {
+footer.container {
 	@include margin($margin,0);
 }
