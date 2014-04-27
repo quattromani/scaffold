@@ -27,6 +27,22 @@
       color: $color-white;
    }
   }
+  &.btn-error {
+    border: 1px solid $color-primary-red;
+    background: transparent;
+  }
+  &.btn-success {
+    background: $color-primary-green;
+    color: $color-white;
+  }
+  &.btn-info {
+    background: $color-primary-blue;
+    color: $color-white;
+  }
+  &.btn-black {
+    background: $color-black;
+    color: $color-white;
+  }
   &:disabled, &.js-disabled, &.disabled {
     cursor: default;
     background: $color-light-grey;
