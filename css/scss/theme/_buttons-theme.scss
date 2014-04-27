@@ -30,18 +30,31 @@
   &.btn-error {
     border: 1px solid $color-primary-red;
     background: transparent;
+    &:hover {
+      background: $color-secondary-red;
+      color: $color-white;
+    }
   }
   &.btn-success {
     background: $color-primary-green;
     color: $color-white;
+    &:hover {
+      background: $color-secondary-green;
+    }
   }
   &.btn-info {
     background: $color-primary-blue;
     color: $color-white;
+    &:hover {
+      background: $color-secondary-blue;
+    }
   }
   &.btn-black {
     background: $color-black;
     color: $color-white;
+    &:hover {
+      background: $color-grey;
+    }
   }
   &:disabled, &.js-disabled, &.disabled {
     cursor: default;

@@ -2376,15 +2376,24 @@ dd {
   .btn.btn-error, button.btn-error {
     border: 1px solid #ef272d;
     background: transparent; }
+    .btn.btn-error:hover, button.btn-error:hover {
+      background: #a82620;
+      color: white; }
   .btn.btn-success, button.btn-success {
     background: #a0d468;
     color: white; }
+    .btn.btn-success:hover, button.btn-success:hover {
+      background: #8cc152; }
   .btn.btn-info, button.btn-info {
     background: #0088cc;
     color: white; }
+    .btn.btn-info:hover, button.btn-info:hover {
+      background: #005580; }
   .btn.btn-black, button.btn-black {
     background: black;
     color: white; }
+    .btn.btn-black:hover, button.btn-black:hover {
+      background: #5b5b5b; }
   .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, button:disabled, button.js-disabled, button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #cccccc;
