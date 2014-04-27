@@ -31,8 +31,7 @@
     border: 1px solid $color-primary-red;
     background: transparent;
     &:hover {
-      background: $color-secondary-red;
-      color: $color-white;
+      border: 1px solid $color-secondary-red;
     }
   }
   &.btn-success {

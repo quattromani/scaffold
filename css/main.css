@@ -2377,8 +2377,7 @@ dd {
     border: 1px solid #ef272d;
     background: transparent; }
     .btn.btn-error:hover, button.btn-error:hover {
-      background: #a82620;
-      color: white; }
+      border: 1px solid #a82620; }
   .btn.btn-success, button.btn-success {
     background: #a0d468;
     color: white; }
