@@ -34,8 +34,7 @@ img {
 }
 
 .image-bordered {
-  border: ($padding / 2) solid $text-white;
-  outline: 1px solid $color-grey;
+  border: ($padding / 2) solid $color-light-grey;
 }
 
 // Responsive Images
