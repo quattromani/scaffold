@@ -2300,7 +2300,8 @@ dd {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: normal;
   text-align: center;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased; }
   .btn.block, button.block {
     display: block;
     width: 100%;

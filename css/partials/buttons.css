@@ -22,6 +22,7 @@
   font-weight: normal;
   text-align: center;
   cursor: pointer;
+  -webkit-font-smoothing: antialiased;
 }
 .btn.block, button.block {
   display: block;
