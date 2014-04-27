@@ -1,5 +1,5 @@
 /* ==========================================================================
-    Buttons -- Version: 0.4.2 - Compiled: timestamp()
+    Buttons -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
 .btn, button {
   display: inline-block;
@@ -23,6 +23,22 @@
   text-align: center;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
+}
+.btn-error {
+  background: #ef272d;
+  color: white;
+}
+.btn-success {
+  background: #a0d468;
+  color: white;
+}
+.btn-info {
+  background: #0088cc;
+  color: white;
+}
+.btn-black {
+  background: black;
+  color: #333333;
 }
 .btn.block, button.block {
   display: block;

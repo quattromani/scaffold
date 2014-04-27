@@ -2278,7 +2278,7 @@ dd {
   margin-left: 1em; }
 
 /* ==========================================================================
-    Buttons -- Version: 0.4.2 - Compiled: timestamp()
+    Buttons -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
 .btn, button {
   display: inline-block;
@@ -2302,6 +2302,18 @@ dd {
   text-align: center;
   cursor: pointer;
   -webkit-font-smoothing: antialiased; }
+  .btn-error {
+    background: #ef272d;
+    color: white; }
+  .btn-success {
+    background: #a0d468;
+    color: white; }
+  .btn-info {
+    background: #0088cc;
+    color: white; }
+  .btn-black {
+    background: black;
+    color: #333333; }
   .btn.block, button.block {
     display: block;
     width: 100%;
@@ -2356,28 +2368,28 @@ dd {
 /* ==========================================================================
     Buttons Theme -- Version: 0.4.2 - Compiled: timestamp()
    ========================================================================== */
-.btn, button {
+.btn, button, button {
   color: #ef272d; }
-  .btn:hover, button:hover {
+  .btn:hover, button:hover, button:hover {
     border-bottom: none;
     background: #e5e5e5; }
-  .btn:focus, button:focus {
+  .btn:focus, button:focus, button:focus {
     background: #bfbfbf;
     background-image: 0; }
-  .btn.btn-primary, button.btn-primary {
+  .btn.btn-primary, button.btn-primary, button.btn-primary {
     background: #ef272d;
     color: white; }
-    .btn.btn-primary:hover, button.btn-primary:hover {
+    .btn.btn-primary:hover, button.btn-primary:hover, button.btn-primary:hover {
       background: #a82620; }
-    .btn.btn-primary:active, button.btn-primary:active {
+    .btn.btn-primary:active, button.btn-primary:active, button.btn-primary:active {
       background: #a40c11;
       background-image: 0;
       color: white; }
-  .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, button:disabled, button.js-disabled, button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active {
+  .btn:disabled, button:disabled, .btn.js-disabled, button.js-disabled, .btn.disabled, button.disabled, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, button:disabled, button.js-disabled, button.disabled, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active {
     cursor: default;
     background: #cccccc;
     color: #5b5b5b; }
-  .btn.js-active, button.js-active {
+  .btn.js-active, button.js-active, button.js-active {
     background: #a0d468;
     color: white; }
 

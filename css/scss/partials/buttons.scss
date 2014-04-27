@@ -2,10 +2,20 @@
 @import "../globals/allGlobals";
 
 /* ==========================================================================
-    Buttons -- Version: 0.4.2 - Compiled: #{timestamp()}
+    Buttons -- Version: 0.4.3 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.btn, button {
+// Config
+$prefix: 'btn';
+
+$button-types:
+  (error, $color-primary-red, $color-white),
+  (success, $color-primary-green, $color-white),
+  (info, $color-primary-blue, $color-white),
+  (black, $color-black, $text);
+
+// Default
+.#{$prefix} {
   @include inline-block();
   min-width: 8em;
   @include padding(($padding / 2), $padding);
@@ -17,6 +27,13 @@
   text-align: center;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
+  // Loop through sass-map
+  @each $type, $bgcolor, $fontcolor in $button-types {
+    &-#{$type} {
+      background: $bgcolor;
+      color: $fontcolor;
+    }
+  }
   &.block {
     display: block;
     width: 100%;
@@ -46,6 +63,9 @@
     }
 
   }
+}
+button {
+  @extend .btn;
 }
 
 /* Firefox */
