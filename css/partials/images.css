@@ -41,8 +41,7 @@ img {
 }
 
 .image-bordered {
-  border: 0.5em solid white;
-  outline: 1px solid #5b5b5b;
+  border: 0.5em solid #cccccc;
 }
 
 [class*='image-focus-'] {
