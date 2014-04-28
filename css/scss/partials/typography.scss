@@ -97,17 +97,35 @@ h1, .h1 {
   @include font-size($h1);
   font-family: $heading-font;
   font-weight: 200;
+  @include bp(bp-medium) {
+    @include font-size($h1 * .875)
+  }
+  @include bp(bp-small) {
+    @include font-size($h1 * .75)
+  }
 }
 
 h2, .h2 {
   @include font-size($h2);
   font-family: $heading-font-alt;
   font-weight: 200;
+  @include bp(bp-medium) {
+    @include font-size($h2 * .875)
+  }
+  @include bp(bp-small) {
+    @include font-size($h2 * .75)
+  }
 }
 
 h3, .h3 {
   @include font-size($h3);
   font-family: $heading-font;
+  @include bp(bp-medium) {
+    @include font-size($h3 * .875)
+  }
+  @include bp(bp-small) {
+    @include font-size($h3 * .75)
+  }
 }
 
 h4, .h4 {
