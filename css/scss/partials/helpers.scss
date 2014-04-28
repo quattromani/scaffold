@@ -85,7 +85,12 @@ $widths: 5;
 .box {
   @include margin(0,0,$margin,0);
   @include padding($padding);
-  background: #e7eef4;
+  @include border-radius;
+  border: 1px solid $color-light-grey;
+  background: lighten($color-light-grey,10%);
+  h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+  }
 }
 
 .border-radius {

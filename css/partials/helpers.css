@@ -1431,7 +1431,17 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  background: #e7eef4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  background: #e6e6e6;
+}
+.box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
+  margin-bottom: 0;
 }
 
 .border-radius {
