@@ -29,6 +29,7 @@
     @include padding(.5em, ($padding * 1.5));
   }
   &.btn-sm {
+    min-width: 0;
     @include padding(($padding / 6), ($padding / 1.5));
   }
   @media (max-width: $bp-small) {

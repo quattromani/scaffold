@@ -42,6 +42,7 @@
   padding-left: 1.5em;
 }
 .btn.btn-sm, button.btn-sm {
+  min-width: 0;
   padding-top: 0.16667em;
   padding-right: 0.66667em;
   padding-bottom: 0.16667em;
