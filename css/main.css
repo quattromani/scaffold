@@ -2390,10 +2390,14 @@ dd {
       background-image: 0;
       color: white; }
   .btn.btn-error, button.btn-error {
-    border: 1px solid #ef272d;
-    background: transparent; }
+    background: transparent;
+    -webkit-box-shadow: inset 0 0 0 1px #ef272d;
+    -moz-box-shadow: inset 0 0 0 1px #ef272d;
+    box-shadow: inset 0 0 0 1px #ef272d; }
     .btn.btn-error:hover, button.btn-error:hover {
-      border: 1px solid #a82620; }
+      -webkit-box-shadow: inset 0 0 0 1px #a82620;
+      -moz-box-shadow: inset 0 0 0 1px #a82620;
+      box-shadow: inset 0 0 0 1px #a82620; }
   .btn.btn-success, button.btn-success {
     background: #a0d468;
     color: white; }
