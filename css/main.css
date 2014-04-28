@@ -842,7 +842,7 @@ mark {
 pre {
   margin-top: 1em;
   margin-right: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   margin-left: 0;
   background-color: whitesmoke;
   -webkit-border-radius: 2px;
