@@ -110,8 +110,8 @@ footer.container {
     Grid
    ========================== */
 .row {
-  overflow: auto;
   clear: both;
+  display: inline-block;
   width: 100%;
   margin-bottom: 1em; }
   .row:last-of-type {
@@ -876,6 +876,21 @@ i.fa {
   font-style: normal;
   font-weight: normal;
   @inlcude font-size(16); }
+
+/* ==========================
+    Logo
+   ========================== */
+.GLG {
+  font-weight: bolder;
+  letter-spacing: -3px; }
+
+.logo_slash,
+.division {
+  font-weight: lighter; }
+
+.division {
+  position: relative;
+  left: -.1em; }
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: timestamp()

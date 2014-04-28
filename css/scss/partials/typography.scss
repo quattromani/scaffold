@@ -227,3 +227,20 @@ kbd, samp {
 i.fa {
   @include font-family($fontawesome);
 }
+
+/* ==========================
+    Logo
+   ========================== */
+
+.GLG {
+  font-weight: bolder;
+  letter-spacing: -3px;
+}
+.logo_slash,
+.division {
+  font-weight: lighter;
+}
+.division {
+  position: relative;
+  left: -.1em;
+}

@@ -249,3 +249,21 @@ i.fa {
   font-weight: normal;
   @inlcude font-size(16);
 }
+
+/* ==========================
+    Logo
+   ========================== */
+.GLG {
+  font-weight: bolder;
+  letter-spacing: -3px;
+}
+
+.logo_slash,
+.division {
+  font-weight: lighter;
+}
+
+.division {
+  position: relative;
+  left: -.1em;
+}

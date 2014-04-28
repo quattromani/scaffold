@@ -41,8 +41,8 @@
     Grid
    ========================== */
 .row {
-  overflow: auto;
   clear: both;
+  display: inline-block;
   width: 100%;
   margin-bottom: 1em;
 }

@@ -14,8 +14,8 @@ $marginless-col-width: $width / $site-column-count;
 
 // create row
 @mixin row() {
-  overflow: auto;
   clear: both;
+  display: inline-block;
   width: $width;
   margin-bottom: $margin;
 }
