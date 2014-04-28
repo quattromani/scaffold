@@ -1,6 +1,10 @@
 /* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
+label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pill + label, .pill-black + label, .pill-white + label, .pill-red + label {
+  margin-left: 0.33333em;
+}
+
 .pill, .pill-black, .pill-white, .pill-red {
   padding-top: 0.15em;
   padding-right: 0.75em;
@@ -18,8 +22,10 @@
   color: white;
 }
 .pill-white {
-  border: 1px solid #333333;
   background: white;
+  -webkit-box-shadow: inset 0 0 0 1px #333333;
+  -moz-box-shadow: inset 0 0 0 1px #333333;
+  box-shadow: inset 0 0 0 1px #333333;
   color: #333333;
 }
 .pill-red {
