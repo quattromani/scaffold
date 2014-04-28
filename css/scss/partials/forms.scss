@@ -42,7 +42,11 @@ input {
   }
 }
 
-select, datalist {
+input::-webkit-datetime-edit-fields-wrapper {
+  font-family: $base-font;
+}
+
+select, datalist, input::-webkit-inner-spin-button  {
   -webkit-appearance: none;
 }
 

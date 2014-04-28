@@ -181,6 +181,23 @@
             </div>
             <!-- .Email Address -->
 
+            <!-- Date Input -->
+            <div class="row clearfix">
+                <div class="half">
+                    <div class="formitem">
+                        <label for="startdate">Pick a Start Date</label>
+                        <input id="startdate" type="date">
+                    </div>
+                </div>
+                <div class="half">
+                    <div class="formitem">
+                        <label for="enddate">Pick an End Date</label>
+                        <input id="enddate" type="date">
+                    </div>
+                </div>
+            </div>
+            <!-- ./ Date Input -->
+
             <!-- Textarea -->
             <div class="row clearfix">
                 <div class="column half">
@@ -257,57 +274,57 @@
                         <input type="text" list="browsers" name="browsers" placeholder="Type your favorite browser" tabindex="17" >
                         <datalist id="browsers">
                             <option value="Internet Explorer" label="Ugh!">
-                            <option value="Firefox" label="Meh">
-                            <option value="Chrome" label="Yay!">
-                            <option value="Opera" label="??">
-                            <option value="Safari" label="huh?">
-                        </datalist>
+                                <option value="Firefox" label="Meh">
+                                    <option value="Chrome" label="Yay!">
+                                        <option value="Opera" label="??">
+                                            <option value="Safari" label="huh?">
+                                            </datalist>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <hr>
+
+                            <fieldset>
+                                <div class="row">
+                                    <div class="full">
+                                        <h3>Search Field</h3>
+                                        <div class="formitem">
+                                            <input type="search" placeholder="search events by keyword">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <hr>
+
+                            <div id="fillit">
+                                If you see this, leave this form field blank.
+                                <input id="improve" type="text" name="confirm" value="">
+                            </div>
+
+                            <fieldset>
+                                <div class="formitem">
+                                    <button class="btn btn-primary" type="submit" name="submit" value="submit">
+                                        <span>Submit</span>
+                                    </button>
+
+                                    <button type="reset" name="reset" value="reset">
+                                        <span>Clear</span>
+                                    </button>
+                                </div>
+                            </fieldset>
+
+                        </form>
+
+                        {% highlight html %}
+                        <fieldset>
+                            <div class="formitem">
+                                <label for="generic" class="visually-hidden">Generic</label>
+                                <input type="text" id="" class="" name="" value="" placeholder="Generic" tabindex="21" required>
+                            </div>
+                        </fieldset>
+                        {% endhighlight %}
+
                     </div>
-                </div>
-            </div>
-        </fieldset>
-
-        <hr>
-
-        <fieldset>
-            <div class="row">
-                <div class="full">
-                    <h3>Search Field</h3>
-                    <div class="formitem">
-                        <input type="search" placeholder="search events by keyword">
-                    </div>
-                </div>
-            </div>
-        </fieldset>
-
-        <hr>
-
-        <div id="fillit">
-            If you see this, leave this form field blank.
-            <input id="improve" type="text" name="confirm" value="">
-        </div>
-
-        <fieldset>
-            <div class="formitem">
-                <button class="btn btn-primary" type="submit" name="submit" value="submit">
-                    <span>Submit</span>
-                </button>
-
-                <button type="reset" name="reset" value="reset">
-                    <span>Clear</span>
-                </button>
-            </div>
-        </fieldset>
-
-    </form>
-
-{% highlight html %}
-<fieldset>
-    <div class="formitem">
-        <label for="generic" class="visually-hidden">Generic</label>
-        <input type="text" id="" class="" name="" value="" placeholder="Generic" tabindex="21" required>
-    </div>
-</fieldset>
-{% endhighlight %}
-
-</div>
