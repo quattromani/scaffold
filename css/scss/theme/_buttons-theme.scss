@@ -31,7 +31,7 @@
     background: transparent;
     @include box-shadow(inset 0 0 0 1px $color-primary-red);
     &:hover {
-      @include box-shadow(inset 0 0 0 1px $color-secondary-red);
+      background: lighten($color-primary-red, 25%);
     }
   }
   &.btn-success {

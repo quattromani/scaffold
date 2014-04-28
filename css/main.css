@@ -2395,9 +2395,7 @@ dd {
     -moz-box-shadow: inset 0 0 0 1px #ef272d;
     box-shadow: inset 0 0 0 1px #ef272d; }
     .btn.btn-error:hover, button.btn-error:hover {
-      -webkit-box-shadow: inset 0 0 0 1px #a82620;
-      -moz-box-shadow: inset 0 0 0 1px #a82620;
-      box-shadow: inset 0 0 0 1px #a82620; }
+      background: #f89ea0; }
   .btn.btn-success, button.btn-success {
     background: #a0d468;
     color: white; }
