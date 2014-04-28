@@ -5,115 +5,50 @@
     Forms -- Version: 0.4.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
-input[type='search'], input[type='text'], input[type='email'], input[type='textarea'], input[type='password'], input[type='tel'], textarea, label, select {
+input, textarea, label, select {
   @include font-size(16);
+  vertical-align: baseline;
 }
 
-input, textarea {
+input, textarea, select {
   width: 100%;
   max-width: 100%;
   @include padding(.25em,.5em);
+  @include margin;
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
   font-weight: 300;
-  &[type='search'], &[type='text'], &[type='email'], &[type='textarea'], &[type='password'], &[type='tel'] {
-    -webkit-appearance: none;
-  }
   &[type='search'] {
     &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-datetime-edit-fields-wrapper  {
       -webkit-appearance: none;
     }
   }
-}
-
-select {
-  width: 100%;
-  max-width: 100%;
-  @include padding(.25em,.5em);
-  border: 0;
-  border: 1px solid $color-light-grey;
-  @include border-radius();
-  -webkit-appearance: none;
-}
-
-textarea {
-  min-height: 4em;
-}
-
-textarea, datalist {
-    -webkit-appearance: none;
+  &[type="radio"], &[type="checkbox"] {
+    float: left;
+    @include margin(.25em,.5em,1em,.1em);
+  }
 }
 
 input {
-  vertical-align: baseline;
   &[type="checkbox"], &[type="radio"] {
     width: auto;
     @include padding;
     border: 0;
   }
-  &[type="text"], &[type="search"], &[type="tel"] {
-    @include margin;
-  }
+}
+
+select, datalist {
+  -webkit-appearance: none;
 }
 
 .formitem {
-  position: relative;
   float: left;
   width: 100%;
-  margin-left: 2.5%;
-  &.radio, &.checkbox {
-      margin-left: 0;
-  }
-  &:first-of-type {
-      margin-left: 0;
-  }
-  input, select, textarea {
-    margin-top: 0; // override browser default
-    margin-bottom: $margin / 2;
-  }
-  input[type="radio"], input[type="checkbox"] {
-    float: left;
-    @include margin(.25em,.5em,1em,0);
-  }
-}
-
-.formitem {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  @include margin($margin / 2, 0);
-  &.split {
-    width: auto;
-  }
-}
-
-input {
-  &:required ~ span:after {
-    content: attr(title);
-    position: absolute;
-    left: 0;
-    bottom: .25em;
-    color: $text-error;
-    font-weight: 700;
-    @include opacity(0);
-    transition-property: opacity;
-    transition-duration: .5s;
-    transition-delay: .5s;
-  }
-}
-
-input:required:invalid.instruct ~ span:after {
-    @include opacity(1);
 }
 
 .required:after {
-    content: '*';
-}
-
-.error-msg {
-  display: none;
-  color: #d10010;
+  content: '*';
 }
 
 /* Honeypot */
@@ -121,25 +56,7 @@ input:required:invalid.instruct ~ span:after {
   display: none;
 }
 
-/* Webkit */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* Webkit browsers add a 2px margin outside the chrome of form elements */
-  form {
-    input::-webkit-validation-bubble-message, select::-webkit-validation-bubble-message, textarea::-webkit-validation-bubble-message {
-      display: none;
-    }
-  }
-}
-
 /* ie (.ie) */
 .ie input[type="radio"] {
   border: 0px !important;
-}
-
-@media (max-width: $bp-small) {
-
-  .formitem.split {
-    width: 100%;
-  }
-
 }
