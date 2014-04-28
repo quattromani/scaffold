@@ -6,9 +6,9 @@
   *zoom: 1;
   *display: inline;
   min-width: 8em;
-  padding-top: 0.5em;
+  padding-top: 0.375em;
   padding-right: 1em;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.375em;
   padding-left: 1em;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -30,21 +30,21 @@
   text-align: center;
 }
 .btn.btn-xl, button.btn-xl {
-  padding-top: 1em;
+  padding-top: 0.75em;
   padding-right: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 0.75em;
   padding-left: 2em;
 }
 .btn.btn-lg, button.btn-lg {
-  padding-top: 0.75em;
+  padding-top: 0.5em;
   padding-right: 1.5em;
-  padding-bottom: 0.75em;
+  padding-bottom: 0.5em;
   padding-left: 1.5em;
 }
 .btn.btn-sm, button.btn-sm {
-  padding-top: 0.33333em;
+  padding-top: 0.16667em;
   padding-right: 0.66667em;
-  padding-bottom: 0.33333em;
+  padding-bottom: 0.16667em;
   padding-left: 0.66667em;
 }
 @media (max-width: 40em) {

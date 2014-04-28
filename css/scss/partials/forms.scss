@@ -13,13 +13,17 @@ input, textarea, label, select {
 input, textarea, select {
   width: 100%;
   max-width: 100%;
-  @include padding(.25em,.5em);
+  @include padding(.35em,.5em);
   @include margin;
   border: 0;
   border: 1px solid $color-light-grey;
   @include border-radius();
   font-weight: 300;
   &[type='search'] {
+    padding-left: 2em;
+    background: url(/scaffold/images/iconmonstr-magnifier-5-icon-48.png) no-repeat left center;
+    background-size: 1em;
+    background-position: .5em;
     &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-datetime-edit-fields-wrapper  {
       -webkit-appearance: none;
     }
@@ -40,6 +44,18 @@ input {
 
 select, datalist {
   -webkit-appearance: none;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+@include placeholder {
+    color: $text;
+    font-weight: 100;
 }
 
 .formitem {

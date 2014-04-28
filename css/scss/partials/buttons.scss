@@ -8,7 +8,7 @@
 .btn, button {
   @include inline-block();
   min-width: 8em;
-  @include padding(.5em, $padding);
+  @include padding(.375em, $padding);
   @include border-radius(1px);
   border: none;
   background: none;
@@ -23,13 +23,13 @@
     text-align: center;
   }
   &.btn-xl {
-    @include padding(1em, ($padding * 2));
+    @include padding(.75em, ($padding * 2));
   }
   &.btn-lg {
-    @include padding(.75em, ($padding * 1.5));
+    @include padding(.5em, ($padding * 1.5));
   }
   &.btn-sm {
-    @include padding(($padding / 3), ($padding / 1.5));
+    @include padding(($padding / 6), ($padding / 1.5));
   }
   @media (max-width: $bp-small) {
 
