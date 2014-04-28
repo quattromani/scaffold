@@ -2940,6 +2940,10 @@ hr {
 /* ==========================================================================
     Styleguide -- Version: 0.4.2  - Compiled: timestamp()
    ========================================================================== */
+.styleguide a.logo {
+  color: inherit; }
+  .styleguide a.logo:hover {
+    border-bottom: none; }
 .styleguide .colors, .styleguide .grid {
   padding-top: 1em;
   padding-right: 1em;
