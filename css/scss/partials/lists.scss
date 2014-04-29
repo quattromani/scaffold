@@ -68,20 +68,15 @@ ul {
 /* Vertical List Items */
 
 .vertical {
-  > ul > li,
-  > ol > li {
+  li {
     @include padding(($padding / 2),0);
   }
-  &.lined > ul > li,
-  &.lined > ol > li {
+  &.lined li {
     overflow: auto;
-    border-bottom: 1px dotted lighten($color-light-grey, 20%);
+    border-bottom: 1px dotted $color-light-grey;
     &.js-last {
       border-bottom: none;
     }
-  }
-  &.alt > ul > li:nth-child(even) {
-    background: lighten($color-light-grey, 20%);
   }
 }
 

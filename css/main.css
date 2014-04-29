@@ -2299,19 +2299,16 @@ ul {
     content: ''; }
 
 /* Vertical List Items */
-.vertical > ul > li,
-.vertical > ol > li {
+.vertical li {
   padding-top: 0.5em;
   padding-right: 0;
   padding-bottom: 0.5em;
   padding-left: 0; }
-.vertical.lined > ul > li, .vertical.lined > ol > li {
+.vertical.lined li {
   overflow: auto;
-  border-bottom: 1px dotted white; }
-  .vertical.lined > ul > li.js-last, .vertical.lined > ol > li.js-last {
+  border-bottom: 1px dotted #cccccc; }
+  .vertical.lined li.js-last {
     border-bottom: none; }
-.vertical.alt > ul > li:nth-child(even) {
-  background: white; }
 
 /* Ordered List */
 ol li {
