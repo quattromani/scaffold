@@ -207,8 +207,13 @@ p, .p {
 }
 
 blockquote {
-  border-left: 3px solid #cccccc;
-  color: #cccccc;
+  width: 75%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  border-left: 3px solid #5b5b5b;
+  color: #5b5b5b;
   font-style: italic;
   padding-left: 1em;
 }

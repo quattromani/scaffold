@@ -172,8 +172,10 @@ p, .p {
 }
 
 blockquote {
-  border-left: 3px solid $color-light-grey;
-  color: $text-light-grey;
+  width: 75%;
+  @include margin(0,auto);
+  border-left: 3px solid $color-grey;
+  color: $text-grey;
   font-style: italic;
   padding-left: $padding;
 }
