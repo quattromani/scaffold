@@ -9,6 +9,13 @@ body {
   background-color: $site-background;
 }
 
+a.logo {
+  color: inherit;
+  &:hover {
+    border-bottom: none;
+  }
+}
+
 footer.container {
 	@include margin($margin,auto);
 }
