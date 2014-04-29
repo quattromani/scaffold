@@ -2502,6 +2502,7 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
   background: black;
   font-size: 13px;
   font-size: 1.3rem;
+  font-weight: 700;
   color: white; }
   .pill-white {
     background: white;
