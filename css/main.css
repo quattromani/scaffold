@@ -68,7 +68,8 @@ body {
 a.logo {
   color: inherit; }
   a.logo:hover {
-    border-bottom: none; }
+    border-bottom: none;
+    color: inherit; }
 
 footer.container {
   margin-top: 1em;
