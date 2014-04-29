@@ -1,0 +1,72 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer-jsonp/polymer-jsonp.html">
+
+<polymer-element name="x-flickr" attributes="apikey tag amount">
+<template>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    div {
+      /*display: block;*/
+    }
+    .thumbnail {
+      margin: 5px;
+      float: left;
+    }
+    .img-thumbnail {
+      padding: 4px;
+      line-height: 1.42857143;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      float: left;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+
+<form action="">
+  <div class="row">
+    <div class="half">
+      <label for="flickr_search">Search Flickr</label>
+      <input id="search_flickr" type="text" value="{{tag}}">
+    </div>
+    <div class="half">
+      <label for="range">Choose number of photos - Use Up/Down arrow keys</label>
+      <input id="range" type="number" min="1" max="20" value="{{amount}}">
+    </div>
+  </div>
+</form>
+
+  <polymer-jsonp id="ajax" auto url="http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={{apikey}}&tags={{tag}}&per_page={{amount}}&page=1&format=json&jsoncallback="></polymer-jsonp>
+  <div class="container">
+
+    <p>Photos of <strong>{{tag}}</strong> -- showing {{amount}} results</p>
+    <template  id="photos" repeat="{{photo in photos}}">
+      <div class="thumbnail">
+        <img src="http://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg" class="img-thumbnail">
+      </div>
+    </template>
+  </div>
+</template>
+<script>
+  Polymer('x-flickr', {
+    amount: 10,
+    photos: [],
+    apikey: 'ce725bb677f1a4e60931340a343af8a0',
+    ready: function () {
+      this.$.photos.model = this.photos;
+      this.$.ajax.addEventListener('polymer-response',
+        function (e) {
+          this.photos = {photos: e.detail.response.photos.photo};
+          this.$.photos.model = {photos: e.detail.response.photos.photo};
+          this.fire('x-flickr-load', {response: e.detail.response.photos.photo});
+        }.bind(this)
+        );
+    }
+  });
+</script>
+</polymer-element>
