@@ -93,7 +93,6 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  border-bottom: 1px dotted;
   color: #a82620;
 }
 
