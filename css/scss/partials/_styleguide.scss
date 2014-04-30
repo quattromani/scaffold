@@ -33,6 +33,10 @@
   }
   .swatch-color {
     @include padding(5em, $padding);
+    &:color-white {
+      border: 1px solid $color-light-grey;
+      border-bottom: none;
+    }
   }
   .swatch-info {
     @include padding($padding);

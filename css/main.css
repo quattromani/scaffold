@@ -2993,6 +2993,9 @@ hr {
   padding-right: 1em;
   padding-bottom: 5em;
   padding-left: 1em; }
+  .styleguide .swatch-color:color-white {
+    border: 1px solid #cccccc;
+    border-bottom: none; }
 .styleguide .swatch-info {
   padding-top: 1em;
   padding-right: 1em;
