@@ -8,6 +8,7 @@
 .btn, button {
   @include inline-block();
   min-width: 8em;
+  @include margin;
   @include padding(.375em, $padding);
   @include border-radius(1px);
   border: none;
