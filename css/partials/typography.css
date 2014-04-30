@@ -6,7 +6,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  @inlcude font-size(16);
+  @inlcude font-size(10);
   color: #333333;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,23 +42,23 @@ body, button, input, select, textarea {
 	  Body Text
    ========================== */
 .lede {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 11.25px;
+  font-size: 1.125rem;
 }
 
 .body-text {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 10px;
+  font-size: 1rem;
 }
 
 .small-body-text {
-  font-size: 12px;
-  font-size: 1.2rem;
+  font-size: 7.5px;
+  font-size: 0.75rem;
 }
 
 .disclaimer-text {
-  font-size: 10.8px;
-  font-size: 1.08rem;
+  font-size: 6.75px;
+  font-size: 0.675rem;
 }
 
 /* ==========================
@@ -78,7 +78,7 @@ a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  @inlcude font-size(16);
+  @inlcude font-size(10);
   font-weight: 700;
   color: #ef272d;
   text-decoration: none;
@@ -283,7 +283,7 @@ i.fa {
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  @inlcude font-size(16);
+  @inlcude font-size(10);
 }
 
 /* ==========================
