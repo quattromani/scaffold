@@ -679,14 +679,10 @@ html {
   font-style: normal;
   font-weight: normal;
   @inlcude font-size(16);
-  font-size: 10px;
-  /* absolutely set to maintain ratio around user settings */
   color: #333333;
   -webkit-font-smoothing: antialiased; }
 
 body, button, input, select, textarea {
-  font-size: 16px;
-  font-size: 1.6rem;
   line-height: 1.443; }
 
 @font-face {
