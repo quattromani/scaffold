@@ -13,7 +13,7 @@ input, textarea, label, select {
 input, textarea, select {
   width: 100%;
   max-width: 100%;
-  @include padding(.35em,.6em);
+  @include padding(.35em,.5em);
   @include margin;
   border: 0;
   border: 1px solid $color-light-grey;
