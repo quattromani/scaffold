@@ -829,13 +829,12 @@ small {
 
 p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
   clear: inherit;
+  margin-bottom: 0.33333em;
   vertical-align: middle; }
 
 p, .p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word; }
-  p:last-child, .p:last-child {
-    margin-bottom: 0.33333em; }
   p:only-child, .p:only-child {
     margin-top: 0;
     margin-right: 0;
