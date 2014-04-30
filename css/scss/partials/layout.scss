@@ -39,7 +39,7 @@
 
 .row {
   @include row;
-  &:last-of-type {
+  &:last-child, &:only-child {
     margin-bottom: 0;
   }
 }

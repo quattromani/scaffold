@@ -46,7 +46,7 @@
   width: 100%;
   margin-bottom: 1em;
 }
-.row:last-of-type {
+.row:last-child, .row:only-child {
   margin-bottom: 0;
 }
 
