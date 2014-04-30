@@ -8,11 +8,13 @@
 html {
   height: 100%;
   @include font-family($base-font);
+  font-size: 10px; /* absolutely set to maintain ratio around user settings */
   color: $text;
   -webkit-font-smoothing: antialiased;
 }
 
 body, button, input, select, textarea {
+  @include font-size($base-font-size);
   line-height: $base-line-height;
 }
 

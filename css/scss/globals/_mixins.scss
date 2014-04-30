@@ -218,7 +218,7 @@ $marginless-col-width: $width / $site-column-count;
   font-family: $font,Arial,Sans-Serif;
   font-style: $style;
   font-weight: $weight;
-  @inlcude font-size($base-font-size);
+  @include font-size($base-font-size);
 }
 
 // Column Count
