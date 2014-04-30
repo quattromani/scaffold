@@ -154,13 +154,15 @@ small {
 
 p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
   clear: inherit;
-  margin-bottom: $margin / 3;
   vertical-align: middle;
 }
 
 p, .p {
   font-family: $base-font;
   word-wrap: break-word;
+  &:last-child {
+    margin-bottom: $margin / 3;
+  }
 }
 
 .b {
