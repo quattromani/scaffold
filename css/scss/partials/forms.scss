@@ -17,7 +17,7 @@ input, textarea, select {
   @include margin;
   border: 0;
   border: 1px solid $color-light-grey;
-  @include border-radius();
+  @include border-radius;
   font-weight: 300;
   &[type='search'] {
     padding-left: 2em;

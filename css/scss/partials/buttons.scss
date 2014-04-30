@@ -10,7 +10,7 @@
   min-width: 8em;
   @include margin;
   @include padding(.375em, $padding);
-  @include border-radius(1px);
+  @include border-radius;
   border: none;
   background: none;
   font-family: $base-font-alt;

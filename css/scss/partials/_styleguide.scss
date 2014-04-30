@@ -29,7 +29,7 @@
 
   .swatch {
     border: 1px solid $color-light-grey;
-    @include border-radius(4px);
+    @include border-radius;
     overflow: auto;
   }
   .swatch-color {
@@ -44,7 +44,7 @@
 
   .grid {
     @extend .colors;
-    @include border-radius(0);
+    @include border-radius;
       background: $color-secondary-blue;
     &:nth-of-type(even) {
       background: lighten($color-primary-blue, 20%);

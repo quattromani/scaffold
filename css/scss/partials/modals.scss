@@ -30,7 +30,7 @@
     max-width: 90%;
     margin: auto;
     margin-top: -16em;
-    @include border-radius();
+    @include border-radius;
     background: none repeat scroll 0 0 #fff;
     color: $text;
     z-index: 99999;
@@ -50,7 +50,7 @@
   }
   .modal-header {
     @include padding(1em);
-    @include border-radius(3px 3px 0 0);
+    @include border-radius($border-radius $border-radius 0 0);
     background: #f0f2f5;
     h1, h2, h3, h4, h5, h6 {
       margin-bottom: 0;
@@ -64,7 +64,7 @@
   .modal-footer {
     overflow: auto;
     @include padding(1em);
-    @include border-radius(0 0 3px 3px);
+    @include border-radius(0 0 $border-radius $border-radius);
     background: #f0f2f5;
   }
 }
