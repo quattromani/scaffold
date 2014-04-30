@@ -5,12 +5,6 @@
 // For DEMO site only - DO NOT EVER INGEST THESE !!
 window.onload = getPageLoadTime;
 
-// Add a 'fold' line to prototype in mobile only
-// var overlay = jQuery('<div class="fold"> </div>');
-// $(window).resize(function() {
-//     overlay.appendTo(document.body);
-// }).resize();
-
 // Calculate the viewport size on prototype site
 $(window).resize(function() {
     $('.viewport').empty().append($(window).width(), "x", $(window).height());
