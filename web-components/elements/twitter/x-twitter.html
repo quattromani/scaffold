@@ -1,0 +1,50 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer-jsonp/polymer-jsonp.html">
+
+<polymer-element name="x-flickr" attributes="apikey tag amount">
+
+<link rel="stylesheet" href="css/flickr.css">
+
+<template>
+
+  <form action="">
+    <div class="row">
+      <div class="four-fifths">
+        <label for="tweets">Search Flickr</label>
+        <input id="tweets" type="text" value="{{tag}}">
+      </div>
+      <div class="fifth">
+        <label for="range">Choose No. of tweets</label>
+        <input id="range" type="number" min="1" max="50" value="{{amount}}">
+      </div>
+    </div>
+  </form>
+
+  <polymer-jsonp id="ajax" auto url="https://api.twitter.com/1.1/search/tweets.json?q={{tag}}"></polymer-jsonp>
+
+  <p>Photos of <strong>{{tag}}</strong> -- showing {{amount}} results</p>
+  <template  id="tweets" repeat="{{tweet in tweets}}">
+    <div class="thumbnail">
+      <img src="http://farm{{photo.farm}}.staticflickr.com/{{photo.server}}/{{photo.id}}_{{photo.secret}}.jpg" class="img-thumbnail">
+    </div>
+  </template>
+
+<!-- </template>
+<script>
+  Polymer('x-flickr', {
+    amount: 10,
+    photos: [],
+    apikey: 'ce725bb677f1a4e60931340a343af8a0',
+    ready: function () {
+      this.$.photos.model = this.photos;
+      this.$.ajax.addEventListener('polymer-response',
+        function (e) {
+          this.photos = {photos: e.detail.response.photos.photo};
+          this.$.photos.model = {photos: e.detail.response.photos.photo};
+          this.fire('x-flickr-load', {response: e.detail.response.photos.photo});
+        }.bind(this)
+        );
+    }
+  });
+</script> -->
+</polymer-element>
