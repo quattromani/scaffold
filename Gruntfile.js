@@ -78,6 +78,8 @@ module.exports = function(grunt) {
 
     });
 
+    grunt.loadNpmTasks('grunt-contrib');
+
     grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
     grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
     grunt.registerTask('js', ['concat', 'uglify', 'watch']);
