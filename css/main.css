@@ -683,8 +683,6 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body, button, input, select, textarea {
-  font-size: 16px;
-  font-size: 1.6rem;
   line-height: 1.443; }
 
 @font-face {

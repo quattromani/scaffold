@@ -13,7 +13,7 @@ html {
 }
 
 body, button, input, select, textarea {
-  @include font-size($base-font-size);
+  // @include font-size($base-font-size);
   line-height: $base-line-height;
 }
 
