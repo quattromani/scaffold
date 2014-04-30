@@ -28,7 +28,6 @@
   }
 
   .swatch {
-    border: 1px solid $color-light-grey;
     @include border-radius;
     overflow: auto;
   }
@@ -37,6 +36,8 @@
   }
   .swatch-info {
     @include padding($padding);
+    border: 1px solid $color-light-grey;
+    border-top: none;
     background: $color-white;
     color: $text;
     text-align: center;

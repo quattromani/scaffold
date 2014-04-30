@@ -2981,7 +2981,6 @@ hr {
     .styleguide .colors, .styleguide .grid {
       margin-bottom: 1em; } }
 .styleguide .swatch {
-  border: 1px solid #cccccc;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -2999,6 +2998,8 @@ hr {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
+  border: 1px solid #cccccc;
+  border-top: none;
   background: white;
   color: #333333;
   text-align: center; }
