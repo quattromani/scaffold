@@ -836,6 +836,11 @@ p, .p {
   word-wrap: break-word; }
   p:last-child, .p:last-child {
     margin-bottom: 0.33333em; }
+  p:only-child, .p:only-child {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0; }
 
 .b {
   font-weight: 700; }

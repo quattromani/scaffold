@@ -163,6 +163,9 @@ p, .p {
   &:last-child {
     margin-bottom: $margin / 3;
   }
+  &:only-child {
+    @include margin;
+  }
 }
 
 .b {
