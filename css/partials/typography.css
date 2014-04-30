@@ -7,8 +7,6 @@ html {
   font-style: normal;
   font-weight: normal;
   @inlcude font-size(16);
-  font-size: 10px;
-  /* absolutely set to maintain ratio around user settings */
   color: #333333;
   -webkit-font-smoothing: antialiased;
 }

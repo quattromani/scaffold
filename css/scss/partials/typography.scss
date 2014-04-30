@@ -8,7 +8,6 @@
 html {
   height: 100%;
   @include font-family($base-font);
-  font-size: 10px; /* absolutely set to maintain ratio around user settings */
   color: $text;
   -webkit-font-smoothing: antialiased;
 }
