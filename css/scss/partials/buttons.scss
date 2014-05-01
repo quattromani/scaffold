@@ -13,10 +13,11 @@
   @include border-radius;
   border: none;
   background: none;
-  font-family: $base-font-alt;
-  font-weight: 700;
+  font-family: $heading-font-alt;
+  font-weight: 100;
   text-align: center;
   cursor: pointer;
+  letter-spacing: .1em;
   -webkit-font-smoothing: antialiased;
   &.block {
     display: block;

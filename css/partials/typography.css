@@ -3,7 +3,7 @@
    ========================================================================== */
 html {
   height: 100%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -18,8 +18,72 @@ body, button, input, select, textarea {
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.443;
+  letter-spacing: .035em;
 }
 
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Thin';
+  src: url("fonts/NHaasGroteskDSPro-25Th.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-25Th.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-25Th.woff") format("woff"), url("fonts/NHaasGroteskDSPro-25Th.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-25Th.svg#724af24f6d5a343225e4a2409b916cf1") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro XLt';
+  src: url("fonts/NHaasGroteskDSPro-35XLt.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-35XLt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-35XLt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-35XLt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-35XLt.svg#1af8a305ccdaf7fd37619de1aa605cb8") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Lt';
+  src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Md';
+  src: url("fonts/NHaasGroteskDSPro-65Md.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-65Md.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-65Md.woff") format("woff"), url("fonts/NHaasGroteskDSPro-65Md.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-65Md.svg#8166d35894c383a4b60e821768d81454") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Blk';
+  src: url("fonts/NHaasGroteskDSPro-95Blk.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-95Blk.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-95Blk.woff") format("woff"), url("fonts/NHaasGroteskDSPro-95Blk.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-95Blk.svg#9c730d47b7fc9726d199b5c4365f330e") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
 @font-face {
   font-family: "FontAwesome";
   src: url("fonts/icons/fontawesome-webfont.eot");
@@ -28,7 +92,7 @@ body, button, input, select, textarea {
   font-style: normal;
 }
 .base-font {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .base-font-alt {
@@ -47,8 +111,8 @@ body, button, input, select, textarea {
 	  Body Text
    ========================== */
 .lede {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 .body-text {
@@ -62,8 +126,8 @@ body, button, input, select, textarea {
 }
 
 .disclaimer-text {
-  font-size: 10.8px;
-  font-size: 1.08rem;
+  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 /* ==========================
@@ -80,7 +144,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -104,7 +168,7 @@ a:hover {
 h1, .h1 {
   font-size: 40px;
   font-size: 4rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 @media (max-width: 62em) {
@@ -123,7 +187,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 32px;
   font-size: 3.2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 @media (max-width: 62em) {
@@ -142,7 +206,8 @@ h2, .h2 {
 h3, .h3 {
   font-size: 24px;
   font-size: 2.4rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 @media (max-width: 62em) {
   h3, .h3 {
@@ -160,21 +225,21 @@ h3, .h3 {
 h4, .h4 {
   font-size: 20px;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
 h5, .h5 {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: inherit;
 }
 
 h6, .h6 {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -196,7 +261,7 @@ p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
 }
 
 p, .p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word;
 }
 p:only-child, .p:only-child {
@@ -304,11 +369,16 @@ i.fa {
    ========================== */
 .GLG {
   font-weight: bolder;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
 }
 
 .logo_slash,
 .division {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 200;
 }
 

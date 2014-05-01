@@ -22,10 +22,11 @@
   background-clip: padding-box;
   border: none;
   background: none;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
   text-align: center;
   cursor: pointer;
+  letter-spacing: .1em;
   -webkit-font-smoothing: antialiased;
 }
 .btn.block, button.block {

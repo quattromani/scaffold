@@ -66,7 +66,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 input::-webkit-datetime-edit-fields-wrapper {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 select, datalist, input::-webkit-inner-spin-button {

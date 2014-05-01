@@ -74,14 +74,14 @@ $form-focus: $color-light-grey;
 $base-font-size: 16;
 $base-line-height: 1.443;
 
-$base-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$base-font: 'NeueHaasGroteskDisp Pro Lt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-alt: $arial;
-$arial-bold: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-$heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$heading-font-alt: $heading-font;
+$arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+$heading-font: $base-font;
+$heading-font-alt: 'NeueHaasGroteskDisp Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 $fontawesome: 'FontAwesome';
-$pre: Inconsolata,Monaco,Consolas,"Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+$pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 
 $h1: 40;
 $h2: 32;
@@ -90,9 +90,9 @@ $h4: 20;
 $h5: 18;
 $h6: 18;
 
-$lede-text: ($base-font-size * 1.125);
+$lede-text: ($base-font-size * 1.375);
 $body-text: $base-font-size;
 $small-body-text: ($base-font-size *.75);
-$disclaimer-text: ($base-font-size *.675);
+$disclaimer-text: $small-body-text;
 
 // ---------------------------------------------------------------------- //
