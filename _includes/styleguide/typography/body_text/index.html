@@ -1,0 +1,35 @@
+<span id="body-anchor" class="h2 jumpTo-anchor">Body</span>
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <h6><code>.lede</code> (Intro text)</h6>
+
+        <p class="lede">A lede, or lead, paragraph in literature is the opening paragraph of an article, essay, news story or book chapter. It usually occurs together with the headline or title. It precedes the main body of the article, and it gives the reader the main idea of the story. In both spellings, the word rhymes with the word need.</p>
+      </li>
+      <li>
+        <div class="row">
+          <div class="half">
+            <h6><code>&lt;p&gt;</code> or <code>.body-text</code></h6>
+
+            <p class="body-text">All paragraphs are wrapped in p tags. Additionally, p elements can be wrapped with a blockquote element if the p element is indeed a quote. Historically, blockquote has been used purely to force indents, but this is now achieved using CSS. Reserve blockquote for quotes.</p>
+          </div>
+          <div class="half">
+            <h6><code>&lt;small&gt;</code> or <code>.small-body-text</code></h6>
+
+            <p class="small-body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="half">
+            <h6><code>.disclaimer-text</code></h6>
+
+            <p class="disclaimer-text">The disclaimer is always 11px.<br><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id molestie nunc. Suspendisse eu lorem
+          ipsum, in luctus nunc. Etiam in sapien ut nunc cursus tempus non lacus.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>

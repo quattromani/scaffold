@@ -1,0 +1,133 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Colors & Gradients -- Version: 0.4.3 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.color-white {
+  background: $color-white;
+}
+
+.color-black {
+  background: $color-black;
+}
+
+.color-grey {
+  background: $color-grey;
+}
+
+.color-light-grey {
+  background: $color-light-grey;
+}
+
+.color-primary-red {
+  background: $color-primary-red;
+}
+
+.color-primary-green {
+  background: $color-primary-green;
+}
+
+.color-primary-blue {
+  background: $color-primary-blue;
+}
+
+.color-primary-lav {
+  background: $color-primary-lav;
+}
+
+.color-secondary-red {
+  background: $color-secondary-red;
+}
+
+.color-secondary-green {
+  background: $color-secondary-green;
+}
+
+.color-secondary-blue {
+  background: $color-secondary-blue;
+}
+
+.color-secondary-lav {
+  background: $color-secondary-lav;
+}
+
+/* Typography Colors */
+
+.text {
+  color: $text;
+}
+
+.color-text {
+  background: $text;
+}
+
+.color-link {
+  background: $link;
+}
+
+.color-error {
+  background: $text-error;
+}
+
+.color-info {
+  background: $text-info;
+}
+
+.color-success {
+  background: $text-success;
+}
+
+.link {
+  color: $link;
+}
+
+.text-grey {
+  color: $text-grey;
+}
+
+.text-light-grey {
+  color: $text-light-grey;
+}
+
+.text-link {
+  color: $text-link;
+}
+
+.text-white {
+  color: $text-white;
+}
+
+.text-info {
+  color: $text-info;
+}
+
+.text-muted, .muted {
+  color: $text-grey;
+}
+
+.text-warning, .text-error {
+  color: $text-error;
+}
+
+.error, .is-error {
+  background: lighten($text-error, 25%);
+  color: $text-error;
+}
+
+.text-info {
+  color: $text-info;
+}
+
+.text-success {
+  color: $text-success;
+}
+
+/* ie9 (.ie9) */
+
+.ie9 .gradient { filter: none; }
+
+.ie9 [class*="gradient"] {
+  filter: none;
+}

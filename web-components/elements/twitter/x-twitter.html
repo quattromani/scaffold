@@ -1,0 +1,47 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer-jsonp/polymer-jsonp.html">
+
+<polymer-element name="x-twitter" noscript>
+
+<link rel="stylesheet" href="css/flickr.css">
+
+<template>
+
+  <form action="">
+    <div class="row">
+      <div class="four-fifths">
+        <label for="tweets">Search Twitter</label>
+        <input id="tweets" type="text" value="{{tag}}">
+      </div>
+      <div class="fifth">
+        <label></label>
+        <button class="btn btn-primary mobile-full" type="submit">Submit</button>
+      </div>
+    </div>
+  </form>
+
+  <polymer-jsonp id="ajax" auto url="https://api.twitter.com/1.1/search/tweets.json?q={{tag}}"></polymer-jsonp>
+
+  <p>Tweets about of <strong>{{ tag }}</strong> -- showing {{ amount }} results</p>
+  <template  id="tweets" repeat="{{ tweet in tweets }}">
+    {{ tweet }}
+  </template>
+
+</template>
+<script>
+  Polymer('x-twitter', {
+    amount: 10,
+    tweets: [],
+    ready: function () {
+      this.$.tweets.model = this.tweets;
+      this.$.ajax.addEventListener('polymer-response',
+        function (e) {
+          this.tweets = {tweets: e.detail.response.tweets.tweet};
+          this.$.tweets.model = {tweets: e.detail.response.tweets.tweet};
+          this.fire('x-twitter-load', {response: e.detail.response.tweets.tweet});
+        }.bind(this)
+        );
+    }
+  });
+</script>
+</polymer-element>

@@ -1,0 +1,15 @@
+/* ==========================================================================
+    Nav -- Version: 0.4.0 - Compiled: timestamp()
+   ========================================================================== */
+nav .container {
+  display: table;
+  width: 100%;
+}
+nav ul {
+  display: table-row;
+  width: 100%;
+}
+nav ul li {
+  display: table-cell;
+  width: 20%;
+}

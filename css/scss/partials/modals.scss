@@ -1,0 +1,81 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Modals -- Version: 0.4.0.1 - Updated: 4/28/2014
+   ========================================================================== */
+
+.modal {
+  .modal-overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    zoom: 1;
+    @include opacity(.5);
+    z-index: 9999;
+  }
+  .modal-container {
+    display: none;
+    position: fixed;
+    overflow: visible;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 45em;
+    max-width: 90%;
+    margin: auto;
+    margin-top: -16em;
+    @include border-radius;
+    background: none repeat scroll 0 0 #fff;
+    color: $text;
+    z-index: 99999;
+    > .modal-content {
+      @include box-shadow(0 0 5px 2px #555);
+    }
+  }
+  .modal-close {
+    position: absolute;
+    float: right;
+    top: 1em;
+    right: 1em;
+    height: 32px;
+    width: 32px;
+    background: url(/scaffold/images/modal-close.png) no-repeat;
+    cursor: pointer;
+  }
+  .modal-header {
+    @include padding(1em);
+    @include border-radius($border-radius $border-radius 0 0);
+    background: #f0f2f5;
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 0;
+    }
+  }
+  .modal-body {
+    overflow: auto;
+    max-height: 25em;
+    @include padding(1em);
+  }
+  .modal-footer {
+    overflow: auto;
+    @include padding(1em);
+    @include border-radius(0 0 $border-radius $border-radius);
+    background: #f0f2f5;
+  }
+}
+
+@media (max-width: $bp-small) {
+
+.modal-component { min-height: 500px; }
+  .modal {
+    .modal-body {
+      max-height: 15.625em;
+    }
+  }
+
+}

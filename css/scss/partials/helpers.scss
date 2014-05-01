@@ -1,0 +1,220 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.clear {
+  clear: both;
+}
+
+.relative {
+  position: relative;
+}
+
+.left {
+  float: left;
+  left: 0;
+}
+
+.right {
+  float: right;
+  right: 0;
+}
+
+/* Font Size Helpers */
+@for $i from 1 through 128 {
+  .fs-#{$i} {
+    @include font-size($i);
+  }
+  .fs#{$i} {
+    @include font-size($i);
+  }
+}
+
+/* Create widths in increments of 5% */
+[class*='width-'] {
+  @include inline-block;
+}
+
+$widths: 5;
+@while $widths < 100 {
+  .width-#{$widths} {
+    width: ($widths * 1%);
+  }
+  $widths: $widths + 5 !global;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+  clear: both;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.image-left {
+  float: left;
+  margin-right: $margin;
+}
+
+.image-center {
+  @include margin(0,auto);
+  text-align: center;
+}
+
+.image-right {
+  float: right;
+  margin-left: $margin;
+}
+
+.box {
+  @include margin(0,0,$margin,0);
+  @include padding($padding);
+  @include border-radius;
+  border: 1px solid $color-light-grey;
+  background: lighten($color-light-grey,10%);
+  h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+  }
+}
+
+.border-radius {
+  @include border-radius;
+}
+
+.bordered-solid {
+  @include padding($padding);
+  border: 1px solid $color-grey;
+}
+
+.bordered-dotted {
+  @include padding($padding);
+  border: 1px dotted $color-grey;
+}
+
+.bordered-left {
+  padding-left: $site-gutter-width;
+  border-left: 1px dotted $color-grey;
+}
+
+.bordered-left-dark {
+  @extend .bordered-left;
+  border-left: 1px solid $text;
+}
+
+.bordered-right {
+  padding-right: $site-gutter-width;
+  border-right: 1px dotted $color-grey;
+}
+
+.bordered-right-dark {
+  @extend .bordered-right;
+  border-right: 1px solid $text;
+}
+
+.column-count-2 {
+  @include columns(2,$margin * 2);
+}
+
+.column-count-3 {
+  @include columns(3,$margin * 2);
+}
+
+.column-count-4 {
+  @include columns(4,$margin * 2);
+}
+
+.column-count-6 {
+  @include columns(6,$margin * 2);
+}
+
+.nowrap {
+  overflow: hidden;
+}
+
+.hidden, .desktop-hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.no-fouc {
+  display: none;
+}
+
+.js-last {
+  border-bottom: 0;
+}
+
+.desktop-br { display: block; }
+
+// Text Truncation
+
+[class*='truncate'] {
+  overflow: hidden;
+  margin-bottom: $margin;
+}
+
+@media (max-width: $bp-medium) {
+  .tablet-hidden {
+    display: none !important;
+  }
+  .desktop-hidden {
+    display: block;
+  }
+
+  .tablet-br {
+    display: block;
+  }
+
+  .bordered-left, .bordered-right {
+    @include padding;
+    border: none;
+  }
+
+  .column-count-2, .column-count-3, .column-count-4 {
+    @include columns(2, $margin * 2)
+  }
+
+  .column-count-6 {
+    @include columns(3,$margin * 2);
+  }
+
+}
+
+@media (max-width: $bp-small) {
+
+  .mobile-hidden {
+    display: none !important;
+  }
+  .mobile-full {
+    display: block;
+    float: none;
+  }
+
+  .mobile-br {
+    display: block;
+  }
+
+  .column-count-2, .column-count-3, .column-count-4 {
+    @include columns(1,0)
+  }
+
+}

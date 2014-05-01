@@ -1,0 +1,113 @@
+<span id="table-anchor" class="h2 jumpTo-anchor">Table</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="tables">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <!-- Table Component -->
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">Items</th>
+        <th class="qty">Qty</th>
+        <th class="price">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="item">Envisioning Information <span>By Edward R. Tufte – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$33.32</td>
+      </tr>
+      <tr>
+        <td class="item">Outliers <span>By Malcolm Gladwell – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">2</td>
+        <td class="price">$33.58 <span>($16.79 × 2)</span></td>
+      </tr>
+      <tr>
+        <td class="item">Don’t Make Me Think <span>By Steve Krug – Paperback</span></td>
+        <td class="stock out">Out of Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$22.80</td>
+      </tr>
+      <tr>
+        <td class="item">Steve Jobs <span>By Walter Isaacson – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$17.49</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="sub">
+        <td colspan="3">Subtotal</td>
+        <td>$107.19</td>
+      </tr>
+      <tr class="tax">
+        <td colspan="3">Tax</td>
+        <td>$10.71</td>
+      </tr>
+      <tr class="total">
+        <td colspan="3">Total</td>
+        <td>$117.90</td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- .Table Component -->
+
+{% highlight html %}
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Items</th>
+      <th class="qty">Qty</th>
+      <th class="price">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="item">Envisioning Information <span>By Edward R. Tufte – Hardcover</span></td>
+      <td class="stock in">In Stock</td>
+      <td class="qty">1</td>
+      <td class="price">$33.32</td>
+    </tr>
+    <tr>
+      <td class="item">Outliers <span>By Malcolm Gladwell – Hardcover</span></td>
+      <td class="stock in">In Stock</td>
+      <td class="qty">2</td>
+      <td class="price">$33.58 <span>($16.79 × 2)</span></td>
+    </tr>
+    <tr>
+      <td class="item">Don’t Make Me Think <span>By Steve Krug – Paperback</span></td>
+      <td class="stock out">Out of Stock</td>
+      <td class="qty">1</td>
+      <td class="price">$22.80</td>
+    </tr>
+    <tr>
+      <td class="item">Steve Jobs <span>By Walter Isaacson – Hardcover</span></td>
+      <td class="stock in">In Stock</td>
+      <td class="qty">1</td>
+      <td class="price">$17.49</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="sub">
+      <td colspan="3">Subtotal</td>
+      <td>$107.19</td>
+    </tr>
+    <tr class="tax">
+      <td colspan="3">Tax</td>
+      <td>$10.71</td>
+    </tr>
+    <tr class="total">
+      <td colspan="3">Total</td>
+      <td>$117.90</td>
+    </tr>
+  </tfoot>
+</table>
+{% endhighlight %}
+
+</div>

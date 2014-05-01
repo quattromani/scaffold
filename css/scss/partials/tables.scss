@@ -1,0 +1,23 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Tables -- Version: 0.4.1- Compiled: #{timestamp()}
+   ========================================================================== */
+
+table {
+  width: 100%;
+  max-width: 100%;
+}
+
+th {
+  background: transparent;
+}
+
+tr:nth-of-type(even) {
+  background: $color-off-white;
+}
+
+th, td {
+  @include padding(1em);
+}

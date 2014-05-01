@@ -1,0 +1,87 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Forms -- Version: 0.4.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+input, textarea, label, select {
+  @include font-size(16);
+  vertical-align: baseline;
+}
+
+input, textarea, select {
+  width: 100%;
+  max-width: 100%;
+  @include padding(.35em,.5em);
+  @include margin;
+  border: 0;
+  border: 1px solid $color-light-grey;
+  outline: none;
+  @include border-radius;
+  font-weight: 300;
+  @include transition(all,.2s,ease-in-out);
+  &[type='search'] {
+    padding-left: 2em;
+    background: url(/scaffold/images/iconmonstr-magnifier-5-icon-48.png) no-repeat left center;
+    background-size: 1em;
+    background-position: .5em;
+    &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-datetime-edit-fields-wrapper  {
+      -webkit-appearance: none;
+    }
+  }
+  &[type="radio"], &[type="checkbox"] {
+    float: left;
+    @include margin(.25em,.5em,1em,.1em);
+  }
+  &:focus {
+    @include box-shadow(inset .3em 0 0 0 rgba($form-focus,.75));
+  }
+}
+
+input {
+  &[type="checkbox"], &[type="radio"] {
+    width: auto;
+    @include padding;
+    border: 0;
+  }
+}
+
+input::-webkit-datetime-edit-fields-wrapper {
+  font-family: $base-font;
+}
+
+select, datalist, input::-webkit-inner-spin-button  {
+  -webkit-appearance: none;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+@include placeholder {
+    color: $text;
+    font-weight: 100;
+}
+
+.formitem {
+  float: left;
+  width: 100%;
+}
+
+.required:after {
+  content: '*';
+}
+
+/* Honeypot */
+#fillit {
+  display: none;
+}
+
+/* ie (.ie) */
+.ie input[type="radio"] {
+  border: 0px !important;
+}

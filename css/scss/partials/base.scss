@@ -1,0 +1,64 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    CSS Code for all Global Elements and Site-Wide Selectors
+
+    Author: Max Quattromani
+    Base -- Version: 0.4.3
+   ========================================================================== */
+
+/*
+
+ * Base
+  * Colors
+  * Defaults
+
+ * Layout
+
+ * Module
+
+ * State
+
+ * Theme
+
+ * Browser Specific
+ 		* Safari/Chrome/Webkit
+ 		* Firefox
+ 		* Internet Explorer
+
+ */
+
+/* ==========================================================================
+    Base: Defaults
+   ========================================================================== */
+/* ==========================
+	  Reset
+   ========================== */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  @include margin;
+  @include padding;
+  border: 0;
+  background: transparent;
+  list-style: none outside none;
+  vertical-align: baseline;
+}
+
+/* ==========================
+	  HTML5 Display Definitions
+   ========================== */
+
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* ==========================
+	  Base Stucture
+   ========================== */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

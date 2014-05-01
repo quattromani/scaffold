@@ -1,0 +1,98 @@
+// Pull globals for individually compiled css files
+@import "../globals/allGlobals";
+
+/* ==========================================================================
+    Lists -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+ol {
+  @include margin(0,0,0,($margin * 1.5));
+  @include padding;
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  @include margin;
+  @include padding;
+  ul {
+    @include margin;
+  }
+}
+
+/* Bulleted List Items */
+
+.bulleted {
+  ~ ul {
+    margin-bottom: 0;
+  }
+  li {
+    list-style: outside disc;
+    margin-left: $margin;
+    border-bottom: none;
+  }
+}
+
+/* Horizontal List Items */
+
+.horizontal {
+  li {
+    display: inline;
+  }
+  [class*='column-count-'] li {
+    @include inline-block;
+  }
+  &.slashes li {
+    @include padding;
+    &:after {
+      content: '/';
+      @include padding(0,($padding / 2));
+    }
+    &.js-last:after {
+      content: '';
+    }
+  }
+  &.pipes li {
+    @include padding;
+    &:after {
+      content: '|';
+      @include padding(0,.25em,0,.5em);
+    }
+    &.js-last:after {
+      content: '';
+    }
+  }
+}
+
+/* Vertical List Items */
+
+.vertical {
+  li {
+    @include padding(($padding / 2),0);
+  }
+  &.lined li {
+    overflow: auto;
+    border-bottom: 1px dotted $color-light-grey;
+    &.js-last {
+      border-bottom: none;
+    }
+  }
+}
+
+/* Ordered List */
+
+ol li {
+  list-style: decimal;
+  list-style-position: outside;
+}
+
+/* Definition List */
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: $margin;
+}

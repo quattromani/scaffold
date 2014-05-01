@@ -1,0 +1,389 @@
+/* ==========================================================================
+    Typography -- Version: 1.9.0.1  - Compiled: timestamp()
+   ========================================================================== */
+html {
+  height: 100%;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-size: 10px;
+  /* absolutely set to maintain ratio around user settings */
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, button, input, select, textarea {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.443;
+  letter-spacing: .035em;
+}
+
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Thin';
+  src: url("fonts/NHaasGroteskDSPro-25Th.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-25Th.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-25Th.woff") format("woff"), url("fonts/NHaasGroteskDSPro-25Th.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-25Th.svg#724af24f6d5a343225e4a2409b916cf1") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro XLt';
+  src: url("fonts/NHaasGroteskDSPro-35XLt.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-35XLt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-35XLt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-35XLt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-35XLt.svg#1af8a305ccdaf7fd37619de1aa605cb8") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Lt';
+  src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Md';
+  src: url("fonts/NHaasGroteskDSPro-65Md.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-65Md.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-65Md.woff") format("woff"), url("fonts/NHaasGroteskDSPro-65Md.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-65Md.svg#8166d35894c383a4b60e821768d81454") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro Blk';
+  src: url("fonts/NHaasGroteskDSPro-95Blk.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-95Blk.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-95Blk.woff") format("woff"), url("fonts/NHaasGroteskDSPro-95Blk.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-95Blk.svg#9c730d47b7fc9726d199b5c4365f330e") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fonts/icons/fontawesome-webfont.eot");
+  src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.base-font {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.base-font-alt {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.arialBold {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+/* ==========================
+	  Body Text
+   ========================== */
+.lede {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+
+.body-text {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.small-body-text {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.disclaimer-text {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+/* ==========================
+	  Links
+   ========================== */
+a {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ef272d;
+  text-decoration: none;
+  cursor: pointer;
+}
+a img {
+  border: 0 none;
+  text-decoration: none;
+}
+a:hover {
+  color: #a82620;
+}
+
+/* ==========================
+	  Headings
+   ========================== */
+h1, .h1 {
+  font-size: 40px;
+  font-size: 4rem;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+@media (max-width: 62em) {
+  h1, .h1 {
+    font-size: 35px;
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 40em) {
+  h1, .h1 {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+}
+
+h2, .h2 {
+  font-size: 32px;
+  font-size: 3.2rem;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+@media (max-width: 62em) {
+  h2, .h2 {
+    font-size: 28px;
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 40em) {
+  h2, .h2 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
+
+h3, .h3 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+@media (max-width: 62em) {
+  h3, .h3 {
+    font-size: 21px;
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 40em) {
+  h3, .h3 {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+h4, .h4 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: inherit;
+}
+
+h6, .h6 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+small {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+  clear: inherit;
+  margin-bottom: 0.33333em;
+  vertical-align: middle;
+}
+
+p, .p {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+p:only-child, .p:only-child {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: capitalize;
+}
+
+blockquote {
+  width: 75%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  border-left: 3px solid #5b5b5b;
+  color: #5b5b5b;
+  font-style: italic;
+  padding-left: 1em;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+abbr {
+  border-bottom: 1px dotted #5b5b5b;
+  cursor: help;
+}
+
+address {
+  font-style: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: bottom;
+}
+
+mark {
+  background: yellow;
+}
+
+/* ==========================
+	  Pre
+   ========================== */
+pre {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  background-color: whitesmoke;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: auto;
+  padding: 1em;
+  word-wrap: break-word;
+}
+
+kbd, samp {
+  font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+kbd, samp {
+  color: #a0d468;
+}
+
+.valid, .is-valid {
+  color: #a0d468;
+}
+
+.code-comment {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+i.fa {
+  font-family: "FontAwesome", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+/* ==========================
+    Logo
+   ========================== */
+.GLG {
+  font-weight: bolder;
+  letter-spacing: -1px;
+}
+
+.logo_slash,
+.division {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+.division {
+  position: relative;
+  left: -.1em;
+  color: #757575;
+}
