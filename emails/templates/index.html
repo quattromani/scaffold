@@ -1,0 +1,196 @@
+---
+layout: emails
+title: Emails
+class: styleguide
+
+FirstName: John
+LastName: Doe
+Company: Acme Corporation
+companyTaxId: 11235813
+companyAddress1: 123 Main St.
+city: Anytown, USA
+state: TX
+zip: 11235
+country: Murca
+phone: (112) 358-1321
+paymentMethod: Cash
+companyWebsite: acme.io
+affiliation: related
+comments: All work and no play makes Jake a dull boy
+
+employee:
+  firstName: Wil
+  lastName: Ballard
+  title: CTO
+  streetLn1: 850 Third Ave
+  streetLn2: 9th Floor
+  city: New York
+  state: NY
+  postalCode: 10022
+  phoneMain: +1 212 984 8500
+  email: wballard@glgroup.com
+---
+
+<h3>Guidelines for writing emails</h3>
+	<ul class="vertical bulleted">
+		<li>All emails MUST be from a real person. We do not send email from a no-reply or system account</li>
+		<li>Remember that you're not designing a printable piece of paper, but an actionable email</li>
+		<li>Make sure there is one clear action in the email. Don't add confusion with multiple actions</li>
+		<li>Have a clear title, lead with "GLG" if possible</li>
+		<li>Make sure it has a clear preview, or "toast" that the reader can easily see in thier email queue, be it Mobile, Outlook, or gmail. If they can't tell what its about without clicking into it, they may never read it</li>
+		<li>Test on mobile. Don't assume it looks good just because it looks good on your Hi-Res Mac. Make it work well on mobile first, and then on Outlook. Hold your phone at arms length to make sure its still legible</li>
+		<li>Font Sizes & Colors:
+		<ul>
+			<li>The magic number is 4. Use at most 4 font sizes and 4 colors</li>
+			<li>Text should 18px if you want people to read it</li>
+			<li>Legal text or other boilerplate that's less important can be 12px to 14px</li>
+			<li>Bold counts as a font size and color</li>
+			<li>Generally, use the GLG red as a highlight color and grey for smaller less important text like boilerplate</li>
+			<li>Yes, white is a color too!</li>
+		</ul></li>
+		<li>
+Remember, the emails are FOR the readers. The number one priority needs to be making them usable, not adding cool design elements</li>
+		<li>Watch out for using GLG Jargon in your emails, don't waste space with things people outside the company might not understand</li>
+		<li>While testing, send emails to people directly through the app. Forwarding an email destroys the formatting
+</li>
+	</ul>
+
+{{>email_header}}
+
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="{{CMP_URL}}/style.css">
+</head>
+<body>
+	<p>
+		<a class="logo" href="/scaffold">
+			<span class="h3 GLG tight fs40">GLG</span>
+			<span class="logo_slash link fs40">/</span>
+			<span class="h1 division fs40">CMP</span>
+		</a>
+		<hr/>
+		<a style="font-weight:bold;" href="{{Vega_Url}}/councilmember/AdvisorDetails.aspx?cmid={{CouncilMemberId}}">{{page.FirstName}} {{page.LastName}}</a>, a Council Member, is contacting you in order to create a Company Account for Payments.<br/><br/>
+		<h3>Company Information</h3>
+		<b>Company:</b> {{page.Company}}<br/>
+
+		{{#companyTaxId}}
+		<b>Company Tax Id:</b> {{page.companyTaxId}}<br/>
+		{{/companyTaxId}}
+
+		<b>Company Address Line 1:</b> <span>{{page.companyAddress1}}</span><br/>
+		{{#companyAddress2}}
+		<b>Company Address Line 2:</b> {{companyAddress2}}<br/>
+		{{/companyAddress2}}
+		{{#companyAddress3}}
+		<b>Company Address Line 3:</b> {{companyAddress3}}<br/>
+		{{/companyAddress3}}
+		<b>City:</b> {{page.city}}<br/>
+		{{#state}}
+		<b>State/Province:</b> {{page.state}}<br/>
+		{{/state}}
+		{{#zip}}
+		<b>Zip:</b> {{page.zip}}<br/>
+		{{/zip}}
+		<b>Country:</b> {{page.country}}<br/>
+
+		<b>Phone Number:</b> {{page.phone}}<br/>
+
+		<b>Payment Method:</b> {{page.paymentMethod}}<br/>
+
+		{{#companyWebsite}}
+		<b>Company Website:</b> {{page.companyWebsite}}<br/>
+		{{/companyWebsite}}
+
+		<br/>
+		<h3>Comments</h3>
+		<b>CM Affiliation to Company:</b><br/>
+		{{page.affiliation}}<br/>
+		{{#comments}}
+		<b>Additional Comments:</b><br/>
+		{{page.comments}}
+		{{/comments}}
+
+<br><br>
+
+		Kind Regards, <br/>
+		{{page.employee.firstName}} {{page.employee.lastName}} <br/><br/>
+		{{page.employee.firstName}} {{page.employee.lastName}} | {{page.employee.title}} <br/>
+		GLG <br/>
+		{{#employee.streetLn1}} {{page.employee.streetLn1}}{{/employee.streetLn1}}{{#employee.streetLn2}} {{page.employee.streetLn2}}{{/employee.streetLn2}},
+		{{page.employee.city}}{{#employee.state}}, {{page.employee.state}}{{/employee.state}}{{#employee.postalCode}} {{page.employee.postalCode}}{{/employee.postalCode}}<br/>
+		Direct {{page.employee.phoneMain}} {{#employee.extension}}{{page.employee.extension}}{{/employee.extension}} {{#employee.faxMain}} | Fax {{page.employee.faxMain}}{{/employee.faxMain}} <br/>
+		{{page.employee.email}}</br>
+		<a href="http://www.glg.it">www.glg.it</a></br></br>
+	</p>
+</body>
+</html>
+
+{% highlight html %}
+{{>email_header}}
+
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="{{CMP_URL}}/style.css">
+</head>
+<body>
+	<p>
+		<img class="cmpLogo" src="{{CMP_URL}}/img/glgr-cmp-logo.png" alt="GLG Research Consulting Management Platform"/><br/>
+		<hr/>
+		<a style="font-weight:bold;" href="{{Vega_Url}}/councilmember/AdvisorDetails.aspx?cmid={{CouncilMemberId}}">{{page.FirstName}} {{page.LastName}}</a>, a Council Member, is contacting you in order to create a Company Account for Payments.<br/><br/>
+		<h3>Company Information</h3>
+		<b>Company:</b> {{page.Company}}<br/>
+
+		{{#companyTaxId}}
+		<b>Company Tax Id:</b> {{page.companyTaxId}}<br/>
+		{{/companyTaxId}}
+
+		<b>Company Address Line 1:</b> <span>{{page.companyAddress1}}</span><br/>
+		{{#companyAddress2}}
+		<b>Company Address Line 2:</b> {{companyAddress2}}<br/>
+		{{/companyAddress2}}
+		{{#companyAddress3}}
+		<b>Company Address Line 3:</b> {{companyAddress3}}<br/>
+		{{/companyAddress3}}
+		<b>City:</b> {{page.city}}<br/>
+		{{#state}}
+		<b>State/Province:</b> {{page.state}}<br/>
+		{{/state}}
+		{{#zip}}
+		<b>Zip:</b> {{page.zip}}<br/>
+		{{/zip}}
+		<b>Country:</b> {{page.country}}<br/>
+
+		<b>Phone Number:</b> {{page.phone}}<br/>
+
+		<b>Payment Method:</b> {{page.paymentMethod}}<br/>
+
+		{{#companyWebsite}}
+		<b>Company Website:</b> {{page.companyWebsite}}<br/>
+		{{/companyWebsite}}
+
+		<br/>
+		<h3>Comments</h3>
+		<b>CM Affiliation to Company:</b><br/>
+		{{page.affiliation}}<br/>
+		{{#comments}}
+		<b>Additional Comments:</b><br/>
+		{{page.comments}}
+		{{/comments}}
+
+<br><br>
+
+		Kind Regards, <br/>
+		{{page.employee.firstName}} {{page.employee.lastName}} <br/><br/>
+		{{page.employee.firstName}} {{page.employee.lastName}} | {{page.employee.title}} <br/>
+		GLG <br/>
+		{{#employee.streetLn1}} {{page.employee.streetLn1}}{{/employee.streetLn1}}{{#employee.streetLn2}} {{page.employee.streetLn2}}{{/employee.streetLn2}},
+		{{page.employee.city}}{{#employee.state}}, {{page.employee.state}}{{/employee.state}}{{#employee.postalCode}} {{page.employee.postalCode}}{{/employee.postalCode}}<br/>
+		Direct {{page.employee.phoneMain}} {{#employee.extension}}{{page.employee.extension}}{{/employee.extension}} {{#employee.faxMain}} | Fax {{page.employee.faxMain}}{{/employee.faxMain}} <br/>
+		{{page.employee.email}}</br>
+		<a href="http://www.glg.it">www.glg.it</a></br></br>
+	</p>
+</body>
+</html>
+{% endhighlight %}
