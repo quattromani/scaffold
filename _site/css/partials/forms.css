@@ -1,0 +1,113 @@
+/* ==========================================================================
+    Forms -- Version: 0.4.0 - Compiled: timestamp()
+   ========================================================================== */
+input, textarea, label, select {
+  font-size: 16px;
+  font-size: 1.6rem;
+  vertical-align: baseline;
+}
+
+input, textarea, select {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 0.35em;
+  padding-right: 0.5em;
+  padding-bottom: 0.35em;
+  padding-left: 0.5em;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border: 0;
+  border: 1px solid #cccccc;
+  outline: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  font-weight: 300;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+input[type='search'], textarea[type='search'], select[type='search'] {
+  padding-left: 2em;
+  background: url(/scaffold/images/iconmonstr-magnifier-5-icon-48.png) no-repeat left center;
+  background-size: 1em;
+  background-position: .5em;
+}
+input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-datetime-edit-fields-wrapper, textarea[type='search']::-webkit-search-decoration, textarea[type='search']::-webkit-search-cancel-button, textarea[type='search']::-webkit-datetime-edit-fields-wrapper, select[type='search']::-webkit-search-decoration, select[type='search']::-webkit-search-cancel-button, select[type='search']::-webkit-datetime-edit-fields-wrapper {
+  -webkit-appearance: none;
+}
+input[type="radio"], input[type="checkbox"], textarea[type="radio"], textarea[type="checkbox"], select[type="radio"], select[type="checkbox"] {
+  float: left;
+  margin-top: 0.25em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 0.1em;
+}
+input:focus, textarea:focus, select:focus {
+  -webkit-box-shadow: inset 0.3em 0 0 0 rgba(204, 204, 204, 0.75);
+  -moz-box-shadow: inset 0.3em 0 0 0 rgba(204, 204, 204, 0.75);
+  box-shadow: inset 0.3em 0 0 0 rgba(204, 204, 204, 0.75);
+}
+
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border: 0;
+}
+
+input::-webkit-datetime-edit-fields-wrapper {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+select, datalist, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+  color: #333333;
+  font-weight: 100;
+}
+
+:-moz-placeholder {
+  color: #333333;
+  font-weight: 100;
+}
+
+::-moz-placeholder {
+  color: #333333;
+  font-weight: 100;
+}
+
+:-ms-input-placeholder {
+  color: #333333;
+  font-weight: 100;
+}
+
+.formitem {
+  float: left;
+  width: 100%;
+}
+
+.required:after {
+  content: '*';
+}
+
+/* Honeypot */
+#fillit {
+  display: none;
+}
+
+/* ie (.ie) */
+.ie input[type="radio"] {
+  border: 0px !important;
+}

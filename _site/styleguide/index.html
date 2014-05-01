@@ -1,0 +1,3137 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Styleguide |  Scaffold</title>
+	<meta name="description" content="" />
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimal-ui">
+
+	<link rel="stylesheet" href="/scaffold/css/main.css" >
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/scaffold/css/syntax.css">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="styleguide">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	    <!-- Begin Content Wrapper -->
+    <div class="content">
+      <div class="container">
+
+<a class="logo" href="/scaffold">
+	<span class="h3 GLG tight fs40">GLG</span>
+	<span class="logo_slash link fs40">/</span>
+	<span class="h1 division fs40">Style Guide</span>
+</a>
+
+<hr>
+
+    <p>Version: 0.2.1 -- Updated: 2014-04-30 18:03:14 -0600</p>
+<hr>
+
+<!-- Loop through and include all styleguide sections -->
+<h2 id="about-anchor" class="jumpTo-anchor">About the Style Guide</h2>
+
+<div class="box-column">
+  <p class="lede">A style guide and code standards document is a way of ensuring brand and code consistency. By maintaining all of a website's primary elements on a single page, we can see how we can modularly reuse components as well as how changes to semantic elements will effect the site overall. This style guide also serves as a curated, archival collection for design and UX/UI decisions made during the course of the site's development. Bonus points for making cross-browser testing simpler by putting everything in one place.</p>
+</div>
+
+<span id="colors-anchor" class="h2 jumpTo-anchor">Colors</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="colors">Isolate</a>
+</div>
+
+<div class="box-column clear">
+  <h3>Slab Colors</h3>
+    <div class="row clearfix">
+      <div class="column fourth">
+
+        <div class="swatch">
+          <div class="swatch-color color-white">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-black">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-grey">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-light-grey">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row clearfix">
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-primary-red">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-primary-green">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-primary-blue">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-primary-lav">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row clearfix">
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-secondary-red">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-secondary-green">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-secondary-blue">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+      <div class="column fourth">
+        <div class="swatch">
+          <div class="swatch-color color-secondary-lav">
+          </div>
+          <div class="swatch-info">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <hr>
+
+  <h3>Typography Colors</h3>
+
+  <div class="row clearfix">
+    <div class="column fifth">
+      <div class="swatch">
+        <div class="swatch-color color-text">
+        </div>
+        <div class="swatch-info">
+        </div>
+      </div>
+    </div>
+    <div class="column fifth">
+      <div class="swatch">
+        <div class="swatch-color color-link">
+        </div>
+        <div class="swatch-info">
+        </div>
+      </div>
+    </div>
+    <div class="column fifth">
+      <div class="swatch">
+        <div class="swatch-color color-error">
+        </div>
+        <div class="swatch-info">
+        </div>
+      </div>
+    </div>
+    <div class="column fifth">
+      <div class="swatch">
+        <div class="swatch-color color-info">
+        </div>
+        <div class="swatch-info">
+        </div>
+      </div>
+    </div>
+    <div class="column fifth">
+      <div class="swatch">
+        <div class="swatch-color color-success">
+        </div>
+        <div class="swatch-info">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<span id="typography-anchor" class="h2 jumpTo-anchor">Typography</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="typography">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+<span id="fonts-anchor" class="h2 jumpTo-anchor">Fonts</span>
+<div class="vertical lined">
+  <ul>
+    <li>
+      <p class="fonts base-font">
+
+      <br>
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      <br>
+      abcdefghijklmnopqrstuvwxyz
+      <br>
+      0123456789
+      </p>
+    </li>
+    <li>
+      <p class="fonts base-font-alt">
+
+      <br>
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      <br>
+      abcdefghijklmnopqrstuvwxyz
+      <br>
+      0123456789
+      </p>
+    </li>
+  </ul>
+</div>
+
+<hr>
+
+<span id="headings-anchor" class="h2 jumpTo-anchor">Headings</span>
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <h1><code>h1</code> / <code>.h1</code> - The H1 is the main page heading</h1>
+        <h5>Page Title / Section Title</h5>
+      </li>
+      <li>
+        <h2><code>h2</code> / <code>.h2</code> - The H2 is the page level or section heading</h2>
+        <h5>Page Title / Section Title</h5>
+        <p>The secondary header above is an h2 element, which may be used for any form of important page-level header. More than one may be used per page. Consider using an h2 unless you need a header level of less importance, or as a sub-header to an existing h2 element.</p>
+      </li>
+      <li>
+        <h3><code>h3</code> / <code>.h3</code> - The H3 is a third-level heading</h3>
+        <h5>Section Header / Banner Title / Section Subhead</h5>
+        <p>The header above is an h3 element, which may be used for any form of page-level header which falls below the h2 header in a document hierarchy.</p>
+      </li>
+      <li>
+        <h4><code>h4</code> / <code>.h4</code> - The H4 is the fourth-level heading</h4>
+        <h5>Sub Header</h5>
+        <p>Typically used for article title or call-to-action elements.</p>
+      </li>
+      <li>
+        <h5><code>h5</code> / <code>.h5</code> - The H5 is the fifth-level heading</h5>
+        <h5>Sub Header</h5>
+      </li>
+      <li>
+        <h6><code>h6</code> / <code>.h6</code> - The H6 is the sixth-level heading and the lowest</h6>
+        <h5>Sub Header</h5>
+        <p>Each heading has an accompanying class that can be used for styling any element without the need or restriction of SEO impact.</p>
+      </li>
+      <li>
+        <div class="hgroup">
+          <h2>This is an <code>.hgroup</code></h2>
+          <h3>This is the heading group's main heading</h3>
+          <h4>This is the heading group's subheading</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<hr>
+
+<span id="body-anchor" class="h2 jumpTo-anchor">Body</span>
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <h6><code>.lede</code> (Intro text)</h6>
+
+        <p class="lede">A lede, or lead, paragraph in literature is the opening paragraph of an article, essay, news story or book chapter. It usually occurs together with the headline or title. It precedes the main body of the article, and it gives the reader the main idea of the story. In both spellings, the word rhymes with the word need.</p>
+      </li>
+      <li>
+        <div class="row">
+          <div class="half">
+            <h6><code>&lt;p&gt;</code> or <code>.body-text</code></h6>
+
+            <p class="body-text">All paragraphs are wrapped in p tags. Additionally, p elements can be wrapped with a blockquote element if the p element is indeed a quote. Historically, blockquote has been used purely to force indents, but this is now achieved using CSS. Reserve blockquote for quotes.</p>
+          </div>
+          <div class="half">
+            <h6><code>&lt;small&gt;</code> or <code>.small-body-text</code></h6>
+
+            <p class="small-body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="half">
+            <h6><code>.disclaimer-text</code></h6>
+
+            <p class="disclaimer-text">The disclaimer is always 11px.<br><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id molestie nunc. Suspendisse eu lorem
+          ipsum, in luctus nunc. Etiam in sapien ut nunc cursus tempus non lacus.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<hr>
+
+<span id="inline-anchor" class="h2 jumpTo-anchor">Inline</span>
+  <div class="vertical lined">
+    <ul>
+      <li><code>&lt;a&gt;</code> - <a href="#">This is a text link</a></li>
+      <li><code>&lt;strong&gt;</code> - <strong>Strong is used to indicate strong importance</strong></li>
+      <li><code>&lt;em&gt;</code> - <em>This text has added emphasis</em></li>
+      <li><code>&lt;b&gt;</code> - The <b>b element</b> is stylistically different text from normal text, without any special importance</li>
+      <li><code>&lt;i&gt;</code> - The <i>i element is text that is set off from the normal text</i></li>
+      <li><code>&lt;u&gt;</code> - The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation</li>
+      <li><code>&lt;del&gt; &amp; &lt;ins&gt;</code> -  This text is <del>deleted</del> and <ins>This text is inserted</ins></li>
+      <li><code>&lt;s&gt;</code> - <s>This text has a strikethrough</s></li>
+      <li><code>&lt;sup&gt;</code> - Superscript<sup>&reg;</sup></li>
+      <li><code>&lt;sub&gt;</code> - Subscript for things like H<sub>2</sub>O</li>
+      <li><code>&lt;abbr&gt;</code> - Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></li>
+      <li><code>&lt;kbd&gt;</code> - Keybord input: <kbd>Cmd</kbd></li>
+      <li><code>&lt;q&gt;</code> - <q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation</q></li>
+      <li><code>&lt;cite&gt;</code> - <cite>This is a citation</cite></li>
+      <li><code>&lt;dfn&gt;</code> - The <dfn>dfn element</dfn> indicates a definition.</li>
+      <li><code>&lt;mark&gt;</code> - The <mark>mark element</mark> indicates a highlight</li>
+      <li><code>&lt;var&gt;</code> - The <var>var element</var> defines a variable</li>
+      <li>
+        <code>&lt;address&gt;</code>
+        <br><br>
+        <address>
+          Address Name<br>
+          1234 Main St.<br>
+          Anywhere, US 12345
+        </address>
+      </li>
+      <li>
+        <code>&lt;tel&gt;</code> - <a class="tel" href="tel:+18008519530">1-800-851-9530</a>
+      </li>
+      <li>
+        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">30 Apr 2014</time>
+      </li>
+      <li>
+        <code>&lt;blockquote&gt;</code>
+        <br><br>
+        <blockquote>
+          One small step for man, one giant leap for mankind.
+        </blockquote>
+      </li>
+      <li><span class="text-info"><code>.text-info</code> - This text is informative</span></li>
+      <li><span class="text-error"><code>.text-error</code> - This text is an error</span></li>
+      <li><span class="text-success"><code>.text-success</code> - This text is a success</span></li>
+    </ul>
+  </div>
+
+<hr>
+
+<span id="icons-anchor" class="h2 jumpTo-anchor">Icons</span>
+
+  <p class="lede">Font Awesome is employed for scalable vector icons that can be customized — size, color, drop shadow, and anything that can be done with CSS. These icons will always match the font color.</p>
+
+  <div class="column-count-3">
+    <div class="vertical list">
+      <ul>
+
+        <li>
+          <i class="fa fa-fw">&#xf002;</i>
+          <code>.fa.fa-search</code>
+          <span class="muted">(&amp;#xf002;)</span>
+        </li>
+
+<!--         <li>
+          <i class="fa fa-fw">&#xf004;</i>
+          fa-heart
+          <span class="muted">(&amp;#xf004;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf005;;</i>
+          fa-star
+          <span class="muted">(&amp;#xf005;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf007;</i>
+          <code>.fa.fa-user</code>
+          <span class="muted">(&amp;#xf007;)</span>
+        </li>
+
+<!--         <li>
+          <i class="fa fa-fw">&#xf008;</i>
+          fa-film
+          <span class="muted">(&amp;#xf008;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf009;</i>
+          fa-th-large
+          <span class="muted">(&amp;#xf009;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf00a;</i>
+          fa-th
+          <span class="muted">(&amp;#xf00a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf00b;</i>
+          fa-th-list
+          <span class="muted">(&amp;#xf00b;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf00c;</i>
+          <code>.fa.fa-check</code>
+          <span class="muted">(&amp;#xf00c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf00d;</i>
+          <code>.fa.fa-times</code>
+          <span class="muted">(&amp;#xf00d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf00e;</i>
+          <code>.fa.fa-search-plus</code>
+          <span class="muted">(&amp;#xf00e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf010;</i>
+          <code>.fa.fa-search-minus</code>
+          <span class="muted">(&amp;#xf010;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf011;</i>
+          <code>.fa.fa-power-off</code>
+          <span class="muted">(&amp;#xf011;)</span>
+        </li>
+<!--
+        <li>
+          <i class="fa fa-fw">&#xf012;</i>
+          fa-signal
+          <span class="muted">(&amp;#xf012;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf013;</i>
+          <code>.fa.fa-cog</code>
+          <span class="muted">(&amp;#xf013;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf015;</i>
+          <code>.fa.fa-home</code>
+          <span class="muted">(&amp;#xf015;)</span>
+        </li>
+<!--
+        <li>
+          <i class="fa fa-fw">&#xf018;</i>
+          fa-road
+          <span class="muted">(&amp;#xf018;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf019;</i>
+          fa-download
+          <span class="muted">(&amp;#xf019;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf01c;</i>
+          <code>.fa.fa-inbox</code>
+          <span class="muted">(&amp;#xf01c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf01e;</i>
+          <code>.fa.a-repeat</code>
+          <span class="muted">(&amp;#xf01e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf021;</i>
+          <code>.fa.fa-refresh</code>
+          <span class="muted">(&amp;#xf021;)</span>
+        </li>
+<!--
+        <li>
+          <i class="fa fa-fw">&#xf022;</i>
+          fa-list-alt
+          <span class="muted">(&amp;#xf022;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf023;</i>
+          fa-lock
+          <span class="muted">(&amp;#xf023;)</span>
+        </li> -->
+
+<!--         <li>
+          <i class="fa fa-fw">&#xf024;</i>
+          fa-flag
+          <span class="muted">(&amp;#xf024;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf025;</i>
+          fa-headphones
+          <span class="muted">(&amp;#xf025;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf026;</i>
+          fa-volume-off
+          <span class="muted">(&amp;#xf026;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf027;</i>
+          fa-volume-down
+          <span class="muted">(&amp;#xf027;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf028;</i>
+          fa-volume-up
+          <span class="muted">(&amp;#xf028;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf02b;</i>
+          fa-tag
+          <span class="muted">(&amp;#xf02b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf02c;</i>
+          fa-tags
+          <span class="muted">(&amp;#xf02c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf02d;</i>
+          fa-book
+          <span class="muted">(&amp;#xf02d;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf02e;</i>
+          <code>.fa.fa-bookmark</code>
+          <span class="muted">(&amp;#xf02e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf02f;</i>
+          <code>.fa.fa-print</code>
+          <span class="muted">(&amp;#xf02f;)</span>
+        </li>
+
+<!--         <li>
+          <i class="fa fa-fw">&#xf030;</i>
+          fa-camera
+          <span class="muted">(&amp;#xf030;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf032;</i>
+          fa-bold
+          <span class="muted">(&amp;#xf032;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf033;</i>
+          fa-italic
+          <span class="muted">(&amp;#xf033;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf034;</i>
+          fa-text-height
+          <span class="muted">(&amp;#xf034;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf035;</i>
+          fa-text-width
+          <span class="muted">(&amp;#xf035;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf036;</i>
+          fa-align-left
+          <span class="muted">(&amp;#xf036;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf037;</i>
+          fa-align-center
+          <span class="muted">(&amp;#xf037;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf038;</i>
+          fa-align-right
+          <span class="muted">(&amp;#xf038;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf039;</i>
+          fa-align-justify
+          <span class="muted">(&amp;#xf039;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf03a;</i>
+          fa-list
+          <span class="muted">(&amp;#xf03a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf03b;</i>
+          fa-outdent
+          <span class="muted">(&amp;#xf03b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf03c;</i>
+          fa-indent
+          <span class="muted">(&amp;#xf03c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf03d;</i>
+          fa-video-camera
+          <span class="muted">(&amp;#xf03d;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf040;</i>
+          <code>.fa.fa-pencil</code>
+          <span class="muted">(&amp;#xf040;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf041;</i>
+          <code>.fa.fa-map-marker</code>
+          <span class="muted">(&amp;#xf041;)</span>
+        </li>
+
+<!--         <li>
+          <i class="fa fa-fw">&#xf042;</i>
+          fa-adjust
+          <span class="muted">(&amp;#xf042;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf043;</i>
+          fa-tint
+          <span class="muted">(&amp;#xf043;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf047;</i>
+          fa-arrows
+          <span class="muted">(&amp;#xf047;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf048;</i>
+          fa-step-backward
+          <span class="muted">(&amp;#xf048;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf049;</i>
+          fa-fast-backward
+          <span class="muted">(&amp;#xf049;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf04a;</i>
+          fa-backward
+          <span class="muted">(&amp;#xf04a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf04b;</i>
+          fa-play
+          <span class="muted">(&amp;#xf04b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf04c;</i>
+          fa-pause
+          <span class="muted">(&amp;#xf04c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf04d;</i>
+          fa-stop
+          <span class="muted">(&amp;#xf04d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf04e;</i>
+          fa-forward
+          <span class="muted">(&amp;#xf04e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf050;</i>
+          fa-fast-forward
+          <span class="muted">(&amp;#xf050;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf051;</i>
+          fa-step-forward
+          <span class="muted">(&amp;#xf051;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf052;</i>
+          fa-eject
+          <span class="muted">(&amp;#xf052;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf053;</i>
+          <code>.fa.fa-chevron-left</code>
+          <span class="muted">(&amp;#xf053;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf054;</i>
+          <code>.fa.fa-chevron-right</code>
+          <span class="muted">(&amp;#xf054;)</span>
+        </li>
+
+  <!--       <li>
+          <i class="fa fa-fw">&#xf055;</i>
+          fa-plus-circle
+          <span class="muted">(&amp;#xf055;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf056;</i>
+          fa-minus-circle
+          <span class="muted">(&amp;#xf056;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf057;</i>
+          fa-times-circle
+          <span class="muted">(&amp;#xf057;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf058;</i>
+          fa-check-circle
+          <span class="muted">(&amp;#xf058;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf059;</i>
+          fa-question-circle
+          <span class="muted">(&amp;#xf059;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf05a;</i>
+          fa-info-circle
+          <span class="muted">(&amp;#xf05a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf05b;</i>
+          fa-crosshairs
+          <span class="muted">(&amp;#xf05b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf05e;</i>
+          fa-ban
+          <span class="muted">(&amp;#xf05e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf060;</i>
+          fa-arrow-left
+          <span class="muted">(&amp;#xf060;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf061;</i>
+          fa-arrow-right
+          <span class="muted">(&amp;#xf061;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf062;</i>
+          fa-arrow-up
+          <span class="muted">(&amp;#xf062;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf063;</i>
+          fa-arrow-down
+          <span class="muted">(&amp;#xf063;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf064;</i>
+          fa-share
+          <span class="muted">(&amp;#xf064;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf065;</i>
+          fa-expand
+          <span class="muted">(&amp;#xf065;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf066;</i>
+          fa-compress
+          <span class="muted">(&amp;#xf066;)</span>
+        </li> -->
+
+        <li>
+          <i class="fa fa-fw">&#xf067;</i>
+          <code>.fa.fa-plus</code>
+          <span class="muted">(&amp;#xf067;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf068;</i>
+          <code>.fa.fa-minus</code>
+          <span class="muted">(&amp;#xf068;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf069;</i>
+          <code>.fa.fa-asterisk</code>
+          <span class="muted">(&amp;#xf069;)</span>
+        </li>
+
+<!--         <li>
+          <i class="fa fa-fw">&#xf06a;</i>
+          fa-exclamation-circle
+          <span class="muted">(&amp;#xf06a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf06e;</i>
+          fa-eye
+          <span class="muted">(&amp;#xf06e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf070;</i>
+          fa-eye-slash
+          <span class="muted">(&amp;#xf070;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf071;</i>
+          fa-exclamation-triangle
+          <span class="muted">(&amp;#xf071;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf072;</i>
+          fa-plane
+          <span class="muted">(&amp;#xf072;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf073;</i>
+          fa-calendar
+          <span class="muted">(&amp;#xf073;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf074;</i>
+          fa-random
+          <span class="muted">(&amp;#xf074;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf075;</i>
+          fa-comment
+          <span class="muted">(&amp;#xf075;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf076;</i>
+          fa-magnet
+          <span class="muted">(&amp;#xf076;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf077;</i>
+          fa-chevron-up
+          <span class="muted">(&amp;#xf077;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf078;</i>
+          fa-chevron-down
+          <span class="muted">(&amp;#xf078;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf079;</i>
+          fa-retweet
+          <span class="muted">(&amp;#xf079;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf07a;</i>
+          fa-shopping-cart
+          <span class="muted">(&amp;#xf07a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf07b;</i>
+          fa-folder
+          <span class="muted">(&amp;#xf07b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf07d;</i>
+          fa-arrows-v
+          <span class="muted">(&amp;#xf07d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf07e;</i>
+          fa-arrows-h
+          <span class="muted">(&amp;#xf07e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf081;</i>
+          fa-twitter-square
+          <span class="muted">(&amp;#xf081;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf082;</i>
+          fa-facebook-square
+          <span class="muted">(&amp;#xf082;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf083;</i>
+          fa-camera-retro
+          <span class="muted">(&amp;#xf083;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf085;</i>
+          fa-cogs
+          <span class="muted">(&amp;#xf085;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf086;</i>
+          fa-comments
+          <span class="muted">(&amp;#xf086;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf089;</i>
+          fa-star-half
+          <span class="muted">(&amp;#xf089;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf08b;</i>
+          fa-sign-out
+          <span class="muted">(&amp;#xf08b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf08c;</i>
+          fa-linkedin-square
+          <span class="muted">(&amp;#xf08c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf08d;</i>
+          fa-thumb-tack
+          <span class="muted">(&amp;#xf08d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf08e;</i>
+          fa-external-link
+          <span class="muted">(&amp;#xf08e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf090;</i>
+          fa-sign-in
+          <span class="muted">(&amp;#xf090;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf091;</i>
+          fa-trophy
+          <span class="muted">(&amp;#xf091;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf092;</i>
+          fa-github-square
+          <span class="muted">(&amp;#xf092;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf093;</i>
+          fa-upload
+          <span class="muted">(&amp;#xf093;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf095;</i>
+          fa-phone
+          <span class="muted">(&amp;#xf095;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf098;</i>
+          fa-phone-square
+          <span class="muted">(&amp;#xf098;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf099;</i>
+          fa-twitter
+          <span class="muted">(&amp;#xf099;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf09a;</i>
+          fa-facebook
+          <span class="muted">(&amp;#xf09a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf09b;</i>
+          fa-github
+          <span class="muted">(&amp;#xf09b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf09c;</i>
+          fa-unlock
+          <span class="muted">(&amp;#xf09c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf09d;</i>
+          fa-credit-card
+          <span class="muted">(&amp;#xf09d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf09e;</i>
+          fa-rss
+          <span class="muted">(&amp;#xf09e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0a8;</i>
+          fa-arrow-circle-left
+          <span class="muted">(&amp;#xf0a8;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0a9;</i>
+          fa-arrow-circle-right
+          <span class="muted">(&amp;#xf0a9;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0aa;</i>
+          fa-arrow-circle-up
+          <span class="muted">(&amp;#xf0aa;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ab;</i>
+          fa-arrow-circle-down
+          <span class="muted">(&amp;#xf0ab;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ac;</i>
+          fa-globe
+          <span class="muted">(&amp;#xf0ac;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ad;</i>
+          fa-wrench
+          <span class="muted">(&amp;#xf0ad;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ae;</i>
+          fa-tasks
+          <span class="muted">(&amp;#xf0ae;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0b0;</i>
+          fa-filter
+          <span class="muted">(&amp;#xf0b0;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0b1;</i>
+          fa-briefcase
+          <span class="muted">(&amp;#xf0b1;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0b2;</i>
+          fa-arrows-alt
+          <span class="muted">(&amp;#xf0b2;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c0;</i>
+          fa-users
+          <span class="muted">(&amp;#xf0c0;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c1;</i>
+          fa-link
+          <span class="muted">(&amp;#xf0c1;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c2;</i>
+          fa-cloud
+          <span class="muted">(&amp;#xf0c2;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c3;</i>
+          fa-flask
+          <span class="muted">(&amp;#xf0c3;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c4;</i>
+          fa-scissors
+          <span class="muted">(&amp;#xf0c4;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c6;</i>
+          fa-paperclip
+          <span class="muted">(&amp;#xf0c6;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c8;</i>
+          fa-square
+          <span class="muted">(&amp;#xf0c8;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0c9;</i>
+          fa-bars
+          <span class="muted">(&amp;#xf0c9;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ca;</i>
+          fa-list-ul
+          <span class="muted">(&amp;#xf0ca;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0cb;</i>
+          fa-list-ol
+          <span class="muted">(&amp;#xf0cb;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0cc;</i>
+          fa-strikethrough
+          <span class="muted">(&amp;#xf0cc;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0cd;</i>
+          fa-underline
+          <span class="muted">(&amp;#xf0cd;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ce;</i>
+          fa-table
+          <span class="muted">(&amp;#xf0ce;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d2;</i>
+          fa-pinterest
+          <span class="muted">(&amp;#xf0d2;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d3;</i>
+          fa-pinterest-square
+          <span class="muted">(&amp;#xf0d3;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d4;</i>
+          fa-google-plus-square
+          <span class="muted">(&amp;#xf0d4;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d5;</i>
+          fa-google-plus
+          <span class="muted">(&amp;#xf0d5;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d6;</i>
+          fa-money
+          <span class="muted">(&amp;#xf0d6;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d7;</i>
+          fa-caret-down
+          <span class="muted">(&amp;#xf0d7;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d8;</i>
+          fa-caret-up
+          <span class="muted">(&amp;#xf0d8;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0d9;</i>
+          fa-caret-left
+          <span class="muted">(&amp;#xf0d9;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0da;</i>
+          fa-caret-right
+          <span class="muted">(&amp;#xf0da;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0db;</i>
+          fa-columns
+          <span class="muted">(&amp;#xf0db;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0dc;</i>
+          fa-sort
+          <span class="muted">(&amp;#xf0dc;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0dd;</i>
+          fa-sort-asc
+          <span class="muted">(&amp;#xf0dd;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0de;</i>
+          fa-sort-desc
+          <span class="muted">(&amp;#xf0de;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0e0;</i>
+          fa-envelope
+          <span class="muted">(&amp;#xf0e0;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0e1;</i>
+          fa-linkedin
+          <span class="muted">(&amp;#xf0e1;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0e2;</i>
+          fa-undo
+          <span class="muted">(&amp;#xf0e2;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0e7;</i>
+          fa-bolt
+          <span class="muted">(&amp;#xf0e7;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0e8;</i>
+          fa-sitemap
+          <span class="muted">(&amp;#xf0e8;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0e9;</i>
+          fa-umbrella
+          <span class="muted">(&amp;#xf0e9;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ea;</i>
+          fa-clipboard
+          <span class="muted">(&amp;#xf0ea;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ec;</i>
+          fa-exchange
+          <span class="muted">(&amp;#xf0ec;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ed;</i>
+          fa-cloud-download
+          <span class="muted">(&amp;#xf0ed;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0ee;</i>
+          fa-cloud-upload
+          <span class="muted">(&amp;#xf0ee;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0f0;</i>
+          fa-user-md
+          <span class="muted">(&amp;#xf0f0;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0f1;</i>
+          fa-stethoscope
+          <span class="muted">(&amp;#xf0f1;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0f2;</i>
+          fa-suitcase
+          <span class="muted">(&amp;#xf0f2;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0f4;</i>
+          fa-coffee
+          <span class="muted">(&amp;#xf0f4;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0f5;</i>
+          fa-cutlery
+          <span class="muted">(&amp;#xf0f5;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0f9;</i>
+          fa-ambulance
+          <span class="muted">(&amp;#xf0f9;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0fa;</i>
+          fa-medkit
+          <span class="muted">(&amp;#xf0fa;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0fd;</i>
+          fa-h-square
+          <span class="muted">(&amp;#xf0fd;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf0fe;</i>
+          fa-plus-square
+          <span class="muted">(&amp;#xf0fe;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf100;</i>
+          fa-angle-double-left
+          <span class="muted">(&amp;#xf100;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf101;</i>
+          fa-angle-double-right
+          <span class="muted">(&amp;#xf101;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf102;</i>
+          fa-angle-double-up
+          <span class="muted">(&amp;#xf102;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf103;</i>
+          fa-angle-double-down
+          <span class="muted">(&amp;#xf103;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf104;</i>
+          fa-angle-left
+          <span class="muted">(&amp;#xf104;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf105;</i>
+          fa-angle-right
+          <span class="muted">(&amp;#xf105;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf106;</i>
+          fa-angle-up
+          <span class="muted">(&amp;#xf106;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf107;</i>
+          fa-angle-down
+          <span class="muted">(&amp;#xf107;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf108;</i>
+          fa-desktop
+          <span class="muted">(&amp;#xf108;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf109;</i>
+          fa-laptop
+          <span class="muted">(&amp;#xf109;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf10a;</i>
+          fa-tablet
+          <span class="muted">(&amp;#xf10a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf10b;</i>
+          fa-mobile
+          <span class="muted">(&amp;#xf10b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf10d;</i>
+          fa-quote-left
+          <span class="muted">(&amp;#xf10d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf10e;</i>
+          fa-quote-right
+          <span class="muted">(&amp;#xf10e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf110;</i>
+          fa-spinner
+          <span class="muted">(&amp;#xf110;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf111;</i>
+          fa-circle
+          <span class="muted">(&amp;#xf111;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf112;</i>
+          fa-reply
+          <span class="muted">(&amp;#xf112;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf11e;</i>
+          fa-flag-checkered
+          <span class="muted">(&amp;#xf11e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf120;</i>
+          fa-terminal
+          <span class="muted">(&amp;#xf120;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf121;</i>
+          fa-code
+          <span class="muted">(&amp;#xf121;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf122;</i>
+          fa-reply-all
+          <span class="muted">(&amp;#xf122;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf122;</i>
+          fa-mail-reply-all
+          <span class="muted">(&amp;#xf122;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf124;</i>
+          fa-location-arrow
+          <span class="muted">(&amp;#xf124;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf125;</i>
+          fa-crop
+          <span class="muted">(&amp;#xf125;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf126;</i>
+          fa-code-fork
+          <span class="muted">(&amp;#xf126;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf127;</i>
+          fa-chain-broken
+          <span class="muted">(&amp;#xf127;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf128;</i>
+          fa-question
+          <span class="muted">(&amp;#xf128;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf129;</i>
+          fa-info
+          <span class="muted">(&amp;#xf129;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf12a;</i>
+          fa-exclamation
+          <span class="muted">(&amp;#xf12a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf12b;</i>
+          fa-superscript
+          <span class="muted">(&amp;#xf12b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf12c;</i>
+          fa-subscript
+          <span class="muted">(&amp;#xf12c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf12d;</i>
+          fa-eraser
+          <span class="muted">(&amp;#xf12d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf12e;</i>
+          fa-puzzle-piece
+          <span class="muted">(&amp;#xf12e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf130;</i>
+          fa-microphone
+          <span class="muted">(&amp;#xf130;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf131;</i>
+          fa-microphone-slash
+          <span class="muted">(&amp;#xf131;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf137;</i>
+          fa-chevron-circle-left
+          <span class="muted">(&amp;#xf137;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf138;</i>
+          fa-chevron-circle-right
+          <span class="muted">(&amp;#xf138;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf139;</i>
+          fa-chevron-circle-up
+          <span class="muted">(&amp;#xf139;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf13a;</i>
+          fa-chevron-circle-down
+          <span class="muted">(&amp;#xf13a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf13e;</i>
+          fa-unlock-alt
+          <span class="muted">(&amp;#xf13e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf140;</i>
+          fa-bullseye
+          <span class="muted">(&amp;#xf140;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf141;</i>
+          fa-ellipsis-h
+          <span class="muted">(&amp;#xf141;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf142;</i>
+          fa-ellipsis-v
+          <span class="muted">(&amp;#xf142;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf143;</i>
+          fa-rss-square
+          <span class="muted">(&amp;#xf143;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf144;</i>
+          fa-play-circle
+          <span class="muted">(&amp;#xf144;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf145;</i>
+          fa-ticket
+          <span class="muted">(&amp;#xf145;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf146;</i>
+          fa-minus-square
+          <span class="muted">(&amp;#xf146;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf148;</i>
+          fa-level-up
+          <span class="muted">(&amp;#xf148;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf149;</i>
+          fa-level-down
+          <span class="muted">(&amp;#xf149;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf14a;</i>
+          fa-check-square
+          <span class="muted">(&amp;#xf14a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf14b;</i>
+          fa-pencil-square
+          <span class="muted">(&amp;#xf14b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf14c;</i>
+          fa-external-link-square
+          <span class="muted">(&amp;#xf14c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf14d;</i>
+          fa-share-square
+          <span class="muted">(&amp;#xf14d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf14e;</i>
+          fa-compass
+          <span class="muted">(&amp;#xf14e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf15b;</i>
+          fa-file
+          <span class="muted">(&amp;#xf15b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf15c;</i>
+          fa-file-text
+          <span class="muted">(&amp;#xf15c;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf15d;</i>
+          fa-sort-alpha-asc
+          <span class="muted">(&amp;#xf15d;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf15e;</i>
+          fa-sort-alpha-desc
+          <span class="muted">(&amp;#xf15e;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf160;</i>
+          fa-sort-amount-asc
+          <span class="muted">(&amp;#xf160;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf161;</i>
+          fa-sort-amount-desc
+          <span class="muted">(&amp;#xf161;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf162;</i>
+          fa-sort-numeric-asc
+          <span class="muted">(&amp;#xf162;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf163;</i>
+          fa-sort-numeric-desc
+          <span class="muted">(&amp;#xf163;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf164;</i>
+          fa-thumbs-up
+          <span class="muted">(&amp;#xf164;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf165;</i>
+          fa-thumbs-down
+          <span class="muted">(&amp;#xf165;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf166;</i>
+          fa-youtube-square
+          <span class="muted">(&amp;#xf166;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf167;</i>
+          fa-youtube
+          <span class="muted">(&amp;#xf167;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf16a;</i>
+          fa-youtube-play
+          <span class="muted">(&amp;#xf16a;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf16b;</i>
+          fa-dropbox
+          <span class="muted">(&amp;#xf16b;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf175;</i>
+          fa-long-arrow-down
+          <span class="muted">(&amp;#xf175;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf176;</i>
+          fa-long-arrow-up
+          <span class="muted">(&amp;#xf176;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf177;</i>
+          fa-long-arrow-left
+          <span class="muted">(&amp;#xf177;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf178;</i>
+          fa-long-arrow-right
+          <span class="muted">(&amp;#xf178;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf179;</i>
+          fa-apple
+          <span class="muted">(&amp;#xf179;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf182;</i>
+          fa-female
+          <span class="muted">(&amp;#xf182;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf183;</i>
+          fa-male
+          <span class="muted">(&amp;#xf183;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf187;</i>
+          fa-archive
+          <span class="muted">(&amp;#xf187;)</span>
+        </li>
+
+        <li>
+          <i class="fa fa-fw">&#xf193;</i>
+          fa-wheelchair
+          <span class="muted">(&amp;#xf193;)</span>
+        </li> -->
+
+      </ul>
+    </div>
+  </div>
+
+<hr>
+
+<span id="alignment-anchor" class="h2 jumpTo-anchor">Alignment</span>
+  <!-- Text Alignment Component -->
+  <p class="text-left"><code>.text-left</code></p>
+  <p class="text-center"><code>.text-center</code></p>
+  <p class="text-right"><code>.text-right</code></p>
+  <p class="text-justify"><code>.text-justify</code></p>
+  <!-- .Text Alignment Component -->
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-left&quot;</span><span class="nt">&gt;&lt;code&gt;</span>.text-left<span class="nt">&lt;/code&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-center&quot;</span><span class="nt">&gt;&lt;code&gt;</span>.text-center<span class="nt">&lt;/code&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-right&quot;</span><span class="nt">&gt;&lt;code&gt;</span>.text-right<span class="nt">&lt;/code&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;text-justify&quot;</span><span class="nt">&gt;&lt;code&gt;</span>.text-justify<span class="nt">&lt;/code&gt;&lt;/p&gt;</span>
+</code></pre></div>
+
+</div>
+<span id="buttons-anchor" class="h2 jumpTo-anchor">Buttons</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="buttons">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <a href="" class="btn btn-primary mobile-full">Link</a>
+
+  <button class="btn btn-primary mobile-full" type="button">Button</button>
+
+  <a href="" class="btn mobile-full">Link</a>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary mobile-full&quot;</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary mobile-full&quot;</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn mobile-full&quot;</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+
+  <hr>
+  <h3>Button Types</h3>
+
+  <a href="" class="btn btn-error mobile-full">Error</a>
+
+  <a href="" class="btn btn-success mobile-full">Success</a>
+
+  <a href="" class="btn btn-info mobile-full">Info</a>
+
+  <a href="" class="btn btn-black mobile-full">Dark</a>
+
+  <a href="" class="btn btn-primary js-disabled mobile-full">Disabled</a>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-error mobile-full&quot;</span><span class="nt">&gt;</span>Error<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-success mobile-full&quot;</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-info mobile-full&quot;</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-black mobile-full&quot;</span><span class="nt">&gt;</span>Dark<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary js-disabled mobile-full&quot;</span><span class="nt">&gt;</span>Disabled<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+
+  <hr>
+
+  <h3>Button Sizes</h3>
+
+  <a href="" class="btn btn-primary btn-xl mobile-full">Extra Large</a>
+
+  <a href="" class="btn btn-primary btn-lg mobile-full">Large</a>
+
+  <a href="" class="btn btn-primary mobile-full">Default</a>
+
+  <a href="" class="btn btn-primary btn-sm mobile-full">Small</a>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary btn-xl mobile-full&quot;</span><span class="nt">&gt;</span>Extra Large<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary btn-lg mobile-full&quot;</span><span class="nt">&gt;</span>Large<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary mobile-full&quot;</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary btn-sm mobile-full&quot;</span><span class="nt">&gt;</span>Small<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="grid-anchor" class="h2 jumpTo-anchor">Grid</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="grid">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+    <div class="row">
+        <div class="full grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="half grid"></div>
+        <div class="half grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="third grid"></div>
+        <div class="third grid"></div>
+        <div class="third grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+        <div class="fifth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+        <div class="sixth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+        <div class="seventh grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+        <div class="eighth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+        <div class="ninth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+        <div class="tenth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+        <div class="eleventh grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+        <div class="twelfth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="golden-long grid">
+
+        </div>
+        <div class="golden-short grid">
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="half grid">
+
+        </div>
+        <div class="fourth grid"></div>
+        <div class="fourth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="three-fourths grid">
+
+        </div>
+        <div class="fourth grid"></div>
+    </div>
+
+    <div class="row">
+        <div class="three-eighths grid">
+
+        </div>
+        <div class="five-eighths grid"></div>
+    </div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;half grid&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;half grid&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Combinations</h3>
+
+    <div class="row text-center">
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid four-fifths color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+        <div class="column grid three-fourths color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+        <div class="column grid two-thirds color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid three-eighths color-primary-blue text-white">
+        </div>
+        <div class="column grid five-eighths color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid two-fifths color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid two-fifths color-primary-blue text-white">
+
+        </div>
+        <div class="column grid three-fifths color-primary-blue text-white">
+
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid three-fifths color-primary-blue text-white">
+
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid two-thirds color-primary-blue text-white">
+        </div>
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="column grid three-fourths color-primary-blue text-white">
+        </div>
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+    </div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row text-center&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;fourth&quot;</span><span class="nt">&gt;</span>
+        
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;three-fourths&quot;</span><span class="nt">&gt;</span>
+        
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Marginless</h3>
+
+    <div class="row marginless text-center">
+        <div class="column grid full color-primary-blue text-white">
+        </div>
+    </div>
+    <div class="row marginless text-center">
+        <div class="column grid half color-primary-blue text-white">
+        </div>
+        <div class="column grid half color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid sixth color-primary-blue text-white">
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+        </div>
+    </div>
+    <div class="row marginless text-center">
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+        <div class="column grid eighth color-primary-blue text-white">
+        </div>
+    </div>
+    <div class="row marginless text-center">
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+        <div class="column grid tenth color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+        <div class="column grid twelfth color-primary-blue text-white">
+        </div>
+    </div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row marginless&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;half&quot;</span><span class="nt">&gt;</span>
+        
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;half&quot;</span><span class="nt">&gt;</span>
+        
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Marginless Combinations</h3>
+
+    <div class="row marginless text-center">
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid four-fifths color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+        <div class="column grid three-fourths color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+        <div class="column grid two-thirds color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid three-eighths color-primary-blue text-white">
+        </div>
+        <div class="column grid five-eighths color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid two-fifths color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid two-fifths color-primary-blue text-white">
+
+        </div>
+        <div class="column grid three-fifths color-primary-blue text-white">
+
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid three-fifths color-primary-blue text-white">
+
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+
+        </div>
+        <div class="column grid fifth color-primary-blue text-white">
+
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid two-thirds color-primary-blue text-white">
+
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+
+        </div>
+        <div class="column grid sixth color-primary-blue text-white">
+
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid two-thirds color-primary-blue text-white">
+        </div>
+        <div class="column grid third color-primary-blue text-white">
+        </div>
+    </div>
+
+    <div class="row marginless text-center">
+        <div class="column grid three-fourths color-primary-blue text-white">
+        </div>
+        <div class="column grid fourth color-primary-blue text-white">
+        </div>
+    </div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row marginless&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;fourth&quot;</span><span class="nt">&gt;</span>
+    
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;three-fourths&quot;</span><span class="nt">&gt;</span>
+    
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+</div>
+<style>
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-item {
+	flex: 1;
+  text-align: center;
+  color: #fff;
+}
+.one { flex: 1; }
+.two { flex: 2; }
+.three { flex: 3; }
+.five { flex: 5; }
+.eight { flex: 8; }
+.thirteen { flex: 12; }
+.twentyone { flex: 21; }
+
+</style>
+
+<span id="flexbox-anchor" class="h2 jumpTo-anchor">Flexbox</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="flexbox">Isolate</a>
+</div>
+
+<div class="box-column clear">
+	<ul class="flex-container">
+	  <li class="flex-item one color-primary-red">1</li>
+    <li class="flex-item one color-primary-green">1</li>
+	  <li class="flex-item two color-primary-blue">2</li>
+	  <li class="flex-item three color-secondary-red">3</li>
+    <li class="flex-item five color-secondary-green">5</li>
+    <li class="flex-item eight color-secondary-blue">8</li>
+    <li class="flex-item thirteen color-primary-red">13</li>
+    <li class="flex-item twentyone color-primary-green">21</li>
+	</ul>
+</div>
+<span id="images-anchor" class="h2 jumpTo-anchor">Images</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="images">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <figure>
+    <img alt="Bill Murray Y'all" src="http://www.fillmurray.com/g/1500/450">
+    <figcaption>I'm a figcaption - I tell a bit about the image</figcaption>
+  </figure>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;figure&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray Y&#39;all&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.fillmurray.com/g/1500/450&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;figcaption&gt;</span>I&#39;m a figcaption - I tell a bit about the image<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+</code></pre></div>
+
+  <hr>
+
+  <div class="row clearfix">
+    <div class="column fourth">
+      <figure>
+        <img src="http://www.fillmurray.com/640/480" alt="Bill Murray">
+      </figure>
+    </div>
+    <div class="column fourth">
+      <figure>
+        <img class="image-bordered" src="http://www.fillmurray.com/640/480" alt="Bill Murray">
+      </figure>
+    </div>
+    <div class="column fourth center">
+      <figure>
+        <img class="image-rounded" src="http://www.fillmurray.com/640/480" alt="Bill Murray">
+      </figure>
+    </div>
+    <div class="column fourth">
+      <figure>
+        <img class="image-circular" src="http://www.fillmurray.com/640/480" alt="Bill Murray">
+      </figure>
+    </div>
+  </div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;figure&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray Y&#39;all&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.fillmurray.com/640/480&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+
+<span class="nt">&lt;figure&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">&quot;image-bordered&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray Y&#39;all&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.fillmurray.com/640/480&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+
+<span class="nt">&lt;figure&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">&quot;image-rounded&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray Y&#39;all&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.fillmurray.com/640/480&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+
+<span class="nt">&lt;figure&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">&quot;image-circular&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray Y&#39;all&quot;</span> <span class="na">src=</span><span class="s">&quot;http://www.fillmurray.com/640/480&quot;</span> <span class="na">alt=</span><span class="s">&quot;Bill Murray&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="video-anchor" class="h2 jumpTo-anchor">Video</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="video">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <video controls="controls" poster="http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg" width="100%" height="auto">
+    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
+    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm" />
+    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg" />
+    <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+      <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+      <param name="allowFullScreen" value="true" />
+      <param name="wmode" value="transparent" />
+      <param name="flashVars" value="config={'playlist':['http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg',{'url':'http%3A%2F%2Fclips.vorwaerts-gmbh.de%2Fbig_buck_bunny.mp4','autoPlay':false}]}" />
+      <img alt="Big Buck Bunny" src="http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg" width="640" height="360" title="No video playback capabilities, please download the video below" />
+    </object>
+  </video>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;video</span> <span class="na">controls=</span><span class="s">&quot;controls&quot;</span> <span class="na">poster=</span><span class="s">&quot;http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;100%&quot;</span> <span class="na">height=</span><span class="s">&quot;auto&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4&quot;</span> <span class="na">type=</span><span class="s">&quot;video/mp4&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm&quot;</span> <span class="na">type=</span><span class="s">&quot;video/webm&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv&quot;</span> <span class="na">type=</span><span class="s">&quot;video/ogg&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;object</span> <span class="na">type=</span><span class="s">&quot;application/x-shockwave-flash&quot;</span> <span class="na">data=</span><span class="s">&quot;http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf&quot;</span> <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;360&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;movie&quot;</span> <span class="na">value=</span><span class="s">&quot;http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;allowFullScreen&quot;</span> <span class="na">value=</span><span class="s">&quot;true&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;wmode&quot;</span> <span class="na">value=</span><span class="s">&quot;transparent&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;param</span> <span class="na">name=</span><span class="s">&quot;flashVars&quot;</span> <span class="na">value=</span><span class="s">&quot;config={&#39;playlist&#39;:[&#39;http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg&#39;,{&#39;url&#39;:&#39;http%3A%2F%2Fclips.vorwaerts-gmbh.de%2Fbig_buck_bunny.mp4&#39;,&#39;autoPlay&#39;:false}]}&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">alt=</span><span class="s">&quot;Big Buck Bunny&quot;</span> <span class="na">src=</span><span class="s">&quot;http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;360&quot;</span> <span class="na">title=</span><span class="s">&quot;No video playback capabilities, please download the video below&quot;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/object&gt;</span>
+<span class="nt">&lt;/video&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="audio-anchor" class="h2 jumpTo-anchor">Audio</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="audio">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <audio controls="">
+    <source type="audio/mp3" src="assets/audio/test.mp3">
+    <p>Your user agent does not support the HTML5 Audio element.</p>
+  </audio>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;audio</span> <span class="na">controls=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;source</span> <span class="na">type=</span><span class="s">&quot;audio/mp3&quot;</span> <span class="na">src=</span><span class="s">&quot;assets/audio/test.mp3&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Your user agent does not support the HTML5 Audio element.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/audio&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="bestPractices-anchor" class="h2 jumpTo-anchor">Best Practices</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="best_practices">Isolate</a>
+</div>
+<div class="box-column clear">
+
+  <!-- Best Practices Component -->
+  <h3>The Golden Rule</h3>
+  <p class="lede">All code in any part of the code base should look like a single person typed it, no matter how many people contributed.</p>
+
+  <hr>
+
+  <h2>HTML</h2>
+  <hr>
+
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <h5>Human Readable</h5>
+
+        <p class="lede">Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others.</p>
+      </li>
+      <li>
+        <h5>HTML5 doctype</h5>
+
+        <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
+<div class="highlight"><pre><code class="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</code></pre></div>
+      </li>
+      <li>
+        <div class="bulleted">
+          <h5>Syntax</h5>
+          <ul>
+            <li>Use soft-tabs with two spaces</li>
+            <li>Nested elements should be indented once (2 spaces)</li>
+            <li>Don't include a trailing slash in self-closing elements</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="bulleted">
+          <h5>Attributes</h5>
+          <ul>
+            <li>
+              Attributes should be lowercase.
+            </li>
+            <li>
+              Always use double quotes ("), never single quotes.
+            </li>
+            <li>
+              Boolean attributes should be used without quoted values to avoid redundancy.
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <h5>Attribute order</h5>
+        <p>HTML attributes should come in this particular order for easier reading of code.</p>
+        <div class="vertical bulleted">
+          <ul>
+            <li><code>id</code></li>
+            <li><code>class</code></li>
+            <li><code>data-*</code></li>
+            <li><code>for</code> | <code>type</code> | <code>href</code> | <code>src</code></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+
+        <h5>HTML Comments</h5>
+        <div class="bulleted">
+          <ul>
+            <li>
+              Section comments are separated from the previous block by two lines, and should have one following line of space.
+            </li>
+            <li>
+              Prepend section headings with an equal sign (=), to make a Find operation easier.
+            </li>
+          </ul>
+        </div>
+
+<div class="highlight"><pre><code class="html"><span class="c">&lt;!-- Component Name --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;componentName&quot;</span><span class="nt">&gt;</span>
+...
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- ./Component Name --&gt;</span>
+</code></pre></div>
+
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <h2>CSS</h2>
+  <hr>
+
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <ul class="bulleted">
+          <li>Use soft-tabs with two spaces</li>
+          <li>When grouping selectors, keep individual selectors to a single line</li>
+          <li>Include one space before the opening brace of declaration blocks</li>
+          <li>Place closing braces of declaration blocks on a new line</li>
+          <li>Include one space after <code>:</code> in each property</li>
+          <li>Each declaration should appear on its own line</li>
+          <li>End all declarations with a semi-colon</li>
+          <li>Comma-separated values should include a space after each comma</li>
+          <li>Don't include spaces after commas in RGB or RGBa colors</li>
+          <li>Do not specify units for zero values, e.g., margin: 0; instead of margin: 0px;</li>
+          <li>Lowercase all hex values, e.g., #fff instead of #FFF</li>
+          <li>Use shorthand hex values where available, e.g., #fff instead of #ffffff</li>
+          <li>Quote attribute values in selectors, e.g., input[type="text"]</li>
+        </ul>
+      </li>
+      <li>
+        <h5>Declaration Organization</h5>
+
+        <ol>
+          <li>Box (Display, Float, Position, Left, Top, Width, Height, Margin, Padding, etc.)</li>
+          <li>Border</li>
+          <li>Background</li>
+          <li>Text</li>
+          <li>Other</li>
+        </ol>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.someDiv</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="nc">.someOtherDiv</span><span class="o">,</span>
+<span class="nc">.someAdditional</span> <span class="nt">Div</span> <span class="p">{</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>General Formatting</h5>
+
+      <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.print</span> <span class="p">{</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">7px</span><span class="p">;</span>
+  <span class="k">height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#4f799f</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.print</span><span class="nd">:hover</span> <span class="p">{</span> <span class="k">background</span><span class="o">:</span> <span class="m">#265a83</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>
+
+  </li>
+  <li>
+    <p>Avoid Qualifying ID and class names with type selectors</p>
+
+<div class="highlight"><pre><code class="css"><span class="o">//</span> <span class="nt">this</span> <span class="nt">is</span> <span class="nt">bad</span>
+<span class="nt">ul</span><span class="nf">#example</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#ff0</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">div</span><span class="nc">.error</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="o">//</span> <span class="nt">this</span> <span class="nt">is</span> <span class="nt">good</span>
+<span class="nc">.example</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#0f0</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.error</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>
+
+    <p>p.s. ID's are bad for CSS, only use ID's for javascript hooks when necessary</p>
+  </li>
+  <li>
+    <h5>Hexadecimal Notation</h5>
+
+    <p>For color values that permit, 3 character hexadecimal is preferred</p>
+
+<div class="highlight"><pre><code class="css"><span class="c">/* not recommended */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nf">#00ff00</span><span class="o">;</span>
+</code></pre></div>
+<div class="highlight"><pre><code class="css"><span class="c">/* recommended */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nf">#0f0</span><span class="o">;</span>
+</code></pre></div>
+
+  </li>
+  <li>
+    <h4 class="error">!important</h4>
+
+    <h5>Just don't do it.</h5>
+    <p>Use greater specificity to workaround using !important;</p>
+  </li>
+  <li>
+    <h5>Use the SMACSS Approach</h5>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.componentName</span> <span class="p">{</span>
+
+  <span class="n">Base</span> <span class="err">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">Layout</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">Module</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">State</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">Theme</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+<span class="err">}</span>
+</code></pre></div>
+
+</li>
+<li>
+<h5>Commenting</h5>
+
+<div class="highlight"><pre><code class="html">// File headers are commented thusly:
+
+/* ==========================================================================
+    Component Name -- Version: 1.0.0.0 - Updated: MM/DD/YYYY
+   ========================================================================== */
+</code></pre></div>
+
+<div class="highlight"><pre><code class="html">// Section chunks get styled as such:
+/*
+* Chunk of long
+* text gets commented
+* like this
+*/
+</code></pre></div>
+
+<div class="highlight"><pre><code class="html">// Hints get styled like this:
+/* Hint */
+</code></pre></div>
+
+</li>
+</ul>
+</div>
+
+<hr>
+<h2>Sass (or less or stylus, you choose)</h2>
+<hr>
+
+<div class="vertical lined">
+  <ul>
+    <li>
+      <h5>File Organization</h5>
+<div class="bulleted">
+  <ul>
+    <li>
+      Mixins and variables go in scss/global/.
+    </li>
+    <li>
+      Styles related to components/modules/views go in sass/components/.
+    </li>
+    <li>
+      Sass and CSS from other projects goes in sass/vendor/.
+    </li>
+  </ul>
+</div>
+
+<div class="highlight"><pre><code class="html">sass/
+  ├── main.scss
+  ├── globals/
+  |   ├── _mixins.scss
+  |   ├── _var.scss
+  ├── partials/
+  |   ├── _btn.scss
+  |   ├── _list.scss
+  |   ├── _nav.scss
+  |   ├── _etc...
+  ├── theme/
+  |   ├── _btn-theme.scss
+  └── vendor/
+    └── _jquery.ui.core.scss
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>Main Stylesheet</h5>
+      <p>All files get compiled into the main.scss stylesheet, and should be scoped accordingly.</p>
+<p>The main.scss file serves as a "table of contents" and the @import directives should be listed with vendor dependencies first, then author dependencies and core stylesheets, then components.</p>
+<p>Organize the components imports in a manner that makes sense, in other words, group components with the component they extend or inherit from.</p>
+
+<div class="highlight"><pre><code class="scss"><span class="cm">/* Mixins and Variables */</span>
+<span class="c1">// All globals are combined in allModules.scss to reduce the nuber of updates necessary to add new files</span>
+<span class="k">@import</span> <span class="s2">&quot;global/allModules&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Base */</span>
+<span class="k">@import</span> <span class="s2">&quot;partials/base&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Layout */</span>
+<span class="k">@import</span> <span class="s2">&quot;partials/layout&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Modules */</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/colors&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/typography&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/helpers&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/lists&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/buttons&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/pagination&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/accessibility&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/forms&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/images&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/videos&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/modules&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/jumpTo&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/_prototype&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/_styleguide&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Components */</span>
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>Structuring Code</h5>
+<p>@extends and @includes are likely to be overwritten by future elements, placing them at the top of the property list calls them out and avoids the beginning of a specificity war.</p>
+
+<div class="bulleted">
+  <ul>
+    <li>
+      @extends should be grouped together at the top of the selector.
+    </li>
+    <li>
+      @includes should be grouped together after @extends.
+    </li>
+    <li>
+      Regular styles for the current selector should be after @includes.
+    </li>
+    <li>
+      Nested selectors appear last.
+    </li>
+    <li>
+      Nested selectors using & should appear above child (>) nested selectors.
+    </li>
+  </ul>
+</div>
+
+    </li>
+    <li>
+      <h5>Limit nesting to 3 levels and/or 50 lines</h5>
+      <p>Nesting selectors more than three levels deep and the code is at risk of being to reliant on HTML structure, overly-specific and difficult to understand.</p>
+      <p>50 lines is reasonable length for keeping an entire block on a code editor screen without having to scroll.</p>
+    </li>
+    <li>
+      <h5>Variablize ALL THE THINGS!</h5>
+      <div class="bulleted">
+        <ul>
+          <li>
+            Variablize all colors.
+          </li>
+          <li>
+            Numbers (other than 0 or 100%) with strong meaning or frequent use should be variables.
+          </li>
+          <li>
+            Use hyphens (-) in variable names.
+          </li>
+          <li>
+            Name variables based on what they represent, not their values, e.g. $text-size-large instead of $text-size-24.
+          </li>
+          <li>
+            Colors, fonts, and base measurements are all great candidates for variables.
+If you find yourself writing a number other than 0 or 100% more than once, make it a variable.
+          </li>
+          <li>
+            Most variables should be stored in the _variables.scss partial; however, it's acceptable to define component specific variables in the component files.
+          </li>
+          <li>
+            In this case, the variables should be stored at the top of the file.
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <h5>Comments</h5>
+      <p>Try to stick with standard CSS comments, but you can use the Sass style (//) comments for trivial comments or quickly debugging.</p>
+    </li>
+  </ul>
+</div>
+
+<hr>
+<h2>JS</h2>
+<hr>
+
+<div class="vertical lined">
+  <ul>
+    <li>
+      <p class="lede">Prefix all javascript-based selectors with js-. The idea is that you should be able to tell a presentational class from a functional class. Most of the codebase doesn't do this, let's try and move toward it.</p>
+    </li>
+  </ul>
+</div>
+
+<hr>
+
+<h2>ARIA &amp; Accessibility</h2>
+<hr>
+
+<div class="vertical lined">
+  <ul>
+    <li>
+      <p class="lede">Making it possible to provide an enhanced user experience for people with disabilities when using internet applications with assistive technologies.</p>
+    </li>
+    <li>
+      <h5>Landmark Roles</h5>
+
+      <p>banner - typically the "header" of the page</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;header</span> <span class="na">role=</span><span class="s">&quot;banner&quot;</span> <span class="na">class=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;&lt;/header&gt;</span>
+</code></pre></div>
+
+      <p>navigation - any navigation list, typically the nav element</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav&quot;</span><span class="nt">&gt;&lt;/nav&gt;</span>
+</code></pre></div>
+
+      <p>main - the main content area</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;section</span> <span class="na">role=</span><span class="s">&quot;main&quot;</span> <span class="na">class=</span><span class="s">&quot;main&quot;</span><span class="nt">&gt;&lt;/main&gt;</span>
+</code></pre></div>
+
+      <p>complimentary - information that is tangentially related to the main content</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;aside</span> <span class="na">role=</span><span class="s">&quot;complimentary&quot;</span> <span class="na">class=</span><span class="s">&quot;aside&quot;</span><span class="nt">&gt;&lt;/aside&gt;</span>
+</code></pre></div>
+
+      <p>contentinfo - contains information about the parent document such as copyrights and privacy statements</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;footer</span> <span class="na">role=</span><span class="s">&quot;contentinfo&quot;</span> <span class="na">class=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;&lt;/footer&gt;</span>
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>Using alt Text Properly</h5>
+      <p>A few tips on how and when to use the alt attribute:</p>
+
+      <ul>
+        <li>Use the alt attribute for any image that is used as content.</li>
+        <li>Use an empty alt atribute for any image that is decorative or not necessary for understanding the content of the page (alt=”“).</li>
+        <li>Make sure the description of the image is useful. For example, if the image is your logo your alt should be your company name and not “logo”</li>
+      </ul>
+
+      <p>The alt attribute is meant to help users using assitive techonology not miss any content, so make sure your text is helpful to anyone not seeing the image.</p>
+    </li>
+    <li>
+      <code><.visually-hidden></code> - The Visually-Hidden class allows for 508 Compliance on an element needed for visually assisted users.
+    </li>
+  </ul>
+</div>
+<!-- .Best Practices Component -->
+
+</div>
+
+
+  <h2>FIN.</h2>
+
+	</div>
+    </div>
+    <!-- ./End Content Wrapper -->
+	    <!-- Footer Component -->
+    <footer class="container" role="contentinfo">
+
+      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span>, Gerson Lehrman Group, Inc. All rights reserved. GLG and the GLG logo are trademarks of Gerson Lehrman Group, Inc.</span>
+
+    </footer>
+    <!-- ./Footer Component -->
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/scaffold/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/scaffold/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/scaffold/js/global_init.js"></script>
+     <!--[if lt IE 10]>
+        <script src="/js/vendor/jquery.columnizer.js"></script>
+    <![endif]-->
+    <script src="/scaffold/js/vendor/respond.js"></script>
+    <script src="/scaffold/js/build/production.min.js"></script>
+
+    </body>
+</html>

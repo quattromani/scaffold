@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Pattern Library |  Scaffold</title>
+	<meta name="description" content="" />
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimal-ui">
+
+	<link rel="stylesheet" href="/scaffold/css/main.css" >
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/scaffold/css/syntax.css">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="styleguide">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	    <!-- Begin Content Wrapper -->
+    <div class="content">
+      <div class="container">
+
+<a class="logo" href="/scaffold">
+	<span class="h3 GLG tight fs40">GLG</span>
+	<span class="logo_slash link fs40">/</span>
+	<span class="h1 division fs40">Pattern Library</span>
+</a>
+
+<hr>
+
+    <p>Version: 0.2.1 -- Updated: 2014-04-30 18:03:14 -0600</p>
+<hr>
+
+<!-- Loop through and include all styleguide sections -->
+<span id="box-anchor" class="h2 jumpTo-anchor">Box</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="box">Isolate</a>
+</div>
+
+<div class="box-column clearfix">
+
+<div class="box">
+	<h3>The is a sub-header box</h3>
+</div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;box&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>The is a sub-header box<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="breadcrumbs-anchor" class="h2 jumpTo-anchor">Breadcrumbs</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="breadcrumbs">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+    <ul class="horizontal slashes">
+      <li>
+        <a href=''>Home</a>
+      </li>
+      <li>
+        <a href=''>Secondary</a>
+      </li>
+      <li>
+        <a href=''>Tertiary</a>
+      </li>
+    </ul>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;horizontal slashes&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&#39;&#39;</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&#39;&#39;</span><span class="nt">&gt;</span>Secondary<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&#39;&#39;</span><span class="nt">&gt;</span>Tertiary<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="forms-anchor" class="h2 jumpTo-anchor">Forms</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="forms">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+    <p>* Indicates a required field</p>
+
+    <form action="/" method="post" novalidate>
+        <fieldset>
+            <h3>Contact Information</h3>
+            <!-- First Name / Last Name -->
+            <div class="row clearfix">
+                <div class="column half">
+                    <div class="formitem first-name">
+                        <label class="required" for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" pattern="[a-zA-Z]+" autocomplete="given-name" tabindex="1" required>
+                        <span title="Please enter your First Name"></span>
+                    </div>
+                </div>
+
+                <div class="column half">
+                    <div class="formitem last-name">
+                        <label class="required" for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" autocomplete="family-name" tabindex="3" required>
+                        <span title="Please enter your Last Name"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- .First Name / Last Name -->
+
+            <!-- Service Address -->
+            <div class="row clearfix">
+                <div class="column half">
+
+                    <div class="formitem address">
+                        <label for="address" class="required">Service Address:</label>
+                        <input type="text" id="address" name="address" autocomplete="address-line1" tabindex="4" required>
+                        <span title="Please enter your Service Address"></span>
+                    </div>
+
+                </div>
+                <div class="column half">
+
+                    <div class="formitem address2">
+                        <label for="address2">Apt., Suite, or Floor:</label>
+                        <input type="text" id="address2" name="address2" autocomplete="address-line2" tabindex="5">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row clearfix">
+                <div class="column half">
+                    <div class="formitem city">
+                        <label for="city" class="required">City:</label>
+                        <input type="text" id="city" name="city" autocomplete="city" tabindex="6" required>
+                        <span title="Please enter your City"></span>
+                    </div>
+                </div>
+                <div class="column half">
+
+                    <div class="column half">
+
+                        <div class="formitem state">
+                            <label for="state" class="required">State:</label>
+                            <select name="state" id="state" tabindex="7" required>
+                                <option value="">Please Select a State</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO" selected="selected">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="column half">
+
+                        <div class="formitem zip">
+                            <label for="zip" class="required">ZIP Code:</label>
+                            <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="postal-code" tabindex="8" required>
+                            <span title="Please enter your ZIP"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- .Service Address -->
+
+            <!-- Phone / Alt Phone -->
+            <div class="row clearfix">
+                <div class="column half">
+                    <div class="formitem phone-number">
+                        <label for="phone-number" class="required">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="9" required>
+                        <span title="Gonna need dem digits"></span>
+                    </div>
+
+                </div>
+
+                <div class="column half">
+                    <div class="formitem phone-number">
+                        <label for="phone-number" class="">Alternate Phone Number</label>
+                        <input type="tel" id="phone-number-alt" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="tel" autocomplete="tel" tabindex="10">
+                    </div>
+
+                </div>
+            </div>
+            <!-- .Phone / Alt Phone -->
+
+            <!-- Email Address -->
+            <div class="row clearfix">
+                <div class="column half">
+
+                    <div class="formitem email">
+                        <label for="email" class="required">Email Address:</label>
+                        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" tabindex="11" required>
+                        <span title="Please enter your Email Address"></span>
+                    </div>
+
+                </div>
+                <div class="column half">
+
+                    <div class="formitem email">
+                        <label for="email" class="required">Email Address:</label>
+                        <input class="form-control" type="url" placeholder="URL" tabindex="12">
+                        <span title="Please enter your Email Address"></span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- .Email Address -->
+
+            <!-- Date Input -->
+            <div class="row clearfix">
+                <div class="half">
+                    <div class="formitem">
+                        <label for="startdate">Pick a Start Date</label>
+                        <input id="startdate" type="date">
+                    </div>
+                </div>
+                <div class="half">
+                    <div class="formitem">
+                        <label for="enddate">Pick an End Date</label>
+                        <input id="enddate" type="date">
+                    </div>
+                </div>
+            </div>
+            <!-- ./ Date Input -->
+
+            <!-- Textarea -->
+            <div class="row clearfix">
+                <div class="column half">
+
+                    <div class="formitem textarea">
+                        <label for="textarea">Leave a really complimentary comment about us here:</label>
+                        <textarea id="textarea" tabindex="13"></textarea>
+                    </div>
+
+                </div>
+            </div>
+            <!-- .Textarea -->
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <h3>Radio Inputs</h3>
+
+            <!-- Radio / Select -->
+            <div class="row clearfix">
+                <div class="column half">
+
+                    <div class="formitem radio">
+                        <input id="checking" type="radio" name="account-type" tabindex="14" checked>
+                        <label for="checking">Charge this card every month for my account charges.</label>
+                    </div>
+                    <div class="formitem radio">
+                        <input id="savings" type="radio" name="account-type" tabindex="15">
+                        <label for="savings">Charge this card only for today’s charges.</label>
+                    </div>
+
+                </div>
+                <div class="column half">
+
+                </div>
+            </div>
+            <!-- .Radio / Select -->
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <h3>Checkbox Inputs</h3>
+
+            <!-- Radio / Select -->
+            <div class="row clearfix">
+                <div class="column full">
+
+                    <div class="horizontal list">
+                        <ul class="column-count-3">
+                            <li>
+                                <div class="formitem checkbox">
+                                    <input id="terms1" type="checkbox" name="terms" tabindex="16" required>
+                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- .Radio / Select -->
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <div class="row clearfix">
+                <div class="column full">
+                    <h3>Datalist Field</h3>
+                    <div class="formitem">
+                        <label for="browsers">Internet Browsers</label>
+                        <input type="text" list="browsers" name="browsers" placeholder="Type your favorite browser" tabindex="17" >
+                        <datalist id="browsers">
+                            <option value="Internet Explorer" label="Ugh!">
+                                <option value="Firefox" label="Meh">
+                                    <option value="Chrome" label="Yay!">
+                                        <option value="Opera" label="??">
+                                            <option value="Safari" label="huh?">
+                                            </datalist>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <hr>
+
+                            <fieldset>
+                                <div class="row">
+                                    <div class="full">
+                                        <h3>Search Field</h3>
+                                        <div class="formitem">
+                                            <input type="search" placeholder="search events by keyword">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <hr>
+
+                            <div id="fillit">
+                                If you see this, leave this form field blank.
+                                <input id="improve" type="text" name="confirm" value="">
+                            </div>
+
+                            <fieldset>
+                                <div class="formitem">
+                                    <button class="btn btn-primary" type="submit" name="submit" value="submit">
+                                        <span>Submit</span>
+                                    </button>
+
+                                    <button type="reset" name="reset" value="reset">
+                                        <span>Clear</span>
+                                    </button>
+                                </div>
+                            </fieldset>
+
+                        </form>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;fieldset&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;formitem&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;generic&quot;</span> <span class="na">class=</span><span class="s">&quot;visually-hidden&quot;</span><span class="nt">&gt;</span>Generic<span class="nt">&lt;/label&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">id=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;&quot;</span> <span class="na">name=</span><span class="s">&quot;&quot;</span> <span class="na">value=</span><span class="s">&quot;&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Generic&quot;</span> <span class="na">tabindex=</span><span class="s">&quot;21&quot;</span> <span class="na">required</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/fieldset&gt;</span>
+</code></pre></div>
+
+                    </div>
+<span id="lists-anchor" class="h2 jumpTo-anchor">Lists</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="lists">Isolate</a>
+</div>
+
+<div class="box-column clear">
+    <h3>A Basic Unordered List</h3>
+
+    <ul>
+        <li>This is a list item in an unordered list</li>
+        <li>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. </li>
+        <li>
+            Lists can be nested inside of each other
+            <ul>
+                <li>This is a nested list item</li>
+                <li>This is another nested list item in an unordered list</li>
+            </ul>
+        </li>
+        <li>This is the last list item</li>
+    </ul>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is a list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        Lists can be nested inside of each other
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list item<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is another nested list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the last list item<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>A Vertical Bulleted Unordered List</h3>
+    <ul class="vertical bulleted">
+        <li>This is a list item in an unordered list</li>
+        <li>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. </li>
+        <li>
+            Lists can be nested inside of each other
+            <ul>
+                <li>This is a nested list item</li>
+                <li>This is another nested list item in an unordered list</li>
+            </ul>
+        </li>
+        <li>This is the last list item</li>
+    </ul>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;vertical bulleted&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is a list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        Lists can be nested inside of each other
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list item<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is another nested list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the last list item<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Ordered List</h3>
+
+    <ol>
+        <li>This is a list item in an ordered list</li>
+        <li>An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.</li>
+        <li>
+            Lists can be nested inside of each other
+            <ol>
+                <li>This is a nested list item</li>
+                <li>This is another nested list item in an ordered list</li>
+            </ol>
+        </li>
+        <li>This is the last list item</li>
+    </ol>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is a list item in an ordered list<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        Lists can be nested inside of each other
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list item<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is another nested list item in an ordered list<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the last list item<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Definition List</h3>
+
+    <dl>
+        <dt>Definition List</dt>
+        <dd>A number of connected items or names written or printed consecutively, typically one below the other.</dd>
+        <dt>This is a term.</dt>
+        <dd>This is the definition of that term, which both live in a dl.</dd>
+        <dt>Here is another term.</dt>
+        <dd>And it gets a definition too, which is this line.</dd>
+        <dt>Here is term that shares a definition with the term below.</dt>
+        <dd>And it gets a definition too, which is this line.</dd>
+    </dl>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;dl&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition List<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>A number of connected items or names written or printed consecutively, typically one below the other.<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>This is a term.<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>This is the definition of that term, which both live in a dl.<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Here is another term.<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>And it gets a definition too, which is this line.<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Here is term that shares a definition with the term below.<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>And it gets a definition too, which is this line.<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre></div>
+
+</div>
+<span id="modals-anchor" class="h2 jumpTo-anchor">Modals</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="modals">Isolate</a>
+</div>
+
+<div class="box-column clear">
+  <!-- Modal Buttons -->
+  <button id="1" class="btn btn-primary modal-button mobile-full" type="button">Modal 1</button>
+
+  <button id="2" class="btn btn-primary modal-button mobile-full" type="button">Modal 2</button>
+  <!-- ./ Modal Buttons -->
+
+  <!-- Modal -->
+  <div class="modal">
+
+    <div id="modal1" class="modal-container">
+      <div class="modal-close"></div>
+      <div id="modal-content">
+
+        <div class="modal-header">
+          <h3>Modal #1</h3>
+        </div>
+
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, officia, quaerat, incidunt, ratione minus blanditiis ipsum ducimus eum commodi reiciendis atque dolores cumque eaque? Qui, voluptate, quis nisi accusamus voluptatem distinctio nemo facere labore error tenetur veniam id rerum quisquam recusandae aspernatur quam in. Eligendi, sit, sunt provident atque dicta illo dolorem adipisci voluptatum quis velit ratione nam libero necessitatibus nisi optio officia debitis voluptatem dolorum fugit voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="" class="btn btn-primary right mobile-full">Continue</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal-overlay"></div>
+  </div>
+  <!-- ./ Modal -->
+
+  <!-- Modal Popup -->
+  <div class="modal">
+
+    <div id="modal2" class="modal-container">
+      <div class="modal-close"></div>
+      <div id="modal-content">
+
+        <div class="modal-header">
+          <h3>Modal #2</h3>
+        </div>
+
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, officia, quaerat, incidunt, ratione minus blanditiis ipsum ducimus eum commodi reiciendis atque dolores cumque eaque? Qui, voluptate, quis nisi accusamus voluptatem distinctio nemo facere labore error tenetur veniam id rerum quisquam recusandae aspernatur quam in. Eligendi, sit, sunt provident atque dicta illo dolorem adipisci voluptatum quis velit ratione nam libero necessitatibus nisi optio officia debitis voluptatem dolorum fugit voluptas repudiandae eum eius quaerat error consectetur omnis labore fuga quo molestias non quas officiis nesciunt delectus. Totam, at, aperiam, fugiat, quam cumque quasi veritatis vel dolorum rerum odio perferendis facere obcaecati facilis officiis id vitae necessitatibus suscipit sit error odit iure tempore optio velit eos dolores doloremque aspernatur accusantium excepturi sint esse explicabo a ad eaque natus non quia praesentium. Libero, ab, iusto placeat maiores unde atque beatae sunt hic quibusdam repudiandae voluptates facere maxime laudantium illo rerum suscipit facilis quidem laborum odio consequuntur repellendus numquam in! Veniam, quasi dolor enim expedita unde. Eligendi, nesciunt voluptas eos temporibus doloribus atque sint. Quae, magni, eveniet, perferendis, voluptatum animi ullam ratione reprehenderit autem enim quidem corporis deleniti iste praesentium molestiae consequuntur pariatur esse id ipsam tenetur quaerat accusantium deserunt sed rerum corrupti unde ipsa aspernatur nulla ex ab nisi incidunt doloremque numquam est nostrum ad cum suscipit. Ut, nobis, similique, sunt commodi harum totam quibusdam alias illo cumque repellendus sequi assumenda deleniti quo saepe iste laborum modi voluptatum quam nostrum placeat dolorum ipsa dolores esse. Alias, nam, minus obcaecati in odit doloremque nobis dignissimos beatae blanditiis veniam ipsum nesciunt cumque architecto praesentium ea repellat perspiciatis qui debitis neque ut odio eaque laudantium reiciendis dolor similique hic provident quod nostrum autem tenetur pariatur aut repellendus dicta! Rem, atque, dolorem alias odit id dicta unde accusamus delectus minus ratione quis ipsa possimus iusto. Repudiandae, vel, nemo, saepe, reprehenderit ipsa provident alias aspernatur ducimus id blanditiis illum dicta optio asperiores unde quia rem earum a recusandae odit dolores! Beatae, nam, autem expedita a sapiente doloremque delectus officia eligendi. Magnam, fugiat, velit facilis cumque ab nostrum cupiditate voluptatum dolorem provident porro reiciendis doloremque accusantium harum aliquam quo. Maiores, magni, odit rem sed possimus neque sapiente dolorum unde nam expedita voluptas facere assumenda inventore sit eaque itaque nulla numquam! Obcaecati, alias, odio, numquam molestiae consequuntur totam minus ipsam autem nisi repellendus nostrum fugiat consequatur ratione velit eum temporibus praesentium?</p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="" class="btn btn-primary right mobile-full">Continue</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- ./ Modal Popup -->
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary modal-button mobile-full&quot;</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Modal 1<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;modal&quot;</span><span class="nt">&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;modal1&quot;</span> <span class="na">class=</span><span class="s">&quot;modal-container&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;modal-close&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;modal-content&quot;</span><span class="nt">&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;modal-header&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3&gt;</span>Modal #1<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;modal-body&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, officia, quaerat, incidunt, ratione minus blanditiis ipsum ducimus eum commodi reiciendis atque dolores cumque eaque? Qui, voluptate, quis nisi accusamus voluptatem distinctio nemo facere labore error tenetur veniam id rerum quisquam recusandae aspernatur quam in. Eligendi, sit, sunt provident atque dicta illo dolorem adipisci voluptatum quis velit ratione nam libero necessitatibus nisi optio officia debitis voluptatem dolorum fugit voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;modal-footer&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary right mobile-full&quot;</span><span class="nt">&gt;</span>Continue<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;modal-overlay&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+</div>
+<span id="pagination-anchor" class="h2 jumpTo-anchor">Pagination</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="pagination">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <!-- Pagination Component -->
+  <div class="pagination">
+    <ol>
+      <li>
+          <a class="muted" href=""><i class="fa fa-chevron-left"></i> <span class="pag_text">Prev</span></a>
+      </li>
+      <li>
+          <a class="js-active muted" href="">1</a>
+      </li>
+      <li>
+        <a href="">2</a>
+      </li>
+      <li>
+        <a href="">3</a>
+      </li>
+      <li>
+        <a href="">4</a>
+      </li>
+      <li>
+          <a href=""><span class="pag_text">Next</span> <i class="fa fa-chevron-right"></i></a>
+      </li>
+    </ol>
+  </div>
+  <!-- .Pagination Component -->
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;pagination&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;muted&quot;</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-chevron-left&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pag_text&quot;</span><span class="nt">&gt;</span>Prev<span class="nt">&lt;/span&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;js-active muted&quot;</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>2<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>3<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>4<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;pag_text&quot;</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-chevron-right&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;/ol&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+</div>
+
+<span id="pills-anchor" class="h2 jumpTo-anchor">Pills</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="pills">Isolate</a>
+</div>
+
+<div class="box-column clear">
+	<label for="">Number of members</label>
+	<span class="pill-black">12</span>
+	<br>
+	<label for="">Fave Drake songs</label>
+	<span class="pill-white">17</span>
+	<br>
+	<label for="">Number of times my daughter has watched Frozen</label>
+	<span class="pill-red">23</span>
+
+	<hr>
+
+	<span class="pill-black">12</span>
+	<label for="">Number of members</label>
+	<br>
+	<span class="pill-white">17</span>
+	<label for="">Fave Drake songs</label>
+	<br>
+	<span class="pill-red">23</span>
+	<label for="">Number of times my daughter has watched Frozen</label>
+
+	<hr>
+
+	<label for="">You purchased this item <span class="pill-red">23</span> times</label>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Number of members<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-black&quot;</span><span class="nt">&gt;</span>12<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Fave Drake songs<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-white&quot;</span><span class="nt">&gt;</span>17<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Number of times my daughter has watched Frozen<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-red&quot;</span><span class="nt">&gt;</span>23<span class="nt">&lt;/span&gt;</span>
+
+<span class="nt">&lt;hr&gt;</span>
+
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-black&quot;</span><span class="nt">&gt;</span>12<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Number of members<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-white&quot;</span><span class="nt">&gt;</span>17<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Fave Drake songs<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-red&quot;</span><span class="nt">&gt;</span>23<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Number of times my daughter has watched Frozen<span class="nt">&lt;/label&gt;</span>
+
+<span class="nt">&lt;hr&gt;</span>
+
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>You purchased this item <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pill-red&quot;</span><span class="nt">&gt;</span>23<span class="nt">&lt;/span&gt;</span> times<span class="nt">&lt;/label&gt;</span>
+</code></pre></div>
+</div>
+
+<span id="table-anchor" class="h2 jumpTo-anchor">Table</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="tables">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <!-- Table Component -->
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">Items</th>
+        <th class="qty">Qty</th>
+        <th class="price">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="item">Envisioning Information <span>By Edward R. Tufte – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$33.32</td>
+      </tr>
+      <tr>
+        <td class="item">Outliers <span>By Malcolm Gladwell – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">2</td>
+        <td class="price">$33.58 <span>($16.79 × 2)</span></td>
+      </tr>
+      <tr>
+        <td class="item">Don’t Make Me Think <span>By Steve Krug – Paperback</span></td>
+        <td class="stock out">Out of Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$22.80</td>
+      </tr>
+      <tr>
+        <td class="item">Steve Jobs <span>By Walter Isaacson – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$17.49</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="sub">
+        <td colspan="3">Subtotal</td>
+        <td>$107.19</td>
+      </tr>
+      <tr class="tax">
+        <td colspan="3">Tax</td>
+        <td>$10.71</td>
+      </tr>
+      <tr class="total">
+        <td colspan="3">Total</td>
+        <td>$117.90</td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- .Table Component -->
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;table&gt;</span>
+  <span class="nt">&lt;thead&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;th</span> <span class="na">colspan=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>Items<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>Qty<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>Price<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;/thead&gt;</span>
+  <span class="nt">&lt;tbody&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Envisioning Information <span class="nt">&lt;span&gt;</span>By Edward R. Tufte – Hardcover<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock in&quot;</span><span class="nt">&gt;</span>In Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$33.32<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Outliers <span class="nt">&lt;span&gt;</span>By Malcolm Gladwell – Hardcover<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock in&quot;</span><span class="nt">&gt;</span>In Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>2<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$33.58 <span class="nt">&lt;span&gt;</span>($16.79 × 2)<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Don’t Make Me Think <span class="nt">&lt;span&gt;</span>By Steve Krug – Paperback<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock out&quot;</span><span class="nt">&gt;</span>Out of Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$22.80<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Steve Jobs <span class="nt">&lt;span&gt;</span>By Walter Isaacson – Hardcover<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock in&quot;</span><span class="nt">&gt;</span>In Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$17.49<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;/tbody&gt;</span>
+  <span class="nt">&lt;tfoot&gt;</span>
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;sub&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Subtotal<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>$107.19<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;tax&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Tax<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>$10.71<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;total&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Total<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>$117.90<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;/tfoot&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div>
+
+</div>
+
+
+  <h2>FIN.</h2>
+
+	</div>
+    </div>
+    <!-- ./End Content Wrapper -->
+	    <!-- Footer Component -->
+    <footer class="container" role="contentinfo">
+
+      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span>, Gerson Lehrman Group, Inc. All rights reserved. GLG and the GLG logo are trademarks of Gerson Lehrman Group, Inc.</span>
+
+    </footer>
+    <!-- ./Footer Component -->
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/scaffold/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/scaffold/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/scaffold/js/global_init.js"></script>
+     <!--[if lt IE 10]>
+        <script src="/js/vendor/jquery.columnizer.js"></script>
+    <![endif]-->
+    <script src="/scaffold/js/vendor/respond.js"></script>
+    <script src="/scaffold/js/build/production.min.js"></script>
+
+    </body>
+</html>

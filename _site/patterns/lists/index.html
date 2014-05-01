@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Lists |  Scaffold</title>
+	<meta name="description" content="" />
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimal-ui">
+
+	<link rel="stylesheet" href="/scaffold/css/main.css" >
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/scaffold/css/syntax.css">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="styleguide">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	    <!-- Begin Content Wrapper -->
+    <div class="content">
+      <div class="container">
+
+<a class="logo" href="/scaffold">
+	<span class="h3 GLG tight fs40">GLG</span>
+	<span class="logo_slash link fs40">/</span>
+	<span class="h1 division fs40">Pattern Library</span>
+</a>
+
+<hr>
+
+    <span id="lists-anchor" class="h2 jumpTo-anchor">Lists</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="lists">Isolate</a>
+</div>
+
+<div class="box-column clear">
+    <h3>A Basic Unordered List</h3>
+
+    <ul>
+        <li>This is a list item in an unordered list</li>
+        <li>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. </li>
+        <li>
+            Lists can be nested inside of each other
+            <ul>
+                <li>This is a nested list item</li>
+                <li>This is another nested list item in an unordered list</li>
+            </ul>
+        </li>
+        <li>This is the last list item</li>
+    </ul>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is a list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        Lists can be nested inside of each other
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list item<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is another nested list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the last list item<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>A Vertical Bulleted Unordered List</h3>
+    <ul class="vertical bulleted">
+        <li>This is a list item in an unordered list</li>
+        <li>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. </li>
+        <li>
+            Lists can be nested inside of each other
+            <ul>
+                <li>This is a nested list item</li>
+                <li>This is another nested list item in an unordered list</li>
+            </ul>
+        </li>
+        <li>This is the last list item</li>
+    </ul>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;vertical bulleted&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is a list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>An unordered list is a list in which the sequence of items is not important. Sometimes, an unordered list is a bulleted list. And this is a long list item in an unordered list that can wrap onto a new line. <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        Lists can be nested inside of each other
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list item<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is another nested list item in an unordered list<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the last list item<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Ordered List</h3>
+
+    <ol>
+        <li>This is a list item in an ordered list</li>
+        <li>An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.</li>
+        <li>
+            Lists can be nested inside of each other
+            <ol>
+                <li>This is a nested list item</li>
+                <li>This is another nested list item in an ordered list</li>
+            </ol>
+        </li>
+        <li>This is the last list item</li>
+    </ol>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is a list item in an ordered list<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>An ordered list is a list in which the sequence of items is important. An ordered list does not necessarily contain sequence characters.<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>
+        Lists can be nested inside of each other
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list item<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is another nested list item in an ordered list<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the last list item<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div>
+
+    <hr>
+
+    <h3>Definition List</h3>
+
+    <dl>
+        <dt>Definition List</dt>
+        <dd>A number of connected items or names written or printed consecutively, typically one below the other.</dd>
+        <dt>This is a term.</dt>
+        <dd>This is the definition of that term, which both live in a dl.</dd>
+        <dt>Here is another term.</dt>
+        <dd>And it gets a definition too, which is this line.</dd>
+        <dt>Here is term that shares a definition with the term below.</dt>
+        <dd>And it gets a definition too, which is this line.</dd>
+    </dl>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;dl&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Definition List<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>A number of connected items or names written or printed consecutively, typically one below the other.<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>This is a term.<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>This is the definition of that term, which both live in a dl.<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Here is another term.<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>And it gets a definition too, which is this line.<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Here is term that shares a definition with the term below.<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>And it gets a definition too, which is this line.<span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span>
+</code></pre></div>
+
+</div>
+
+	</div>
+    </div>
+    <!-- ./End Content Wrapper -->
+	    <!-- Footer Component -->
+    <footer class="container" role="contentinfo">
+
+      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span>, Gerson Lehrman Group, Inc. All rights reserved. GLG and the GLG logo are trademarks of Gerson Lehrman Group, Inc.</span>
+
+    </footer>
+    <!-- ./Footer Component -->
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/scaffold/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/scaffold/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/scaffold/js/global_init.js"></script>
+     <!--[if lt IE 10]>
+        <script src="/js/vendor/jquery.columnizer.js"></script>
+    <![endif]-->
+    <script src="/scaffold/js/vendor/respond.js"></script>
+    <script src="/scaffold/js/build/production.min.js"></script>
+
+    </body>
+</html>

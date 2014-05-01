@@ -1,0 +1,265 @@
+/* ==========================================================================
+    Typography -- Version: 1.9.0.0  - Compiled: timestamp()
+   ========================================================================== */
+html {
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  /* absolutely set to maintain ratio around user settings */
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, button, input, select, textarea {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.443;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fonts/icons/fontawesome-webfont.eot");
+  src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.base-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.base-font-alt {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.arialBold {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+/* ==========================
+	  Body Text
+   ========================== */
+.lede {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.body-text {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.small-body-text {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.disclaimer-text {
+  font-size: 10.8px;
+  font-size: 1.08rem;
+}
+
+/* ==========================
+	  Links
+   ========================== */
+a {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: 1px dotted;
+  background: transparent;
+  vertical-align: baseline;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  @inlcude font-size(16);
+  font-weight: 700;
+  color: #0088cc;
+  text-decoration: none;
+  cursor: pointer;
+}
+a img {
+  border: 0 none;
+  text-decoration: none;
+}
+a:hover {
+  color: #0044cc;
+}
+
+/* ==========================
+	  Headings
+   ========================== */
+h1, .h1 {
+  font-size: 36px;
+  font-size: 3.6rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h2, .h2 {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h3, .h3 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h4, .h4 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: inherit;
+}
+
+h6, .h6 {
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+small {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+  clear: inherit;
+  margin-bottom: 0.33333em;
+  vertical-align: middle;
+}
+
+p, .p {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: capitalize;
+}
+
+blockquote {
+  border-left: 3px solid #cccccc;
+  color: #cccccc;
+  font-style: italic;
+  padding-left: 1em;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+abbr {
+  border-bottom: 1px dotted #555555;
+  cursor: help;
+}
+
+address {
+  font-style: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: bottom;
+}
+
+mark {
+  background: yellow;
+}
+
+/* ==========================
+	  Pre
+   ========================== */
+pre {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  background-color: #333333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: auto;
+  padding: 1em;
+  word-wrap: break-word;
+}
+
+code {
+  padding-top: 0.1em;
+  padding-right: 0.33333em;
+  padding-bottom: 0.1em;
+  padding-left: 0.33333em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid whitesmoke;
+  background: white;
+  color: #ef4135;
+  font-size: 90%;
+  white-space: nowrap;
+}
+
+kbd, samp {
+  font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+kbd, samp {
+  color: #a0d468;
+}
+
+.valid, .is-valid {
+  color: #a0d468;
+}
+
+.code-comment {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}

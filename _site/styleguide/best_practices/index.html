@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Best Practices |  Scaffold</title>
+	<meta name="description" content="" />
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimal-ui">
+
+	<link rel="stylesheet" href="/scaffold/css/main.css" >
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/scaffold/css/syntax.css">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="styleguide">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	    <!-- Begin Content Wrapper -->
+    <div class="content">
+      <div class="container">
+
+<a class="logo" href="/scaffold">
+	<span class="h3 GLG tight fs40">GLG</span>
+	<span class="logo_slash link fs40">/</span>
+	<span class="h1 division fs40">Style Guide</span>
+</a>
+
+<hr>
+
+    <span id="bestPractices-anchor" class="h2 jumpTo-anchor">Best Practices</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="best_practices">Isolate</a>
+</div>
+<div class="box-column clear">
+
+  <!-- Best Practices Component -->
+  <h3>The Golden Rule</h3>
+  <p class="lede">All code in any part of the code base should look like a single person typed it, no matter how many people contributed.</p>
+
+  <hr>
+
+  <h2>HTML</h2>
+  <hr>
+
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <h5>Human Readable</h5>
+
+        <p class="lede">Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others.</p>
+      </li>
+      <li>
+        <h5>HTML5 doctype</h5>
+
+        <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
+<div class="highlight"><pre><code class="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</code></pre></div>
+      </li>
+      <li>
+        <div class="bulleted">
+          <h5>Syntax</h5>
+          <ul>
+            <li>Use soft-tabs with two spaces</li>
+            <li>Nested elements should be indented once (2 spaces)</li>
+            <li>Don't include a trailing slash in self-closing elements</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <div class="bulleted">
+          <h5>Attributes</h5>
+          <ul>
+            <li>
+              Attributes should be lowercase.
+            </li>
+            <li>
+              Always use double quotes ("), never single quotes.
+            </li>
+            <li>
+              Boolean attributes should be used without quoted values to avoid redundancy.
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <h5>Attribute order</h5>
+        <p>HTML attributes should come in this particular order for easier reading of code.</p>
+        <div class="vertical bulleted">
+          <ul>
+            <li><code>id</code></li>
+            <li><code>class</code></li>
+            <li><code>data-*</code></li>
+            <li><code>for</code> | <code>type</code> | <code>href</code> | <code>src</code></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+
+        <h5>HTML Comments</h5>
+        <div class="bulleted">
+          <ul>
+            <li>
+              Section comments are separated from the previous block by two lines, and should have one following line of space.
+            </li>
+            <li>
+              Prepend section headings with an equal sign (=), to make a Find operation easier.
+            </li>
+          </ul>
+        </div>
+
+<div class="highlight"><pre><code class="html"><span class="c">&lt;!-- Component Name --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;componentName&quot;</span><span class="nt">&gt;</span>
+...
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- ./Component Name --&gt;</span>
+</code></pre></div>
+
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <h2>CSS</h2>
+  <hr>
+
+  <div class="vertical lined">
+    <ul>
+      <li>
+        <ul class="bulleted">
+          <li>Use soft-tabs with two spaces</li>
+          <li>When grouping selectors, keep individual selectors to a single line</li>
+          <li>Include one space before the opening brace of declaration blocks</li>
+          <li>Place closing braces of declaration blocks on a new line</li>
+          <li>Include one space after <code>:</code> in each property</li>
+          <li>Each declaration should appear on its own line</li>
+          <li>End all declarations with a semi-colon</li>
+          <li>Comma-separated values should include a space after each comma</li>
+          <li>Don't include spaces after commas in RGB or RGBa colors</li>
+          <li>Do not specify units for zero values, e.g., margin: 0; instead of margin: 0px;</li>
+          <li>Lowercase all hex values, e.g., #fff instead of #FFF</li>
+          <li>Use shorthand hex values where available, e.g., #fff instead of #ffffff</li>
+          <li>Quote attribute values in selectors, e.g., input[type="text"]</li>
+        </ul>
+      </li>
+      <li>
+        <h5>Declaration Organization</h5>
+
+        <ol>
+          <li>Box (Display, Float, Position, Left, Top, Width, Height, Margin, Padding, etc.)</li>
+          <li>Border</li>
+          <li>Background</li>
+          <li>Text</li>
+          <li>Other</li>
+        </ol>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.someDiv</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="nc">.someOtherDiv</span><span class="o">,</span>
+<span class="nc">.someAdditional</span> <span class="nt">Div</span> <span class="p">{</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>General Formatting</h5>
+
+      <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.print</span> <span class="p">{</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">7px</span><span class="p">;</span>
+  <span class="k">height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#4f799f</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.print</span><span class="nd">:hover</span> <span class="p">{</span> <span class="k">background</span><span class="o">:</span> <span class="m">#265a83</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>
+
+  </li>
+  <li>
+    <p>Avoid Qualifying ID and class names with type selectors</p>
+
+<div class="highlight"><pre><code class="css"><span class="o">//</span> <span class="nt">this</span> <span class="nt">is</span> <span class="nt">bad</span>
+<span class="nt">ul</span><span class="nf">#example</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#ff0</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">div</span><span class="nc">.error</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="o">//</span> <span class="nt">this</span> <span class="nt">is</span> <span class="nt">good</span>
+<span class="nc">.example</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#0f0</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.error</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div>
+
+    <p>p.s. ID's are bad for CSS, only use ID's for javascript hooks when necessary</p>
+  </li>
+  <li>
+    <h5>Hexadecimal Notation</h5>
+
+    <p>For color values that permit, 3 character hexadecimal is preferred</p>
+
+<div class="highlight"><pre><code class="css"><span class="c">/* not recommended */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nf">#00ff00</span><span class="o">;</span>
+</code></pre></div>
+<div class="highlight"><pre><code class="css"><span class="c">/* recommended */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nf">#0f0</span><span class="o">;</span>
+</code></pre></div>
+
+  </li>
+  <li>
+    <h4 class="error">!important</h4>
+
+    <h5>Just don't do it.</h5>
+    <p>Use greater specificity to workaround using !important;</p>
+  </li>
+  <li>
+    <h5>Use the SMACSS Approach</h5>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.componentName</span> <span class="p">{</span>
+
+  <span class="n">Base</span> <span class="err">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">Layout</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">Module</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">State</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+  <span class="nt">Theme</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+
+<span class="err">}</span>
+</code></pre></div>
+
+</li>
+<li>
+<h5>Commenting</h5>
+
+<div class="highlight"><pre><code class="html">// File headers are commented thusly:
+
+/* ==========================================================================
+    Component Name -- Version: 1.0.0.0 - Updated: MM/DD/YYYY
+   ========================================================================== */
+</code></pre></div>
+
+<div class="highlight"><pre><code class="html">// Section chunks get styled as such:
+/*
+* Chunk of long
+* text gets commented
+* like this
+*/
+</code></pre></div>
+
+<div class="highlight"><pre><code class="html">// Hints get styled like this:
+/* Hint */
+</code></pre></div>
+
+</li>
+</ul>
+</div>
+
+<hr>
+<h2>Sass (or less or stylus, you choose)</h2>
+<hr>
+
+<div class="vertical lined">
+  <ul>
+    <li>
+      <h5>File Organization</h5>
+<div class="bulleted">
+  <ul>
+    <li>
+      Mixins and variables go in scss/global/.
+    </li>
+    <li>
+      Styles related to components/modules/views go in sass/components/.
+    </li>
+    <li>
+      Sass and CSS from other projects goes in sass/vendor/.
+    </li>
+  </ul>
+</div>
+
+<div class="highlight"><pre><code class="html">sass/
+  ├── main.scss
+  ├── globals/
+  |   ├── _mixins.scss
+  |   ├── _var.scss
+  ├── partials/
+  |   ├── _btn.scss
+  |   ├── _list.scss
+  |   ├── _nav.scss
+  |   ├── _etc...
+  ├── theme/
+  |   ├── _btn-theme.scss
+  └── vendor/
+    └── _jquery.ui.core.scss
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>Main Stylesheet</h5>
+      <p>All files get compiled into the main.scss stylesheet, and should be scoped accordingly.</p>
+<p>The main.scss file serves as a "table of contents" and the @import directives should be listed with vendor dependencies first, then author dependencies and core stylesheets, then components.</p>
+<p>Organize the components imports in a manner that makes sense, in other words, group components with the component they extend or inherit from.</p>
+
+<div class="highlight"><pre><code class="scss"><span class="cm">/* Mixins and Variables */</span>
+<span class="c1">// All globals are combined in allModules.scss to reduce the nuber of updates necessary to add new files</span>
+<span class="k">@import</span> <span class="s2">&quot;global/allModules&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Base */</span>
+<span class="k">@import</span> <span class="s2">&quot;partials/base&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Layout */</span>
+<span class="k">@import</span> <span class="s2">&quot;partials/layout&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Modules */</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/colors&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/typography&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/helpers&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/lists&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/buttons&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/pagination&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/accessibility&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/forms&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/images&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/videos&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/modules&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/jumpTo&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/_prototype&quot;</span><span class="p">;</span>
+
+<span class="k">@import</span> <span class="s2">&quot;partials/_styleguide&quot;</span><span class="p">;</span>
+
+<span class="cm">/* Components */</span>
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>Structuring Code</h5>
+<p>@extends and @includes are likely to be overwritten by future elements, placing them at the top of the property list calls them out and avoids the beginning of a specificity war.</p>
+
+<div class="bulleted">
+  <ul>
+    <li>
+      @extends should be grouped together at the top of the selector.
+    </li>
+    <li>
+      @includes should be grouped together after @extends.
+    </li>
+    <li>
+      Regular styles for the current selector should be after @includes.
+    </li>
+    <li>
+      Nested selectors appear last.
+    </li>
+    <li>
+      Nested selectors using & should appear above child (>) nested selectors.
+    </li>
+  </ul>
+</div>
+
+    </li>
+    <li>
+      <h5>Limit nesting to 3 levels and/or 50 lines</h5>
+      <p>Nesting selectors more than three levels deep and the code is at risk of being to reliant on HTML structure, overly-specific and difficult to understand.</p>
+      <p>50 lines is reasonable length for keeping an entire block on a code editor screen without having to scroll.</p>
+    </li>
+    <li>
+      <h5>Variablize ALL THE THINGS!</h5>
+      <div class="bulleted">
+        <ul>
+          <li>
+            Variablize all colors.
+          </li>
+          <li>
+            Numbers (other than 0 or 100%) with strong meaning or frequent use should be variables.
+          </li>
+          <li>
+            Use hyphens (-) in variable names.
+          </li>
+          <li>
+            Name variables based on what they represent, not their values, e.g. $text-size-large instead of $text-size-24.
+          </li>
+          <li>
+            Colors, fonts, and base measurements are all great candidates for variables.
+If you find yourself writing a number other than 0 or 100% more than once, make it a variable.
+          </li>
+          <li>
+            Most variables should be stored in the _variables.scss partial; however, it's acceptable to define component specific variables in the component files.
+          </li>
+          <li>
+            In this case, the variables should be stored at the top of the file.
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <h5>Comments</h5>
+      <p>Try to stick with standard CSS comments, but you can use the Sass style (//) comments for trivial comments or quickly debugging.</p>
+    </li>
+  </ul>
+</div>
+
+<hr>
+<h2>JS</h2>
+<hr>
+
+<div class="vertical lined">
+  <ul>
+    <li>
+      <p class="lede">Prefix all javascript-based selectors with js-. The idea is that you should be able to tell a presentational class from a functional class. Most of the codebase doesn't do this, let's try and move toward it.</p>
+    </li>
+  </ul>
+</div>
+
+<hr>
+
+<h2>ARIA &amp; Accessibility</h2>
+<hr>
+
+<div class="vertical lined">
+  <ul>
+    <li>
+      <p class="lede">Making it possible to provide an enhanced user experience for people with disabilities when using internet applications with assistive technologies.</p>
+    </li>
+    <li>
+      <h5>Landmark Roles</h5>
+
+      <p>banner - typically the "header" of the page</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;header</span> <span class="na">role=</span><span class="s">&quot;banner&quot;</span> <span class="na">class=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;&lt;/header&gt;</span>
+</code></pre></div>
+
+      <p>navigation - any navigation list, typically the nav element</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav&quot;</span><span class="nt">&gt;&lt;/nav&gt;</span>
+</code></pre></div>
+
+      <p>main - the main content area</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;section</span> <span class="na">role=</span><span class="s">&quot;main&quot;</span> <span class="na">class=</span><span class="s">&quot;main&quot;</span><span class="nt">&gt;&lt;/main&gt;</span>
+</code></pre></div>
+
+      <p>complimentary - information that is tangentially related to the main content</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;aside</span> <span class="na">role=</span><span class="s">&quot;complimentary&quot;</span> <span class="na">class=</span><span class="s">&quot;aside&quot;</span><span class="nt">&gt;&lt;/aside&gt;</span>
+</code></pre></div>
+
+      <p>contentinfo - contains information about the parent document such as copyrights and privacy statements</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;footer</span> <span class="na">role=</span><span class="s">&quot;contentinfo&quot;</span> <span class="na">class=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;&lt;/footer&gt;</span>
+</code></pre></div>
+
+    </li>
+    <li>
+      <h5>Using alt Text Properly</h5>
+      <p>A few tips on how and when to use the alt attribute:</p>
+
+      <ul>
+        <li>Use the alt attribute for any image that is used as content.</li>
+        <li>Use an empty alt atribute for any image that is decorative or not necessary for understanding the content of the page (alt=”“).</li>
+        <li>Make sure the description of the image is useful. For example, if the image is your logo your alt should be your company name and not “logo”</li>
+      </ul>
+
+      <p>The alt attribute is meant to help users using assitive techonology not miss any content, so make sure your text is helpful to anyone not seeing the image.</p>
+    </li>
+    <li>
+      <code><.visually-hidden></code> - The Visually-Hidden class allows for 508 Compliance on an element needed for visually assisted users.
+    </li>
+  </ul>
+</div>
+<!-- .Best Practices Component -->
+
+</div>
+
+
+	</div>
+    </div>
+    <!-- ./End Content Wrapper -->
+	    <!-- Footer Component -->
+    <footer class="container" role="contentinfo">
+
+      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span>, Gerson Lehrman Group, Inc. All rights reserved. GLG and the GLG logo are trademarks of Gerson Lehrman Group, Inc.</span>
+
+    </footer>
+    <!-- ./Footer Component -->
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/scaffold/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/scaffold/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/scaffold/js/global_init.js"></script>
+     <!--[if lt IE 10]>
+        <script src="/js/vendor/jquery.columnizer.js"></script>
+    <![endif]-->
+    <script src="/scaffold/js/vendor/respond.js"></script>
+    <script src="/scaffold/js/build/production.min.js"></script>
+
+    </body>
+</html>

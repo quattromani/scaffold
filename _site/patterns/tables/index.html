@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Tables |  Scaffold</title>
+	<meta name="description" content="" />
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimal-ui">
+
+	<link rel="stylesheet" href="/scaffold/css/main.css" >
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/scaffold/css/syntax.css">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="styleguide">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+	    <!-- Begin Content Wrapper -->
+    <div class="content">
+      <div class="container">
+
+<a class="logo" href="/scaffold">
+	<span class="h3 GLG tight fs40">GLG</span>
+	<span class="logo_slash link fs40">/</span>
+	<span class="h1 division fs40">Pattern Library</span>
+</a>
+
+<hr>
+
+    <span id="table-anchor" class="h2 jumpTo-anchor">Table</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="tables">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <!-- Table Component -->
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">Items</th>
+        <th class="qty">Qty</th>
+        <th class="price">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="item">Envisioning Information <span>By Edward R. Tufte – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$33.32</td>
+      </tr>
+      <tr>
+        <td class="item">Outliers <span>By Malcolm Gladwell – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">2</td>
+        <td class="price">$33.58 <span>($16.79 × 2)</span></td>
+      </tr>
+      <tr>
+        <td class="item">Don’t Make Me Think <span>By Steve Krug – Paperback</span></td>
+        <td class="stock out">Out of Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$22.80</td>
+      </tr>
+      <tr>
+        <td class="item">Steve Jobs <span>By Walter Isaacson – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$17.49</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="sub">
+        <td colspan="3">Subtotal</td>
+        <td>$107.19</td>
+      </tr>
+      <tr class="tax">
+        <td colspan="3">Tax</td>
+        <td>$10.71</td>
+      </tr>
+      <tr class="total">
+        <td colspan="3">Total</td>
+        <td>$117.90</td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- .Table Component -->
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;table&gt;</span>
+  <span class="nt">&lt;thead&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;th</span> <span class="na">colspan=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>Items<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>Qty<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>Price<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;/thead&gt;</span>
+  <span class="nt">&lt;tbody&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Envisioning Information <span class="nt">&lt;span&gt;</span>By Edward R. Tufte – Hardcover<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock in&quot;</span><span class="nt">&gt;</span>In Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$33.32<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Outliers <span class="nt">&lt;span&gt;</span>By Malcolm Gladwell – Hardcover<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock in&quot;</span><span class="nt">&gt;</span>In Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>2<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$33.58 <span class="nt">&lt;span&gt;</span>($16.79 × 2)<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Don’t Make Me Think <span class="nt">&lt;span&gt;</span>By Steve Krug – Paperback<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock out&quot;</span><span class="nt">&gt;</span>Out of Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$22.80<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;item&quot;</span><span class="nt">&gt;</span>Steve Jobs <span class="nt">&lt;span&gt;</span>By Walter Isaacson – Hardcover<span class="nt">&lt;/span&gt;&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;stock in&quot;</span><span class="nt">&gt;</span>In Stock<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;qty&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;price&quot;</span><span class="nt">&gt;</span>$17.49<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;/tbody&gt;</span>
+  <span class="nt">&lt;tfoot&gt;</span>
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;sub&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Subtotal<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>$107.19<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;tax&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Tax<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>$10.71<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;total&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>Total<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>$117.90<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;/tfoot&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div>
+
+</div>
+
+
+	</div>
+    </div>
+    <!-- ./End Content Wrapper -->
+	    <!-- Footer Component -->
+    <footer class="container" role="contentinfo">
+
+      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span>, Gerson Lehrman Group, Inc. All rights reserved. GLG and the GLG logo are trademarks of Gerson Lehrman Group, Inc.</span>
+
+    </footer>
+    <!-- ./Footer Component -->
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/scaffold/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/scaffold/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/scaffold/js/global_init.js"></script>
+     <!--[if lt IE 10]>
+        <script src="/js/vendor/jquery.columnizer.js"></script>
+    <![endif]-->
+    <script src="/scaffold/js/vendor/respond.js"></script>
+    <script src="/scaffold/js/build/production.min.js"></script>
+
+    </body>
+</html>

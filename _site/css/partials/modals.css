@@ -1,0 +1,104 @@
+/* ==========================================================================
+    Modals -- Version: 0.4.0.1 - Updated: 4/28/2014
+   ========================================================================== */
+.modal .modal-overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  z-index: 9999;
+}
+.modal .modal-container {
+  display: none;
+  position: fixed;
+  overflow: visible;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 45em;
+  max-width: 90%;
+  margin: auto;
+  margin-top: -16em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background: none repeat scroll 0 0 #fff;
+  color: #333333;
+  z-index: 99999;
+}
+.modal .modal-container > .modal-content {
+  -webkit-box-shadow: 0 0 5px 2px #555555;
+  -moz-box-shadow: 0 0 5px 2px #555555;
+  box-shadow: 0 0 5px 2px #555555;
+}
+.modal .modal-close {
+  position: absolute;
+  float: right;
+  top: 1em;
+  right: 1em;
+  height: 32px;
+  width: 32px;
+  background: url(/scaffold/images/modal-close.png) no-repeat;
+  cursor: pointer;
+}
+.modal .modal-header {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #f0f2f5;
+}
+.modal .modal-header h1, .modal .modal-header h2, .modal .modal-header h3, .modal .modal-header h4, .modal .modal-header h5, .modal .modal-header h6 {
+  margin-bottom: 0;
+}
+.modal .modal-body {
+  overflow: auto;
+  max-height: 25em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+.modal .modal-footer {
+  overflow: auto;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #f0f2f5;
+}
+
+@media (max-width: 40em) {
+  .modal-component {
+    min-height: 500px;
+  }
+
+  .modal .modal-body {
+    max-height: 15.625em;
+  }
+}
