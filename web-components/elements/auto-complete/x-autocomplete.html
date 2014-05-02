@@ -4,7 +4,7 @@
 <polymer-element name="x-autocomplete">
 <template>
   <div class="formitem">
-    <label for="auto-complete"></label>
+    <label class="visually-hidden" for="auto-complete">List of {{ header }}</label>
     <input id="auto-complete" list="DNC" type="text" placeholder="Your current / last {{ header }}" autocomplete="off">
 
     <datalist id="DNC">

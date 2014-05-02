@@ -42,7 +42,7 @@ title: x-autocomplete
 <polymer-element name="x-autocomplete">
 <template>
   <div class="formitem">
-    <label for="auto-complete">List of {{ header }}</label>
+    <label class="visually-hidden" for="auto-complete">List of {{ header }}</label>
     <input id="auto-complete" list="artists" type="text" placeholder="{{ header }}" autocomplete="off">
 
     <datalist id="artists">
