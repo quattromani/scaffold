@@ -64,14 +64,15 @@ module.exports = function(grunt) {
           files: ['js/*.js'],
           tasks: ['concat', 'uglify'],
           options: {
-            spawn: false,
+            livereload: true,
           }
+
         },
         css: {
           files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
           tasks: ['sass', 'cssmin'],
           options: {
-            spawn: false,
+            livereload: true,
           }
         },
       }
