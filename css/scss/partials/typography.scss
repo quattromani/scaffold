@@ -170,57 +170,24 @@ a {
 	  Headings
    ========================== */
 
-h1, .h1 {
-  @include font-size($h1);
-  font-family: $heading-font;
-  font-weight: 200;
-  @include bp(bp-medium) {
-    @include font-size($h1 * .875)
+// Build Headings
+$i: 1;
+@each $value in $heading-list {
+  #{nth($value, 1)},.#{nth($value, 1)} {
+    font-family: $heading-font;
+    @include font-size(nth($value, 2));
+    font-weight: nth($value, 3);
+    // how can I loop through only h1 - h3 to make responsive sizes?
+    @if $i <= 3 {
+      @include bp(bp-medium) {
+        @include font-size(nth($value, 2) * .875)
+      }
+      @include bp(bp-small) {
+        @include font-size(nth($value, 2) * .75)
+      }
+    }
   }
-  @include bp(bp-small) {
-    @include font-size($h1 * .75)
-  }
-}
-
-h2, .h2 {
-  @include font-size($h2);
-  font-family: $heading-font;
-  font-weight: 200;
-  @include bp(bp-medium) {
-    @include font-size($h2 * .875)
-  }
-  @include bp(bp-small) {
-    @include font-size($h2 * .75)
-  }
-}
-
-h3, .h3 {
-  @include font-size($h3);
-  font-family: $heading-font-alt;
-  font-weight: 100;
-  @include bp(bp-medium) {
-    @include font-size($h3 * .875)
-  }
-  @include bp(bp-small) {
-    @include font-size($h3 * .75)
-  }
-}
-
-h4, .h4 {
-  @include font-size($h4);
-  font-family: $heading-font;
-  font-weight: 200;
-}
-
-h5, .h5 {
-  @include font-size($h5);
-  font-family: $heading-font-alt;
-  color: inherit;
-}
-
-h6, .h6 {
-  @include font-size($h6);
-  font-family: $heading-font;
+  $i: $i + 1 !global;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {

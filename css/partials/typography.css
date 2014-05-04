@@ -166,9 +166,9 @@ a:hover {
 	  Headings
    ========================== */
 h1, .h1 {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 40px;
   font-size: 4rem;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 @media (max-width: 62em) {
@@ -185,9 +185,9 @@ h1, .h1 {
 }
 
 h2, .h2 {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 32px;
   font-size: 3.2rem;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 @media (max-width: 62em) {
@@ -204,9 +204,9 @@ h2, .h2 {
 }
 
 h3, .h3 {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
-  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 @media (max-width: 62em) {
@@ -223,23 +223,24 @@ h3, .h3 {
 }
 
 h4, .h4 {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-size: 2rem;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
 h5, .h5 {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: inherit;
+  font-weight: 200;
 }
 
 h6, .h6 {
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6 {

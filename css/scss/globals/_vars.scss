@@ -83,12 +83,14 @@ $heading-font-alt: 'NeueHaasGroteskDisp Pro', 'Helvetica Neue', Helvetica, Arial
 $fontawesome: 'FontAwesome';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 
-$h1: 40;
-$h2: 32;
-$h3: 24;
-$h4: 20;
-$h5: 18;
-$h6: 18;
+$heading-list: (
+  h1   40   200,
+  h2   32   200,
+  h3   24   100,
+  h4   20   200,
+  h5   18   200,
+  h6   18   100
+);
 
 $lede-text: ($base-font-size * 1.375);
 $body-text: $base-font-size;
