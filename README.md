@@ -1,5 +1,4 @@
 #Scaffold
-___
 
 Welcome to Scaffold. Scaffold is here to make your life easier; your code cleaner and more efficient. By starting with maintainable, well-documented CSS, you have a methodology for extending anything you need, and writing new styles that follow specification.
 
