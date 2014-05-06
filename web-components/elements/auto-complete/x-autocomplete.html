@@ -1,0 +1,17 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer-jsonp/polymer-jsonp.html">
+
+<polymer-element name="x-autocomplete">
+<template>
+  <div class="formitem">
+    <label class="visually-hidden" for="auto-complete">List of {{ header }}</label>
+    <input id="auto-complete" list="DNC" type="text" placeholder="Your current / last {{ header }}" autocomplete="off">
+
+    <datalist id="DNC">
+      <option template repeat="{{ DNC }}" value="{{ name }}    {{sector}}" label="{{ state }}">{{ name }}</option>
+    </datalist>
+  </div>
+</template>
+<!-- Call json data -->
+<polymer-jsonp auto url="json-datalist.json?format=json&jsoncallback="></polymer-jsonp>
+</polymer-element>

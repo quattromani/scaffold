@@ -1,121 +1,162 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>auto-complete test</title>
+---
+layout: web-components
+title: x-autocomplete
+---
 
-    <script src="../../bower_components/platform/platform.js"></script>
-    <link rel="import" href="../../bower_components/polymer/polymer.html">
+<script src="../../bower_components/platform/platform.js"></script>
+<link rel="import" href="x-autocomplete.html">
 
-  </head>
-  <body>
+<div class="row">
+  <p class="lede">This web-component to replace the existing jQuery auto-complete component. Using the native HTML5 datalist and built-in browser capabilities to parse through existing lists.</p>
+  <p>Default included information is <code>{% raw %}{{ name }}{% endraw %}</code> <code>{% raw %}{{ sector }}{% endraw %}</code> and a label attribute with <code>{% raw %}{{ state }}{% endraw %}</code>.</p>
+  <b>A few test examples:</b>
+  <ul class="vertical bulleted">
+    <li>Demand Media</li>
+    <li>Time Warner Cable</li>
+    <li>Texas Tech</li>
+    <li>Life Time Fitness</li>
+    <li>Tyco International</li>
+    <li>Hankore Environment Tech</li>
+  </ul>
+</div>
+<div class="row">
+  <x-autocomplete></x-autocomplete>
+</div>
 
-    <polymer-element name="feed-element">
-      <template>
-  			<link rel="stylesheet" href="css/base.css">
-  			<link rel="stylesheet" href="css/typography.css">
-  			<link rel="stylesheet" href="css/layout.css">
-  			<link rel="stylesheet" href="css/helpers.css">
-  			<link rel="stylesheet" href="css/forms.css">
-  			<link rel="stylesheet" href="css/accessibility.css">
-  			<link rel="stylesheet" href="css/auto-complete.css">
+<h2>Example Code</h2>
+<hr>
 
-    		<div class="formitem">
-    			<label for="auto-complete">auto-complete</label>
-    			<input id="auto-complete" list="artists" type="text" placeholder="Artists:" autocomplete="off">
+<h3>index.html</h3>
+{% highlight html %}
+<script src="../../bower_components/platform/platform.js"></script>
+<link rel="import" href="x-autocomplete.html">
 
-    			<datalist id="artists">
-    			  <option template repeat="{{ e in artists }}" value="{{ e.artist }}" label="{{ e.style }}">{{ e.artist }}</option>
-    			</datalist>
-    		</div>
+<x-autocomplete></x-autocomplete>
+{% endhighlight %}
 
-        <div class="formitem">
-          <span id="placed"></span>
-        </div>
+<br>
 
-      </template>
-      <script>
-        Polymer('feed-element', {
-          artists: [{
-            artist: "Jackson Pollock",
-            style: "Abstract Expressionism"
-          },
-          {
-            artist: "Andy Warhol",
-            style: "Pop Art"
-          },
-          {
-            artist: "Victor Vasarely",
-            style: "Op Art"
-          },
-          {
-            artist: "Frank Stella",
-            style: "Minimalism"
-          },
-          {
-            artist: "Claude Monet",
-            style: "Impressionism"
-          },
-          {
-            artist: "Vincent Van Gogh",
-            style: "Post Impressionism"
-          },
-          {
-            artist: "Henri Matisse",
-            style: "Fauvism"
-          },
-          {
-            artist: "Ernst Ludwig Kirchner",
-            style: "German Expressionism"
-          },
-          {
-            artist: "Georges Braque",
-            style: "Abstract Art"
-          },
-          {
-            artist: "Pablo Picasso",
-            style: "Cubism"
-          },
-          {
-            artist: "Giacomo Balla",
-            style: "Futurism"
-          },
-          {
-            artist: "Kazimir Malevich",
-            style: "Suprematism"
-          },
-          {
-            artist: "El Lissitzky",
-            style: "Constructivism"
-          },
-          {
-            artist: "Piet Mondrian",
-            style: "De Stijl"
-          },
-          {
-            artist: "Caravaggio",
-            style: "Baroque Art"
-          },
-          {
-            artist: "Jean Honore Fragonard",
-            style: "Rococo Art"
-          },
-          {
-            artist: "Jan Vermeer",
-            style: "Dutch Art"
-          },
-          {
-            artist: "Jacques Louis David",
-            style: "Neoclassicm"
-          },
-          {
-            artist: "Gustave Courbet",
-            style: "Realism"
-          },]
-        });
-      </script>
-    </polymer-element>
+<h3>x-autocomplete.html</h3>
+{% highlight html %}
+{% raw %}
+<polymer-element name="x-autocomplete">
+<template>
+  <div class="formitem">
+    <label class="visually-hidden" for="auto-complete">List of {{ header }}</label>
+    <input id="auto-complete" list="artists" type="text" placeholder="{{ header }}" autocomplete="off">
 
-  	<feed-element></feed-element>
+    <datalist id="artists">
+      <option template repeat="{{ artists }}" value="{{ artist }}, {{ nationality }}" label="{{ style }}">{{ artist }}</option>
+    </datalist>
+  </div>
+</template>
+<polymer-jsonp auto url="json-datalist.json?format=json&jsoncallback=" response="{{ artist }}"></polymer-jsonp>
+</polymer-element>
+{% endraw %}
+{% endhighlight %}
 
-  </body>
-</html>
+<br>
+
+<h3>json-datalist.json</h3>
+{% highlight html %}
+<script>
+  Polymer('x-autocomplete', {
+    header: "Artists",
+    artists: [{
+      artist: "Jackson Pollock",
+      style: "Abstract Expressionism",
+      nationality: "European"
+    },
+    {
+      artist: "Andy Warhol",
+      style: "Pop Art",
+      nationality: "American"
+    },
+    {
+      artist: "Victor Vasarely",
+      style: "Op Art",
+      nationality: "European"
+    },
+    {
+      artist: "Frank Stella",
+      style: "Minimalism",
+      nationality: "American"
+    },
+    {
+      artist: "Claude Monet",
+      style: "Impressionism",
+      nationality: "European"
+    },
+    {
+      artist: "Vincent Van Gogh",
+      style: "Post Impressionism",
+      nationality: "European"
+    },
+    {
+      artist: "Henri Matisse",
+      style: "Fauvism",
+      nationality: "European"
+    },
+    {
+      artist: "Ernst Ludwig Kirchner",
+      style: "German Expressionism",
+      nationality: "European"
+    },
+    {
+      artist: "Georges Braque",
+      style: "Abstract Art",
+      nationality: "European"
+    },
+    {
+      artist: "Pablo Picasso",
+      style: "Cubism",
+      nationality: "European"
+    },
+    {
+      artist: "Giacomo Balla",
+      style: "Futurism",
+      nationality: "European"
+    },
+    {
+      artist: "Kazimir Europeanvich",
+      style: "Suprematism",
+      nationality: "European"
+    },
+    {
+      artist: "El Lissitzky",
+      style: "Constructivism",
+      nationality: "European"
+    },
+    {
+      artist: "Piet Mondrian",
+      style: "De Stijl",
+      nationality: "European"
+    },
+    {
+      artist: "Caravaggio",
+      style: "Baroque Art",
+      nationality: "European"
+    },
+    {
+      artist: "Jean Honore Fragonard",
+      style: "Rococo Art",
+      nationality: "European"
+    },
+    {
+      artist: "Jan Vermeer",
+      style: "Dutch Art",
+      nationality: "European"
+    },
+    {
+      artist: "Jacques Louis David",
+      style: "Neoclassicm",
+      nationality: "European"
+    },
+    {
+      artist: "Gustave Courbet",
+      style: "Realism",
+      nationality: "European"
+    },]
+  });
+</script>
+{% endhighlight %}

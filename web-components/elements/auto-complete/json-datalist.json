@@ -1,0 +1,1901 @@
+Polymer('x-autocomplete', {
+    header: "Company",
+    DNC: [
+    {
+        "sector": "Media & Entertainment",
+        "revenue": 381000000,
+        "relationshipcount": 85,
+        "city": "SANTA MONICA",
+        "companyid": 1175784,
+        "state": "CA",
+        "isfromboardex": true,
+        "partyid": 6443626725,
+        "ultimateparent_partyid": 6443626725,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "creativebug"
+            ],
+            "dunsid": [
+                "780210394"
+            ],
+            "name": [
+                "demand media inc.",
+                "media inc."
+            ],
+            "tickersymbol": [
+                "dmd"
+            ],
+            "companyid": [
+                "1175784"
+            ]
+        },
+        "cm_count": 18,
+        "dunsid": "780210394",
+        "_mongo_upload_date": "2014-05-02T07:44:31.449000",
+        "_cid": 1175784,
+        "isfromdnb": true,
+        "name": "DEMAND MEDIA INC.",
+        "country": "USA",
+        "value": "DEMAND MEDIA INC.",
+        "secondary_name": "CREATIVEBUG",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "employeecount": 700,
+        "_id": 1175784,
+        "orgtype": "Quoted",
+        "tickersymbol": "DMD"
+    },
+    {
+        "city": "Los Angeles",
+        "name": "Demand Media",
+        "companyid": 932701,
+        "inUS": true,
+        "parentname": "DEMAND MEDIA INC.",
+        "relationshipcount": 12,
+        "highestpublicparentid": 6443626725,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "demand media"
+            ],
+            "companyid": [
+                "932701"
+            ]
+        },
+        "cm_count": 1,
+        "state": "CA",
+        "do_not_contact_code": -1,
+        "partyid": 6443383642,
+        "value": "Demand Max",
+        "_mongo_upload_date": "2014-05-02T07:44:18.282000",
+        "_cid": 932701,
+        "_id": 932701,
+        "ultimateparent_partyid": 6443626725
+    },
+    {
+        "city": "San Fernando",
+        "name": "On Demand Media Group",
+        "companyid": 652681,
+        "value": "On Demand Media Group",
+        "inUS": true,
+        "relationshipcount": 2,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "on demand media group",
+                "media group",
+                "demand media group"
+            ],
+            "companyid": [
+                "652681"
+            ]
+        },
+        "cm_count": 2,
+        "state": "CA",
+        "do_not_contact_code": -1,
+        "partyid": 6443103622,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:43:46.546000",
+        "_cid": 652681,
+        "_id": 652681,
+        "ultimateparent_partyid": 6443103622
+    },
+    {
+        "city": "MADRID",
+        "isfromdnb": true,
+        "companyid": 3057949,
+        "country": "SPAIN",
+        "revenue": 60057,
+        "employeecount": 1,
+        "value": "ON DEMAND MEDIA SL.",
+        "name": "ON DEMAND MEDIA SL.",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "media sl.",
+                "sl.",
+                "demand media sl.",
+                "on demand media sl."
+            ],
+            "dunsid": [
+                "465409186"
+            ],
+            "companyid": [
+                "3057949"
+            ]
+        },
+        "cm_count": 1,
+        "do_not_contact_code": -1,
+        "partyid": 6445508890,
+        "relationshipcount": 1,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:46:43.047000",
+        "_cid": 3057949,
+        "_id": 3057949,
+        "ultimateparent_partyid": 6445508890,
+        "dunsid": "465409186"
+    },
+    {
+        "sector": "Media & Entertainment",
+        "revenue": 29795000000,
+        "value": "TIME WARNER INC.",
+        "city": "NEW YORK",
+        "companyid": 565669,
+        "state": "NY",
+        "cm_count": 134,
+        "isfromboardex": true,
+        "partyid": 6443016610,
+        "ultimateparent_partyid": 6443016610,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "dunsid": [
+                "799527630"
+            ],
+            "name": [
+                "time warner inc.",
+                "warner inc."
+            ],
+            "tickersymbol": [
+                "twx"
+            ],
+            "companyid": [
+                "565669"
+            ]
+        },
+        "employeecount": 34000,
+        "dunsid": "799527630",
+        "_mongo_upload_date": "2014-05-02T07:43:41.094000",
+        "_cid": 565669,
+        "isfromdnb": true,
+        "name": "TIME WARNER INC.",
+        "country": "USA",
+        "relationshipcount": 553,
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NYSE",
+        "_id": 565669,
+        "orgtype": "Quoted",
+        "tickersymbol": "TWX"
+    },
+    {
+        "parentname": "TIME WARNER INC.",
+        "revenue": 833100000,
+        "relationshipcount": 165,
+        "highestpublicparentid": 6443016610,
+        "city": "NEW YORK",
+        "companyid": 284742,
+        "state": "NY",
+        "isfromboardex": true,
+        "partyid": 6442735683,
+        "ultimateparent_partyid": 6443016610,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "time magazine",
+                "magazine"
+            ],
+            "name": [
+                "time inc."
+            ],
+            "dunsid": [
+                "125811117"
+            ],
+            "companyid": [
+                "284742"
+            ]
+        },
+        "cm_count": 59,
+        "dunsid": "125811117",
+        "_mongo_upload_date": "2014-05-02T07:43:20.479000",
+        "_cid": 284742,
+        "isfromdnb": true,
+        "name": "TIME INC.",
+        "country": "USA / United States",
+        "value": "TIME INC.",
+        "secondary_name": "TIME MAGAZINE",
+        "do_not_contact_code": -1,
+        "employeecount": 7700,
+        "_id": 284742,
+        "orgtype": "Private"
+    },
+    {
+        "city": "NEW YORK",
+        "parentname": "TIME WARNER INC.",
+        "isfromdnb": true,
+        "revenue": 2600000,
+        "value": "TIME WARNER GLOBAL MEDIA GROUP INC.",
+        "country": "USA",
+        "companyid": 298211,
+        "employeecount": 40,
+        "relationshipcount": 17,
+        "highestpublicparentid": 6443016610,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "time warner global media group inc.",
+                "media group inc.",
+                "group inc.",
+                "warner global media group inc.",
+                "global media group inc."
+            ],
+            "dunsid": [
+                "136204075"
+            ],
+            "companyid": [
+                "298211"
+            ]
+        },
+        "cm_count": 15,
+        "state": "NY",
+        "do_not_contact_code": -1,
+        "partyid": 6442749152,
+        "dunsid": "136204075",
+        "_mongo_upload_date": "2014-05-02T07:43:20.756000",
+        "_cid": 298211,
+        "_id": 298211,
+        "ultimateparent_partyid": 6443016610,
+        "name": "TIME WARNER GLOBAL MEDIA GROUP INC."
+    },
+    {
+        "city": "ARLINGTON",
+        "isfromdnb": true,
+        "companyid": 1811593,
+        "value": "TIME INC. (ARLINGTON)",
+        "country": "USA",
+        "parentname": "TIME WARNER INC.",
+        "state": "TX",
+        "relationshipcount": 14,
+        "highestpublicparentid": 6443016610,
+        "tokens": {
+            "secondary_name": [
+                "illustrated",
+                "sports illustrated"
+            ],
+            "name": [
+                "time inc."
+            ],
+            "dunsid": [
+                "783754406"
+            ],
+            "companyid": [
+                "1811593"
+            ]
+        },
+        "cm_count": 11,
+        "secondary_name": "SPORTS ILLUSTRATED",
+        "do_not_contact_code": -1,
+        "partyid": 6444262534,
+        "dunsid": "783754406",
+        "_mongo_upload_date": "2014-05-02T07:45:30.055000",
+        "_cid": 1811593,
+        "_id": 1811593,
+        "ultimateparent_partyid": 6443016610,
+        "name": "TIME INC."
+    },
+    {
+        "companyid": 546295,
+        "relationshipcount": 8,
+        "highestpublicparentid": 6443016610,
+        "city": "LONDON",
+        "parentname": "TIME WARNER INC.",
+        "revenue": 15963208,
+        "partyid": 6442997236,
+        "ultimateparent_partyid": 6443016610,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "time warner ltd",
+                "warner ltd"
+            ],
+            "dunsid": [
+                "772636551"
+            ],
+            "companyid": [
+                "546295"
+            ]
+        },
+        "cm_count": 2,
+        "dunsid": "772636551",
+        "_mongo_upload_date": "2014-05-02T07:43:40.254000",
+        "_cid": 546295,
+        "name": "TIME WARNER LTD",
+        "isfromdnb": true,
+        "country": "ENGLAND",
+        "value": "TIME WARNER LTD",
+        "do_not_contact_code": -1,
+        "employeecount": 45,
+        "_id": 546295,
+        "orgtype": "Private Company"
+    },
+    {
+        "city": "NEW YORK",
+        "isfromdnb": true,
+        "companyid": 1645984,
+        "value": "TIME WARNER COMPANIES, INC.",
+        "country": "USA",
+        "parentname": "TIME WARNER INC.",
+        "state": "NY",
+        "relationshipcount": 8,
+        "highestpublicparentid": 6443016610,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "name": [
+                "companies, inc.",
+                "warner companies, inc.",
+                "time warner companies, inc."
+            ],
+            "dunsid": [
+                "001213446"
+            ],
+            "companyid": [
+                "1645984"
+            ]
+        },
+        "cm_count": 3,
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": -1,
+        "partyid": 6444096925,
+        "dunsid": "001213446",
+        "_mongo_upload_date": "2014-05-02T07:45:04.497000",
+        "_cid": 1645984,
+        "_id": 1645984,
+        "ultimateparent_partyid": 6443016610,
+        "name": "TIME WARNER COMPANIES, INC."
+    },
+    {
+        "city": "NEW YORK",
+        "parentname": "TIME WARNER INC.",
+        "isfromdnb": true,
+        "revenue": 3700000,
+        "value": "TIME INC. INTERACTIVE",
+        "country": "USA",
+        "companyid": 604049,
+        "employeecount": 35,
+        "relationshipcount": 7,
+        "highestpublicparentid": 6443016610,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "inc. interactive",
+                "time inc. interactive",
+                "interactive"
+            ],
+            "dunsid": [
+                "879282192"
+            ],
+            "companyid": [
+                "604049"
+            ]
+        },
+        "cm_count": 6,
+        "state": "NY",
+        "do_not_contact_code": -1,
+        "partyid": 6443054990,
+        "dunsid": "879282192",
+        "_mongo_upload_date": "2014-05-02T07:43:42.583000",
+        "_cid": 604049,
+        "_id": 604049,
+        "ultimateparent_partyid": 6443016610,
+        "name": "TIME INC. INTERACTIVE"
+    },
+    {
+        "isfromcapiq": true,
+        "highestpublicparentid": 6443016610,
+        "isfromdnb": true,
+        "companyid": 546296,
+        "partyid": 6442997237,
+        "country": "ENGLAND",
+        "parentname": "TIME WARNER INC.",
+        "value": "TIME WARNER ENTERTAINMENT LTD",
+        "employeecount": 4,
+        "relationshipcount": 5,
+        "orgtype": "Private Company",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "time warner entertainment ltd",
+                "warner entertainment ltd",
+                "entertainment ltd"
+            ],
+            "dunsid": [
+                "772636619"
+            ],
+            "companyid": [
+                "546296"
+            ]
+        },
+        "cm_count": 1,
+        "do_not_contact_code": -1,
+        "city": "LONDON",
+        "dunsid": "772636619",
+        "_mongo_upload_date": "2014-05-02T07:43:40.254000",
+        "_cid": 546296,
+        "_id": 546296,
+        "ultimateparent_partyid": 6443016610,
+        "name": "TIME WARNER ENTERTAINMENT LTD"
+    },
+    {
+        "sector": "Media & Entertainment",
+        "companyid": 289863,
+        "value": "TIME WARNER CABLE INC.",
+        "city": "NEW YORK",
+        "isdnc": true,
+        "revenue": 21386000000,
+        "state": "NY",
+        "cm_count": 154,
+        "isfromboardex": true,
+        "partyid": 6442740804,
+        "ultimateparent_partyid": 6442740804,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "dunsid": [
+                "130273803"
+            ],
+            "name": [
+                "time warner cable inc.",
+                "cable inc.",
+                "warner cable inc."
+            ],
+            "tickersymbol": [
+                "twc"
+            ],
+            "companyid": [
+                "289863"
+            ]
+        },
+        "employeecount": 51000,
+        "dunsid": "130273803",
+        "_mongo_upload_date": "2014-05-02T07:43:20.584000",
+        "_cid": 289863,
+        "isfromdnb": true,
+        "name": "TIME WARNER CABLE INC.",
+        "country": "USA",
+        "relationshipcount": 483,
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": 13733,
+        "isultimateparent": true,
+        "stockexchange": "NYSE",
+        "_id": 289863,
+        "orgtype": "Quoted",
+        "tickersymbol": "TWC"
+    },
+    {
+        "parentname": "TIME WARNER CABLE INC.",
+        "companyid": 557958,
+        "value": "TIME WARNER CABLE ENTERPRISES LLC",
+        "highestpublicparentid": 6442740804,
+        "city": "NEW YORK",
+        "isdnc": true,
+        "revenue": 2780300000,
+        "state": "NY",
+        "partyid": 6443008899,
+        "ultimateparent_partyid": 6442740804,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "name": [
+                "enterprises llc",
+                "time warner cable enterprises llc",
+                "cable enterprises llc",
+                "warner cable enterprises llc"
+            ],
+            "dunsid": [
+                "790784474"
+            ],
+            "companyid": [
+                "557958"
+            ]
+        },
+        "cm_count": 7,
+        "dunsid": "790784474",
+        "_mongo_upload_date": "2014-05-02T07:43:40.942000",
+        "_cid": 557958,
+        "isfromdnb": true,
+        "name": "TIME WARNER CABLE ENTERPRISES LLC",
+        "country": "USA",
+        "relationshipcount": 25,
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": 13733,
+        "employeecount": 28000,
+        "_id": 557958,
+        "orgtype": "Private Company"
+    },
+    {
+        "companyid": 612434,
+        "relationshipcount": 14,
+        "highestpublicparentid": 6442740804,
+        "city": "WICHITA FALLS",
+        "isdnc": true,
+        "parentname": "TIME WARNER CABLE INC.",
+        "revenue": 4600000,
+        "state": "TX",
+        "partyid": 6443063375,
+        "ultimateparent_partyid": 6442740804,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "time warner cable co",
+                "cable co",
+                "warner cable co"
+            ],
+            "dunsid": [
+                "930424098"
+            ],
+            "companyid": [
+                "612434"
+            ]
+        },
+        "cm_count": 8,
+        "dunsid": "930424098",
+        "_mongo_upload_date": "2014-05-02T07:43:43.325000",
+        "_cid": 612434,
+        "name": "TIME WARNER CABLE CO",
+        "isfromdnb": true,
+        "country": "USA",
+        "value": "TIME WARNER CABLE CO",
+        "do_not_contact_code": 13733,
+        "employeecount": 50,
+        "_id": 612434
+    },
+    {
+        "parentname": "TIME WARNER CABLE INC.",
+        "companyid": 586642,
+        "value": "TIME WARNER ENTERTAINMENT-ADVANCE/NEWHOUSE PARTNERSHIP",
+        "highestpublicparentid": 6442740804,
+        "city": "NEW YORK",
+        "isdnc": true,
+        "revenue": 86900000,
+        "state": "NY",
+        "partyid": 6443037583,
+        "ultimateparent_partyid": 6442740804,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "name": [
+                "entertainment-advance/newhouse partnership",
+                "partnership",
+                "warner entertainment-advance/newhouse partnership",
+                "time warner entertainment-advance/newhouse partnership"
+            ],
+            "dunsid": [
+                "836351197"
+            ],
+            "companyid": [
+                "586642"
+            ]
+        },
+        "cm_count": 2,
+        "dunsid": "836351197",
+        "_mongo_upload_date": "2014-05-02T07:43:42.205000",
+        "_cid": 586642,
+        "isfromdnb": true,
+        "name": "TIME WARNER ENTERTAINMENT-ADVANCE/NEWHOUSE PARTNERSHIP",
+        "country": "USA",
+        "relationshipcount": 11,
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": 13733,
+        "employeecount": 1298,
+        "_id": 586642,
+        "orgtype": "Private Company"
+    },
+    {
+        "companyid": 68425,
+        "relationshipcount": 9,
+        "highestpublicparentid": 6442740804,
+        "city": "BUFFALO",
+        "isdnc": true,
+        "parentname": "TIME WARNER CABLE INC.",
+        "state": "NY",
+        "partyid": 6442519366,
+        "ultimateparent_partyid": 6442740804,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "name": [
+                "warner cable inc",
+                "cable inc",
+                "time warner cable inc"
+            ],
+            "dunsid": [
+                "362676012"
+            ],
+            "companyid": [
+                "68425"
+            ]
+        },
+        "employeecount": 52,
+        "dunsid": "362676012",
+        "_mongo_upload_date": "2014-05-02T07:43:12.510000",
+        "_cid": 68425,
+        "name": "TIME WARNER CABLE INC",
+        "isfromdnb": true,
+        "country": "USA",
+        "value": "TIME WARNER CABLE INC",
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": 13733,
+        "cm_count": 8,
+        "_id": 68425
+    },
+    {
+        "city": "NEW YORK",
+        "isfromdnb": true,
+        "companyid": 1554707,
+        "isdnc": true,
+        "country": "USA",
+        "parentname": "TIME WARNER CABLE INC.",
+        "value": "TIME WARNER CABLE LLC",
+        "state": "NY",
+        "relationshipcount": 9,
+        "highestpublicparentid": 6442740804,
+        "tokens": {
+            "secondary_name": [
+                "time warner",
+                "warner"
+            ],
+            "name": [
+                "cable llc",
+                "time warner cable llc",
+                "warner cable llc"
+            ],
+            "dunsid": [
+                "830774563"
+            ],
+            "companyid": [
+                "1554707"
+            ]
+        },
+        "employeecount": 38,
+        "secondary_name": "TIME WARNER",
+        "do_not_contact_code": 13733,
+        "partyid": 6444005648,
+        "dunsid": "830774563",
+        "_mongo_upload_date": "2014-05-02T07:44:52.549000",
+        "_cid": 1554707,
+        "_id": 1554707,
+        "ultimateparent_partyid": 6442740804,
+        "name": "TIME WARNER CABLE LLC"
+    },
+    {
+        "companyid": 1144863,
+        "relationshipcount": 6,
+        "highestpublicparentid": 6442740804,
+        "city": "WACO",
+        "isdnc": true,
+        "parentname": "TIME WARNER CABLE INC.",
+        "revenue": 1800000,
+        "state": "TX",
+        "partyid": 6443595804,
+        "ultimateparent_partyid": 6442740804,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "sales",
+                "time warner cable media sales",
+                "warner cable media sales",
+                "cable media sales",
+                "media sales"
+            ],
+            "dunsid": [
+                "623746810"
+            ],
+            "companyid": [
+                "1144863"
+            ]
+        },
+        "cm_count": 4,
+        "dunsid": "623746810",
+        "_mongo_upload_date": "2014-05-02T07:44:27.996000",
+        "_cid": 1144863,
+        "name": "TIME WARNER CABLE MEDIA SALES",
+        "isfromdnb": true,
+        "country": "USA",
+        "value": "TIME WARNER CABLE MEDIA SALES",
+        "do_not_contact_code": 13733,
+        "employeecount": 25,
+        "_id": 1144863
+    },
+    {
+        "city": "Honolulu",
+        "name": "Oceanic Time Warner Cable",
+        "companyid": 1622263,
+        "isdnc": true,
+        "inUS": true,
+        "parentname": "TIME WARNER CABLE INC.",
+        "relationshipcount": 5,
+        "highestpublicparentid": 6442740804,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "oceanic time warner cable",
+                "time warner cable",
+                "warner cable",
+                "cable"
+            ],
+            "companyid": [
+                "1622263"
+            ]
+        },
+        "cm_count": 4,
+        "state": "HI",
+        "do_not_contact_code": 13733,
+        "partyid": 6444073204,
+        "value": "Oceanic Time Warner Cable",
+        "_mongo_upload_date": "2014-05-02T07:44:58.412000",
+        "_cid": 1622263,
+        "_id": 1622263,
+        "ultimateparent_partyid": 6442740804
+    },
+    {
+        "sector": "Media & Entertainment",
+        "revenue": 1206000000,
+        "value": "LIFE TIME FITNESS, INC.",
+        "city": "CHANHASSEN",
+        "companyid": 550750,
+        "state": "MN",
+        "cm_count": 30,
+        "isfromboardex": true,
+        "partyid": 6443001691,
+        "ultimateparent_partyid": 6443001691,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "lifetime fitness",
+                "fitness"
+            ],
+            "dunsid": [
+                "784307084"
+            ],
+            "name": [
+                "life time fitness, inc.",
+                "time fitness, inc.",
+                "fitness, inc."
+            ],
+            "tickersymbol": [
+                "ltm"
+            ],
+            "companyid": [
+                "550750"
+            ]
+        },
+        "employeecount": 22500,
+        "dunsid": "784307084",
+        "_mongo_upload_date": "2014-05-02T07:43:40.780000",
+        "_cid": 550750,
+        "isfromdnb": true,
+        "name": "LIFE TIME FITNESS, INC.",
+        "country": "USA",
+        "relationshipcount": 77,
+        "secondary_name": "LIFETIME FITNESS",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NYSE",
+        "_id": 550750,
+        "orgtype": "Quoted",
+        "tickersymbol": "LTM"
+    },
+    {
+        "sector": "Electronic & Electrical Equipment",
+        "revenue": 10647000000,
+        "relationshipcount": 218,
+        "city": "NEUHAUSEN AM RHEINFALL",
+        "companyid": 1774458,
+        "state": "SH",
+        "isfromboardex": true,
+        "partyid": 6444225399,
+        "ultimateparent_partyid": 6444225399,
+        "cm_count": 24,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "485096551"
+            ],
+            "name": [
+                "international ltd.",
+                "tyco international ltd."
+            ],
+            "tickersymbol": [
+                "tyc"
+            ],
+            "companyid": [
+                "1774458"
+            ]
+        },
+        "employeecount": 70000,
+        "dunsid": "485096551",
+        "_mongo_upload_date": "2014-05-02T07:45:24.445000",
+        "_cid": 1774458,
+        "isfromdnb": true,
+        "name": "TYCO INTERNATIONAL LTD.",
+        "country": "SWITZERLAND",
+        "value": "TYCO INTERNATIONAL LTD.",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NYSE",
+        "_id": 1774458,
+        "orgtype": "Quoted",
+        "tickersymbol": "TYC"
+    },
+    {
+        "city": "ALBUQUERQUE",
+        "isfromdnb": true,
+        "name": "SIMPLEX TIME RECORDER CO.",
+        "companyid": 331861,
+        "value": "SIMPLEX TIME RECORDER CO.",
+        "country": "USA",
+        "parentname": "TYCO INTERNATIONAL LTD.",
+        "state": "NM",
+        "relationshipcount": 8,
+        "highestpublicparentid": 6444225399,
+        "tokens": {
+            "secondary_name": [
+                "simplex time recorder 467",
+                "467",
+                "time recorder 467",
+                "recorder 467"
+            ],
+            "name": [
+                "simplex time recorder co.",
+                "recorder co.",
+                "time recorder co."
+            ],
+            "dunsid": [
+                "085266179"
+            ],
+            "companyid": [
+                "331861"
+            ]
+        },
+        "cm_count": 5,
+        "secondary_name": "SIMPLEX TIME RECORDER 467",
+        "do_not_contact_code": -1,
+        "partyid": 6442782802,
+        "dunsid": "085266179",
+        "_mongo_upload_date": "2014-05-02T07:43:21.907000",
+        "_cid": 331861,
+        "_id": 331861,
+        "ultimateparent_partyid": 6444225399,
+        "employeecount": 70
+    },
+    {
+        "isfromcapiq": true,
+        "isfromdnb": true,
+        "name": "TIME OUT GROUP HC LTD",
+        "city": "LONDON",
+        "country": "ENGLAND",
+        "companyid": 2057801,
+        "value": "TIME OUT GROUP HC LTD",
+        "orgtype": "Private Company",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "out group hc ltd",
+                "group hc ltd",
+                "time out group hc ltd",
+                "hc ltd"
+            ],
+            "dunsid": [
+                "216985474"
+            ],
+            "companyid": [
+                "2057801"
+            ]
+        },
+        "employeecount": 177,
+        "revenue": 27595241,
+        "do_not_contact_code": -1,
+        "partyid": 6444508742,
+        "relationshipcount": 1,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:46:19.274000",
+        "_cid": 2057801,
+        "_id": 2057801,
+        "ultimateparent_partyid": 6444508742,
+        "dunsid": "216985474"
+    },
+    {
+        "isfromcapiq": true,
+        "isfromdnb": true,
+        "companyid": 420011,
+        "value": "TIME OUT GROUP LTD",
+        "country": "ENGLAND",
+        "parentname": "TIME OUT GROUP HC LTD",
+        "employeecount": 182,
+        "relationshipcount": 8,
+        "ultimateparent_partyid": 6444508742,
+        "tokens": {
+            "secondary_name": [
+                "out distribution",
+                "distribution",
+                "time out distribution"
+            ],
+            "name": [
+                "out group ltd",
+                "time out group ltd",
+                "group ltd"
+            ],
+            "dunsid": [
+                "399671536"
+            ],
+            "companyid": [
+                "420011"
+            ]
+        },
+        "cm_count": 4,
+        "secondary_name": "TIME OUT DISTRIBUTION",
+        "do_not_contact_code": -1,
+        "partyid": 6442870952,
+        "dunsid": "399671536",
+        "orgtype": "Private Company",
+        "_mongo_upload_date": "2014-05-02T07:43:29.442000",
+        "_cid": 420011,
+        "_id": 420011,
+        "city": "LONDON",
+        "name": "TIME OUT GROUP LTD"
+    },
+    {
+        "revenue": 177713507,
+        "relationshipcount": 7,
+        "city": "MUMBAI",
+        "companyid": 1892298,
+        "cm_count": 5,
+        "state": "MH",
+        "partyid": 6444343239,
+        "ultimateparent_partyid": 6444343239,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "time"
+            ],
+            "dunsid": [
+                "650215143"
+            ],
+            "name": [
+                "technoplast limited",
+                "time technoplast limited"
+            ],
+            "tickersymbol": [
+                "532856"
+            ],
+            "companyid": [
+                "1892298"
+            ]
+        },
+        "employeecount": 2500,
+        "dunsid": "650215143",
+        "_mongo_upload_date": "2014-05-02T07:45:43.267000",
+        "_cid": 1892298,
+        "isfromdnb": true,
+        "name": "TIME TECHNOPLAST LIMITED",
+        "country": "INDIA",
+        "value": "TIME TECHNOPLAST LIMITED",
+        "secondary_name": "TIME",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "BSE",
+        "_id": 1892298,
+        "orgtype": "Public Company",
+        "tickersymbol": "532856"
+    },
+    {
+        "sector": "Electronic & Electrical Equipment",
+        "revenue": 96962693,
+        "relationshipcount": 6,
+        "city": "CHEUNG SHA WAN",
+        "companyid": 2012663,
+        "state": "KLN",
+        "isfromboardex": true,
+        "partyid": 6444463604,
+        "ultimateparent_partyid": 6444463604,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "669811130"
+            ],
+            "name": [
+                "asia time corporation",
+                "time corporation"
+            ],
+            "tickersymbol": [
+                "atym"
+            ],
+            "companyid": [
+                "2012663"
+            ]
+        },
+        "stockexchange": "OTC",
+        "dunsid": "669811130",
+        "_mongo_upload_date": "2014-05-02T07:46:04.415000",
+        "_cid": 2012663,
+        "isfromdnb": true,
+        "name": "ASIA TIME CORPORATION",
+        "country": "HONG KONG",
+        "value": "ASIA TIME CORPORATION",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "employeecount": 35,
+        "_id": 2012663,
+        "orgtype": "Quoted",
+        "tickersymbol": "ATYM"
+    },
+     {
+        "sector": "Information Technology Hardware",
+        "companyid": 213398,
+        "value": "TECH DATA CORPORATION",
+        "city": "CLEARWATER",
+        "isdnc": true,
+        "revenue": 25358000000,
+        "state": "FL",
+        "cm_count": 80,
+        "isfromboardex": true,
+        "partyid": 6442664339,
+        "ultimateparent_partyid": 6442664339,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "081940553"
+            ],
+            "name": [
+                "data corporation",
+                "tech data corporation"
+            ],
+            "tickersymbol": [
+                "tecd"
+            ],
+            "companyid": [
+                "213398"
+            ]
+        },
+        "employeecount": 9100,
+        "dunsid": "081940553",
+        "_mongo_upload_date": "2014-05-02T07:43:17.883000",
+        "_cid": 213398,
+        "isfromdnb": true,
+        "name": "TECH DATA CORPORATION",
+        "country": "USA",
+        "relationshipcount": 389,
+        "do_not_contact_code": 13733,
+        "isultimateparent": true,
+        "stockexchange": "NASDAQ OMX",
+        "_id": 213398,
+        "orgtype": "Quoted",
+        "tickersymbol": "TECD"
+    },
+    {
+        "city": "MUNCHEN",
+        "isfromdnb": true,
+        "companyid": 394802,
+        "isdnc": true,
+        "country": "GERMANY",
+        "parentname": "TECH DATA CORPORATION",
+        "value": "TECH DATA EUROPE GMBH",
+        "employeecount": 700,
+        "relationshipcount": 20,
+        "highestpublicparentid": 6442664339,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "data europe gmbh",
+                "europe gmbh",
+                "tech data europe gmbh"
+            ],
+            "dunsid": [
+                "315967153"
+            ],
+            "companyid": [
+                "394802"
+            ]
+        },
+        "cm_count": 8,
+        "do_not_contact_code": 13733,
+        "partyid": 6442845743,
+        "dunsid": "315967153",
+        "_mongo_upload_date": "2014-05-02T07:43:27.110000",
+        "_cid": 394802,
+        "_id": 394802,
+        "ultimateparent_partyid": 6442664339,
+        "name": "TECH DATA EUROPE GMBH"
+    },
+    {
+        "sector": "Business Services",
+        "revenue": 2614000000,
+        "relationshipcount": 119,
+        "city": "PASADENA",
+        "companyid": 126484,
+        "state": "CA",
+        "cm_count": 23,
+        "isfromboardex": true,
+        "partyid": 6442577425,
+        "ultimateparent_partyid": 6442577425,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "045224250"
+            ],
+            "name": [
+                "tetra tech, inc.",
+                "tech, inc."
+            ],
+            "tickersymbol": [
+                "ttek"
+            ],
+            "companyid": [
+                "126484"
+            ]
+        },
+        "employeecount": 14000,
+        "dunsid": "045224250",
+        "_mongo_upload_date": "2014-05-02T07:43:14.564000",
+        "_cid": 126484,
+        "isfromdnb": true,
+        "name": "TETRA TECH, INC.",
+        "country": "USA",
+        "value": "TETRA TECH, INC.",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NASDAQ OMX",
+        "_id": 126484,
+        "orgtype": "Quoted",
+        "tickersymbol": "TTEK"
+    },
+    {
+        "sector": "Telecommunication Services",
+        "revenue": 1252000000,
+        "value": "TECH MAHINDRA LIMITED",
+        "city": "PUNE",
+        "companyid": 1152100,
+        "state": "MH",
+        "cm_count": 40,
+        "isfromboardex": true,
+        "partyid": 6443603041,
+        "ultimateparent_partyid": 6443603041,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "tech mahindra",
+                "mahindra"
+            ],
+            "dunsid": [
+                "650079572"
+            ],
+            "name": [
+                "tech mahindra limited",
+                "mahindra limited"
+            ],
+            "tickersymbol": [
+                "eqtechm"
+            ],
+            "companyid": [
+                "1152100"
+            ]
+        },
+        "employeecount": 47498,
+        "dunsid": "650079572",
+        "_mongo_upload_date": "2014-05-02T07:44:29.261000",
+        "_cid": 1152100,
+        "isfromdnb": true,
+        "name": "TECH MAHINDRA LIMITED",
+        "country": "INDIA",
+        "relationshipcount": 116,
+        "secondary_name": "TECH MAHINDRA",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NSE",
+        "_id": 1152100,
+        "orgtype": "Quoted",
+        "tickersymbol": "EQTECHM"
+    },
+    {
+        "revenue": 40547656,
+        "relationshipcount": 14,
+        "highestpublicparentid": 6443603041,
+        "city": "MUMBAI",
+        "parentname": "TECH MAHINDRA LIMITED",
+        "state": "MH",
+        "partyid": 6443602946,
+        "ultimateparent_partyid": 6443603041,
+        "tokens": {
+            "secondary_name": [
+                "tech mahindra limited",
+                "mahindra limited"
+            ],
+            "name": [
+                "tech mahindra limited",
+                "mahindra limited"
+            ],
+            "dunsid": [
+                "650049224"
+            ],
+            "companyid": [
+                "1152005"
+            ]
+        },
+        "employeecount": 2500,
+        "dunsid": "650049224",
+        "_mongo_upload_date": "2014-05-02T07:44:29.254000",
+        "_cid": 1152005,
+        "name": "TECH MAHINDRA LIMITED",
+        "isfromdnb": true,
+        "country": "INDIA",
+        "value": "TECH MAHINDRA LIMITED (MUMBAI)",
+        "companyid": 1152005,
+        "secondary_name": "TECH MAHINDRA LIMITED",
+        "do_not_contact_code": -1,
+        "cm_count": 10,
+        "_id": 1152005
+    },
+    {
+        "sector": "Engineering & Machinery",
+        "revenue": 98000000,
+        "relationshipcount": 49,
+        "city": "WARRENVILLE",
+        "companyid": 132510,
+        "state": "IL",
+        "cm_count": 6,
+        "isfromboardex": true,
+        "partyid": 6442583451,
+        "ultimateparent_partyid": 6442583451,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "047842158"
+            ],
+            "name": [
+                "tech, inc.",
+                "fuel tech, inc."
+            ],
+            "tickersymbol": [
+                "ftek"
+            ],
+            "companyid": [
+                "132510"
+            ]
+        },
+        "employeecount": 184,
+        "dunsid": "047842158",
+        "_mongo_upload_date": "2014-05-02T07:43:14.679000",
+        "_cid": 132510,
+        "isfromdnb": true,
+        "name": "FUEL TECH, INC.",
+        "country": "USA",
+        "value": "FUEL TECH, INC.",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NASDAQ OMX",
+        "_id": 132510,
+        "orgtype": "Quoted",
+        "tickersymbol": "FTEK"
+    },
+    {
+        "revenue": 524100000,
+        "relationshipcount": 26,
+        "city": "LUBBOCK",
+        "companyid": 117959,
+        "state": "TX",
+        "partyid": 6442568900,
+        "ultimateparent_partyid": 6442568900,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "texas tech university",
+                "tech university"
+            ],
+            "name": [
+                "university system",
+                "tech university system",
+                "texas tech university system",
+                "system"
+            ],
+            "dunsid": [
+                "041367053"
+            ],
+            "companyid": [
+                "117959"
+            ]
+        },
+        "employeecount": 6635,
+        "dunsid": "041367053",
+        "_mongo_upload_date": "2014-05-02T07:43:14.383000",
+        "_cid": 117959,
+        "isfromdnb": true,
+        "name": "TEXAS TECH UNIVERSITY SYSTEM",
+        "country": "USA",
+        "value": "TEXAS TECH UNIVERSITY SYSTEM",
+        "secondary_name": "TEXAS TECH UNIVERSITY",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "cm_count": 13,
+        "_id": 117959,
+        "orgtype": "Educational Institution"
+    },
+    {
+        "city": "LUBBOCK",
+        "isfromdnb": true,
+        "companyid": 298947,
+        "value": "TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER",
+        "country": "USA",
+        "parentname": "TEXAS TECH UNIVERSITY SYSTEM",
+        "state": "TX",
+        "relationshipcount": 33,
+        "name": "TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER",
+        "tokens": {
+            "secondary_name": [
+                "of nursing",
+                "school of nursing",
+                "nursing"
+            ],
+            "name": [
+                "university health sciences center",
+                "texas tech university health sciences center",
+                "tech university health sciences center",
+                "health sciences center",
+                "sciences center"
+            ],
+            "dunsid": [
+                "137198326"
+            ],
+            "companyid": [
+                "298947"
+            ]
+        },
+        "cm_count": 30,
+        "secondary_name": "SCHOOL OF NURSING",
+        "do_not_contact_code": -1,
+        "partyid": 6442749888,
+        "dunsid": "137198326",
+        "_mongo_upload_date": "2014-05-02T07:43:20.775000",
+        "_cid": 298947,
+        "_id": 298947,
+        "ultimateparent_partyid": 6442568900,
+        "employeecount": 95
+    },
+    {
+        "parentname": "TEXAS TECH UNIVERSITY SYSTEM",
+        "revenue": 361400000,
+        "value": "TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER (LUBBOCK)",
+        "city": "LUBBOCK",
+        "companyid": 468254,
+        "state": "TX",
+        "partyid": 6442919195,
+        "ultimateparent_partyid": 6442568900,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "ttuhsc"
+            ],
+            "name": [
+                "university health sciences center",
+                "texas tech university health sciences center",
+                "tech university health sciences center",
+                "health sciences center",
+                "sciences center"
+            ],
+            "dunsid": [
+                "609980727"
+            ],
+            "companyid": [
+                "468254"
+            ]
+        },
+        "employeecount": 5017,
+        "dunsid": "609980727",
+        "_mongo_upload_date": "2014-05-02T07:43:33.940000",
+        "_cid": 468254,
+        "isfromdnb": true,
+        "name": "TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER",
+        "country": "USA",
+        "relationshipcount": 27,
+        "secondary_name": "TTUHSC",
+        "do_not_contact_code": -1,
+        "cm_count": 18,
+        "_id": 468254,
+        "orgtype": "Educational Institution"
+    },
+    {
+        "city": "LUBBOCK",
+        "isfromdnb": true,
+        "companyid": 888125,
+        "value": "TEXAS TECH UNIVERSITY SYSTEM (LUBBOCK)",
+        "country": "USA",
+        "parentname": "TEXAS TECH UNIVERSITY SYSTEM",
+        "state": "TX",
+        "relationshipcount": 14,
+        "tokens": {
+            "secondary_name": [
+                "texas tech university",
+                "tech university"
+            ],
+            "name": [
+                "university system",
+                "tech university system",
+                "texas tech university system",
+                "system"
+            ],
+            "dunsid": [
+                "809920531"
+            ],
+            "companyid": [
+                "888125"
+            ]
+        },
+        "cm_count": 11,
+        "secondary_name": "TEXAS TECH UNIVERSITY",
+        "do_not_contact_code": -1,
+        "partyid": 6443339066,
+        "dunsid": "809920531",
+        "_mongo_upload_date": "2014-05-02T07:44:12.274000",
+        "_cid": 888125,
+        "_id": 888125,
+        "ultimateparent_partyid": 6442568900,
+        "name": "TEXAS TECH UNIVERSITY SYSTEM"
+    },
+    {
+        "sector": "Business Services",
+        "revenue": 60000000,
+        "relationshipcount": 32,
+        "city": "HAMILTON",
+        "companyid": 1890941,
+        "isfromboardex": true,
+        "partyid": 6444341882,
+        "ultimateparent_partyid": 6444341882,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "875670481"
+            ],
+            "name": [
+                "environment tech group limited",
+                "tech group limited",
+                "hankore environment tech group limited",
+                "group limited"
+            ],
+            "tickersymbol": [
+                "b22"
+            ],
+            "companyid": [
+                "1890941"
+            ]
+        },
+        "dunsid": "875670481",
+        "_mongo_upload_date": "2014-05-02T07:45:43.120000",
+        "_cid": 1890941,
+        "isfromdnb": true,
+        "name": "HANKORE ENVIRONMENT TECH GROUP LIMITED",
+        "country": "BERMUDA",
+        "value": "HANKORE ENVIRONMENT TECH GROUP LIMITED",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "SGX",
+        "_id": 1890941,
+        "orgtype": "Quoted",
+        "tickersymbol": "B22"
+    },
+    {
+        "sector": "Telecommunication Services",
+        "revenue": 189000000,
+        "relationshipcount": 31,
+        "city": "MANKATO",
+        "companyid": 310638,
+        "state": "MN",
+        "cm_count": 1,
+        "isfromboardex": true,
+        "partyid": 6442761579,
+        "ultimateparent_partyid": 6442761579,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "147587554"
+            ],
+            "name": [
+                "hickory tech corporation",
+                "tech corporation"
+            ],
+            "tickersymbol": [
+                "htco"
+            ],
+            "companyid": [
+                "310638"
+            ]
+        },
+        "employeecount": 518,
+        "dunsid": "147587554",
+        "_mongo_upload_date": "2014-05-02T07:43:21.499000",
+        "_cid": 310638,
+        "isfromdnb": true,
+        "name": "HICKORY TECH CORPORATION",
+        "country": "USA",
+        "value": "HICKORY TECH CORPORATION",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "NASDAQ OMX",
+        "_id": 310638,
+        "orgtype": "Quoted",
+        "tickersymbol": "HTCO"
+    },
+    {
+        "city": "SHENZHEN",
+        "isfromdnb": true,
+        "companyid": 1990320,
+        "country": "CHINA",
+        "employeecount": 250,
+        "value": "FOXCONN TECH. GROUP",
+        "name": "FOXCONN TECH. GROUP",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "tech. group",
+                "foxconn tech. group"
+            ],
+            "dunsid": [
+                "544964591"
+            ],
+            "companyid": [
+                "1990320"
+            ]
+        },
+        "cm_count": 26,
+        "do_not_contact_code": -1,
+        "partyid": 6444441261,
+        "relationshipcount": 29,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:45:57.348000",
+        "_cid": 1990320,
+        "_id": 1990320,
+        "ultimateparent_partyid": 6444441261,
+        "dunsid": "544964591"
+    },
+    {
+        "name": "Tech Coast Angels",
+        "companyid": 1251418,
+        "inUS": true,
+        "isfromboardex": true,
+        "value": "Tech Coast Angels",
+        "orgtype": "Private",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "coast angels",
+                "angels",
+                "tech coast angels"
+            ],
+            "companyid": [
+                "1251418"
+            ]
+        },
+        "cm_count": 9,
+        "state": "CA",
+        "do_not_contact_code": -1,
+        "partyid": 6443702359,
+        "relationshipcount": 25,
+        "_mongo_upload_date": "2014-05-02T07:44:38.255000",
+        "_cid": 1251418,
+        "_id": 1251418,
+        "ultimateparent_partyid": 6443702359,
+        "isultimateparent": true
+    },
+    {
+        "city": "NORTH SYDNEY",
+        "isfromdnb": true,
+        "companyid": 876540,
+        "country": "AUSTRALIA",
+        "revenue": 1098705267,
+        "employeecount": 4,
+        "value": "TECH MAHINDRA LIMITED (NORTH SYDNEY)",
+        "name": "TECH MAHINDRA LIMITED",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "tech mahindra limited",
+                "mahindra limited"
+            ],
+            "dunsid": [
+                "759940042"
+            ],
+            "companyid": [
+                "876540"
+            ]
+        },
+        "cm_count": 13,
+        "state": "NSW",
+        "do_not_contact_code": -1,
+        "partyid": 6443327481,
+        "relationshipcount": 24,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:44:12.130000",
+        "_cid": 876540,
+        "_id": 876540,
+        "ultimateparent_partyid": 6443327481,
+        "dunsid": "759940042"
+    },
+    {
+        "city": "HELIX",
+        "isfromdnb": true,
+        "companyid": 271538,
+        "country": "USA",
+        "employeecount": 47,
+        "value": "VESTAS AMERICAN WIND TECH INC",
+        "name": "VESTAS AMERICAN WIND TECH INC",
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "american wind tech inc",
+                "wind tech inc",
+                "tech inc",
+                "vestas american wind tech inc"
+            ],
+            "dunsid": [
+                "116162616"
+            ],
+            "companyid": [
+                "271538"
+            ]
+        },
+        "cm_count": 11,
+        "state": "OR",
+        "do_not_contact_code": -1,
+        "partyid": 6442722479,
+        "relationshipcount": 23,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:43:19.840000",
+        "_cid": 271538,
+        "_id": 271538,
+        "ultimateparent_partyid": 6442722479,
+        "dunsid": "116162616"
+    },
+    {
+        "sector": "Chemicals",
+        "revenue": 52000000,
+        "relationshipcount": 18,
+        "city": "BEER SHEBA",
+        "companyid": 852435,
+        "isfromboardex": true,
+        "partyid": 6443303376,
+        "ultimateparent_partyid": 6443303376,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "ltd. - formerly",
+                "metal technology ltd. - formerly",
+                "technology ltd. - formerly",
+                "formerly",
+                "- formerly",
+                "metek metal technology ltd. - formerly"
+            ],
+            "dunsid": [
+                "600222418"
+            ],
+            "name": [
+                "- tech ltd.",
+                "tech ltd.",
+                "metal - tech ltd."
+            ],
+            "tickersymbol": [
+                "mtt"
+            ],
+            "companyid": [
+                "852435"
+            ]
+        },
+        "stockexchange": "LON",
+        "dunsid": "600222418",
+        "_mongo_upload_date": "2014-05-02T07:44:01.903000",
+        "_cid": 852435,
+        "isfromdnb": true,
+        "name": "METAL - TECH LTD.",
+        "country": "ISRAEL",
+        "value": "METAL - TECH LTD.",
+        "secondary_name": "METEK METAL TECHNOLOGY LTD. - FORMERLY",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "employeecount": 150,
+        "_id": 852435,
+        "orgtype": "Quoted",
+        "tickersymbol": "MTT"
+    },
+    {
+        "city": "Atlanta",
+        "name": "Georgia Tech",
+        "companyid": 641403,
+        "value": "Georgia Tech",
+        "inUS": true,
+        "relationshipcount": 17,
+        "tokens": {
+            "secondary_name": [],
+            "name": [
+                "georgia tech",
+                "tech"
+            ],
+            "companyid": [
+                "641403"
+            ]
+        },
+        "cm_count": 16,
+        "state": "GA",
+        "do_not_contact_code": -1,
+        "partyid": 6443092344,
+        "isultimateparent": true,
+        "_mongo_upload_date": "2014-05-02T07:43:44.981000",
+        "_cid": 641403,
+        "_id": 641403,
+        "ultimateparent_partyid": 6443092344
+    },
+    {
+        "sector": "Electronic & Electrical Equipment",
+        "revenue": 173013570,
+        "relationshipcount": 16,
+        "city": "HUIZHOU",
+        "companyid": 1117117,
+        "isfromboardex": true,
+        "partyid": 6443568058,
+        "ultimateparent_partyid": 6443568058,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "529817926"
+            ],
+            "name": [
+                "(hz) audio & video tech.co., ltd.",
+                "niveous (hz) audio & video tech.co., ltd.",
+                "audio & video tech.co., ltd.",
+                "tech.co., ltd.",
+                "& video tech.co., ltd.",
+                "video tech.co., ltd."
+            ],
+            "tickersymbol": [
+                "nivs"
+            ],
+            "companyid": [
+                "1117117"
+            ]
+        },
+        "dunsid": "529817926",
+        "_mongo_upload_date": "2014-05-02T07:44:26.865000",
+        "_cid": 1117117,
+        "isfromdnb": true,
+        "name": "NIVEOUS (HZ) AUDIO & VIDEO TECH.CO., LTD.",
+        "country": "CHINA",
+        "value": "NIVEOUS (HZ) AUDIO & VIDEO TECH.CO., LTD.",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "employeecount": 3000,
+        "_id": 1117117,
+        "orgtype": "Quoted",
+        "tickersymbol": "NIVS"
+    },
+    {
+        "sector": "Health",
+        "revenue": 44000000,
+        "relationshipcount": 14,
+        "city": "MARKHAM",
+        "companyid": 824057,
+        "state": "ON",
+        "isfromboardex": true,
+        "partyid": 6443274998,
+        "ultimateparent_partyid": 6443274998,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [],
+            "dunsid": [
+                "248171977"
+            ],
+            "name": [
+                "pro tech, ltd",
+                "tech, ltd",
+                "alpha pro tech, ltd"
+            ],
+            "tickersymbol": [
+                "apt"
+            ],
+            "companyid": [
+                "824057"
+            ]
+        },
+        "stockexchange": "EDGXDARK",
+        "dunsid": "248171977",
+        "_mongo_upload_date": "2014-05-02T07:43:59.914000",
+        "_cid": 824057,
+        "isfromdnb": true,
+        "name": "ALPHA PRO TECH, LTD",
+        "country": "CANADA",
+        "value": "ALPHA PRO TECH, LTD",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "employeecount": 121,
+        "_id": 824057,
+        "orgtype": "Quoted",
+        "tickersymbol": "APT"
+    },
+    {
+        "sector": "Health",
+        "companyid": 1053794,
+        "relationshipcount": 14,
+        "city": "PINEVILLE",
+        "state": "LA",
+        "cm_count": 1,
+        "isfromboardex": true,
+        "partyid": 6443504735,
+        "ultimateparent_partyid": 6443504735,
+        "isfromcapiq": true,
+        "tokens": {
+            "secondary_name": [
+                "oncologix"
+            ],
+            "dunsid": [
+                "153975099"
+            ],
+            "name": [
+                "tech, inc.",
+                "oncologix tech, inc."
+            ],
+            "tickersymbol": [
+                "oclg"
+            ],
+            "companyid": [
+                "1053794"
+            ]
+        },
+        "employeecount": 170,
+        "dunsid": "153975099",
+        "_mongo_upload_date": "2014-05-02T07:44:23.341000",
+        "_cid": 1053794,
+        "isfromdnb": true,
+        "name": "ONCOLOGIX TECH, INC.",
+        "country": "USA",
+        "value": "ONCOLOGIX TECH, INC.",
+        "secondary_name": "ONCOLOGIX",
+        "do_not_contact_code": -1,
+        "isultimateparent": true,
+        "stockexchange": "OTC",
+        "_id": 1053794,
+        "orgtype": "Private",
+        "tickersymbol": "OCLG"
+    }
+]
+  });

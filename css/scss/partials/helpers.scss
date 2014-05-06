@@ -24,12 +24,15 @@
 }
 
 /* Font Size Helpers */
-@for $i from 1 through 128 {
-  .fs-#{$i} {
-    @include font-size($i);
-  }
+@for $i from 10 through 60 {
   .fs#{$i} {
     @include font-size($i);
+    @include bp(bp-medium) {
+      @include font-size($i * .875)
+    }
+    @include bp(bp-small) {
+      @include font-size($i * .75)
+    }
   }
 }
 
