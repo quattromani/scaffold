@@ -3,10 +3,6 @@
 	{
 		"selected_items":
 		[
-			[
-				"fon",
-				"font-weight"
-			]
 		]
 	},
 	"buffers":
@@ -15,7 +11,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 349.0,
 		"selected_items":
 		[
 			[
@@ -23,60 +19,24 @@
 				"Grunt"
 			],
 			[
-				"gru",
-				"Grunt"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"rem",
-				"Package Control: Remove Package"
-			],
-			[
-				"gru t",
-				"Grunt: Kill Running Tasks"
-			],
-			[
-				"GRUNT",
-				"Grunt"
-			],
-			[
-				"gr",
-				"Grunt"
+				"can",
+				"SFTP: Cancel Upload"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
 			],
 			[
-				"sublimelin",
-				"SublimeLinter: Choose Lint Mode"
+				"Package Control: remo",
+				"Package Control: Remove Package"
 			],
 			[
-				"lint",
-				"SublimeLinter: Lint This View"
+				"gr",
+				"Grunt"
 			],
 			[
-				"sublimelint",
-				"SublimeLinter: Choose Lint Mode"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Add..."
-			],
-			[
-				"git st",
-				"Git: Status"
-			],
-			[
-				"git",
-				"Git: Add..."
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"re",
@@ -99,14 +59,13 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 655.0
+		"width": 586.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
-			"clear",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
@@ -121,138 +80,82 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
-		"/Users/Q/Sites/scaffold/styleguide/index.html",
-		"/Users/Q/Sites/scaffold/_layouts/styleguide.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
-		"/Users/Q/Sites/scaffold/styleguide/typography/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/forms/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/modules.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/modals/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/grid/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/grid/combinations/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/grid/marginless/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/grid/marginless/combinations/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/pills/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
-		"/Users/Q/Sites/scaffold/styleguide/box/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/box/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/forms.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
-		"/Users/Q/Sites/scaffold/web-components/css/layout.css",
-		"/Users/Q/Sites/scaffold/web-components/elements/tabs/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
-		"/Users/Q/Sites/scaffold/js/modals.js",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
-		"/Users/Q/Sites/scaffold/styleguide/modals/index.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete2/typeahead-input.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete2/index.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete2/css/auto-complete.css",
-		"/Users/Q/Sites/scaffold/web-components/elements/calendar/index.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/flip/index.html",
-		"/Users/Q/Sites/scaffold/_includes/head.html",
-		"/Users/Q/Sites/scaffold/sandbox/input-bkgd/index.html",
-		"/Users/Q/Sites/scaffold/sandbox/logo/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/breadcrumbs/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
-		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/Q/Sites/scaffold/js/vendor/jquery.placeholder.js",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/platform/platform.js",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/tests/input/charts/PieChartLegend.js",
-		"/Users/Q/Sites/scaffold/package.json",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/lists/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/buttons.css",
-		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/build.html",
-		"/Users/Q/Sites/scaffold/_config.yml",
-		"/Users/Q/Sites/scaffold/Gruntfile.js",
-		"/Users/Q/Sites/scaffold/styleguide/pills/index.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/index.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/date-picker/index.html",
-		"/Users/Q/Sites/scaffold/web-components/elements/date-picker/css/date-picker.css",
-		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/css/forms.css",
-		"/Users/Q/Sites/scaffold/web-components/elements/date-picker/css/forms.css",
-		"/Users/Q/Sites/scaffold/sandbox/notifications/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
-		"/Users/Q/Sites/scaffold/web-components/elements/date-picker/auto-complete.sublime-project",
-		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
-		"/Users/Q/Sites/scaffold/web-components/auto-complete/index.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/bower.json",
-		"/Users/Q/Sites/scaffold/styleguide/grid/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/about/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/audio/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/best_practices/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/breadcrumbs/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/buttons/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/colors/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/flexbox/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/forms/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/grid/combinations/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/grid/flexbox/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/grid/marginless/combinations/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/grid/marginless/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/images/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/lists/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/pagination/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/tables/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/typography/body_text/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/typography/fonts/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/typography/headings/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/typography/icons/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/typography/inline_text/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/typography/text_alignment/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/video/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/content.php",
-		"/Users/Q/Sites/scaffold/styleguide/index.php",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/audio/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/flexbox/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/images/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/pagination/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/tables/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/video/index.html",
-		"/Users/Q/Sites/scaffold/_includes/footer.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/text_alignment/index.html",
-		"/Users/Q/Sites/scaffold/_includes/foot.html",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
-		"/Users/Q/Sites/scaffold/_includes/content.html",
-		"/Users/Q/Sites/scaffold/_includes/end_content.html",
-		"/Users/Q/Sites/scaffold/_layouts/default.html",
-		"/Users/Q/Sites/scaffold/_layouts/sandbox.html",
-		"/Users/Q/Sites/scaffold/sandbox/index.html",
-		"/Users/Q/Sites/scaffold/sandbox/hr-test/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_jumpTo.scss",
-		"/Users/Q/Sites/scaffold/css/partials/layout.css",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/styleguide.css",
-		"/Users/Q/Sites/scaffold/css/partials/prototype.css",
-		"/Users/Q/Sites/scaffold/css/partials/jumpTo.css",
-		"/Users/Q/Sites/scaffold/.gitignore",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/videos.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
-		"/Users/Q/Sites/scaffold/css/accessibility.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_accessibility.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_typography.scss",
-		"/Users/Q/Sites/scaffold/styleguide/grid/flexbox/css/page.css",
-		"/Users/Q/Sites/scaffold/.sublime-grunt.cache",
-		"/Users/Q/Sites/scaffold/css/main.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/multiparty/test/fixture/http/special-chars-in-filename/xp-ie-8.http",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jade/node_modules/lodash-node/compat/objects/isElement.js"
+		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
+		"/Users/Q/Sites/scaffold/Gruntfile.js",
+		"/Users/Q/Sites/scaffold/package.json",
+		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/index.html",
+		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/x-autocomplete.html",
+		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/json-datalist.json",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/grid/index.html",
+		"/Users/Q/Sites/scaffold/_layouts/web-components.html",
+		"/Users/Q/Sites/scaffold/_layouts/default.html",
+		"/Users/Q/Sites/scaffold/_layouts/emails.html",
+		"/Users/Q/Sites/scaffold/_layouts/patterns.html",
+		"/Users/Q/Sites/scaffold/_layouts/styleguide.html",
+		"/Users/Q/Sites/scaffold/emails/index.html",
+		"/Users/Q/Sites/scaffold/index.html",
+		"/Users/Q/Sites/scaffold/emails/templates/index.html",
+		"/Users/Q/Sites/maxquattromani/GLG/sandbox/flexbox-bradybunch/content.php",
+		"/Users/Q/Sites/maxquattromani/GLG/sandbox/equals-grid/content.php",
+		"/Users/Q/Sites/maxquattromani/GLG/sandbox/flexbox-equals/index.php",
+		"/Users/Q/Sites/maxquattromani/GLG/sandbox/flexbox-equals/content.php",
+		"/Users/Q/Sites/maxquattromani/GLG/sandbox/flexbox-bradybunch/includes/variables/page_variables.php",
+		"/Users/Q/Sites/maxquattromani/GLG/sandbox/flexbox-bradybunch/index.php",
+		"/Users/Q/Sites/maxquattromani/sandbox/flex_grid/includes/variables/page_variables.php",
+		"/Users/Q/Sites/maxquattromani/sandbox/flex_grid/content.php",
+		"/Users/Q/Sites/maxquattromani/qoppa/index.html",
+		"/Users/Q/Sites/maxquattromani/about/index.html",
+		"/Users/Q/Sites/maxquattromani/TWC/support/PYR/remoteSpecific/index.php",
+		"/Users/Q/Sites/maxquattromani/.htaccess",
+		"/Users/Q/Sites/maxquattromani/TWC/core/css/lists.css",
+		"/Users/Q/Sites/maxquattromani/TWC/core/css/scss/main.scss",
+		"/Users/Q/Sites/maxquattromani/SSM/includes/single.php",
+		"/Users/Q/Sites/maxquattromani/SSM/styleguide/content.php",
+		"/Users/Q/Sites/maxquattromani/SSM/config.php",
+		"/Users/Q/Sites/maxquattromani/SSM/styleguide/colors/index.php",
+		"/Users/Q/Sites/maxquattromani/SSM/index.php",
+		"/Users/Q/Sites/maxquattromani/SSM/includes/nav.php",
+		"/Users/Q/Sites/maxquattromani/SSM/includes/header.php",
+		"/Users/Q/Sites/maxquattromani/SSM/styleguide/index.php",
+		"/Users/Q/Sites/maxquattromani/SSM/styleguide/typography/fonts/content.php",
+		"/Users/Q/Sites/maxquattromani/SSM/css/scss/partials/_typography.scss",
+		"/Users/Q/Sites/maxquattromani/SSM/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/maxquattromani/SSM/css/scss/theme/_base-theme.scss",
+		"/Users/Q/Sites/maxquattromani/SSM/includes/banner.php",
+		"/Users/Q/Sites/maxquattromani/SSM/about/content.php",
+		"/Users/Q/Sites/maxquattromani/SSM/styleguide/best_practices/index.php",
+		"/Users/Q/Sites/maxquattromani/SSM/css/main.min.css",
+		"/Users/Q/Sites/maxquattromani/SSM/includes/variables/page_variables.php",
+		"/Users/Q/Sites/maxquattromani/SSM/about/index.php",
+		"/Users/Q/Sites/maxquattromani/SSM/css/scss/theme/_nav-theme.scss",
+		"/Users/Q/Sites/maxquattromani/SSM/includes/footer.php",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/Users/Q/Sites/blog/_layouts/default.html",
+		"/Users/Q/Sites/maxquattromani/sandbox/multi-phone/includes/variables/page_variables.php",
+		"/Users/Q/Sites/maxquattromani/sandbox/multi-phone/index.php",
+		"/Users/Q/Sites/maxquattromani/sandbox/teser/content.php",
+		"/Users/Q/Sites/maxquattromani/config.php",
+		"/Users/Q/Sites/maxquattromani/GLG/cmp/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/maxquattromani/GLG/cmp/css/scss/partials/_banner.scss",
+		"/Users/Q/Sites/maxquattromani/resume/Max_Quattromani_Resume.pdf",
+		"/Users/Q/Sites/maxquattromani/package.json",
+		"/Users/Q/Downloads/spacegray-master/base16-eighties.dark.tmTheme",
+		"/Users/Q/Sites/maxquattromani/sftp-config.json",
+		"/Users/Q/Sites/maxquattromani/404/index.php",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/Q/Sites/maxquattromani/404/variables/_variables.php",
+		"/Users/Q/Sites/maxquattromani/404/css/page.css",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -266,41 +169,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"bp",
-			"tiny",
-			"box",
-			"vertical",
-			"pills",
-			"muted",
-			"\"hex\"",
-			"            \"",
-			"\"hex\"",
-			"\"color\"",
-			"value",
-			"column ",
-			"column",
-			"&lt;",
-			"&gt;",
-			"&lt;",
-			"&gt;",
-			"&lt;",
-			"width",
-			"62.5",
-			"typograph",
-			"font-size",
-			"body",
-			"theme",
-			"button",
-			"theme",
-			"compass",
-			"them",
-			"theme",
-			"color-swatch",
-			"php",
-			" } ",
-			"index",
-			"include",
-			"inc"
+			"margin",
+			"inline-b",
+			"parent",
+			"Male",
+			"gender",
+			"/300/200",
+			"alt=\"\">",
+			"<img src",
+			"200/300",
+			"sidebar",
+			"primary",
+			"/GLG/cmp/",
+			"skills"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -308,12 +189,8 @@
 		"regex": false,
 		"replace_history":
 		[
-			"<",
-			">",
-			"<",
-			">",
-			"<",
-			"swatch"
+			"nationality",
+			"/SSM/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -360,17 +237,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 122.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
-	},
-	"output.git":
-	{
-		"height": 122.0
 	},
 	"output.sftp":
 	{
@@ -379,7 +248,7 @@
 	"project": "scaffold.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -392,15 +261,11 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"~/Sites/maxquattromani/TWC/twc.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -417,7 +282,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 178.0,
+	"side_bar_width": 337.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

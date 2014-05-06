@@ -64,6 +64,11 @@ input[type="checkbox"], input[type="radio"] {
   padding-left: 0;
   border: 0;
 }
+input[type="checkbox"]:focus, input[type="radio"]:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
 
 input::-webkit-datetime-edit-fields-wrapper {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;

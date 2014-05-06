@@ -44,6 +44,9 @@ input {
     width: auto;
     @include padding;
     border: 0;
+    &:focus {
+      @include box-shadow(none);
+    }
   }
 }
 
