@@ -14,7 +14,7 @@
   border: none;
   background: none;
   font-family: $heading-font-alt;
-  font-weight: 100;
+  font-weight: 700;
   text-align: center;
   cursor: pointer;
   letter-spacing: .1em;
@@ -63,7 +63,7 @@
     background: darken($color-off-white, 20%);
     background-image: 0;
   }
-  &.btn-primary {
+  &.btn-primary, &.btn-principal {
     background: $color-button-primary;
     color: $color-white;
     &:hover {
