@@ -118,6 +118,8 @@ footer.container {
 .row {
   clear: both;
   display: inline-block;
+  *zoom: 1;
+  *display: inline;
   width: 100%;
   margin-bottom: 1em; }
   .row:last-child, .row:only-child {

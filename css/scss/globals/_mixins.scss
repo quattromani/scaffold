@@ -1,5 +1,51 @@
 // Mixins
 
+// Breakpoint
+@mixin bp($point) {
+  @if $point == bp-medium {
+    @media (max-width: $bp-medium) { @content; }
+  }
+  @else if $point == bp-small {
+    @media (max-width: $bp-small)  { @content; }
+  }
+}
+
+// Inline-Block IE
+@mixin inline-block {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+// Margin
+@mixin margin($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+// Padding
+@mixin padding($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+// Font Size
+@mixin font-size($size) {
+  font-size: $size * 1px;
+  font-size: $size * 0.1rem;
+}
+
+@mixin font-family($font, $style: normal, $weight: normal) {
+  font-family: $font,Arial,Sans-Serif;
+  font-style: $style;
+  font-weight: $weight;
+  @include font-size($base-font-size);
+}
+
 // Column / Grid Control
 $width: 100%;   // total with of page
 $site-column-count: 12 !default;    // number of columns
@@ -15,7 +61,7 @@ $marginless-col-width: $width / $site-column-count;
 // create row
 @mixin row() {
   clear: both;
-  display: inline-block;
+  @include inline-block;
   width: $width;
   margin-bottom: $margin;
 }
@@ -87,30 +133,13 @@ $marginless-col-width: $width / $site-column-count;
   order: $val;
 }
 
-// Breakpoint
-@mixin bp($point) {
-  @if $point == bp-medium {
-    @media (max-width: $bp-medium) { @content; }
-  }
-  @else if $point == bp-small {
-    @media (max-width: $bp-small)  { @content; }
-  }
-}
-
-// Margin
-@mixin margin($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
-  margin-top: $top;
-  margin-right: $right;
-  margin-bottom: $bottom;
-  margin-left: $left;
-}
-
-// Padding
-@mixin padding($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
-  padding-top: $top;
-  padding-right: $right;
-  padding-bottom: $bottom;
-  padding-left: $left;
+// Opacity
+@mixin opacity($opacity) {
+  filter: alpha(opacity=($opacity * 100));
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity * 100})";
+  -moz-opacity: $opacity;
+  -khtml-opacity: $opacity;
+  opacity: $opacity;
 }
 
 // Background Clip
@@ -173,22 +202,6 @@ $marginless-col-width: $width / $site-column-count;
           transform: translateY(-50%);
 }
 
-// Inline-Block IE
-@mixin inline-block {
-    display: inline-block;
-    *zoom: 1;
-    *display: inline;
-}
-
-// Opacity
-@mixin opacity($opacity) {
-  filter: alpha(opacity=($opacity * 100));
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity * 100})";
-  -moz-opacity: $opacity;
-  -khtml-opacity: $opacity;
-  opacity: $opacity;
-}
-
 // Transform
 @mixin rotate($degrees) {
   -webkit-transform: rotate($degrees);
@@ -208,19 +221,6 @@ $marginless-col-width: $width / $site-column-count;
           transition: $what $length $easing;
 }
 
-// Font Size
-@mixin font-size($size) {
-  font-size: $size * 1px;
-  font-size: $size * 0.1rem;
-}
-
-@mixin font-family($font, $style: normal, $weight: normal) {
-  font-family: $font,Arial,Sans-Serif;
-  font-style: $style;
-  font-weight: $weight;
-  @include font-size($base-font-size);
-}
-
 // Column Count
 @mixin columns($count, $gap) {
   -webkit-column-count: $count;
@@ -231,4 +231,11 @@ $marginless-col-width: $width / $site-column-count;
      -moz-column-gap: $gap;
       -ms-column-gap: $gap;
           column-gap: $gap;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
 }
