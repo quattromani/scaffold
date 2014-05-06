@@ -2062,12 +2062,12 @@ dd {
   .btn:focus, button:focus {
     background: #bfbfbf;
     background-image: 0; }
-  .btn.btn-primary, .btn.btn-principal, button.btn-primary, button.btn-principal {
+  .btn.btn-primary, .btn.button-primary, button.btn-primary, button.button-primary {
     background: #ef272d;
     color: white; }
-    .btn.btn-primary:hover, .btn.btn-principal:hover, button.btn-primary:hover, button.btn-principal:hover {
+    .btn.btn-primary:hover, .btn.button-primary:hover, button.btn-primary:hover, button.button-primary:hover {
       background: #a82620; }
-    .btn.btn-primary:active, .btn.btn-principal:active, button.btn-primary:active, button.btn-principal:active {
+    .btn.btn-primary:active, .btn.button-primary:active, button.btn-primary:active, button.button-primary:active {
       background: #a40c11;
       background-image: 0;
       color: white; }
