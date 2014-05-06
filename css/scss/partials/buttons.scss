@@ -5,16 +5,17 @@
     Buttons -- Version: 0.4.2 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.btn, button {
+.btn,.button, button {
   @include inline-block();
-  min-width: 8em;
+  min-width: 3em;
   @include margin;
   @include padding(.375em, $padding);
   @include border-radius;
   border: none;
   background: none;
+  @include font-size($base-font-size);
   font-family: $heading-font-alt;
-  font-weight: 100;
+  font-weight: 700;
   text-align: center;
   cursor: pointer;
   letter-spacing: .1em;
@@ -48,6 +49,72 @@
       }
     }
 
+  }
+}
+
+/* Theme */
+
+.btn,.button, button {
+  color: $link;
+  &:hover {
+    border-bottom: none;
+    background: darken($color-off-white, 5%);
+  }
+  &:focus {
+    background: darken($color-off-white, 20%);
+    background-image: 0;
+  }
+  &.btn-primary, &.button-primary {
+    background: $color-button-primary;
+    color: $color-white;
+    &:hover {
+      background: $color-button-primary-hover;
+    }
+    &:active {
+      background: darken($color-button-primary, 20%);
+      background-image: 0;
+      color: $color-white;
+   }
+  }
+  &.btn-error {
+    background: transparent;
+    @include box-shadow(inset 0 0 0 1px $color-primary-red);
+    &:hover {
+      background: lighten($color-primary-red, 25%);
+    }
+  }
+  &.btn-success {
+    background: $color-primary-green;
+    color: $color-white;
+    &:hover {
+      background: $color-secondary-green;
+    }
+  }
+  &.btn-info {
+    background: $color-primary-blue;
+    color: $color-white;
+    &:hover {
+      background: $color-secondary-blue;
+    }
+  }
+  &.btn-black {
+    background: $color-black;
+    color: $color-white;
+    &:hover {
+      background: $color-grey;
+    }
+  }
+  &:disabled, &.js-disabled, &.disabled {
+    cursor: default;
+    background: $color-light-grey;
+    color: $text-grey;
+    &:hover, &:active {
+      @extend .disabled;
+    }
+  }
+  &.js-active {
+    background: $color-primary-green;
+    color: $color-white;
   }
 }
 
