@@ -7,7 +7,7 @@
 
 .btn,.button, button {
   @include inline-block();
-  min-width: 8em;
+  min-width: 3em;
   @include margin;
   @include padding(.375em, $padding);
   @include border-radius;
