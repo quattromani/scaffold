@@ -2053,31 +2053,7 @@ dd {
       .btn.mobile-full + .btn.mobile-full, button.mobile-full + .btn.mobile-full, .btn.mobile-full + button.mobile-full, button.mobile-full + button.mobile-full {
         margin-top: 1em; } }
 
-/* Firefox */
-@-moz-document url-prefix() {
-  /* Remove button padding in FF */
-  button::-moz-focus-inner {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    border: 0 none; }
-
-  input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    border: 0 none; } }
-/* ie (.ie) */
-/* make buttons play nice in IE */
-.ie button {
-  overflow: visible;
-  width: auto; }
-
-/* ==========================================================================
-    Buttons Theme -- Version: 0.4.2 - Compiled: timestamp()
-   ========================================================================== */
+/* Theme */
 .btn, button {
   color: #ef272d; }
   .btn:hover, button:hover {
@@ -2124,6 +2100,28 @@ dd {
   .btn.js-active, button.js-active {
     background: #a0d468;
     color: white; }
+
+/* Firefox */
+@-moz-document url-prefix() {
+  /* Remove button padding in FF */
+  button::-moz-focus-inner {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: 0 none; }
+
+  input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: 0 none; } }
+/* ie (.ie) */
+/* make buttons play nice in IE */
+.ie button {
+  overflow: visible;
+  width: auto; }
 
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
