@@ -32,7 +32,9 @@ ___
 In most cases, you just want a copy of main.min.css. So download it and start creating. You can start at the [homepage] to get around Scaffold. Explore a bit and see what we've started with. 
 
 ###Install
-Download it [directly]
+Download it [directly]  
+
+Install with [Bower]:`bower install -- save scaffold`  
 
 ###But why not just use Bootstrap?
 We love bootstrap! It served us well for quite sometime. Scaffold looks up to Bootstrap, Scaffold is inspired by Bootstrap, and Scaffold thinks of Bootstrap as a mentor; but the time has come for more efficient and direct css without all the commitments that come with Bootstrap. Scaffold contains minimal styling, basically the GLG branding on predefined elements: Typography, buttons, form fields, etc.
@@ -54,4 +56,6 @@ date-picker
 [Web-Components]:http://quattromani.github.io/scaffold/web-components/
 [homepage]:http://quattromani.github.io/scaffold/
 [directly]:https://github.com/quattromani/scaffold/blob/master/css/main.min.css
+[npm]:http://npmjs.org
+[Bower]:http://bower.io
 
