@@ -5,7 +5,7 @@
     Buttons -- Version: 0.4.2 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.btn, button {
+.btn,.button, button {
   @include inline-block();
   min-width: 8em;
   @include margin;
@@ -53,7 +53,7 @@
 
 /* Theme */
 
-.btn, button {
+.btn,.button, button {
   color: $link;
   &:hover {
     border-bottom: none;
