@@ -13,6 +13,7 @@
   @include border-radius;
   border: none;
   background: none;
+  @include font-size($base-font-size);
   font-family: $heading-font-alt;
   font-weight: 700;
   text-align: center;
