@@ -715,6 +715,12 @@ body, button, input, select, textarea {
   src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "GLGlyphs";
+  src: url("fonts/icons/GLGlyphs.eot?-a4mj0q");
+  src: url("fonts/icons/GLGlyphs.eot?#iefix-a4mj0q") format("embedded-opentype"), url("fonts/icons/GLGlyphs.woff?-a4mj0q") format("woff"), url("fonts/icons/GLGlyphs.ttf?-a4mj0q") format("truetype"), url("fonts/icons/GLGlyphs.svg?-a4mj0q#GLGlyphs") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 .base-font {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
@@ -2157,7 +2163,11 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
     display: flex;
     align-items: center;
     min-width: 3em;
-    font-family: 'GLGlyphs';
+    font-family: "GLGlyphs", Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-size: 1.6rem;
     padding: 1.5em 1em; }
   [class*='message-'] .message {
     position: relative;

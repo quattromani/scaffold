@@ -10,7 +10,11 @@
   display: flex;
   align-items: center;
   min-width: 3em;
-  font-family: 'GLGlyphs';
+  font-family: "GLGlyphs", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
   padding: 1.5em 1em;
 }
 [class*='message-'] .message {
