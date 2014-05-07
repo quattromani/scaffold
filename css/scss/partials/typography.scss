@@ -107,6 +107,17 @@ body, button, input, select, textarea {
   font-style: normal;
 }
 
+@font-face {
+  font-family: $GLGlyphs;
+  src:url('fonts/icons/GLGlyphs.eot?-a4mj0q');
+  src:url('fonts/icons/GLGlyphs.eot?#iefix-a4mj0q') format('embedded-opentype'),
+    url('fonts/icons/GLGlyphs.woff?-a4mj0q') format('woff'),
+    url('fonts/icons/GLGlyphs.ttf?-a4mj0q') format('truetype'),
+    url('fonts/icons/GLGlyphs.svg?-a4mj0q#GLGlyphs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .base-font {
   font-family: $base-font;
 }
