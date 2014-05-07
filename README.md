@@ -17,10 +17,10 @@ A set of standards for a specific organization is often known as "house style". 
 >A pattern describes an optimal solution to a common problem within a specific context.
 
 Each pattern has four primary components:
-1. a title
-2. a problem
-3. a context
-4. a solution
+1. a title  
+2. a problem  
+3. a context  
+4. a solution  
 
 You can see what's already a pattern at the [Pattern Library]. Don't be afraid to take an existing pattern and beat it into submission to create something new. Just be sure to name it and document it. Oh! and submit it back to Scaffold so we can share it.
 
