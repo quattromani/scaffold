@@ -2152,7 +2152,7 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
 [class*='message-'] {
   display: flex;
   align-items: center;
-  background: #f5f5f5; }
+  background: whitesmoke; }
   [class*='message-']:before {
     display: flex;
     align-items: center;
@@ -2179,16 +2179,14 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
 .message-warning {
   color: #ef272d; }
   .message-warning:before {
-    background: #f89ea0;
-    content: '\33';
-    color: #ef272d; }
+    background: #f68689;
+    content: '\33'; }
 
 .message-valid {
-  color: #6da72f; }
+  color: #719a2e; }
   .message-valid:before {
     background: #c8ed8d;
-    content: '\43';
-    color: #6da72f; }
+    content: '\43'; }
 
 /* ==========================================================================
     Modals -- Version: 0.4.0.1 - Updated: 4/28/2014

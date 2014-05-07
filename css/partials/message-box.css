@@ -4,7 +4,7 @@
 [class*='message-'] {
   display: flex;
   align-items: center;
-  background: #f5f5f5;
+  background: whitesmoke;
 }
 [class*='message-']:before {
   display: flex;
@@ -40,16 +40,14 @@
   color: #ef272d;
 }
 .message-warning:before {
-  background: #f89ea0;
+  background: #f68689;
   content: '\33';
-  color: #ef272d;
 }
 
 .message-valid {
-  color: #6da72f;
+  color: #719a2e;
 }
 .message-valid:before {
   background: #c8ed8d;
   content: '\43';
-  color: #6da72f;
 }
