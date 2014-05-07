@@ -90,7 +90,7 @@ $widths: 5;
   @include padding($padding);
   @include border-radius;
   border: 1px solid $color-light-grey;
-  background: lighten($color-light-light-grey,10%);
+  background: $color-light-light-grey;
   h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0;
   }
