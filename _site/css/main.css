@@ -2158,7 +2158,8 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
 [class*='message-'] {
   display: flex;
   align-items: center;
-  background: whitesmoke; }
+  background: whitesmoke;
+  font-weight: 700; }
   [class*='message-']:before {
     display: flex;
     align-items: center;
@@ -2184,7 +2185,7 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
   color: #333; }
   .message-loading:before {
     content: '\75';
-    -webkit-animation: rotation 2s infinite linear; }
+    -webkit-animation: rotation 1.5s infinite linear; }
 
 .message-warning {
   color: #ef272d; }

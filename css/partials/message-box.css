@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   background: whitesmoke;
+  font-weight: 700;
 }
 [class*='message-']:before {
   display: flex;
@@ -37,7 +38,7 @@
 }
 .message-loading:before {
   content: '\75';
-  -webkit-animation: rotation 2s infinite linear;
+  -webkit-animation: rotation 1.5s infinite linear;
 }
 
 .message-warning {

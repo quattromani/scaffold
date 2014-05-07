@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   background: $color-light-light-grey;
+  font-weight: 700;
   &:before {
     display: flex;
     align-items: center;
@@ -32,7 +33,7 @@
   color: #333;
   &:before {
     content: '\75';
-    -webkit-animation: rotation 2s infinite linear;
+    -webkit-animation: rotation 1.5s infinite linear;
   }
 }
 
