@@ -5,49 +5,49 @@
     Message Box -- Version: 0.2.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
-   [class*='message-'] {
+[class*='message-'] {
+  display: flex;
+  align-items: center;
+  background: $color-light-light-grey;
+  &:before {
     display: flex;
     align-items: center;
-    background: $color-light-light-grey;
-    &:before {
-      display: flex;
-      align-items: center;
-      min-width: 3em;
-      @include font-family($GLGlyphs);
-      padding: 1.5em 1em;
-    }
-    .message {
-      position: relative;
-      padding: 1em;
-      line-height: 1;
-    }
+    min-width: 3em;
+    @include font-family($GLGlyphs);
+    padding: 1.5em 1em;
   }
-
-@-webkit-keyframes rotation {
-    from {-webkit-transform: rotate(0deg);}
-    to   {-webkit-transform: rotate(359deg);}
+  .message {
+    position: relative;
+    padding: 1em;
+    line-height: 1;
+  }
 }
 
-  .message-loading {
-    color: #333;
-    &:before {
-      content: '\75';
-      -webkit-animation: rotation 2s infinite linear;
-    }
-  }
+@-webkit-keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to   {-webkit-transform: rotate(359deg);}
+}
 
-  .message-warning {
-    color: $color-primary-red;
-    &:before {
-      background: lighten($color-primary-red, 20%);
-      content: '\33';
-    }
+.message-loading {
+  color: #333;
+  &:before {
+    content: '\75';
+    -webkit-animation: rotation 2s infinite linear;
   }
+}
 
-  .message-valid {
-    color: $color-secondary-green;
-    &:before {
-      background: $color-primary-green;
-      content: '\43';
-    }
+.message-warning {
+  color: $color-primary-red;
+  &:before {
+    background: lighten($color-primary-red, 20%);
+    content: '\33';
   }
+}
+
+.message-valid {
+  color: $color-secondary-green;
+  &:before {
+    background: $color-primary-green;
+    content: '\43';
+  }
+}
