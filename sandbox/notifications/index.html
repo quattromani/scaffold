@@ -1,8 +1,63 @@
----
-layout: sandbox
-title: Pills
----
+<style>
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
-<span class="pill-black">12</span>
-<span class="pill-white">17</span>
-<span class="pill-red">15</span>
+#divQuickLead [class*='mailTest'] {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+}
+#divQuickLead [class*='mailTest']:before {
+  display: flex;
+  align-items: center;
+  left: 0;
+  top: 0;
+  font-family: 'GLGlyphs';
+  padding: 1.5em 1em;
+}
+#divQuickLead .mailTestLoading {
+  color: #333;
+}
+
+
+-webkit-animation: rotation 1s infinite linear;
+
+#divQuickLead .mailTestLoading:before {
+  content: '\75';
+  -webkit-animation: rotation 1s infinite linear;
+}
+#divQuickLead .mailTestWarning {
+  color: #ef272d;
+}
+#divQuickLead .mailTestWarning:before {
+  background: #f89ea0;
+  content: '\33';
+  color: #ef272d;
+}
+#divQuickLead .mailTestValid {
+  color: #6da72f;
+}
+#divQuickLead .mailTestValid:before {
+  background: #c8ed8d;
+  content: '\70';
+  color: #6da72f;
+}
+#divQuickLead .mailTestMessage {
+  position: relative;
+  padding: 1em;
+  line-height: 1;
+}
+
+</style>
+
+<div id="divQuickLead">
+  <div hidden?="{{ !mailTestMessage }}" class="mailTestLoading"><span class="mailTestMessage">{{mailTestMessage}}</span></div>
+  <hr>
+  <div hidden?="{{ !mailTestMessage }}" class="mailTestWarning"><span class="mailTestMessage">{{mailTestMessage}}</span></div>
+  <hr>
+  <div hidden?="{{ !mailTestMessage }}" class="mailTestValid"><span class="mailTestMessage">Mail Test for max@maxquattromani.com: Mail server indicates this is a valid email address</span></div>
+</div>
+

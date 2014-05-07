@@ -604,7 +604,7 @@ nav {
   background: #a82620; }
 
 .color-secondary-green {
-  background: #8cc152; }
+  background: #6da72f; }
 
 .color-secondary-blue {
   background: #005580; }
@@ -629,7 +629,7 @@ nav {
   background: #0088cc; }
 
 .color-success {
-  background: #8cc152; }
+  background: #6da72f; }
 
 .link {
   color: #ef272d; }
@@ -663,7 +663,7 @@ nav {
   color: #0088cc; }
 
 .text-success {
-  color: #8cc152; }
+  color: #6da72f; }
 
 /* ie9 (.ie9) */
 .ie9 .gradient {
@@ -693,22 +693,6 @@ body, button, input, select, textarea {
   line-height: 1.443;
   letter-spacing: .035em; }
 
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Thin';
-  src: url("fonts/NHaasGroteskDSPro-25Th.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/NHaasGroteskDSPro-25Th.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-25Th.woff") format("woff"), url("fonts/NHaasGroteskDSPro-25Th.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-25Th.svg#724af24f6d5a343225e4a2409b916cf1") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 400; }
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro XLt';
-  src: url("fonts/NHaasGroteskDSPro-35XLt.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/NHaasGroteskDSPro-35XLt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-35XLt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-35XLt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-35XLt.svg#1af8a305ccdaf7fd37619de1aa605cb8") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 400; }
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
   src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
@@ -2086,7 +2070,7 @@ dd {
     background: #a0d468;
     color: white; }
     .btn.btn-success:hover, .button.btn-success:hover, button.btn-success:hover {
-      background: #8cc152; }
+      background: #6da72f; }
   .btn.btn-info, .button.btn-info, button.btn-info {
     background: #0088cc;
     color: white; }

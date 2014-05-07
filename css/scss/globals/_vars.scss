@@ -34,7 +34,7 @@ $color-light-grey: #ccc;
 $color-primary-red: #ef272d;
 $color-secondary-red: #a82620;
 $color-primary-green: #a0d468;
-$color-secondary-green: #8cc152;
+$color-secondary-green: darken($color-primary-green, 20%);
 $color-primary-blue: #08c;
 $color-secondary-blue: #005580;
 $color-primary-lav: #ac92ec;

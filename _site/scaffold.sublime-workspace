@@ -11,9 +11,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 349.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"grunt",
 				"Grunt"
@@ -21,10 +29,6 @@
 			[
 				"can",
 				"SFTP: Cancel Upload"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"Package Control: remo",
@@ -59,7 +63,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 586.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -80,15 +84,33 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Q/Sites/scaffold/sandbox/index.html",
 		"/Users/Q/Sites/scaffold/README.md",
+		"/Users/Q/Sites/scaffold/.gitignore",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jade/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/datatype-number-parse/datatype-number-parse-min.js",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/test/pack-no-proprietary.js",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-stylus/node_modules/stylus/node_modules/sax/examples/big-not-pretty.xml",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/mout/lang/toNumber.js",
+		"/Users/Q/Sites/scaffold/node_modules/grunt/node_modules/iconv-lite/test/big5-test.js",
 		"/Users/Q/Sites/scaffold/bower.json",
+		"/Users/Q/Sites/scaffold/package.json",
+		"/Users/Q/Sites/scaffold/node_modules/grunt/node_modules/glob/test/pause-resume.js",
+		"/Users/Q/Sites/scaffold/css/partials/print.css",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
-		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/x-autocomplete.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/json-datalist.json",
@@ -150,8 +172,7 @@
 		"/Users/Q/Sites/maxquattromani/404/index.php",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
 		"/Users/Q/Sites/maxquattromani/404/variables/_variables.php",
-		"/Users/Q/Sites/maxquattromani/404/css/page.css",
-		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+		"/Users/Q/Sites/maxquattromani/404/css/page.css"
 	],
 	"find":
 	{
@@ -159,7 +180,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -169,6 +190,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"opaci",
+			"inli",
+			"btn-primary",
+			"a",
+			"btn-primary",
 			"margin",
 			"inline-b",
 			"parent",
@@ -192,7 +218,7 @@
 			"nationality",
 			"/SSM/"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -208,7 +234,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"input":
 	{
