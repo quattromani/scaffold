@@ -710,30 +710,6 @@ body, button, input, select, textarea {
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Md';
-  src: url("fonts/NHaasGroteskDSPro-65Md.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/NHaasGroteskDSPro-65Md.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-65Md.woff") format("woff"), url("fonts/NHaasGroteskDSPro-65Md.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-65Md.svg#8166d35894c383a4b60e821768d81454") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 400; }
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro';
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 400; }
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Blk';
-  src: url("fonts/NHaasGroteskDSPro-95Blk.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/NHaasGroteskDSPro-95Blk.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-95Blk.woff") format("woff"), url("fonts/NHaasGroteskDSPro-95Blk.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-95Blk.svg#9c730d47b7fc9726d199b5c4365f330e") format("svg");
-  /* Legacy iOS */
-  font-style: normal;
-  font-weight: 400; }
-@font-face {
   font-family: "FontAwesome";
   src: url("fonts/icons/fontawesome-webfont.eot");
   src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
