@@ -6,7 +6,7 @@ Welcome to Scaffold. Scaffold is here to make your life easier; your code cleane
 0.2.1
 
 ###Scaffold in a nutshell
-At the heart of Scaffold is it's love of truly semantic html -- write good markup, get great results. Scaffold already contains the majority of semantic elements that you will encounter when building a component. Need a "helper" make your component fall in line? You've got it!
+At the heart of Scaffold is it's love of truly semantic html -- write good markup, get great results. Scaffold already contains the majority of semantic elements that you will encounter when building a component. Need a "helper" to make your component fall in line? You've got it!
 
 ###Style Guide / House Style
 >A style guide is a set of standards for the writing and design of documents, either for general use or for a specific publication, organization or field. The implementation of a style guide provides uniformity in style and formatting within a document and across multiple documents.
@@ -25,7 +25,7 @@ Each pattern has four primary components:
 You can see what's already a pattern at the [Pattern Library]. Don't be afraid to take an existing pattern and beat it into submission to create something new. Just be sure to name it and document it. Oh! and submit it back to Scaffold so we can share it.
 
 ###Web Components
-Making the latest Polymer masterpiece? first check out the [Web-Components] section. Don't see what you need? Start by droping a copy of main.min.css (a whopping 43k) into your project folder! Then when you need to add specifics, make a web-component.css file with you additions.
+Making the latest Polymer masterpiece? First check out the [Web-Components] section. Don't see what you need? Start by droping a copy of main.min.css (a whopping 43k) into your project folder! Then when you need to add specifics, make a web-component.css file with you additions.
 ___
 
 ##Usage
