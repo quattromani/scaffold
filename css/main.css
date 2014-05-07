@@ -571,7 +571,7 @@ nav {
     nav li.active {
       background: #eb1118; }
     nav li:hover {
-      background: #a82620; }
+      background: #9b01d0; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -601,7 +601,7 @@ nav {
   background: #ac92ec; }
 
 .color-secondary-red {
-  background: #a82620; }
+  background: #9b01d0; }
 
 .color-secondary-green {
   background: #6da72f; }
@@ -773,7 +773,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #a82620; }
+    color: #9b01d0; }
 
 /* ==========================
 	  Headings
@@ -2030,7 +2030,7 @@ dd {
     background: #ef272d;
     color: white; }
     .btn.btn-primary:hover, .btn.button-primary:hover, .button.btn-primary:hover, .button.button-primary:hover, button.btn-primary:hover, button.button-primary:hover {
-      background: #a82620; }
+      background: #9b01d0; }
     .btn.btn-primary:active, .btn.button-primary:active, .button.btn-primary:active, .button.button-primary:active, button.btn-primary:active, button.button-primary:active {
       background: #a40c11;
       background-image: 0;
