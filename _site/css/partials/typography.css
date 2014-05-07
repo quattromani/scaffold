@@ -114,7 +114,7 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  color: #a82620;
+  color: #9b0d10;
 }
 
 /* ==========================
@@ -297,11 +297,11 @@ kbd, samp {
 }
 
 kbd, samp {
-  color: #a0d468;
+  color: #c8ed8d;
 }
 
 .valid, .is-valid {
-  color: #a0d468;
+  color: #c8ed8d;
 }
 
 .code-comment {

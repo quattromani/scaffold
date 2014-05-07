@@ -15,13 +15,10 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
 				"rein",
 				"Indentation: Reindent Lines"
 			],
 			[
-=======
->>>>>>> master
 				"inst",
 				"Package Control: Install Package"
 			],
@@ -87,15 +84,12 @@
 	},
 	"file_history":
 	[
-<<<<<<< HEAD
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Q/Sites/scaffold/sandbox/index.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/.gitignore",
-=======
->>>>>>> master
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
@@ -111,10 +105,6 @@
 		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/node_modules/grunt/node_modules/glob/test/pause-resume.js",
 		"/Users/Q/Sites/scaffold/css/partials/print.css",
-<<<<<<< HEAD
-=======
-		"/Users/Q/Sites/scaffold/README.md",
->>>>>>> master
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",

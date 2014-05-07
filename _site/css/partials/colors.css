@@ -22,7 +22,7 @@
 }
 
 .color-primary-green {
-  background: #a0d468;
+  background: #c8ed8d;
 }
 
 .color-primary-blue {
@@ -34,11 +34,11 @@
 }
 
 .color-secondary-red {
-  background: #a82620;
+  background: #9b0d10;
 }
 
 .color-secondary-green {
-  background: #6da72f;
+  background: #719a2e;
 }
 
 .color-secondary-blue {
@@ -71,7 +71,7 @@
 }
 
 .color-success {
-  background: #6da72f;
+  background: #719a2e;
 }
 
 .link {
@@ -116,7 +116,7 @@
 }
 
 .text-success {
-  color: #6da72f;
+  color: #719a2e;
 }
 
 /* ie9 (.ie9) */

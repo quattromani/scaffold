@@ -2147,6 +2147,50 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
     background: #ef272d; }
 
 /* ==========================================================================
+    Message Box -- Version: 0.2.1 - Compiled: timestamp()
+   ========================================================================== */
+[class*='message-'] {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5; }
+  [class*='message-']:before {
+    display: flex;
+    align-items: center;
+    min-width: 3em;
+    font-family: 'GLGlyphs';
+    padding: 1.5em 1em; }
+  [class*='message-'] .message {
+    position: relative;
+    padding: 1em;
+    line-height: 1; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    -webkit-transform: rotate(359deg); } }
+.message-loading {
+  color: #333; }
+  .message-loading:before {
+    content: '\75';
+    -webkit-animation: rotation 2s infinite linear; }
+
+.message-warning {
+  color: #ef272d; }
+  .message-warning:before {
+    background: #f89ea0;
+    content: '\33';
+    color: #ef272d; }
+
+.message-valid {
+  color: #6da72f; }
+  .message-valid:before {
+    background: #c8ed8d;
+    content: '\43';
+    color: #6da72f; }
+
+/* ==========================================================================
     Modals -- Version: 0.4.0.1 - Updated: 4/28/2014
    ========================================================================== */
 .modal .modal-overlay {
