@@ -592,7 +592,7 @@ nav {
   background: #ef272d; }
 
 .color-primary-green {
-  background: #a0d468; }
+  background: #c8ed8d; }
 
 .color-primary-blue {
   background: #0088cc; }
@@ -604,7 +604,7 @@ nav {
   background: #9b0d10; }
 
 .color-secondary-green {
-  background: #6da72f; }
+  background: #719a2e; }
 
 .color-secondary-blue {
   background: #005580; }
@@ -629,7 +629,7 @@ nav {
   background: #0088cc; }
 
 .color-success {
-  background: #6da72f; }
+  background: #719a2e; }
 
 .link {
   color: #ef272d; }
@@ -663,7 +663,7 @@ nav {
   color: #0088cc; }
 
 .text-success {
-  color: #6da72f; }
+  color: #719a2e; }
 
 /* ie9 (.ie9) */
 .ie9 .gradient {
@@ -921,10 +921,10 @@ kbd, samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace; }
 
 kbd, samp {
-  color: #a0d468; }
+  color: #c8ed8d; }
 
 .valid, .is-valid {
-  color: #a0d468; }
+  color: #c8ed8d; }
 
 .code-comment {
   filter: alpha(opacity=50);
@@ -2043,10 +2043,10 @@ dd {
     .btn.btn-error:hover, .button.btn-error:hover, button.btn-error:hover {
       background: #f89ea0; }
   .btn.btn-success, .button.btn-success, button.btn-success {
-    background: #a0d468;
+    background: #c8ed8d;
     color: white; }
     .btn.btn-success:hover, .button.btn-success:hover, button.btn-success:hover {
-      background: #6da72f; }
+      background: #719a2e; }
   .btn.btn-info, .button.btn-info, button.btn-info {
     background: #0088cc;
     color: white; }
@@ -2062,7 +2062,7 @@ dd {
     background: #cccccc;
     color: #5b5b5b; }
   .btn.js-active, .button.js-active, button.js-active {
-    background: #a0d468;
+    background: #c8ed8d;
     color: white; }
 
 /* Firefox */

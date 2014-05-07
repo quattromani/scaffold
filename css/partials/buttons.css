@@ -103,11 +103,11 @@
   background: #f89ea0;
 }
 .btn.btn-success, .button.btn-success, button.btn-success {
-  background: #a0d468;
+  background: #c8ed8d;
   color: white;
 }
 .btn.btn-success:hover, .button.btn-success:hover, button.btn-success:hover {
-  background: #6da72f;
+  background: #719a2e;
 }
 .btn.btn-info, .button.btn-info, button.btn-info {
   background: #0088cc;
@@ -129,7 +129,7 @@
   color: #5b5b5b;
 }
 .btn.js-active, .button.js-active, button.js-active {
-  background: #a0d468;
+  background: #c8ed8d;
   color: white;
 }
 
