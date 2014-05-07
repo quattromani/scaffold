@@ -11,7 +11,7 @@ At the heart of Scaffold is it's love of truly semantic html -- write good marku
 ###Style Guide / House Style
 >A style guide is a set of standards for the writing and design of documents, either for general use or for a specific publication, organization or field. The implementation of a style guide provides uniformity in style and formatting within a document and across multiple documents.
 
-A set of standards for a specific organization is often known as "house style". When you see something marked "house style", you'll know that we're speaking specifically to a GLG style.
+A set of standards for a specific organization is often known as "house style". When you see something marked "house style", you'll know that we're speaking specifically to a brand's style.
 
 ###Patterns
 >A pattern describes an optimal solution to a common problem within a specific context.
@@ -37,14 +37,13 @@ Download it [directly]
 Install with [Bower]:`bower install -- save scaffold`  
 
 ###But why not just use Bootstrap?
-We love bootstrap! It served us well for quite sometime. Scaffold looks up to Bootstrap, Scaffold is inspired by Bootstrap, and Scaffold thinks of Bootstrap as a mentor; but the time has come for more efficient and direct css without all the commitments that come with Bootstrap. Scaffold contains minimal styling, basically the GLG branding on predefined elements: Typography, buttons, form fields, etc.
+We love bootstrap! It served us well for quite sometime. Scaffold looks up to Bootstrap, Scaffold is inspired by Bootstrap, and Scaffold thinks of Bootstrap as a mentor; but the time has come for more efficient and direct css without all the commitments that come with Bootstrap. Scaffold contains minimal styling, basically the branding on predefined elements: Typography, buttons, form fields, etc.
 
 
-###Scaffold is Built On
-*bower  
-*npm  
-*grunt  
-*jekyll  
+###Scaffold is Built On the Backs of:
+* bower
+* npm
+* grunt
 
 ##To-Do's
 tabs  

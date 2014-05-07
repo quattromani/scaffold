@@ -11,3 +11,6 @@ _site
 
 # Ignore sandbox builds
 /sandbox
+
+# Ignore anything .orig
+*.orig

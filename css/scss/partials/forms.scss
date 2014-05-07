@@ -58,13 +58,6 @@ select, datalist, input::-webkit-inner-spin-button  {
   -webkit-appearance: none;
 }
 
-@mixin placeholder {
-  ::-webkit-input-placeholder {@content}
-  :-moz-placeholder           {@content}
-  ::-moz-placeholder          {@content}
-  :-ms-input-placeholder      {@content}
-}
-
 @include placeholder {
     color: $text;
     font-weight: 100;
