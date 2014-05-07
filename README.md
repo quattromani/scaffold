@@ -16,7 +16,7 @@ A set of standards for a specific organization is often known as "house style". 
 ###Patterns
 >A pattern describes an optimal solution to a common problem within a specific context.
 
-Each pattern has four primary components:
+Each pattern has four primary components:  
 1. a title  
 2. a problem  
 3. a context  
