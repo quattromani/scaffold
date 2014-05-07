@@ -86,7 +86,7 @@
   color: white;
 }
 .btn.btn-primary:hover, .btn.button-primary:hover, .button.btn-primary:hover, .button.button-primary:hover, button.btn-primary:hover, button.button-primary:hover {
-  background: #9b01d0;
+  background: #9b0d10;
 }
 .btn.btn-primary:active, .btn.button-primary:active, .button.btn-primary:active, .button.button-primary:active, button.btn-primary:active, button.button-primary:active {
   background: #a40c11;
