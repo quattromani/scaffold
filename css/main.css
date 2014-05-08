@@ -2141,6 +2141,11 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
   background: black;
   font-size: 13px;
   font-size: 1.3rem;
+  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
   color: white; }
   .pill-white {
