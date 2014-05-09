@@ -84,8 +84,11 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Desktop/placeholder.css",
+		"/Users/Q/Desktop/wildcard.css",
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
@@ -103,7 +106,6 @@
 		"/Users/Q/Sites/scaffold/sandbox/index.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/.gitignore",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jade/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm",
