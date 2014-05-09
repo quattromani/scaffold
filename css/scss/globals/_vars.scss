@@ -85,12 +85,12 @@ $GLGlyphs: 'GLGlyphs';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 
 $heading-list: (
-  h1   42   200,
-  h2   36   200,
-  h3   30   100,
-  h4   24   200,
-  h5   18   200,
-  h6   18   100
+  h1   42   200   $heading-font,
+  h2   36   200   $heading-font,
+  h3   30   700   $heading-font-alt,
+  h4   24   200   $heading-font,
+  h5   18   700   $heading-font-alt,
+  h6   18   100   $heading-font
 );
 
 $lede-text: ($base-font-size * 1.375);

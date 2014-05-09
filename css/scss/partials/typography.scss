@@ -185,10 +185,9 @@ a {
 $i: 1;
 @each $value in $heading-list {
   #{nth($value, 1)},.#{nth($value, 1)} {
-    font-family: $heading-font;
+    font-family: nth($value, 4);
     @include font-size(nth($value, 2));
     font-weight: nth($value, 3);
-    // how can I loop through only h1 - h3 to make responsive sizes?
     @if $i <= 3 {
       @include bp(bp-medium) {
         @include font-size(nth($value, 2) * .875)
