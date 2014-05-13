@@ -40,6 +40,15 @@ body, button, input, select, textarea {
   font-weight: 400;
 }
 @font-face {
+  font-family: 'NeueHaasGroteskDisp Pro 75';
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
   font-family: "FontAwesome";
   src: url("fonts/icons/fontawesome-webfont.eot");
   src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
@@ -331,6 +340,7 @@ i.fa {
     Logo
    ========================== */
 .GLG {
+  font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   letter-spacing: -1px;
 }
