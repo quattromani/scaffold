@@ -7,30 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_includes/styleguide/buttons/index.html",
-			"settings":
-			{
-				"buffer_size": 1916,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sandbox/mailto-button/index.html",
-			"settings":
-			{
-				"buffer_size": 133,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/scss/partials/pills.scss",
-			"settings":
-			{
-				"buffer_size": 809,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -108,8 +84,26 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/partials/colors.css",
+		"/Users/Q/Sites/scaffold/_includes/patterns/info-box/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
+		"/Users/Q/Sites/scaffold/css/partials/typography.css",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/modals/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/slide-checkbox/index.html",
+		"/Users/Q/Sites/scaffold/patterns/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/styleguide/index.html",
+		"/Users/Q/Sites/scaffold/patterns/info-box/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/ctas/index.html",
+		"/Users/Q/Sites/scaffold/sandbox/mailto-button/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/ctas.scss",
+		"/Users/Q/Sites/scaffold/styleguide/ctas/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/validation/x-validation-messages.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/validation/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/validation/x-validation.html",
@@ -118,22 +112,13 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/x-validation/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/x-validation/x-validation.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/x-validation/validation-input.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/css/partials/typography.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Desktop/placeholder.css",
 		"/Users/Q/Desktop/wildcard.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
-		"/Users/Q/Sites/scaffold/patterns/index.html",
-		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/patterns/message-box/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/colors.css",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/sandbox/notifications/index.html",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
@@ -142,7 +127,6 @@
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/.gitignore",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jade/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/datatype-number-parse/datatype-number-parse-min.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/tar/test/pack-no-proprietary.js",
@@ -234,6 +218,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"info",
 			"font",
 			"mailTestMessage",
 			"opaci",
@@ -273,108 +258,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_includes/styleguide/buttons/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1916,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								395,
-								395
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 599.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sandbox/mailto-button/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								130
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/scss/partials/pills.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 809,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								466,
-								466
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
