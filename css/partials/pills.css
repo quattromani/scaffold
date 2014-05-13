@@ -16,7 +16,7 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: black;
+  background: #5b5b5b;
   font-size: 13px;
   font-size: 1.3rem;
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;

@@ -12,7 +12,7 @@ label + .pill, .pill + label {
 .pill {
   @include padding(.15em,.75em);
   @include border-radius(50px);
-  background: black;
+  background: $color-grey;
   @include font-size(13);
   @include font-family($heading-font-alt);
   font-weight: 700;
