@@ -1,6 +1,24 @@
 /* ==========================================================================
-    Message Box -- Version: 0.2.1 - Compiled: timestamp()
+    Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
    ========================================================================== */
+.info-box {
+  border-left: 0.3em solid #0088cc;
+  background: #cceeff;
+  color: #0088cc;
+}
+
+.error-box {
+  border-left: 0.3em solid #ef272d;
+  background: #fde5e6;
+  color: #ef272d;
+}
+
+.valid-box {
+  border-left: 0.3em solid #719a2e;
+  background: #f3fbe5;
+  color: #719a2e;
+}
+
 [class*='message-'] {
   display: flex;
   align-items: center;
@@ -18,8 +36,10 @@
   font-size: 1.6rem;
   padding: 1.5em 1em;
 }
-[class*='message-'] .message {
+
+.message {
   position: relative;
+  display: inline-block;
   padding: 1em;
   line-height: 1;
 }

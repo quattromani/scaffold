@@ -2,8 +2,26 @@
 @import "../globals/allGlobals";
 
 /* ==========================================================================
-    Message Box -- Version: 0.2.1 - Compiled: #{timestamp()}
+    Message Boxes -- Version: 0.2.1 - Compiled: #{timestamp()}
    ========================================================================== */
+
+.info-box {
+  border-left: .3em solid $color-primary-blue;
+  background: lighten($color-primary-blue, 50%);
+  color: $color-primary-blue;
+}
+
+.error-box {
+  border-left: .3em solid $color-primary-red;
+  background: lighten($color-primary-red, 40%);
+  color: $color-primary-red;
+}
+
+.valid-box {
+  border-left: .3em solid $color-secondary-green;
+  background: lighten($color-primary-green, 20%);
+  color: $color-secondary-green;
+}
 
 [class*='message-'] {
   display: flex;
@@ -17,11 +35,13 @@
     @include font-family($GLGlyphs);
     padding: 1.5em 1em;
   }
-  .message {
-    position: relative;
-    padding: 1em;
-    line-height: 1;
-  }
+}
+
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
 }
 
 @-webkit-keyframes rotation {
