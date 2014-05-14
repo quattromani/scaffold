@@ -2680,6 +2680,9 @@ select, datalist, input::-webkit-inner-spin-button {
 #fillit {
   display: none; }
 
+input[type="file"]::-webkit-file-upload-button {
+  opacity: 0; }
+
 /* ie (.ie) */
 .ie input[type="radio"] {
   border: 0px !important; }
