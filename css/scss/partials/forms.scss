@@ -83,54 +83,12 @@ select, datalist, input::-webkit-inner-spin-button  {
 }
 
 /* Groovy styled checkboxes*/
-input.switch:empty {
-  margin-left: -9999px;
-}
-
-input.switch:empty ~ label {
-  position: relative;
-  float: left;
-  text-indent: 3em;
-  cursor: pointer;
-}
-
-input.switch:empty ~ label:before,
-input.switch:empty ~ label:after {
-  position: absolute;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  content: ' ';
-  width: 2.5em;
-  background-color: $color-primary-red;
-  @include border-radius(100px);
-  -webkit-transition: all 100ms ease-in;
-          transition: all 100ms ease-in;
-}
-
-input.switch:empty ~ label:after {
-  width: .75em;
-  height: .75em;
-  top: .375em;
-  margin-left: .375em;
-  background-color: $color-white;
-  border-radius: 100px;
-}
-
-input.switch:checked ~ label:before {
-  background-color: $color-secondary-green;
-}
-
-input.switch:checked ~ label:after {
-  margin-left: 1.3em;
-}
-
-/* Groovy styled radios*/
+input.switch:empty,
 input.radio:empty {
   margin-left: -9999px;
 }
 
+input.switch:empty ~ label,
 input.radio:empty ~ label {
   position: relative;
   float: left;
@@ -138,6 +96,8 @@ input.radio:empty ~ label {
   cursor: pointer;
 }
 
+input.switch:empty ~ label:before,
+input.switch:empty ~ label:after,
 input.radio:empty ~ label:before,
 input.radio:empty ~ label:after {
   position: absolute;
@@ -146,23 +106,34 @@ input.radio:empty ~ label:after {
   bottom: 0;
   left: 0;
   content: ' ';
-  width: 1.5em;
-  height: 1.5em;
-  background-color: $color-light-grey;
-  border-radius: 100px;
-  -webkit-transition: all 100ms ease-in;
-          transition: all 100ms ease-in;
+  width: 2.5em;
+  background: $color-primary-red;
+  @include border-radius(100px);
+  @include transition(all,100ms,ease-in)
 }
 
+input.radio:empty ~ label:before,
 input.radio:empty ~ label:after {
+  width: 1.5em;
+  height: 1.5em;
+  background: $color-light-grey;
+}
+
+input.switch:empty ~ label:after,
+input.radio:empty ~ label:after  {
   width: .75em;
   height: .75em;
   top: .375em;
   margin-left: .375em;
-  background-color: $color-white;
-  border-radius: 100px;
+  background: $color-white;
+  @include border-radius(100px);
 }
 
-input.radio:checked ~ label:before {
-  background-color: $color-secondary-green;
+input.switch:checked ~ label:before,
+input.radio:checked ~ label:before  {
+  background: $color-secondary-green;
+}
+
+input.switch:checked ~ label:after {
+  margin-left: 1.3em;
 }
