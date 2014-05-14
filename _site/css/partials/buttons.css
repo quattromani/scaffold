@@ -77,6 +77,7 @@
 .btn:focus, .button:focus, button:focus, .cta:focus {
   background: #bfbfbf;
   background-image: 0;
+  outline: none;
 }
 .btn.btn-primary, .btn.button-primary, .button.btn-primary, .button.button-primary, button.btn-primary, button.button-primary, .cta.btn-primary, .cta.button-primary {
   background: #ef272d;

@@ -60,6 +60,7 @@
   &:focus {
     background: darken($color-off-white, 20%);
     background-image: 0;
+    outline:none;
   }
   &.btn-primary, &.button-primary {
     background: $color-button-primary;
