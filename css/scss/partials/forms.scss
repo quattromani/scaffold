@@ -91,7 +91,6 @@ input.switch:empty ~ label {
   position: relative;
   float: left;
   text-indent: 3em;
-  margin: 0.2em 0;
   cursor: pointer;
 }
 
@@ -103,18 +102,18 @@ input.switch:empty ~ label:after {
   bottom: 0;
   left: 0;
   content: ' ';
-  width: 2.6em;
+  width: 2.5em;
   background-color: $color-primary-red;
-  border-radius: 100px;
+  @include border-radius(100px);
   -webkit-transition: all 100ms ease-in;
           transition: all 100ms ease-in;
 }
 
 input.switch:empty ~ label:after {
-  width: 1.2em;
-  top: 0.1em;
-  bottom: 0.15em;
-  margin-left: 0.15em;
+  width: .75em;
+  height: .75em;
+  top: .375em;
+  margin-left: .375em;
   background-color: $color-white;
   border-radius: 100px;
 }
@@ -125,4 +124,45 @@ input.switch:checked ~ label:before {
 
 input.switch:checked ~ label:after {
   margin-left: 1.3em;
+}
+
+/* Groovy styled radios*/
+input.radio:empty {
+  margin-left: -9999px;
+}
+
+input.radio:empty ~ label {
+  position: relative;
+  float: left;
+  text-indent: 3em;
+  cursor: pointer;
+}
+
+input.radio:empty ~ label:before,
+input.radio:empty ~ label:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 1.5em;
+  height: 1.5em;
+  background-color: $color-light-grey;
+  border-radius: 100px;
+  -webkit-transition: all 100ms ease-in;
+          transition: all 100ms ease-in;
+}
+
+input.radio:empty ~ label:after {
+  width: .75em;
+  height: .75em;
+  top: .375em;
+  margin-left: .375em;
+  background-color: $color-white;
+  border-radius: 100px;
+}
+
+input.radio:checked ~ label:before {
+  background-color: $color-secondary-green;
 }

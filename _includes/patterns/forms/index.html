@@ -241,26 +241,34 @@
         <hr>
 
         <fieldset>
-            <h3>Checkbox Inputs</h3>
+            <h3>Checkbox &amp; Radio Inputs</h3>
 
             <!-- Radio / Select -->
             <div class="row clearfix">
                 <div class="column full">
 
-                    <div class="horizontal list">
-                        <ul class="column-count-3">
-                            <li>
-                                <div class="formitem">
-                                    <input type="checkbox" class="switch" id="switch-this" name="switch-this" checked>
-                                    <label for="switch-this">I choose this</label>
-                                </div>
-                                <div class="formitem">
-                                    <input type="checkbox" class="switch" id="switch-that" name="switch-that">
-                                    <label for="switch-that">I choose that</label>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>
+                            <div class="formitem">
+                                <input type="checkbox" class="switch" id="switch-this" name="switch-this" checked>
+                                <label for="switch-this">I choose this</label>
+                            </div>
+                            <div class="formitem">
+                                <input type="checkbox" class="switch" id="switch-that" name="switch-that">
+                                <label for="switch-that">I choose that</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="formitem">
+                                <input type="radio" class="radio" id="radio-this" name="sex" value="male" checked>
+                                <label for="radio-this">Male</label>
+                            </div>
+                            <div class="formitem">
+                                <input type="radio" id="radio-that" class="radio" name="sex" value="female">
+                                <label for="radio-that">Female</label>
+                            </div>
+                        </li>
+                    </ul>
 
                 </div>
             </div>
