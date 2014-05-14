@@ -2743,7 +2743,7 @@ input.radio:checked ~ label:before {
   background: #719a2e; }
 
 input.switch:checked ~ label:after {
-  margin-left: 1.3em; }
+  margin-left: 1.375em; }
 
 /* ==========================================================================
     Images -- Version: 0.4.1 - Compiled: timestamp()

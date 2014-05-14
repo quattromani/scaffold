@@ -184,5 +184,5 @@ input.radio:checked ~ label:before {
 }
 
 input.switch:checked ~ label:after {
-  margin-left: 1.3em;
+  margin-left: 1.375em;
 }
