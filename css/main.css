@@ -2262,10 +2262,6 @@ dd {
     color: white; }
     .btn.btn-primary:hover, .btn.button-primary:hover, .button.btn-primary:hover, .button.button-primary:hover, button.btn-primary:hover, button.button-primary:hover, .cta.btn-primary:hover, .cta.button-primary:hover {
       background: #9b0d10; }
-    .btn.btn-primary:active, .btn.btn-primary.active, .btn.btn-primary.js-active, .btn.button-primary:active, .btn.button-primary.active, .btn.button-primary.js-active, .button.btn-primary:active, .button.btn-primary.active, .button.btn-primary.js-active, .button.button-primary:active, .button.button-primary.active, .button.button-primary.js-active, button.btn-primary:active, button.btn-primary.active, button.btn-primary.js-active, button.button-primary:active, button.button-primary.active, button.button-primary.js-active, .cta.btn-primary:active, .cta.btn-primary.active, .cta.btn-primary.js-active, .cta.button-primary:active, .cta.button-primary.active, .cta.button-primary.js-active {
-      background: #a40c11;
-      background-image: 0;
-      color: white; }
   .btn.btn-error, .button.btn-error, button.btn-error, .cta.btn-error {
     background: #ef272d;
     color: white; }
@@ -2286,10 +2282,13 @@ dd {
     color: white; }
     .btn.btn-black:hover, .button.btn-black:hover, button.btn-black:hover, .cta.btn-black:hover {
       background: #5b5b5b; }
-  .btn:disabled, .btn.js-disabled, .btn.disabled, .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, .button:disabled, .button.js-disabled, .button.disabled, .button:disabled:hover, .button:disabled:active, .button.js-disabled:hover, .button.js-disabled:active, .button.disabled:hover, .button.disabled:active, button:disabled, button.js-disabled, button.disabled, button.btn:disabled:hover, button.btn:disabled:active, button.btn.js-disabled:hover, button.btn.js-disabled:active, button.btn.disabled:hover, button.btn.disabled:active, button.button:disabled:hover, button.button:disabled:active, button.button.js-disabled:hover, button.button.js-disabled:active, button.button.disabled:hover, button.button.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active, button.cta:disabled:hover, button.cta:disabled:active, button.cta.js-disabled:hover, button.cta.js-disabled:active, button.cta.disabled:hover, button.cta.disabled:active, .cta:disabled, .cta.js-disabled, .cta.disabled, .cta:disabled:hover, .cta:disabled:active, .cta.js-disabled:hover, .cta.js-disabled:active, .cta.disabled:hover, .cta.disabled:active {
+  .btn:disabled, .btn.js-disabled, .btn.disabled, .button:disabled, .button.js-disabled, .button.disabled, button:disabled, button.js-disabled, button.disabled, .cta:disabled, .cta.js-disabled, .cta.disabled {
     cursor: default;
     background: #cccccc;
     color: #5b5b5b; }
+    .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, .button:disabled:hover, .button:disabled:active, .button.js-disabled:hover, .button.js-disabled:active, .button.disabled:hover, .button.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active, .cta:disabled:hover, .cta:disabled:active, .cta.js-disabled:hover, .cta.js-disabled:active, .cta.disabled:hover, .cta.disabled:active {
+      background: #cccccc;
+      color: #5b5b5b; }
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 1px #ef272d;

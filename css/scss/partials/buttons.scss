@@ -68,11 +68,11 @@
     &:hover {
       background: $color-button-primary-hover;
     }
-    &:active, &.active, &.js-active {
-      background: darken($color-button-primary, 20%);
-      background-image: 0;
-      color: $color-white;
-   }
+    // &:active, &.active, &.js-active {
+    //   background: darken($color-button-primary, 20%);
+    //   background-image: 0;
+    //   color: $color-white;
+    // }
   }
   &.btn-error {
     background: $color-primary-red;
@@ -107,7 +107,8 @@
     background: $color-light-grey;
     color: $text-grey;
     &:hover, &:active {
-      @extend .disabled;
+      background: $color-light-grey;
+      color: $text-grey;
     }
   }
 }

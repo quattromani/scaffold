@@ -3,6 +3,7 @@
    ========================================================================== */
 
 $('.progress').click(function() {
-    $(this).addClass('js-active');
-    $('.progress.js-active i').progressButton();
+  $(this).attr("disabled", true);
+  $(this).addClass('js-active');
+  $('.progress.js-active i').progressButton();
 });
