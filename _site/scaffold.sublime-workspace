@@ -84,12 +84,20 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
+		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
+		"/Users/Q/Sites/scaffold/_includes/head.html",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/fs-extra/node_modules/mkdirp/.travis.yml",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/nodes/if.js",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/date/i18n_.js",
+		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/colors.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/info-box/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/modals/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/slide-checkbox/index.html",
@@ -99,7 +107,6 @@
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/patterns/info-box/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/ctas/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/mailto-button/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/ctas.scss",
@@ -149,7 +156,6 @@
 		"/Users/Q/Sites/scaffold/_layouts/patterns.html",
 		"/Users/Q/Sites/scaffold/_layouts/styleguide.html",
 		"/Users/Q/Sites/scaffold/emails/index.html",
-		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/emails/templates/index.html",
 		"/Users/Q/Sites/maxquattromani/GLG/sandbox/flexbox-bradybunch/content.php",
 		"/Users/Q/Sites/maxquattromani/GLG/sandbox/equals-grid/content.php",
@@ -218,6 +224,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<i",
+			"fa-fw",
+			"workgroups-video",
 			"info",
 			"font",
 			"mailTestMessage",
@@ -246,6 +255,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a",
+			"docs",
 			"nationality",
 			"/SSM/"
 		],
@@ -318,11 +329,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

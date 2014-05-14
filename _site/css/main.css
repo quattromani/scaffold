@@ -947,7 +947,7 @@ kbd, samp {
   -khtml-opacity: 0.5;
   opacity: 0.5; }
 
-i.fa {
+.fa {
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
@@ -2260,7 +2260,7 @@ dd {
     color: white; }
     .btn.btn-primary:hover, .btn.button-primary:hover, .button.btn-primary:hover, .button.button-primary:hover, button.btn-primary:hover, button.button-primary:hover, .cta.btn-primary:hover, .cta.button-primary:hover {
       background: #9b0d10; }
-    .btn.btn-primary:active, .btn.button-primary:active, .button.btn-primary:active, .button.button-primary:active, button.btn-primary:active, button.button-primary:active, .cta.btn-primary:active, .cta.button-primary:active {
+    .btn.btn-primary:active, .btn.btn-primary.active, .btn.button-primary:active, .btn.button-primary.active, .button.btn-primary:active, .button.btn-primary.active, .button.button-primary:active, .button.button-primary.active, button.btn-primary:active, button.btn-primary.active, button.button-primary:active, button.button-primary.active, .cta.btn-primary:active, .cta.btn-primary.active, .cta.button-primary:active, .cta.button-primary.active {
       background: #a40c11;
       background-image: 0;
       color: white; }
@@ -2301,6 +2301,16 @@ dd {
     -webkit-box-shadow: inset 0 0 0 1px #9b0d10;
     -moz-box-shadow: inset 0 0 0 1px #9b0d10;
     box-shadow: inset 0 0 0 1px #9b0d10; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  to {
+    -webkit-transform: rotate(359deg); } }
+.progress:active i:before, .progress.active i:before {
+  display: inline-block;
+  -webkit-animation: rotation 1.5s infinite linear; }
 
 /* Firefox */
 @-moz-document url-prefix() {
