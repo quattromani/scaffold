@@ -87,7 +87,7 @@
 .btn.btn-primary:hover, .btn.button-primary:hover, .button.btn-primary:hover, .button.button-primary:hover, button.btn-primary:hover, button.button-primary:hover, .cta.btn-primary:hover, .cta.button-primary:hover {
   background: #9b0d10;
 }
-.btn.btn-primary:active, .btn.btn-primary.active, .btn.button-primary:active, .btn.button-primary.active, .button.btn-primary:active, .button.btn-primary.active, .button.button-primary:active, .button.button-primary.active, button.btn-primary:active, button.btn-primary.active, button.button-primary:active, button.button-primary.active, .cta.btn-primary:active, .cta.btn-primary.active, .cta.button-primary:active, .cta.button-primary.active {
+.btn.btn-primary:active, .btn.btn-primary.active, .btn.btn-primary.js-active, .btn.button-primary:active, .btn.button-primary.active, .btn.button-primary.js-active, .button.btn-primary:active, .button.btn-primary.active, .button.btn-primary.js-active, .button.button-primary:active, .button.button-primary.active, .button.button-primary.js-active, button.btn-primary:active, button.btn-primary.active, button.btn-primary.js-active, button.button-primary:active, button.button-primary.active, button.button-primary.js-active, .cta.btn-primary:active, .cta.btn-primary.active, .cta.btn-primary.js-active, .cta.button-primary:active, .cta.button-primary.active, .cta.button-primary.js-active {
   background: #a40c11;
   background-image: 0;
   color: white;
@@ -125,10 +125,6 @@
   background: #cccccc;
   color: #5b5b5b;
 }
-.btn.js-active, .button.js-active, button.js-active, .cta.js-active {
-  background: #c8ed8d;
-  color: white;
-}
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 1px #ef272d;
@@ -151,7 +147,7 @@
     -webkit-transform: rotate(359deg);
   }
 }
-.progress:active i:before, .progress.active i:before {
+.progress:active i:before, .progress.js-active i:before {
   display: inline-block;
   -webkit-animation: rotation 1.5s infinite linear;
 }

@@ -69,7 +69,7 @@
     &:hover {
       background: $color-button-primary-hover;
     }
-    &:active, &.active {
+    &:active, &.active, &.js-active {
       background: darken($color-button-primary, 20%);
       background-image: 0;
       color: $color-white;
@@ -111,10 +111,6 @@
       @extend .disabled;
     }
   }
-  &.js-active {
-    background: $color-primary-green;
-    color: $color-white;
-  }
 }
 
 .cta {
@@ -131,7 +127,7 @@
 }
 
 .progress {
-  &:active, &.active {
+  &:active, &.js-active {
     i:before {
       display: inline-block;
       -webkit-animation: rotation 1.5s infinite linear;
