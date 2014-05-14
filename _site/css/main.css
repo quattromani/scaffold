@@ -2652,19 +2652,19 @@ select, datalist, input::-webkit-inner-spin-button {
   -webkit-appearance: none; }
 
 ::-webkit-input-placeholder {
-  color: #333333;
+  color: #cccccc;
   font-weight: 100; }
 
 :-moz-placeholder {
-  color: #333333;
+  color: #cccccc;
   font-weight: 100; }
 
 ::-moz-placeholder {
-  color: #333333;
+  color: #cccccc;
   font-weight: 100; }
 
 :-ms-input-placeholder {
-  color: #333333;
+  color: #cccccc;
   font-weight: 100; }
 
 .formitem {

@@ -59,7 +59,7 @@ select, datalist, input::-webkit-inner-spin-button  {
 }
 
 @include placeholder {
-    color: $text;
+    color: $text-light-grey;
     font-weight: 100;
 }
 
