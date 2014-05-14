@@ -6,9 +6,9 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
 }
 
 .pill, .pill-black, .pill-white, .pill-red {
-  padding-top: 0.15em;
+  padding-top: 0.125em;
   padding-right: 0.75em;
-  padding-bottom: 0.15em;
+  padding-bottom: 0.125em;
   padding-left: 0.75em;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;

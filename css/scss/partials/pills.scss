@@ -10,7 +10,7 @@ label + .pill, .pill + label {
 }
 
 .pill {
-  @include padding(.15em,.75em);
+  @include padding(.125em,.75em);
   @include border-radius(50px);
   background: $color-grey;
   @include font-size(13);
