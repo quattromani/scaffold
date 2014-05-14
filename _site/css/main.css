@@ -2682,6 +2682,45 @@ select, datalist, input::-webkit-inner-spin-button {
 .ie input[type="radio"] {
   border: 0px !important; }
 
+/* Groovy styled checkboxes*/
+input.switch:empty {
+  margin-left: -9999px; }
+
+input.switch:empty ~ label {
+  position: relative;
+  float: left;
+  text-indent: 3em;
+  margin: 0.2em 0;
+  cursor: pointer; }
+
+input.switch:empty ~ label:before,
+input.switch:empty ~ label:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 2.6em;
+  background-color: #ef272d;
+  border-radius: 100px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in; }
+
+input.switch:empty ~ label:after {
+  width: 1.2em;
+  top: 0.1em;
+  bottom: 0.15em;
+  margin-left: 0.15em;
+  background-color: white;
+  border-radius: 100px; }
+
+input.switch:checked ~ label:before {
+  background-color: #719a2e; }
+
+input.switch:checked ~ label:after {
+  margin-left: 1.3em; }
+
 /* ==========================================================================
     Images -- Version: 0.4.1 - Compiled: timestamp()
    ========================================================================== */

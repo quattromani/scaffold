@@ -250,9 +250,13 @@
                     <div class="horizontal list">
                         <ul class="column-count-3">
                             <li>
-                                <div class="formitem checkbox">
-                                    <input id="terms1" type="checkbox" name="terms" tabindex="16" required>
-                                    <label for="terms" class="required b">I accept these Terms & Conditions.</label>
+                                <div class="formitem">
+                                    <input type="checkbox" class="switch" id="switch-this" name="switch-this" checked>
+                                    <label for="switch-this">I choose this</label>
+                                </div>
+                                <div class="formitem">
+                                    <input type="checkbox" class="switch" id="switch-that" name="switch-that">
+                                    <label for="switch-that">I choose that</label>
                                 </div>
                             </li>
                         </ul>
@@ -318,13 +322,13 @@
 
                         </form>
 
-{% highlight html %}
-<fieldset>
-  <div class="formitem">
-    <label for="generic" class="visually-hidden">Generic</label>
-      <input type="text" id="" class="" name="" value="" placeholder="Generic" tabindex="21" required>
-  </div>
-</fieldset>
-{% endhighlight %}
+                        {% highlight html %}
+                        <fieldset>
+                          <div class="formitem">
+                            <label for="generic" class="visually-hidden">Generic</label>
+                            <input type="text" id="" class="" name="" value="" placeholder="Generic" tabindex="21" required>
+                        </div>
+                    </fieldset>
+                    {% endhighlight %}
 
-                    </div>
+                </div>
