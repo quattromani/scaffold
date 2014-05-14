@@ -142,6 +142,7 @@ input.radio:empty ~ label:after {
   left: 0;
   content: ' ';
   width: 2.5em;
+  height: 1.5em;
   background: #ef272d;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
