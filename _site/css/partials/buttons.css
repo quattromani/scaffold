@@ -28,8 +28,6 @@
   font-weight: 700;
   text-align: center;
   cursor: pointer;
-  letter-spacing: .1em;
-  -webkit-font-smoothing: antialiased;
 }
 .btn.block, .button.block, button.block, .cta.block {
   display: block;

@@ -45,6 +45,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   list-style: none outside none;
   vertical-align: baseline; }
 
+html {
+  -webkit-font-smoothing: antialiased; }
+
 /* ==========================
 	  HTML5 Display Definitions
    ========================== */
@@ -2214,9 +2217,7 @@ dd {
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-align: center;
-  cursor: pointer;
-  letter-spacing: .1em;
-  -webkit-font-smoothing: antialiased; }
+  cursor: pointer; }
   .btn.block, .button.block, button.block, .cta.block {
     display: block;
     width: 100%;
