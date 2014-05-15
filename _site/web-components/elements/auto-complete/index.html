@@ -68,131 +68,131 @@
 <hr>
 
 <h3>index.html</h3>
-<div class="highlight"><pre><code class="html">&lt;script src=&quot;../../bower_components/platform/platform.js&quot;&gt;&lt;/script&gt;
-&lt;link rel=&quot;import&quot; href=&quot;x-autocomplete.html&quot;&gt;
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;../../bower_components/platform/platform.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;x-autocomplete.html&quot;</span><span class="nt">&gt;</span>
 
-&lt;x-autocomplete&gt;&lt;/x-autocomplete&gt;</code></pre></div>
+<span class="nt">&lt;x-autocomplete&gt;&lt;/x-autocomplete&gt;</span></code></pre></div>
 
 <br>
 
 <h3>x-autocomplete.html</h3>
-<div class="highlight"><pre><code class="html">&lt;polymer-element name=&quot;x-autocomplete&quot;&gt;
-&lt;template&gt;
-  &lt;div class=&quot;formitem&quot;&gt;
-    &lt;label class=&quot;visually-hidden&quot; for=&quot;auto-complete&quot;&gt;List of {{ header }}&lt;/label&gt;
-    &lt;input id=&quot;auto-complete&quot; list=&quot;artists&quot; type=&quot;text&quot; placeholder=&quot;{{ header }}&quot; autocomplete=&quot;off&quot;&gt;
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;polymer-element</span> <span class="na">name=</span><span class="s">&quot;x-autocomplete&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;template&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;formitem&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">&quot;visually-hidden&quot;</span> <span class="na">for=</span><span class="s">&quot;auto-complete&quot;</span><span class="nt">&gt;</span>List of {{ header }}<span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;auto-complete&quot;</span> <span class="na">list=</span><span class="s">&quot;artists&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;{{ header }}&quot;</span> <span class="na">autocomplete=</span><span class="s">&quot;off&quot;</span><span class="nt">&gt;</span>
 
-    &lt;datalist id=&quot;artists&quot;&gt;
-      &lt;option template repeat=&quot;{{ artists }}&quot; value=&quot;{{ artist }}, {{ nationality }}&quot; label=&quot;{{ style }}&quot;&gt;{{ artist }}&lt;/option&gt;
-    &lt;/datalist&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
-&lt;polymer-jsonp auto url=&quot;json-datalist.json?format=json&amp;jsoncallback=&quot; response=&quot;{{ artist }}&quot;&gt;&lt;/polymer-jsonp&gt;
-&lt;/polymer-element&gt;</code></pre></div>
+    <span class="nt">&lt;datalist</span> <span class="na">id=</span><span class="s">&quot;artists&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;option</span> <span class="na">template</span> <span class="na">repeat=</span><span class="s">&quot;{{ artists }}&quot;</span> <span class="na">value=</span><span class="s">&quot;{{ artist }}, {{ nationality }}&quot;</span> <span class="na">label=</span><span class="s">&quot;{{ style }}&quot;</span><span class="nt">&gt;</span>{{ artist }}<span class="nt">&lt;/option&gt;</span>
+    <span class="nt">&lt;/datalist&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/template&gt;</span>
+<span class="nt">&lt;polymer-jsonp</span> <span class="na">auto</span> <span class="na">url=</span><span class="s">&quot;json-datalist.json?format=json&amp;jsoncallback=&quot;</span> <span class="na">response=</span><span class="s">&quot;{{ artist }}&quot;</span><span class="nt">&gt;&lt;/polymer-jsonp&gt;</span>
+<span class="nt">&lt;/polymer-element&gt;</span></code></pre></div>
 
 <br>
 
 <h3>json-datalist.json</h3>
-<div class="highlight"><pre><code class="html">&lt;script&gt;
-  Polymer(&#39;x-autocomplete&#39;, {
-    header: &quot;Artists&quot;,
-    artists: [{
-      artist: &quot;Jackson Pollock&quot;,
-      style: &quot;Abstract Expressionism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Andy Warhol&quot;,
-      style: &quot;Pop Art&quot;,
-      nationality: &quot;American&quot;
-    },
-    {
-      artist: &quot;Victor Vasarely&quot;,
-      style: &quot;Op Art&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Frank Stella&quot;,
-      style: &quot;Minimalism&quot;,
-      nationality: &quot;American&quot;
-    },
-    {
-      artist: &quot;Claude Monet&quot;,
-      style: &quot;Impressionism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Vincent Van Gogh&quot;,
-      style: &quot;Post Impressionism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Henri Matisse&quot;,
-      style: &quot;Fauvism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Ernst Ludwig Kirchner&quot;,
-      style: &quot;German Expressionism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Georges Braque&quot;,
-      style: &quot;Abstract Art&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Pablo Picasso&quot;,
-      style: &quot;Cubism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Giacomo Balla&quot;,
-      style: &quot;Futurism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Kazimir Europeanvich&quot;,
-      style: &quot;Suprematism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;El Lissitzky&quot;,
-      style: &quot;Constructivism&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Piet Mondrian&quot;,
-      style: &quot;De Stijl&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Caravaggio&quot;,
-      style: &quot;Baroque Art&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Jean Honore Fragonard&quot;,
-      style: &quot;Rococo Art&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Jan Vermeer&quot;,
-      style: &quot;Dutch Art&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Jacques Louis David&quot;,
-      style: &quot;Neoclassicm&quot;,
-      nationality: &quot;European&quot;
-    },
-    {
-      artist: &quot;Gustave Courbet&quot;,
-      style: &quot;Realism&quot;,
-      nationality: &quot;European&quot;
-    },]
-  });
-&lt;/script&gt;</code></pre></div>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;script&gt;</span>
+  <span class="nx">Polymer</span><span class="p">(</span><span class="s1">&#39;x-autocomplete&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">header</span><span class="o">:</span> <span class="s2">&quot;Artists&quot;</span><span class="p">,</span>
+    <span class="nx">artists</span><span class="o">:</span> <span class="p">[{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Jackson Pollock&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Abstract Expressionism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Andy Warhol&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Pop Art&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;American&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Victor Vasarely&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Op Art&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Frank Stella&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Minimalism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;American&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Claude Monet&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Impressionism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Vincent Van Gogh&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Post Impressionism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Henri Matisse&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Fauvism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Ernst Ludwig Kirchner&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;German Expressionism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Georges Braque&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Abstract Art&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Pablo Picasso&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Cubism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Giacomo Balla&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Futurism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Kazimir Europeanvich&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Suprematism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;El Lissitzky&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Constructivism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Piet Mondrian&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;De Stijl&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Caravaggio&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Baroque Art&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Jean Honore Fragonard&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Rococo Art&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Jan Vermeer&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Dutch Art&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Jacques Louis David&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Neoclassicm&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nx">artist</span><span class="o">:</span> <span class="s2">&quot;Gustave Courbet&quot;</span><span class="p">,</span>
+      <span class="nx">style</span><span class="o">:</span> <span class="s2">&quot;Realism&quot;</span><span class="p">,</span>
+      <span class="nx">nationality</span><span class="o">:</span> <span class="s2">&quot;European&quot;</span>
+    <span class="p">},]</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span></code></pre></div>
 
 	</div>
     </div>

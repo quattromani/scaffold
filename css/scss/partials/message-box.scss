@@ -32,8 +32,8 @@
     display: flex;
     align-items: center;
     min-width: 3em;
-    @include font-family($GLGlyphs);
-    padding: 1.5em 1em;
+    @include font-family($GLGlyphs, 36);
+    padding: .25em 1em;
   }
 }
 

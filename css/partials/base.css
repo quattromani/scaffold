@@ -33,4 +33,5 @@ article, aside, figure, footer, header, hgroup, nav, section {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }

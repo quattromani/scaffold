@@ -48,11 +48,11 @@
   font-size: $size * 0.1rem;
 }
 
-@mixin font-family($font, $style: normal, $weight: normal) {
+@mixin font-family($font, $size: $base-font-size, $style: normal, $weight: normal) {
   font-family: $font,Arial,Sans-Serif;
   font-style: $style;
   font-weight: $weight;
-  @include font-size($base-font-size);
+  @include font-size($size);
 }
 
 // Column / Grid Control
