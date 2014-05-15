@@ -36,15 +36,30 @@ Download it [directly]
 
 Install with [Bower]:`bower install -- save scaffold`  
 
-###But why not just use Bootstrap?
-We love bootstrap! It served us well for quite sometime. Scaffold looks up to Bootstrap, Scaffold is inspired by Bootstrap, and Scaffold thinks of Bootstrap as a mentor; but the time has come for more efficient and direct css without all the commitments that come with Bootstrap. Scaffold contains minimal styling, basically the branding on predefined elements: Typography, buttons, form fields, etc.
-
-
 ###Scaffold is Built On the Backs of:
 * bower
 * npm
 * grunt
 
+###Shoulders I have stood on
+/*
+    Credit for much of this code base belongs to:
+    
+    CSS Tricks          :: http://css-tricks.com
+    CSSWizardry         :: http://csswizardry.com/
+    Entypo Pictograms   :: http://entypo.com
+    HTML5 Boilerplate   :: http://html5boilerplate.com
+    HTML5 Reset         :: http://html5reset.org
+    Max Voltar          :: http:maxvoltar.com/archive/-webkit-font-smoothing/
+    Pearsonified        :: http://www.pearsonified.com/2011/12/golden-ratio-typography.php
+    SMACSS              :: http://smacss.com/
+    Tim Brown           :: http://www.alistapart.com/articles/more-meaningful-typography/
+    Twitter Bootstrap   :: http://twitter.github.com/bootstrap/
+    
+    
+    If I left anybody off in error, I apologize, and I will 
+    be happy to add to the credits
+*/
 ##To-Do's
 tabs  
 gallery  
