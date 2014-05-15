@@ -42,7 +42,6 @@ Install with [Bower]:`bower install -- save scaffold`
 * grunt
 
 ###Shoulders have been stood on
-/*
     
     CSS Tricks          :: http://css-tricks.com
     CSSWizardry         :: http://csswizardry.com/
@@ -54,7 +53,6 @@ Install with [Bower]:`bower install -- save scaffold`
     Tim Brown           :: http://www.alistapart.com/articles/more-meaningful-typography/
     Twitter Bootstrap   :: http://twitter.github.com/bootstrap/
     
-*/
 ##To-Do's
 tabs  
 gallery  
