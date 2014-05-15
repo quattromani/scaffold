@@ -44,10 +44,8 @@ Install with [Bower]:`bower install -- save scaffold`
 ###Shoulders I have stood on
 /*
     Credit for much of this code base belongs to:
-    
     CSS Tricks          :: http://css-tricks.com
     CSSWizardry         :: http://csswizardry.com/
-    Entypo Pictograms   :: http://entypo.com
     HTML5 Boilerplate   :: http://html5boilerplate.com
     HTML5 Reset         :: http://html5reset.org
     Max Voltar          :: http:maxvoltar.com/archive/-webkit-font-smoothing/
@@ -55,10 +53,8 @@ Install with [Bower]:`bower install -- save scaffold`
     SMACSS              :: http://smacss.com/
     Tim Brown           :: http://www.alistapart.com/articles/more-meaningful-typography/
     Twitter Bootstrap   :: http://twitter.github.com/bootstrap/
-    
-    
-    If I left anybody off in error, I apologize, and I will 
-    be happy to add to the credits
+
+If I left anybody off in error, I apologize, and I will be happy to add to the credits
 */
 ##To-Do's
 tabs  
