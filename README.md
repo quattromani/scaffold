@@ -41,21 +41,21 @@ Install with [Bower]:`bower install -- save scaffold`
 * npm
 * grunt
 
-###Shoulders I have stood on
-/*
-    Credit for much of this code base belongs to:
-    CSS Tricks          :: http://css-tricks.com
-    CSSWizardry         :: http://csswizardry.com/
-    HTML5 Boilerplate   :: http://html5boilerplate.com
-    HTML5 Reset         :: http://html5reset.org
-    Max Voltar          :: http:maxvoltar.com/archive/-webkit-font-smoothing/
-    Pearsonified        :: http://www.pearsonified.com/2011/12/golden-ratio-typography.php
-    SMACSS              :: http://smacss.com/
-    Tim Brown           :: http://www.alistapart.com/articles/more-meaningful-typography/
-    Twitter Bootstrap   :: http://twitter.github.com/bootstrap/
-
-If I left anybody off in error, I apologize, and I will be happy to add to the credits
-*/
+###Shoulders have been stood on
+/*  
+    Credit for much of this code base belongs to:  
+    CSS Tricks          :: http://css-tricks.com  
+    CSSWizardry         :: http://csswizardry.com/  
+    HTML5 Boilerplate   :: http://html5boilerplate.com  
+    HTML5 Reset         :: http://html5reset.org  
+    Max Voltar          :: http:maxvoltar.com/archive/-webkit-font-smoothing/  
+    Pearsonified        :: http://www.pearsonified.com/2011/12/golden-ratio-typography.php  
+    SMACSS              :: http://smacss.com/  
+    Tim Brown           :: http://www.alistapart.com/articles/more-meaningful-typography/  
+    Twitter Bootstrap   :: http://twitter.github.com/bootstrap/  
+  
+If I left anybody off in error, I apologize, and I will be happy to add to the credits  
+*/  
 ##To-Do's
 tabs  
 gallery  
