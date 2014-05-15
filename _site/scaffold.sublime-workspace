@@ -84,16 +84,23 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/Gruntfile.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/timestamp.rb",
+		"/Users/Q/Sites/scaffold/config.rb",
+		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
+		"/Users/Q/Sites/scaffold/_config.yml",
+		"/Users/Q/Sites/scaffold/js/buttons.js",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/partials/glglyphs.css",
 		"/Users/Q/Sites/scaffold/emails/templates/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
-		"/Users/Q/Sites/scaffold/js/buttons.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
@@ -129,7 +136,6 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/x-validation/x-validation.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/x-validation/validation-input.html",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Desktop/placeholder.css",
 		"/Users/Q/Desktop/wildcard.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
@@ -151,7 +157,6 @@
 		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/node_modules/grunt/node_modules/glob/test/pause-resume.js",
 		"/Users/Q/Sites/scaffold/css/partials/print.css",
-		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/x-autocomplete.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/json-datalist.json",
@@ -206,12 +211,7 @@
 		"/Users/Q/Sites/maxquattromani/GLG/cmp/css/scss/partials/_banner.scss",
 		"/Users/Q/Sites/maxquattromani/resume/Max_Quattromani_Resume.pdf",
 		"/Users/Q/Sites/maxquattromani/package.json",
-		"/Users/Q/Downloads/spacegray-master/base16-eighties.dark.tmTheme",
-		"/Users/Q/Sites/maxquattromani/sftp-config.json",
-		"/Users/Q/Sites/maxquattromani/404/index.php",
-		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
-		"/Users/Q/Sites/maxquattromani/404/variables/_variables.php",
-		"/Users/Q/Sites/maxquattromani/404/css/page.css"
+		"/Users/Q/Downloads/spacegray-master/base16-eighties.dark.tmTheme"
 	],
 	"find":
 	{
@@ -229,6 +229,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"background-",
+			"second",
 			"0.",
 			"<i",
 			"fa-fw",

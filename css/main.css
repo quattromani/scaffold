@@ -1,32 +1,6 @@
 /* Base */
 /* ==========================================================================
-    CSS Code for all Global Elements and Site-Wide Selectors
-
-    Author: Max Quattromani
-    Base -- Version: 0.4.3
-   ========================================================================== */
-/*
-
- * Base
-  * Colors
-  * Defaults
-
- * Layout
-
- * Module
-
- * State
-
- * Theme
-
- * Browser Specific
- 		* Safari/Chrome/Webkit
- 		* Firefox
- 		* Internet Explorer
-
- */
-/* ==========================================================================
-    Base: Defaults
+    Base -- Version: 0.2.1- Compiled: timestamp()
    ========================================================================== */
 /* ==========================
 	  Reset
@@ -48,18 +22,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 html {
   -webkit-font-smoothing: antialiased; }
 
-/* ==========================
-	  HTML5 Display Definitions
-   ========================== */
 article, aside, figure, footer, header, hgroup, nav, section {
   display: block; }
 
-/* ==========================
-	  Base Stucture
-   ========================== */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* ==========================================================================
