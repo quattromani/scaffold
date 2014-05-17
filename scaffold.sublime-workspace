@@ -84,9 +84,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
+		"/Users/Q/Sites/scaffold/README.md",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/timestamp.rb",
 		"/Users/Q/Sites/scaffold/config.rb",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
@@ -113,7 +115,6 @@
 		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/colors.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/info-box/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/modals/index.html",
@@ -145,7 +146,6 @@
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Q/Sites/scaffold/sandbox/index.html",
-		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/.gitignore",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jade/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/datatype-number-parse/datatype-number-parse-min.js",
