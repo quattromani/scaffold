@@ -48,6 +48,14 @@ module.exports = function(grunt) {
         }
       },
 
+      autoprefixer: {
+        dist: {
+          files: {
+            'css/main.min.css': [ 'css/main.css' ]
+          }
+        }
+      },
+
       imagemin: {
         dynamic: {
           files: [{
@@ -70,7 +78,7 @@ module.exports = function(grunt) {
         },
         css: {
           files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
-          tasks: ['sass', 'cssmin'],
+          tasks: ['sass', 'cssmin', 'autoprefixer'],
           options: {
             livereload: true,
           }
@@ -81,10 +89,10 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib');
 
-    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
-    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
+    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'autoprefixer', 'imagemin', 'watch']);
+    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'autoprefixer', 'watch']);
     grunt.registerTask('js', ['concat', 'uglify', 'watch']);
-    grunt.registerTask('css', ['sass', 'cssmin', 'watch']);
+    grunt.registerTask('css', ['sass', 'cssmin', 'autoprefixer', 'watch']);
     grunt.registerTask('default', ['watch']);
 
 };

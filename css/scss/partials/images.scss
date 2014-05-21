@@ -36,6 +36,11 @@ img {
 .image-bordered {
   border: ($padding / 2) solid $color-light-grey;
 }
+.avatar {
+  &-circle {
+    @extend .image-circular;
+  }
+}
 
 // Responsive Images
 [class*='image-focus-'] {
