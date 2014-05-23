@@ -37,7 +37,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
     Base Theme -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
 body {
-  background-color: white; }
+  background: white; }
 
 a.logo {
   color: inherit; }
@@ -1173,6 +1173,11 @@ kbd, samp {
 
 .relative {
   position: relative; }
+
+.center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .left {
   float: left;

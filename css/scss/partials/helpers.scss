@@ -13,6 +13,10 @@
   position: relative;
 }
 
+.center {
+  @include center;
+}
+
 .left {
   float: left;
   left: 0;

@@ -211,6 +211,16 @@ $marginless-col-width: $width / $site-column-count;
           transform: translateY(-50%);
 }
 
+// Horizontal Align
+@mixin center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// placeholder from Horizontal Align
+%center { @include center; }
+
 // Transform
 @mixin rotate($degrees) {
   -webkit-transform: rotate($degrees);

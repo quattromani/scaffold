@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/scss/partials/typography.scss",
-			"settings":
-			{
-				"buffer_size": 8631,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,10 +84,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
+		"/Users/Q/Sites/scaffold/package.json",
+		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
-		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/timestamp.rb",
 		"/Users/Q/Sites/scaffold/config.rb",
@@ -162,7 +157,6 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/mout/lang/toNumber.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt/node_modules/iconv-lite/test/big5-test.js",
 		"/Users/Q/Sites/scaffold/bower.json",
-		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/node_modules/grunt/node_modules/glob/test/pause-resume.js",
 		"/Users/Q/Sites/scaffold/css/partials/print.css",
 		"/Users/Q/Sites/scaffold/web-components/elements/auto-complete/index.html",
@@ -217,9 +211,7 @@
 		"/Users/Q/Sites/maxquattromani/config.php",
 		"/Users/Q/Sites/maxquattromani/GLG/cmp/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/maxquattromani/GLG/cmp/css/scss/partials/_banner.scss",
-		"/Users/Q/Sites/maxquattromani/resume/Max_Quattromani_Resume.pdf",
-		"/Users/Q/Sites/maxquattromani/package.json",
-		"/Users/Q/Downloads/spacegray-master/base16-eighties.dark.tmTheme"
+		"/Users/Q/Sites/maxquattromani/resume/Max_Quattromani_Resume.pdf"
 	],
 	"find":
 	{
@@ -291,42 +283,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/scss/partials/typography.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 8631,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
