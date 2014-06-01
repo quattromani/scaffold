@@ -1,7 +1,10 @@
 /* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: timestamp()
    ========================================================================== */
-.btn, .button, button, .cta {
+.btn,
+.button,
+button,
+.cta {
   display: inline-block;
   *zoom: 1;
   *display: inline;
@@ -20,33 +23,167 @@
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  border: none;
+  border: 0;
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-align: center;
+  color: #ef272d;
   cursor: pointer;
 }
-.btn.block, .button.block, button.block, .cta.block {
+.btn:hover,
+.button:hover,
+button:hover,
+.cta:hover {
+  background: #e5e5e5;
+}
+.btn:focus,
+.button:focus,
+button:focus,
+.cta:focus {
+  background: #bfbfbf;
+  background-image: 0;
+  outline: none;
+}
+.btn.btn-primary, .btn.button-primary,
+.button.btn-primary,
+.button.button-primary,
+button.btn-primary,
+button.button-primary,
+.cta.btn-primary,
+.cta.button-primary {
+  background: #ef272d;
+  color: white;
+}
+.btn.btn-primary:hover, .btn.button-primary:hover,
+.button.btn-primary:hover,
+.button.button-primary:hover,
+button.btn-primary:hover,
+button.button-primary:hover,
+.cta.btn-primary:hover,
+.cta.button-primary:hover {
+  background: #9b0d10;
+}
+.btn.btn-error,
+.button.btn-error,
+button.btn-error,
+.cta.btn-error {
+  background: #ef272d;
+  color: white;
+}
+.btn.btn-error:hover,
+.button.btn-error:hover,
+button.btn-error:hover,
+.cta.btn-error:hover {
+  background: #f89ea0;
+}
+.btn.btn-success,
+.button.btn-success,
+button.btn-success,
+.cta.btn-success {
+  background: #719a2e;
+  color: white;
+}
+.btn.btn-success:hover,
+.button.btn-success:hover,
+button.btn-success:hover,
+.cta.btn-success:hover {
+  background: #c8ed8d;
+}
+.btn.btn-info,
+.button.btn-info,
+button.btn-info,
+.cta.btn-info {
+  background: #0088cc;
+  color: white;
+}
+.btn.btn-info:hover,
+.button.btn-info:hover,
+button.btn-info:hover,
+.cta.btn-info:hover {
+  background: #33bbff;
+}
+.btn.btn-black,
+.button.btn-black,
+button.btn-black,
+.cta.btn-black {
+  background: black;
+  color: white;
+}
+.btn.btn-black:hover,
+.button.btn-black:hover,
+button.btn-black:hover,
+.cta.btn-black:hover {
+  background: #5b5b5b;
+}
+.btn:disabled, .btn.js-disabled, .btn.disabled,
+.button:disabled,
+.button.js-disabled,
+.button.disabled,
+button:disabled,
+button.js-disabled,
+button.disabled,
+.cta:disabled,
+.cta.js-disabled,
+.cta.disabled {
+  cursor: default;
+  background: #cccccc;
+  color: #5b5b5b;
+}
+.btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
+.button:disabled:hover,
+.button:disabled:active,
+.button.js-disabled:hover,
+.button.js-disabled:active,
+.button.disabled:hover,
+.button.disabled:active,
+button:disabled:hover,
+button:disabled:active,
+button.js-disabled:hover,
+button.js-disabled:active,
+button.disabled:hover,
+button.disabled:active,
+.cta:disabled:hover,
+.cta:disabled:active,
+.cta.js-disabled:hover,
+.cta.js-disabled:active,
+.cta.disabled:hover,
+.cta.disabled:active {
+  background: #cccccc;
+  color: #5b5b5b;
+}
+.btn.block,
+.button.block,
+button.block,
+.cta.block {
   display: block;
   width: 100%;
   text-align: center;
 }
-.btn.btn-xl, .button.btn-xl, button.btn-xl, .cta.btn-xl {
+.btn.btn-xl,
+.button.btn-xl,
+button.btn-xl,
+.cta.btn-xl {
   padding-top: 0.75em;
   padding-right: 2em;
   padding-bottom: 0.75em;
   padding-left: 2em;
 }
-.btn.btn-lg, .button.btn-lg, button.btn-lg, .cta.btn-lg {
+.btn.btn-lg,
+.button.btn-lg,
+button.btn-lg,
+.cta.btn-lg {
   padding-top: 0.5em;
   padding-right: 1.5em;
   padding-bottom: 0.5em;
   padding-left: 1.5em;
 }
-.btn.btn-sm, .button.btn-sm, button.btn-sm, .cta.btn-sm {
+.btn.btn-sm,
+.button.btn-sm,
+button.btn-sm,
+.cta.btn-sm {
   min-width: 0;
   padding-top: 0.16667em;
   padding-right: 0.66667em;
@@ -54,74 +191,47 @@
   padding-left: 0.66667em;
 }
 @media (max-width: 40em) {
-  .btn.mobile-full, .button.mobile-full, button.mobile-full, .cta.mobile-full {
+  .btn.mobile-full,
+  .button.mobile-full,
+  button.mobile-full,
+  .cta.mobile-full {
     display: block;
     width: 100%;
   }
-  .btn.mobile-full a, .button.mobile-full a, button.mobile-full a, .cta.mobile-full a {
+  .btn.mobile-full a,
+  .button.mobile-full a,
+  button.mobile-full a,
+  .cta.mobile-full a {
     display: block;
     text-align: center;
   }
-  .btn.mobile-full + .btn.mobile-full, .button.mobile-full + .btn.mobile-full, button.mobile-full + .btn.mobile-full, .cta.mobile-full + .btn.mobile-full, .btn.mobile-full + .button.mobile-full, .button.mobile-full + .button.mobile-full, button.mobile-full + .button.mobile-full, .cta.mobile-full + .button.mobile-full, .btn.mobile-full + button.mobile-full, .button.mobile-full + button.mobile-full, button.mobile-full + button.mobile-full, .cta.mobile-full + button.mobile-full, .btn.mobile-full + .cta.mobile-full, .button.mobile-full + .cta.mobile-full, button.mobile-full + .cta.mobile-full, .cta.mobile-full + .cta.mobile-full {
+  .btn.mobile-full + .btn.mobile-full,
+  .button.mobile-full + .btn.mobile-full,
+  button.mobile-full + .btn.mobile-full,
+  .cta.mobile-full + .btn.mobile-full, .btn.mobile-full +
+  .button.mobile-full,
+  .button.mobile-full +
+  .button.mobile-full,
+  button.mobile-full +
+  .button.mobile-full,
+  .cta.mobile-full +
+  .button.mobile-full, .btn.mobile-full +
+  button.mobile-full,
+  .button.mobile-full +
+  button.mobile-full,
+  button.mobile-full +
+  button.mobile-full,
+  .cta.mobile-full +
+  button.mobile-full, .btn.mobile-full +
+  .cta.mobile-full,
+  .button.mobile-full +
+  .cta.mobile-full,
+  button.mobile-full +
+  .cta.mobile-full,
+  .cta.mobile-full +
+  .cta.mobile-full {
     margin-top: 1em;
   }
-}
-
-/* Theme */
-.btn, .button, button, .cta {
-  color: #ef272d;
-}
-.btn:hover, .button:hover, button:hover, .cta:hover {
-  background: #e5e5e5;
-}
-.btn:focus, .button:focus, button:focus, .cta:focus {
-  background: #bfbfbf;
-  background-image: 0;
-  outline: none;
-}
-.btn.btn-primary, .btn.button-primary, .button.btn-primary, .button.button-primary, button.btn-primary, button.button-primary, .cta.btn-primary, .cta.button-primary {
-  background: #ef272d;
-  color: white;
-}
-.btn.btn-primary:hover, .btn.button-primary:hover, .button.btn-primary:hover, .button.button-primary:hover, button.btn-primary:hover, button.button-primary:hover, .cta.btn-primary:hover, .cta.button-primary:hover {
-  background: #9b0d10;
-}
-.btn.btn-error, .button.btn-error, button.btn-error, .cta.btn-error {
-  background: #ef272d;
-  color: white;
-}
-.btn.btn-error:hover, .button.btn-error:hover, button.btn-error:hover, .cta.btn-error:hover {
-  background: #f89ea0;
-}
-.btn.btn-success, .button.btn-success, button.btn-success, .cta.btn-success {
-  background: #719a2e;
-  color: white;
-}
-.btn.btn-success:hover, .button.btn-success:hover, button.btn-success:hover, .cta.btn-success:hover {
-  background: #c8ed8d;
-}
-.btn.btn-info, .button.btn-info, button.btn-info, .cta.btn-info {
-  background: #0088cc;
-  color: white;
-}
-.btn.btn-info:hover, .button.btn-info:hover, button.btn-info:hover, .cta.btn-info:hover {
-  background: #33bbff;
-}
-.btn.btn-black, .button.btn-black, button.btn-black, .cta.btn-black {
-  background: black;
-  color: white;
-}
-.btn.btn-black:hover, .button.btn-black:hover, button.btn-black:hover, .cta.btn-black:hover {
-  background: #5b5b5b;
-}
-.btn:disabled, .btn.js-disabled, .btn.disabled, .button:disabled, .button.js-disabled, .button.disabled, button:disabled, button.js-disabled, button.disabled, .cta:disabled, .cta.js-disabled, .cta.disabled {
-  cursor: default;
-  background: #cccccc;
-  color: #5b5b5b;
-}
-.btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active, .button:disabled:hover, .button:disabled:active, .button.js-disabled:hover, .button.js-disabled:active, .button.disabled:hover, .button.disabled:active, button:disabled:hover, button:disabled:active, button.js-disabled:hover, button.js-disabled:active, button.disabled:hover, button.disabled:active, .cta:disabled:hover, .cta:disabled:active, .cta.js-disabled:hover, .cta.js-disabled:active, .cta.disabled:hover, .cta.disabled:active {
-  background: #cccccc;
-  color: #5b5b5b;
 }
 
 .cta {
@@ -147,12 +257,11 @@
 }
 .progress:active i:before, .progress.js-active i:before {
   display: inline-block;
-  -webkit-animation: rotation 1.5s infinite linear;
+  animation: rotation 1.5s infinite linear;
 }
 
 /* Firefox */
 @-moz-document url-prefix() {
-  /* Remove button padding in FF */
   button::-moz-focus-inner {
     padding-top: 0;
     padding-right: 0;
@@ -169,8 +278,6 @@
     border: 0 none;
   }
 }
-/* ie (.ie) */
-/* make buttons play nice in IE */
 .ie button {
   overflow: visible;
   width: auto;

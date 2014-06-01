@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: #{timestamp()}
@@ -10,16 +10,20 @@
     @include margin;
     @include padding;
   }
+
   li {
     display: inline;
     position: relative;
+
     a {
-      border: none;
+      border: 0;
     }
+
     &.js-last {
       margin-right: 0;
     }
   }
+
   @include bp(bp-small) {
     @include inline-block();
     width: 100%;

@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Compiled: #{timestamp()}
@@ -10,17 +10,15 @@
   bottom: 0;
   right: 0;
   width: auto;
- @include padding(.5em, 1em);
-  border: none;
+  @include padding(.5em, 1em);
+  border: 0;
   @include border-radius;
-  background: rgb(0,0,0);
-  background: rgba(0,0,0,.675);
-  -webkit-appearance: none;
-     -moz-appearance: none;
+  background: rgba(0, 0, 0, .675);
+  appearance: none;
   z-index: 999999;
-  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   font-family: $pre;
   color: #0f0;
-  text-indent: 0.01px;
+  text-indent: .01px;
   text-overflow: '';
 }

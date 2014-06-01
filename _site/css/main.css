@@ -2022,7 +2022,7 @@ kbd, samp {
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: none; }
+    border: 0; }
 
   .column-count-2, .column-count-3, .column-count-4 {
     -webkit-column-count: 2;
@@ -2181,7 +2181,7 @@ dd {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  border: none;
+  border: 0;
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
@@ -2319,7 +2319,7 @@ dd {
   display: inline;
   position: relative; }
   .pagination li a {
-    border: none; }
+    border: 0; }
   .pagination li.js-last {
     margin-right: 0; }
 @media (max-width: 40em) {
@@ -2528,7 +2528,7 @@ label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pil
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()
    =========================================================================================== */
 .visually-hidden {
-  border: none;
+  border: 0;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
@@ -2869,7 +2869,7 @@ hr {
   padding-right: 1em;
   padding-bottom: 0.5em;
   padding-left: 1em;
-  border: none;
+  border: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;

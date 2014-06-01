@@ -1,33 +1,38 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
-label + .pill, .pill + label {
+label + .pill,
+.pill + label {
   margin-left: ($padding / 3);
 }
 
-.pill {
-  @include padding(.125em,.75em);
+.pill,
+%pill {
+  @include padding(.125em, .75em);
   @include border-radius(50px);
   background: $color-grey;
   @include font-size(13);
   @include font-family($heading-font-alt);
   font-weight: 700;
   color: $color-white;
+
   &-black {
-    @extend .pill;
+    @extend %pill;
   }
+
   &-white {
-    @extend .pill;
-    background: white;
+    @extend %pill;
+    background: $color-white;
     @include box-shadow(inset 0 0 0 1px $text);
     color: $text;
   }
+
   &-red {
-    @extend .pill;
+    @extend %pill;
     background: $color-primary-red;
   }
 }

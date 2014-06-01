@@ -14,7 +14,8 @@ tr:nth-of-type(even) {
   background: #f2f2f2;
 }
 
-th, td {
+th,
+td {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;

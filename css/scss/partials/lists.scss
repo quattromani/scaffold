@@ -1,93 +1,105 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Lists -- Version: 1.9.0.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
+// Ordered List
+
 ol {
-  @include margin(0,0,0,($margin * 1.5));
+  @include margin(0, 0, 0, ($margin * 1.5));
   @include padding;
+
   ol {
     margin-bottom: 0;
+  }
+
+  li {
+    list-style: decimal;
+    list-style-position: outside;
   }
 }
 
 ul {
   @include margin;
   @include padding;
+
   ul {
     @include margin;
   }
 }
 
-/* Bulleted List Items */
+// Bulleted List Items
 
 .bulleted {
   ~ ul {
     margin-bottom: 0;
   }
+
   li {
     list-style: outside disc;
     margin-left: $margin;
-    border-bottom: none;
+    border-bottom: 0;
   }
 }
 
-/* Horizontal List Items */
+// Horizontal List Items
 
 .horizontal {
   li {
     display: inline;
   }
+
   [class*='column-count-'] li {
     @include inline-block;
   }
+
   &.slashes li {
     @include padding;
+
     &:after {
       content: '/';
-      @include padding(0,($padding / 2));
+      @include padding(0, ($padding / 2));
     }
+
     &.js-last:after {
       content: '';
     }
   }
+
   &.pipes li {
     @include padding;
+
     &:after {
       content: '|';
-      @include padding(0,.25em,0,.5em);
+      @include padding(0, .25em, 0, .5em);
     }
+
     &.js-last:after {
       content: '';
     }
   }
 }
 
-/* Vertical List Items */
+// Vertical List Items
 
 .vertical {
   li {
-    @include padding(($padding / 2),0);
+    @include padding(($padding / 2), 0);
   }
+
   &.lined li {
     overflow: auto;
     border-bottom: 1px dotted $color-light-grey;
+
     &.js-last {
-      border-bottom: none;
+      border-bottom: 0;
     }
   }
 }
 
-/* Ordered List */
-
-ol li {
-  list-style: decimal;
-  list-style-position: outside;
-}
-
-/* Definition List */
+// Definition List
 
 dt {
   font-weight: bold;

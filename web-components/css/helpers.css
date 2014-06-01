@@ -1564,7 +1564,7 @@
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: none;
+    border: 0;
   }
 
   .column-count-2, .column-count-3, .column-count-4 {

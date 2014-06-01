@@ -49,7 +49,6 @@
   background: #967adc;
 }
 
-/* Typography Colors */
 .text {
   color: #333333;
 }
@@ -98,28 +97,26 @@
   color: #0088cc;
 }
 
-.text-muted, .muted {
+.text-muted,
+.muted {
   color: #5b5b5b;
 }
 
-.text-warning, .text-error {
+.text-warning,
+.text-error {
   color: #ef272d;
 }
 
-.error, .is-error {
+.error,
+.is-error {
   background: #f89ea0;
   color: #ef272d;
-}
-
-.text-info {
-  color: #0088cc;
 }
 
 .text-success {
   color: #719a2e;
 }
 
-/* ie9 (.ie9) */
 .ie9 .gradient {
   filter: none;
 }

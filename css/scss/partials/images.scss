@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Images -- Version: 0.4.1 - Compiled: #{timestamp()}
@@ -8,6 +8,7 @@
 figure {
   position: relative;
   width: 100%;
+
   img {
     max-width: 100%;
     margin: 0 auto $margin;
@@ -29,16 +30,18 @@ img {
   @include border-radius;
 }
 
-.image-circular {
+.image-circular,
+%image-circular {
   @include border-radius(50%);
 }
 
 .image-bordered {
   border: ($padding / 2) solid $color-light-grey;
 }
+
 .avatar {
   &-circle {
-    @extend .image-circular;
+    @extend %image-circular;
   }
 }
 
@@ -69,8 +72,8 @@ img {
   background-position: right center;
 }
 
-/* ie9 (.twc-ie9) */
-/* Fix IE9 overflow bug */
+// ie9 (.ie9)
+// Fix IE9 overflow bug
 .ie9 svg:not(:root) {
   overflow: hidden;
 }

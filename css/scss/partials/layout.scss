@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: #{timestamp()}
@@ -15,19 +15,22 @@
 .container {
   display: block;
   max-width: $site-width;
-  @include margin(0,auto);
-  @include padding(0,($padding / 2));
+  @include margin(0, auto);
+  @include padding(0, ($padding / 2));
   overflow: visible;
 }
 
-/* Clearfix */
-.clearfix, %clearfix {
-  *zoom: 1;
+// Clearfix
+.clearfix,
+%clearfix {
+  zoom: 1;
+
   &:before,
   &:after {
-    content: " ";
+    content: '';
     display: table;
   }
+
   &:after {
     clear: both;
   }
@@ -39,19 +42,12 @@
 
 .row {
   @include row;
-  &:last-child, &:only-child {
+
+  &:last-child,
+  &:only-child {
     margin-bottom: 0;
   }
 }
-
-// .main { @include col(9); }
-// .sidebar { @include col(3); @include last; }
-// .promo {
-//   @include col(6);
-//   @include prepend(3);
-//   @include append(3);
-//   @include last;
-// }
 
 .full {
   @include col($site-column-count);
@@ -59,12 +55,15 @@
 
 .half {
   @include col($site-column-count / 2);
+
   .marginless & {
-    @include marginless_col($site-column-count / 2);
+    @include marginless-col($site-column-count / 2);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-small) {
     @include col($site-column-count);
   }
@@ -72,18 +71,23 @@
 
 .third {
   @include col($site-column-count / 3);
+
   .marginless & {
-    @include marginless_col($site-column-count / 3);
+    @include marginless-col($site-column-count / 3);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
+
     &:nth-child(even) {
       @include last;
     }
   }
+
   @include bp(bp-small) {
     @include col($site-column-count);
   }
@@ -91,18 +95,23 @@
 
 .fourth {
   @include col($site-column-count / 4);
+
   .marginless & {
-    @include marginless_col($site-column-count / 4);
+    @include marginless-col($site-column-count / 4);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
+
     &:nth-child(even) {
       @include last;
     }
   }
+
   @include bp(bp-small) {
     @include col($site-column-count);
     @include last;
@@ -111,18 +120,23 @@
 
 .fifth {
   @include col($site-column-count / 5);
+
   .marginless & {
-    @include marginless_col($site-column-count / 5);
+    @include marginless-col($site-column-count / 5);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
+
     &:nth-child(even) {
       @include last;
     }
   }
+
   @include bp(bp-small) {
     @include col($site-column-count);
     @include last;
@@ -131,14 +145,18 @@
 
 .sixth {
   @include col($site-column-count / 6);
+
   .marginless & {
-    @include marginless_col($site-column-count / 6);
+    @include marginless-col($site-column-count / 6);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
+
     &:nth-child(3n) {
       @include last;
     }
@@ -147,14 +165,18 @@
 
 .seventh {
   @include col($site-column-count / 7);
+
   .marginless & {
-    @include marginless_col($site-column-count / 7);
+    @include marginless-col($site-column-count / 7);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
+
     &:nth-child(3n) {
       @include last;
     }
@@ -163,20 +185,26 @@
 
 .eighth {
   @include col($site-column-count / 8);
+
   .marginless & {
-    @include marginless_col($site-column-count / 8);
+    @include marginless-col($site-column-count / 8);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
+
     &:nth-child(4n) {
       @include last;
     }
   }
+
   @include bp(bp-small) {
     @include col($site-column-count / 2);
+
     &:nth-child(2n) {
       @include last;
     }
@@ -185,14 +213,18 @@
 
 .ninth {
   @include col($site-column-count / 9);
+
   .marginless & {
-    @include marginless_col($site-column-count / 9);
+    @include marginless-col($site-column-count / 9);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
+
     &:nth-child(3n) {
       @include last;
     }
@@ -201,20 +233,26 @@
 
 .tenth {
   @include col($site-column-count / 10);
+
   .marginless & {
-    @include marginless_col($site-column-count / 10);
+    @include marginless-col($site-column-count / 10);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
+
     &:nth-child(4n) {
       @include last;
     }
   }
+
   @include bp(bp-small) {
     @include col($site-column-count / 2);
+
     &:nth-child(2n) {
       @include last;
     }
@@ -223,20 +261,26 @@
 
 .eleventh {
   @include col($site-column-count / 11);
+
   .marginless & {
-    @include marginless_col($site-column-count / 11);
+    @include marginless-col($site-column-count / 11);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
+
     &:nth-child(4n) {
       @include last;
     }
   }
+
   @include bp(bp-small) {
     @include col($site-column-count / 2);
+
     &:nth-child(2n) {
       @include last;
     }
@@ -245,20 +289,26 @@
 
 .twelfth {
   @include col($site-column-count / 12);
+
   .marginless & {
-    @include marginless_col($site-column-count / 12);
+    @include marginless-col($site-column-count / 12);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 6);
+
     &:nth-child(6n) {
       @include last;
     }
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
+
     &:nth-child(3n) {
       @include last;
     }
@@ -268,18 +318,23 @@
 // Combinations
 .golden-long {
   @include col($site-column-count * (1 / 1.618));
+
   .marginless & {
-    @include marginless_col($site-column-count * (1 / 1.618));
+    @include marginless-col($site-column-count * (1 / 1.618));
   }
+
   &:last-child {
     @include last;
   }
 }
+
 .golden-short {
   @include col($site-column-count * (1 - (1 / 1.618)));
+
   .marginless & {
-    @include marginless_col($site-column-count * (1 - (1 / 1.618)));
+    @include marginless-col($site-column-count * (1 - (1 / 1.618)));
   }
+
   &:last-child {
     @include last;
   }
@@ -287,12 +342,15 @@
 
 .two-fifths {
   @include col(($site-column-count / 5) * 2);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 5) * 2);
+    @include marginless-col(($site-column-count / 5) * 2);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
   }
@@ -300,12 +358,15 @@
 
 .three-fifths {
   @include col(($site-column-count / 5) * 3);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 5) * 3);
+    @include marginless-col(($site-column-count / 5) * 3);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count);
   }
@@ -313,12 +374,15 @@
 
 .four-fifths {
   @include col(($site-column-count / 5) * 4);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 5) * 4);
+    @include marginless-col(($site-column-count / 5) * 4);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count);
   }
@@ -326,12 +390,15 @@
 
 .two-thirds {
   @include col(($site-column-count / 3) * 2);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 3) * 2);
+    @include marginless-col(($site-column-count / 3) * 2);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count);
   }
@@ -339,12 +406,15 @@
 
 .three-fourths {
   @include col(($site-column-count / 4) * 3);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 4) * 3);
+    @include marginless-col(($site-column-count / 4) * 3);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count);
   }
@@ -352,12 +422,15 @@
 
 .three-eighths {
   @include col(($site-column-count / 8) * 3);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 8) * 3);
+    @include marginless-col(($site-column-count / 8) * 3);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count);
   }
@@ -365,12 +438,15 @@
 
 .five-eighths {
   @include col(($site-column-count / 8) * 5);
+
   .marginless & {
-    @include marginless_col(($site-column-count / 8) * 5);
+    @include marginless-col(($site-column-count / 8) * 5);
   }
+
   &:last-child {
     @include last;
   }
+
   @include bp(bp-medium) {
     @include col($site-column-count);
   }

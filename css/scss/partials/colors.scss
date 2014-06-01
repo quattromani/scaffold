@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: #{timestamp()}
@@ -53,7 +53,7 @@
   background: $color-secondary-lav;
 }
 
-/* Typography Colors */
+// Typography Colors
 
 .text {
   color: $text;
@@ -103,28 +103,27 @@
   color: $text-info;
 }
 
-.text-muted, .muted {
+.text-muted,
+.muted {
   color: $text-grey;
 }
 
-.text-warning, .text-error {
+.text-warning,
+.text-error {
   color: $text-error;
 }
 
-.error, .is-error {
+.error,
+.is-error {
   background: lighten($text-error, 25%);
   color: $text-error;
-}
-
-.text-info {
-  color: $text-info;
 }
 
 .text-success {
   color: $text-success;
 }
 
-/* ie9 (.ie9) */
+// ie9 (.ie9)
 
 .ie9 .gradient { filter: none; }
 

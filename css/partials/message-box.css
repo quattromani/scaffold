@@ -46,11 +46,11 @@
 
 @-webkit-keyframes rotation {
   from {
-    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   to {
-    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
   }
 }
 .message-loading {
@@ -58,7 +58,7 @@
 }
 .message-loading:before {
   content: '\75';
-  -webkit-animation: rotation 1.5s infinite linear;
+  animation: rotation 1.5s infinite linear;
 }
 
 .message-warning {

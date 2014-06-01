@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Videos -- Version: 0.4.0.1 - Compiled: #{timestamp()}
@@ -10,12 +10,14 @@ video {
   top: 0;
   left: 0;
   max-width: 100%;
-  margin-bottom: 0;
-  @media (max-width: $bp-small) {
+  @include margin;
+
+  @include bp(bp-small) {
     video {
       height: auto;
     }
   }
+
   figure & {
     margin-bottom: $margin;
   }
@@ -24,6 +26,7 @@ video {
 audio {
   @include inline-block();
   max-width: 100%;
+
   &:not([controls]) {
     display: none;
   }

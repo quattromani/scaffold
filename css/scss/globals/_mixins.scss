@@ -82,9 +82,9 @@ $marginless-col-width: $width / $site-column-count;
 }
 
 // create a marginless column
-@mixin marginless_col($n: 1) {
+@mixin marginless-col($n: 1) {
   float: left;
-  @include marginless_span($n);
+  @include marginless-span($n);
 }
 
 // element span n columns
@@ -97,7 +97,7 @@ $marginless-col-width: $width / $site-column-count;
   }
 }
 
-@mixin marginless_span($n: 1) {
+@mixin marginless-span($n: 1) {
   width: ($n * $marginless-col-width);
   margin-right: 0;
 }

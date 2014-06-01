@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
@@ -27,29 +27,31 @@
   right: 0;
 }
 
-/* Font Size Helpers */
+// Font Size Helpers
 @for $i from 10 through 60 {
   .fs#{$i} {
     @include font-size($i);
     @include bp(bp-medium) {
       @include font-size($i * .875)
     }
+
     @include bp(bp-small) {
       @include font-size($i * .75)
     }
   }
 }
 
-/* Create widths in increments of 5% */
+// Create widths in increments of 5%
 [class*='width-'] {
   @include inline-block;
 }
 
 $widths: 5;
-@while $widths < 100 {
+@while $widths <= 100 {
   .width-#{$widths} {
     width: ($widths * 1%);
   }
+
   $widths: $widths + 5 !global;
 }
 
@@ -80,7 +82,7 @@ $widths: 5;
 }
 
 .image-center {
-  @include margin(0,auto);
+  @include margin(0, auto);
   text-align: center;
 }
 
@@ -90,11 +92,12 @@ $widths: 5;
 }
 
 .box {
-  @include margin(0,0,$margin,0);
+  @include margin(0, 0, $margin, 0);
   @include padding($padding);
   @include border-radius;
   border: 1px solid $color-light-grey;
   background: $color-light-light-grey;
+
   h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0;
   }
@@ -114,47 +117,50 @@ $widths: 5;
   border: 1px dotted $color-grey;
 }
 
-.bordered-left {
+.bordered-left,
+%bordered-left {
   padding-left: $site-gutter-width;
   border-left: 1px dotted $color-grey;
 }
 
 .bordered-left-dark {
-  @extend .bordered-left;
+  @extend %bordered-left;
   border-left: 1px solid $text;
 }
 
-.bordered-right {
+.bordered-right,
+%bordered-right {
   padding-right: $site-gutter-width;
   border-right: 1px dotted $color-grey;
 }
 
 .bordered-right-dark {
-  @extend .bordered-right;
+  @extend %bordered-right;
   border-right: 1px solid $text;
 }
 
 .column-count-2 {
-  @include columns(2,$margin * 2);
+  @include columns(2, $margin * 2);
 }
 
 .column-count-3 {
-  @include columns(3,$margin * 2);
+  @include columns(3, $margin * 2);
 }
 
 .column-count-4 {
-  @include columns(4,$margin * 2);
+  @include columns(4, $margin * 2);
 }
 
 .column-count-6 {
-  @include columns(6,$margin * 2);
+  @include columns(6, $margin * 2);
 }
 
 .nowrap {
   overflow: hidden;
 }
 
-.hidden, .desktop-hidden {
+.hidden,
+.desktop-hidden {
   display: none;
 }
 
@@ -183,6 +189,7 @@ $widths: 5;
   .tablet-hidden {
     display: none !important;
   }
+
   .desktop-hidden {
     display: block;
   }
@@ -191,17 +198,20 @@ $widths: 5;
     display: block;
   }
 
-  .bordered-left, .bordered-right {
+  .bordered-left,
+  .bordered-right {
     @include padding;
-    border: none;
+    border: 0;
   }
 
-  .column-count-2, .column-count-3, .column-count-4 {
+  .column-count-2,
+  .column-count-3,
+  .column-count-4 {
     @include columns(2, $margin * 2)
   }
 
   .column-count-6 {
-    @include columns(3,$margin * 2);
+    @include columns(3, $margin * 2);
   }
 
 }
@@ -211,6 +221,7 @@ $widths: 5;
   .mobile-hidden {
     display: none !important;
   }
+
   .mobile-full {
     display: block;
     float: none;
@@ -220,8 +231,10 @@ $widths: 5;
     display: block;
   }
 
-  .column-count-2, .column-count-3, .column-count-4 {
-    @include columns(1,0)
+  .column-count-2,
+  .column-count-3,
+  .column-count-4 {
+    @include columns(1, 0)
   }
 
 }

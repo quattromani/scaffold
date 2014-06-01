@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Prototype -- Version: 0.4.4  - Updated: #{timestamp()}
@@ -10,8 +10,7 @@
 .viewport, .loadtime {
   position: fixed;
   @include padding(.5em, 1em);
-  background: rgb(0,0,0);
-  background: rgba(0,0,0,.675);
+  background: rgba(0, 0, 0, .675);
   font-family: $pre;
   color: #0f0;
 }

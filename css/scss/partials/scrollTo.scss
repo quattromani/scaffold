@@ -1,11 +1,12 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Scroll To -- Version: 1.9.0.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.scrollToTop {
+.scrolltotop,
+%scrolltotop {
   position: fixed;
   @include inline-block;
   right: 1em;
@@ -13,10 +14,11 @@
   @include margin(($margin / 2), 0);
   @include padding(($padding / 2), $padding);
   @include border-radius;
-  background: rgba(0,0,0,.1);
+  background: rgba(0, 0, 0, .1);
   font-weight: 100;
   z-index: 999999;
-  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
   &:after {
     padding-left: ($padding / 2);
     font-family: $fontawesome;
@@ -26,8 +28,8 @@
   }
 }
 
-.scrollToTop-modal {
-  @extend .scrollToTop;
+.scrolltotop-modal {
+  @extend %scrolltotop;
   position: relative;
   float: right;
 }

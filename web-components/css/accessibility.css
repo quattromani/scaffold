@@ -2,7 +2,7 @@
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()
    =========================================================================================== */
 .visually-hidden {
-  border: none;
+  border: 0;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;

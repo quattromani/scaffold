@@ -1,5 +1,5 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Base Theme -- Version: 0.4.0 - Compiled: #{timestamp()}
@@ -18,5 +18,5 @@ a.logo {
 }
 
 footer.container {
-	@include margin($margin,auto);
+	@include margin($margin, auto);
 }

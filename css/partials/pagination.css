@@ -16,7 +16,7 @@
   position: relative;
 }
 .pagination li a {
-  border: none;
+  border: 0;
 }
 .pagination li.js-last {
   margin-right: 0;

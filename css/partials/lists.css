@@ -14,6 +14,10 @@ ol {
 ol ol {
   margin-bottom: 0;
 }
+ol li {
+  list-style: decimal;
+  list-style-position: outside;
+}
 
 ul {
   margin-top: 0;
@@ -32,17 +36,15 @@ ul ul {
   margin-left: 0;
 }
 
-/* Bulleted List Items */
 .bulleted ~ ul {
   margin-bottom: 0;
 }
 .bulleted li {
   list-style: outside disc;
   margin-left: 1em;
-  border-bottom: none;
+  border-bottom: 0;
 }
 
-/* Horizontal List Items */
 .horizontal li {
   display: inline;
 }
@@ -84,7 +86,6 @@ ul ul {
   content: '';
 }
 
-/* Vertical List Items */
 .vertical li {
   padding-top: 0.5em;
   padding-right: 0;
@@ -96,16 +97,9 @@ ul ul {
   border-bottom: 1px dotted #cccccc;
 }
 .vertical.lined li.js-last {
-  border-bottom: none;
+  border-bottom: 0;
 }
 
-/* Ordered List */
-ol li {
-  list-style: decimal;
-  list-style-position: outside;
-}
-
-/* Definition List */
 dt {
   font-weight: bold;
 }

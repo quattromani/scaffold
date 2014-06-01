@@ -25,7 +25,6 @@
   right: 0;
 }
 
-/* Font Size Helpers */
 .fs10 {
   font-size: 10px;
   font-size: 1rem;
@@ -893,7 +892,6 @@
   }
 }
 
-/* Create widths in increments of 5% */
 [class*='width-'] {
   display: inline-block;
   *zoom: 1;
@@ -974,6 +972,10 @@
 
 .width-95 {
   width: 95%;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 .text-left {
@@ -1062,7 +1064,8 @@
   border: 1px dotted #5b5b5b;
 }
 
-.bordered-left, .bordered-left-dark {
+.bordered-left,
+.bordered-left-dark {
   padding-left: 2%;
   border-left: 1px dotted #5b5b5b;
 }
@@ -1071,7 +1074,8 @@
   border-left: 1px solid #333333;
 }
 
-.bordered-right, .bordered-right-dark {
+.bordered-right,
+.bordered-right-dark {
   padding-right: 2%;
   border-right: 1px dotted #5b5b5b;
 }
@@ -1128,7 +1132,8 @@
   overflow: hidden;
 }
 
-.hidden, .desktop-hidden {
+.hidden,
+.desktop-hidden {
   display: none;
 }
 
@@ -1166,15 +1171,18 @@
     display: block;
   }
 
-  .bordered-left, .bordered-left-dark, .bordered-right, .bordered-right-dark {
+  .bordered-left,
+  .bordered-right {
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: none;
+    border: 0;
   }
 
-  .column-count-2, .column-count-3, .column-count-4 {
+  .column-count-2,
+  .column-count-3,
+  .column-count-4 {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     -ms-column-count: 2;
@@ -1210,7 +1218,9 @@
     display: block;
   }
 
-  .column-count-2, .column-count-3, .column-count-4 {
+  .column-count-2,
+  .column-count-3,
+  .column-count-4 {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     -ms-column-count: 1;

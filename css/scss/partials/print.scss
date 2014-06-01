@@ -1,58 +1,60 @@
 // Pull globals for individually compiled css files
-@import "../globals/allGlobals";
+@import '../globals/allGlobals';
 
 /* ==========================================================================
     Print -- Version: 1.9.0.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
 * {
-    box-shadow: none !important;
-    text-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
 }
 
 .container {
-    max-width: 670px;
+  max-width: 670px;
 }
 
 a,
 a:visited {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a[href]:after {
-    content: " (" attr(href) ")";
+  content: '(" attr(href) ")';
 }
 
 abbr[title]:after {
-    content: " (" attr(title) ")";
+  content: '(" attr(title) ")';
 }
 
 a[href^="javascript:"]:after,
 a[href^="#"]:after {
-    content: "";
+  content: '';
 }
 
 tr,
 img {
-    page-break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 img {
-    max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 p,
 h2,
 h3 {
-    orphans: 3;
-    widows: 3;
+  orphans: 3;
+  widows: 3;
 }
 
 h2,
 h3 {
-    page-break-after: avoid;
+  page-break-after: avoid;
 }
 
-.loadtime, .fold, footer {
-    display: none !important;
+.loadtime,
+.fold,
+footer {
+  display: none !important;
 }
