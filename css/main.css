@@ -2413,7 +2413,7 @@ button,
 
   to {
     -webkit-transform: rotate(359deg); } }
-.progress:active i:before, .progress.js-active i:before {
+.progression:active i:before, .progression.js-active i:before {
   display: inline-block;
   -webkit-animation: rotation 1.5s infinite linear;
   animation: rotation 1.5s infinite linear; }
