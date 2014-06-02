@@ -85,7 +85,7 @@ $('.fonts').each(function(){
 (function($) {
 
   $.fn.progressButton = function() {
-    $('.progression').click(function() {
+    $('.progress').click(function() {
       $(this).attr("disabled", true);
       $(this).addClass('js-active');
     });
@@ -93,7 +93,7 @@ $('.fonts').each(function(){
 
 }(jQuery));
 
-$('.progression').progressButton();
+$('.progress').progressButton();
 
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;

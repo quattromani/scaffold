@@ -11,7 +11,7 @@
 (function($) {
 
   $.fn.progressButton = function() {
-    $('.progression').click(function() {
+    $('.progress').click(function() {
       $(this).attr("disabled", true);
       $(this).addClass('js-active');
     });
@@ -19,4 +19,4 @@
 
 }(jQuery));
 
-$('.progression').progressButton();
+$('.progress').progressButton();
