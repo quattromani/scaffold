@@ -9,12 +9,15 @@ html {
   font-size: 16px;
   font-size: 1.6rem;
   font-size: 10px;
-  /* absolutely set to maintain ratio around user settings */
   color: #333333;
   -webkit-font-smoothing: antialiased;
 }
 
-body, button, input, select, textarea {
+body,
+button,
+input,
+select,
+textarea {
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.443;
@@ -24,27 +27,21 @@ body, button, input, select, textarea {
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
   src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
-  /* IE9 Compat Modes */
   src: url("fonts/NHaasGroteskDSPro-45Lt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222") format("svg");
-  /* Legacy iOS */
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro';
   src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
-  /* IE9 Compat Modes */
   src: url("fonts/NHaasGroteskDSPro-55Rg.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515") format("svg");
-  /* Legacy iOS */
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro 75';
   src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  /* IE9 Compat Modes */
   src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
-  /* Legacy iOS */
   font-style: normal;
   font-weight: 400;
 }
@@ -136,85 +133,102 @@ a:hover {
 /* ==========================
 	  Headings
    ========================== */
-h1, .h1 {
+h1,
+.h1 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
 }
 @media (max-width: 62em) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 36.75px;
     font-size: 3.675rem;
   }
 }
 @media (max-width: 40em) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 31.5px;
     font-size: 3.15rem;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
 }
 @media (max-width: 62em) {
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 31.5px;
     font-size: 3.15rem;
   }
 }
 @media (max-width: 40em) {
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 27px;
     font-size: 2.7rem;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
 }
 @media (max-width: 62em) {
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 26.25px;
     font-size: 2.625rem;
   }
 }
 @media (max-width: 40em) {
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 22.5px;
     font-size: 2.25rem;
   }
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   display: inline-block;
   *zoom: 1;
   *display: inline;
@@ -226,17 +240,29 @@ small {
   *display: inline;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+blockquote {
   clear: inherit;
   margin-bottom: 0.33333em;
   vertical-align: middle;
 }
 
-p, .p {
+p,
+.p {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word;
 }
-p:only-child, .p:only-child {
+p:only-child,
+.p:only-child {
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -264,7 +290,7 @@ blockquote {
 }
 
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: '\201C' '\201D' '\2018' '\2019';
 }
 
 abbr {
@@ -285,7 +311,7 @@ sub {
 }
 
 mark {
-  background: yellow;
+  background: #ffff00;
 }
 
 /* ==========================
@@ -308,15 +334,14 @@ pre {
   word-wrap: break-word;
 }
 
-kbd, samp {
+kbd,
+samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-}
-
-kbd, samp {
   color: #c8ed8d;
 }
 
-.valid, .is-valid {
+.valid,
+.is-valid {
   color: #c8ed8d;
 }
 

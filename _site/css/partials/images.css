@@ -31,7 +31,8 @@ img {
   background-clip: padding-box;
 }
 
-.image-circular {
+.image-circular,
+.avatar-circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -70,8 +71,6 @@ img {
   background-position: right center;
 }
 
-/* ie9 (.twc-ie9) */
-/* Fix IE9 overflow bug */
 .ie9 svg:not(:root) {
   overflow: hidden;
 }

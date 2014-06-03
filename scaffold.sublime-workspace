@@ -8,10 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "js/jumpTo.js",
+			"file": "css/scss/partials/message-box.scss",
 			"settings":
 			{
-				"buffer_size": 451,
+				"buffer_size": 1597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/patterns/message-box/index.html",
+			"settings":
+			{
+				"buffer_size": 881,
 				"line_ending": "Unix"
 			}
 		}
@@ -93,6 +101,9 @@
 	"file_history":
 	[
 		"/Users/Q/Sites/scaffold/js/buttons.js",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/_site/css/main.css",
@@ -175,7 +186,6 @@
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/videos.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss",
@@ -202,12 +212,10 @@
 		"/Users/Q/Sites/scaffold/config.rb",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/glglyphs.css",
 		"/Users/Q/Sites/scaffold/emails/templates/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
-		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
@@ -239,6 +247,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"progre",
 			"border: none;",
 			"@import \"../globals/allGlobals\";",
 			"butt",
@@ -302,18 +311,57 @@
 			[
 				{
 					"buffer": 0,
-					"file": "js/jumpTo.js",
-					"semi_transient": true,
+					"file": "css/scss/partials/message-box.scss",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 451,
+						"buffer_size": 1597,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
+								1005,
+								862
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 364.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "_includes/patterns/message-box/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
 								0
 							]
 						],
@@ -322,14 +370,15 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -352,11 +401,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

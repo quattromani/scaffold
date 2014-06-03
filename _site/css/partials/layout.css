@@ -25,12 +25,11 @@
   overflow: visible;
 }
 
-/* Clearfix */
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 .clearfix:before, .clearfix:after {
-  content: " ";
+  content: '';
   display: table;
 }
 .clearfix:after {

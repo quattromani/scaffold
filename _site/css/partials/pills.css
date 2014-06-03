@@ -1,11 +1,15 @@
 /* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
-label + .pill, label + .pill-black, label + .pill-white, label + .pill-red, .pill + label, .pill-black + label, .pill-white + label, .pill-red + label {
+label + .pill,
+.pill + label {
   margin-left: 0.33333em;
 }
 
-.pill, .pill-black, .pill-white, .pill-red {
+.pill,
+.pill-black,
+.pill-white,
+.pill-red {
   padding-top: 0.125em;
   padding-right: 0.75em;
   padding-bottom: 0.125em;

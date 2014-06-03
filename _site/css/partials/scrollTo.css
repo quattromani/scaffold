@@ -1,7 +1,8 @@
 /* ==========================================================================
     Scroll To -- Version: 1.9.0.1 - Compiled: timestamp()
    ========================================================================== */
-.scrollToTop, .scrollToTop-modal {
+.scrolltotop,
+.scrolltotop-modal {
   position: fixed;
   display: inline-block;
   *zoom: 1;
@@ -25,9 +26,10 @@
   background: rgba(0, 0, 0, 0.1);
   font-weight: 100;
   z-index: 999999;
-  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
-.scrollToTop:after, .scrollToTop-modal:after {
+.scrolltotop:after,
+.scrolltotop-modal:after {
   padding-left: 0.5em;
   font-family: "FontAwesome";
   font-size: inherit;
@@ -35,7 +37,7 @@
   content: '\f093';
 }
 
-.scrollToTop-modal {
+.scrolltotop-modal {
   position: relative;
   float: right;
 }

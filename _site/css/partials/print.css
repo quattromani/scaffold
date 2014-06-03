@@ -16,16 +16,16 @@ a:visited {
 }
 
 a[href]:after {
-  content: " (" attr(href) ")";
+  content: '(" attr(href) ")';
 }
 
 abbr[title]:after {
-  content: " (" attr(title) ")";
+  content: '(" attr(title) ")';
 }
 
 a[href^="javascript:"]:after,
 a[href^="#"]:after {
-  content: "";
+  content: '';
 }
 
 tr,
@@ -49,6 +49,8 @@ h3 {
   page-break-after: avoid;
 }
 
-.loadtime, .fold, footer {
+.loadtime,
+.fold,
+footer {
   display: none !important;
 }

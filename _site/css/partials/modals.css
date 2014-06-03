@@ -51,7 +51,7 @@
   right: 1em;
   height: 32px;
   width: 32px;
-  background: url(/scaffold/images/modal-close.png) no-repeat;
+  background: url("/scaffold/images/modal-close.png") no-repeat;
   cursor: pointer;
 }
 .modal .modal-header {
@@ -78,6 +78,11 @@
   padding-bottom: 1em;
   padding-left: 1em;
 }
+@media (max-width: 40em) {
+  .modal .modal-body {
+    max-height: 15.625em;
+  }
+}
 .modal .modal-footer {
   overflow: auto;
   padding-top: 1em;
@@ -91,14 +96,4 @@
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5;
-}
-
-@media (max-width: 40em) {
-  .modal-component {
-    min-height: 500px;
-  }
-
-  .modal .modal-body {
-    max-height: 15.625em;
-  }
 }

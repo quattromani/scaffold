@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       concat: {
         dist: {
           src: [
-            'js/*.js'
+          'js/*.js'
           ],
           dest: 'js/build/production.js',
         }
@@ -38,6 +38,13 @@ module.exports = function(grunt) {
         dev: {
           files: [{'css/main.css': 'css/scss/main.scss'}]
         }
+      },
+
+      autoprefixer: {
+        prefix: {
+          src: 'css/main.css',
+          dest: 'css/main.css'
+        },
       },
 
       cssmin: {
@@ -70,7 +77,7 @@ module.exports = function(grunt) {
         },
         css: {
           files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
-          tasks: ['sass', 'cssmin'],
+          tasks: ['sass', 'cssmin', 'autoprefixer'],
           options: {
             livereload: true,
           }
@@ -79,12 +86,12 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-contrib');
+grunt.loadNpmTasks('grunt-contrib');
 
-    grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'imagemin', 'watch']);
-    grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'cssmin', 'watch']);
-    grunt.registerTask('js', ['concat', 'uglify', 'watch']);
-    grunt.registerTask('css', ['sass', 'cssmin', 'watch']);
-    grunt.registerTask('default', ['watch']);
+grunt.registerTask('build', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'imagemin', 'watch']);
+grunt.registerTask('dev', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'watch']);
+grunt.registerTask('js', ['concat', 'uglify', 'watch']);
+grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin', 'watch']);
+grunt.registerTask('default', ['watch']);
 
 };
