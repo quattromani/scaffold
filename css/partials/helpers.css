@@ -1071,7 +1071,7 @@
 }
 
 .bordered-left-dark {
-  border-left: 1px solid #333333;
+  border-left: 1px solid #454545;
 }
 
 .bordered-right,
@@ -1081,7 +1081,7 @@
 }
 
 .bordered-right-dark {
-  border-right: 1px solid #333333;
+  border-right: 1px solid #454545;
 }
 
 .column-count-2 {
