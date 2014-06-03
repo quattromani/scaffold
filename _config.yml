@@ -1,6 +1,6 @@
 name: Scaffold
 markdown: redcarpet
-pygments: true
+highlighter: true
 baseurl: /scaffold
 
 exclude: ['node_modules', 'scss']
