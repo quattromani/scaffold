@@ -84,8 +84,9 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/scaffold/_config.yml",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
@@ -197,7 +198,6 @@
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/timestamp.rb",
 		"/Users/Q/Sites/scaffold/config.rb",
-		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/glglyphs.css",
 		"/Users/Q/Sites/scaffold/emails/templates/index.html",
