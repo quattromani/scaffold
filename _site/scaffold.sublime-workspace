@@ -11,16 +11,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 289.0,
 		"selected_items":
 		[
 			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
 			],
 			[
 				"grunt",
@@ -63,7 +63,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 647.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -84,6 +84,17 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/package.json",
+		"/Users/Q/Sites/scaffold/gulpfile.js",
+		"/Users/Q/Sites/scaffold/_package.json",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/images/index.html",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/about/index.html",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Q/Sites/scaffold/index.html",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/io-nodejs/io-nodejs.js",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-scss-lint/node_modules/xmlbuilder/node_modules/lodash-node/compat/internals/isNative.js",
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jasmine/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
@@ -95,7 +106,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/README.md",
-		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/_site/css/main.css",
 		"/Users/Q/Sites/scaffold/_site/css/partials/accessibility.css",
 		"/Users/Q/Sites/scaffold/_site/css/partials/buttons.css",
@@ -201,17 +211,7 @@
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/glglyphs.css",
 		"/Users/Q/Sites/scaffold/emails/templates/index.html",
-		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
-		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
-		"/Users/Q/Sites/scaffold/_includes/head.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/fs-extra/node_modules/mkdirp/.travis.yml",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/nodes/if.js",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/date/i18n_.js",
-		"/Users/Q/Sites/scaffold/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/colors.css",
-		"/Users/Q/Sites/scaffold/_includes/patterns/info-box/index.html"
+		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html"
 	],
 	"find":
 	{

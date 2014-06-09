@@ -2504,22 +2504,13 @@ label + .pill,
 /* ==========================================================================
     Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
    ========================================================================== */
-.info-box {
-  border-left: 0.3em solid #0088cc;
-  background: #cceeff;
-  color: #0088cc; }
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1; }
 
-.error-box {
-  border-left: 0.3em solid #ef272d;
-  background: #fde5e6;
-  color: #ef272d; }
-
-.valid-box {
-  border-left: 0.3em solid #719a2e;
-  background: #f3fbe5;
-  color: #719a2e; }
-
-[class*='message-'] {
+.message-loading, .message-valid, .message-warning {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2530,7 +2521,7 @@ label + .pill,
   align-items: center;
   background: whitesmoke;
   font-weight: 700; }
-  [class*='message-']:before {
+  .message-loading:before, .message-valid:before, .message-warning:before {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2547,11 +2538,23 @@ label + .pill,
     font-size: 3.6rem;
     padding: .25em 1em; }
 
-.message {
-  position: relative;
-  display: inline-block;
-  padding: 1em;
-  line-height: 1; }
+.message-loading {
+  color: #5b5b5b; }
+  .message-loading:before {
+    background: #8e8e8e;
+    content: "\75"; }
+
+.message-valid {
+  color: #719a2e; }
+  .message-valid:before {
+    background: #a5cf5f;
+    content: "\43"; }
+
+.message-warning {
+  color: #ef272d; }
+  .message-warning:before {
+    background: #f68689;
+    content: "\33"; }
 
 @-webkit-keyframes rotation {
   from {
@@ -2561,24 +2564,20 @@ label + .pill,
   to {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-.message-loading {
-  color: #333; }
-  .message-loading:before {
-    content: '\75';
-    -webkit-animation: rotation 1.5s infinite linear;
-    animation: rotation 1.5s infinite linear; }
+.info-box {
+  border-left: 0.3em solid #0088cc;
+  background: #cceeff;
+  color: #0088cc; }
 
-.message-warning {
+.error-box {
+  border-left: 0.3em solid #ef272d;
+  background: #fde5e6;
   color: #ef272d; }
-  .message-warning:before {
-    background: #f68689;
-    content: '\33'; }
 
-.message-valid {
+.valid-box {
+  border-left: 0.3em solid #719a2e;
+  background: #f3fbe5;
   color: #719a2e; }
-  .message-valid:before {
-    background: #c8ed8d;
-    content: '\43'; }
 
 /* ==========================================================================
     Modals -- Version: 0.4.0.1 - Updated: 4/28/2014

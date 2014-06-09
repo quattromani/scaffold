@@ -30,9 +30,9 @@
 
 // List of Message Types
 $message-types: (
-  (loading, #b94a48, '\75'),
+  (loading, $color-grey, '\75'),
   (valid, $color-secondary-green, '\43'),
-  (error, $color-primary-red, '\33'),
+  (warning, $color-primary-red, '\33'),
 ) !default;
 
 // Message Type @mixin
@@ -55,12 +55,6 @@ $message-types: (
 @-webkit-keyframes rotation {
   from { transform: rotate(0deg); }
   to { transform: rotate(359deg); }
-}
-
-.message-loading {
-  &:before {
-    animation: rotation 1.5s infinite linear;
-  }
 }
 
 .info-box {

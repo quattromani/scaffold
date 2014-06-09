@@ -2510,7 +2510,7 @@ label + .pill,
   padding: 1em;
   line-height: 1; }
 
-.message-loading, .message-valid, .message-error {
+.message-loading, .message-valid, .message-warning {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2521,7 +2521,7 @@ label + .pill,
   align-items: center;
   background: whitesmoke;
   font-weight: 700; }
-  .message-loading:before, .message-valid:before, .message-error:before {
+  .message-loading:before, .message-valid:before, .message-warning:before {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2539,9 +2539,9 @@ label + .pill,
     padding: .25em 1em; }
 
 .message-loading {
-  color: #b94a48; }
+  color: #5b5b5b; }
   .message-loading:before {
-    background: #d59392;
+    background: #8e8e8e;
     content: "\75"; }
 
 .message-valid {
@@ -2550,9 +2550,9 @@ label + .pill,
     background: #a5cf5f;
     content: "\43"; }
 
-.message-error {
+.message-warning {
   color: #ef272d; }
-  .message-error:before {
+  .message-warning:before {
     background: #f68689;
     content: "\33"; }
 
@@ -2564,10 +2564,6 @@ label + .pill,
   to {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
-.message-loading:before {
-  -webkit-animation: rotation 1.5s infinite linear;
-  animation: rotation 1.5s infinite linear; }
-
 .info-box {
   border-left: 0.3em solid #0088cc;
   background: #cceeff;
