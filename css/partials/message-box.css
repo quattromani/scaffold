@@ -1,6 +1,68 @@
 /* ==========================================================================
     Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
    ========================================================================== */
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+.message-loading, .message-valid, .message-error {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  font-weight: 700;
+}
+.message-loading:before, .message-valid:before, .message-error:before {
+  display: flex;
+  align-items: center;
+  min-width: 3em;
+  font-family: "GLGlyphs", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  font-size: 3.6rem;
+  padding: .25em 1em;
+}
+
+.message-loading {
+  color: #b94a48;
+}
+.message-loading:before {
+  background: #d59392;
+  content: "\75";
+}
+
+.message-valid {
+  color: #719a2e;
+}
+.message-valid:before {
+  background: #a5cf5f;
+  content: "\43";
+}
+
+.message-error {
+  color: #ef272d;
+}
+.message-error:before {
+  background: #f68689;
+  content: "\33";
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+.message-loading:before {
+  animation: rotation 1.5s infinite linear;
+}
+
 .info-box {
   border-left: 0.3em solid #0088cc;
   background: #cceeff;
@@ -17,62 +79,4 @@
   border-left: 0.3em solid #719a2e;
   background: #f3fbe5;
   color: #719a2e;
-}
-
-[class*='message-'] {
-  display: flex;
-  align-items: center;
-  background: whitesmoke;
-  font-weight: 700;
-}
-[class*='message-']:before {
-  display: flex;
-  align-items: center;
-  min-width: 3em;
-  font-family: "GLGlyphs", Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  font-size: 3.6rem;
-  padding: .25em 1em;
-}
-
-.message {
-  position: relative;
-  display: inline-block;
-  padding: 1em;
-  line-height: 1;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
-}
-.message-loading {
-  color: #333;
-}
-.message-loading:before {
-  content: '\75';
-  animation: rotation 1.5s infinite linear;
-}
-
-.message-warning {
-  color: #ef272d;
-}
-.message-warning:before {
-  background: #f68689;
-  content: '\33';
-}
-
-.message-valid {
-  color: #719a2e;
-}
-.message-valid:before {
-  background: #c8ed8d;
-  content: '\43';
 }

@@ -5,6 +5,64 @@
     Message Boxes -- Version: 0.2.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+// Message Type Placeholder
+%message- {
+  display: flex;
+  align-items: center;
+  background: $color-light-light-grey;
+  font-weight: 700;
+
+  &:before {
+    display: flex;
+    align-items: center;
+    min-width: 3em;
+    @include font-family($GLGlyphs, 36);
+    padding: .25em 1em;
+  }
+}
+
+// List of Message Types
+$message-types: (
+  (loading, #b94a48, '\75'),
+  (valid, $color-secondary-green, '\43'),
+  (error, $color-primary-red, '\33'),
+) !default;
+
+// Message Type @mixin
+@mixin message($color, $icon) {
+  @extend %message-;
+  color: $color;
+  &:before {
+    background: lighten($color, 20%);
+    content: $icon;
+  }
+}
+
+// Loop doing all the dumping
+@each $type, $color, $icon in $message-types {
+  .message-#{$type} {
+    @include message($color, $icon);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); }
+}
+
+.message-loading {
+  &:before {
+    animation: rotation 1.5s infinite linear;
+  }
+}
+
 .info-box {
   border-left: .3em solid $color-primary-blue;
   background: lighten($color-primary-blue, 50%);
@@ -21,58 +79,4 @@
   border-left: .3em solid $color-secondary-green;
   background: lighten($color-primary-green, 20%);
   color: $color-secondary-green;
-}
-
-[class*='message-'] {
-  display: flex;
-  align-items: center;
-  background: $color-light-light-grey;
-  font-weight: 700;
-
-  &:before {
-    display: flex;
-    align-items: center;
-    min-width: 3em;
-    @include font-family($GLGlyphs, 36);
-    padding: .25em 1em;
-  }
-}
-
-.message {
-  position: relative;
-  display: inline-block;
-  padding: 1em;
-  line-height: 1;
-}
-
-@-webkit-keyframes rotation {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(359deg); }
-}
-
-.message-loading {
-  color: #333;
-
-  &:before {
-    content: '\75';
-    animation: rotation 1.5s infinite linear;
-  }
-}
-
-.message-warning {
-  color: $color-primary-red;
-
-  &:before {
-    background: lighten($color-primary-red, 20%);
-    content: '\33';
-  }
-}
-
-.message-valid {
-  color: $color-secondary-green;
-
-  &:before {
-    background: $color-primary-green;
-    content: '\43';
-  }
 }
