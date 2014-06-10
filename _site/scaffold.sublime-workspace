@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/scss/partials/message-box.scss",
+			"settings":
+			{
+				"buffer_size": 1711,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -84,6 +92,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
+		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
 		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/gulpfile.js",
 		"/Users/Q/Sites/scaffold/_package.json",
@@ -100,7 +110,6 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/js/buttons.js",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
@@ -210,8 +219,7 @@
 		"/Users/Q/Sites/scaffold/config.rb",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/glglyphs.css",
-		"/Users/Q/Sites/scaffold/emails/templates/index.html",
-		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html"
+		"/Users/Q/Sites/scaffold/emails/templates/index.html"
 	],
 	"find":
 	{
@@ -290,8 +298,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/scss/partials/message-box.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								862,
+								693
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 279.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

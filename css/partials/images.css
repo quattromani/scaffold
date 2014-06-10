@@ -1,12 +1,18 @@
 /* ==========================================================================
     Images -- Version: 0.4.1 - Compiled: timestamp()
    ========================================================================== */
+img {
+  display: inherit;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
 figure {
   position: relative;
   width: 100%;
 }
 figure img {
-  max-width: 100%;
   margin: 0 auto 1em;
 }
 
@@ -15,11 +21,6 @@ figcaption {
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: 700;
-}
-
-img {
-  display: inherit;
-  border: 0;
 }
 
 .image-rounded {

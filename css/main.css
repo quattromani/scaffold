@@ -20,7 +20,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   vertical-align: baseline; }
 
 html {
-  -webkit-font-smoothing: antialiased; }
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 article, aside, figure, footer, header, hgroup, nav, section {
   display: block; }
@@ -28,8 +31,6 @@ article, aside, figure, footer, header, hgroup, nav, section {
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased; }
 
@@ -488,31 +489,25 @@ footer.container {
 [class*='two_column_'] {
   -webkit-column-count: 2;
   -moz-column-count: 2;
-  -ms-column-count: 2;
   column-count: 2;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 [class*='three_column_'] {
   -webkit-column-count: 3;
   -moz-column-count: 3;
-  -ms-column-count: 3;
   column-count: 3;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 [class*='four_column_'] {
   -webkit-column-count: 4;
   -moz-column-count: 4;
-  -ms-column-count: 4;
   column-count: 4;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 /* Modules */
@@ -756,7 +751,9 @@ a {
   font-weight: 700;
   color: #ef272d;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s; }
   a img {
     border: 0 none;
     text-decoration: none; }
@@ -1978,41 +1975,33 @@ samp {
 .column-count-2 {
   -webkit-column-count: 2;
   -moz-column-count: 2;
-  -ms-column-count: 2;
   column-count: 2;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 .column-count-3 {
   -webkit-column-count: 3;
   -moz-column-count: 3;
-  -ms-column-count: 3;
   column-count: 3;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 .column-count-4 {
   -webkit-column-count: 4;
   -moz-column-count: 4;
-  -ms-column-count: 4;
   column-count: 4;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 .column-count-6 {
   -webkit-column-count: 6;
   -moz-column-count: 6;
-  -ms-column-count: 6;
   column-count: 6;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
-  -ms-column-gap: 2em;
   column-gap: 2em; }
 
 .nowrap {
@@ -2061,21 +2050,17 @@ samp {
   .column-count-4 {
     -webkit-column-count: 2;
     -moz-column-count: 2;
-    -ms-column-count: 2;
     column-count: 2;
     -webkit-column-gap: 2em;
     -moz-column-gap: 2em;
-    -ms-column-gap: 2em;
     column-gap: 2em; }
 
   .column-count-6 {
     -webkit-column-count: 3;
     -moz-column-count: 3;
-    -ms-column-count: 3;
     column-count: 3;
     -webkit-column-gap: 2em;
     -moz-column-gap: 2em;
-    -ms-column-gap: 2em;
     column-gap: 2em; } }
 @media (max-width: 40em) {
   .mobile-hidden {
@@ -2093,11 +2078,9 @@ samp {
   .column-count-4 {
     -webkit-column-count: 1;
     -moz-column-count: 1;
-    -ms-column-count: 1;
     column-count: 1;
     -webkit-column-gap: 0;
     -moz-column-gap: 0;
-    -ms-column-gap: 0;
     column-gap: 0; } }
 /* ==========================================================================
     Lists -- Version: 1.9.0.0 - Compiled: timestamp()
@@ -2718,6 +2701,7 @@ select {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   font-weight: 300;
+  will-change: transition;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   input[type='search'],
@@ -2830,6 +2814,7 @@ input.radio:empty ~ label:after {
   border-radius: 100px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  will-change: transition;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in; }
 
@@ -2860,11 +2845,16 @@ input.switch:checked ~ label:after {
 /* ==========================================================================
     Images -- Version: 0.4.1 - Compiled: timestamp()
    ========================================================================== */
+img {
+  display: inherit;
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
 figure {
   position: relative;
   width: 100%; }
   figure img {
-    max-width: 100%;
     margin: 0 auto 1em; }
 
 figcaption {
@@ -2872,10 +2862,6 @@ figcaption {
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: 700; }
-
-img {
-  display: inherit;
-  border: 0; }
 
 .image-rounded {
   border-radius: 0;

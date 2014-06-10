@@ -1,14 +1,5 @@
 // Mixins
 
-@mixin vendor($property, $value...){
-  -webkit-#{$property}: $value;
-     -moz-#{$property}: $value;
-      -ms-#{$property}: $value;
-       -o-#{$property}: $value;
-          #{$property}: $value;
-}
-
-
 // Breakpoint
 @mixin bp($point) {
   @if $point == bp-medium {
@@ -206,9 +197,7 @@ $marginless-col-width: $width / $site-column-count;
 @mixin vertical-align {
   position: relative;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 // Horizontal Align
@@ -223,9 +212,8 @@ $marginless-col-width: $width / $site-column-count;
 
 // Transform
 @mixin rotate($degrees) {
-  -webkit-transform: rotate($degrees);
-     -moz-transform: rotate($degrees);
-       -o-transform: rotate($degrees);
+  will-change: transform;
+  transform: rotate($degrees);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
       filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
   zoom: 1;
@@ -233,23 +221,14 @@ $marginless-col-width: $width / $site-column-count;
 
 // Transitions
 @mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
-  -webkit-transition: $what $length $easing;
-     -moz-transition: $what $length $easing;
-      -ms-transition: $what $length $easing;
-       -o-transition: $what $length $easing;
-          transition: $what $length $easing;
+  will-change: transition;
+  transition: $what $length $easing;
 }
 
 // Column Count
 @mixin columns($count, $gap) {
-  -webkit-column-count: $count;
-     -moz-column-count: $count;
-      -ms-column-count: $count;
-          column-count: $count;
-  -webkit-column-gap: $gap;
-     -moz-column-gap: $gap;
-      -ms-column-gap: $gap;
-          column-gap: $gap;
+  column-count: $count;
+  column-gap: $gap;
 }
 
 @mixin placeholder {

@@ -5,12 +5,18 @@
     Images -- Version: 0.4.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
+img {
+  display: inherit;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
 figure {
   position: relative;
   width: 100%;
 
   img {
-    max-width: 100%;
     margin: 0 auto $margin;
   }
 }
@@ -19,11 +25,6 @@ figcaption {
   margin-bottom: ($margin / 2);
   @include font-size(14);
   font-weight: 700;
-}
-
-img {
-  display: inherit;
-  border: 0;
 }
 
 .image-rounded {
