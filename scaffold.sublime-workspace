@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/scss/partials/images.scss",
-			"settings":
-			{
-				"buffer_size": 1297,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,6 +84,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
+		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/main.css",
@@ -203,7 +198,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
@@ -217,9 +211,7 @@
 		"/Users/Q/Sites/scaffold/css/main.min.css",
 		"/Users/Q/Sites/scaffold/css/partials/buttons.css",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
-		"/Users/Q/Sites/scaffold/timestamp.rb",
-		"/Users/Q/Sites/scaffold/config.rb",
-		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html"
+		"/Users/Q/Sites/scaffold/timestamp.rb"
 	],
 	"find":
 	{
@@ -300,42 +292,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/scss/partials/images.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1297,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								378,
-								378
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

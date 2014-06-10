@@ -32,10 +32,7 @@ select {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   font-weight: 300;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  will-change: transition;
   transition: all 0.2s ease-in-out;
 }
 input[type='search'],
@@ -171,10 +168,7 @@ input.radio:empty ~ label:after {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-transition: all 100ms ease-in;
-  -moz-transition: all 100ms ease-in;
-  -ms-transition: all 100ms ease-in;
-  -o-transition: all 100ms ease-in;
+  will-change: transition;
   transition: all 100ms ease-in;
 }
 
