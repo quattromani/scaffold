@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/scss/partials/images.scss",
+			"settings":
+			{
+				"buffer_size": 1297,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -84,12 +92,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/partials/*.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
 		"/Users/Q/Sites/scaffold/package.json",
@@ -205,7 +214,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/print.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/scrollTo.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/main.min.css",
 		"/Users/Q/Sites/scaffold/css/partials/buttons.css",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
@@ -231,6 +239,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"a {",
 			"transf",
 			"progre",
 			"border: none;",
@@ -291,8 +300,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/scss/partials/images.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
