@@ -753,8 +753,8 @@ a {
   color: #ef272d;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: .3s;
-  transition: .3s; }
+  -webkit-transition: .2s;
+  transition: .2s; }
   a img {
     border: 0 none;
     text-decoration: none; }
