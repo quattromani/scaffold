@@ -20,6 +20,7 @@ select,
 textarea {
   @include font-size($base-font-size);
   line-height: $base-line-height;
+  letter-spacing: .035em;
 }
 
 @font-face {

@@ -50,7 +50,8 @@ footer.container {
   margin-top: 1em;
   margin-right: auto;
   margin-bottom: 1em;
-  margin-left: auto; }
+  margin-left: auto;
+  text-align: center; }
 
 /* Layout */
 /* ==========================================================================
@@ -665,7 +666,8 @@ select,
 textarea {
   font-size: 16px;
   font-size: 1.6rem;
-  line-height: 1.443; }
+  line-height: 1.443;
+  letter-spacing: .035em; }
 
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';

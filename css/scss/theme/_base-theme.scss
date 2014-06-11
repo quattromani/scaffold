@@ -19,4 +19,5 @@ a.logo {
 
 footer.container {
 	@include margin($margin, auto);
+  text-align: center;
 }
