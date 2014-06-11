@@ -71,15 +71,14 @@ module.exports = function(grunt) {
           files: ['js/*.js'],
           tasks: ['concat', 'uglify'],
           options: {
-            livereload: true,
+            livereload: true
           }
-
         },
         css: {
           files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
           tasks: ['sass', 'cssmin', 'autoprefixer'],
           options: {
-            livereload: true,
+            livereload: true
           }
         },
       }
