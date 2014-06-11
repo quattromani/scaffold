@@ -84,10 +84,15 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/SDLC/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
-		"/Users/Q/Sites/scaffold/styleguide/index.html",
+		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
+		"/Users/Q/Sites/scaffold/_layouts/default.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
@@ -103,7 +108,6 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/about/index.html",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
 		"/Users/Q/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/io-nodejs/io-nodejs.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-scss-lint/node_modules/xmlbuilder/node_modules/lodash-node/compat/internals/isNative.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jasmine/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
@@ -113,7 +117,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/js/buttons.js",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/README.md",
@@ -177,7 +180,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/theme/_nav-theme.scss",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/glglyphs.scss",
@@ -209,9 +211,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/scrollTo.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Sites/scaffold/css/main.min.css",
-		"/Users/Q/Sites/scaffold/css/partials/buttons.css",
-		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
-		"/Users/Q/Sites/scaffold/timestamp.rb"
+		"/Users/Q/Sites/scaffold/css/partials/buttons.css"
 	],
 	"find":
 	{
