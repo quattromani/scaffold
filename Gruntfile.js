@@ -67,20 +67,17 @@ module.exports = function(grunt) {
       },
 
       watch: {
+        options: {
+          livereload: true
+        },
         scripts: {
           files: ['js/*.js'],
           tasks: ['concat', 'uglify'],
-          options: {
-            livereload: true
-          }
         },
         css: {
           files: ['css/scss/globals/*.scss','css/scss/partials/*.scss','css/scss/theme/*.scss'],
           tasks: ['sass', 'cssmin', 'autoprefixer'],
-          options: {
-            livereload: true
-          }
-        },
+        }
       }
 
     });
