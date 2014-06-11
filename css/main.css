@@ -665,8 +665,7 @@ select,
 textarea {
   font-size: 16px;
   font-size: 1.6rem;
-  line-height: 1.443;
-  letter-spacing: .035em; }
+  line-height: 1.443; }
 
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
