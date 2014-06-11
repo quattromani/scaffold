@@ -8,7 +8,7 @@
 .content {
   position: relative;
   overflow: auto;
-  @include padding(($padding / 2), 0);
+  @include padding(($padding), 0);
   z-index: 0;
 }
 
@@ -16,7 +16,7 @@
   display: block;
   max-width: $site-width;
   @include margin(0, auto);
-  @include padding(0, ($padding / 2));
+  @include padding(0, ($padding));
   overflow: visible;
 }
 
