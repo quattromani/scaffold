@@ -1,0 +1,18 @@
+/* ==========================================================================
+    Progress -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
+progress[value] {
+  width: 100%;
+  height: 2.5em;
+  -webkit-appearance: none;
+  appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+  padding: .5em;
+  background: #cccccc;
+}
+progress[value]::-webkit-progress-value {
+  background: #ef272d;
+  will-change: transition;
+  transition: width 0.5s ease-in-out;
+}

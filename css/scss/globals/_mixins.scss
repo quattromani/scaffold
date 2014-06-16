@@ -210,6 +210,7 @@ $marginless-col-width: $width / $site-column-count;
 // Horizontal Align
 @mixin center {
   position: relative;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -227,7 +228,7 @@ $marginless-col-width: $width / $site-column-count;
 }
 
 // Transitions
-@mixin transition($what: all, $length: 1s, $easing: ease-in-out) {
+@mixin transition($what: all, $length: .5s, $easing: ease-in-out) {
   will-change: transition;
   transition: $what $length $easing;
 }
