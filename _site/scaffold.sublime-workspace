@@ -84,7 +84,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
+		"/Users/Q/Sites/scaffold/css/partials/progress.css",
+		"/Users/Q/Sites/scaffold/styleguide/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
@@ -98,7 +104,6 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/_layouts/default.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
-		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/css/partials/*.css",
@@ -206,12 +211,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/nav.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/videos.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/print.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/scrollTo.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss"
+		"/Users/Q/Sites/scaffold/css/scss/partials/nav.scss"
 	],
 	"find":
 	{
@@ -231,6 +231,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"progrsss",
+			"transform",
 			".3",
 			"q",
 			"a {",
