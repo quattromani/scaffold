@@ -2428,9 +2428,13 @@ button,
 progress[value] {
   position: relative;
   width: 100%;
-  height: 2.5em;
+  height: 1.5em;
   -webkit-appearance: none;
-  appearance: none; }
+  appearance: none;
+  opacity: .5;
+  will-change: transition;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
   progress[value]::-webkit-progress-bar {
     padding: .5em;
     background: #cccccc; }
@@ -2440,11 +2444,6 @@ progress[value] {
     will-change: transition;
     -webkit-transition: width 0.5s ease-in-out;
     transition: width 0.5s ease-in-out; }
-    progress[value]::-webkit-progress-value:before {
-      position: absolute;
-      content: '80%';
-      right: .5em;
-      color: white; }
     progress[value]::-webkit-progress-value:after {
       position: absolute;
       content: '';
@@ -2454,6 +2453,14 @@ progress[value] {
       background: white;
       -webkit-animation: pulsate 1s ease-out infinite;
       opacity: .5; }
+  progress[value]:hover {
+    height: 2.5em;
+    opacity: 1; }
+    progress[value]:hover::-webkit-progress-value:before {
+      position: absolute;
+      content: '80%';
+      right: .5em;
+      color: white; }
 
 @-webkit-keyframes pulsate {
   0% {
