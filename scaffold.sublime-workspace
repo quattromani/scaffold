@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"inline",
+				"inline-block	compass"
+			]
 		]
 	},
 	"buffers":
@@ -84,8 +88,8 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
@@ -231,6 +235,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fontaw",
 			"progrsss",
 			"transform",
 			".3",
@@ -377,7 +382,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 337.0,
+	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

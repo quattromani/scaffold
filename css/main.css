@@ -2435,7 +2435,6 @@ progress[value] {
   padding-left: 0;
   -webkit-appearance: none;
   appearance: none;
-  opacity: .75;
   will-change: transition;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease; }
@@ -2457,8 +2456,7 @@ progress[value] {
       -webkit-animation: pulsate 1s ease-out infinite;
       opacity: .5; }
   progress[value]:hover {
-    height: 2.5em;
-    opacity: 1; }
+    height: 2.5em; }
     progress[value]:hover::-webkit-progress-value:before {
       position: absolute;
       content: '75%';

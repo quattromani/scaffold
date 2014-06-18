@@ -12,7 +12,6 @@ progress[value] {
   @include padding($padding / 2, 0);
   -webkit-appearance: none;
   appearance: none;
-  opacity: .75;
   @include transition(height, .5s, ease);
 
   &::-webkit-progress-bar {
@@ -38,7 +37,6 @@ progress[value] {
 
   &:hover {
     height: 2.5em;
-    opacity: 1;
 
     &::-webkit-progress-value {
       &:before {
