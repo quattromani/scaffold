@@ -9,13 +9,13 @@ progress[value] {
   position: relative;
   width: 100%;
   height: 1.5em;
+  @include padding($padding / 2, 0);
   -webkit-appearance: none;
   appearance: none;
-  opacity: .5;
-  @include transition();
+  opacity: .75;
+  @include transition(height, .5s, ease);
 
   &::-webkit-progress-bar {
-    padding: .5em;
     background: $color-light-grey;
   }
 
@@ -43,7 +43,7 @@ progress[value] {
     &::-webkit-progress-value {
       &:before {
         position: absolute;
-        content: '80%';
+        content: '75%';
         right: .5em;
         color: $color-white;
       }
@@ -55,4 +55,40 @@ progress[value] {
     0% { opacity: .25; }
     50% { opacity: .5; }
     100% { opacity: .25; }
+}
+
+.badges {
+
+  .badge {
+    position: relative;
+    @include inline-block;
+    height: 2em;
+    width: 2em;
+    @include border-radius(100%);
+    border: 3px solid lighten($color-light-grey, 10%);
+    background: $color-light-grey;
+
+    &.earned {
+      background: $color-grey;
+    }
+  }
+
+  .registration {
+    left: 0;
+  }
+
+  .biography {
+    left: 20%;
+    margin-left: -1em;
+  }
+
+  .recommend {
+    left: 50%;
+    margin-left: -2em;
+  }
+
+  .action {
+    left: 75%;
+    margin-left: -4em;
+  }
 }

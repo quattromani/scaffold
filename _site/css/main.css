@@ -2429,14 +2429,17 @@ progress[value] {
   position: relative;
   width: 100%;
   height: 1.5em;
+  padding-top: 0.5em;
+  padding-right: 0;
+  padding-bottom: 0.5em;
+  padding-left: 0;
   -webkit-appearance: none;
   appearance: none;
-  opacity: .5;
+  opacity: .75;
   will-change: transition;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease; }
   progress[value]::-webkit-progress-bar {
-    padding: .5em;
     background: #cccccc; }
   progress[value]::-webkit-progress-value {
     position: relative;
@@ -2458,7 +2461,7 @@ progress[value] {
     opacity: 1; }
     progress[value]:hover::-webkit-progress-value:before {
       position: absolute;
-      content: '80%';
+      content: '75%';
       right: .5em;
       color: white; }
 
@@ -2471,6 +2474,32 @@ progress[value] {
 
   100% {
     opacity: .25; } }
+.badges .badge {
+  position: relative;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  height: 2em;
+  width: 2em;
+  border-radius: 100%;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 3px solid #e6e6e6;
+  background: #cccccc; }
+  .badges .badge.earned {
+    background: #5b5b5b; }
+.badges .registration {
+  left: 0; }
+.badges .biography {
+  left: 20%;
+  margin-left: -1em; }
+.badges .recommend {
+  left: 50%;
+  margin-left: -2em; }
+.badges .action {
+  left: 75%;
+  margin-left: -4em; }
+
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
