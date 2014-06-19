@@ -88,6 +88,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
@@ -129,7 +131,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/js/buttons.js",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/_site/css/main.css",
@@ -190,7 +191,6 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/calendar/css/helpers.css",
 		"/Users/Q/Sites/scaffold/web-components/elements/x-typeahead/typeahead-input.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_nav-theme.scss",
-		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/forms.scss",
