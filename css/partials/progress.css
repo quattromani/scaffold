@@ -47,37 +47,3 @@ progress[value]::-webkit-progress-value:after {
     opacity: .25;
   }
 }
-.badges .badge {
-  position: relative;
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  height: 2em;
-  width: 2em;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box;
-  border: 3px solid #e6e6e6;
-  background: #cccccc;
-}
-.badges .badge.earned {
-  background: #5b5b5b;
-}
-.badges .registration {
-  left: 0;
-}
-.badges .biography {
-  left: 20%;
-  margin-left: -1em;
-}
-.badges .recommend {
-  left: 50%;
-  margin-left: -2em;
-}
-.badges .action {
-  left: 75%;
-  margin-left: -4em;
-}

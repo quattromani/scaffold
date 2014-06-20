@@ -52,39 +52,3 @@ progress[value] {
     50% { opacity: .5; }
     100% { opacity: .25; }
 }
-
-.badges {
-
-  .badge {
-    position: relative;
-    @include inline-block;
-    height: 2em;
-    width: 2em;
-    @include border-radius(100%);
-    border: 3px solid lighten($color-light-grey, 10%);
-    background: $color-light-grey;
-
-    &.earned {
-      background: $color-grey;
-    }
-  }
-
-  .registration {
-    left: 0;
-  }
-
-  .biography {
-    left: 20%;
-    margin-left: -1em;
-  }
-
-  .recommend {
-    left: 50%;
-    margin-left: -2em;
-  }
-
-  .action {
-    left: 75%;
-    margin-left: -4em;
-  }
-}
