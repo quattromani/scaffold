@@ -18,11 +18,15 @@
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
-  padding-top: 0;
-  padding-right: 1em;
-  padding-bottom: 0;
-  padding-left: 1em;
   overflow: visible;
+}
+@media (max-width: 62em) {
+  .container {
+    padding-top: 0;
+    padding-right: 1em;
+    padding-bottom: 0;
+    padding-left: 1em;
+  }
 }
 
 .clearfix {
