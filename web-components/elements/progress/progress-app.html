@@ -5,16 +5,21 @@
     <link rel="stylesheet" href="../../../css/main.min.css">
     <label>
       <span class="h5">{{ label }}</span>
-      <span class="right">{{step}} of {{steps}} Completed</span>
+      <span class="right">{{ step }} of {{ steps }} Completed</span>
     </label>
-    <progress max="100" value="{{ value }}" data-value="{{ value }}"></progress>
+    <progress max="100" value="{{ (step / steps) * 100 }}" data-value="{{ (step / steps) * 100 }}"></progress>
 
-    <div class="badges">
+    <!-- <div class="badges">
       <div class="badge registration earned"></div>
       <div class="badge biography earned"></div>
       <div class="badge recommend earned"></div>
       <div class="badge action"></div>
-    </div>
+    </div> -->
+
+    <hr>
+
+    <label for="">Slide me</label>
+    <input type="range" name="points" min="1" max="{{ steps }}" value="{{ step }}">
 	</template>
   <script>
     Polymer('progress-app', {

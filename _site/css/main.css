@@ -2455,13 +2455,6 @@ progress[value] {
       background: white;
       -webkit-animation: pulsate 1s ease-out infinite;
       opacity: .5; }
-  progress[value]:hover {
-    height: 2.5em; }
-    progress[value]:hover:before {
-      position: absolute;
-      content: attr(data-value) "%";
-      right: .25em;
-      color: black; }
 
 @-webkit-keyframes pulsate {
   0% {
@@ -2760,7 +2753,7 @@ select {
   font-size: 1.6rem;
   vertical-align: baseline; }
 
-input,
+input[type]:not([type=range]),
 textarea,
 select {
   width: 100%;
@@ -2782,7 +2775,7 @@ select {
   will-change: transition;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
-  input[type='search'],
+  input[type]:not([type=range])[type='search'],
   textarea[type='search'],
   select[type='search'] {
     padding-left: 2em;
@@ -2790,7 +2783,7 @@ select {
     -webkit-background-size: 1em;
     background-size: 1em;
     background-position: .5em; }
-    input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-datetime-edit-fields-wrapper,
+    input[type]:not([type=range])[type='search']::-webkit-search-decoration, input[type]:not([type=range])[type='search']::-webkit-search-cancel-button, input[type]:not([type=range])[type='search']::-webkit-datetime-edit-fields-wrapper,
     textarea[type='search']::-webkit-search-decoration,
     textarea[type='search']::-webkit-search-cancel-button,
     textarea[type='search']::-webkit-datetime-edit-fields-wrapper,
@@ -2798,7 +2791,7 @@ select {
     select[type='search']::-webkit-search-cancel-button,
     select[type='search']::-webkit-datetime-edit-fields-wrapper {
       -webkit-appearance: none; }
-  input[type="radio"], input[type="checkbox"],
+  input[type]:not([type=range])[type="radio"], input[type]:not([type=range])[type="checkbox"],
   textarea[type="radio"],
   textarea[type="checkbox"],
   select[type="radio"],
@@ -2808,7 +2801,7 @@ select {
     margin-right: 0.5em;
     margin-bottom: 1em;
     margin-left: 0.1em; }
-  input:focus,
+  input[type]:not([type=range]):focus,
   textarea:focus,
   select:focus {
     -webkit-box-shadow: inset 0.3em 0 0 0 rgba(204, 204, 204, 0.75);
@@ -2822,8 +2815,24 @@ input[type="checkbox"], input[type="radio"] {
   padding-left: 0;
   border: 0; }
   input[type="checkbox"]:focus, input[type="radio"]:focus {
+    outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
+input[type="range"] {
+  width: 100%;
+  height: .5em;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background-color: #cccccc; }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 100%;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #5b5b5b;
+    width: 1em;
+    height: 1em; }
 
 input::-webkit-datetime-edit-fields-wrapper {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
