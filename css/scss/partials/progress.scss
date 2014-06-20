@@ -38,13 +38,11 @@ progress[value] {
   &:hover {
     height: 2.5em;
 
-    &::-webkit-progress-value {
-      &:before {
-        position: absolute;
-        content: '75%';
-        right: .5em;
-        color: $color-white;
-      }
+    &:before {
+      position: absolute;
+      content: attr(data-value)"%";
+      right: .25em;
+      color: $color-black;
     }
   }
 }

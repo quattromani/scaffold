@@ -36,11 +36,11 @@ progress[value]::-webkit-progress-value:after {
 progress[value]:hover {
   height: 2.5em;
 }
-progress[value]:hover::-webkit-progress-value:before {
+progress[value]:hover:before {
   position: absolute;
-  content: '75%';
-  right: .5em;
-  color: white;
+  content: attr(data-value) "%";
+  right: .25em;
+  color: black;
 }
 
 @-webkit-keyframes pulsate {

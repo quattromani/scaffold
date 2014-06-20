@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="progress-app">
+	<template>
+    <link rel="stylesheet" href="../../../css/main.min.css">
+    <label>
+      <span class="h5">{{ label }}</span>
+      <span class="right">{{step}} of {{steps}} Completed</span>
+    </label>
+    <progress max="100" value="{{ value }}" data-value="{{ value }}"></progress>
+
+    <div class="badges">
+      <div class="badge registration earned"></div>
+      <div class="badge biography earned"></div>
+      <div class="badge recommend earned"></div>
+      <div class="badge action"></div>
+    </div>
+	</template>
+  <script>
+    Polymer('progress-app', {
+      label : 'Your Progress',
+      step : '9',
+      steps : '12',
+      value : '75'
+    });
+  </script>
+</polymer-element>
