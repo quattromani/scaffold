@@ -8,13 +8,11 @@
 progress[value] {
   position: relative;
   width: 100%;
-  height: 1.5em;
-  @include padding($padding / 2, 0);
+  height: .5em;
   border: none;
   color: $color-primary-red;
   -webkit-appearance: none;
   appearance: none;
-  @include transition(height, .5s, ease);
 
   @-moz-document url-prefix() {
     height: .5em;
@@ -27,8 +25,6 @@ progress[value] {
 
   // This repetition is deliberate
   &::-moz-progress-bar {
-    height: .5em;
-    @include padding;
     background: $color-primary-red;
   }
 
@@ -51,9 +47,9 @@ progress[value] {
 }
 
 @-webkit-keyframes pulsate {
-    0% { opacity: .25; }
-    50% { opacity: .5; }
-    100% { opacity: .25; }
+  0% { opacity: .25; }
+  50% { opacity: .5; }
+  100% { opacity: .25; }
 }
 
 /* Fallback */
