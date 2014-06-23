@@ -8,9 +8,9 @@
 html {
   height: 100%;
   @include font-family($base-font);
-  font-size: 10px; // set absolutely to maintain ratio around user settings
   color: $text;
   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
