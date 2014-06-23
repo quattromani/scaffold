@@ -25,6 +25,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 html {
   height: 100%;
   @include font-family($base-font);
+  font-size: 10px;
   color: $text;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

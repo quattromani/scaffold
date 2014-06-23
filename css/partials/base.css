@@ -28,6 +28,7 @@ html {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 10px;
   color: #454545;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -41,7 +42,7 @@ input,
 select,
 textarea {
   font-size: 16px;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.443;
   letter-spacing: .035em;
 }

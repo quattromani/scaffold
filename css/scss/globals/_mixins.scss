@@ -38,7 +38,7 @@
   @if $support-legacy {
     font-size: $value * 1px;
   }
-  font-size: $value / $base * 1rem;
+  font-size: $value * .1rem;
 }
 
 @mixin font-family($font, $size: $base-font-size, $style: normal, $weight: normal) {
