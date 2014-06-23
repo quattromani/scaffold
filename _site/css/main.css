@@ -2481,7 +2481,7 @@ progress[value] {
 /* Fallback */
 .progress-bar {
   width: 100%;
-  height: .5em;
+  height: .25em;
   background: #cccccc; }
 
 .progress-bar span {
