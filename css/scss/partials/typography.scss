@@ -10,7 +10,10 @@ html {
   @include font-family($base-font);
   font-size: 10px; // set absolutely to maintain ratio around user settings
   color: $text;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body,

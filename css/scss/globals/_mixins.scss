@@ -35,7 +35,9 @@
 
 // Font Size
 @mixin font-size($size) {
-  font-size: $size * 1px;
+  @if $support-legacy {
+    font-size: $size * 1px;
+  }
   font-size: $size * 0.1rem;
 }
 
@@ -43,7 +45,6 @@
   font-family: $font,Arial,Sans-Serif;
   font-style: $style;
   font-weight: $weight;
-  @include font-size($size);
 }
 
 // Column / Grid Control

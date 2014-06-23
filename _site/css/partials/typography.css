@@ -6,11 +6,12 @@ html {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-size: 10px;
   color: #454545;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body,
@@ -115,8 +116,6 @@ a {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 700;
   color: #ef272d;
   text-decoration: none;
@@ -358,8 +357,6 @@ samp {
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
 }
 
 /* ==========================
@@ -376,8 +373,6 @@ samp {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 200;
 }
 

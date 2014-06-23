@@ -655,11 +655,12 @@ html {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-size: 10px;
   color: #454545;
-  -webkit-font-smoothing: antialiased; }
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 body,
 button,
@@ -749,8 +750,6 @@ a {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 700;
   color: #ef272d;
   text-decoration: none;
@@ -950,9 +949,7 @@ samp {
 .fa {
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem; }
+  font-weight: normal; }
 
 /* ==========================
     Logo
@@ -967,8 +964,6 @@ samp {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 200; }
 
 .division {
@@ -2519,8 +2514,6 @@ label + .pill,
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 700;
   color: white; }
   .pill-white {
@@ -2564,8 +2557,6 @@ label + .pill,
     font-family: "GLGlyphs", Arial, Sans-Serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    font-size: 3.6rem;
     padding: .25em 1em; }
 
 .message-loading {
