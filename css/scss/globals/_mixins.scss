@@ -34,11 +34,11 @@
 }
 
 // Font Size
-@mixin font-size($size) {
+@mixin font-size($value, $base: $base-font-size) {
   @if $support-legacy {
-    font-size: $size * 1px;
+    font-size: $value * 1px;
   }
-  font-size: $size * 0.1rem;
+  font-size: $value / $base * 1rem;
 }
 
 @mixin font-family($font, $size: $base-font-size, $style: normal, $weight: normal) {

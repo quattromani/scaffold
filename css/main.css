@@ -661,18 +661,18 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-body[style] {
-  font-size: 16px !important; }
-
 body,
 button,
 input,
 select,
 textarea {
   font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 1.443;
   letter-spacing: .035em; }
+
+.ie body[style] {
+  font-size: 16px !important; }
 
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
@@ -721,19 +721,19 @@ textarea {
    ========================== */
 .lede {
   font-size: 22px;
-  font-size: 2.2rem; }
+  font-size: 1.375rem; }
 
 .body-text {
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1rem; }
 
 .small-body-text {
   font-size: 12px;
-  font-size: 1.2rem; }
+  font-size: 0.75rem; }
 
 .disclaimer-text {
   font-size: 12px;
-  font-size: 1.2rem; }
+  font-size: 0.75rem; }
 
 /* ==========================
 	  Links
@@ -771,72 +771,72 @@ h1,
 .h1 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
-  font-size: 4.2rem;
+  font-size: 2.625rem;
   font-weight: 200; }
   @media (max-width: 62em) {
     h1,
     .h1 {
       font-size: 36.75px;
-      font-size: 3.675rem; } }
+      font-size: 2.29688rem; } }
   @media (max-width: 40em) {
     h1,
     .h1 {
       font-size: 31.5px;
-      font-size: 3.15rem; } }
+      font-size: 1.96875rem; } }
 
 h2,
 .h2 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
-  font-size: 3.6rem;
+  font-size: 2.25rem;
   font-weight: 200; }
   @media (max-width: 62em) {
     h2,
     .h2 {
       font-size: 31.5px;
-      font-size: 3.15rem; } }
+      font-size: 1.96875rem; } }
   @media (max-width: 40em) {
     h2,
     .h2 {
       font-size: 27px;
-      font-size: 2.7rem; } }
+      font-size: 1.6875rem; } }
 
 h3,
 .h3 {
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
-  font-size: 3rem;
+  font-size: 1.875rem;
   font-weight: 700; }
   @media (max-width: 62em) {
     h3,
     .h3 {
       font-size: 26.25px;
-      font-size: 2.625rem; } }
+      font-size: 1.64063rem; } }
   @media (max-width: 40em) {
     h3,
     .h3 {
       font-size: 22.5px;
-      font-size: 2.25rem; } }
+      font-size: 1.40625rem; } }
 
 h4,
 .h4 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-weight: 200; }
 
 h5,
 .h5 {
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 700; }
 
 h6,
 .h6 {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 100; }
 
 .h1,
@@ -1215,615 +1215,615 @@ samp {
 
 .fs10 {
   font-size: 10px;
-  font-size: 1rem; }
+  font-size: 0.625rem; }
   @media (max-width: 62em) {
     .fs10 {
       font-size: 8.75px;
-      font-size: 0.875rem; } }
+      font-size: 0.54688rem; } }
   @media (max-width: 40em) {
     .fs10 {
       font-size: 7.5px;
-      font-size: 0.75rem; } }
+      font-size: 0.46875rem; } }
 
 .fs11 {
   font-size: 11px;
-  font-size: 1.1rem; }
+  font-size: 0.6875rem; }
   @media (max-width: 62em) {
     .fs11 {
       font-size: 9.625px;
-      font-size: 0.9625rem; } }
+      font-size: 0.60156rem; } }
   @media (max-width: 40em) {
     .fs11 {
       font-size: 8.25px;
-      font-size: 0.825rem; } }
+      font-size: 0.51563rem; } }
 
 .fs12 {
   font-size: 12px;
-  font-size: 1.2rem; }
+  font-size: 0.75rem; }
   @media (max-width: 62em) {
     .fs12 {
       font-size: 10.5px;
-      font-size: 1.05rem; } }
+      font-size: 0.65625rem; } }
   @media (max-width: 40em) {
     .fs12 {
       font-size: 9px;
-      font-size: 0.9rem; } }
+      font-size: 0.5625rem; } }
 
 .fs13 {
   font-size: 13px;
-  font-size: 1.3rem; }
+  font-size: 0.8125rem; }
   @media (max-width: 62em) {
     .fs13 {
       font-size: 11.375px;
-      font-size: 1.1375rem; } }
+      font-size: 0.71094rem; } }
   @media (max-width: 40em) {
     .fs13 {
       font-size: 9.75px;
-      font-size: 0.975rem; } }
+      font-size: 0.60938rem; } }
 
 .fs14 {
   font-size: 14px;
-  font-size: 1.4rem; }
+  font-size: 0.875rem; }
   @media (max-width: 62em) {
     .fs14 {
       font-size: 12.25px;
-      font-size: 1.225rem; } }
+      font-size: 0.76563rem; } }
   @media (max-width: 40em) {
     .fs14 {
       font-size: 10.5px;
-      font-size: 1.05rem; } }
+      font-size: 0.65625rem; } }
 
 .fs15 {
   font-size: 15px;
-  font-size: 1.5rem; }
+  font-size: 0.9375rem; }
   @media (max-width: 62em) {
     .fs15 {
       font-size: 13.125px;
-      font-size: 1.3125rem; } }
+      font-size: 0.82031rem; } }
   @media (max-width: 40em) {
     .fs15 {
       font-size: 11.25px;
-      font-size: 1.125rem; } }
+      font-size: 0.70313rem; } }
 
 .fs16 {
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1rem; }
   @media (max-width: 62em) {
     .fs16 {
       font-size: 14px;
-      font-size: 1.4rem; } }
+      font-size: 0.875rem; } }
   @media (max-width: 40em) {
     .fs16 {
       font-size: 12px;
-      font-size: 1.2rem; } }
+      font-size: 0.75rem; } }
 
 .fs17 {
   font-size: 17px;
-  font-size: 1.7rem; }
+  font-size: 1.0625rem; }
   @media (max-width: 62em) {
     .fs17 {
       font-size: 14.875px;
-      font-size: 1.4875rem; } }
+      font-size: 0.92969rem; } }
   @media (max-width: 40em) {
     .fs17 {
       font-size: 12.75px;
-      font-size: 1.275rem; } }
+      font-size: 0.79688rem; } }
 
 .fs18 {
   font-size: 18px;
-  font-size: 1.8rem; }
+  font-size: 1.125rem; }
   @media (max-width: 62em) {
     .fs18 {
       font-size: 15.75px;
-      font-size: 1.575rem; } }
+      font-size: 0.98438rem; } }
   @media (max-width: 40em) {
     .fs18 {
       font-size: 13.5px;
-      font-size: 1.35rem; } }
+      font-size: 0.84375rem; } }
 
 .fs19 {
   font-size: 19px;
-  font-size: 1.9rem; }
+  font-size: 1.1875rem; }
   @media (max-width: 62em) {
     .fs19 {
       font-size: 16.625px;
-      font-size: 1.6625rem; } }
+      font-size: 1.03906rem; } }
   @media (max-width: 40em) {
     .fs19 {
       font-size: 14.25px;
-      font-size: 1.425rem; } }
+      font-size: 0.89063rem; } }
 
 .fs20 {
   font-size: 20px;
-  font-size: 2rem; }
+  font-size: 1.25rem; }
   @media (max-width: 62em) {
     .fs20 {
       font-size: 17.5px;
-      font-size: 1.75rem; } }
+      font-size: 1.09375rem; } }
   @media (max-width: 40em) {
     .fs20 {
       font-size: 15px;
-      font-size: 1.5rem; } }
+      font-size: 0.9375rem; } }
 
 .fs21 {
   font-size: 21px;
-  font-size: 2.1rem; }
+  font-size: 1.3125rem; }
   @media (max-width: 62em) {
     .fs21 {
       font-size: 18.375px;
-      font-size: 1.8375rem; } }
+      font-size: 1.14844rem; } }
   @media (max-width: 40em) {
     .fs21 {
       font-size: 15.75px;
-      font-size: 1.575rem; } }
+      font-size: 0.98438rem; } }
 
 .fs22 {
   font-size: 22px;
-  font-size: 2.2rem; }
+  font-size: 1.375rem; }
   @media (max-width: 62em) {
     .fs22 {
       font-size: 19.25px;
-      font-size: 1.925rem; } }
+      font-size: 1.20313rem; } }
   @media (max-width: 40em) {
     .fs22 {
       font-size: 16.5px;
-      font-size: 1.65rem; } }
+      font-size: 1.03125rem; } }
 
 .fs23 {
   font-size: 23px;
-  font-size: 2.3rem; }
+  font-size: 1.4375rem; }
   @media (max-width: 62em) {
     .fs23 {
       font-size: 20.125px;
-      font-size: 2.0125rem; } }
+      font-size: 1.25781rem; } }
   @media (max-width: 40em) {
     .fs23 {
       font-size: 17.25px;
-      font-size: 1.725rem; } }
+      font-size: 1.07813rem; } }
 
 .fs24 {
   font-size: 24px;
-  font-size: 2.4rem; }
+  font-size: 1.5rem; }
   @media (max-width: 62em) {
     .fs24 {
       font-size: 21px;
-      font-size: 2.1rem; } }
+      font-size: 1.3125rem; } }
   @media (max-width: 40em) {
     .fs24 {
       font-size: 18px;
-      font-size: 1.8rem; } }
+      font-size: 1.125rem; } }
 
 .fs25 {
   font-size: 25px;
-  font-size: 2.5rem; }
+  font-size: 1.5625rem; }
   @media (max-width: 62em) {
     .fs25 {
       font-size: 21.875px;
-      font-size: 2.1875rem; } }
+      font-size: 1.36719rem; } }
   @media (max-width: 40em) {
     .fs25 {
       font-size: 18.75px;
-      font-size: 1.875rem; } }
+      font-size: 1.17188rem; } }
 
 .fs26 {
   font-size: 26px;
-  font-size: 2.6rem; }
+  font-size: 1.625rem; }
   @media (max-width: 62em) {
     .fs26 {
       font-size: 22.75px;
-      font-size: 2.275rem; } }
+      font-size: 1.42188rem; } }
   @media (max-width: 40em) {
     .fs26 {
       font-size: 19.5px;
-      font-size: 1.95rem; } }
+      font-size: 1.21875rem; } }
 
 .fs27 {
   font-size: 27px;
-  font-size: 2.7rem; }
+  font-size: 1.6875rem; }
   @media (max-width: 62em) {
     .fs27 {
       font-size: 23.625px;
-      font-size: 2.3625rem; } }
+      font-size: 1.47656rem; } }
   @media (max-width: 40em) {
     .fs27 {
       font-size: 20.25px;
-      font-size: 2.025rem; } }
+      font-size: 1.26563rem; } }
 
 .fs28 {
   font-size: 28px;
-  font-size: 2.8rem; }
+  font-size: 1.75rem; }
   @media (max-width: 62em) {
     .fs28 {
       font-size: 24.5px;
-      font-size: 2.45rem; } }
+      font-size: 1.53125rem; } }
   @media (max-width: 40em) {
     .fs28 {
       font-size: 21px;
-      font-size: 2.1rem; } }
+      font-size: 1.3125rem; } }
 
 .fs29 {
   font-size: 29px;
-  font-size: 2.9rem; }
+  font-size: 1.8125rem; }
   @media (max-width: 62em) {
     .fs29 {
       font-size: 25.375px;
-      font-size: 2.5375rem; } }
+      font-size: 1.58594rem; } }
   @media (max-width: 40em) {
     .fs29 {
       font-size: 21.75px;
-      font-size: 2.175rem; } }
+      font-size: 1.35938rem; } }
 
 .fs30 {
   font-size: 30px;
-  font-size: 3rem; }
+  font-size: 1.875rem; }
   @media (max-width: 62em) {
     .fs30 {
       font-size: 26.25px;
-      font-size: 2.625rem; } }
+      font-size: 1.64063rem; } }
   @media (max-width: 40em) {
     .fs30 {
       font-size: 22.5px;
-      font-size: 2.25rem; } }
+      font-size: 1.40625rem; } }
 
 .fs31 {
   font-size: 31px;
-  font-size: 3.1rem; }
+  font-size: 1.9375rem; }
   @media (max-width: 62em) {
     .fs31 {
       font-size: 27.125px;
-      font-size: 2.7125rem; } }
+      font-size: 1.69531rem; } }
   @media (max-width: 40em) {
     .fs31 {
       font-size: 23.25px;
-      font-size: 2.325rem; } }
+      font-size: 1.45313rem; } }
 
 .fs32 {
   font-size: 32px;
-  font-size: 3.2rem; }
+  font-size: 2rem; }
   @media (max-width: 62em) {
     .fs32 {
       font-size: 28px;
-      font-size: 2.8rem; } }
+      font-size: 1.75rem; } }
   @media (max-width: 40em) {
     .fs32 {
       font-size: 24px;
-      font-size: 2.4rem; } }
+      font-size: 1.5rem; } }
 
 .fs33 {
   font-size: 33px;
-  font-size: 3.3rem; }
+  font-size: 2.0625rem; }
   @media (max-width: 62em) {
     .fs33 {
       font-size: 28.875px;
-      font-size: 2.8875rem; } }
+      font-size: 1.80469rem; } }
   @media (max-width: 40em) {
     .fs33 {
       font-size: 24.75px;
-      font-size: 2.475rem; } }
+      font-size: 1.54688rem; } }
 
 .fs34 {
   font-size: 34px;
-  font-size: 3.4rem; }
+  font-size: 2.125rem; }
   @media (max-width: 62em) {
     .fs34 {
       font-size: 29.75px;
-      font-size: 2.975rem; } }
+      font-size: 1.85938rem; } }
   @media (max-width: 40em) {
     .fs34 {
       font-size: 25.5px;
-      font-size: 2.55rem; } }
+      font-size: 1.59375rem; } }
 
 .fs35 {
   font-size: 35px;
-  font-size: 3.5rem; }
+  font-size: 2.1875rem; }
   @media (max-width: 62em) {
     .fs35 {
       font-size: 30.625px;
-      font-size: 3.0625rem; } }
+      font-size: 1.91406rem; } }
   @media (max-width: 40em) {
     .fs35 {
       font-size: 26.25px;
-      font-size: 2.625rem; } }
+      font-size: 1.64063rem; } }
 
 .fs36 {
   font-size: 36px;
-  font-size: 3.6rem; }
+  font-size: 2.25rem; }
   @media (max-width: 62em) {
     .fs36 {
       font-size: 31.5px;
-      font-size: 3.15rem; } }
+      font-size: 1.96875rem; } }
   @media (max-width: 40em) {
     .fs36 {
       font-size: 27px;
-      font-size: 2.7rem; } }
+      font-size: 1.6875rem; } }
 
 .fs37 {
   font-size: 37px;
-  font-size: 3.7rem; }
+  font-size: 2.3125rem; }
   @media (max-width: 62em) {
     .fs37 {
       font-size: 32.375px;
-      font-size: 3.2375rem; } }
+      font-size: 2.02344rem; } }
   @media (max-width: 40em) {
     .fs37 {
       font-size: 27.75px;
-      font-size: 2.775rem; } }
+      font-size: 1.73438rem; } }
 
 .fs38 {
   font-size: 38px;
-  font-size: 3.8rem; }
+  font-size: 2.375rem; }
   @media (max-width: 62em) {
     .fs38 {
       font-size: 33.25px;
-      font-size: 3.325rem; } }
+      font-size: 2.07813rem; } }
   @media (max-width: 40em) {
     .fs38 {
       font-size: 28.5px;
-      font-size: 2.85rem; } }
+      font-size: 1.78125rem; } }
 
 .fs39 {
   font-size: 39px;
-  font-size: 3.9rem; }
+  font-size: 2.4375rem; }
   @media (max-width: 62em) {
     .fs39 {
       font-size: 34.125px;
-      font-size: 3.4125rem; } }
+      font-size: 2.13281rem; } }
   @media (max-width: 40em) {
     .fs39 {
       font-size: 29.25px;
-      font-size: 2.925rem; } }
+      font-size: 1.82813rem; } }
 
 .fs40 {
   font-size: 40px;
-  font-size: 4rem; }
+  font-size: 2.5rem; }
   @media (max-width: 62em) {
     .fs40 {
       font-size: 35px;
-      font-size: 3.5rem; } }
+      font-size: 2.1875rem; } }
   @media (max-width: 40em) {
     .fs40 {
       font-size: 30px;
-      font-size: 3rem; } }
+      font-size: 1.875rem; } }
 
 .fs41 {
   font-size: 41px;
-  font-size: 4.1rem; }
+  font-size: 2.5625rem; }
   @media (max-width: 62em) {
     .fs41 {
       font-size: 35.875px;
-      font-size: 3.5875rem; } }
+      font-size: 2.24219rem; } }
   @media (max-width: 40em) {
     .fs41 {
       font-size: 30.75px;
-      font-size: 3.075rem; } }
+      font-size: 1.92188rem; } }
 
 .fs42 {
   font-size: 42px;
-  font-size: 4.2rem; }
+  font-size: 2.625rem; }
   @media (max-width: 62em) {
     .fs42 {
       font-size: 36.75px;
-      font-size: 3.675rem; } }
+      font-size: 2.29688rem; } }
   @media (max-width: 40em) {
     .fs42 {
       font-size: 31.5px;
-      font-size: 3.15rem; } }
+      font-size: 1.96875rem; } }
 
 .fs43 {
   font-size: 43px;
-  font-size: 4.3rem; }
+  font-size: 2.6875rem; }
   @media (max-width: 62em) {
     .fs43 {
       font-size: 37.625px;
-      font-size: 3.7625rem; } }
+      font-size: 2.35156rem; } }
   @media (max-width: 40em) {
     .fs43 {
       font-size: 32.25px;
-      font-size: 3.225rem; } }
+      font-size: 2.01563rem; } }
 
 .fs44 {
   font-size: 44px;
-  font-size: 4.4rem; }
+  font-size: 2.75rem; }
   @media (max-width: 62em) {
     .fs44 {
       font-size: 38.5px;
-      font-size: 3.85rem; } }
+      font-size: 2.40625rem; } }
   @media (max-width: 40em) {
     .fs44 {
       font-size: 33px;
-      font-size: 3.3rem; } }
+      font-size: 2.0625rem; } }
 
 .fs45 {
   font-size: 45px;
-  font-size: 4.5rem; }
+  font-size: 2.8125rem; }
   @media (max-width: 62em) {
     .fs45 {
       font-size: 39.375px;
-      font-size: 3.9375rem; } }
+      font-size: 2.46094rem; } }
   @media (max-width: 40em) {
     .fs45 {
       font-size: 33.75px;
-      font-size: 3.375rem; } }
+      font-size: 2.10938rem; } }
 
 .fs46 {
   font-size: 46px;
-  font-size: 4.6rem; }
+  font-size: 2.875rem; }
   @media (max-width: 62em) {
     .fs46 {
       font-size: 40.25px;
-      font-size: 4.025rem; } }
+      font-size: 2.51563rem; } }
   @media (max-width: 40em) {
     .fs46 {
       font-size: 34.5px;
-      font-size: 3.45rem; } }
+      font-size: 2.15625rem; } }
 
 .fs47 {
   font-size: 47px;
-  font-size: 4.7rem; }
+  font-size: 2.9375rem; }
   @media (max-width: 62em) {
     .fs47 {
       font-size: 41.125px;
-      font-size: 4.1125rem; } }
+      font-size: 2.57031rem; } }
   @media (max-width: 40em) {
     .fs47 {
       font-size: 35.25px;
-      font-size: 3.525rem; } }
+      font-size: 2.20313rem; } }
 
 .fs48 {
   font-size: 48px;
-  font-size: 4.8rem; }
+  font-size: 3rem; }
   @media (max-width: 62em) {
     .fs48 {
       font-size: 42px;
-      font-size: 4.2rem; } }
+      font-size: 2.625rem; } }
   @media (max-width: 40em) {
     .fs48 {
       font-size: 36px;
-      font-size: 3.6rem; } }
+      font-size: 2.25rem; } }
 
 .fs49 {
   font-size: 49px;
-  font-size: 4.9rem; }
+  font-size: 3.0625rem; }
   @media (max-width: 62em) {
     .fs49 {
       font-size: 42.875px;
-      font-size: 4.2875rem; } }
+      font-size: 2.67969rem; } }
   @media (max-width: 40em) {
     .fs49 {
       font-size: 36.75px;
-      font-size: 3.675rem; } }
+      font-size: 2.29688rem; } }
 
 .fs50 {
   font-size: 50px;
-  font-size: 5rem; }
+  font-size: 3.125rem; }
   @media (max-width: 62em) {
     .fs50 {
       font-size: 43.75px;
-      font-size: 4.375rem; } }
+      font-size: 2.73438rem; } }
   @media (max-width: 40em) {
     .fs50 {
       font-size: 37.5px;
-      font-size: 3.75rem; } }
+      font-size: 2.34375rem; } }
 
 .fs51 {
   font-size: 51px;
-  font-size: 5.1rem; }
+  font-size: 3.1875rem; }
   @media (max-width: 62em) {
     .fs51 {
       font-size: 44.625px;
-      font-size: 4.4625rem; } }
+      font-size: 2.78906rem; } }
   @media (max-width: 40em) {
     .fs51 {
       font-size: 38.25px;
-      font-size: 3.825rem; } }
+      font-size: 2.39063rem; } }
 
 .fs52 {
   font-size: 52px;
-  font-size: 5.2rem; }
+  font-size: 3.25rem; }
   @media (max-width: 62em) {
     .fs52 {
       font-size: 45.5px;
-      font-size: 4.55rem; } }
+      font-size: 2.84375rem; } }
   @media (max-width: 40em) {
     .fs52 {
       font-size: 39px;
-      font-size: 3.9rem; } }
+      font-size: 2.4375rem; } }
 
 .fs53 {
   font-size: 53px;
-  font-size: 5.3rem; }
+  font-size: 3.3125rem; }
   @media (max-width: 62em) {
     .fs53 {
       font-size: 46.375px;
-      font-size: 4.6375rem; } }
+      font-size: 2.89844rem; } }
   @media (max-width: 40em) {
     .fs53 {
       font-size: 39.75px;
-      font-size: 3.975rem; } }
+      font-size: 2.48438rem; } }
 
 .fs54 {
   font-size: 54px;
-  font-size: 5.4rem; }
+  font-size: 3.375rem; }
   @media (max-width: 62em) {
     .fs54 {
       font-size: 47.25px;
-      font-size: 4.725rem; } }
+      font-size: 2.95313rem; } }
   @media (max-width: 40em) {
     .fs54 {
       font-size: 40.5px;
-      font-size: 4.05rem; } }
+      font-size: 2.53125rem; } }
 
 .fs55 {
   font-size: 55px;
-  font-size: 5.5rem; }
+  font-size: 3.4375rem; }
   @media (max-width: 62em) {
     .fs55 {
       font-size: 48.125px;
-      font-size: 4.8125rem; } }
+      font-size: 3.00781rem; } }
   @media (max-width: 40em) {
     .fs55 {
       font-size: 41.25px;
-      font-size: 4.125rem; } }
+      font-size: 2.57813rem; } }
 
 .fs56 {
   font-size: 56px;
-  font-size: 5.6rem; }
+  font-size: 3.5rem; }
   @media (max-width: 62em) {
     .fs56 {
       font-size: 49px;
-      font-size: 4.9rem; } }
+      font-size: 3.0625rem; } }
   @media (max-width: 40em) {
     .fs56 {
       font-size: 42px;
-      font-size: 4.2rem; } }
+      font-size: 2.625rem; } }
 
 .fs57 {
   font-size: 57px;
-  font-size: 5.7rem; }
+  font-size: 3.5625rem; }
   @media (max-width: 62em) {
     .fs57 {
       font-size: 49.875px;
-      font-size: 4.9875rem; } }
+      font-size: 3.11719rem; } }
   @media (max-width: 40em) {
     .fs57 {
       font-size: 42.75px;
-      font-size: 4.275rem; } }
+      font-size: 2.67188rem; } }
 
 .fs58 {
   font-size: 58px;
-  font-size: 5.8rem; }
+  font-size: 3.625rem; }
   @media (max-width: 62em) {
     .fs58 {
       font-size: 50.75px;
-      font-size: 5.075rem; } }
+      font-size: 3.17188rem; } }
   @media (max-width: 40em) {
     .fs58 {
       font-size: 43.5px;
-      font-size: 4.35rem; } }
+      font-size: 2.71875rem; } }
 
 .fs59 {
   font-size: 59px;
-  font-size: 5.9rem; }
+  font-size: 3.6875rem; }
   @media (max-width: 62em) {
     .fs59 {
       font-size: 51.625px;
-      font-size: 5.1625rem; } }
+      font-size: 3.22656rem; } }
   @media (max-width: 40em) {
     .fs59 {
       font-size: 44.25px;
-      font-size: 4.425rem; } }
+      font-size: 2.76563rem; } }
 
 .fs60 {
   font-size: 60px;
-  font-size: 6rem; }
+  font-size: 3.75rem; }
   @media (max-width: 62em) {
     .fs60 {
       font-size: 52.5px;
-      font-size: 5.25rem; } }
+      font-size: 3.28125rem; } }
   @media (max-width: 40em) {
     .fs60 {
       font-size: 45px;
-      font-size: 4.5rem; } }
+      font-size: 2.8125rem; } }
 
 [class*='width-'] {
   display: inline-block;
@@ -2198,7 +2198,7 @@ button,
   border: 0;
   background: none;
   font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-align: center;
@@ -2531,7 +2531,7 @@ label + .pill,
   background-clip: padding-box;
   background: #5b5b5b;
   font-size: 13px;
-  font-size: 1.3rem;
+  font-size: 0.8125rem;
   font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
@@ -2738,7 +2738,7 @@ textarea,
 label,
 select {
   font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 1rem;
   vertical-align: baseline; }
 
 input[type]:not([type=range]),
@@ -2935,7 +2935,7 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: 700; }
 
 .image-rounded {

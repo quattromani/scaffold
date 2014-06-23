@@ -15,10 +15,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body[style] {
-  font-size: 16px !important;
-}
-
 body,
 button,
 input,
@@ -28,6 +24,14 @@ textarea {
   line-height: $base-line-height;
   letter-spacing: .035em;
 }
+
+  @if $support-legacy {
+    body {
+      .ie &[style] {
+        font-size: 16px !important;
+      }
+    }
+  }
 
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
