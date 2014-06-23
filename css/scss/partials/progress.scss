@@ -10,12 +10,28 @@ progress[value] {
   width: 100%;
   height: 1.5em;
   @include padding($padding / 2, 0);
+  border: none;
+  color: $color-primary-red;
   -webkit-appearance: none;
   appearance: none;
   @include transition(height, .5s, ease);
 
-  &::-webkit-progress-bar {
+  @-moz-document url-prefix() {
+    height: .5em;
+    @include padding;
+  }
+
+  &::-webkit-progress-bar,
+  &::-moz-progress-bar,
+  &::progress-bar {
     background: $color-light-grey;
+  }
+
+  // This repetition is deliberate
+  &::-moz-progress-bar {
+    height: .5em;
+    @include padding;
+    background: $color-primary-red;
   }
 
   &::-webkit-progress-value {
@@ -34,21 +50,22 @@ progress[value] {
       opacity: .5;
     }
   }
-
-  // &:hover {
-  //   height: 2.5em;
-
-  //   &:before {
-  //     position: absolute;
-  //     content: attr(data-value)"%";
-  //     right: .25em;
-  //     color: $color-black;
-  //   }
-  // }
 }
 
 @-webkit-keyframes pulsate {
     0% { opacity: .25; }
     50% { opacity: .5; }
     100% { opacity: .25; }
+}
+
+/* Fallback */
+.progress-bar {
+  width: 100%;
+  height: .5em;
+}
+
+.progress-bar span {
+  background-color: $color-primary-red;
+  display: block;
+  text-indent: -9999px;
 }

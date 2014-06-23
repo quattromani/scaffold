@@ -10,14 +10,22 @@
     <span class="h5">Your Progress</span>
     <span class="right">9 of 12 Completed</span>
   </label>
-  <progress max="100" value="75" data-value="75"></progress>
+  <progress max="100" value="75" data-value="75">
+    <div class="progress-bar">
+        <span style="width: 75%;">Progress: 75%</span>
+    </div>
+  </progress>
 
 {% highlight html %}
 <label>
   <span class="h5">Your Progress</span>
   <span class="right">9 of 12 Completed</span>
 </label>
-<progress max="100" value="75"></progress>
+<progress max="100" value="75" data-value="75">
+  <div class="progress-bar">
+      <span style="width: 75%;">Progress: 75%</span>
+  </div>
+</progress>
 {% endhighlight %}
 
 </div>

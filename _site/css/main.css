@@ -2430,13 +2430,29 @@ progress[value] {
   padding-right: 0;
   padding-bottom: 0.5em;
   padding-left: 0;
+  border: none;
+  color: #ef272d;
   -webkit-appearance: none;
   appearance: none;
   will-change: transition;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease; }
-  progress[value]::-webkit-progress-bar {
+@-moz-document url-prefix() {
+  progress[value] {
+    height: .5em;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0; } }
+  progress[value]::-webkit-progress-bar, progress[value]::-moz-progress-bar, progress[value]::progress-bar {
     background: #cccccc; }
+  progress[value]::-moz-progress-bar {
+    height: .5em;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background: #ef272d; }
   progress[value]::-webkit-progress-value {
     position: relative;
     background: #ef272d;
@@ -2462,6 +2478,16 @@ progress[value] {
 
   100% {
     opacity: .25; } }
+/* Fallback */
+.progress-bar {
+  width: 100%;
+  height: .5em; }
+
+.progress-bar span {
+  background-color: #ef272d;
+  display: block;
+  text-indent: -9999px; }
+
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
