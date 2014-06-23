@@ -66,7 +66,8 @@ progress[value] {
 }
 
 .progress-bar span {
-  background-color: $color-primary-red;
   display: block;
+  height: .25em;
+  background-color: $color-primary-red;
   text-indent: -9999px;
 }

@@ -2485,8 +2485,9 @@ progress[value] {
   background: #cccccc; }
 
 .progress-bar span {
-  background-color: #ef272d;
   display: block;
+  height: .25em;
+  background-color: #ef272d;
   text-indent: -9999px; }
 
 /* ==========================================================================
