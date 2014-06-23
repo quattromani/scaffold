@@ -657,7 +657,6 @@ html {
   font-weight: normal;
   font-size: 10px;
   color: #454545;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
