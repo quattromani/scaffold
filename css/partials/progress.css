@@ -68,6 +68,9 @@ progress[value]::-webkit-progress-value:after {
 }
 /* Fallback */
 .progress-bar {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
   width: 100%;
   height: .25em;
   background: #cccccc;
