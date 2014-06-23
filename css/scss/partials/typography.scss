@@ -5,34 +5,6 @@
     Typography -- Version: 1.9.0.1  - Compiled: #{timestamp()}
    ========================================================================== */
 
-html {
-  height: 100%;
-  @include font-family($base-font);
-  color: $text;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body,
-button,
-input,
-select,
-textarea {
-  @include font-size($base-font-size);
-  line-height: $base-line-height;
-  letter-spacing: .035em;
-}
-
-  @if $support-legacy {
-    body {
-      .ie &[style] {
-        font-size: 16px !important;
-      }
-    }
-  }
-
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
   src: url('fonts/NHaasGroteskDSPro-45Lt.eot');

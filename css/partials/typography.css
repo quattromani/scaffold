@@ -1,33 +1,6 @@
 /* ==========================================================================
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
-html {
-  height: 100%;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
-  color: #454545;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body,
-button,
-input,
-select,
-textarea {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.443;
-  letter-spacing: .035em;
-}
-
-.ie body[style] {
-  font-size: 16px !important;
-}
-
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
   src: url("fonts/NHaasGroteskDSPro-45Lt.eot");

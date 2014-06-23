@@ -5,6 +5,9 @@
 /* ==========================
 	  Reset
    ========================== */
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   margin-top: 0;
   margin-right: 0;
@@ -20,13 +23,28 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   vertical-align: baseline; }
 
 html {
+  height: 100%;
+  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #454545;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-article, aside, figure, footer, header, hgroup, nav, section {
-  display: block; }
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.443;
+  letter-spacing: .035em; }
+
+.ie body[style] {
+  font-size: 16px !important; }
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -650,30 +668,6 @@ nav {
 /* ==========================================================================
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
-html {
-  height: 100%;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
-  color: #454545;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-body,
-button,
-input,
-select,
-textarea {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.443;
-  letter-spacing: .035em; }
-
-.ie body[style] {
-  font-size: 16px !important; }
-
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
   src: url("fonts/NHaasGroteskDSPro-45Lt.eot");

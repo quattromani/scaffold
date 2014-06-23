@@ -9,6 +9,10 @@
 	  Reset
    ========================== */
 
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   @include margin;
   @include padding;
@@ -19,14 +23,31 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 html {
+  height: 100%;
+  @include font-family($base-font);
+  color: $text;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-article, aside, figure, footer, header, hgroup, nav, section {
-  display: block;
+body,
+button,
+input,
+select,
+textarea {
+  @include font-size($base-font-size);
+  line-height: $base-line-height;
+  letter-spacing: .035em;
+}
+
+@if $support-legacy {
+  body {
+    .ie &[style] {
+      font-size: 16px !important;
+    }
+  }
 }
 
 * {
