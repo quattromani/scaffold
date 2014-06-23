@@ -25,7 +25,7 @@ progress[value] {
     padding-left: 0;
   }
 }
-progress[value]::-webkit-progress-bar, progress[value]::-moz-progress-bar, progress[value]::progress-bar {
+progress[value]::-webkit-progress-bar {
   background: #cccccc;
 }
 progress[value]::-moz-progress-bar {

@@ -21,9 +21,7 @@ progress[value] {
     @include padding;
   }
 
-  &::-webkit-progress-bar,
-  &::-moz-progress-bar,
-  &::progress-bar {
+  &::-webkit-progress-bar {
     background: $color-light-grey;
   }
 

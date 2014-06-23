@@ -3,18 +3,16 @@
 <polymer-element name="progress-app">
 	<template>
     <link rel="stylesheet" href="../../../css/main.min.css">
+
     <label>
       <span class="h5">{{ label }}</span>
       <span class="right">{{ step }} of {{ steps }} Completed</span>
     </label>
-    <progress max="100" value="{{ (step / steps) * 100 }}" data-value="{{ (step / steps) * 100 }}"></progress>
-
-    <!-- <div class="badges">
-      <div class="badge registration earned"></div>
-      <div class="badge biography earned"></div>
-      <div class="badge recommend earned"></div>
-      <div class="badge action"></div>
-    </div> -->
+    <progress max="100" value="{{ (step / steps) * 100 }}" data-value="{{ (step / steps) * 100 }}">
+      <div class="progress-bar">
+        <span style="width: {{ value }}%;">Progress: {{ value }}%</span>
+      </div>
+    </progress>
 
     <hr>
 
