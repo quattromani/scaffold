@@ -2418,52 +2418,7 @@ button,
 
 /* ==========================================================================
     Progress -- Version: 0.2.1 - Compiled: timestamp()
-   ========================================================================== */
-progress[value] {
-  position: relative;
-  width: 100%;
-  height: .5em;
-  border: none;
-  color: #ef272d;
-  -webkit-appearance: none;
-  appearance: none; }
-@-moz-document url-prefix() {
-  progress[value] {
-    height: .5em;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0; } }
-  progress[value]::-webkit-progress-bar {
-    background: #cccccc; }
-  progress[value]::-moz-progress-bar {
-    background: #ef272d; }
-  progress[value]::-webkit-progress-value {
-    position: relative;
-    background: #ef272d;
-    will-change: transition;
-    -webkit-transition: width 0.5s ease-in-out;
-    transition: width 0.5s ease-in-out; }
-    progress[value]::-webkit-progress-value:after {
-      position: absolute;
-      content: '';
-      width: .25em;
-      height: 100%;
-      right: 0;
-      background: white;
-      -webkit-animation: pulsate 1s ease-out infinite;
-      opacity: .5; }
-
-@-webkit-keyframes pulsate {
-  0% {
-    opacity: .25; }
-
-  50% {
-    opacity: .5; }
-
-  100% {
-    opacity: .25; } }
-/* Fallback */
+    ========================================================================== */
 .progress-bar {
   display: inline-block;
   *zoom: 1;
@@ -2473,11 +2428,40 @@ progress[value] {
   background: #cccccc; }
 
 .progress-bar span {
+  position: relative;
   display: block;
   height: .5em;
   background-color: #ef272d;
   text-indent: -9999px; }
+  .progress-bar span:after {
+    position: absolute;
+    content: '';
+    width: .25em;
+    height: 100%;
+    right: 0;
+    background: white;
+    -webkit-animation: pulsate 1s ease-out infinite;
+    animation: pulsate 1s ease-out infinite;
+    opacity: .5; }
 
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: .25; }
+
+  50% {
+    opacity: .75; }
+
+  100% {
+    opacity: .25; } }
+@keyframes pulsate {
+  0% {
+    opacity: .25; }
+
+  50% {
+    opacity: .75; }
+
+  100% {
+    opacity: .25; } }
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */

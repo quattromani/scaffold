@@ -2,22 +2,17 @@
 
 <polymer-element name="progress-app">
 	<template>
-    <link rel="stylesheet" href="../../../css/main.min.css">
+    <link rel="stylesheet" href="../../../css/partials/progress.css">
+    <link rel="stylesheet" href="../../../css/partials/forms.css">
 
     <label>
       <span class="h5">{{ label }}</span>
       <span class="right">{{ step }} of {{ steps }} Completed</span>
     </label>
-    <progress max="100" value="{{ (step / steps) * 100 }}" data-value="{{ (step / steps) * 100 }}">
-      <div class="progress-bar">
-        <span style="width: {{ value }}%;">Progress: {{ value }}%</span>
-      </div>
-    </progress>
+    <div class="progress-bar">
+      <span style="width: {{ value }}%;">Progress: {{ value }}%</span>
+    </div>
 
-    <hr>
-
-    <label for="">Slide me</label>
-    <input type="range" name="points" min="1" max="{{ steps }}" value="{{ step }}">
 	</template>
   <script>
     Polymer('progress-app', {

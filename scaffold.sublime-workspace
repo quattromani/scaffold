@@ -11,6 +11,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 70030,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,17 +96,24 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
+		"/Users/Q/Sites/scaffold/css/partials/base.css",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/partials/layout.css",
+		"/Users/Q/Sites/scaffold/_includes/head.html",
+		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
+		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
-		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/index.html",
 		"/Users/Q/Sites/scaffold/web-components/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
@@ -116,9 +131,6 @@
 		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/_layouts/default.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/css/partials/*.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
@@ -211,11 +223,7 @@
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/print.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/scrollTo.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/tables.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/typography.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/videos.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss"
+		"/Users/Q/Sites/scaffold/_site/css/scss/partials/tables.scss"
 	],
 	"find":
 	{
@@ -235,6 +243,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"footer.c",
+			"font-s",
 			"progress",
 			"@include font-family",
 			"@include font-",
@@ -307,8 +317,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/main.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 70030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3160,
+								3160
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1911.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
