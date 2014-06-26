@@ -7,25 +7,23 @@
 <div class="box-column clear">
 
   <label>
+    <span class="h5">{{ page.label }}</span>
+    <span class="right">{{ page.step }} of {{ page.steps }} Completed</span>
+  </label>
+  <div class="progress-bar">
+    <span style="width: {{ page.value }}%;">Progress: {{ page.value }}%</span>
+  </div>
+
+  {% highlight html %}
+  <label>
     <span class="h5">Your Progress</span>
     <span class="right">9 of 12 Completed</span>
   </label>
   <progress max="100" value="75" data-value="75">
     <div class="progress-bar">
-        <span style="width: 75%;">Progress: 75%</span>
+      <span style="width: 75%;">Progress: 75%</span>
     </div>
   </progress>
-
-{% highlight html %}
-<label>
-  <span class="h5">Your Progress</span>
-  <span class="right">9 of 12 Completed</span>
-</label>
-<progress max="100" value="75" data-value="75">
-  <div class="progress-bar">
-      <span style="width: 75%;">Progress: 75%</span>
-  </div>
-</progress>
-{% endhighlight %}
+  {% endhighlight %}
 
 </div>
