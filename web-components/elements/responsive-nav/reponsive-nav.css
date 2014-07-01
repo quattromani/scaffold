@@ -1,0 +1,136 @@
+:host {
+  display: block;
+}
+
+nav {
+  background: white;
+}
+nav .container {
+  display: table;
+  width: 100%;
+}
+nav ul {
+  display: table-row;
+  width: 100%;
+  z-index: 9999;
+}
+nav ul li {
+  position: relative;
+  display: table-cell;
+  width: 14.28571%;
+}
+@media (min-width: 68.75em) {
+  nav ul li:hover ul {
+    position: absolute;
+    display: block;
+    width: auto;
+  }
+  nav ul li:hover ul li {
+    display: block;
+    min-width: 10.5em;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  nav ul li:hover ul li a {
+    display: block;
+    width: 100%;
+    padding-top: 0.25em;
+    padding-right: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+  nav ul li:hover ul li a:hover {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+nav ul li:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+nav ul li a {
+  display: table-cell;
+  padding-top: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  font-weight: 200;
+  vertical-align: middle;
+  color: white;
+}
+nav ul li a:hover {
+  color: white;
+}
+nav ul li.active {
+  background: rgba(0, 0, 0, 0.6);
+}
+nav ul li.active:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 1.75em;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -.75em;
+  border-color: rgba(0, 0, 0, 0.6) transparent transparent transparent;
+  border-style: solid;
+  border-width: .75em;
+  z-index: 9999;
+}
+@media (max-width: 62em) {
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+  nav ul li:hover ul {
+    display: none;
+  }
+  nav ul li ul.hidden {
+    display: block;
+  }
+  nav ul li ul.hidden li {
+    padding-left: 1em;
+  }
+}
+@media (max-width: 62em) {
+  nav ul {
+    position: static;
+    display: none;
+  }
+}
+nav .show-menu {
+  display: none;
+  padding-top: 0.5em;
+  padding-right: 0;
+  padding-bottom: 0.5em;
+  padding-left: 0;
+  color: white;
+}
+@media (max-width: 62em) {
+  nav .show-menu {
+    display: block;
+  }
+}
+nav input[type=checkbox] {
+  display: none;
+}
+nav input[type=checkbox]:checked ~ .navigation {
+  display: block;
+  background: blue;
+}
+nav input[type=checkbox]:checked ~ .navigation li {
+  border-top: 1px solid #1a1aff;
+  background: #0000e6;
+}
+nav input[type=checkbox]:checked ~ .navigation li:first-child {
+  border: none;
+}
+nav input[type=checkbox]:checked ~ .navigation li li {
+  background: blue;
+}
+nav input[type=checkbox]:checked ~ .navigation > li.js-last {
+  margin-bottom: .5em;
+}

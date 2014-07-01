@@ -15,6 +15,7 @@
 .progress-bar span {
   position: relative;
   display: block;
+  width: attr(value);
   height: .5em;
   background-color: $color-primary-red;
   text-indent: -9999px;

@@ -11,6 +11,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_includes/styleguide/progress/index.html",
+			"settings":
+			{
+				"buffer_size": 700,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,9 +96,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
+		"/Users/Q/Sites/scaffold/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/skeleton-app.html",
@@ -106,7 +116,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
@@ -117,7 +126,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
-		"/Users/Q/Sites/scaffold/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/SDLC/index.html",
@@ -310,8 +318,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_includes/styleguide/progress/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
