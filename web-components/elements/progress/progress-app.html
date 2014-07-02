@@ -1,10 +1,11 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 
 <polymer-element name="progress-app">
-	<template>
-    <link rel="stylesheet" href="../../../css/partials/progress.css">
-    <link rel="stylesheet" href="../../../css/partials/forms.css">
+<template>
+  <link rel="stylesheet" href="../../../css/partials/progress.css">
+  <link rel="stylesheet" href="../../../css/partials/forms.css">
 
+  <div class="progress-bar-element">
     <label>
       <span class="h5">{{ label }}</span>
       <span class="right">{{ step }} of {{ steps }} Completed</span>
@@ -12,14 +13,15 @@
     <div class="progress-bar">
       <span style="width: {{ value }}%;">Progress: {{ value }}%</span>
     </div>
+  </div>
 
-	</template>
-  <script>
-    Polymer('progress-app', {
-      label : 'Your Progress',
-      step : '9',
-      steps : '12',
-      value : '75'
-    });
-  </script>
+</template>
+<script>
+  Polymer('progress-app', {
+    label : 'Your Progress',
+    step : '9',
+    steps : '12',
+    value : '75'
+  });
+</script>
 </polymer-element>

@@ -11,14 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_includes/footer.html",
-			"settings":
-			{
-				"buffer_size": 336,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,23 +88,23 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
+		"/Users/Q/Sites/scaffold/css/partials/progress.css",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/responsive-nav.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/reponsive-nav.css",
 		"/Users/Q/Sites/scaffold/web-components/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/progress.css",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/skeleton-app.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/partials/layout.css",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
@@ -243,6 +235,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transf",
 			"label",
 			"footer.c",
 			"font-s",
@@ -318,40 +311,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_includes/footer.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
