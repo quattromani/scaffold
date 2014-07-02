@@ -5,13 +5,14 @@
 </div>
 
 <div class="box-column clear">
-
-  <label>
-    <span class="h5">{{ page.label }}</span>
-    <span class="right">{{ page.step }} of {{ page.steps }} Completed</span>
-  </label>
-  <div class="progress-bar">
-    <span style="width: {{ page.value }}%;">Progress: {{ page.value }}%</span>
+  <div class="progress-bar-element">
+    <label>
+      <span class="h5">{{ page.label }}</span>
+      <span class="right">{{ page.step }} of {{ page.steps }} Completed</span>
+    </label>
+    <div class="progress-bar">
+      <span style="width: {{ page.value }}%;">Progress: {{ page.value }}%</span>
+    </div>
   </div>
 
   {% highlight html %}
