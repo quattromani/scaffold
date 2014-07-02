@@ -4,50 +4,58 @@
 /* ==========================================================================
     Progress -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
+    .progress-bar-element {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 300px;
+      transform-origin: 100% 100%;
+      @include rotate(-90);
+      .progress-bar {
+        @include inline-block;
+        width: 100%;
+        height: .5em;
+        background: $color-light-grey;
+      }
 
-.progress-bar {
-  @include inline-block;
-  width: 100%;
-  height: .5em;
-  background: $color-light-grey;
-}
+      .progress-bar span {
+        position: relative;
+        display: block;
+        width: attr(value);
+        height: .5em;
+        background-color: $color-primary-red;
+        text-indent: -9999px;
 
-.progress-bar span {
-  position: relative;
-  display: block;
-  width: attr(value);
-  height: .5em;
-  background-color: $color-primary-red;
-  text-indent: -9999px;
+        &:after {
+          position: absolute;
+          content: '';
+          width: .25em;
+          height: 100%;
+          right: 0;
+          background: $color-white;
+          -webkit-animation: pulsate 1s ease-out infinite;
+          -moz-animation: pulsate 1s ease-out infinite;
+          animation: pulsate 1s ease-out infinite;
+          opacity: .5;
+        }
+      }
 
-  &:after {
-    position: absolute;
-    content: '';
-    width: .25em;
-    height: 100%;
-    right: 0;
-    background: $color-white;
-    -webkit-animation: pulsate 1s ease-out infinite;
-    -moz-animation: pulsate 1s ease-out infinite;
-    animation: pulsate 1s ease-out infinite;
-    opacity: .5;
-  }
-}
+      @-webkit-keyframes pulsate {
+        0% { opacity: .25; }
+        50% { opacity: .75; }
+        100% { opacity: .25; }
+      }
 
-@-webkit-keyframes pulsate {
-  0% { opacity: .25; }
-  50% { opacity: .75; }
-  100% { opacity: .25; }
-}
+      @-moz-keyframes pulsate {
+        0% { opacity: .25; }
+        50% { opacity: .75; }
+        100% { opacity: .25; }
+      }
 
-@-moz-keyframes pulsate {
-  0% { opacity: .25; }
-  50% { opacity: .75; }
-  100% { opacity: .25; }
-}
+      @keyframes pulsate {
+        0% { opacity: .25; }
+        50% { opacity: .75; }
+        100% { opacity: .25; }
+      }
 
-@keyframes pulsate {
-  0% { opacity: .25; }
-  50% { opacity: .75; }
-  100% { opacity: .25; }
-}
+    }

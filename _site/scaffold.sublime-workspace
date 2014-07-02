@@ -12,10 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": "_includes/styleguide/progress/index.html",
+			"file": "_includes/footer.html",
 			"settings":
 			{
-				"buffer_size": 700,
+				"buffer_size": 336,
 				"line_ending": "Unix"
 			}
 		}
@@ -96,6 +96,10 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/responsive-nav.html",
+		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/index.html",
+		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/reponsive-nav.css",
+		"/Users/Q/Sites/scaffold/web-components/index.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/styleguide/progress/index.html",
@@ -119,7 +123,6 @@
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/web-components/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
@@ -220,10 +223,7 @@
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/message-box.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/modals.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/modules.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/nav.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/pills.scss"
+		"/Users/Q/Sites/scaffold/_site/css/scss/partials/modals.scss"
 	],
 	"find":
 	{
@@ -323,11 +323,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/styleguide/progress/index.html",
+					"file": "_includes/footer.html",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 700,
+						"buffer_size": 336,
 						"regions":
 						{
 						},
@@ -343,9 +343,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -1,7 +1,19 @@
 /* ==========================================================================
     Progress -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
-.progress-bar {
+.progress-bar-element {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  transform-origin: 100% 100%;
+  will-change: transform;
+  transform: rotate(-90deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(-90), M12=-sin(-90), M21=sin(-90), M22=cos(-90))";
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(-90), M12=-sin(-90), M21=sin(-90), M22=cos(-90));
+  zoom: 1;
+}
+.progress-bar-element .progress-bar {
   display: inline-block;
   *zoom: 1;
   *display: inline;
@@ -9,8 +21,7 @@
   height: .5em;
   background: #cccccc;
 }
-
-.progress-bar span {
+.progress-bar-element .progress-bar span {
   position: relative;
   display: block;
   width: attr(value);
@@ -18,7 +29,7 @@
   background-color: #ef272d;
   text-indent: -9999px;
 }
-.progress-bar span:after {
+.progress-bar-element .progress-bar span:after {
   position: absolute;
   content: '';
   width: .25em;
@@ -30,43 +41,36 @@
   animation: pulsate 1s ease-out infinite;
   opacity: .5;
 }
-
 @-webkit-keyframes pulsate {
-  0% {
+  .progress-bar-element 0%  {
     opacity: .25;
   }
-
-  50% {
+  .progress-bar-element 50%  {
     opacity: .75;
   }
-
-  100% {
+  .progress-bar-element 100%  {
     opacity: .25;
   }
 }
 @-moz-keyframes pulsate {
-  0% {
+  .progress-bar-element 0%  {
     opacity: .25;
   }
-
-  50% {
+  .progress-bar-element 50%  {
     opacity: .75;
   }
-
-  100% {
+  .progress-bar-element 100%  {
     opacity: .25;
   }
 }
 @keyframes pulsate {
-  0% {
+  .progress-bar-element 0%  {
     opacity: .25;
   }
-
-  50% {
+  .progress-bar-element 50%  {
     opacity: .75;
   }
-
-  100% {
+  .progress-bar-element 100%  {
     opacity: .25;
   }
 }
