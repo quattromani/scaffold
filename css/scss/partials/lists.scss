@@ -99,6 +99,14 @@ ul {
   }
 }
 
+// Striped List Items
+
+.striped {
+  li:nth-child(odd) {
+    background-color: rgba($color-light-grey, .1);
+  }
+}
+
 // Definition List
 
 dt {

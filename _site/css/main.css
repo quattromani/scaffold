@@ -2162,6 +2162,9 @@ ul {
   .vertical.lined li.js-last {
     border-bottom: 0; }
 
+.striped li:nth-child(odd) {
+  background-color: rgba(204, 204, 204, 0.1); }
+
 dt {
   font-weight: bold; }
 
