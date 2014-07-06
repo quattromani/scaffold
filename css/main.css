@@ -2287,7 +2287,8 @@ button,
   .cta.disabled {
     cursor: default;
     background: #cccccc;
-    color: #5b5b5b; }
+    color: #5b5b5b;
+    pointer-events: none; }
     .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
     .button:disabled:hover,
     .button:disabled:active,

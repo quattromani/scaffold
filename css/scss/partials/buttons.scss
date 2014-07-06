@@ -85,6 +85,7 @@ button,
     cursor: default;
     background: $color-light-grey;
     color: $text-grey;
+    pointer-events: none;
 
     &:hover,
     &:active {
