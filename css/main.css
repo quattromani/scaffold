@@ -2917,7 +2917,11 @@ img {
   display: inherit;
   max-width: 100%;
   height: auto;
-  border: 0; }
+  border: 0;
+  font-style: italics;
+  color: #c00; }
+  img:after {
+    content: " (image)"; }
 
 figure {
   position: relative;

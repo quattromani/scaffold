@@ -11,14 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_includes/patterns/lists/index.html",
-			"settings":
-			{
-				"buffer_size": 6024,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,6 +88,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/css/main.css",
+		"/Users/Q/Sites/scaffold/_includes/patterns/lists/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
@@ -121,12 +116,10 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
@@ -222,8 +215,7 @@
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/glglyphs.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/lists.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/message-box.scss"
+		"/Users/Q/Sites/scaffold/_site/css/scss/partials/lists.scss"
 	],
 	"find":
 	{
@@ -243,6 +235,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"disab",
 			"transf",
 			"label",
 			"footer.c",
@@ -319,42 +312,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_includes/patterns/lists/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6024,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4915,
-								4915
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2013.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
