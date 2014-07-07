@@ -1,0 +1,5 @@
+# robots.txt for http://www.########.com/
+
+User-agent: *
+Disallow: /Gruntfile.js
+Disallow: /########.sublime-project
