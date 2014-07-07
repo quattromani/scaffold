@@ -1,0 +1,10 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Drag & Drop -- Version: 0.2.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    .drop {
+      border: 2px dotted $color-grey;
+    }
