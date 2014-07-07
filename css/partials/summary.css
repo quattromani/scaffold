@@ -19,6 +19,7 @@ summary {
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  width: 100%;
   background: #5b5b5b;
   color: white;
   padding-top: 0.5em;

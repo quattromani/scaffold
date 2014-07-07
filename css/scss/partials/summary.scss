@@ -16,6 +16,7 @@
 
     summary {
       @include inline-block;
+      width: 100%;
       background: $color-grey;
       color: $color-white;
       @include padding(.5em, 1em);
