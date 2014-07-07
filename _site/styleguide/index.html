@@ -44,7 +44,7 @@
 
 <hr>
 
-    <p>Version: 0.2.2 -- Updated: 2014-07-07 08:14:16 -0600</p>
+    <p>Version: 0.2.2 -- Updated: 2014-07-07 09:02:56 -0600</p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->
@@ -2522,24 +2522,40 @@
 
 </div>
 
-<span id="drop-anchor" class="h2 jumpTo-anchor">Drop</span>
+<span id="drop-anchor" class="h2 jumpTo-anchor">Drag &amp; Drop</span>
 
 <div class="right">
   <a class="btn btn-primary" href="drop">Isolate</a>
 </div>
 
 <div class="box-column clear">
-  <div id="drop1" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <img src="http://www.w3schools.com/html/img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+  <div id="holder">
   </div>
+  <p id="upload" class="hidden">
+    <label>Drag & drop not supported, but you can still upload via this input field:<br>
+      <input type="file">
+    </label>
+  </p>
+  <p id="filereader">File API & FileReader API not supported</p>
+  <p id="formdata">XHR2's FormData is not supported</p>
+  <p id="progress">XHR2's upload progress isn't supported</p>
 
-  <div id="drop2" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <p>Upload progress: <progress id="uploadprogress" min="0" max="100" value="0">0</progress></p>
+  <p>Drag an image from your desktop on to the drop zone above to see the browser both render the preview, but also upload automatically to this server.</p>
 
-<div class="highlight"><pre><code class="html">&lt;div id=&quot;div1&quot; ondrop=&quot;drop(event)&quot; ondragover=&quot;allowDrop(event)&quot;&gt;
-  &lt;img src=&quot;img_w3slogo.gif&quot; draggable=&quot;true&quot; ondragstart=&quot;drag(event)&quot; id=&quot;drag1&quot; width=&quot;88&quot; height=&quot;31&quot;&gt;
+<div class="highlight"><pre><code class="html">&lt;div id=&quot;holder&quot;&gt;
 &lt;/div&gt;
+&lt;p id=&quot;upload&quot; class=&quot;hidden&quot;&gt;
+  &lt;label&gt;Drag &amp; drop not supported, but you can still upload via this input field:&lt;br&gt;
+    &lt;input type=&quot;file&quot;&gt;
+  &lt;/label&gt;
+&lt;/p&gt;
+&lt;p id=&quot;filereader&quot;&gt;File API &amp; FileReader API not supported&lt;/p&gt;
+&lt;p id=&quot;formdata&quot;&gt;XHR2&#39;s FormData is not supported&lt;/p&gt;
+&lt;p id=&quot;progress&quot;&gt;XHR2&#39;s upload progress isn&#39;t supported&lt;/p&gt;
 
-&lt;div id=&quot;div2&quot; ondrop=&quot;drop(event)&quot; ondragover=&quot;allowDrop(event)&quot;&gt;&lt;/div&gt;</code></pre></div>
+&lt;p&gt;Upload progress: &lt;progress id=&quot;uploadprogress&quot; min=&quot;0&quot; max=&quot;100&quot; value=&quot;0&quot;&gt;0&lt;/progress&gt;&lt;/p&gt;
+&lt;p&gt;Drag an image from your desktop on to the drop zone above to see the browser both render the preview, but also upload automatically to this server.&lt;/p&gt;</code></pre></div>
 
 </div>
 

@@ -1,6 +1,37 @@
 /* ==========================================================================
     Drag & Drop -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
-.drop {
-  border: 2px dotted #5b5b5b;
+#holder {
+  border: 3px dashed #cccccc;
+  width: 300px;
+  min-height: 300px;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+}
+#holder.hover {
+  border: 10px dashed #0c0;
+}
+#holder img {
+  display: block;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+}
+#holder p {
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.fail {
+  background: #ef272d;
+  padding-top: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.2em;
+  color: white;
 }

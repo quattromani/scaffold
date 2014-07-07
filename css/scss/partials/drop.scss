@@ -5,6 +5,28 @@
     Drag & Drop -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    .drop {
-      border: 2px dotted $color-grey;
+    #holder {
+      border: 3px dashed $color-light-grey;
+      width: 300px;
+      min-height: 300px;
+      @include margin(2em, auto);
+
+      &.hover {
+        border: 10px dashed #0c0;
+      }
+
+      img {
+        display: block;
+        @include margin(1em, auto);
+      }
+
+      p {
+        @include margin(1em);
+      }
     }
+
+  .fail {
+    background: $color-primary-red;
+    @include padding(.2em);
+    color: $color-white;
+  }

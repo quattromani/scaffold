@@ -1,22 +1,38 @@
-<span id="drop-anchor" class="h2 jumpTo-anchor">Drop</span>
+<span id="drop-anchor" class="h2 jumpTo-anchor">Drag &amp; Drop</span>
 
 <div class="right">
   <a class="btn btn-primary" href="drop">Isolate</a>
 </div>
 
 <div class="box-column clear">
-  <div id="drop1" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <img src="http://www.w3schools.com/html/img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+  <div id="holder">
   </div>
+  <p id="upload" class="hidden">
+    <label>Drag & drop not supported, but you can still upload via this input field:<br>
+      <input type="file">
+    </label>
+  </p>
+  <p id="filereader">File API & FileReader API not supported</p>
+  <p id="formdata">XHR2's FormData is not supported</p>
+  <p id="progress">XHR2's upload progress isn't supported</p>
 
-  <div id="drop2" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <p>Upload progress: <progress id="uploadprogress" min="0" max="100" value="0">0</progress></p>
+  <p>Drag an image from your desktop on to the drop zone above to see the browser both render the preview, but also upload automatically to this server.</p>
 
 {% highlight html %}
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+<div id="holder">
 </div>
+<p id="upload" class="hidden">
+  <label>Drag & drop not supported, but you can still upload via this input field:<br>
+    <input type="file">
+  </label>
+</p>
+<p id="filereader">File API & FileReader API not supported</p>
+<p id="formdata">XHR2's FormData is not supported</p>
+<p id="progress">XHR2's upload progress isn't supported</p>
 
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<p>Upload progress: <progress id="uploadprogress" min="0" max="100" value="0">0</progress></p>
+<p>Drag an image from your desktop on to the drop zone above to see the browser both render the preview, but also upload automatically to this server.</p>
 {% endhighlight %}
 
 </div>

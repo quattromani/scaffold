@@ -88,11 +88,16 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/drop/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/styleguide/index.html",
+		"/Users/Q/Sites/scaffold/js/drop.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/css/partials/modules.css",
 		"/Users/Q/Sites/scaffold/css/partials/summary.css",
 		"/Users/Q/Sites/scaffold/styleguide/patterns/index.html",
@@ -133,7 +138,6 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
-		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/SDLC/index.html",
@@ -211,11 +215,7 @@
 		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-flex-layout/index.html",
 		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-jsonp/index.html",
 		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selection/index.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selector/index.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-ui-tabs/index.html",
-		"/Users/Q/Sites/scaffold/web-components/css/accessibility.css",
-		"/Users/Q/Sites/scaffold/web-components/css/auto-complete.css",
-		"/Users/Q/Sites/scaffold/web-components/css/helpers.css"
+		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selector/index.html"
 	],
 	"find":
 	{
