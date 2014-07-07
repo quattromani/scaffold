@@ -1,0 +1,22 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Summary -- Version: 0.2.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    details {
+      @include margin(1em, 0);
+      background: lighten($color-light-grey, 5%);
+
+      p {
+        @include padding(1em);
+      }
+    }
+
+    summary {
+      background: $color-grey;
+      color: $color-white;
+      @include padding(.5em, 1em);
+      outline: none;
+    }

@@ -88,6 +88,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/styleguide/audio/index.html",
+		"/Users/Q/Sites/scaffold/404.html",
+		"/Users/Q/Sites/scaffold/.htaccess",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/partials/images.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
@@ -212,10 +215,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/theme/_nav-theme.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/colors.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/forms.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/glglyphs.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/images.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/layout.scss"
+		"/Users/Q/Sites/scaffold/_site/css/scss/partials/forms.scss"
 	],
 	"find":
 	{

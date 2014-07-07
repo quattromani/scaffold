@@ -2172,6 +2172,30 @@ dd {
   margin-left: 1em; }
 
 /* ==========================================================================
+    Summary -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+details {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  background: #d9d9d9; }
+  details p {
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em; }
+
+summary {
+  background: #5b5b5b;
+  color: white;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  outline: none; }
+
+/* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: timestamp()
    ========================================================================== */
 .btn,
@@ -2287,7 +2311,8 @@ button,
   .cta.disabled {
     cursor: default;
     background: #cccccc;
-    color: #5b5b5b; }
+    color: #5b5b5b;
+    pointer-events: none; }
     .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
     .button:disabled:hover,
     .button:disabled:active,
@@ -2916,7 +2941,11 @@ img {
   display: inherit;
   max-width: 100%;
   height: auto;
-  border: 0; }
+  border: 0;
+  font-style: italics;
+  color: #c00; }
+  img:after {
+    content: " (image)"; }
 
 figure {
   position: relative;
