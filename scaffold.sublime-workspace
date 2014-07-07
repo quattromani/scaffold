@@ -88,6 +88,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/css/partials/images.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/lists/index.html",
@@ -112,7 +114,6 @@
 		"/Users/Q/Sites/scaffold/css/partials/layout.css",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
@@ -214,8 +215,7 @@
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/glglyphs.scss",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/images.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/_site/css/scss/partials/lists.scss"
+		"/Users/Q/Sites/scaffold/_site/css/scss/partials/layout.scss"
 	],
 	"find":
 	{
