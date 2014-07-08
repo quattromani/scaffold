@@ -67,7 +67,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 647.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -88,6 +88,12 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
+		"/Users/Q/Sites/scaffold/css/partials/summary.css",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/print.scss",
 		"/Users/Q/Sites/scaffold/js/drop.js",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/drop/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
@@ -96,11 +102,8 @@
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/patterns/summary/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
-		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/modules.css",
-		"/Users/Q/Sites/scaffold/css/partials/summary.css",
 		"/Users/Q/Sites/scaffold/styleguide/patterns/index.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/audio/index.html",
 		"/Users/Q/Sites/scaffold/404.html",
@@ -132,7 +135,6 @@
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
@@ -161,7 +163,6 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jasmine/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/js/buttons.js",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
@@ -214,8 +215,7 @@
 		"/Users/Q/Sites/scaffold/web-components/bower_components/core-component-page/core-component-page.html",
 		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-flex-layout/index.html",
 		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-jsonp/index.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selection/index.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selector/index.html"
+		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selection/index.html"
 	],
 	"find":
 	{
@@ -235,6 +235,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transf",
+			"yellow",
 			"holder",
 			"disab",
 			"transf",
