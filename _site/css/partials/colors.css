@@ -14,7 +14,7 @@
 }
 
 .color-light-grey {
-  background: #cccccc;
+  background: #dfe1e9;
 }
 
 .color-primary-red {
@@ -22,11 +22,11 @@
 }
 
 .color-primary-green {
-  background: #c8ed8d;
+  background: #3eb633;
 }
 
 .color-primary-blue {
-  background: #0088cc;
+  background: #0099ed;
 }
 
 .color-primary-yellow {
@@ -34,19 +34,19 @@
 }
 
 .color-secondary-red {
-  background: #9b0d10;
+  background: #fad2c3;
 }
 
 .color-secondary-green {
-  background: #719a2e;
+  background: #b2f2ac;
 }
 
 .color-secondary-blue {
-  background: #005580;
+  background: #cee6f7;
 }
 
 .color-secondary-yellow {
-  background: #ead406;
+  background: #fcef9d;
 }
 
 .text {
@@ -62,15 +62,15 @@
 }
 
 .color-error {
-  background: #ef272d;
+  background: #fad2c3;
 }
 
 .color-info {
-  background: #0088cc;
+  background: #0099ed;
 }
 
 .color-success {
-  background: #719a2e;
+  background: #b2f2ac;
 }
 
 .link {
@@ -82,7 +82,7 @@
 }
 
 .text-light-grey {
-  color: #cccccc;
+  color: #dfe1e9;
 }
 
 .text-link {
@@ -94,7 +94,7 @@
 }
 
 .text-info {
-  color: #0088cc;
+  color: #0099ed;
 }
 
 .text-muted,
@@ -104,17 +104,17 @@
 
 .text-warning,
 .text-error {
-  color: #ef272d;
+  color: #fad2c3;
 }
 
 .error,
 .is-error {
-  background: #f89ea0;
-  color: #ef272d;
+  background: white;
+  color: #fad2c3;
 }
 
 .text-success {
-  color: #719a2e;
+  color: #b2f2ac;
 }
 
 .ie9 .gradient {

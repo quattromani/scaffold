@@ -23,7 +23,7 @@ progress {
   *display: inline;
   width: 100%;
   height: .5em;
-  background: #cccccc;
+  background: #dfe1e9;
 }
 .progress-bar-element .progress-bar span {
   position: relative;

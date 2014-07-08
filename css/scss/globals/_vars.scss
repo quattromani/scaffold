@@ -29,16 +29,16 @@ $color-white: #fff;
 $color-off-white: #f2f2f2;
 $color-black: #000;
 $color-grey: #5b5b5b;
-$color-light-grey: #ccc;
+$color-light-grey: #dfe1e9;
 
 $color-primary-red: #ef272d;
-$color-secondary-red: #9b0d10;
-$color-primary-green: #c8ed8d;
-$color-secondary-green: #719a2e;
-$color-primary-blue: #08c;
-$color-secondary-blue: #005580;
+$color-secondary-red: #fad2c3;
+$color-primary-green: #3eb633;
+$color-secondary-green: #b2f2ac;
+$color-primary-blue: #0099ed;
+$color-secondary-blue: #cee6f7;
 $color-primary-yellow: #fae843;
-$color-secondary-yellow: #fae843;
+$color-secondary-yellow: #fcef9d;
 
 $color-dark-grey: #5b5b5b;
 $color-light-light-grey: #f5f5f5;
@@ -52,7 +52,7 @@ $text-grey: $color-grey;
 $text-light-grey: $color-light-grey;
 $text-link: $link;
 $text-white: $color-white;
-$text-error: $color-primary-red;
+$text-error: $color-secondary-red;
 $text-success: $color-secondary-green;
 $text-info: $color-primary-blue;
 

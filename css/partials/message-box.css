@@ -33,10 +33,10 @@
 }
 
 .message-valid {
-  color: #719a2e;
+  color: #b2f2ac;
 }
 .message-valid:before {
-  background: #a5cf5f;
+  background: white;
   content: "\43";
 }
 
@@ -58,9 +58,9 @@
   }
 }
 .info-box {
-  border-left: 0.3em solid #0088cc;
-  background: #cceeff;
-  color: #0088cc;
+  border-left: 0.3em solid #0099ed;
+  background: #edf9ff;
+  color: #0099ed;
 }
 
 .error-box {
@@ -70,7 +70,7 @@
 }
 
 .valid-box {
-  border-left: 0.3em solid #719a2e;
-  background: #f3fbe5;
-  color: #719a2e;
+  border-left: 0.3em solid #b2f2ac;
+  background: #7fd976;
+  color: #b2f2ac;
 }

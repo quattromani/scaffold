@@ -1033,7 +1033,7 @@
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  border: 1px solid #cccccc;
+  border: 1px solid #dfe1e9;
   background: whitesmoke;
 }
 .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {

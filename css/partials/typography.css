@@ -103,7 +103,7 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  color: #9b0d10;
+  color: #fad2c3;
 }
 
 /* ==========================
@@ -313,12 +313,12 @@ pre {
 kbd,
 samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-  color: #c8ed8d;
+  color: #3eb633;
 }
 
 .valid,
 .is-valid {
-  color: #c8ed8d;
+  color: #3eb633;
 }
 
 .code-comment {

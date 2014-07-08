@@ -48,7 +48,7 @@ figcaption {
 }
 
 .image-bordered {
-  border: 0.5em solid #cccccc;
+  border: 0.5em solid #dfe1e9;
 }
 
 [class*='image-focus-'] {

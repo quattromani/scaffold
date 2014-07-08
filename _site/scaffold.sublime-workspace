@@ -88,12 +88,13 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
+		"/Users/Q/Sites/scaffold/js/drop.js",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/drop/index.html",
+		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
-		"/Users/Q/Sites/scaffold/js/drop.js",
-		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
@@ -112,7 +113,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/responsive-nav.html",
@@ -235,6 +235,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"holder",
 			"disab",
 			"transf",
 			"label",
