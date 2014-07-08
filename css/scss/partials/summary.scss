@@ -3,7 +3,7 @@
 
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
     details {
       @include margin(1em, 0);
@@ -12,13 +12,31 @@
       p {
         @include padding(1em);
       }
-    }
 
-    summary {
-      @include inline-block;
-      width: 100%;
-      background: $color-grey;
-      color: $color-white;
-      @include padding(.5em, 1em);
-      outline: none;
+      summary {
+        @include inline-block;
+        width: 100%;
+        @include padding(.5em);
+        background: $color-grey;
+        outline: none;
+        color: $color-white;
+
+        // Hide the Default Marker
+        &::-webkit-details-marker {
+          display: none;
+        }
+
+        &:before {
+          display: inline-block;
+          width: 1em;
+          height: 1em;
+          margin-right: .5em;
+          content: "\f078";
+          @include font-family($fontawesome);
+        }
+      }
+
+      &[open] summary:before {
+        content: "\f077";
+      }
     }

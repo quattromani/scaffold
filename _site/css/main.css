@@ -2173,7 +2173,7 @@ dd {
 
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 details {
   margin-top: 1em;
   margin-right: 0;
@@ -2185,19 +2185,31 @@ details {
     padding-right: 1em;
     padding-bottom: 1em;
     padding-left: 1em; }
-
-summary {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  width: 100%;
-  background: #5b5b5b;
-  color: white;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  outline: none; }
+  details summary {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    background: #5b5b5b;
+    outline: none;
+    color: white; }
+    details summary::-webkit-details-marker {
+      display: none; }
+    details summary:before {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      margin-right: .5em;
+      content: "\f078";
+      font-family: "FontAwesome", Arial, Sans-Serif;
+      font-style: normal;
+      font-weight: normal; }
+  details[open] summary:before {
+    content: "\f077"; }
 
 /* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: timestamp()
