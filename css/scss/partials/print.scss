@@ -2,59 +2,68 @@
 @import '../globals/allGlobals';
 
 /* ==========================================================================
-    Print -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+    Print -- Version: 0.2.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
-* {
-  box-shadow: none !important;
-  text-shadow: none !important;
-}
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
 
-.container {
-  max-width: 670px;
-}
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
 
-a,
-a:visited {
-  text-decoration: underline;
-}
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
 
-a[href]:after {
-  content: '(" attr(href) ")';
-}
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
 
-abbr[title]:after {
-  content: '(" attr(title) ")';
-}
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
 
-a[href^="javascript:"]:after,
-a[href^="#"]:after {
-  content: '';
-}
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
 
-tr,
-img {
-  page-break-inside: avoid;
-}
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
 
-img {
-  max-width: 100% !important;
-}
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
 
-p,
-h2,
-h3 {
-  orphans: 3;
-  widows: 3;
-}
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
 
-h2,
-h3 {
-  page-break-after: avoid;
-}
+    img {
+        max-width: 100% !important;
+    }
 
-.loadtime,
-.fold,
-footer {
-  display: none !important;
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
 }
