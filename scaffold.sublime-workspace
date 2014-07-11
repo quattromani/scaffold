@@ -88,6 +88,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
+		"/Users/Q/Sites/scaffold/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
 		"/Users/Q/Sites/scaffold/css/partials/summary.css",
@@ -213,9 +215,7 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/themes/default/assets/css/main.css",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/themes/simple/assets/css/main.css",
 		"/Users/Q/Sites/scaffold/web-components/bower_components/core-component-page/core-component-page.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-flex-layout/index.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-jsonp/index.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-selection/index.html"
+		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-flex-layout/index.html"
 	],
 	"find":
 	{

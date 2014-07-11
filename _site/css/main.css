@@ -2768,7 +2768,7 @@ label + .pill,
 
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 input,
 textarea,
 label,
@@ -2864,8 +2864,20 @@ input::-webkit-datetime-edit-fields-wrapper {
 select,
 datalist,
 input::-webkit-inner-spin-button {
+  appearance: none;
   -webkit-appearance: none; }
 
+select {
+  border: none;
+  background: none; }
+
+@-moz-document url-prefix() {
+  select {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    -moz-appearance: window; } }
 ::-webkit-input-placeholder {
   color: #dfe1e9;
   font-weight: 100; }
@@ -2952,6 +2964,23 @@ input.radio:checked ~ label:before {
 
 input.switch:checked ~ label:after {
   margin-left: 1.375em; }
+
+.select {
+  position: relative;
+  display: block;
+  border: 1px solid #dfe1e9; }
+
+.select::after {
+  background: none;
+  color: #dfe1e9;
+  content: "\25BC";
+  padding: 0;
+  position: absolute;
+  right: .5em;
+  top: 50%;
+  margin-top: -.7em;
+  z-index: 1;
+  pointer-events: none; }
 
 /* ==========================================================================
     Drag & Drop -- Version: 0.2.1 - Compiled: timestamp()

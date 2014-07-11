@@ -3,106 +3,119 @@
 
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-input,
-textarea,
-label,
-select {
-  @include font-size(16);
-  vertical-align: baseline;
-}
-
-input[type]:not([type=range]),
-textarea,
-select {
-  width: 100%;
-  max-width: 100%;
-  @include padding(.35em, .5em);
-  @include margin;
-  border: 1px solid $color-light-grey;
-  outline: none;
-  @include border-radius;
-  font-weight: 300;
-  @include transition(all, .2s, ease-in-out);
-
-  &[type='search'] {
-    padding-left: 2em;
-    background: url('/scaffold/images/iconmonstr-magnifier-5-icon-48.png') no-repeat left center;
-    background-size: 1em;
-    background-position: .5em;
-
-    &::-webkit-search-decoration,
-    &::-webkit-search-cancel-button,
-    &::-webkit-datetime-edit-fields-wrapper {
-      -webkit-appearance: none;
+    input,
+    textarea,
+    label,
+    select {
+      @include font-size(16);
+      vertical-align: baseline;
     }
-  }
 
-  &[type="radio"],
-  &[type="checkbox"] {
-    float: left;
-    @include margin(.25em, .5em, 1em, .1em);
-  }
-
-  &:focus {
-    @include box-shadow(inset .3em 0 0 0 rgba($form-focus, .75));
-  }
-}
-
-input {
-  &[type="checkbox"],
-  &[type="radio"] {
-    width: auto;
-    @include padding;
-    border: 0;
-
-    &:focus {
+    input[type]:not([type=range]),
+    textarea,
+    select {
+      width: 100%;
+      max-width: 100%;
+      @include padding(.35em, .5em);
+      @include margin;
+      border: 1px solid $color-light-grey;
       outline: none;
-      @include box-shadow(none);
-    }
-  }
-  &[type="range"] {
-    width: 100%;
-    height: .5em;
-    border: none;
-    outline: none;
-    -webkit-appearance: none;
-    background-color: $color-light-grey;
+      @include border-radius;
+      font-weight: 300;
+      @include transition(all, .2s, ease-in-out);
 
-    &::-webkit-slider-thumb {
+      &[type='search'] {
+        padding-left: 2em;
+        background: url('/scaffold/images/iconmonstr-magnifier-5-icon-48.png') no-repeat left center;
+        background-size: 1em;
+        background-position: .5em;
+
+        &::-webkit-search-decoration,
+        &::-webkit-search-cancel-button,
+        &::-webkit-datetime-edit-fields-wrapper {
+          -webkit-appearance: none;
+        }
+      }
+
+      &[type="radio"],
+      &[type="checkbox"] {
+        float: left;
+        @include margin(.25em, .5em, 1em, .1em);
+      }
+
+      &:focus {
+        @include box-shadow(inset .3em 0 0 0 rgba($form-focus, .75));
+      }
+    }
+
+    input {
+      &[type="checkbox"],
+      &[type="radio"] {
+        width: auto;
+        @include padding;
+        border: 0;
+
+        &:focus {
+          outline: none;
+          @include box-shadow(none);
+        }
+      }
+      &[type="range"] {
+        width: 100%;
+        height: .5em;
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        background-color: $color-light-grey;
+
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          @include border-radius(100%);
+          background-color: $color-grey;
+          width: 1em;
+          height: 1em;
+        }
+      }
+    }
+
+    input::-webkit-datetime-edit-fields-wrapper {
+      font-family: $base-font;
+    }
+
+    select,
+    datalist,
+    input::-webkit-inner-spin-button {
+      appearance: none;
       -webkit-appearance: none;
-      @include border-radius(100%);
-      background-color: $color-grey;
-      width: 1em;
-      height: 1em;
     }
+
+    select {
+      border: none;
+      background: none;
+    }
+
+    @-moz-document url-prefix() {
+      select {
+        @include padding(.5em);
+        -moz-appearance: window;
+      }
+    }
+
+   @include placeholder {
+    color: $text-light-grey;
+    font-weight: 100;
   }
-}
 
-input::-webkit-datetime-edit-fields-wrapper {
-  font-family: $base-font;
-}
+  .formitem {
+    float: left;
+    width: 100%;
+  }
 
-select,
-datalist,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-@include placeholder {
-  color: $text-light-grey;
-  font-weight: 100;
-}
-
-.formitem {
-  float: left;
-  width: 100%;
-}
-
-.required:after {
-  content: '*';
-}
+  .required:after {
+    content: '*';
+  }
 
 // Honeypot
 #fillit {
@@ -173,4 +186,23 @@ input.radio:checked ~ label:before {
 
 input.switch:checked ~ label:after {
   margin-left: 1.375em;
+}
+
+.select{
+  position: relative;
+  display: block;
+  border: 1px solid $color-light-grey;
+}
+
+.select::after {
+  background: none;
+  color: $form-focus;
+  content: "\25BC";
+  padding:0;
+  position: absolute;
+  right: .5em;
+  top: 50%;
+  margin-top: -.7em;
+  z-index: 1;
+  pointer-events:none;
 }

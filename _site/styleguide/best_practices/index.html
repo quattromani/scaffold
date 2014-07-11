@@ -71,7 +71,7 @@
         <h5>HTML5 doctype</h5>
 
         <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
-<div class="highlight"><pre><code class="html">&lt;!DOCTYPE html&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;</code></pre></div>
       </li>
       <li>
         <div class="bulleted">
@@ -125,7 +125,7 @@
           </ul>
         </div>
 
-<div class="highlight"><pre><code class="html">&lt;!-- Component Name --&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;!-- Component Name --&gt;
 &lt;div class=&quot;componentName&quot;&gt;
   ...
 &lt;/div&gt;
@@ -168,7 +168,7 @@
           <li>Other</li>
         </ol>
 
-<div class="highlight"><pre><code class="css">.someDiv { color: #222; }
+<div class="highlight"><pre><code class="language-css" data-lang="css">.someDiv { color: #222; }
 
 .someOtherDiv,
 .someAdditional Div {
@@ -182,7 +182,7 @@
 
       <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding</p>
 
-<div class="highlight"><pre><code class="css">.print {
+<div class="highlight"><pre><code class="language-css" data-lang="css">.print {
   display: block;
   margin: 0;
   padding: 0 7px;
@@ -197,11 +197,11 @@
   <li>
     <p>Avoid Qualifying ID and class names with type selectors</p>
 
-<div class="highlight"><pre><code class="css">// this is bad
+<div class="highlight"><pre><code class="language-css" data-lang="css">// this is bad
 ul#example { color: #ff0; }
 div.error { color: red; }</code></pre></div>
 
-<div class="highlight"><pre><code class="css">// this is good
+<div class="highlight"><pre><code class="language-css" data-lang="css">// this is good
 .example { color: #0f0; }
 .error { color: green; }</code></pre></div>
 
@@ -212,9 +212,9 @@ div.error { color: red; }</code></pre></div>
 
     <p>For color values that permit, 3 character hexadecimal is preferred</p>
 
-<div class="highlight"><pre><code class="css">/* not recommended */
+<div class="highlight"><pre><code class="language-css" data-lang="css">/* not recommended */
 color: #00ff00;</code></pre></div>
-<div class="highlight"><pre><code class="css">/* recommended */
+<div class="highlight"><pre><code class="language-css" data-lang="css">/* recommended */
 color: #0f0;</code></pre></div>
 
   </li>
@@ -233,7 +233,7 @@ color: #0f0;</code></pre></div>
   <li>
     <h5>Use the SMACSS Approach</h5>
 
-<div class="highlight"><pre><code class="css">.componentName {
+<div class="highlight"><pre><code class="language-css" data-lang="css">.componentName {
 
   Base {
   ...
@@ -261,20 +261,20 @@ color: #0f0;</code></pre></div>
 <li>
   <h5>Commenting</h5>
 
-<div class="highlight"><pre><code class="html">// File headers are commented thusly:
+<div class="highlight"><pre><code class="language-html" data-lang="html">// File headers are commented thusly:
 
 /* ==========================================================================
     Component Name -- Version: 1.0.0.0 - Updated: MM/DD/YYYY
    ========================================================================== */</code></pre></div>
 
-<div class="highlight"><pre><code class="html">// Section chunks get styled as such:
+<div class="highlight"><pre><code class="language-html" data-lang="html">// Section chunks get styled as such:
 /*
 * Chunk of long
 * text gets commented
 * like this
 */</code></pre></div>
 
-<div class="highlight"><pre><code class="html">// Hints get styled like this:
+<div class="highlight"><pre><code class="language-html" data-lang="html">// Hints get styled like this:
 /* Hint */</code></pre></div>
 
 </li>
@@ -303,7 +303,7 @@ color: #0f0;</code></pre></div>
         </ul>
       </div>
 
-<div class="highlight"><pre><code class="html">sass/
+<div class="highlight"><pre><code class="language-html" data-lang="html">sass/
 ├── main.scss
 ├── globals/
 |   ├── _mixins.scss
@@ -325,7 +325,7 @@ color: #0f0;</code></pre></div>
       <p>The main.scss file serves as a "table of contents" and the @import directives should be listed with vendor dependencies first, then author dependencies and core stylesheets, then components.</p>
       <p>Organize the components imports in a manner that makes sense, in other words, group components with the component they extend or inherit from.</p>
 
-<div class="highlight"><pre><code class="scss">/* Mixins and Variables */
+<div class="highlight"><pre><code class="language-scss" data-lang="scss">/* Mixins and Variables */
 // All globals are combined in allModules.scss to reduce the nuber of updates necessary to add new files
 @import &quot;global/allModules&quot;;
 
@@ -481,23 +481,23 @@ color: #0f0;</code></pre></div>
 
       <p>banner - typically the "header" of the page</p>
 
-<div class="highlight"><pre><code class="html">&lt;header role=&quot;banner&quot; class=&quot;header&quot;&gt;&lt;/header&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;header role=&quot;banner&quot; class=&quot;header&quot;&gt;&lt;/header&gt;</code></pre></div>
 
 <p>navigation - any navigation list, typically the nav element</p>
 
-<div class="highlight"><pre><code class="html">&lt;nav role=&quot;navigation&quot; class=&quot;nav&quot;&gt;&lt;/nav&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;nav role=&quot;navigation&quot; class=&quot;nav&quot;&gt;&lt;/nav&gt;</code></pre></div>
 
 <p>main - the main content area</p>
 
-<div class="highlight"><pre><code class="html">&lt;section role=&quot;main&quot; class=&quot;main&quot;&gt;&lt;/main&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;section role=&quot;main&quot; class=&quot;main&quot;&gt;&lt;/main&gt;</code></pre></div>
 
   <p>complimentary - information that is tangentially related to the main content</p>
 
-<div class="highlight"><pre><code class="html">&lt;aside role=&quot;complimentary&quot; class=&quot;aside&quot;&gt;&lt;/aside&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;aside role=&quot;complimentary&quot; class=&quot;aside&quot;&gt;&lt;/aside&gt;</code></pre></div>
 
   <p>contentinfo - contains information about the parent document such as copyrights and privacy statements</p>
 
-<div class="highlight"><pre><code class="html">&lt;footer role=&quot;contentinfo&quot; class=&quot;footer&quot;&gt;&lt;/footer&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;footer role=&quot;contentinfo&quot; class=&quot;footer&quot;&gt;&lt;/footer&gt;</code></pre></div>
 
       </li>
       <li>
