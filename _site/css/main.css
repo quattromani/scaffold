@@ -2870,6 +2870,8 @@ input::-webkit-inner-spin-button {
 select {
   border: none;
   background: none; }
+  select::-ms-expand {
+    display: none; }
 
 @-moz-document url-prefix() {
   select {
