@@ -2737,6 +2737,13 @@ label + .pill,
   background-clip: padding-box;
   background: #f0f2f5; }
 
+/* ==========================================================================
+    Carousel -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+.carousel .slick-dots li button:before {
+  font-size: 12px;
+  font-size: 1.2rem; }
+
 /* ===========================================================================================
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()
    =========================================================================================== */
@@ -3083,6 +3090,32 @@ figcaption {
 
 .ie9 svg:not(:root) {
   overflow: hidden; }
+
+/* ==========================================================================
+    Image Content Panels -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+.image-content-panel {
+  position: relative;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: white; }
+  .image-content-panel .feature {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    background: rgba(0, 0, 0, 0.35); }
+    .ie .image-content-panel .feature {
+      background: transparent;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#59000000, endColorstr=#59000000)";
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#59000000,endColorstr=#59000000);
+      zoom: 1; }
 
 /* ==========================================================================
     Videos -- Version: 0.4.0.1 - Compiled: timestamp()
