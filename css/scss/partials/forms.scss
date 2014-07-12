@@ -91,35 +91,56 @@
       -webkit-appearance: none;
     }
 
-    select {
-      border: none;
-      background: none;
+    .select {
+      position: relative;
+      display: block;
 
-      &::-ms-expand {
-        display: none;
+      &::after {
+        position: absolute;
+        top: 50%;
+        right: .5em;
+        margin-top: -.7em;
+        background: none;
+        @include font-family($fontawesome);
+        color: $form-focus;
+        content: "\f078";
+        @include padding;
+        pointer-events: none;
+        z-index: 1;
       }
-    }
 
-    @-moz-document url-prefix() {
       select {
-        @include padding(.5em);
-        -moz-appearance: window;
+        background: none;
+
+        &::-ms-expand {
+          display: none;
+        }
+      }
+
+      @-moz-document url-prefix() {
+        border: 1px solid $color-light-grey;
+
+        select {
+          @include padding(.5em);
+          border: none;
+          -moz-appearance: window;
+        }
       }
     }
 
-   @include placeholder {
-    color: $text-light-grey;
-    font-weight: 100;
-  }
+    @include placeholder {
+      color: $text-light-grey;
+      font-weight: 100;
+    }
 
-  .formitem {
-    float: left;
-    width: 100%;
-  }
+    .formitem {
+      float: left;
+      width: 100%;
+    }
 
-  .required:after {
-    content: '*';
-  }
+    .required:after {
+      content: '*';
+    }
 
 // Honeypot
 #fillit {
@@ -190,23 +211,4 @@ input.radio:checked ~ label:before {
 
 input.switch:checked ~ label:after {
   margin-left: 1.375em;
-}
-
-.select{
-  position: relative;
-  display: block;
-  border: 1px solid $color-light-grey;
-}
-
-.select::after {
-  background: none;
-  color: $form-focus;
-  content: "\25BC";
-  padding:0;
-  position: absolute;
-  right: .5em;
-  top: 50%;
-  margin-top: -.7em;
-  z-index: 1;
-  pointer-events:none;
 }
