@@ -162,8 +162,8 @@ input[type="file"]::-webkit-file-upload-button {
 }
 
 // Groovy styled checkboxes
-input.switch:empty,
-input.radio:empty {
+input[type="checkbox"].switch:empty,
+input[type="radio"].radio:empty {
   margin-left: -9999px;
 }
 

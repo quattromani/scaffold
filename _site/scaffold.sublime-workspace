@@ -88,6 +88,18 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/foot.html",
+		"/Users/Q/Sites/scaffold/_includes/head.html",
+		"/Users/Q/Sites/scaffold/styleguide/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
+		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
+		"/Users/Q/Sites/scaffold/js/drop.js",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/drop/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_helpers.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/carousel/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
@@ -95,24 +107,16 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
-		"/Users/Q/Sites/scaffold/_includes/foot.html",
-		"/Users/Q/Sites/scaffold/_includes/head.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
-		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
 		"/Users/Q/Sites/scaffold/css/partials/summary.css",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/print.scss",
-		"/Users/Q/Sites/scaffold/js/drop.js",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/drop/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
-		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/modules.css",
@@ -129,7 +133,6 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/responsive-nav.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/responsive-nav/reponsive-nav.css",
@@ -139,13 +142,11 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/skeleton-app.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/second-skeleton.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/css/partials/layout.css",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
-		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
@@ -214,8 +215,7 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/frame/frame.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/node-menunav/assets/node-menunav-core.css",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/panel/assets/skins/night/panel-skin.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/panel/assets/skins/sam/panel-skin.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/test-console/assets/skins/sam/test-console-skin.css"
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/panel/assets/skins/sam/panel-skin.css"
 	],
 	"find":
 	{
@@ -226,6 +226,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"<project>",
 			"/Users/Q/Sites/scaffold",
 			"<project>"
 		]
@@ -235,6 +236,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"className",
+			"textarea",
 			"250/",
 			" image-focus-3",
 			"panel panel",

@@ -918,7 +918,7 @@ mark {
 	  Pre
    ========================== */
 pre {
-  margin-top: 1em;
+  margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -2953,8 +2953,8 @@ input[type="file"]::-webkit-file-upload-button {
 .ie input[type="radio"] {
   border: 0 !important; }
 
-input.switch:empty,
-input.radio:empty {
+input[type="checkbox"].switch:empty,
+input[type="radio"].radio:empty {
   margin-left: -9999px; }
 
 input.switch:empty ~ label,
