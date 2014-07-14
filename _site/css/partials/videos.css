@@ -5,6 +5,7 @@ video {
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
   top: 0;
   left: 0;
   max-width: 100%;
@@ -26,6 +27,7 @@ audio {
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
   max-width: 100%;
 }
 audio:not([controls]) {

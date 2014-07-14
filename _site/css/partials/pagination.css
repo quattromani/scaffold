@@ -26,6 +26,7 @@
     display: inline-block;
     *zoom: 1;
     *display: inline;
+    *vertical-align: auto;
     width: 100%;
     margin: 0 auto;
     text-align: center;

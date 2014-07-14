@@ -208,12 +208,14 @@ h6,
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
 }
 
 small {
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
 }
 
 p,
