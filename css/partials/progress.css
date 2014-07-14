@@ -1,6 +1,6 @@
 /* ==========================================================================
     Progress -- Version: 0.2.1 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 progress {
   width: 100%;
 }
@@ -9,10 +9,35 @@ progress {
   border: 1px solid #dfe1e9;
 }
 .progress-bar-element .progress-bar-container {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.progress-bar-element .progress-bar-header,
+.progress-bar-element .progress-bar-footer {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
+}
+.progress-bar-element .progress-bar-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.progress-bar-element .progress-bar-header ul {
+  display: table;
+  width: 100%;
+}
+.progress-bar-element .progress-bar-header ul li {
+  display: table-cell;
+  font-size: 75px;
+  font-size: 7.5rem;
+  line-height: .2;
+  text-align: center;
+  cursor: pointer;
+}
+.progress-bar-element .progress-bar-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .progress-bar-element .progress-bar-cap {
   display: inline-block;
@@ -67,6 +92,12 @@ progress {
   animation: pulsate 1s ease-out infinite;
   opacity: .5;
 }
+.progress-bar-element .badges {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
 .progress-bar-element .badges img {
   float: left;
   height: 50px;
@@ -82,6 +113,28 @@ progress {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
   zoom: 1;
+}
+.muted .progress-bar-element .badges img {
+  background: rgba(0, 0, 0, 0.15);
+}
+.ie .muted .progress-bar-element .badges img {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000, endColorstr=#26000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
+  zoom: 1;
+}
+.progress-bar-element .badges.current {
+  border-right: 3px solid #ef272d;
+  background: rgba(0, 0, 0, 0.05);
+}
+.ie .progress-bar-element .badges.current {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0D000000, endColorstr=#0D000000)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0D000000,endColorstr=#0D000000);
+  zoom: 1;
+}
+.progress-bar-element .badges .future {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 @-webkit-keyframes pulsate {
   .progress-bar-element 0%  {
