@@ -52,6 +52,7 @@ ul ul {
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
 }
 .horizontal.slashes li {
   padding-top: 0;

@@ -897,6 +897,7 @@
   display: inline-block;
   *zoom: 1;
   *display: inline;
+  *vertical-align: auto;
 }
 
 .width-5 {

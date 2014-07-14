@@ -5,6 +5,10 @@
     Typography -- Version: 1.9.0.1  - Compiled: #{timestamp()}
    ========================================================================== */
 
+@if variable-exists(google-fonts-url) {
+  @import url($google-fonts-url);
+}
+
 @font-face {
   font-family: 'NeueHaasGroteskDisp Pro Lt';
   src: url('fonts/NHaasGroteskDSPro-45Lt.eot');

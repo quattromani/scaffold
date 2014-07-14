@@ -88,6 +88,15 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/patterns/carousel/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/js/carousel.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
+		"/Users/Q/Sites/scaffold/js/build/production.js",
+		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
+		"/Users/Q/Sites/scaffold/_includes/foot.html",
+		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
@@ -103,7 +112,6 @@
 		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
@@ -135,7 +143,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/css/partials/layout.css",
-		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
@@ -167,7 +174,6 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/js/buttons.js",
-		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/_site/css/main.css",
 		"/Users/Q/Sites/scaffold/_site/css/partials/accessibility.css",
@@ -209,13 +215,7 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/node-menunav/assets/node-menunav-core.css",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/panel/assets/skins/night/panel-skin.css",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/panel/assets/skins/sam/panel-skin.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/test-console/assets/skins/sam/test-console-skin.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/output/api/assets/css/main.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/output/assets/css/main.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/themes/default/assets/css/main.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/themes/simple/assets/css/main.css",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/core-component-page/core-component-page.html",
-		"/Users/Q/Sites/scaffold/web-components/bower_components/polymer-flex-layout/index.html"
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/test-console/assets/skins/sam/test-console-skin.css"
 	],
 	"find":
 	{
@@ -235,6 +235,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"250/",
+			" image-focus-3",
+			"panel panel",
+			"/290",
+			"Who We Are",
+			"280",
+			"260",
+			"g/200",
+			"00",
+			"330",
+			"300",
 			"select",
 			"transf",
 			"yellow",
