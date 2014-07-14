@@ -237,7 +237,7 @@ mark {
 	  Pre
    ========================== */
 pre {
-  @include margin;
+  @include margin($margin, 0, 0);
   background-color: $color-light-light-grey;
   @include border-radius;
   overflow: auto;
