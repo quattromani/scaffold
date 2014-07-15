@@ -8,18 +8,11 @@
         $('.mini-badges li').hover(function() {
           var badge = $(this).attr('id');
           loadBadge(badge);
-        }, function() {
-          var badge = $(this).attr('id');
-          unloadBadge(badge);
         });
       }
-      // unmute the achievement
+      // toggle the achievement
       function loadBadge(badge) {
-        $('.future').find('#badge' + badge).removeClass('muted');
-      }
-      // mute the achievement again
-      function unloadBadge(badge) {
-        $('.future').find('#badge' + badge).addClass('muted');
+        $('.future').find('#badge' + badge).toggleClass('muted');
       }
 
     }(jQuery));
