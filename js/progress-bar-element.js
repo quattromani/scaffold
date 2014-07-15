@@ -3,9 +3,9 @@
     ========================================================================== */
 
     (function($) {
-
+      // fn to highlight the matching achievement to hovered progress bar badge
       $.fn.progressBadge = function() {
-        $('.mini-badge').hover(function() {
+        $('.mini-badges li').hover(function() {
           var badge = $(this).attr('id');
           loadBadge(badge);
         }, function() {
@@ -13,15 +13,15 @@
           unloadBadge(badge);
         });
       }
-
+      // unmute the achievement
       function loadBadge(badge) {
-        $('#badge' + badge).removeClass('muted');
+        $('.future').find('#badge' + badge).removeClass('muted');
       }
-
+      // mute the achievement again
       function unloadBadge(badge) {
-        $('#badge' + badge).addClass('muted');
+        $('.future').find('#badge' + badge).addClass('muted');
       }
 
     }(jQuery));
-
+    // Call the fn only when progress-bar-element is present
     $('.progress-bar-element').progressBadge();

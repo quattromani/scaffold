@@ -5,117 +5,118 @@
     Progress -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    progress {
-      width: 100%;
-    }
-
     .progress-bar-element {
       border: 1px solid $color-light-grey;
 
-      .progress-bar-container {
-        @include padding;
+      .progress-bar-cap {
+        @include inline-block;
+        width: 100%;
+        @include rgba($color-black, .15);
       }
 
+      .progress-bar-cap,
       .progress-bar-header,
       .progress-bar-footer {
         @include padding($padding);
       }
 
-      .progress-bar-header {
-        border-bottom: 1px solid rgba($color-black, .1);
+      .progress-bar-container {
+        .progress-bar-header {
+          border-bottom: 1px solid rgba($color-black, .1);
 
-        ul {
-          display: table;
+          ul {
+            display: table;
+            width: 100%;
+
+            li {
+              display: table-cell;
+              @include font-size(25);
+              text-align: center;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .progress-bar {
+          @include inline-block;
           width: 100%;
+          height: .5em;
+          @include rgba($color-black, .15);
+        }
+
+        .progress-bar span {
+          position: relative;
+          display: block;
+          width: attr(value);
+          height: .5em;
+          background-color: $color-primary-red;
+          text-indent: -9999px;
+
+          &:after {
+            position: absolute;
+            content: '';
+            width: .25em;
+            height: 100%;
+            right: 0;
+            background: $color-white;
+            -webkit-animation: pulsate 1s ease-out infinite;
+            -moz-animation: pulsate 1s ease-out infinite;
+            animation: pulsate 1s ease-out infinite;
+            opacity: .5;
+          }
+        }
+
+        .badges {
+          @include padding($padding);
 
           li {
-            display: table-cell;
-            @include font-size(25);
-            text-align: center;
-            cursor: pointer;
+            @include transition(all, ease-in-out, .2s);
+
+            &.muted {
+              img {
+                @include transition(all, ease-in-out, .2s);
+                @include opacity(.5);
+              }
+            }
+
+            &:hover {
+              img {
+                @include opacity(1);
+              }
+            }
+
+            img {
+              float: left;
+              height: 50px;
+              width: 50px;
+              @include margin(0, $margin, 0, 0);
+              @include rgba($color-black, .5);
+            }
+          }
+
+          &.current {
+            border-right: 3px solid $color-primary-red;
+            @include rgba($color-black, .05);
+          }
+
+          &.future {
+            border-top: 1px solid rgba($color-black, .1);
+
+            li:hover {
+              a {
+                color: $color-primary-red;
+              }
+
+              li {
+                color: $text;
+              }
+            }
           }
         }
       }
 
       .progress-bar-footer {
         border-top: 1px solid rgba($color-black, .1);
-      }
-
-      .progress-bar-cap {
-        @include inline-block;
-        width: 100%;
-        @include padding($padding);
-        @include rgba($color-black, .15);
-      }
-
-      .progress-bar {
-        @include inline-block;
-        width: 100%;
-        height: .5em;
-        @include rgba($color-black, .15);
-      }
-
-      .progress-bar span {
-        position: relative;
-        display: block;
-        width: attr(value);
-        height: .5em;
-        background-color: $color-primary-red;
-        text-indent: -9999px;
-
-        &:after {
-          position: absolute;
-          content: '';
-          width: .25em;
-          height: 100%;
-          right: 0;
-          background: $color-white;
-          -webkit-animation: pulsate 1s ease-out infinite;
-          -moz-animation: pulsate 1s ease-out infinite;
-          animation: pulsate 1s ease-out infinite;
-          opacity: .5;
-        }
-      }
-
-      .badges {
-        @include padding($padding);
-
-        li {
-          @include transition;
-
-          &.muted {
-            img {
-              @include opacity(.5);
-            }
-          }
-
-          img {
-            float: left;
-            height: 50px;
-            width: 50px;
-            @include margin(0, $margin, 0, 0);
-            @include rgba($color-black, .5);
-          }
-        }
-
-        &.current {
-          border-right: 3px solid $color-primary-red;
-          @include rgba($color-black, .05);
-        }
-
-        &.future {
-          border-top: 1px solid rgba($color-black, .1);
-
-          li:hover {
-            a {
-              color: $color-primary-red;
-            }
-
-            li {
-              color: $text;
-            }
-          }
-        }
       }
 
       @-webkit-keyframes pulsate {
