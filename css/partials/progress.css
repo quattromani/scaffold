@@ -30,9 +30,8 @@ progress {
 }
 .progress-bar-element .progress-bar-header ul li {
   display: table-cell;
-  font-size: 75px;
-  font-size: 7.5rem;
-  line-height: .2;
+  font-size: 25px;
+  font-size: 2.5rem;
   text-align: center;
   cursor: pointer;
 }
@@ -98,7 +97,18 @@ progress {
   padding-bottom: 1em;
   padding-left: 1em;
 }
-.progress-bar-element .badges img {
+.progress-bar-element .badges li {
+  will-change: transition;
+  transition: all 0.5s ease-in-out;
+}
+.progress-bar-element .badges li.muted img {
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+.progress-bar-element .badges li img {
   float: left;
   height: 50px;
   width: 50px;
@@ -108,19 +118,10 @@ progress {
   margin-left: 0;
   background: rgba(0, 0, 0, 0.5);
 }
-.ie .progress-bar-element .badges img {
+.ie .progress-bar-element .badges li img {
   background: transparent;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
-  zoom: 1;
-}
-.muted .progress-bar-element .badges img {
-  background: rgba(0, 0, 0, 0.15);
-}
-.ie .muted .progress-bar-element .badges img {
-  background: transparent;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000, endColorstr=#26000000)";
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
   zoom: 1;
 }
 .progress-bar-element .badges.current {
@@ -133,8 +134,14 @@ progress {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0D000000,endColorstr=#0D000000);
   zoom: 1;
 }
-.progress-bar-element .badges .future {
+.progress-bar-element .badges.future {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.progress-bar-element .badges.future li:hover a {
+  color: #ef272d;
+}
+.progress-bar-element .badges.future li:hover li {
+  color: #454545;
 }
 @-webkit-keyframes pulsate {
   .progress-bar-element 0%  {

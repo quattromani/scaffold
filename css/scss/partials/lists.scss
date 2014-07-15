@@ -85,11 +85,11 @@ ul {
 // Vertical List Items
 
 .vertical {
-  li {
+  > li {
     @include padding(($padding / 2), 0);
   }
 
-  &.lined li {
+  &.lined > li {
     overflow: auto;
     border-bottom: 1px dotted $color-light-grey;
 

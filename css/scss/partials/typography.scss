@@ -124,6 +124,11 @@ a {
   &:hover {
     color: $link-hover;
   }
+
+  &.muted,
+  .muted & {
+    color: $color-light-grey;
+  }
 }
 
 /* ==========================

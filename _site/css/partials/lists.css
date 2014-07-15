@@ -87,17 +87,17 @@ ul ul {
   content: '';
 }
 
-.vertical li {
+.vertical > li {
   padding-top: 0.5em;
   padding-right: 0;
   padding-bottom: 0.5em;
   padding-left: 0;
 }
-.vertical.lined li {
+.vertical.lined > li {
   overflow: auto;
   border-bottom: 1px dotted #dfe1e9;
 }
-.vertical.lined li.js-last {
+.vertical.lined > li.js-last {
   border-bottom: 0;
 }
 

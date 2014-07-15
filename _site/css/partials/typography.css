@@ -105,6 +105,9 @@ a img {
 a:hover {
   color: #fad2c3;
 }
+a.muted, .muted a {
+  color: #dfe1e9;
+}
 
 /* ==========================
 	  Headings

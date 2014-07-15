@@ -30,8 +30,7 @@
 
           li {
             display: table-cell;
-            @include font-size(75);
-            line-height: .2;
+            @include font-size(25);
             text-align: center;
             cursor: pointer;
           }
@@ -81,15 +80,21 @@
       .badges {
         @include padding($padding);
 
-        img {
-          float: left;
-          height: 50px;
-          width: 50px;
-          @include margin(0, $margin, 0, 0);
-          @include rgba($color-black, .5);
+        li {
+          @include transition;
 
-          .muted & {
-            @include rgba($color-black, .15);
+          &.muted {
+            img {
+              @include opacity(.5);
+            }
+          }
+
+          img {
+            float: left;
+            height: 50px;
+            width: 50px;
+            @include margin(0, $margin, 0, 0);
+            @include rgba($color-black, .5);
           }
         }
 
@@ -98,10 +103,19 @@
           @include rgba($color-black, .05);
         }
 
-        .future {
+        &.future {
           border-top: 1px solid rgba($color-black, .1);
-        }
 
+          li:hover {
+            a {
+              color: $color-primary-red;
+            }
+
+            li {
+              color: $text;
+            }
+          }
+        }
       }
 
       @-webkit-keyframes pulsate {
