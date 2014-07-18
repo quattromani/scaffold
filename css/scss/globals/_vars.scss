@@ -1,6 +1,3 @@
-// Find and Highlight Mistakes
-$find-mistakes: true;
-
 // Base Site Settings
 $site-width: 960px;
 
@@ -90,8 +87,6 @@ $form-focus: $color-light-grey;
 // Fonts
 $base-font-size: 16;
 $base-line-height: 1.443;
-  // Declare mixin need for px
-  $support-legacy: true;
 
 // Font Weights
 $font-weight-light: 300;
@@ -128,3 +123,9 @@ $small-body-text: ($base-font-size *.75);
 $disclaimer-text: $small-body-text;
 
 // ---------------------------------------------------------------------- //
+
+// Find and Highlight Mistakes
+$find-mistakes: false;
+
+// If you have to support IE8
+$support-legacy: true;
