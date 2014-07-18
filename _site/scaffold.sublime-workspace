@@ -11,6 +11,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2154,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -88,6 +96,17 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
+		"/Users/Q/Sites/scaffold/css/partials/colors.css",
+		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
+		"/Users/Q/Sites/scaffold/js/_styleguide.js",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/js/progress-bar-element.js",
@@ -96,9 +115,6 @@
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/_includes/foot.html",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
@@ -106,12 +122,9 @@
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/js/drop.js",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/drop/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_helpers.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/carousel/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/js/carousel.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
@@ -161,7 +174,6 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/_layouts/default.html",
 		"/Users/Q/Sites/scaffold/css/partials/*.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
 		"/Users/Q/Sites/scaffold/package.json",
 		"/Users/Q/Sites/scaffold/gulpfile.js",
@@ -174,7 +186,6 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-scss-lint/node_modules/xmlbuilder/node_modules/lodash-node/compat/internals/isNative.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jasmine/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
 		"/Users/Q/Sites/scaffold/_config.yml",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/_site/css/main.css",
@@ -212,10 +223,7 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/datatable-paginator/assets/datatable-paginator-core.css",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/frame/frame-coverage.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/frame/frame-debug.js",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/frame/frame-min.js",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/frame/frame.js",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/node-menunav/assets/node-menunav-core.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/panel/assets/skins/night/panel-skin.css"
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/frame/frame-min.js"
 	],
 	"find":
 	{
@@ -236,6 +244,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"primary",
+			"gray",
+			"color-",
+			"background: $",
+			"primary",
+			"third",
+			"primary",
+			"secondary",
+			"tertiary",
+			"secondary",
+			"secondary-",
+			"rgb",
+			"fourth",
 			"trans",
 			"mini-badge",
 			" class=\"mini-badge\"",
@@ -346,13 +367,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1030.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -373,18 +423,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":

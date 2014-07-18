@@ -6,7 +6,7 @@ details {
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  background: #eeeff3;
+  background: #f2f2f2;
 }
 details p {
   padding-top: 1em;
@@ -24,7 +24,7 @@ details summary {
   padding-right: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
-  background: #5b5b5b;
+  background: #cccccc;
   outline: none;
   color: white;
 }

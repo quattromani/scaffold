@@ -23,7 +23,7 @@ select {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  border: 1px solid #dfe1e9;
+  border: 1px solid #e6e6e6;
   outline: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -66,9 +66,9 @@ select[type="checkbox"] {
 input[type]:not([type=range]):focus,
 textarea:focus,
 select:focus {
-  -webkit-box-shadow: inset 0.3em 0 0 0 rgba(223, 225, 233, 0.75);
-  -moz-box-shadow: inset 0.3em 0 0 0 rgba(223, 225, 233, 0.75);
-  box-shadow: inset 0.3em 0 0 0 rgba(223, 225, 233, 0.75);
+  -webkit-box-shadow: inset 0.3em 0 0 0 rgba(230, 230, 230, 0.75);
+  -moz-box-shadow: inset 0.3em 0 0 0 rgba(230, 230, 230, 0.75);
+  box-shadow: inset 0.3em 0 0 0 rgba(230, 230, 230, 0.75);
 }
 
 textarea {
@@ -96,7 +96,7 @@ input[type="range"] {
   border: none;
   outline: none;
   -webkit-appearance: none;
-  background-color: #dfe1e9;
+  background-color: #e6e6e6;
 }
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -106,7 +106,7 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background-color: #5b5b5b;
+  background-color: #cccccc;
   width: 1em;
   height: 1em;
 }
@@ -135,7 +135,7 @@ input::-webkit-inner-spin-button {
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  color: #dfe1e9;
+  color: #e6e6e6;
   content: "\f078";
   padding-top: 0;
   padding-right: 0;
@@ -152,7 +152,7 @@ input::-webkit-inner-spin-button {
 }
 @-moz-document url-prefix() {
   .select {
-    border: 1px solid #dfe1e9;
+    border: 1px solid #e6e6e6;
   }
   .select select {
     padding-top: 0.5em;
@@ -164,22 +164,22 @@ input::-webkit-inner-spin-button {
   }
 }
 ::-webkit-input-placeholder {
-  color: #dfe1e9;
+  color: #e6e6e6;
   font-weight: 100;
 }
 
 :-moz-placeholder {
-  color: #dfe1e9;
+  color: #e6e6e6;
   font-weight: 100;
 }
 
 ::-moz-placeholder {
-  color: #dfe1e9;
+  color: #e6e6e6;
   font-weight: 100;
 }
 
 :-ms-input-placeholder {
-  color: #dfe1e9;
+  color: #e6e6e6;
   font-weight: 100;
 }
 
@@ -244,7 +244,7 @@ input.radio:empty ~ label:before,
 input.radio:empty ~ label:after {
   width: 1.5em;
   height: 1.5em;
-  background: #dfe1e9;
+  background: #e6e6e6;
 }
 
 input.switch:empty ~ label:after,
@@ -264,7 +264,7 @@ input.radio:empty ~ label:after {
 
 input.switch:checked ~ label:before,
 input.radio:checked ~ label:before {
-  background: #b2f2ac;
+  background: #308e28;
 }
 
 input.switch:checked ~ label:after {

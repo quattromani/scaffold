@@ -58,19 +58,19 @@ $message-types: (
 }
 
 .info-box {
-  border-left: .3em solid $color-primary-blue;
-  background: lighten($color-primary-blue, 50%);
-  color: $color-primary-blue;
+  border-left: .3em solid $color-secondary-blue;
+  background: $color-tertiary-blue;
+  color: $color-secondary-blue;
 }
 
 .error-box {
-  border-left: .3em solid $color-primary-red;
-  background: lighten($color-primary-red, 40%);
-  color: $color-primary-red;
+  border-left: .3em solid $color-secondary-red;
+  background: $color-tertiary-red;
+  color: $color-secondary-red;
 }
 
 .valid-box {
   border-left: .3em solid $color-secondary-green;
-  background: lighten($color-primary-green, 20%);
+  background: $color-tertiary-green;
   color: $color-secondary-green;
 }

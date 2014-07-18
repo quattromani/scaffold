@@ -2,7 +2,7 @@
     Progress -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 .progress-bar-element {
-  border: 1px solid #dfe1e9;
+  border: 1px solid #e6e6e6;
 }
 .progress-bar-element .progress-bar-cap {
   display: inline-block;
@@ -135,6 +135,12 @@
 }
 .progress-bar-element .progress-bar-container .badges.future li:hover li {
   color: #454545;
+}
+.progress-bar-element .progress-bar-container .badges .data {
+  cursor: pointer;
+}
+.progress-bar-element .progress-bar-container .badges .expand-data {
+  display: none;
 }
 .progress-bar-element .progress-bar-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);

@@ -11,7 +11,7 @@
 .message-loading, .message-valid, .message-warning {
   display: flex;
   align-items: center;
-  background: whitesmoke;
+  background: white;
   font-weight: 700;
 }
 .message-loading:before, .message-valid:before, .message-warning:before {
@@ -25,18 +25,18 @@
 }
 
 .message-loading {
-  color: #5b5b5b;
+  color: #cccccc;
 }
 .message-loading:before {
-  background: #8e8e8e;
+  background: white;
   content: "\75";
 }
 
 .message-valid {
-  color: #b2f2ac;
+  color: #308e28;
 }
 .message-valid:before {
-  background: white;
+  background: #59ce4e;
   content: "\43";
 }
 
@@ -58,19 +58,19 @@
   }
 }
 .info-box {
-  border-left: 0.3em solid #0099ed;
-  background: #edf9ff;
-  color: #0099ed;
+  border-left: 0.3em solid #0078ba;
+  background: #bae7ff;
+  color: #0078ba;
 }
 
 .error-box {
-  border-left: 0.3em solid #ef272d;
+  border-left: 0.3em solid #d31016;
   background: #fde5e6;
-  color: #ef272d;
+  color: #d31016;
 }
 
 .valid-box {
-  border-left: 0.3em solid #b2f2ac;
-  background: #7fd976;
-  color: #b2f2ac;
+  border-left: 0.3em solid #308e28;
+  background: #c9efc6;
+  color: #308e28;
 }

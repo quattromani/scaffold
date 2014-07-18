@@ -114,7 +114,7 @@ a {
   color: $link;
   text-decoration: none;
   cursor: pointer;
-  transition: .2s;
+  @include transition;
 
   img {
     border: 0 none;

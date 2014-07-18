@@ -1,3 +1,6 @@
+// Find and Highlight Mistakes
+$find-mistakes: true;
+
 // Base Site Settings
 $site-width: 960px;
 
@@ -28,20 +31,34 @@ $border-radius: 0;
 $color-white: #fff;
 $color-off-white: #f2f2f2;
 $color-black: #000;
-$color-grey: #5b5b5b;
-$color-light-grey: #dfe1e9;
+$color-grey: #ccc;
+$color-dark-grey: darken($color-grey, 10%);
+$color-light-grey: lighten($color-grey, 10%);
+$color-light-light-grey: lighten($color-grey, 45%);
 
 $color-primary-red: #ef272d;
-$color-secondary-red: #fad2c3;
 $color-primary-green: #3eb633;
-$color-secondary-green: #b2f2ac;
 $color-primary-blue: #0099ed;
-$color-secondary-blue: #cee6f7;
-$color-primary-yellow: #fae843;
-$color-secondary-yellow: #fcef9d;
+$color-primary-orange: #f62;
+$color-primary-yellow: #ffda21;
+$color-primary-indigo: #583c9c;
+$color-primary-violet: #8d25bb;
 
-$color-dark-grey: #5b5b5b;
-$color-light-light-grey: #f5f5f5;
+$color-secondary-red: darken($color-primary-red, 10%);
+$color-secondary-green: darken($color-primary-green, 10%);
+$color-secondary-blue: darken($color-primary-blue, 10%);
+$color-secondary-orange: darken($color-primary-orange, 10%);
+$color-secondary-yellow: darken($color-primary-yellow, 10%);
+$color-secondary-indigo: darken($color-primary-indigo, 10%);
+$color-secondary-violet: darken($color-primary-violet, 10%);
+
+$color-tertiary-red: lighten($color-primary-red, 40%);
+$color-tertiary-green: lighten($color-primary-green, 40%);
+$color-tertiary-blue: lighten($color-primary-blue, 40%);
+$color-tertiary-orange: lighten($color-primary-orange, 40%);
+$color-tertiary-yellow: lighten($color-primary-yellow, 40%);
+$color-tertiary-indigo: lighten($color-primary-indigo, 40%);
+$color-tertiary-violet: lighten($color-primary-violet, 40%);
 
 // Typography
 $text: #454545;
@@ -52,9 +69,9 @@ $text-grey: $color-grey;
 $text-light-grey: $color-light-grey;
 $text-link: $link;
 $text-white: $color-white;
-$text-error: $color-secondary-red;
-$text-success: $color-secondary-green;
-$text-info: $color-primary-blue;
+$error: $color-secondary-red;
+$success: $color-secondary-green;
+$info: $color-primary-blue;
 
 // Always declare site background fallback
 $site-background: $color-white;

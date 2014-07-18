@@ -28,18 +28,19 @@
   }
 
   .swatch {
+    @include margin(0,0,1em);
     @include border-radius;
     overflow: auto;
   }
   .swatch-color {
-    @include padding(5em, $padding);
+    @include padding(3.5em, $padding);
     &.color-white {
       border: 1px solid $color-light-grey;
       border-bottom: none;
     }
   }
   .swatch-info {
-    @include padding($padding);
+    @include padding($padding / 2);
     border: 1px solid $color-light-grey;
     border-top: none;
     background: $color-white;

@@ -96,17 +96,18 @@ a {
   color: #ef272d;
   text-decoration: none;
   cursor: pointer;
-  transition: .2s;
+  will-change: transition;
+  transition: all 0.2s ease-in-out;
 }
 a img {
   border: 0 none;
   text-decoration: none;
 }
 a:hover {
-  color: #fad2c3;
+  color: #d31016;
 }
 a.muted, .muted a {
-  color: #dfe1e9;
+  color: #e6e6e6;
 }
 
 /* ==========================
@@ -264,8 +265,8 @@ blockquote {
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
-  border-left: 3px solid #5b5b5b;
-  color: #5b5b5b;
+  border-left: 3px solid #cccccc;
+  color: #cccccc;
   font-style: italic;
   padding-left: 1em;
 }
@@ -275,7 +276,7 @@ q {
 }
 
 abbr {
-  border-bottom: 1px dotted #5b5b5b;
+  border-bottom: 1px dotted #cccccc;
   cursor: help;
 }
 
@@ -303,7 +304,7 @@ pre {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  background-color: whitesmoke;
+  background-color: white;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -360,5 +361,5 @@ samp {
 .division {
   position: relative;
   left: -.1em;
-  color: #757575;
+  color: #e6e6e6;
 }

@@ -65,7 +65,7 @@ button.btn-primary:hover,
 button.button-primary:hover,
 .cta.btn-primary:hover,
 .cta.button-primary:hover {
-  background: #fad2c3;
+  background: #d31016;
 }
 .btn.btn-error,
 .button.btn-error,
@@ -84,7 +84,7 @@ button.btn-error:hover,
 .button.btn-success,
 button.btn-success,
 .cta.btn-success {
-  background: #b2f2ac;
+  background: #308e28;
   color: white;
 }
 .btn.btn-success:hover,
@@ -117,7 +117,7 @@ button.btn-black,
 .button.btn-black:hover,
 button.btn-black:hover,
 .cta.btn-black:hover {
-  background: #5b5b5b;
+  background: #cccccc;
 }
 .btn:disabled, .btn.js-disabled, .btn.disabled,
 .button:disabled,
@@ -130,8 +130,8 @@ button.disabled,
 .cta.js-disabled,
 .cta.disabled {
   cursor: default;
-  background: #dfe1e9;
-  color: #5b5b5b;
+  background: #e6e6e6;
+  color: #cccccc;
   pointer-events: none;
 }
 .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
@@ -153,8 +153,8 @@ button.disabled:active,
 .cta.js-disabled:active,
 .cta.disabled:hover,
 .cta.disabled:active {
-  background: #dfe1e9;
-  color: #5b5b5b;
+  background: #e6e6e6;
+  color: #cccccc;
 }
 .btn.block,
 .button.block,
@@ -243,9 +243,9 @@ button.btn-sm,
 }
 .cta:hover {
   background: none;
-  -webkit-box-shadow: inset 0 0 0 1px #fad2c3;
-  -moz-box-shadow: inset 0 0 0 1px #fad2c3;
-  box-shadow: inset 0 0 0 1px #fad2c3;
+  -webkit-box-shadow: inset 0 0 0 1px #d31016;
+  -moz-box-shadow: inset 0 0 0 1px #d31016;
+  box-shadow: inset 0 0 0 1px #d31016;
 }
 
 @-webkit-keyframes rotation {

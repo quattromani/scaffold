@@ -95,14 +95,14 @@ ul ul {
 }
 .vertical.lined > li {
   overflow: auto;
-  border-bottom: 1px dotted #dfe1e9;
+  border-bottom: 1px dotted #e6e6e6;
 }
 .vertical.lined > li.js-last {
   border-bottom: 0;
 }
 
 .striped li:nth-child(odd) {
-  background-color: rgba(223, 225, 233, 0.1);
+  background-color: rgba(230, 230, 230, 0.1);
 }
 
 dt {

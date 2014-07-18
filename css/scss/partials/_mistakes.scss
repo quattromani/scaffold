@@ -1,0 +1,108 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+@if $find-mistakes {
+/* ==========================================================================
+   Find and Highlight Mistakes in HTML
+   ========================================================================== */
+
+/* ==========================
+   Empty Elements
+   ========================== */
+
+  div, span, li, p, td, th {
+    &:empty {
+      padding: 2em;
+      border: 2px dotted $color-primary-violet !important;
+      background-color: $color-tertiary-violet !important;
+    }
+  }
+
+/* ==========================
+   Empty Attributes
+   ========================== */
+
+  *[alt=""],
+  *[title=""],
+  *[class=""],
+  *[id=""],
+  a[href=""],
+  a[href="#"] {
+    border: 2px solid $color-primary-blue !important;
+  }
+
+/* ==========================
+   Deprecated Elements
+   ========================== */
+
+  applet,
+  basefont,
+  center,
+  dir,
+  font,
+  isindex,
+  menu,
+  s,
+  strike,
+  u {
+    border: 2px dotted $color-primary-red !important;
+  }
+
+/* ==========================
+   Deprecated Attributes
+   ========================== */
+
+  *[background],
+  *[bgcolor],
+  *[clear],
+  *[color],
+  *[compact],
+  *[noshade],
+  *[nowrap],
+  *[size],
+  *[start],
+  *[bottommargin],
+  *[leftmargin],
+  *[rightmargin],
+  *[topmargin],
+  *[marginheight],
+  *[marginwidth],
+  *[alink],
+  *[link],
+  *[text],
+  *[vlink],
+  *[align],
+  *[valign],
+  *[hspace],
+  *[vspace],
+  *[height],
+  *[width],
+  ul[type],
+  ol[type],
+  li[type] {
+    border: 2px solid $color-primary-red !important;
+  }
+
+/* ==========================
+   Proposed Deprecated Elements
+   ========================== */
+
+  input[type="button"],
+  big,
+  tt {
+    border: 2px dotted $color-primary-green !important;
+  }
+
+/* ==========================
+   Proposed Deprecated Attributes
+   ========================== */
+
+  *[border],
+  a[target],
+  table[cellpadding],
+  table[cellspacing],
+  *[name] {
+    border: 2px solid $color-primary-green !important;
+  }
+
+}

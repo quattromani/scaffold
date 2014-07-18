@@ -139,6 +139,10 @@ $widths: 5;
   border-right: 1px solid $text;
 }
 
+.overlay-striped {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAG0lEQVR42mJgQICZcIIBXZSBOGUAAAAA//8DAIbHA5cISpS5AAAAAElFTkSuQmCC);
+}
+
 .column-count-2 {
   @include columns(2, $margin * 2);
 }

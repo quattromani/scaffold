@@ -230,7 +230,7 @@ $marginless-col-width: $width / $site-column-count;
 }
 
 // Transitions
-@mixin transition($what: all, $length: .5s, $easing: ease-in-out) {
+@mixin transition($what: all, $length: .2s, $easing: ease-in-out) {
   will-change: transition;
   transition: $what $length $easing;
 }

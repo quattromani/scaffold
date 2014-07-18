@@ -1034,8 +1034,8 @@
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  border: 1px solid #dfe1e9;
-  background: whitesmoke;
+  border: 1px solid #e6e6e6;
+  background: white;
 }
 .box h1, .box h2, .box h3, .box h4, .box h5, .box h6 {
   margin-bottom: 0;
@@ -1055,7 +1055,7 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px solid #5b5b5b;
+  border: 1px solid #cccccc;
 }
 
 .bordered-dotted {
@@ -1063,13 +1063,13 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px dotted #5b5b5b;
+  border: 1px dotted #cccccc;
 }
 
 .bordered-left,
 .bordered-left-dark {
   padding-left: 2%;
-  border-left: 1px dotted #5b5b5b;
+  border-left: 1px dotted #cccccc;
 }
 
 .bordered-left-dark {
@@ -1079,11 +1079,15 @@
 .bordered-right,
 .bordered-right-dark {
   padding-right: 2%;
-  border-right: 1px dotted #5b5b5b;
+  border-right: 1px dotted #cccccc;
 }
 
 .bordered-right-dark {
   border-right: 1px solid #454545;
+}
+
+.overlay-striped {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAG0lEQVR42mJgQICZcIIBXZSBOGUAAAAA//8DAIbHA5cISpS5AAAAAElFTkSuQmCC);
 }
 
 .column-count-2 {
