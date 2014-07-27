@@ -9,8 +9,5 @@ _site
 # Ignore sublime project files
 *.sublime-*
 
-# Ignore sandbox builds
-/sandbox
-
 # Ignore anything .orig
 *.orig
