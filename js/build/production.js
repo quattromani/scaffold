@@ -247,3 +247,11 @@ function disablePopup() {
     }(jQuery));
     // Call the fn only when progress-bar-element is present
     $('.progress-bar-element').progressBadge();
+
+/* ==========================================================================
+    Sandbox -- Version: 0.2.2 - Updated: 7/26/2014
+    ========================================================================== */
+
+    $('.glass-me').click(function(){
+    	$('.glass').toggleClass('active');
+    });
