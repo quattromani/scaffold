@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"h",
+				"hidden"
+			],
+			[
 				"inline",
 				"inline-block	compass"
 			]
@@ -11,14 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/partials/pills.css",
-			"settings":
-			{
-				"buffer_size": 1086,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,6 +92,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/sandbox/data-image/index.html",
+		"/Users/Q/Sites/scaffold/sandbox/glass/index.html",
+		"/Users/Q/Sites/scaffold/.gitignore",
+		"/Users/Q/Sites/scaffold/_includes/foot.html",
+		"/Users/Q/Sites/scaffold/js/sandbox.js",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/partials/videos.css",
 		"/Users/Q/Sites/scaffold/js/progress-bar-element.js",
@@ -120,7 +121,6 @@
 		"/Users/Q/Sites/scaffold/js/build/production.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/partials/progress.css",
-		"/Users/Q/Sites/scaffold/_includes/foot.html",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/styleguide/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
@@ -219,11 +219,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/_jumpTo.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pagination.scss",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-connect/node_modules/connect/lib/public/style.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-less/node_modules/less/benchmark/benchmark.less",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/conf/docs/assets/css/main.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/express/node_modules/connect/lib/public/style.css",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/datatable-paginator/assets/datatable-paginator-core.css"
+		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-connect/node_modules/connect/lib/public/style.css"
 	],
 	"find":
 	{
@@ -244,6 +240,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"box",
 			"outline: none",
 			":focus",
 			"if",
@@ -370,42 +367,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/partials/pills.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1086,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1085,
-								273
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
