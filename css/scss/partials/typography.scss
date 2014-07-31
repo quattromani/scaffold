@@ -109,7 +109,7 @@ a {
   @include padding;
   background: transparent;
   vertical-align: baseline;
-  @include font-family($base-font);
+  font-family: inherit;
   font-weight: 700;
   color: $link;
   text-decoration: none;
