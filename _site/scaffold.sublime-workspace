@@ -15,6 +15,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "web-components/elements/auto-complete/json-datalist.json",
+			"settings":
+			{
+				"buffer_size": 54768,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,6 +100,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/partials/base.css",
+		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/data-image/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/glass/index.html",
 		"/Users/Q/Sites/scaffold/.gitignore",
@@ -163,7 +173,6 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/skeleton-app.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/second-skeleton.html",
-		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/css/partials/layout.css",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
@@ -218,8 +227,7 @@
 		"/Users/Q/Sites/scaffold/css/partials/pagination.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_jumpTo.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/pagination.scss",
-		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-connect/node_modules/connect/lib/public/style.css"
+		"/Users/Q/Sites/scaffold/css/scss/partials/pagination.scss"
 	],
 	"find":
 	{
@@ -367,8 +375,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "web-components/elements/auto-complete/json-datalist.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 54768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
