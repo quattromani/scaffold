@@ -4,36 +4,72 @@ title: CMP Progress Sample
 ---
 
 <style>
-	.box{
-		background-color: rgba(0,0,0,.05);
+	.achievement-name {
+		display: block;
+		font-weight: bold;
 	}
 
-	.treatment p {
+	.achievements-container li {
 		padding: 1em;
-		border-radius: 5px;
-		-webkit-animation: pulse 1s 2 ease-out;
-		animation: pulse 1s 2 ease-out;
-		-webkit-animation-delay: 1s;
-		animation-delay: 1s;
 	}
-
-	@keyframes pulse {
-		from { transform: none; }
-		50% { transform: scale(1.005); }
-		to { transform: none; }
-	}
-
-	@-webkit-keyframes pulse {
-		from { transform: none; }
-		50% { transform: scale(1.01); }
-		to { transform: none; }
-	}
-
 </style>
 
-<div class="box"><h5>Biography</h5></div>
+<h2>Achievements</h2>
+<hr>
+<p>So far you've earned a bunch of achievements and swag!</p>
+<ul class="horizontal">
+	<li>
+		badge
+	</li>
+	<li>
+		badge
+	</li>
+	<li>
+		badge
+	</li>
+</ul>
+<span class="h5">You have <span class="pill">6</span> complete achievements, and <span class="pill">6</span> you haven't started just yet. As of now, here's where you stand:</span>
+<hr>
+<div class="row">
+	<div class="three-fourths">
+		<h3>Future Achievements</h3>
+		<div class="achievements-container">
+			<ul class="vertical lined striped">
+				<li>
+					<span class="achievement-name" href="">Achievement #1</span>
+					<div class="info-box">
+						<span class="b message"><i class="fa fa-star"></i> You've already started this one - why not finish it up?</span>
+					</div>
+					<span class="achievement-description">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem doloribus sunt minus minima dolor officia. Veniam, ab. Ab nesciunt, maxime officia modi quidem molestiae iusto! Possimus, molestias.
+					</span>
+					<br>
+					<a href="" class="btn btn-primary right">Do this! <i class="fa fa-chevron-right"></i></a>
+				</li>
+			</ul>
+		</div>
 
-<div class="treatment">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium illum, voluptatibus accusantium architecto fugiat eos voluptates fugit doloremque optio voluptatum. Dolore numquam repudiandae tempore laudantium ducimus nisi omnis excepturi maxime sunt eius architecto, molestias corporis minus illum dolor autem non aspernatur facere beatae. Quas at expedita reprehenderit voluptatem. Aperiam, esse rerum illo ut officia quidem deleniti, obcaecati, incidunt dolore doloribus voluptas non voluptate consequatur voluptatibus. Quis ab omnis eaque rerum dolor tenetur laboriosam porro culpa consequuntur unde inventore, vel necessitatibus provident, minus, eveniet soluta error eligendi deserunt saepe. Incidunt porro, tempore iusto? Vitae sunt, eum possimus sapiente laborum? Error, natus ad blanditiis a eius quaerat eveniet? Delectus a rerum consequatur neque blanditiis, aliquam qui quasi natus inventore nisi asperiores molestias laudantium vel suscipit alias quae, reiciendis maiores illo excepturi cum, enim placeat expedita saepe. Libero, unde tempora error aspernatur autem minus, non facilis ipsum dolorum placeat adipisci voluptas ad, rerum veritatis fugiat eligendi. Aut, laudantium minima, ut sed, doloribus, fugiat odio corrupti eligendi assumenda minus eius obcaecati ab tenetur harum nesciunt beatae. Asperiores ipsam qui ad porro vitae, nihil molestias totam corporis ratione, repudiandae quasi neque incidunt modi facere nulla aliquam commodi sapiente. Ea, magni quisquam perspiciatis in officiis eum quibusdam aut! Distinctio quibusdam dolore unde illum libero quasi eveniet recusandae necessitatibus facilis repellat mollitia harum, architecto doloremque saepe hic sunt adipisci sequi provident et iusto vero assumenda a labore. Mollitia eius nulla quia, animi quo ea, perferendis, esse sequi voluptatem vero nobis, sunt. Ipsum magnam pariatur consectetur mollitia non doloremque, odio. Aliquid numquam assumenda culpa, et praesentium adipisci cum dolore! Hic commodi provident est esse optio officiis sit odio dolorem, quod error, numquam architecto deleniti sunt saepe deserunt labore nulla odit debitis quam repudiandae. Sit animi tempora maxime debitis, veritatis consequatur laudantium atque. Amet, sint! Dolorem consequatur, iste. Sunt molestias quisquam cum dicta nam possimus sint iure deleniti ut nihil molestiae, minima ratione sequi vitae, commodi sapiente. Fugiat ut repellat dolor earum maxime! Accusamus id ex molestiae dolorum debitis, nisi rerum odio atque beatae saepe cumque tenetur, non magni.</p>
+		<hr>
+
+		<h3>Completed Achievements</h3>
+		<div class="achievements-container">
+			<ul class="vertical lined striped">
+				<li>
+					<span class="achievement-name" href="">Achievement #7</span>
+					<div class="valid-box">
+						<span class="b message"><i class="fa fa-star"></i> You have successfully completed this achievement - Great Job!</span>
+					</div>
+					<span class="achievement-description">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem doloribus sunt minus minima dolor officia. Veniam, ab. Ab nesciunt, maxime officia modi quidem molestiae iusto! Possimus, molestias.
+					</span>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<div class="fourth">
+
+	</div>
 </div>
+
 

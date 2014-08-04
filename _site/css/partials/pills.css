@@ -7,7 +7,6 @@ label + .pill,
 }
 
 .pill,
-.pill-black,
 .pill-white,
 .pill-red {
   padding-top: 0.125em;
@@ -27,15 +26,15 @@ label + .pill,
   font-style: normal;
   font-weight: normal;
   font-weight: 700;
-  color: white;
+  color: inherit;
 }
 .pill-white {
   background: white;
   -webkit-box-shadow: inset 0 0 0 1px #454545;
   -moz-box-shadow: inset 0 0 0 1px #454545;
   box-shadow: inset 0 0 0 1px #454545;
-  color: #454545;
 }
 .pill-red {
   background: #ef272d;
+  color: white;
 }

@@ -89,9 +89,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: inherit;
   font-weight: 700;
   color: #ef272d;
   text-decoration: none;

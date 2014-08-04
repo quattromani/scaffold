@@ -87,6 +87,8 @@ $form-focus: $color-light-grey;
 // Fonts
 $base-font-size: 16;
 $base-line-height: 1.443;
+// Declare mixin need for px
+$support-legacy: true;
 
 // Font Weights
 $font-weight-light: 300;

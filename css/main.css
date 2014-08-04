@@ -953,9 +953,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: inherit;
   font-weight: 700;
   color: #ef272d;
   text-decoration: none;
@@ -2855,7 +2853,6 @@ label + .pill,
   margin-left: 0.33333em; }
 
 .pill,
-.pill-black,
 .pill-white,
 .pill-red {
   padding-top: 0.125em;
@@ -2872,14 +2869,14 @@ label + .pill,
   font-style: normal;
   font-weight: normal;
   font-weight: 700;
-  color: white; }
+  color: inherit; }
   .pill-white {
     background: white;
     -webkit-box-shadow: inset 0 0 0 1px #454545;
-    box-shadow: inset 0 0 0 1px #454545;
-    color: #454545; }
+    box-shadow: inset 0 0 0 1px #454545; }
   .pill-red {
-    background: #ef272d; }
+    background: #ef272d;
+    color: white; }
 
 /* ==========================================================================
     Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
