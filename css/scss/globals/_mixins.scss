@@ -84,20 +84,20 @@ $marginless-col-width: $width / $site-column-count;
 @mixin span($n: 1) {
   width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
   @if $n == $site-column-count {
-    margin-right: 0;
+    margin-left: 0;
   } @else {
-    margin-right: $site-gutter-width;
+    margin-left: $site-gutter-width;
   }
 }
 
 @mixin marginless-span($n: 1) {
   width: ($n * $marginless-col-width);
-  margin-right: 0;
+  margin-left: 0;
 }
 
 // remove margin from all last columns
-@mixin last() {
-  margin-right: 0;
+@mixin first() {
+  margin-left: 0;
 }
 
 // prepend n blank columns

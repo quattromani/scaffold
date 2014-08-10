@@ -125,388 +125,388 @@ footer.container {
   *vertical-align: auto;
   width: 100%;
   margin-bottom: 1em; }
-  .row:last-child, .row:only-child {
+  .row:first-child, .row:only-child {
     margin-bottom: 0; }
 
 .full {
   float: left;
   width: 100%;
-  margin-right: 0; }
+  margin-left: 0; }
 
 .half {
   float: left;
   width: 49%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .half {
     float: left;
     width: 50%;
-    margin-right: 0; }
-  .half:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .half:first-child {
+    margin-left: 0; }
   @media (max-width: 40em) {
     .half {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .third {
   float: left;
   width: 32%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .third {
     float: left;
     width: 33.33333%;
-    margin-right: 0; }
-  .third:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .third:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .third {
       float: left;
       width: 49%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .third:nth-child(even) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 40em) {
     .third {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .fourth {
   float: left;
   width: 23.5%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .fourth {
     float: left;
     width: 25%;
-    margin-right: 0; }
-  .fourth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .fourth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .fourth {
       float: left;
       width: 49%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .fourth:nth-child(even) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 40em) {
     .fourth {
       float: left;
       width: 100%;
-      margin-right: 0;
-      margin-right: 0; } }
+      margin-left: 0;
+      margin-left: 0; } }
 
 .fifth {
   float: left;
   width: 18.4%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .fifth {
     float: left;
     width: 20%;
-    margin-right: 0; }
-  .fifth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .fifth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .fifth {
       float: left;
       width: 49%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .fifth:nth-child(even) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 40em) {
     .fifth {
       float: left;
       width: 100%;
-      margin-right: 0;
-      margin-right: 0; } }
+      margin-left: 0;
+      margin-left: 0; } }
 
 .sixth {
   float: left;
   width: 15%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .sixth {
     float: left;
     width: 16.66667%;
-    margin-right: 0; }
-  .sixth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .sixth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .sixth {
       float: left;
       width: 32%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .sixth:nth-child(3n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .seventh {
   float: left;
   width: 12.57143%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .seventh {
     float: left;
     width: 14.28571%;
-    margin-right: 0; }
-  .seventh:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .seventh:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .seventh {
       float: left;
       width: 32%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .seventh:nth-child(3n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .eighth {
   float: left;
   width: 10.75%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .eighth {
     float: left;
     width: 12.5%;
-    margin-right: 0; }
-  .eighth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .eighth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .eighth {
       float: left;
       width: 23.5%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .eighth:nth-child(4n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 40em) {
     .eighth {
       float: left;
       width: 49%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .eighth:nth-child(2n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .ninth {
   float: left;
   width: 9.33333%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .ninth {
     float: left;
     width: 11.11111%;
-    margin-right: 0; }
-  .ninth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .ninth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .ninth {
       float: left;
       width: 32%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .ninth:nth-child(3n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .tenth {
   float: left;
   width: 8.2%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .tenth {
     float: left;
     width: 10%;
-    margin-right: 0; }
-  .tenth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .tenth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .tenth {
       float: left;
       width: 23.5%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .tenth:nth-child(4n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 40em) {
     .tenth {
       float: left;
       width: 49%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .tenth:nth-child(2n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .eleventh {
   float: left;
   width: 7.27273%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .eleventh {
     float: left;
     width: 9.09091%;
-    margin-right: 0; }
-  .eleventh:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .eleventh:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .eleventh {
       float: left;
       width: 23.5%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .eleventh:nth-child(4n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 40em) {
     .eleventh {
       float: left;
       width: 49%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .eleventh:nth-child(2n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .twelfth {
   float: left;
   width: 6.5%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .twelfth {
     float: left;
     width: 8.33333%;
-    margin-right: 0; }
-  .twelfth:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .twelfth:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .twelfth {
       float: left;
       width: 15%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .twelfth:nth-child(6n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
   @media (max-width: 62em) {
     .twelfth {
       float: left;
       width: 32%;
-      margin-right: 2%; }
+      margin-left: 2%; }
       .twelfth:nth-child(3n) {
-        margin-right: 0; } }
+        margin-left: 0; } }
 
 .golden-long {
   float: left;
   width: 61.04079%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .golden-long {
     float: left;
     width: 61.8047%;
-    margin-right: 0; }
-  .golden-long:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .golden-long:first-child {
+    margin-left: 0; }
 
 .golden-short {
   float: left;
   width: 36.95921%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .golden-short {
     float: left;
     width: 38.1953%;
-    margin-right: 0; }
-  .golden-short:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .golden-short:first-child {
+    margin-left: 0; }
 
 .two-fifths {
   float: left;
   width: 38.8%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .two-fifths {
     float: left;
     width: 40%;
-    margin-right: 0; }
-  .two-fifths:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .two-fifths:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .two-fifths {
       float: left;
       width: 49%;
-      margin-right: 2%; } }
+      margin-left: 2%; } }
 
 .three-fifths {
   float: left;
   width: 59.2%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .three-fifths {
     float: left;
     width: 60%;
-    margin-right: 0; }
-  .three-fifths:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .three-fifths:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .three-fifths {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .four-fifths {
   float: left;
   width: 79.6%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .four-fifths {
     float: left;
     width: 80%;
-    margin-right: 0; }
-  .four-fifths:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .four-fifths:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .four-fifths {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .two-thirds {
   float: left;
   width: 66%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .two-thirds {
     float: left;
     width: 66.66667%;
-    margin-right: 0; }
-  .two-thirds:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .two-thirds:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .two-thirds {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .three-fourths {
   float: left;
   width: 74.5%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .three-fourths {
     float: left;
     width: 75%;
-    margin-right: 0; }
-  .three-fourths:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .three-fourths:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .three-fourths {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .three-eighths {
   float: left;
   width: 36.25%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .three-eighths {
     float: left;
     width: 37.5%;
-    margin-right: 0; }
-  .three-eighths:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .three-eighths:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .three-eighths {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 .five-eighths {
   float: left;
   width: 61.75%;
-  margin-right: 2%; }
+  margin-left: 2%; }
   .marginless .five-eighths {
     float: left;
     width: 62.5%;
-    margin-right: 0; }
-  .five-eighths:last-child {
-    margin-right: 0; }
+    margin-left: 0; }
+  .five-eighths:first-child {
+    margin-left: 0; }
   @media (max-width: 62em) {
     .five-eighths {
       float: left;
       width: 100%;
-      margin-right: 0; } }
+      margin-left: 0; } }
 
 /* ==========================
     Multi Column
