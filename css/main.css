@@ -2375,7 +2375,7 @@ ul {
   padding-left: 0; }
 .vertical.lined > li {
   overflow: auto;
-  border-bottom: 1px dotted #e6e6e6; }
+  border-bottom: 1px dotted currentColor; }
   .vertical.lined > li.js-last {
     border-bottom: 0; }
 
@@ -2940,17 +2940,17 @@ label + .pill,
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 .info-box {
-  border-left: 0.3em solid #0078ba;
+  border-left: .3em solid currentColor;
   background: #bae7ff;
   color: #0078ba; }
 
 .error-box {
-  border-left: 0.3em solid #d31016;
+  border-left: .3em solid currentColor;
   background: #fde5e6;
   color: #d31016; }
 
 .valid-box {
-  border-left: 0.3em solid #308e28;
+  border-left: .3em solid currentColor;
   background: #c9efc6;
   color: #308e28; }
 

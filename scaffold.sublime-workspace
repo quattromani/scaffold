@@ -15,14 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_includes/patterns/forms/index.html",
-			"settings":
-			{
-				"buffer_size": 15939,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -100,6 +92,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/cmp-progress-focus/index.html",
@@ -126,7 +120,6 @@
 		"/Users/Q/Sites/scaffold/css/partials/colors.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/js/_styleguide.js",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
@@ -178,7 +171,6 @@
 		"/Users/Q/Sites/scaffold/web-components/elements/skeleton/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/css/partials/layout.css",
 		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/second-skeleton.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_base-theme.scss",
@@ -231,7 +223,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -248,6 +240,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"last",
+			"@include last;",
+			"last-child",
 			">\n",
 			"h4",
 			"30%",
@@ -366,6 +361,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"@include first;",
+			"first-child",
 			"h3",
 			"border: 0;",
 			"@import '../globals/allGlobals';",
@@ -383,42 +380,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_includes/patterns/forms/index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 15939,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -464,7 +427,7 @@
 	"project": "scaffold.sublime-project",
 	"replace":
 	{
-		"height": 102.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":

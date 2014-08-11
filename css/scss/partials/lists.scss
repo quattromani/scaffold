@@ -91,7 +91,7 @@ ul {
 
   &.lined > li {
     overflow: auto;
-    border-bottom: 1px dotted $color-light-grey;
+    border-bottom: 1px dotted currentColor;
 
     &.js-last {
       border-bottom: 0;
