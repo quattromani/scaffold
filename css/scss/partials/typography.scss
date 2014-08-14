@@ -283,11 +283,12 @@ samp {
 .logo_slash,
 .division {
   @include font-family($base-font);
+  color: $color-primary-red;
   font-weight: 200;
 }
 
 .division {
   position: relative;
   left: -.1em;
-  color: lighten($color-grey, 10%);
+  color: $color-dark-grey;
 }

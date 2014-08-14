@@ -1186,12 +1186,13 @@ samp {
   font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
+  color: #ef272d;
   font-weight: 200; }
 
 .division {
   position: relative;
   left: -.1em;
-  color: #e6e6e6; }
+  color: #b3b3b3; }
 
 /* ==========================================================================
     GLGlyphs -- Version: 0.2.1 - Compiled: timestamp()
