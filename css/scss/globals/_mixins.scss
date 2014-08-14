@@ -218,7 +218,9 @@ $marginless-col-width: $width / $site-column-count;
 }
 
 // placeholder from Horizontal Align
-%center { @include center; }
+%center {
+  @include center;
+}
 
 // Transform
 @mixin rotate($degrees) {

@@ -39,6 +39,7 @@ $message-types: (
 @mixin message($color, $icon) {
   @extend %message-;
   color: $color;
+
   &:before {
     background: lighten($color, 20%);
     content: $icon;

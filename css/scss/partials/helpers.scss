@@ -217,7 +217,6 @@ $widths: 5;
   .column-count-6 {
     @include columns(3, $margin * 2);
   }
-
 }
 
 @media (max-width: $bp-small) {
@@ -240,5 +239,4 @@ $widths: 5;
   .column-count-4 {
     @include columns(1, 0)
   }
-
 }

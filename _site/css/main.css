@@ -37,7 +37,9 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
@@ -103,15 +105,19 @@ footer.container {
       padding-left: 1em; } }
 
 .clearfix,
-.box-column {
+.box-column,
+hr {
   zoom: 1; }
   .clearfix:before, .clearfix:after,
   .box-column:before,
-  .box-column:after {
+  hr:before,
+  .box-column:after,
+  hr:after {
     content: '';
     display: table; }
   .clearfix:after,
-  .box-column:after {
+  .box-column:after,
+  hr:after {
     clear: both; }
 
 /* ==========================
@@ -1099,7 +1105,7 @@ blockquote {
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
-  border-left: 3px solid #cccccc;
+  border-left: 3px solid currentColor;
   color: #cccccc;
   font-style: italic;
   padding-left: 1em; }
@@ -1108,7 +1114,7 @@ q {
   quotes: '\201C' '\201D' '\2018' '\2019'; }
 
 abbr {
-  border-bottom: 1px dotted #cccccc;
+  border-bottom: 1px dotted currentColor;
   cursor: help; }
 
 address {
@@ -1121,7 +1127,11 @@ sub {
   vertical-align: bottom; }
 
 mark {
-  background: #ffff00; }
+  padding-top: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  background: #ffda21; }
 
 /* ==========================
 	  Pre
@@ -1131,12 +1141,15 @@ pre {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  background-color: white;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   border-radius: 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  background-color: white;
   overflow: auto;
-  padding: 1em;
   word-wrap: break-word; }
 
 kbd,
@@ -2306,11 +2319,11 @@ ol {
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0; }
-  ol ol {
-    margin-bottom: 0; }
   ol li {
     list-style: decimal;
     list-style-position: outside; }
+  ol ol {
+    margin-bottom: 0; }
 
 ul {
   margin-top: 0;
@@ -2667,14 +2680,14 @@ button,
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: 0 none; }
+    border: none; }
 
   input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: 0 none; } }
+    border: none; } }
 .ie button {
   overflow: visible;
   width: auto; }
@@ -2854,7 +2867,8 @@ label + .pill,
 
 .pill,
 .pill-white,
-.pill-red {
+.pill-error,
+.pill-success {
   padding-top: 0.125em;
   padding-right: 0.75em;
   padding-bottom: 0.125em;
@@ -2874,8 +2888,11 @@ label + .pill,
     background: white;
     -webkit-box-shadow: inset 0 0 0 1px #454545;
     box-shadow: inset 0 0 0 1px #454545; }
-  .pill-red {
+  .pill-error {
     background: #ef272d;
+    color: white; }
+  .pill-success {
+    background: #3eb633;
     color: white; }
 
 /* ==========================================================================
@@ -3037,7 +3054,7 @@ label + .pill,
 /* ==========================================================================
     Carousel -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
-.carousel .slick-dots li button:before {
+.carousel .slick-dots button:before {
   font-size: 12px;
   font-size: 1.2rem; }
 
@@ -3322,11 +3339,11 @@ input.switch:checked ~ label:after {
     margin-left: 1em; }
 
 .fail {
-  background: #ef272d;
   padding-top: 0.2em;
   padding-right: 0.2em;
   padding-bottom: 0.2em;
   padding-left: 0.2em;
+  background: #ef272d;
   color: white; }
 
 /* ==========================================================================
@@ -3338,7 +3355,7 @@ img {
   height: auto;
   border: 0;
   font-style: italics;
-  color: #c00; }
+  color: #ef272d; }
   img:after {
     content: " (image)"; }
 
@@ -3419,6 +3436,18 @@ figcaption {
       zoom: 1; }
 
 /* ==========================================================================
+    Audio -- Version: 0.2.1 - Compiled: timestamp()
+   ========================================================================== */
+audio {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  max-width: 100%; }
+  audio:not([controls]) {
+    display: none; }
+
+/* ==========================================================================
     Videos -- Version: 0.4.0.1 - Compiled: timestamp()
    ========================================================================== */
 video {
@@ -3472,16 +3501,19 @@ td {
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
 .box-column {
-  padding: 1em;
   margin-top: 0.5em;
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  background: white;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   border: 1px solid #e6e6e6;
   border-radius: 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  background: white;
   overflow: auto; }
 
 hr {

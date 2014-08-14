@@ -7,8 +7,7 @@
 
     .carousel {
 
-      .slick-dots li button:before {
+      .slick-dots button:before {
         @include font-size(12);
       }
-
     }

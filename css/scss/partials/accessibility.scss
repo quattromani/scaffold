@@ -14,8 +14,10 @@
   overflow: hidden;
   @include padding;
   position: absolute;
+
   &.focusable {
-    &:active, &:focus {
+    &:active,
+    &:focus {
       clip: auto;
       height: auto;
       @include margin;

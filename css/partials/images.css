@@ -7,7 +7,7 @@ img {
   height: auto;
   border: 0;
   font-style: italics;
-  color: #c00;
+  color: #ef272d;
 }
 img:after {
   content: " (image)";

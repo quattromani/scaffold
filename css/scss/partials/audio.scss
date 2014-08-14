@@ -1,0 +1,15 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Audio -- Version: 0.2.1 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+audio {
+  @include inline-block();
+  max-width: 100%;
+
+  &:not([controls]) {
+    display: none;
+  }
+}

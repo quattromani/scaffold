@@ -1,0 +1,13 @@
+/* ==========================================================================
+    Audio -- Version: 0.2.1 - Compiled: timestamp()
+   ========================================================================== */
+audio {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  max-width: 100%;
+}
+audio:not([controls]) {
+  display: none;
+}

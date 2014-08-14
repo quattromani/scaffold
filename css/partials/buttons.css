@@ -269,7 +269,7 @@ button.btn-sm,
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: 0 none;
+    border: none;
   }
 
   input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
@@ -277,7 +277,7 @@ button.btn-sm,
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border: 0 none;
+    border: none;
   }
 }
 .ie button {

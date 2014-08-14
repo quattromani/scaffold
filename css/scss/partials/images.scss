@@ -12,7 +12,7 @@ img {
   border: 0;
   // style the alt text
   font-style: italics;
-  color: #c00;
+  color: $color-primary-red;
 
   &:after {
     content: " (image)";
@@ -31,7 +31,7 @@ figure {
 figcaption {
   margin-bottom: ($margin / 2);
   @include font-size(14);
-  font-weight: 700;
+  font-weight: $font-weight-semibold;
 }
 
 .image-rounded {

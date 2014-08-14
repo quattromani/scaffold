@@ -17,6 +17,7 @@
   max-width: $site-width;
   @include margin(0, auto);
   overflow: visible;
+
   @include bp(bp-medium) {
     @include padding(0, ($padding));
   }

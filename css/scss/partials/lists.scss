@@ -6,18 +6,17 @@
    ========================================================================== */
 
 // Ordered List
-
 ol {
   @include margin(0, 0, 0, ($margin * 1.5));
   @include padding;
 
-  ol {
-    margin-bottom: 0;
-  }
-
   li {
     list-style: decimal;
     list-style-position: outside;
+  }
+
+  ol {
+    margin-bottom: 0;
   }
 }
 
@@ -31,7 +30,6 @@ ul {
 }
 
 // Bulleted List Items
-
 .bulleted {
   ~ ul {
     margin-bottom: 0;
@@ -45,7 +43,6 @@ ul {
 }
 
 // Horizontal List Items
-
 .horizontal {
   li {
     display: inline;
@@ -83,7 +80,6 @@ ul {
 }
 
 // Vertical List Items
-
 .vertical {
   > li {
     @include padding(($padding / 2), 0);
@@ -100,7 +96,6 @@ ul {
 }
 
 // Striped List Items
-
 .striped {
   li:nth-child(odd) {
     background-color: rgba($color-light-grey, .1);
@@ -108,7 +103,6 @@ ul {
 }
 
 // Definition List
-
 dt {
   font-weight: bold;
 }

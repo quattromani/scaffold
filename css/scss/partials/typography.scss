@@ -143,6 +143,7 @@ $i: 1;
     font-family: nth($value, 4);
     @include font-size(nth($value, 2));
     font-weight: nth($value, 3);
+
     @if $i <= 3 {
       @include bp(bp-medium) {
         @include font-size(nth($value, 2) * .875)
@@ -153,7 +154,6 @@ $i: 1;
       }
     }
   }
-
   $i: $i + 1 !global;
 }
 
@@ -207,7 +207,7 @@ p,
 blockquote {
   width: 75%;
   @include margin(0, auto);
-  border-left: 3px solid $color-grey;
+  border-left: 3px solid currentColor;
   color: $text-grey;
   font-style: italic;
   padding-left: $padding;
@@ -218,7 +218,7 @@ q {
 }
 
 abbr {
-  border-bottom: 1px dotted $color-grey;
+  border-bottom: 1px dotted currentColor;
   cursor: help;
 }
 
@@ -235,7 +235,8 @@ sub {
 }
 
 mark {
-  background: #ffff00;
+  @include padding(.25em);
+  background: $color-primary-yellow;
 }
 
 /* ==========================
@@ -243,10 +244,10 @@ mark {
    ========================== */
 pre {
   @include margin($margin, 0, 0);
-  background-color: $color-light-light-grey;
+  @include padding($padding);
   @include border-radius;
+  background-color: $color-light-light-grey;
   overflow: auto;
-  padding: $padding;
   word-wrap: break-word;
 }
 

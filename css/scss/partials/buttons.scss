@@ -161,7 +161,7 @@ button,
   // Remove button padding in FF
   button::-moz-focus-inner {
     @include padding;
-    border: 0 none;
+    border: none;
   }
 
   input {
@@ -169,7 +169,7 @@ button,
     &[type="submit"]::-moz-focus-inner,
     &[type="reset"]::-moz-focus-inner {
       @include padding;
-      border: 0 none;
+      border: none;
     }
   }
 }

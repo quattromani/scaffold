@@ -2,12 +2,14 @@
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
 .box-column {
-  padding: 1em;
   margin-top: 0.5em;
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  background: white;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   border: 1px solid #e6e6e6;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -15,6 +17,7 @@
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
+  background: white;
   overflow: auto;
 }
 

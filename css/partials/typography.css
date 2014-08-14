@@ -263,7 +263,7 @@ blockquote {
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
-  border-left: 3px solid #cccccc;
+  border-left: 3px solid currentColor;
   color: #cccccc;
   font-style: italic;
   padding-left: 1em;
@@ -274,7 +274,7 @@ q {
 }
 
 abbr {
-  border-bottom: 1px dotted #cccccc;
+  border-bottom: 1px dotted currentColor;
   cursor: help;
 }
 
@@ -291,7 +291,11 @@ sub {
 }
 
 mark {
-  background: #ffff00;
+  padding-top: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  background: #ffda21;
 }
 
 /* ==========================
@@ -302,15 +306,18 @@ pre {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  background-color: white;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
+  background-color: white;
   overflow: auto;
-  padding: 1em;
   word-wrap: break-word;
 }
 

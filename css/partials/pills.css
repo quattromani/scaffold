@@ -8,7 +8,8 @@ label + .pill,
 
 .pill,
 .pill-white,
-.pill-red {
+.pill-error,
+.pill-success {
   padding-top: 0.125em;
   padding-right: 0.75em;
   padding-bottom: 0.125em;
@@ -34,7 +35,11 @@ label + .pill,
   -moz-box-shadow: inset 0 0 0 1px #454545;
   box-shadow: inset 0 0 0 1px #454545;
 }
-.pill-red {
+.pill-error {
   background: #ef272d;
+  color: white;
+}
+.pill-success {
+  background: #3eb633;
   color: white;
 }
