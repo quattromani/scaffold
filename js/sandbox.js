@@ -5,3 +5,14 @@
     $('.glass-me').click(function(){
     	$('.glass').toggleClass('active');
     });
+
+
+    $('.settings dd span').each(function () {
+      if ($(this).text() == 'No') {
+        $(this).parent('dd').hide();
+      }
+    });
+
+    $('dt span').click(function() {
+      $('.settings dd').show();
+    });

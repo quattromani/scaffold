@@ -13,17 +13,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "_includes/styleguide/video/index.html",
-			"settings":
-			{
-				"buffer_size": 2636,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -100,29 +89,43 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/js/sandbox.js",
+		"/Users/Q/Sites/scaffold/sandbox/compliance/index.html",
+		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/audio.scss",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
+		"/Users/Q/Sites/scaffold/_includes/patterns/tables/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
-		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
+		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
 		"/Users/Q/Sites/scaffold/sandbox/cmp-progress-focus/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/data-image/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/glass/index.html",
 		"/Users/Q/Sites/scaffold/.gitignore",
 		"/Users/Q/Sites/scaffold/_includes/foot.html",
-		"/Users/Q/Sites/scaffold/js/sandbox.js",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/partials/videos.css",
 		"/Users/Q/Sites/scaffold/js/progress-bar-element.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_mistakes.scss",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/js/progress.js",
@@ -131,7 +134,6 @@
 		"/Users/Q/Sites/scaffold/css/partials/colors.css",
 		"/Users/Q/Sites/scaffold/js/_styleguide.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
 		"/Users/Q/Sites/scaffold/js/buttons.js",
 		"/Users/Q/Sites/scaffold/js/build/production.js",
@@ -146,16 +148,13 @@
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/carousel/index.html",
 		"/Users/Q/Sites/scaffold/js/carousel.js",
-		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
 		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
 		"/Users/Q/Sites/scaffold/css/partials/summary.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/print.scss",
 		"/Users/Q/Sites/scaffold/styleguide/drop/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/patterns/summary/index.html",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/modules.css",
@@ -163,9 +162,7 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/audio/index.html",
 		"/Users/Q/Sites/scaffold/404.html",
 		"/Users/Q/Sites/scaffold/.htaccess",
-		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/partials/images.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/lists/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/progress/progress-app.html",
@@ -200,7 +197,6 @@
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/io-nodejs/io-nodejs.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-scss-lint/node_modules/xmlbuilder/node_modules/lodash-node/compat/internals/isNative.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-jasmine/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
-		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/_site/css/main.css",
@@ -220,14 +216,7 @@
 		"/Users/Q/Sites/scaffold/_site/web-components/bower_components/polymer-selector/index.html",
 		"/Users/Q/Sites/scaffold/_site/web-components/bower_components/polymer-ui-tabs/index.html",
 		"/Users/Q/Sites/scaffold/_site/web-components/css/accessibility.css",
-		"/Users/Q/Sites/scaffold/_site/web-components/css/auto-complete.css",
-		"/Users/Q/Sites/scaffold/_site/web-components/css/helpers.css",
-		"/Users/Q/Sites/scaffold/_site/web-components/elements/calendar/css/accessibility.css",
-		"/Users/Q/Sites/scaffold/_site/web-components/elements/calendar/css/helpers.css",
-		"/Users/Q/Sites/scaffold/_site/web-components/elements/x-typeahead/typeahead-input.html",
-		"/Users/Q/Sites/scaffold/css/partials/accessibility.css",
-		"/Users/Q/Sites/scaffold/css/partials/ctas.css",
-		"/Users/Q/Sites/scaffold/css/partials/pagination.css"
+		"/Users/Q/Sites/scaffold/_site/web-components/css/auto-complete.css"
 	],
 	"find":
 	{
@@ -248,6 +237,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</div></div",
+			"pill-red",
 			"last",
 			"@include last;",
 			"last-child",
@@ -385,48 +376,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "_includes/styleguide/video/index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2636,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1393,
-								179
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 9.0,
-						"translation.y": 38.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 35.0
@@ -466,7 +415,6 @@
 	{
 		"height": 122.0
 	},
-	"project": "scaffold.sublime-project",
 	"replace":
 	{
 		"height": 66.0

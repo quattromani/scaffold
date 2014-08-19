@@ -1,0 +1,414 @@
+---
+layout: sandbox
+title: Compliance
+---
+
+<style>
+
+td {
+	padding: 0;
+}
+
+.header {
+	padding: 1em 0;
+	border-top: 1px dotted lightgrey;
+	border-bottom: 1px dotted lightgrey;
+	line-height: 1;
+}
+
+dl,
+dl > * {
+	margin-bottom: 1em;
+	padding: .5em;
+}
+
+dt {
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+	background-color: rgba(0,0,0,.1);
+}
+
+dt:after {
+	font-family: fontawesome;
+	content: 'see all';
+	float: right;
+}
+
+dd {
+	margin: 0;
+}
+
+dd:nth-of-type(even) {
+	background-color: rgba(0,0,0,.035);
+}
+
+</style>
+
+<table class="header" cellpadding="6" cellspacing="0" width="100%">
+	<tr>
+		<td>
+			<span class="h1">KKR PRIVATE EQUITY - AMERICAS</span>
+		</td>
+	</tr>
+</table>
+
+<h2>Consultation Settings</h2>
+<a id="EditComplianceLink" href="CouncilMemberUpdateSettings.aspx?clientId=2325&amp;firmName=KKR+PRIVATE+EQUITY+-+AMERICAS">Edit Compliance Settings</a>
+<table class="settings">
+	<tr>
+		<td valign="top">
+			<dl>
+				<dt>
+					<span disabled="disabled"><input id="chkRestrictByEmployer" type="checkbox" name="chkRestrictByEmployer" checked="checked" disabled="disabled" /></span>
+					<span id="lblRestrictByEmployerStatic">Restrictions based on employer (ticker)
+					</span>
+				</dt>
+				<dd>
+					All public companies on-hold:
+					<span id="lblAllPublicCompaniesOnHold">No</span>
+					<div id="divAllPublicCompaniesOnHoldCheckedList"></div>
+				</dd>
+				<dd>
+					All public companies blocked:
+					<span id="lblAllPublicCompaniesBlocked">No</span>
+					<div id="divAllPublicCompaniesBlockedCheckedList"></div>
+				</dd>
+				<dd>
+					Specific public companies on-hold:
+					<span id="lblSpecificPublicCompaniesOnHold">No</span>
+					<div id="divSpecificCompaniesOnHoldCheckedList"></div>
+				</dd>
+				<dd>
+					Specific public companies blocked:
+					<span id="lblSpecificPublicCompaniesBlocked">Yes</span>
+					<div id="divSpecificCompaniesBlockedCheckedList">People employed within the last 12 months</div>
+				</dd>
+				<dd>
+					<span disabled="disabled"><input id="chkRestrictByMemberProgram" type="checkbox" name="chkRestrictByMemberProgram" checked="checked" disabled="disabled" /></span>
+					<span id="lblRestrictByMemberProgram">
+						<span class="Icons-CheckIcon"></span>
+					</span>
+					<span id="lblRestrictByMemberProgramStatic">
+						Restrictions based on GLG Member Program Status
+					</span>
+					<div id="divRestrictionsBasedOnMemberProgramStatus">Allow Calls with GLG Member Program Council Members, Block Everyone else</div>
+				</dd>
+				<dd>
+					<span disabled="disabled"><input id="chkRestrictBySpecific" type="checkbox" name="chkRestrictBySpecific" disabled="disabled" /></span>
+					<span id="lblRestrictBySpecific">
+						<span class="Icons-CheckIcon"></span>
+					</span>
+					<span id="lblRestrictBySpecificStatic">
+						Restrictions on specific Council Members
+					</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<span disabled="disabled"><input id="chkBodRestrictByBoardMembership" type="checkbox" name="chkBodRestrictByBoardMembership" checked="checked" disabled="disabled" /></span>
+					<span id="BodLabel1">
+						Restrictions based on board directorship (ticker)
+					</span>
+				</dt>
+				<dd>
+					Board members of public companies on-hold:
+					<span id="lblBodAllPublicCompaniesOnHold">No</span>
+					<div id="Boddiv1"></div>
+				</dd>
+				<dd>
+					Board members of public companies blocked:
+					<span id="lblBodAllPublicCompaniesBlocked">No</span>
+					<div id="Boddiv2"></div>
+				</dd>
+				<dd>
+					Board members of specific public companies on-hold:
+					<span id="lblBodSpecificPublicCompaniesOnHold">No</span>
+					<div id="Boddiv3"></div>
+				</dd>
+				<dd>
+					Board members of specific public companies blocked:
+					<span id="lblBodSpecificPublicCompaniesBlocked">Yes</span>
+					<div id="Boddiv4">Board members within the last 12 months</div>
+				</dd>
+			</dl>
+		</td>
+
+		<td valign="top">
+			<dl>
+				<dt>
+					<span id="lblManageUsersStatic">
+						Manage Users
+					</span>
+				</dt>
+				<dd>
+					Restrict Individual Users:
+					<span id="lblRestrictIndvUsers">No</span>
+				</dd>
+				<dd>
+					Include project titles and descriptions on the CMP Open Project List:
+					<span id="lblOpl">No</span>
+				</dd>
+				<dd>
+					Allow client users to designate certain Project Requests for referrals to non-Council Members:
+					<span id="lblReferrals">No</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<span id="lblManageGLGEmails">
+						Manage GLG Emails
+					</span>
+				</dt>
+				<dd>
+					Customize Emails Sent by GLG to Your Firm's Users:
+					<span id="lblCustomizeEmailsFirmUsers">No</span>
+				</dd>
+				<dd>
+					Customize Emails Sent by GLG to Council Members:
+					<span id="lblCustomizeEmailsCMs">Yes</span>
+				</dd>
+				<dd>
+					Receive Copies of GLG Emails:
+					<span id="lblReceiveCopiesGLGEmails">No</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<span style="padding-left:6px">Oversight Questions</span>
+				</dt>
+				<dd>
+					Oversight Questions:
+					<span id="lblConsultationOversightStatus">Disabled</span>
+				</dd>
+			</dl>
+		</td>
+	</tr>
+</table>
+<h2>Survey Settings</h2>
+<table class="settings">
+	<tr>
+		<td>
+			<dl>
+				<dt>
+					<span disabled="disabled"><input id="chkRestrictByEmployerSurvey" type="checkbox" name="chkRestrictByEmployerSurvey" checked="checked" disabled="disabled" /></span>
+					<span id="lblRestrictByEmployerStaticSurvey">
+						Restrictions based on employer (ticker)
+					</span>
+				</dt>
+                        <!---<dd>
+                            All public companies on-hold:
+                            <span id="lblAllPublicCompaniesOnHoldSurvey">blank</span>
+                            <div id="divAllPublicCompaniesBlockedCheckedListSurvey"></div>
+                          </dd>-->
+                          <dd>
+                          	All public companies blocked:
+                          	<span id="lblAllPublicCompaniesBlockedSurvey">No</span>
+                          	<div id="divAllPublicCompaniesBlockedListSurvey"></div>
+                          </dd>
+                        <!---<dd>
+                            Specific public companies on-hold:
+                            <span id="lblSpecificPublicCompaniesOnHoldSurvey">blank</span>
+                            <div id="divSpecificCompaniesOnHoldCheckedListSurvey"></div>
+                          </dd>-->
+                          <dd>
+                          	Specific public companies blocked:
+                          	<span id="lblSpecificPublicCompaniesBlockedSurvey">Yes</span>
+                          	<div id="divSpecificCompaniesBlockedCheckedListSurvey">People employed within the last 12 months</div>
+                          </dd>
+                          <dd>
+                          	<span disabled="disabled"><input id="chkRestrictByMemberProgramSurvey" type="checkbox" name="chkRestrictByMemberProgramSurvey" checked="checked" disabled="disabled" /></span>
+                          	<span id="lblRestrictByMemberProgramSurvey">
+                          		<span class="Icons-CheckIcon"></span>
+                          	</span>
+                          	<span id="lblRestrictByMemberProgramStaticSurvey">
+                          		Restrictions based on GLG Member Program Status
+                          	</span>
+                          	<div id="divRestrictionsBasedOnMemberProgramStatusSurvey">NoRestrictionCM</div>
+                          </dd>
+                          <dd>
+                          	<span disabled="disabled"><input id="chkRestrictBySpecificSurvey" type="checkbox" name="chkRestrictBySpecificSurvey" disabled="disabled" /></span>
+                          	<span id="lblRestrictBySpecificSurvey">
+                          		<span class="Icons-CheckIcon"></span>
+                          	</span>
+                          	<span id="lblRestrictBySpecificStaticSurvey">
+                          		Restrictions on specific Council Members
+                          	</span>
+                          </dd>
+                        </dl>
+                        <dl>
+                        	<dt>
+                        		<span disabled="disabled"><input id="chkBodRestrictByBoardmemberSurvey" type="checkbox" name="chkBodRestrictByBoardmemberSurvey" checked="checked" disabled="disabled" /></span>
+                        		<span id="Label1">
+                        			Restrictions based on board directorship (ticker)
+                        		</span>
+                        	</dt>
+                        	<dd>
+                        		Board members of public companies blocked:
+                        		<span id="lblBodAllPublicCompaniesBlockedSurvey">No</span>
+                        		<div id="BodDiv1Survey"></div>
+                        	</dd>
+                        	<dd>
+                        		Board members of specific public companies blocked:
+                        		<span id="lblBodSpecificPublicCompaniesBlockedSurvey">Yes</span>
+                        		<div id="BodDiv2Survey">Board members within the last 12 months</div>
+                        	</dd>
+                        </dl>
+                      </td>
+                      <td valign="top">
+                      	<dl>
+                      		<dt>
+                      			<span style="padding-left:6px">
+                      				Manage Users
+                      			</span>
+                      		</dt>
+                      		<dd>
+                      			Restrict follow-up Consultations from Surveys and Q&amp;As:
+                      			<span id="lblFollowUpFromSurvey">No</span>
+                      		</dd>
+                      		<dd>
+                      			Restrict Unblinding for Surveys and Q&amp;As:
+                      			<span id="lblUnblinding">No</span>
+                      		</dd>
+                      	</dl>
+                      	<dl>
+                      		<dt>
+                      			<span style="padding-left:6px">Oversight Questions</span>
+                      		</dt>
+                      		<dd>
+                      			Oversight Questions:
+                      			<span id="lblSurveyOversightStatus">Disabled</span>
+                      		</dd>
+                      	</dl>
+                      </td>
+                    </tr>
+                  </table>
+                  <h2>Visit Settings</h2>
+                  <table class="settings">
+                  	<tr>
+                  		<td>
+                  			<dl>
+                  				<dt>
+                  					<span disabled="disabled"><input id="chkRestrictByEmployerVisit" type="checkbox" name="chkRestrictByEmployerVisit" checked="checked" disabled="disabled" /></span>
+                  					<span id="lblRestrictByEmployerStaticVisit">
+                  						Restrictions based on employer (ticker)
+                  					</span>
+                  				</dt>
+                  				<dd>
+                  					All public companies blocked:
+                  					<span id="lblAllPublicCompaniesBlockedVisit">Yes</span>
+                  					<div id="divAllPublicCompaniesBlockedListVisit">Current Employees People employed within the last 12 months</div>
+                  				</dd>
+                  				<dd>
+                  					Specific public companies blocked:
+                  					<span id="lblSpecificPublicCompaniesBlockedVisit">No</span>
+                  					<div id="divSpecificCompaniesBlockedCheckedListVisit"></div>
+                  				</dd>
+                  				<dd>
+                  					<span disabled="disabled"><input id="chkRestrictBySpecificCMVisit" type="checkbox" name="chkRestrictBySpecificCMVisit" disabled="disabled" /></span>
+                  					<span id="lblRestrictBySpecificCMVisit">
+                  						<span class="Icons-CheckIcon"></span>
+                  					</span>
+                  					<span id="lblRestrictBySpecificStaticVisit">
+                  						Restrictions on specific Council Members
+                  					</span>
+                  				</dd>
+                  			</dl>
+                  			<dl>
+                  				<dt>
+                  					<span disabled="disabled"><input id="chkBodRestrictByBoardmemberVisits" type="checkbox" name="chkBodRestrictByBoardmemberVisits" checked="checked" disabled="disabled" /></span>
+                  					<span id="Label2">
+                  						Restrictions based on board directorship (ticker)
+                  					</span>
+                  				</dt>
+                  				<dd>
+                  					Board members of public companies blocked:
+                  					<span id="lblBodAllPublicCompaniesBlockedVisits">Yes</span>
+                  					<div id="BodDiv1Visits">Board members within the last 12 months</div>
+                  				</dd>
+                  				<dd>
+                  					Board members of specific public companies blocked:
+                  					<span id="lblBodSpecificPublicCompaniesBlockedVisits">No</span>
+                  					<div id="BodDiv2Visits"></div>
+                  				</dd>
+                  			</dl>
+
+                  		</td>
+                  		<td valign="top">
+                  			<dl>
+                  				<dt>
+                  					<span id="lblManageUsersStaticVisit">
+                  						Manage Users
+                  					</span>
+                  				</dt>
+                  				<dd>
+                  					Restrict Access to Visits:
+                  					<span id="lblRestrictAccessToVisits">No</span>
+                  				</dd>
+                  			</dl>
+                  		</td>
+                  	</tr>
+                  </table>
+
+                  <h2>Other Settings</h2>
+                  <table class="settings">
+                  	<tr>
+                  		<td>
+                  			<dl>
+                  				<dt>
+                  					<span style="padding-left:6px">Hide CM Contact Info</span>
+                  				</dt>
+                  				<dd>
+                  					Hide CM Contact Info:
+                  					<span id="lblSupressCMContactInfo">No</span>
+
+                  				</dd>
+                  			</dl>
+                  		</td>
+                  	</tr>
+                  	<tr>
+                  		<td>
+                  			<dl>
+                  				<dt>
+                  					<span>Enable CSV Attachment Info</span>
+                  				</dt>
+                  				<dd>
+                  					Enable CSV Attachment:
+                  					<span id="lblEnableCSVAttachment">No</span>
+
+                  				</dd>
+                  			</dl>
+                  		</td>
+                  	</tr>
+                  	<tr id="clientLevelBlindingSettings">
+                  		<td>
+                  			<dl>
+                  				<dt>
+                  					<span style="padding-left:6px">Client Level Blinding Settings </span>
+                  				</dt>
+                  				<dd>
+
+
+
+                  					<span id="lblDefaultHideClientInfoAndLock">Allow and default all new projects to hide client information from the Council Member but do not allow this to be changed by the Research Manager.</span>
+                  				</dd>
+                  			</dl>
+                  		</td>
+                  	</tr>
+
+                  	<tr>
+                  		<td>
+                  			<dl>
+                  				<dt>
+                  					<span style="padding-left:6px">Fair Market Value Info</span>
+                  				</dt>
+                  				<dd>
+                  					This client requires Fair Market Value (FMV) rates for projects:
+                  					<span id="lblFMV">No</span>
+
+                  				</dd>
+                  			</dl>
+                  		</td>
+                  	</tr>
+
+
+                  </table>

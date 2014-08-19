@@ -1,6 +1,10 @@
 name: Scaffold
+author: Max Quattromani
 markdown: redcarpet
 highlighter: true
 baseurl: /scaffold
+google_analytics: false
+google_analytics_id: UA-17676310-1
+jquery_version: 1.9.0
 
 exclude: ['node_modules', 'scss']
