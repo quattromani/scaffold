@@ -2,42 +2,42 @@
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Lt';
+  font-family: "NeueHaasGroteskDisp-Pro-Lt";
   src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222") format("svg");
-  font-style: normal;
+  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype");
   font-weight: 400;
+  font-style: "normal";
 }
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro';
+  font-family: "NeueHaasGroteskDisp-Pro";
   src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515") format("svg");
-  font-style: normal;
+  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype");
   font-weight: 400;
+  font-style: "normal";
 }
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro 75';
+  font-family: "NeueHaasGroteskDisp-Pro-75";
   src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
-  font-style: normal;
+  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?") format("eot"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype");
   font-weight: 400;
+  font-style: "normal";
 }
 @font-face {
-  font-family: "FontAwesome";
+  font-family: "fontawesome";
   src: url("fonts/icons/fontawesome-webfont.eot");
-  src: url("fonts/icons/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/icons/fontawesome-webfont.svg#svgFontAwesome") format("svg"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
+  src: url("fonts/icons/fontawesome-webfont.eot?") format("eot"), url("fonts/icons/fontawesome-webfont.woff") format("woff"), url("fonts/icons/fontawesome-webfont.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
+  font-style: "normal";
 }
 @font-face {
   font-family: "GLGlyphs";
-  src: url("fonts/icons/GLGlyphs.eot?-a4mj0q");
-  src: url("fonts/icons/GLGlyphs.eot?#iefix-a4mj0q") format("embedded-opentype"), url("fonts/icons/GLGlyphs.woff?-a4mj0q") format("woff"), url("fonts/icons/GLGlyphs.ttf?-a4mj0q") format("truetype"), url("fonts/icons/GLGlyphs.svg?-a4mj0q#GLGlyphs") format("svg");
+  src: url("fonts/icons/GLGlyphs.eot");
+  src: url("fonts/icons/GLGlyphs.eot?") format("eot"), url("fonts/icons/GLGlyphs.woff") format("woff"), url("fonts/icons/GLGlyphs.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
+  font-style: "normal";
 }
 .base-font {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .base-font-alt {
@@ -113,7 +113,7 @@ a.muted, .muted a {
    ========================== */
 h1,
 .h1 {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -135,7 +135,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -157,7 +157,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
@@ -179,7 +179,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
@@ -187,7 +187,7 @@ h4,
 
 h5,
 .h5 {
-  font-family: "NeueHaasGroteskDisp Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -195,7 +195,7 @@ h5,
 
 h6,
 .h6 {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
@@ -238,7 +238,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word;
 }
 p:only-child,
@@ -341,9 +341,7 @@ samp {
 }
 
 .fa {
-  font-family: "FontAwesome", Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "FontAwesome";
 }
 
 /* ==========================
@@ -357,7 +355,7 @@ samp {
 
 .logo_slash,
 .division {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   color: #ef272d;

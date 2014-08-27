@@ -52,7 +52,7 @@
   width: 100%;
   margin-bottom: 1em;
 }
-.row:first-child, .row:only-child {
+.row:only-child {
   margin-bottom: 0;
 }
 

@@ -46,7 +46,6 @@
 .row {
   @include row;
 
-  &:first-child,
   &:only-child {
     margin-bottom: 0;
   }

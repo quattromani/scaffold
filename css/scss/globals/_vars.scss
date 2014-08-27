@@ -99,13 +99,23 @@ $font-weight-bold: 900;
 // Google Fonts
 // $google-fonts-url: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro';
 
-// Font Families
-$base-font: 'NeueHaasGroteskDisp Pro Lt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// Font Families List
+$font-faces: (
+  'NeueHaasGroteskDisp-Pro-Lt': ('NHaasGroteskDSPro-45Lt', 400),
+  'NeueHaasGroteskDisp-Pro': ('NHaasGroteskDSPro-55Rg', 400),
+  'NeueHaasGroteskDisp-Pro-75': ('NHaasGroteskDSPro-75Bd', 400),
+  'fontawesome': ('icons/fontawesome-webfont', normal),
+  'GLGlyphs': ('icons/GLGlyphs', normal)
+);
+$font-path: 'fonts/';
+
+// Font Familes Variables
+$base-font: 'NeueHaasGroteskDisp-Pro-Lt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-alt: $arial;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 $heading-font: $base-font;
-$heading-font-alt: 'NeueHaasGroteskDisp Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-font-alt: 'NeueHaasGroteskDisp-Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $fontawesome: 'FontAwesome';
 $GLGlyphs: 'GLGlyphs';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;

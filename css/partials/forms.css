@@ -112,7 +112,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 input::-webkit-datetime-edit-fields-wrapper {
-  font-family: "NeueHaasGroteskDisp Pro Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 select,

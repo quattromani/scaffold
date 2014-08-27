@@ -34,18 +34,25 @@
   padding-left: $left;
 }
 
-// Font Size
-@mixin font-size($value, $base: $base-font-size) {
-  @if $support-legacy {
-    font-size: $value * 1px;
-  }
-  font-size: $value * .1rem;
+// Font Family Mixin
+@mixin font($font, $style: normal, $weight: normal) {
+  font-family: $font, Helvetica, Arial, sans-serif;
+  font-style:  $style;
+  font-weight: $weight;
 }
 
 @mixin font-family($font, $size: $base-font-size, $style: normal, $weight: normal) {
   font-family: $font,Arial,Sans-Serif;
   font-style: $style;
   font-weight: $weight;
+}
+
+// Font Size
+@mixin font-size($value, $base: $base-font-size) {
+  @if $support-legacy {
+    font-size: $value * 1px;
+  }
+  font-size: $value * .1rem;
 }
 
 // Column / Grid Control

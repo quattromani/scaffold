@@ -9,59 +9,33 @@
   @import url($google-fonts-url);
 }
 
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Lt';
-  src: url('fonts/NHaasGroteskDSPro-45Lt.eot');
-  src: url('fonts/NHaasGroteskDSPro-45Lt.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-45Lt.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-45Lt.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+// Build Font-Face
+@each $font-face-name, $font-face in $font-faces {
 
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro';
-  src: url('fonts/NHaasGroteskDSPro-55Rg.eot');
-  src: url('fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+  $font-weight: 'normal';
+  $font-style: 'normal';
 
-@font-face {
-  font-family: 'NeueHaasGroteskDisp Pro 75';
-  src: url('fonts/NHaasGroteskDSPro-75Bd.eot');
-  src: url('fonts/NHaasGroteskDSPro-75Bd.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-75Bd.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-75Bd.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+  // check if we are passing a list
+  @if (type-of($font-face) == list) {
+    $font-weight: nth($font-face, 2);
+    $font-style: if(length($font-face) == 3, nth($font-face, 3), 'normal');
+  }
 
-@font-face {
-  font-family: $fontawesome;
-  src: url('fonts/icons/fontawesome-webfont.eot');
-  src: url('fonts/icons/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/icons/fontawesome-webfont.svg#svgFontAwesome') format('svg'),
-       url('fonts/icons/fontawesome-webfont.woff') format("woff"),
-       url('fonts/icons/fontawesome-webfont.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+  // generate all font faces using their appropriate weights & styles
+  @font-face {
+    font-family: $font-face-name;
+    src: url('#{$font-path}#{nth($font-face, 1)}.eot');
+    src: url('#{$font-path}#{nth($font-face, 1)}.eot?') format('eot'),
+         url('#{$font-path}#{nth($font-face, 1)}.woff') format('woff'),
+         url('#{$font-path}#{nth($font-face, 1)}.ttf')  format('truetype');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
 
-@font-face {
-  font-family: $GLGlyphs;
-  src: url('fonts/icons/GLGlyphs.eot?-a4mj0q');
-  src: url('fonts/icons/GLGlyphs.eot?#iefix-a4mj0q') format('embedded-opentype'),
-    url('fonts/icons/GLGlyphs.woff?-a4mj0q') format('woff'),
-    url('fonts/icons/GLGlyphs.ttf?-a4mj0q') format('truetype'),
-    url('fonts/icons/GLGlyphs.svg?-a4mj0q#GLGlyphs') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  // generate placeholders so we can extend when we need to use a font
+  %#{$font-face-name} {
+    @include font($font-face-name, $font-style, $font-weight);
+  }
 }
 
 .base-font {
@@ -267,7 +241,7 @@ samp {
 }
 
 .fa {
-  @include font-family($fontawesome);
+  font-family: $fontawesome;
 }
 
 /* ==========================
