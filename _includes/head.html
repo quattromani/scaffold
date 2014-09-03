@@ -4,29 +4,33 @@
 <!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ page.description }}" />
+  <meta name="author" content="{{ site.author }}">
+  <meta name="rating" content="general">
+  <meta name="keywords" content="{{ page.categories | join: ',' }}" />
+  <meta name="robots" content="{{ page.index }}INDEX,{{ page.follow }}FOLLOW" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
-    <meta name="description" content="{{ page.description }}" />
-    <meta name="author" content="{{ site.author }}">
-    <meta name="rating" content="general">
-    <meta name="keywords" content="{{ page.categories | join: ',' }}" />
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
-    <meta name="format-detection" content="telephone=no">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-    <meta name="robots" content="{{ page.index }}INDEX,{{ page.follow }}FOLLOW" />
-    <meta name="viewport" content="width=device-width, minimal-ui">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#3372DF">
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/main.min.css" >
-    <link rel="stylesheet" href="{{ site.baseurl }}/slick/slick.css"/>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts/icons/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-    <script src="{{ site.baseurl }}/js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.min.css" >
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts/icons/font-awesome.min.css">
 
 </head>
 
 <body class="{{ page.class }}">
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
