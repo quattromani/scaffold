@@ -89,6 +89,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/_includes/google_analytics.html",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
@@ -119,7 +121,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
@@ -128,7 +129,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
 		"/Users/Q/Sites/scaffold/sandbox/cmp-progress-focus/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/sandbox/cats/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/data-image/index.html",
