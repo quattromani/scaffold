@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/_includes/google_analytics.html",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/index.html",
@@ -122,7 +123,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
@@ -237,6 +237,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"clear",
 			"surve",
 			"survey",
 			"h1",
