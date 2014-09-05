@@ -24,9 +24,9 @@ details summary {
   padding-right: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
-  background: #cccccc;
+  background: #ccc;
   outline: none;
-  color: white;
+  color: #fff;
 }
 details summary::-webkit-details-marker {
   display: none;
@@ -44,3 +44,5 @@ details summary:before {
 details[open] summary:before {
   content: "\f077";
 }
+
+/*# sourceMappingURL=summary.css.map */

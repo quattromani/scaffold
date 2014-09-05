@@ -264,7 +264,7 @@ blockquote {
   margin-bottom: 0;
   margin-left: auto;
   border-left: 3px solid currentColor;
-  color: #cccccc;
+  color: #ccc;
   font-style: italic;
   padding-left: 1em;
 }
@@ -333,11 +333,8 @@ samp {
 }
 
 .code-comment {
-  filter: alpha(opacity=50);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
   opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .fa {
@@ -367,3 +364,5 @@ samp {
   left: -.1em;
   color: #b3b3b3;
 }
+
+/*# sourceMappingURL=typography.css.map */

@@ -1055,7 +1055,7 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
 }
 
 .bordered-dotted {
@@ -1063,13 +1063,13 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px dotted #cccccc;
+  border: 1px dotted #ccc;
 }
 
 .bordered-left,
 .bordered-left-dark {
   padding-left: 2%;
-  border-left: 1px dotted #cccccc;
+  border-left: 1px dotted #ccc;
 }
 
 .bordered-left-dark {
@@ -1079,7 +1079,7 @@
 .bordered-right,
 .bordered-right-dark {
   padding-right: 2%;
-  border-right: 1px dotted #cccccc;
+  border-right: 1px dotted #ccc;
 }
 
 .bordered-right-dark {
@@ -1195,3 +1195,5 @@
     column-gap: 0;
   }
 }
+
+/*# sourceMappingURL=helpers.css.map */

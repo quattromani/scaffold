@@ -56,7 +56,7 @@ button.button-primary,
 .cta.btn-primary,
 .cta.button-primary {
   background: #ef272d;
-  color: white;
+  color: #fff;
 }
 .btn.btn-primary:hover, .btn.button-primary:hover,
 .button.btn-primary:hover,
@@ -72,7 +72,7 @@ button.button-primary:hover,
 button.btn-error,
 .cta.btn-error {
   background: #ef272d;
-  color: white;
+  color: #fff;
 }
 .btn.btn-error:hover,
 .button.btn-error:hover,
@@ -85,7 +85,7 @@ button.btn-error:hover,
 button.btn-success,
 .cta.btn-success {
   background: #308e28;
-  color: white;
+  color: #fff;
 }
 .btn.btn-success:hover,
 .button.btn-success:hover,
@@ -98,7 +98,7 @@ button.btn-success:hover,
 button.btn-info,
 .cta.btn-info {
   background: #0099ed;
-  color: white;
+  color: #fff;
 }
 .btn.btn-info:hover,
 .button.btn-info:hover,
@@ -110,14 +110,14 @@ button.btn-info:hover,
 .button.btn-black,
 button.btn-black,
 .cta.btn-black {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
 }
 .btn.btn-black:hover,
 .button.btn-black:hover,
 button.btn-black:hover,
 .cta.btn-black:hover {
-  background: #cccccc;
+  background: #ccc;
 }
 .btn:disabled, .btn.js-disabled, .btn.disabled,
 .button:disabled,
@@ -131,7 +131,7 @@ button.disabled,
 .cta.disabled {
   cursor: default;
   background: #e6e6e6;
-  color: #cccccc;
+  color: #ccc;
   pointer-events: none;
 }
 .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
@@ -154,7 +154,7 @@ button.disabled:active,
 .cta.disabled:hover,
 .cta.disabled:active {
   background: #e6e6e6;
-  color: #cccccc;
+  color: #ccc;
 }
 .btn.block,
 .button.block,
@@ -252,7 +252,6 @@ button.btn-sm,
   from {
     -webkit-transform: rotate(0deg);
   }
-
   to {
     -webkit-transform: rotate(359deg);
   }
@@ -284,3 +283,5 @@ button.btn-sm,
   overflow: visible;
   width: auto;
 }
+
+/*# sourceMappingURL=buttons.css.map */

@@ -43,11 +43,11 @@
 
 .color-black,
 .bg-black {
-  background-color: black;
+  background-color: #000;
 }
 
 .text-black {
-  color: black;
+  color: #000;
 }
 
 .color-dark-grey,
@@ -61,11 +61,11 @@
 
 .color-grey,
 .bg-grey {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 
 .text-grey {
-  color: #cccccc;
+  color: #ccc;
 }
 
 .color-light-grey,
@@ -88,11 +88,11 @@
 
 .color-white,
 .bg-white {
-  background-color: white;
+  background-color: #fff;
 }
 
 .text-white {
-  color: white;
+  color: #fff;
 }
 
 .color-off-white,
@@ -259,11 +259,11 @@
 
 .color-primary-orange,
 .bg-primary-orange {
-  background-color: #ff6622;
+  background-color: #f62;
 }
 
 .text-primary-orange {
-  color: #ff6622;
+  color: #f62;
 }
 
 .color-secondary-orange,
@@ -376,3 +376,5 @@
 .ie9 [class*="gradient"] {
   filter: none;
 }
+
+/*# sourceMappingURL=colors.css.map */

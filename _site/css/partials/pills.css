@@ -20,7 +20,7 @@ label + .pill,
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: #cccccc;
+  background: #ccc;
   font-size: 13px;
   font-size: 1.3rem;
   font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
@@ -30,16 +30,18 @@ label + .pill,
   color: inherit;
 }
 .pill-white {
-  background: white;
+  background: #fff;
   -webkit-box-shadow: inset 0 0 0 1px #454545;
   -moz-box-shadow: inset 0 0 0 1px #454545;
   box-shadow: inset 0 0 0 1px #454545;
 }
 .pill-error {
   background: #ef272d;
-  color: white;
+  color: #fff;
 }
 .pill-success {
   background: #3eb633;
-  color: white;
+  color: #fff;
 }
+
+/*# sourceMappingURL=pills.css.map */

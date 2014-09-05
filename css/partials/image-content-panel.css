@@ -7,7 +7,7 @@
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  color: white;
+  color: #fff;
 }
 .image-content-panel .feature {
   position: absolute;
@@ -26,3 +26,5 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#59000000,endColorstr=#59000000);
   zoom: 1;
 }
+
+/*# sourceMappingURL=image-content-panel.css.map */

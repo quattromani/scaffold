@@ -55,6 +55,28 @@
   font-size: $value * .1rem;
 }
 
+// Text overflow
+// Requires inline-block or block for proper styling
+@mixin text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin clearfix() {
+  zoom: 1;
+
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
 // Column / Grid Control
 $width: 100%;   // total with of page
 $site-column-count: 12 !default;    // number of columns
@@ -69,10 +91,14 @@ $marginless-col-width: $width / $site-column-count;
 
 // create row
 @mixin row() {
-  clear: both;
+  @include clearfix;
   @include inline-block;
   width: $width;
   margin-bottom: $margin;
+
+  &:only-child {
+    margin-bottom: 0;
+  }
 }
 
 // create a column
@@ -144,11 +170,9 @@ $marginless-col-width: $width / $site-column-count;
 
 // Opacity
 @mixin opacity($opacity) {
-  filter: alpha(opacity=($opacity * 100));
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})";
-  -moz-opacity: $opacity;
-  -khtml-opacity: $opacity;
   opacity: $opacity;
+  $opacity-ie: ($opacity * 100);
+  filter: #{alpha(opacity=$opacity-ie)};
 }
 
 // Background Clip

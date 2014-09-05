@@ -106,7 +106,7 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background-color: #cccccc;
+  background-color: #ccc;
   width: 1em;
   height: 1em;
 }
@@ -253,7 +253,7 @@ input.radio:empty ~ label:after {
   height: .75em;
   top: .375em;
   margin-left: .375em;
-  background: white;
+  background: #fff;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -270,3 +270,5 @@ input.radio:checked ~ label:before {
 input.switch:checked ~ label:after {
   margin-left: 1.375em;
 }
+
+/*# sourceMappingURL=forms.css.map */
