@@ -1,0 +1,325 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-haml',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.0.0-beta.1
+3 info using node@v0.10.31
+4 warn package.json scaffold@0.2.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt-contrib-haml', null ]
+7 verbose cache add spec="grunt-contrib-haml" args=["grunt-contrib-haml",null]
+8 verbose parsed spec { raw: 'grunt-contrib-haml',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'grunt-contrib-haml',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose addNamed [ 'grunt-contrib-haml', '*' ]
+10 verbose addNamed [ null, '*' ]
+11 silly lockFile 782050cf-grunt-contrib-haml grunt-contrib-haml@*
+12 verbose lock grunt-contrib-haml@* /Users/Q/.npm/782050cf-grunt-contrib-haml.lock
+13 silly addNameRange { name: 'grunt-contrib-haml', range: '*', hasData: false }
+14 verbose mapToRegistry name grunt-contrib-haml
+15 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-haml
+16 verbose request on initialization, where is /grunt-contrib-haml
+17 verbose request after pass 1, where is /grunt-contrib-haml
+18 verbose request url raw /grunt-contrib-haml
+19 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-haml' ]
+20 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-haml
+21 verbose request no auth needed
+22 info retrier registry request attempt 1 at 14:28:27
+23 verbose request id 858c88bdeaf15950
+24 verbose etag "58PU56JFPLYQM9RB5A4E3GYIB"
+25 http request GET https://registry.npmjs.org/grunt-contrib-haml
+26 http 304 https://registry.npmjs.org/grunt-contrib-haml
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Mon, 08 Sep 2014 20:28:29 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Mon, 08 Sep 2014 20:28:29 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"58PU56JFPLYQM9RB5A4E3GYIB"',
+27 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1410208109.589261,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/grunt-contrib-haml from cache
+29 silly addNameRange number 2 { name: 'grunt-contrib-haml', range: '*', hasData: true }
+30 silly addNameRange versions [ 'grunt-contrib-haml', [ '0.1.0', '0.1.1', '0.1.2', '0.2.0' ] ]
+31 verbose addNamed [ 'grunt-contrib-haml', '0.2.0' ]
+32 verbose addNamed [ '0.2.0', '0.2.0' ]
+33 silly lockFile 4f8a6e3c-grunt-contrib-haml-0-2-0 grunt-contrib-haml@0.2.0
+34 verbose lock grunt-contrib-haml@0.2.0 /Users/Q/.npm/4f8a6e3c-grunt-contrib-haml-0-2-0.lock
+35 silly lockFile 4f8a6e3c-grunt-contrib-haml-0-2-0 grunt-contrib-haml@0.2.0
+36 silly lockFile 4f8a6e3c-grunt-contrib-haml-0-2-0 grunt-contrib-haml@0.2.0
+37 silly lockFile 782050cf-grunt-contrib-haml grunt-contrib-haml@*
+38 silly lockFile 782050cf-grunt-contrib-haml grunt-contrib-haml@*
+39 silly resolved [ { name: 'grunt-contrib-haml',
+39 silly resolved     description: 'Compile Haml to HTML',
+39 silly resolved     version: '0.2.0',
+39 silly resolved     homepage: 'https://github.com/jhchen/grunt-contrib-haml',
+39 silly resolved     contributors: [ [Object], [Object] ],
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git://github.com/jhchen/grunt-contrib-haml.git' },
+39 silly resolved     bugs: { url: 'https://github.com/jhchen/grunt-contrib-haml/issues' },
+39 silly resolved     licenses: [ [Object] ],
+39 silly resolved     main: 'Gruntfile.js',
+39 silly resolved     engines: { node: '>= 0.10.0' },
+39 silly resolved     scripts: { test: 'grunt test' },
+39 silly resolved     dependencies: { dargs: '~0.1.0' },
+39 silly resolved     devDependencies:
+39 silly resolved      { 'grunt-contrib-clean': '~0.4.0',
+39 silly resolved        'grunt-contrib-jshint': '~0.2.0',
+39 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+39 silly resolved        'grunt-contrib-internal': '~0.4.2',
+39 silly resolved        grunt: '~0.4.0' },
+39 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+39 silly resolved     keywords:
+39 silly resolved      [ 'gruntplugin',
+39 silly resolved        'haml',
+39 silly resolved        'html',
+39 silly resolved        'compile',
+39 silly resolved        'preprocessor',
+39 silly resolved        'style' ],
+39 silly resolved     _id: 'grunt-contrib-haml@0.2.0',
+39 silly resolved     dist:
+39 silly resolved      { shasum: '13a05710b9d9dcf041a1739cb973e210661f01e6',
+39 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-haml/-/grunt-contrib-haml-0.2.0.tgz' },
+39 silly resolved     _from: 'grunt-contrib-haml@*',
+39 silly resolved     _npmVersion: '1.3.24',
+39 silly resolved     _npmUser: { name: 'jhchen', email: 'jhchen7@gmail.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     directories: {},
+39 silly resolved     _shasum: '13a05710b9d9dcf041a1739cb973e210661f01e6',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-haml/-/grunt-contrib-haml-0.2.0.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install grunt-contrib-haml@0.2.0 into /Users/Q/Sites/scaffold
+41 info installOne grunt-contrib-haml@0.2.0
+42 verbose node_modules/grunt-contrib-haml unbuild
+43 info preuninstall grunt-contrib-haml@0.2.0
+44 info uninstall grunt-contrib-haml@0.2.0
+45 verbose true,/Users/Q/Sites/scaffold/node_modules,/Users/Q/Sites/scaffold/node_modules unbuild grunt-contrib-haml@0.2.0
+46 info postuninstall grunt-contrib-haml@0.2.0
+47 verbose gentlyRm vacuuming /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+48 silly gentlyRm purging /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+49 silly gentlyRm quitting because other entries in /Users/Q/Sites/scaffold/node_modules
+50 verbose tar unpack /Users/Q/.npm/grunt-contrib-haml/0.2.0/package.tgz
+51 silly lockFile 4b42d8f0--node-modules-grunt-contrib-haml tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+52 verbose lock tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml /Users/Q/.npm/4b42d8f0--node-modules-grunt-contrib-haml.lock
+53 silly lockFile de6f496a-t-contrib-haml-0-2-0-package-tgz tar:///Users/Q/.npm/grunt-contrib-haml/0.2.0/package.tgz
+54 verbose lock tar:///Users/Q/.npm/grunt-contrib-haml/0.2.0/package.tgz /Users/Q/.npm/de6f496a-t-contrib-haml-0-2-0-package-tgz.lock
+55 verbose gentlyRm vacuuming /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry .jshintrc
+60 silly gunzTarPerm extractEntry AUTHORS
+61 silly gunzTarPerm extractEntry LICENSE-MIT
+62 silly gunzTarPerm extractEntry tasks/haml.js
+63 silly lockFile 4b42d8f0--node-modules-grunt-contrib-haml tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+64 silly lockFile 4b42d8f0--node-modules-grunt-contrib-haml tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+65 silly lockFile de6f496a-t-contrib-haml-0-2-0-package-tgz tar:///Users/Q/.npm/grunt-contrib-haml/0.2.0/package.tgz
+66 silly lockFile de6f496a-t-contrib-haml-0-2-0-package-tgz tar:///Users/Q/.npm/grunt-contrib-haml/0.2.0/package.tgz
+67 info preinstall grunt-contrib-haml@0.2.0
+68 verbose readDependencies using package.json deps
+69 verbose readDependencies using package.json deps
+70 verbose cache add [ 'dargs@~0.1.0', null ]
+71 verbose cache add spec="dargs@~0.1.0" args=["dargs@~0.1.0",null]
+72 verbose parsed spec { raw: 'dargs@~0.1.0',
+72 verbose parsed spec   scope: null,
+72 verbose parsed spec   name: 'dargs',
+72 verbose parsed spec   rawSpec: '~0.1.0',
+72 verbose parsed spec   spec: '>=0.1.0-0 <0.2.0-0',
+72 verbose parsed spec   type: 'range' }
+73 verbose addNamed [ 'dargs', '>=0.1.0-0 <0.2.0-0' ]
+74 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+75 silly lockFile fd333f64-dargs-0-1-0-0-0-2-0-0 dargs@>=0.1.0-0 <0.2.0-0
+76 verbose lock dargs@>=0.1.0-0 <0.2.0-0 /Users/Q/.npm/fd333f64-dargs-0-1-0-0-0-2-0-0.lock
+77 silly addNameRange { name: 'dargs', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+78 verbose mapToRegistry name dargs
+79 verbose mapToRegistry uri https://registry.npmjs.org/dargs
+80 verbose request on initialization, where is /dargs
+81 verbose request after pass 1, where is /dargs
+82 verbose request url raw /dargs
+83 verbose request resolving registry [ 'https://registry.npmjs.org/', './dargs' ]
+84 verbose request after pass 2, where is https://registry.npmjs.org/dargs
+85 verbose request no auth needed
+86 info retrier registry request attempt 1 at 14:28:29
+87 verbose etag "4GARNPZ88BKIFR7IY5S0F1402"
+88 http request GET https://registry.npmjs.org/dargs
+89 http 304 https://registry.npmjs.org/dargs
+90 silly registry.get cb [ 304,
+90 silly registry.get   { date: 'Mon, 08 Sep 2014 20:28:30 GMT',
+90 silly registry.get     server: 'Apache',
+90 silly registry.get     via: '1.1 varnish',
+90 silly registry.get     'last-modified': 'Mon, 08 Sep 2014 20:28:30 GMT',
+90 silly registry.get     'cache-control': 'max-age=60',
+90 silly registry.get     etag: '"4GARNPZ88BKIFR7IY5S0F1402"',
+90 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+90 silly registry.get     'x-cache': 'HIT',
+90 silly registry.get     'x-cache-hits': '1',
+90 silly registry.get     'x-timer': 'S1410208110.781880,VS0,VE0',
+90 silly registry.get     vary: 'Accept',
+90 silly registry.get     'content-length': '0',
+90 silly registry.get     'keep-alive': 'timeout=10, max=50',
+90 silly registry.get     connection: 'Keep-Alive' } ]
+91 verbose etag https://registry.npmjs.org/dargs from cache
+92 silly addNameRange number 2 { name: 'dargs', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+93 silly addNameRange versions [ 'dargs',
+93 silly addNameRange   [ '0.1.0', '1.0.0', '2.0.0', '2.0.1', '2.0.2', '2.0.3' ] ]
+94 verbose addNamed [ 'dargs', '0.1.0' ]
+95 verbose addNamed [ '0.1.0', '0.1.0' ]
+96 silly lockFile 23bfdef0-dargs-0-1-0 dargs@0.1.0
+97 verbose lock dargs@0.1.0 /Users/Q/.npm/23bfdef0-dargs-0-1-0.lock
+98 silly lockFile 23bfdef0-dargs-0-1-0 dargs@0.1.0
+99 silly lockFile 23bfdef0-dargs-0-1-0 dargs@0.1.0
+100 silly lockFile fd333f64-dargs-0-1-0-0-0-2-0-0 dargs@>=0.1.0-0 <0.2.0-0
+101 silly lockFile fd333f64-dargs-0-1-0-0-0-2-0-0 dargs@>=0.1.0-0 <0.2.0-0
+102 silly resolved [ { name: 'dargs',
+102 silly resolved     version: '0.1.0',
+102 silly resolved     description: 'Converts an object of options into an array of command-line arguments. Useful when calling command-line tools.',
+102 silly resolved     keywords: [ 'options', 'arguments', 'args', 'flags', 'cli' ],
+102 silly resolved     homepage: 'https://github.com/sindresorhus/dargs',
+102 silly resolved     bugs: { url: 'https://github.com/sindresorhus/dargs/issues' },
+102 silly resolved     author:
+102 silly resolved      { name: 'Sindre Sorhus',
+102 silly resolved        email: 'sindresorhus@gmail.com',
+102 silly resolved        url: 'http://sindresorhus.com' },
+102 silly resolved     main: 'dargs.js',
+102 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/dargs.git' },
+102 silly resolved     scripts: { test: 'mocha' },
+102 silly resolved     devDependencies: { mocha: '~1.9.0' },
+102 silly resolved     engines: { node: '>=0.8.0' },
+102 silly resolved     licenses: [ [Object] ],
+102 silly resolved     files: [ 'dargs.js' ],
+102 silly resolved     _id: 'dargs@0.1.0',
+102 silly resolved     dist:
+102 silly resolved      { shasum: '2364ad9f441f976dcd5fe9961e21715665a5e3c3',
+102 silly resolved        tarball: 'http://registry.npmjs.org/dargs/-/dargs-0.1.0.tgz' },
+102 silly resolved     _from: 'dargs@>=0.1.0-0 <0.2.0-0',
+102 silly resolved     _npmVersion: '1.2.18',
+102 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+102 silly resolved     maintainers: [ [Object] ],
+102 silly resolved     directories: {},
+102 silly resolved     _shasum: '2364ad9f441f976dcd5fe9961e21715665a5e3c3',
+102 silly resolved     _resolved: 'https://registry.npmjs.org/dargs/-/dargs-0.1.0.tgz',
+102 silly resolved     readme: 'ERROR: No README data found!' } ]
+103 info install dargs@0.1.0 into /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+104 info installOne dargs@0.1.0
+105 verbose node_modules/grunt-contrib-haml/node_modules/dargs unbuild
+106 verbose gentlyRm vacuuming /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+107 verbose tar unpack /Users/Q/.npm/dargs/0.1.0/package.tgz
+108 silly lockFile 2ef253a5--contrib-haml-node-modules-dargs tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+109 verbose lock tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs /Users/Q/.npm/2ef253a5--contrib-haml-node-modules-dargs.lock
+110 silly lockFile fa642cbe-rs-Q-npm-dargs-0-1-0-package-tgz tar:///Users/Q/.npm/dargs/0.1.0/package.tgz
+111 verbose lock tar:///Users/Q/.npm/dargs/0.1.0/package.tgz /Users/Q/.npm/fa642cbe-rs-Q-npm-dargs-0-1-0-package-tgz.lock
+112 verbose gentlyRm vacuuming /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+113 silly gunzTarPerm modes [ '755', '644' ]
+114 silly gunzTarPerm extractEntry package.json
+115 silly gunzTarPerm extractEntry dargs.js
+116 silly gunzTarPerm extractEntry readme.md
+117 silly lockFile 2ef253a5--contrib-haml-node-modules-dargs tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+118 silly lockFile 2ef253a5--contrib-haml-node-modules-dargs tar:///Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+119 silly lockFile fa642cbe-rs-Q-npm-dargs-0-1-0-package-tgz tar:///Users/Q/.npm/dargs/0.1.0/package.tgz
+120 silly lockFile fa642cbe-rs-Q-npm-dargs-0-1-0-package-tgz tar:///Users/Q/.npm/dargs/0.1.0/package.tgz
+121 info preinstall dargs@0.1.0
+122 verbose readDependencies using package.json deps
+123 verbose readDependencies using package.json deps
+124 silly resolved []
+125 verbose about to build /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+126 info build /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules/dargs
+127 verbose linkStuff [ false,
+127 verbose linkStuff   false,
+127 verbose linkStuff   false,
+127 verbose linkStuff   '/Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml/node_modules' ]
+128 info linkStuff dargs@0.1.0
+129 verbose linkBins dargs@0.1.0
+130 verbose linkMans dargs@0.1.0
+131 verbose rebuildBundles dargs@0.1.0
+132 info install dargs@0.1.0
+133 info postinstall dargs@0.1.0
+134 verbose about to build /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+135 info build /Users/Q/Sites/scaffold/node_modules/grunt-contrib-haml
+136 verbose linkStuff [ false, false, false, '/Users/Q/Sites/scaffold/node_modules' ]
+137 info linkStuff grunt-contrib-haml@0.2.0
+138 verbose linkBins grunt-contrib-haml@0.2.0
+139 verbose linkMans grunt-contrib-haml@0.2.0
+140 verbose rebuildBundles grunt-contrib-haml@0.2.0
+141 verbose rebuildBundles [ 'dargs' ]
+142 info install grunt-contrib-haml@0.2.0
+143 info postinstall grunt-contrib-haml@0.2.0
+144 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle requires image-type@'^0.1.1' but will load
+144 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/image-type,
+144 warn unmet dependency which is version 0.1.4
+145 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran requires image-type@'^0.1.1' but will load
+145 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/image-type,
+145 warn unmet dependency which is version 0.1.4
+146 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng requires image-type@'^0.1.1' but will load
+146 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/image-type,
+146 warn unmet dependency which is version 0.1.4
+147 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant requires image-type@'^0.1.1' but will load
+147 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/image-type,
+147 warn unmet dependency which is version 0.1.4
+148 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper requires tempfile@'^0.1.2' but will load
+148 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+148 warn unmet dependency which is version 0.1.3
+149 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/bin-check requires executable@'^0.1.0' but will load
+149 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/executable,
+149 warn unmet dependency which is version 0.1.2
+150 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+150 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+150 warn unmet dependency which is version 0.1.3
+151 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+151 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/map-key,
+151 warn unmet dependency which is version 0.1.4
+152 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper requires tempfile@'^0.1.2' but will load
+152 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+152 warn unmet dependency which is version 0.1.3
+153 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/bin-check requires executable@'^0.1.0' but will load
+153 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/executable,
+153 warn unmet dependency which is version 0.1.2
+154 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+154 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+154 warn unmet dependency which is version 0.1.3
+155 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+155 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/map-key,
+155 warn unmet dependency which is version 0.1.4
+156 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+156 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+156 warn unmet dependency which is version 0.1.3
+157 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+157 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/map-key,
+157 warn unmet dependency which is version 0.1.4
+158 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+158 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+158 warn unmet dependency which is version 0.1.3
+159 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+159 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-optipng/node_modules/optipng-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/map-key,
+159 warn unmet dependency which is version 0.1.4
+160 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+160 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+160 warn unmet dependency which is version 0.1.3
+161 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+161 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/decompress/node_modules/map-key,
+161 warn unmet dependency which is version 0.1.4
+162 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires tempfile@'^0.1.2' but will load
+162 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/tempfile,
+162 warn unmet dependency which is version 0.1.3
+163 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname requires map-key@'^0.1.1' but will load
+163 warn unmet dependency /Users/Q/Sites/scaffold/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/map-key,
+163 warn unmet dependency which is version 0.1.4
+164 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+165 error System Darwin 14.0.0
+166 error command "node" "/usr/local/bin/npm" "install" "grunt-contrib-haml" "--save-dev"
+167 error cwd /Users/Q/Sites/scaffold
+168 error node -v v0.10.31
+169 error npm -v 2.0.0-beta.1
+170 error code EPEERINVALID
+171 verbose exit [ 1, true ]

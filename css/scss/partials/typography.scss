@@ -248,10 +248,9 @@ samp {
     Logo
    ========================== */
 
-.GLG {
-  font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.logo {
+  font-family: $base-font;
   font-weight: bolder;
-  letter-spacing: -1px;
 }
 
 .logo_slash,

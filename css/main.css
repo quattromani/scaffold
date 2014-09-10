@@ -24,10 +24,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html {
   height: 100%;
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10;
+  font-size: 10px;
   color: #454545;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -56,25 +56,6 @@ textarea {
 
 .ie body[style] {
   font-size: 16px !important; }
-
-/* ==========================================================================
-    Base Theme -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
-body {
-  background: #fff; }
-
-a.logo {
-  color: inherit; }
-  a.logo:hover {
-    border-bottom: none;
-    color: inherit; }
-
-footer.container {
-  margin-top: 1em;
-  margin-right: auto;
-  margin-bottom: 1em;
-  margin-left: auto;
-  text-align: center; }
 
 /* Layout */
 /* ==========================================================================
@@ -545,27 +526,6 @@ nav ul {
     width: 20%; }
 
 /* ==========================================================================
-    Nav Theme -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
-nav {
-  background: #ef272d;
-  color: #fff; }
-  nav .container {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0; }
-  nav li {
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em; }
-    nav li.active {
-      background: #eb1118; }
-    nav li:hover {
-      background: #d31016; }
-
-/* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
 .color-black,
@@ -904,7 +864,7 @@ nav {
   font-weight: normal;
   font-style: "normal"; }
 .base-font {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .base-font-alt {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
@@ -969,7 +929,7 @@ a {
    ========================== */
 h1,
 .h1 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200; }
@@ -986,7 +946,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200; }
@@ -1003,7 +963,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700; }
@@ -1020,21 +980,21 @@ h3,
 
 h4,
 .h4 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200; }
 
 h5,
 .h5 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700; }
 
 h6,
 .h6 {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100; }
@@ -1073,7 +1033,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   word-wrap: break-word; }
   p:only-child,
   .p:only-child {
@@ -1160,14 +1120,14 @@ samp {
 /* ==========================
     Logo
    ========================== */
-.GLG {
-  font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.logo {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bolder;
   letter-spacing: -1px; }
 
 .logo_slash,
 .division {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   color: #ef272d;
@@ -2454,7 +2414,7 @@ button,
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
   text-align: center;
   color: #ef272d;
@@ -2857,7 +2817,7 @@ label + .pill,
   background: #ccc;
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue", Helvetica, Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-weight: 700;
@@ -3158,7 +3118,7 @@ input[type="range"] {
     height: 1em; }
 
 input::-webkit-datetime-edit-fields-wrapper {
-  font-family: "NeueHaasGroteskDisp-Pro-Lt", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 select,
 datalist,

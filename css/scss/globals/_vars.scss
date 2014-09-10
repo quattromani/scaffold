@@ -85,7 +85,7 @@ $form-focus: $color-light-grey;
 
 // Typography
 // Fonts
-$base-font-reset: 10; // makes easy base-10 math
+$base-font-reset: 10px; // makes easy base-10 math
 $base-font-size: 16;
 $base-line-height: 1.443;
 // Declare mixin need for px
@@ -111,12 +111,12 @@ $font-faces: (
 $font-path: 'fonts/';
 
 // Font Familes Variables
-$base-font: 'NeueHaasGroteskDisp-Pro-Lt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-alt: $arial;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 $heading-font: $base-font;
-$heading-font-alt: 'NeueHaasGroteskDisp-Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-font-alt: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $fontawesome: 'FontAwesome';
 $GLGlyphs: 'GLGlyphs';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;

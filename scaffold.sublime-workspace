@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
@@ -141,7 +142,6 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/js/progress.js",
-		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/colors.css",
 		"/Users/Q/Sites/scaffold/js/_styleguide.js",
@@ -220,7 +220,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -237,6 +237,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"black",
 			"clear",
 			"surve",
 			"survey",
