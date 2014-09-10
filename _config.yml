@@ -1,4 +1,5 @@
 name: Scaffold
+version: 0.2.3
 author: Max Quattromani
 markdown: redcarpet
 highlighter: true

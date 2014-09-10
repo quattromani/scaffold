@@ -1,29 +1,6 @@
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
 /* ==========================================================================
-    Prototype Tools -- Version: 1.9.0.2 - Updated: 1/20/2014
-   ========================================================================== */
-
-// For DEMO site only - DO NOT EVER INGEST THESE !!
-window.onload = getPageLoadTime;
-
-// Calculate the viewport size on prototype site
-$(window).resize(function() {
-    $('.viewport').empty().append($(window).width(), "x", $(window).height());
-}).resize();
-
-//calculate the time before calling the function in window.onload
-var beforeload = (new Date()).getTime();
-
-function getPageLoadTime() {
-    //calculate the current time in afterload
-    var afterload = (new Date()).getTime();
-    // now use the beforeload and afterload to calculate the seconds
-    var seconds = (afterload - beforeload) / 1000;
-    // Place the seconds in the innerHTML to show the results
-    $('.loadtime').text( + seconds + ' sec');
-}
-/* ==========================================================================
     Styleguide -- Version: 0.4.1 - Updated: 2/22/2014
     ========================================================================== */
 
@@ -75,79 +52,6 @@ $('.fonts').each(function(){
     $(this).prepend(fonts);
 });
 
-/* ==========================================================================
-    Progress Buttons -- Version: 0.2.1 - Updated: 5/14/2014
-   ========================================================================== */
-
-(function($) {
-
-  $.fn.progressButton = function() {
-    $('.progress').click(function() {
-      $(this).attr("disabled", true);
-      $(this).addClass('js-active');
-    });
-  }
-
-}(jQuery));
-
-$('.progress').progressButton();
-
-/* ==========================================================================
-    Slick Carousel -- Version: 0.2.1 - Updated: 5/14/2014
-    ========================================================================== */
-
-// $('.carousel').slick({
-//   dots: true,
-//   infinite: true,
-//   speed: 1000,
-//   slidesToShow: 3,
-//   slidesToScroll: 3,
-//   responsive: [
-//     {
-//       breakpoint: 1024,
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 3,
-//         infinite: true,
-//         dots: true
-//       }
-//     },
-//     {
-//       breakpoint: 768,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 2
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//       }
-//     }
-//   ]
-// });
-
-(function($) {
-
-	$.fn.jumpTo = function() {
-		$('<option value="">Jump to…</option>').appendTo('#anchor');
-		$('.jumpTo-anchor').each(function(index){
-			$('<option value="'+$(this).attr('id')+'">'+$(this).text()+'</option>').appendTo('#anchor');
-		});
-
-		$('#anchor').change(function(){
-			var divPosition = $('#'+$(this).val()).offset();
-			$('html, body').animate({scrollTop: divPosition.top}, "slow");
-		});
-	}
-
-}(jQuery));
-
-$('.jumpTo').jumpTo();
 /* ==========================================================================
     Main -- Version: 0.4.0 - Updated: 2/20/2014
     ========================================================================== */
@@ -228,41 +132,5 @@ function disablePopup() {
 	$('.modal-overlay').fadeOut('normal');
 }
 /* ==========================================================================
-    Progress Bar Element -- Version: 0.2.1 - Updated: 7/14/2014
-    ========================================================================== */
-
-    (function($) {
-      // fn to highlight the matching achievement to hovered progress bar badge
-      $.fn.progressBadge = function() {
-        $('.mini-badges li').hover(function() {
-          var badge = $(this).attr('id');
-          loadBadge(badge);
-        });
-      }
-      // toggle the achievement
-      function loadBadge(badge) {
-        $('.future').find('#badge' + badge).toggleClass('muted');
-      }
-
-    }(jQuery));
-    // Call the fn only when progress-bar-element is present
-    $('.progress-bar-element').progressBadge();
-
-/* ==========================================================================
     Sandbox -- Version: 0.2.2 - Updated: 7/26/2014
     ========================================================================== */
-
-    $('.glass-me').click(function(){
-    	$('.glass').toggleClass('active');
-    });
-
-
-    $('.settings dd span').each(function () {
-      if ($(this).text() == 'No') {
-        $(this).parent('dd').hide();
-      }
-    });
-
-    $('dt span').click(function() {
-      $('.settings dd').show();
-    });

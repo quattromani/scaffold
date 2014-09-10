@@ -20,7 +20,7 @@ $padding: 1em;
 $margin: 1em;
 
 //Border-Radius
-$border-radius: 0;
+$border-radius: 3px;
 
 // ---------------------------------------------------------------------- //
 
@@ -105,8 +105,7 @@ $font-faces: (
   'NeueHaasGroteskDisp-Pro-Lt': ('NHaasGroteskDSPro-45Lt', 400),
   'NeueHaasGroteskDisp-Pro': ('NHaasGroteskDSPro-55Rg', 400),
   'NeueHaasGroteskDisp-Pro-75': ('NHaasGroteskDSPro-75Bd', 400),
-  'fontawesome': ('icons/fontawesome-webfont', normal),
-  'GLGlyphs': ('icons/GLGlyphs', normal)
+  'fontawesome': ('icons/fontawesome-webfont', normal)
 );
 $font-path: 'fonts/';
 
@@ -118,7 +117,6 @@ $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 $heading-font: $base-font;
 $heading-font-alt: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $fontawesome: 'FontAwesome';
-$GLGlyphs: 'GLGlyphs';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 
 $heading-list: (

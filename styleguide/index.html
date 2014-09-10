@@ -4,7 +4,7 @@ title: Styleguide
 class: styleguide
 ---
 
-<p>Version: 0.2.2 -- Updated: {{ site.time }}</p>
+<p>Version: {{ site.version }} -- Updated: {{ site.time }}</p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->
@@ -13,7 +13,6 @@ class: styleguide
 {% include styleguide/typography/index.html %}
 {% include styleguide/buttons/index.html %}
 {% include styleguide/grid/index.html %}
-{% include styleguide/progress/index.html %}
 {% include styleguide/images/index.html %}
 {% include styleguide/video/index.html %}
 {% include styleguide/audio/index.html %}

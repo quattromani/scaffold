@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     min-width: 3em;
-    @include font-family($GLGlyphs, 36);
+    @include font-family($fontawesome, 36);
     padding: .25em 1em;
   }
 }

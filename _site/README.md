@@ -24,8 +24,6 @@ Each pattern has four primary components:
 
 You can see what's already a pattern at the [Pattern Library]. Don't be afraid to take an existing pattern and beat it into submission to create something new. Just be sure to name it and document it. Oh! and submit it back to Scaffold so we can share it.
 
-###Web Components
-Making the latest Polymer masterpiece? First check out the [Web-Components] section. Don't see what you need? Start by droping a copy of main.min.css (a whopping 43k) into your project folder! Then when you need to add specifics, make a web-component.css file with you additions.
 ___
 
 ##Usage

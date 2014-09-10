@@ -87,7 +87,7 @@ ul {
 
   &.lined > li {
     overflow: auto;
-    border-bottom: 1px dotted currentColor;
+    border-bottom: 1px dotted lighten($text, 40%);
 
     &.js-last {
       border-bottom: 0;

@@ -95,7 +95,7 @@ ul ul {
 }
 .vertical.lined > li {
   overflow: auto;
-  border-bottom: 1px dotted currentColor;
+  border-bottom: 1px dotted #ababab;
 }
 .vertical.lined > li.js-last {
   border-bottom: 0;

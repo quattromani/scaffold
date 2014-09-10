@@ -29,13 +29,6 @@
   font-weight: normal;
   font-style: "normal";
 }
-@font-face {
-  font-family: "GLGlyphs";
-  src: url("fonts/icons/GLGlyphs.eot");
-  src: url("fonts/icons/GLGlyphs.eot?") format("eot"), url("fonts/icons/GLGlyphs.woff") format("woff"), url("fonts/icons/GLGlyphs.ttf") format("truetype");
-  font-weight: normal;
-  font-style: "normal";
-}
 .base-font {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
@@ -310,9 +303,9 @@ pre {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -347,7 +340,6 @@ samp {
 .logo {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bolder;
-  letter-spacing: -1px;
 }
 
 .logo_slash,
