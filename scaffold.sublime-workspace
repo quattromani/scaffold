@@ -89,6 +89,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/patterns/modals/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
@@ -144,7 +146,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/audio.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tables/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
@@ -215,8 +216,7 @@
 		"/Users/Q/Sites/scaffold/_includes/styleguide/best_practices/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/*.css",
 		"/Users/Q/Sites/scaffold/package.json",
-		"/Users/Q/Sites/scaffold/gulpfile.js",
-		"/Users/Q/Sites/scaffold/_package.json"
+		"/Users/Q/Sites/scaffold/gulpfile.js"
 	],
 	"find":
 	{
@@ -237,6 +237,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lorem",
 			"glg",
 			"letter-",
 			"theme",

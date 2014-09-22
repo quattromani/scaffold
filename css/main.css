@@ -2593,12 +2593,9 @@ label + .pill,
     box-shadow: 0 0 5px 2px #555; }
 .modal .modal-close {
   position: absolute;
-  float: right;
-  top: 1em;
-  right: 1em;
-  height: 32px;
-  width: 32px;
-  background: url("/scaffold/images/modal-close.png") no-repeat;
+  right: 1rem;
+  font-size: 40px;
+  font-size: 4rem;
   cursor: pointer; }
 .modal .modal-header {
   padding-top: 1em;
