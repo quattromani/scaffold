@@ -178,6 +178,10 @@ p,
   text-transform: capitalize;
 }
 
+.small-caps {
+  font-variant: small-caps;
+}
+
 blockquote {
   width: 75%;
   @include margin(0, auto);

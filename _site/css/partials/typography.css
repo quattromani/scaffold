@@ -250,6 +250,10 @@ p:only-child,
   text-transform: capitalize;
 }
 
+.small-caps {
+  font-variant: small-caps;
+}
+
 blockquote {
   width: 75%;
   margin-top: 0;

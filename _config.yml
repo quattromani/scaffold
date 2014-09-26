@@ -1,14 +1,24 @@
+# Site settings
 name: Scaffold
-version: 0.2.3
+version: 0.2.4
 author: Max Quattromani
-markdown: redcarpet
+email: max@maxquattromani.com
+description: ""
+baseurl: ""
+url: "http://maxquattromani.com"
+author: "Max Quattromani"
+twitter_username: maxquattromani
+github_username:  quattromani
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 highlighter: true
-baseurl: /scaffold
-google_analytics: false
-google_analytics_id: UA-17676310-1
+
+exclude: ['node_modules', 'scss', 'DAM']
+
+google_analytics: true
+google_analytics_id: UA-50387096-2
 jquery_version: 1.9.0
-
-exclude: ['node_modules', 'scss']
-
 
 footer: "This is my footer"
