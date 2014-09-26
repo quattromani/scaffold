@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/modals/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
@@ -129,7 +130,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/_includes/google_analytics.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/css/compliance-card.css",
