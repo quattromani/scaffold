@@ -4,7 +4,7 @@ version: 0.2.4
 author: Max Quattromani
 email: max@maxquattromani.com
 description: ""
-baseurl: ""
+baseurl: "/scaffold/"
 url: "http://maxquattromani.com"
 author: "Max Quattromani"
 twitter_username: maxquattromani
