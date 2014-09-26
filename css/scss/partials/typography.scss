@@ -90,6 +90,13 @@ a {
   cursor: pointer;
   @include transition;
 
+  &.logo {
+    color: inherit;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
   img {
     border: 0 none;
     text-decoration: none;

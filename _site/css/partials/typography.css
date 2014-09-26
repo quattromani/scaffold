@@ -90,6 +90,12 @@ a {
   will-change: transition;
   transition: all 0.2s ease-in-out;
 }
+a.logo {
+  color: inherit;
+}
+a.logo:hover {
+  border-bottom: none;
+}
 a img {
   border: 0 none;
   text-decoration: none;

@@ -9,13 +9,6 @@
 
 .styleguide {
 
-  a.logo {
-    color: inherit;
-    &:hover {
-      border-bottom: none;
-    }
-  }
-
   .colors {
     @include padding($padding);
     @include border-radius;

@@ -910,6 +910,10 @@ a {
   will-change: transition;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
+  a.logo {
+    color: inherit; }
+    a.logo:hover {
+      border-bottom: none; }
   a img {
     border: 0 none;
     text-decoration: none; }
@@ -3135,10 +3139,6 @@ hr {
 /* ==========================================================================
     Styleguide -- Version: 0.4.2  - Compiled: timestamp()
    ========================================================================== */
-.styleguide a.logo {
-  color: inherit; }
-  .styleguide a.logo:hover {
-    border-bottom: none; }
 .styleguide .colors, .styleguide .grid {
   padding-top: 1em;
   padding-right: 1em;
