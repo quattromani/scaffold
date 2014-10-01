@@ -77,17 +77,16 @@ textarea {
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
+  padding-top: 0;
+  padding-right: 1em;
+  padding-bottom: 0;
+  padding-left: 1em;
   overflow: visible; }
-  @media (max-width: 62em) {
-    .container {
-      padding-top: 0;
-      padding-right: 1em;
-      padding-bottom: 0;
-      padding-left: 1em; } }
 
 /* ==========================
     Grid
    ========================== */
+section,
 .row {
   zoom: 1;
   display: inline-block;
@@ -96,11 +95,15 @@ textarea {
   *vertical-align: auto;
   width: 100%;
   margin-bottom: 1em; }
-  .row:before, .row:after {
+  section:before, section:after,
+  .row:before,
+  .row:after {
     content: ' ';
     display: table; }
+  section:after,
   .row:after {
     clear: both; }
+  section:only-child,
   .row:only-child {
     margin-bottom: 0; }
 
