@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
 <!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
@@ -81,7 +81,7 @@
         <h5>HTML5 doctype</h5>
 
         <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;!doctype html&gt;</code></pre></div>
       </li>
       <li>
         <div class="bulleted">
@@ -127,7 +127,7 @@
         <div class="bulleted">
           <ul>
             <li>
-              Section comments are separated from the previous block by two lines, and should have one following line of space.
+              Section comments are separated from the previous block by one line, and should have one following line of space.
             </li>
             <li>
               Prepend section headings with an equal sign (=), to make a Find operation easier.
@@ -158,12 +158,12 @@
           <li>Place closing braces of declaration blocks on a new line</li>
           <li>Include one space after <code>:</code> in each property</li>
           <li>Each declaration should appear on its own line</li>
-          <li>End all declarations with a semi-colon</li>
+          <li>End all declarations with a semi-colon;</li>
           <li>Comma-separated values should include a space after each comma</li>
           <li>Don't include spaces after commas in RGB or RGBa colors</li>
           <li>Do not specify units for zero values, e.g., margin: 0; instead of margin: 0px;</li>
-          <li>Lowercase all hex values, e.g., #fff instead of #FFF</li>
           <li>Use shorthand hex values where available, e.g., #fff instead of #ffffff</li>
+          <li>Lowercase all hex values, e.g., #fff instead of #FFF</li>
           <li>Quote attribute values in selectors, e.g., input[type="text"]</li>
         </ul>
       </li>
@@ -178,10 +178,10 @@
           <li>Other</li>
         </ol>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">.someDiv { color: #222; }
+<div class="highlight"><pre><code class="language-css" data-lang="css">.some-div { color: #222; }
 
-.someOtherDiv,
-.someAdditional Div {
+.some-other-div,
+.some-additional-div {
   margin: 0 auto;
   color: #222;
 }</code></pre></div>
@@ -190,7 +190,7 @@
     <li>
       <h5>General Formatting</h5>
 
-      <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding</p>
+      <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding. This applies to elements nested in Sass as well.</p>
 
 <div class="highlight"><pre><code class="language-css" data-lang="css">.print {
   display: block;
@@ -212,7 +212,7 @@ ul#example { color: #ff0; }
 div.error { color: red; }</code></pre></div>
 
 <div class="highlight"><pre><code class="language-css" data-lang="css">// this is good
-.example { color: #0f0; }
+#example { color: #0f0; }
 .error { color: green; }</code></pre></div>
 
     <p>p.s. ID's are bad for CSS, only use ID's for javascript hooks when necessary</p>
@@ -277,22 +277,20 @@ color: #0f0;</code></pre></div>
     Component Name -- Version: 1.0.0.0 - Updated: MM/DD/YYYY
    ========================================================================== */</code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">// Section chunks get styled as such:
-/*
-* Chunk of long
-* text gets commented
-* like this
+<div class="highlight"><pre><code class="language-html" data-lang="html">/*
+* Section chunks
+* get styled
+* as such
 */</code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">// Hints get styled like this:
-/* Hint */</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">/* Hints get styled like this */</code></pre></div>
 
 </li>
 </ul>
 </div>
 
 <hr>
-<h2>Sass (or less or stylus, you choose)</h2>
+<h2>Sass (or less or stylus, whatever! you choose)</h2>
 <hr>
 
 <div class="vertical lined">
@@ -336,8 +334,8 @@ color: #0f0;</code></pre></div>
       <p>Organize the components imports in a manner that makes sense, in other words, group components with the component they extend or inherit from.</p>
 
 <div class="highlight"><pre><code class="language-scss" data-lang="scss">/* Mixins and Variables */
-// All globals are combined in allModules.scss to reduce the nuber of updates necessary to add new files
-@import &quot;global/allModules&quot;;
+// All globals are combined in allGlobals.scss to reduce the nuber of updates necessary to add new files
+@import &quot;global/allGlobals&quot;;
 
 /* Base */
 @import &quot;partials/base&quot;;
@@ -394,10 +392,10 @@ color: #0f0;</code></pre></div>
             Regular styles for the current selector should be after @includes.
           </li>
           <li>
-            Nested selectors appear last.
+            Nested selectors appear last, with space seperating each block.
           </li>
           <li>
-            Nested selectors using & should appear above child (>) nested selectors.
+            Nested selectors using &amp; should appear above child (>) nested selectors.
           </li>
         </ul>
       </div>
@@ -409,11 +407,11 @@ color: #0f0;</code></pre></div>
       <p>50 lines is reasonable length for keeping an entire block on a code editor screen without having to scroll.</p>
     </li>
     <li>
-      <h5>Variablize ALL THE THINGS!</h5>
+      <h5>Variabilize ALL THE THINGS!</h5>
       <div class="bulleted">
         <ul>
           <li>
-            Variablize all colors.
+            Variabilize all colors.
           </li>
           <li>
             Numbers (other than 0 or 100%) with strong meaning or frequent use should be variables.
@@ -429,7 +427,7 @@ color: #0f0;</code></pre></div>
             If you find yourself writing a number other than 0 or 100% more than once, make it a variable.
           </li>
           <li>
-            Most variables should be stored in the _variables.scss partial; however, it's acceptable to define component specific variables in the component files.
+            Most variables should be stored in the _vars.scss partial; however, it's acceptable to define component specific variables in the component files.
           </li>
           <li>
             In this case, the variables should be stored at the top of the file.
@@ -451,7 +449,7 @@ color: #0f0;</code></pre></div>
 <div class="vertical lined">
   <ul>
     <li>
-      <p class="lede">Prefix all javascript-based selectors with js-. The idea is that you should be able to tell a presentational class from a functional class. Most of the codebase doesn't do this, let's try and move toward it.</p>
+      <p class="lede">Prefix all javascript-based selectors with js-. The idea is that you should be able to tell a presentational class from a functional class. Do it!</p>
     </li>
   </ul>
 </div>
@@ -467,7 +465,7 @@ color: #0f0;</code></pre></div>
 
 <h5>Use Title Attributes with Links</h5>
 
-<p>Using a title attribute in your anchor elements will improve accessibility when used the right way.</p>
+<p>Using a title="" attribute in your anchor elements will improve accessibility when used the right way.</p>
 
 <p>It is important to understand that the title attribute should be used to increase the meaning of the anchor tag.</p>
 
@@ -475,7 +473,10 @@ color: #0f0;</code></pre></div>
 
 <h5>How Much Will A Reader Read?</h5>
 
-<p>"A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts."</p>
+<blockquote>"A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts."
+<br>
+<cite>William Strunk, Jr.</cite>
+</blockquote>
 
 <hr>
 <h2>ARIA &amp; Accessibility</h2>

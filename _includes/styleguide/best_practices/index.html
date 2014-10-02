@@ -26,7 +26,7 @@
 
         <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
 {% highlight html %}
-<!DOCTYPE html>
+<!doctype html>
 {% endhighlight %}
       </li>
       <li>
@@ -73,7 +73,7 @@
         <div class="bulleted">
           <ul>
             <li>
-              Section comments are separated from the previous block by two lines, and should have one following line of space.
+              Section comments are separated from the previous block by one line, and should have one following line of space.
             </li>
             <li>
               Prepend section headings with an equal sign (=), to make a Find operation easier.
@@ -106,12 +106,12 @@
           <li>Place closing braces of declaration blocks on a new line</li>
           <li>Include one space after <code>:</code> in each property</li>
           <li>Each declaration should appear on its own line</li>
-          <li>End all declarations with a semi-colon</li>
+          <li>End all declarations with a semi-colon;</li>
           <li>Comma-separated values should include a space after each comma</li>
           <li>Don't include spaces after commas in RGB or RGBa colors</li>
           <li>Do not specify units for zero values, e.g., margin: 0; instead of margin: 0px;</li>
-          <li>Lowercase all hex values, e.g., #fff instead of #FFF</li>
           <li>Use shorthand hex values where available, e.g., #fff instead of #ffffff</li>
+          <li>Lowercase all hex values, e.g., #fff instead of #FFF</li>
           <li>Quote attribute values in selectors, e.g., input[type="text"]</li>
         </ul>
       </li>
@@ -127,10 +127,10 @@
         </ol>
 
 {% highlight css %}
-.someDiv { color: #222; }
+.some-div { color: #222; }
 
-.someOtherDiv,
-.someAdditional Div {
+.some-other-div,
+.some-additional-div {
   margin: 0 auto;
   color: #222;
 }
@@ -140,7 +140,7 @@
     <li>
       <h5>General Formatting</h5>
 
-      <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding</p>
+      <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding. This applies to elements nested in Sass as well.</p>
 
 {% highlight css %}
 .print {
@@ -167,7 +167,7 @@ div.error { color: red; }
 
 {% highlight css %}
 // this is good
-.example { color: #0f0; }
+#example { color: #0f0; }
 .error { color: green; }
 {% endhighlight %}
 
@@ -242,17 +242,15 @@ color: #0f0;
 {% endhighlight %}
 
 {% highlight html %}
-// Section chunks get styled as such:
 /*
-* Chunk of long
-* text gets commented
-* like this
+* Section chunks
+* get styled
+* as such
 */
 {% endhighlight %}
 
 {% highlight html %}
-// Hints get styled like this:
-/* Hint */
+/* Hints get styled like this */
 {% endhighlight %}
 
 </li>
@@ -260,7 +258,7 @@ color: #0f0;
 </div>
 
 <hr>
-<h2>Sass (or less or stylus, you choose)</h2>
+<h2>Sass (or less or stylus, whatever! you choose)</h2>
 <hr>
 
 <div class="vertical lined">
@@ -307,8 +305,8 @@ sass/
 
 {% highlight scss %}
 /* Mixins and Variables */
-// All globals are combined in allModules.scss to reduce the nuber of updates necessary to add new files
-@import "global/allModules";
+// All globals are combined in allGlobals.scss to reduce the nuber of updates necessary to add new files
+@import "global/allGlobals";
 
 /* Base */
 @import "partials/base";
@@ -366,10 +364,10 @@ sass/
             Regular styles for the current selector should be after @includes.
           </li>
           <li>
-            Nested selectors appear last.
+            Nested selectors appear last, with space seperating each block.
           </li>
           <li>
-            Nested selectors using & should appear above child (>) nested selectors.
+            Nested selectors using &amp; should appear above child (>) nested selectors.
           </li>
         </ul>
       </div>
@@ -381,11 +379,11 @@ sass/
       <p>50 lines is reasonable length for keeping an entire block on a code editor screen without having to scroll.</p>
     </li>
     <li>
-      <h5>Variablize ALL THE THINGS!</h5>
+      <h5>Variabilize ALL THE THINGS!</h5>
       <div class="bulleted">
         <ul>
           <li>
-            Variablize all colors.
+            Variabilize all colors.
           </li>
           <li>
             Numbers (other than 0 or 100%) with strong meaning or frequent use should be variables.
@@ -401,7 +399,7 @@ sass/
             If you find yourself writing a number other than 0 or 100% more than once, make it a variable.
           </li>
           <li>
-            Most variables should be stored in the _variables.scss partial; however, it's acceptable to define component specific variables in the component files.
+            Most variables should be stored in the _vars.scss partial; however, it's acceptable to define component specific variables in the component files.
           </li>
           <li>
             In this case, the variables should be stored at the top of the file.
@@ -423,7 +421,7 @@ sass/
 <div class="vertical lined">
   <ul>
     <li>
-      <p class="lede">Prefix all javascript-based selectors with js-. The idea is that you should be able to tell a presentational class from a functional class. Most of the codebase doesn't do this, let's try and move toward it.</p>
+      <p class="lede">Prefix all javascript-based selectors with js-. The idea is that you should be able to tell a presentational class from a functional class. Do it!</p>
     </li>
   </ul>
 </div>
@@ -439,7 +437,7 @@ sass/
 
 <h5>Use Title Attributes with Links</h5>
 
-<p>Using a title attribute in your anchor elements will improve accessibility when used the right way.</p>
+<p>Using a title="" attribute in your anchor elements will improve accessibility when used the right way.</p>
 
 <p>It is important to understand that the title attribute should be used to increase the meaning of the anchor tag.</p>
 
@@ -447,7 +445,10 @@ sass/
 
 <h5>How Much Will A Reader Read?</h5>
 
-<p>"A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts."</p>
+<blockquote>"A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts."
+<br>
+<cite>William Strunk, Jr.</cite>
+</blockquote>
 
 <hr>
 <h2>ARIA &amp; Accessibility</h2>
