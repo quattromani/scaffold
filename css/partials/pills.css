@@ -27,8 +27,6 @@ label + .pill,
 }
 .pill-white {
   background: #fff;
-  -webkit-box-shadow: inset 0 0 0 1px #454545;
-  -moz-box-shadow: inset 0 0 0 1px #454545;
   box-shadow: inset 0 0 0 1px #454545;
 }
 .pill-error {

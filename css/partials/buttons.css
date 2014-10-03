@@ -233,14 +233,10 @@ button.btn-sm,
 }
 
 .cta {
-  -webkit-box-shadow: inset 0 0 0 1px #ef272d;
-  -moz-box-shadow: inset 0 0 0 1px #ef272d;
   box-shadow: inset 0 0 0 1px #ef272d;
 }
 .cta:hover {
   background: none;
-  -webkit-box-shadow: inset 0 0 0 1px #d31016;
-  -moz-box-shadow: inset 0 0 0 1px #d31016;
   box-shadow: inset 0 0 0 1px #d31016;
 }
 
