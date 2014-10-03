@@ -237,6 +237,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"-webkit",
+			"background-clip",
 			"select",
 			"layout: patterns",
 			"layout: sandbox",
@@ -362,9 +364,7 @@
 			"Male",
 			"gender",
 			"/300/200",
-			"alt=\"\">",
-			"<img src",
-			"200/300"
+			"alt=\"\">"
 		],
 		"highlight": true,
 		"in_selection": false,
