@@ -180,15 +180,13 @@ $marginless-col-width: $width / $site-column-count;
 // Flexbox
 @mixin flexbox() {
   display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
 @mixin flex($values) {
   -webkit-box-flex: $values;
-  -moz-box-flex:  $values;
   -webkit-flex:  $values;
   -ms-flex:  $values;
   flex:  $values;
@@ -196,7 +194,6 @@ $marginless-col-width: $width / $site-column-count;
 
 @mixin order($val) {
   -webkit-box-ordinal-group: $val;
-  -moz-box-ordinal-group: $val;
   -ms-flex-order: $val;
   -webkit-order: $val;
   order: $val;
@@ -211,16 +208,12 @@ $marginless-col-width: $width / $site-column-count;
 
 // Background Clip
 @mixin background-clip($type: padding-box) {
-  -webkit-background-clip: $type;
-     -moz-background-clip: $type;
-          background-clip: $type;
+  background-clip: $type;
 }
 
 // Border Radius
 @mixin border-radius($radius: $border-radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-          border-radius: $radius;
+  border-radius: $radius;
   @include background-clip;
 }
 
