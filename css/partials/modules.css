@@ -14,7 +14,7 @@
   border-radius: 3px;
   background-clip: padding-box;
   background: #fff;
-  overflow: auto;
+  overflow: visible;
 }
 
 hr {

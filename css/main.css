@@ -2640,6 +2640,61 @@ label + .pill,
   background: #f0f2f5; }
 
 /* ==========================================================================
+    Tooltips -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted currentColor;
+  color: #ef272d;
+  cursor: pointer; }
+  .tooltip:hover:after {
+    position: absolute;
+    max-width: 15em;
+    min-width: 15em;
+    content: attr(title);
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff; }
+    .ie .tooltip:hover:after {
+      background: transparent;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
+      zoom: 1; }
+  .tooltip.tooltip-top:hover:after {
+    bottom: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .tooltip.tooltip-bottom:hover:after {
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .tooltip.tooltip-right:hover:after {
+    left: -webkit-calc(100% + .25em);
+    left: calc(100% + .25em);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .tooltip.tooltip-left:hover:after {
+    right: -webkit-calc(100% + .25em);
+    right: calc(100% + .25em);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+/* ==========================================================================
     Carousel -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 .carousel .slick-dots button:before {
@@ -3102,7 +3157,7 @@ td {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  overflow: auto; }
+  overflow: visible; }
 
 hr {
   margin-top: 1em;

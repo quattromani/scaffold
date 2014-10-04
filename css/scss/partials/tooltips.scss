@@ -1,0 +1,49 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Tooltips -- Version: 0.2.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    .tooltip {
+      position: relative;
+      border-bottom: 1px dotted currentColor;
+      color: $color-primary-red;
+      cursor: pointer;
+
+      &:hover:after {
+        position: absolute;
+        max-width: 15em;
+        min-width: 15em;
+        content: attr(title);
+        @include padding(.5em);
+        @include border-radius;
+        @include rgba($color-black, .7);
+        text-align: center;
+        color: $color-white;
+      }
+
+      &.tooltip-top:hover:after  {
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      &.tooltip-bottom:hover:after  {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      &.tooltip-right:hover:after  {
+        left: calc(100% + .25em);
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &.tooltip-left:hover:after  {
+        right: calc(100% + .25em);
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
