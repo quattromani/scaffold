@@ -89,9 +89,12 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/js/main.js",
+		"/Users/Q/Sites/scaffold/js/sandbox.js",
+		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
+		"/Users/Q/Sites/scaffold/js/tooltips.js",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
-		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/patterns/tooltips/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
@@ -166,7 +169,6 @@
 		"/Users/Q/Sites/scaffold/_includes/end_content.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/_includes/footer.html",
-		"/Users/Q/Sites/scaffold/js/sandbox.js",
 		"/Users/Q/Sites/scaffold/emails/templates/index.html",
 		"/Users/Q/Sites/scaffold/js/progress-bar-element.js",
 		"/Users/Q/Sites/scaffold/js/vendor/respond.min.js",
@@ -214,9 +216,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/_mistakes.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html",
 		"/Users/Q/Sites/scaffold/js/progress.js",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
-		"/Users/Q/Sites/scaffold/css/partials/colors.css",
-		"/Users/Q/Sites/scaffold/js/_styleguide.js"
+		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html"
 	],
 	"find":
 	{
@@ -237,6 +237,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jQuery",
+			"blue",
+			"=\"\">I'm",
+			"wrapper",
+			"data-tooltip",
 			"I <span",
 			" like pie",
 			"really",
@@ -359,12 +364,7 @@
 			"info",
 			"font",
 			"mailTestMessage",
-			"opaci",
-			"inli",
-			"btn-primary",
-			"a",
-			"btn-primary",
-			"margin"
+			"opaci"
 		],
 		"highlight": true,
 		"in_selection": false,

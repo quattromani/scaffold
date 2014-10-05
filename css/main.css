@@ -2737,10 +2737,7 @@ label + .pill,
       margin: 0 auto;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%); } }
+      transform: translateY(-50%); } }
 
 /* ==========================================================================
     Carousel -- Version: 0.2.1 - Compiled: timestamp()
