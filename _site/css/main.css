@@ -2726,9 +2726,20 @@ label + .pill,
     display: block; }
   @media (max-width: 62em) {
     .has-tooltip .tip {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      width: 25em;
+      max-width: 90%;
+      margin: 0 auto;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  @media (max-width: 40em) {
+    .has-tooltip .tip {
       position: fixed;
-      overflow: visible;
       top: 50%;
+      bottom: inherit;
       left: 0;
       right: 0;
       height: auto;

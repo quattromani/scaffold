@@ -105,9 +105,21 @@
 
       @include bp(bp-medium) {
         .tip {
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          width: 25em;
+          max-width: 90%;
+          margin: 0 auto;
+          transform: translateX(-50%);
+        }
+      }
+
+      @include bp(bp-small) {
+        .tip {
           position: fixed;
-          overflow: visible;
           top: 50%;
+          bottom: inherit;
           left: 0;
           right: 0;
           height: auto;
