@@ -8,6 +8,9 @@
   @else if $point == bp-small {
     @media (max-width: $bp-small)  { @content; }
   }
+  @else if $point == bp-big {
+    @media (min-width: $bp-big)  { @content; }
+  }
 }
 
 // Inline-Block IE

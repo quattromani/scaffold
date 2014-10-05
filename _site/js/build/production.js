@@ -78,6 +78,9 @@ $('.getYear').getYear();
 // Open all external links in a new window
 $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
 
+// Detect for touch
+var isTouch = 'ontouchstart' in document.documentElement;
+
 /* ==========================================================================
     Modal -- Version: 1.9.0.0 - Updated: 4/28/2014
    ========================================================================== */
@@ -135,5 +138,31 @@ function disablePopup() {
 	$('.modal-overlay').fadeOut('normal');
 }
 /* ==========================================================================
-    Sandbox -- Version: 0.2.2 - Updated: 7/26/2014
+    sandbox -- Version: 0.2.2 - Updated: 7/26/2014
     ========================================================================== */
+
+/* ==========================================================================
+    tooltips -- Version: 0.2.2 - Updated: 7/26/2014
+    ========================================================================== */
+
+(function($) {
+
+  $.fn.tooltips = function() {
+    $('.has-tooltip').each(function() {
+      if($(window).width() <= mediumBreakPoint && isTouch == true) {
+        var tooltip = jQuery(this);
+
+        tooltip.click(function() {
+          tooltip.addClass('hover');
+        });
+
+        jQuery('*').not(tooltip).bind('click', function() {
+          tooltip.removeClass('hover');
+        });
+      }
+    });
+  }
+
+}(jQuery));
+
+$('.has-tooltip').tooltips();

@@ -5,45 +5,117 @@
     Tooltips -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    .tooltip {
+    .has-tooltip {
       position: relative;
       border-bottom: 1px dotted currentColor;
       color: $color-primary-red;
       cursor: pointer;
+      -webkit-transform: translateZ(0);
+      -webkit-font-smoothing: antialiased;
+      z-index: 998;
 
-      &:hover:after {
+      .tip {
         position: absolute;
-        max-width: 15em;
         min-width: 15em;
-        content: attr(title);
-        @include padding(.5em);
+        max-width: 15em;
+        padding: .5em;
         @include border-radius;
         @include rgba($color-black, .7);
         text-align: center;
+        white-space: nowrap;
         color: $color-white;
+        @include opacity(0);
+        @include transition;
+        cursor: default;
+        pointer-events: none;
+        z-index: 999;
+
+        @include bp(bp-big) {
+          &-top,
+          &-bottom {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          &-top {
+            bottom: 100%;
+          }
+
+          &-bottom {
+            top: 100%;
+          }
+
+          &-left,
+          &-right {
+            top: 50%;
+            transform: translateY(-50%);
+
+            &:after {
+              position: absolute;
+              width: 0;
+              content: '';
+              top: 50%;
+              border-bottom: solid transparent .5em;
+              border-top: solid transparent .5em;
+              transform: translateY(-50%);
+            }
+          }
+
+          &-left {
+            right: calc(100% - .75em);
+            margin-right: 1em;
+
+            &:after {
+              right: -.5em;
+              border-left: solid transparent .5em;
+            }
+          }
+
+          &-right {
+            left: calc(100% - .75em);
+            margin-left: 1em;
+
+            &:after {
+              left: -.5em;
+              border-right: solid transparent .5em;
+            }
+          }
+        }
+
+        a {
+          border-bottom: 1px dotted currentColor;
+        }
       }
 
-      &.tooltip-top:hover:after  {
-        bottom: 100%;
-        left: 50%;
-        transform: translateX(-50%);
+      &:hover .tip,
+      &.hover .tip {
+        @include opacity(1);
+        pointer-events: auto;
       }
 
-      &.tooltip-bottom:hover:after  {
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
+      .ie8 & {
+        .tip {
+          display: none;
+        }
+
+        &:hover .tip {
+          display: block;
+        }
       }
 
-      &.tooltip-right:hover:after  {
-        left: calc(100% + .25em);
-        top: 50%;
-        transform: translateY(-50%);
-      }
-
-      &.tooltip-left:hover:after  {
-        right: calc(100% + .25em);
-        top: 50%;
-        transform: translateY(-50%);
+      @include bp(bp-medium) {
+        .tip {
+          position: fixed;
+          overflow: visible;
+          top: 50%;
+          left: 0;
+          right: 0;
+          height: auto;
+          width: 25em;
+          max-width: 90%;
+          margin: 0 auto;
+          transform: translateY(-50%);
+          transform: translateX(-50%);
+        }
       }
     }

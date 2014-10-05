@@ -8,18 +8,34 @@
 
   <div class="row">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span title="Lorem ipsum dolor sit amet" class="tooltip tooltip-bottom">tooltip</span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores.
 
-    <p>Lorem <span title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, deserunt?" class="tooltip tooltip-top">tooltip</span>. ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+    <span class="has-tooltip" aria-describedby="tip1">I have a tooltip<span id="tip1" class="tip tip-top">Check me out <a href="http://google.com">I'm a link</a>.</span></span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span title="Lorem ipsum dolor sit amet" class="tooltip tooltip-left">tooltip</span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span class="has-tooltip">I have a tooltip<span class="tip tip-bottom">Check me out <a href="http://google.com">I'm a link</a>.</span></span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
 
-    <p>Lorem <span title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, deserunt?" class="tooltip tooltip-right">tooltip</span>. ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span class="has-tooltip">I have a tooltip<span class="tip tip-left">Check me out <a href="http://google.com">I'm a link</a>.</span></span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span class="has-tooltip">I have a tooltip<span class="tip tip-right">Check me out <a href="http://google.com">I'm a link</a>.</span></span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+
+    <hr>
+
+    <h6>What? Two Tooltips!?!!</h6>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span class="has-tooltip">I have a tooltip<span class="tip tip-right">Check me out <a href="http://google.com">I'm a link</a>.</span><span class="tip tip-left">Check me out <a href="http://google.com">I'm a link</a>.</span></span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
+
+    <hr>
+
+    <h6>With an Image</h6>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tempore, labore dignissimos cupiditate? Earum asperiores. <span class="has-tooltip">I have a tooltip<span class="tip tip-right"><img class="left" src="{{ site.baseurl }}/media/images/headshot.jpg" alt="headshot">Check me out</span></span>. molestiae ad praesentium qui beatae nam, velit non, aliquid, fugiat impedit vitae distinctio consequatur. Neque nobis nulla vitae dolores eius!</p>
 
   </div>
 
 {% highlight html %}
-<span title="Lorem ipsum dolor sit amet" class="tooltip tooltip-bottom">tooltip</span>
+<span class="has-tooltip" aria-describedby="tip1">I have a tooltip
+  <span id="tip1" class="tip tip-top">Check me out <a href="http://google.com">I'm a link</a>.</span>
+</span>
 {% endhighlight %}
 
 </div>

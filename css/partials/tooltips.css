@@ -1,52 +1,109 @@
 /* ==========================================================================
     Tooltips -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
-.tooltip {
+.has-tooltip {
   position: relative;
   border-bottom: 1px dotted currentColor;
   color: #ef272d;
   cursor: pointer;
+  -webkit-transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
+  z-index: 998;
 }
-.tooltip:hover:after {
+.has-tooltip .tip {
   position: absolute;
-  max-width: 15em;
   min-width: 15em;
-  content: attr(title);
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
+  max-width: 15em;
+  padding: .5em;
   border-radius: 3px;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
+  white-space: nowrap;
   color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  will-change: transition;
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+  pointer-events: none;
+  z-index: 999;
 }
-.ie .tooltip:hover:after {
+.ie .has-tooltip .tip {
   background: transparent;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
   zoom: 1;
 }
-.tooltip.tooltip-top:hover:after {
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+@media (min-width: 68.75em) {
+  .has-tooltip .tip-top, .has-tooltip .tip-bottom {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .has-tooltip .tip-top {
+    bottom: 100%;
+  }
+  .has-tooltip .tip-bottom {
+    top: 100%;
+  }
+  .has-tooltip .tip-left, .has-tooltip .tip-right {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .has-tooltip .tip-left:after, .has-tooltip .tip-right:after {
+    position: absolute;
+    width: 0;
+    content: '';
+    top: 50%;
+    border-bottom: solid transparent .5em;
+    border-top: solid transparent .5em;
+    transform: translateY(-50%);
+  }
+  .has-tooltip .tip-left {
+    right: calc(100% - .75em);
+    margin-right: 1em;
+  }
+  .has-tooltip .tip-left:after {
+    right: -.5em;
+    border-left: solid transparent .5em;
+  }
+  .has-tooltip .tip-right {
+    left: calc(100% - .75em);
+    margin-left: 1em;
+  }
+  .has-tooltip .tip-right:after {
+    left: -.5em;
+    border-right: solid transparent .5em;
+  }
 }
-.tooltip.tooltip-bottom:hover:after {
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+.has-tooltip .tip a {
+  border-bottom: 1px dotted currentColor;
 }
-.tooltip.tooltip-right:hover:after {
-  left: calc(100% + .25em);
-  top: 50%;
-  transform: translateY(-50%);
+.has-tooltip:hover .tip, .has-tooltip.hover .tip {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  pointer-events: auto;
 }
-.tooltip.tooltip-left:hover:after {
-  right: calc(100% + .25em);
-  top: 50%;
-  transform: translateY(-50%);
+.ie8 .has-tooltip .tip {
+  display: none;
+}
+.ie8 .has-tooltip:hover .tip {
+  display: block;
+}
+@media (max-width: 62em) {
+  .has-tooltip .tip {
+    position: fixed;
+    overflow: visible;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 25em;
+    max-width: 90%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+  }
 }
 
 /*# sourceMappingURL=tooltips.css.map */

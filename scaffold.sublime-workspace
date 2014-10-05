@@ -89,6 +89,13 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
+		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
+		"/Users/Q/Sites/scaffold/patterns/index.html",
+		"/Users/Q/Sites/scaffold/patterns/tooltips/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/_includes/banner.html",
@@ -143,7 +150,6 @@
 		"/Users/Q/Sites/scaffold/styleguide/typography/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/body_text/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/fonts/index.html",
-		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/video/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/text_alignment/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/inline_text/index.html",
@@ -155,7 +161,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss",
 		"/Users/Q/Sites/scaffold/_includes/end_content.html",
@@ -190,7 +195,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/audio.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tables/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/message-box.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
@@ -212,11 +216,7 @@
 		"/Users/Q/Sites/scaffold/js/progress.js",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/colors/index.html",
 		"/Users/Q/Sites/scaffold/css/partials/colors.css",
-		"/Users/Q/Sites/scaffold/js/_styleguide.js",
-		"/Users/Q/Sites/scaffold/css/scss/partials/image-content-panel.scss",
-		"/Users/Q/Sites/scaffold/js/build/production.js",
-		"/Users/Q/Sites/scaffold/css/partials/progress.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss"
+		"/Users/Q/Sites/scaffold/js/_styleguide.js"
 	],
 	"find":
 	{
@@ -237,6 +237,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"I <span",
+			" like pie",
+			"really",
+			"vertic",
+			"-tip",
+			"[data-tips]",
 			"-webkit",
 			"background-clip",
 			"select",
@@ -358,13 +364,7 @@
 			"btn-primary",
 			"a",
 			"btn-primary",
-			"margin",
-			"inline-b",
-			"parent",
-			"Male",
-			"gender",
-			"/300/200",
-			"alt=\"\">"
+			"margin"
 		],
 		"highlight": true,
 		"in_selection": false,
