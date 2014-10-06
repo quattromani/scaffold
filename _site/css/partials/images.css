@@ -12,6 +12,12 @@ img {
 img:after {
   content: " (image)";
 }
+img.left {
+  margin-right: 0.5em;
+}
+img.right {
+  margin-left: 0.5em;
+}
 
 figure {
   position: relative;

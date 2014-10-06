@@ -3,23 +3,18 @@
     ========================================================================== */
 .has-tooltip {
   position: relative;
-  border-bottom: 1px dotted currentColor;
   color: #ef272d;
   cursor: pointer;
-  -webkit-transform: translateZ(0);
-  -webkit-font-smoothing: antialiased;
-  z-index: 998;
 }
 .has-tooltip .tip {
   position: absolute;
   min-width: 15em;
   max-width: 15em;
   padding: .5em;
+  border-top: 3px solid #ef272d;
   border-radius: 3px;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  white-space: nowrap;
   color: #fff;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -27,7 +22,7 @@
   transition: all 0.2s ease-in-out;
   cursor: default;
   pointer-events: none;
-  z-index: 999;
+  z-index: 9999;
 }
 .ie .has-tooltip .tip {
   background: transparent;
@@ -77,7 +72,13 @@
   }
 }
 .has-tooltip .tip a {
-  border-bottom: 1px dotted currentColor;
+  color: #fff;
+}
+.has-tooltip .tip .footer {
+  display: block;
+  margin-top: .5em;
+  padding: .5em 0;
+  border-top: 1px solid #b3b3b3;
 }
 .has-tooltip:hover .tip, .has-tooltip.hover .tip {
   opacity: 1;

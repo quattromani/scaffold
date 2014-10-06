@@ -7,28 +7,23 @@
 
     .has-tooltip {
       position: relative;
-      border-bottom: 1px dotted currentColor;
       color: $color-primary-red;
       cursor: pointer;
-      -webkit-transform: translateZ(0);
-      -webkit-font-smoothing: antialiased;
-      z-index: 998;
 
       .tip {
         position: absolute;
         min-width: 15em;
         max-width: 15em;
         padding: .5em;
+        border-top: 3px solid $color-primary-red;
         @include border-radius;
         @include rgba($color-black, .7);
-        text-align: center;
-        white-space: nowrap;
         color: $color-white;
         @include opacity(0);
         @include transition;
         cursor: default;
         pointer-events: none;
-        z-index: 999;
+        z-index: 9999;
 
         @include bp(bp-big) {
           &-top,
@@ -83,7 +78,14 @@
         }
 
         a {
-          border-bottom: 1px dotted currentColor;
+          color: $color-white;
+        }
+
+        .footer {
+          display: block;
+          margin-top: .5em;
+          padding: .5em 0;
+          border-top: 1px solid $color-dark-grey;
         }
       }
 

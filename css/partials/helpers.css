@@ -1058,20 +1058,16 @@
   border: 1px dotted #ccc;
 }
 
-.bordered-left,
-.bordered-left-dark {
-  padding-left: 2%;
-  border-left: 1px dotted #ccc;
+.bordered-left {
+  border-left: 1px solid #ccc;
 }
 
 .bordered-left-dark {
   border-left: 1px solid #454545;
 }
 
-.bordered-right,
-.bordered-right-dark {
-  padding-right: 2%;
-  border-right: 1px dotted #ccc;
+.bordered-right {
+  border-right: 1px solid #ccc;
 }
 
 .bordered-right-dark {

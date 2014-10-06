@@ -119,23 +119,19 @@ $widths: 5;
 
 .bordered-left,
 %bordered-left {
-  padding-left: $site-gutter-width;
-  border-left: 1px dotted $color-grey;
+  border-left: 1px solid $color-grey;
 }
 
 .bordered-left-dark {
-  @extend %bordered-left;
   border-left: 1px solid $text;
 }
 
 .bordered-right,
 %bordered-right {
-  padding-right: $site-gutter-width;
-  border-right: 1px dotted $color-grey;
+  border-right: 1px solid $color-grey;
 }
 
 .bordered-right-dark {
-  @extend %bordered-right;
   border-right: 1px solid $text;
 }
 

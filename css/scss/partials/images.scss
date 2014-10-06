@@ -17,6 +17,14 @@ img {
   &:after {
     content: " (image)";
   }
+
+  &.left {
+    margin-right: $margin / 2;
+  }
+
+  &.right {
+    margin-left: $margin / 2;
+  }
 }
 
 figure {
