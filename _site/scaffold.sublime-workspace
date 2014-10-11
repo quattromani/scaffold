@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/.htaccess",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
@@ -215,8 +216,7 @@
 		"/Users/Q/Sites/scaffold/css/partials/base.css",
 		"/Users/Q/Sites/scaffold/.gitignore",
 		"/Users/Q/Sites/scaffold/css/partials/videos.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_mistakes.scss",
-		"/Users/Q/Sites/scaffold/_includes/styleguide/progress/index.html"
+		"/Users/Q/Sites/scaffold/css/scss/partials/_mistakes.scss"
 	],
 	"find":
 	{
@@ -237,6 +237,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"png",
+			"mod_headers",
+			"deflate",
 			"-webkti",
 			"dark",
 			"dotted",
@@ -361,10 +364,7 @@
 			"rgba",
 			"opacity",
 			"background-",
-			"second",
-			"0.",
-			"<i",
-			"fa-fw"
+			"second"
 		],
 		"highlight": true,
 		"in_selection": false,
