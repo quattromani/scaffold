@@ -1,0 +1,158 @@
+---
+layout: default
+title: Suggestion Box
+class: sandbox
+---
+
+<style>
+  input[type]:not([type=range]),
+  input[type=text],
+  textarea {
+    border: none;
+    border-radius: 0;
+  }
+
+  input[type]:not([type=range]):focus,
+  input:focus,
+  textarea:focus {
+    box-shadow: none;
+  }
+
+  input.h3 {
+    border-bottom: 1px solid red !important;
+  }
+</style>
+
+
+<p class="lede">
+  Each SB employee is encouraged to create a task under this project and describe their idea to further SB's journey to be the best. Ideas can be simple cost savings efforts and they can be complex trans-formative efforts that will take a team of programmers.
+</p>
+
+<div class="box">
+  <section>
+    <form action="">
+      <div class="third">
+
+        <h3>Category</h3>
+
+        <hr>
+
+        <ul>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-1" name="category" value="category 1">
+              <label for="radio-category-1">Servicing</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-2" name="category" value="category2">
+              <label for="radio-category-2">Default</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-3" name="category" value="category 3">
+              <label for="radio-category-3">Bankruptcy</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-4" name="category" value="category 4">
+              <label for="radio-category-4">Loss Mitigation</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-5" name="category" value="category 5">
+              <label for="radio-category-5">Information Technology</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-6" name="category" value="category 6">
+              <label for="radio-category-6">Accounting</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="radio" class="radio" id="radio-category-7" name="category" value="category 7">
+              <label for="radio-category-7">Administration</label>
+            </div>
+          </li>
+        </ul>
+
+        <h3>Type of Task</h3>
+
+        <hr>
+
+        <ul>
+          <li>
+            <div class="formitem">
+              <input type="checkbox" class="switch" id="relation-1" name="relationship-1" checked>
+              <label for="relation-1">Cost-Saving Idea</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="checkbox" class="switch" id="relation-2" name="relationship-2">
+              <label for="relation-2">Technology Innovation</label>
+            </div>
+          </li>
+          <li>
+            <div class="formitem">
+              <input type="checkbox" class="switch" id="relation-3" name="relationship-3">
+              <label for="relation-3">Process Improvement</label>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <div class="two-thirds">
+        <div class="box">
+          <input class="h3" type="text" placeholder="Title of Your Idea">
+
+          <textarea name="" id="" cols="30" rows="15" placeholder="Write a detailed summary of your idea here"></textarea>
+        </div>
+
+        <fieldset>
+          <div class="formitem text-right">
+            <button class="btn btn-primary" type="submit" name="submit" value="submit">
+              <span>Submit</span>
+            </button>
+
+            <button type="reset" name="reset" value="reset">
+              <span>Clear</span>
+            </button>
+          </div>
+        </fieldset>
+
+      </div>
+
+    </section>
+  </form>
+</div>
+
+<ul class="bulleted">
+  <li>
+    For cost savings efforts that are implemented, the task sponsor
+    will get 5% of the cost savings for the first six months of the
+    effort.
+  </li>
+  <li>
+    For ideas that generate revenue, the task sponsor will get
+    10% of the additional revenue for nine months.
+  </li>
+  <li>
+   Ideas that will require IT programming or the
+   like will need to go through the IT Prioritization Meeting.
+ </li>
+</ul>
+
+<hr>
+
+<div class="text-center">
+  <span class="h2">
+    United in our journey to be the best; smart servicing for smart investors.
+  </span>
+</div>

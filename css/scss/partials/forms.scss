@@ -18,7 +18,7 @@
     select {
       width: 100%;
       max-width: 100%;
-      @include padding(.35em, .5em);
+      @include rem(padding, 12px, 10px);
       @include margin;
       border: 1px solid $color-light-grey;
       outline: none;
