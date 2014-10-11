@@ -54,7 +54,7 @@
 <hr>
 
 
-    <p>Version: 0.2.5 -- Updated: 2014-10-10 22:07:28 -0600</p>
+    <p>Version: 0.2.5 -- Updated: 2014-10-10 22:49:38 -0600</p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->
@@ -64,11 +64,13 @@
   <a class="btn btn-primary" href="box">Isolate</a>
 </div>
 
+<p>The box is the simplest of components, it is more for illustrative purposes than anything. The classname is .box and any other element of component can go inside of it. This is styled with a border mostly so it can be seen.</p>
+
 <div class="box-column clearfix">
 
-<div class="box">
-	<h3>The is a sub-header box</h3>
-</div>
+  <div class="box">
+    <h3>The is a sub-header box</h3>
+  </div>
 
 <div class="highlight"><pre><code class="language-html" data-lang="html">&lt;div class=&quot;box&quot;&gt;
   &lt;h3&gt;The is a sub-header box&lt;/h3&gt;
@@ -81,6 +83,8 @@
 <div class="right">
   <a class="btn btn-primary" href="breadcrumbs">Isolate</a>
 </div>
+
+<p>Breadcrumbs are a graphical element used as a navigational aid for users. It serves the purpose of marking the path a user took to get wheere they are. These are largely unstyled but follow the typical convention of a horizontal list of links. Any of the links can be clicked to jump back to a specific spot.</p>
 
 <div class="box-column clear">
 
@@ -115,6 +119,8 @@
 <div class="right">
   <a class="btn btn-primary" href="forms">Isolate</a>
 </div>
+
+<p>A pretty standard form to allow users to enter requested data. Most every form element is covered in this sample. Input fields, checkboxes, radio buttons, select dropdowns, etc. alos included is a submit button and a reset, or clear, button that wipes any filled-in information to be wiped.</p>
 
 <div class="box-column clear">
 
@@ -449,6 +455,8 @@
   <a class="btn btn-primary" href="lists">Isolate</a>
 </div>
 
+<p>Unordered and ordered lists are composed virtually the same. The &lt;ul&gt; is used for non-sequential orderingm while the &lt;ol&gt; is for specific ordering and are preceeded by numbers by default. I start out by stripping all styling from any lists, including padding and margin. Bulleted lists are then classed as &lt;ul class="bulleted&gt;, etc. Lists also get classes added to the first and last item in each (.js-first / .js-last), this gets used for removing any border that we don't want to appear at the top or bottom in particular. Examples below.</p>
+
 <div class="box-column clear">
     <h3>A Basic Unordered List</h3>
 
@@ -626,6 +634,8 @@
   <a class="btn btn-primary" href="summary">Isolate</a>
 </div>
 
+<p>Super Cool; the Summary element is a reveal box that can be clicked to show additional information to the user. For browsers that don't support the element, it jsut defaults open - which is not a bad fallback.</p>
+
 <div class="box-column clear">
     <h3>Summary</h3>
 
@@ -648,6 +658,10 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
 <div class="right">
   <a class="btn btn-primary" href="modals">Isolate</a>
 </div>
+
+<p>A modal is a graphical element used to subordinate a pages main content. The modal node is a child of the parent page and contains tangential information relevant to that parent. Using modals to "takeover" a page is evil. Don't do it!</p>
+
+<p>Modals can closed by clicking the "X" provided or anywhere else on the page.</p>
 
 <div class="box-column clear">
   <!-- Modal Buttons -->
@@ -788,6 +802,8 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
   <a class="btn btn-primary" href="pagination">Isolate</a>
 </div>
 
+<p>Pagination, similar to <a href="#breadcrumbs-anchor">Breadcrumbs</a>, are a user-interfacer method of providing contextual pathing to a user. Pagination can be numbered as a method of breaking up articles or content into discrete sections, or it can be "Previous" or "Next" for a single continuous article broken into multiple pages. Using the wrong signals in pagination can lead to confusion for the user.</p>
+
 <div class="box-column clear">
 
   <!-- Pagination Component -->
@@ -845,6 +861,8 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
 <div class="right">
 	<a class="btn btn-primary" href="pills">Isolate</a>
 </div>
+
+<p>Pills, or Notifications, help keep a user informed of something that has occured. By design, these pills are only static elements that would require a logic or scripting language to hook them up on another element.</p>
 
 <div class="box-column clear">
 	<ul class="vertical lined">
@@ -920,11 +938,13 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
 &lt;label for=&quot;&quot;&gt;You purchased this item &lt;span class=&quot;pill-success&quot;&gt;23&lt;/span&gt; times&lt;/label&gt;</code></pre></div>
 </div>
 
-<span id="box-anchor" class="h2 jumpTo-anchor">Dynamic Message Boxes</span>
+<span id="message-anchor" class="h2 jumpTo-anchor">Dynamic Message Boxes</span>
 
 <div class="right">
   <a class="btn btn-primary" href="message-box">Isolate</a>
 </div>
+
+<p>The message, or alert, box is a method of alerting a user to a success, a failure, or otherwise importantant contextual information that shlud stand-out due to it's importance. These would be event-propogated as part of a usage flow.</p>
 
 <div class="box-column clearfix">
 
@@ -967,6 +987,8 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
   <a class="btn btn-primary" href="info-box">Isolate</a>
 </div>
 
+<p>Just like the <a href="#message-anchor">Message Box</a>, the Static Information Boxes contain information useful or need to the user. The are intended to be written in the markup and not injected as an event.</p>
+
 <div class="box-column clearfix">
 
   <div class="row">
@@ -996,6 +1018,8 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
 <div class="right">
   <a class="btn btn-primary" href="tables">Isolate</a>
 </div>
+
+<p>One of the most semantic elements in the framework; the table is here mostly so we don't have to look up the best practices for marking them up when needed. We have a few differnt methods for making tables responsive, but had no intention of commiting to one in the Pattern Library.</p>
 
 <div class="box-column clear">
 
