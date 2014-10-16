@@ -13,6 +13,10 @@ class: sandbox
     color: #222;
   }
 
+  .container {
+    width: 1210px;
+  }
+
   h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,
   .lede ,
   textarea {
@@ -21,6 +25,21 @@ class: sandbox
 
   .lede {
     font-size: 18px;
+  }
+
+  header.banner {
+    padding: 1em 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  footer {
+    padding: 2em 0;
+    background-color: #222;
+    color: #fff;
+  }
+
+  footer p.lede {
+    color: #919191;
   }
 
   span.header {
@@ -150,238 +169,250 @@ class: sandbox
  }
 </style>
 
-<img src="{{ site.baseurl }}media/images/Statebridge_logo1.png" alt="Statebridge Company" width="155">
+<header class="banner" role="banner">
+  <div class="container">
+    <img src="{{ site.baseurl }}media/images/Statebridge_logo1.png" alt="Statebridge Company" width="155">
+  </div>
+</header>
 
-<hr>
+<div class="content">
+  <div class="container">
+    <p class="lede">
+      Each SB employee is encouraged to create a task under this project and describe their idea to further SB's journey to be the best. Ideas can be simple cost savings efforts and they can be complex trans-formative efforts that will take a team of programmers.
+    </p>
 
-<p class="lede">
-  Each SB employee is encouraged to create a task under this project and describe their idea to further SB's journey to be the best. Ideas can be simple cost savings efforts and they can be complex trans-formative efforts that will take a team of programmers.
-</p>
+    <div class="box outer">
 
-<div class="box outer">
+      <span class="header">
+        What's the big idea?
+      </span>
 
-  <span class="header">
-    What's the big idea?
-  </span>
+      <section>
+        <form action="">
+          <div class="fourth">
 
-  <section>
-    <form action="">
-      <div class="fourth">
+            <h3>Department</h3>
 
-        <h3>Department</h3>
+            <hr>
 
-        <hr>
+            <ul>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-1" name="category" value="1">
+                  <label for="radio-category-1">Servicing</label>
+                  <div class="hidden reveal category1">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-1_1" name="category" value="1_1">
+                      <label for="radio-category-1_1">Customer Service</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-1_2" name="category" value="1_2">
+                      <label for="radio-category-1_2">Collections</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-1_3" name="category" value="1_3">
+                      <label for="radio-category-1_3">Loss Mitigation</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-2" name="category" value="2">
+                  <label for="radio-category-2">Default</label>
+                  <div class="hidden reveal category2">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-2_1" name="category" value="2_1">
+                      <label for="radio-category-2_1">Bankruptcy</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-2_2" name="category" value="2_2">
+                      <label for="radio-category-2_2">Foreclosure</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-2_3" name="category" value="2_3">
+                      <label for="radio-category-2_3">Default Services</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-3" name="category" value="3">
+                  <label for="radio-category-3">Information Technology</label>
+                  <div class="hidden reveal category3">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-3_1" name="category" value="3_1">
+                      <label for="radio-category-3_1">Desktop Services</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-3_2" name="category" value="3_2">
+                      <label for="radio-category-3_2">Development</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-4" name="category" value="4">
+                  <label for="radio-category-4">Loan Admin</label>
+                  <div class="hidden reveal category4">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-4_1" name="category" value="4_1">
+                      <label for="radio-category-4_1">Boarding</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-4_2" name="category" value="4_2">
+                      <label for="radio-category-4_2">Cash</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-4_3" name="category" value="4_3">
+                      <label for="radio-category-4_3">Escrow</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-4_4" name="category" value="4_4">
+                      <label for="radio-category-4_4">Special Loans</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-5" name="category" value="5">
+                  <label for="radio-category-5">Legal</label>
+                  <div class="hidden reveal category5">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-5_1" name="category" value="5_1">
+                      <label for="radio-category-5_1">Litigation</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-5_2" name="category" value="5_2">
+                      <label for="checkbox-category-5_2">Compliance</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-5_3" name="category" value="5_3">
+                      <label for="radio-category-5_3">State Licensing</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-5_4" name="category" value="5_4">
+                      <label for="radio-category-5_4">Borrower Comm.</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-6" name="category" value="6">
+                  <label for="radio-category-6">Accounting</label>
+                  <div class="hidden reveal category6">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-6_1" name="category" value="6_1">
+                      <label for="radio-category-6_1">AP / AR</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-6_2" name="category" value="6_2">
+                      <label for="radio-category-6_2">Investor Reporting</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="radio" class="radio reveally" id="radio-category-7" name="category" value="7">
+                  <label for="radio-category-7">Learning / Development</label>
+                  <div class="hidden reveal category7">
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-7_1" name="category" value="7_1">
+                      <label for="radio-category-7_1">Training</label>
+                    </div>
+                    <div class="formitem">
+                      <input type="checkbox" class="switch" id="radio-category-7_2" name="category" value="7_2">
+                      <label for="radio-category-7_2">HR</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
 
-        <ul>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-1" name="category" value="1">
-              <label for="radio-category-1">Servicing</label>
-              <div class="hidden reveal category1">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-1_1" name="category" value="1_1">
-                  <label for="radio-category-1_1">Customer Service</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-1_2" name="category" value="1_2">
-                  <label for="radio-category-1_2">Collections</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-1_3" name="category" value="1_3">
-                  <label for="radio-category-1_3">Loss Mitigation</label>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-2" name="category" value="2">
-              <label for="radio-category-2">Default</label>
-              <div class="hidden reveal category2">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-2_1" name="category" value="2_1">
-                  <label for="radio-category-2_1">Bankruptcy</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-2_2" name="category" value="2_2">
-                  <label for="radio-category-2_2">Foreclosure</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-2_3" name="category" value="2_3">
-                  <label for="radio-category-2_3">Default Services</label>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-3" name="category" value="3">
-              <label for="radio-category-3">Information Technology</label>
-              <div class="hidden reveal category3">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-3_1" name="category" value="3_1">
-                  <label for="radio-category-3_1">Desktop Services</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-3_2" name="category" value="3_2">
-                  <label for="radio-category-3_2">Development</label>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-4" name="category" value="4">
-              <label for="radio-category-4">Loan Admin</label>
-              <div class="hidden reveal category4">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-4_1" name="category" value="4_1">
-                  <label for="radio-category-4_1">Boarding</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-4_2" name="category" value="4_2">
-                  <label for="radio-category-4_2">Cash</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-4_3" name="category" value="4_3">
-                  <label for="radio-category-4_3">Escrow</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-4_4" name="category" value="4_4">
-                  <label for="radio-category-4_4">Special Loans</label>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-5" name="category" value="5">
-              <label for="radio-category-5">Legal</label>
-              <div class="hidden reveal category5">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-5_1" name="category" value="5_1">
-                  <label for="radio-category-5_1">Litigation</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-5_2" name="category" value="5_2">
-                  <label for="checkbox-category-5_2">Compliance</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-5_3" name="category" value="5_3">
-                  <label for="radio-category-5_3">State Licensing</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-5_4" name="category" value="5_4">
-                  <label for="radio-category-5_4">Borrower Comm.</label>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-6" name="category" value="6">
-              <label for="radio-category-6">Accounting</label>
-              <div class="hidden reveal category6">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-6_1" name="category" value="6_1">
-                  <label for="radio-category-6_1">AP / AR</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-6_2" name="category" value="6_2">
-                  <label for="radio-category-6_2">Investor Reporting</label>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="radio" class="radio reveally" id="radio-category-7" name="category" value="7">
-              <label for="radio-category-7">Learning / Development</label>
-              <div class="hidden reveal category7">
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-7_1" name="category" value="7_1">
-                  <label for="radio-category-7_1">Training</label>
-                </div>
-                <div class="formitem">
-                  <input type="checkbox" class="switch" id="radio-category-7_2" name="category" value="7_2">
-                  <label for="radio-category-7_2">HR</label>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+            <h3>Initiative</h3>
 
-        <h3>Initiative</h3>
+            <hr>
 
-        <hr>
+            <ul>
+              <li>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="relation-1" name="relationship-1">
+                  <label for="relation-1">Cost-Saving Idea</label>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="relation-2" name="relationship-2">
+                  <label for="relation-2">Technology Innovation</label>
+                </div>
+              </li>
+              <li>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="relation-3" name="relationship-3">
+                  <label for="relation-3">Process Improvement</label>
+                </div>
+              </li>
+            </ul>
 
-        <ul>
-          <li>
-            <div class="formitem">
-              <input type="checkbox" class="switch" id="relation-1" name="relationship-1">
-              <label for="relation-1">Cost-Saving Idea</label>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="checkbox" class="switch" id="relation-2" name="relationship-2">
-              <label for="relation-2">Technology Innovation</label>
-            </div>
-          </li>
-          <li>
-            <div class="formitem">
-              <input type="checkbox" class="switch" id="relation-3" name="relationship-3">
-              <label for="relation-3">Process Improvement</label>
-            </div>
-          </li>
-        </ul>
-
-      </div>
-      <div class="three-fourths">
-        <div class="box">
-          <input class="h3" type="text" placeholder="Title of Your Idea">
-
-          <textarea name="" id="" cols="30" rows="15" placeholder="Write a detailed summary of your idea here"></textarea>
-        </div>
-
-        <fieldset>
-          <div class="formitem text-right">
-            <button class="btn btn-primary" type="submit" name="submit" value="submit">
-              <span>Submit</span>
-            </button>
-
-            <button type="reset" name="reset" value="reset">
-              <span>Clear</span>
-            </button>
           </div>
-        </fieldset>
+          <div class="three-fourths">
+            <div class="box">
+              <input class="h3" type="text" placeholder="Title of Your Idea">
 
-      </div>
+              <textarea name="" id="" cols="30" rows="15" placeholder="Write a detailed summary of your idea here"></textarea>
+            </div>
 
-    </section>
-  </form>
+            <fieldset>
+              <div class="formitem text-right">
+                <button class="btn btn-primary" type="submit" name="submit" value="submit">
+                  <span>Submit</span>
+                </button>
+
+                <button type="reset" name="reset" value="reset">
+                  <span>Clear</span>
+                </button>
+              </div>
+            </fieldset>
+
+          </div>
+
+        </section>
+      </form>
+    </div>
+
+    <ul class="bulleted">
+      <li>
+        For cost savings efforts that are implemented, the task sponsor
+        will get 5% of the cost savings for the first six months of the
+        effort.
+      </li>
+      <li>
+        For ideas that generate revenue, the task sponsor will get
+        10% of the additional revenue for nine months.
+      </li>
+      <li>
+       Ideas that will require IT programming or the
+       like will need to go through the IT Prioritization Meeting.
+     </li>
+   </ul>
+ </div>
 </div>
 
-<ul class="bulleted">
-  <li>
-    For cost savings efforts that are implemented, the task sponsor
-    will get 5% of the cost savings for the first six months of the
-    effort.
-  </li>
-  <li>
-    For ideas that generate revenue, the task sponsor will get
-    10% of the additional revenue for nine months.
-  </li>
-  <li>
-   Ideas that will require IT programming or the
-   like will need to go through the IT Prioritization Meeting.
- </li>
-</ul>
-
-<hr>
-
-<div class="text-center">
-  <span class="h3">
-    United in our journey to be the best; smart servicing for smart investors.
-  </span>
 </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="text-center">
+      <p class="lede">
+        United in our journey to be the best; smart servicing for smart investors.
+      </p>
+    </div>
+  </div>
+</footer>
+
