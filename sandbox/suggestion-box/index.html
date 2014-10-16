@@ -28,8 +28,8 @@ class: sandbox
     top: -30px;
     left: -10px;
     padding: .5em;
-    background-color: red;
-    color: #e1e1e1;
+    background-color: #034485;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     z-index: 999
@@ -45,7 +45,7 @@ class: sandbox
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 0;
-    border-color: transparent #760004 transparent transparent;
+    border-color: transparent #012b55 transparent transparent;
     z-index: 99;
   }
 
@@ -74,11 +74,12 @@ class: sandbox
 
   .reveal {
     position: relative;
+    overflow: auto;
     width: 100%;
     clear: both;
     margin-bottom: 1em;
     padding: 1em;
-    background-color: rgba(250,250,250, .4);
+    background-color: rgba(250,250,250, .15);
     box-shadow: inset 0 20px 20px -20px #454545;
   }
 
@@ -149,6 +150,9 @@ class: sandbox
  }
 </style>
 
+<img src="{{ site.baseurl }}media/images/Statebridge_logo1.png" alt="Statebridge Company" width="155">
+
+<hr>
 
 <p class="lede">
   Each SB employee is encouraged to create a task under this project and describe their idea to further SB's journey to be the best. Ideas can be simple cost savings efforts and they can be complex trans-formative efforts that will take a team of programmers.
@@ -164,77 +168,150 @@ class: sandbox
     <form action="">
       <div class="fourth">
 
-        <h3>Category</h3>
+        <h3>Department</h3>
 
         <hr>
 
         <ul>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-1" name="category" value="1">
+              <input type="radio" class="radio reveally" id="radio-category-1" name="category" value="1">
               <label for="radio-category-1">Servicing</label>
               <div class="hidden reveal category1">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-1_1" name="category" value="1_1">
+                  <label for="radio-category-1_1">Customer Service</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-1_2" name="category" value="1_2">
+                  <label for="radio-category-1_2">Collections</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-1_3" name="category" value="1_3">
+                  <label for="radio-category-1_3">Loss Mitigation</label>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-2" name="category" value="2">
+              <input type="radio" class="radio reveally" id="radio-category-2" name="category" value="2">
               <label for="radio-category-2">Default</label>
               <div class="hidden reveal category2">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-2_1" name="category" value="2_1">
+                  <label for="radio-category-2_1">Bankruptcy</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-2_2" name="category" value="2_2">
+                  <label for="radio-category-2_2">Foreclosure</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-2_3" name="category" value="2_3">
+                  <label for="radio-category-2_3">Default Services</label>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-3" name="category" value="3">
-              <label for="radio-category-3">Bankruptcy</label>
+              <input type="radio" class="radio reveally" id="radio-category-3" name="category" value="3">
+              <label for="radio-category-3">Information Technology</label>
               <div class="hidden reveal category3">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-3_1" name="category" value="3_1">
+                  <label for="radio-category-3_1">Desktop Services</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-3_2" name="category" value="3_2">
+                  <label for="radio-category-3_2">Development</label>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-4" name="category" value="4">
-              <label for="radio-category-4">Loss Mitigation</label>
+              <input type="radio" class="radio reveally" id="radio-category-4" name="category" value="4">
+              <label for="radio-category-4">Loan Admin</label>
               <div class="hidden reveal category4">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-4_1" name="category" value="4_1">
+                  <label for="radio-category-4_1">Boarding</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-4_2" name="category" value="4_2">
+                  <label for="radio-category-4_2">Cash</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-4_3" name="category" value="4_3">
+                  <label for="radio-category-4_3">Escrow</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-4_4" name="category" value="4_4">
+                  <label for="radio-category-4_4">Special Loans</label>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-5" name="category" value="5">
-              <label for="radio-category-5">Information Technology</label>
+              <input type="radio" class="radio reveally" id="radio-category-5" name="category" value="5">
+              <label for="radio-category-5">Legal</label>
               <div class="hidden reveal category5">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-5_1" name="category" value="5_1">
+                  <label for="radio-category-5_1">Litigation</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-5_2" name="category" value="5_2">
+                  <label for="checkbox-category-5_2">Compliance</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-5_3" name="category" value="5_3">
+                  <label for="radio-category-5_3">State Licensing</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-5_4" name="category" value="5_4">
+                  <label for="radio-category-5_4">Borrower Comm.</label>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-6" name="category" value="6">
+              <input type="radio" class="radio reveally" id="radio-category-6" name="category" value="6">
               <label for="radio-category-6">Accounting</label>
               <div class="hidden reveal category6">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-6_1" name="category" value="6_1">
+                  <label for="radio-category-6_1">AP / AR</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-6_2" name="category" value="6_2">
+                  <label for="radio-category-6_2">Investor Reporting</label>
+                </div>
               </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-7" name="category" value="7">
-              <label for="radio-category-7">Administration</label>
+              <input type="radio" class="radio reveally" id="radio-category-7" name="category" value="7">
+              <label for="radio-category-7">Learning / Development</label>
               <div class="hidden reveal category7">
-                something hidden
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-7_1" name="category" value="7_1">
+                  <label for="radio-category-7_1">Training</label>
+                </div>
+                <div class="formitem">
+                  <input type="checkbox" class="switch" id="radio-category-7_2" name="category" value="7_2">
+                  <label for="radio-category-7_2">HR</label>
+                </div>
               </div>
             </div>
           </li>
         </ul>
 
-        <h3>Type of Task</h3>
+        <h3>Initiative</h3>
 
         <hr>
 
