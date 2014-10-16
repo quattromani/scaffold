@@ -237,6 +237,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"outer",
 			"fontaw",
 			"fontawesome",
 			"red",
@@ -363,8 +364,7 @@
 			"transf",
 			"progre",
 			"border: none;",
-			"@import \"../globals/allGlobals\";",
-			"butt"
+			"@import \"../globals/allGlobals\";"
 		],
 		"highlight": true,
 		"in_selection": false,
