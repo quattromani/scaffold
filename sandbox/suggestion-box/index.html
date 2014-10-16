@@ -1,10 +1,115 @@
 ---
-layout: default
+layout: sandbox
 title: Suggestion Box
 class: sandbox
 ---
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 <style>
+  body, p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #222;
+  }
+
+  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,
+  .lede ,
+  textarea {
+    font-family: 'Muli', sans-serif;
+  }
+
+  .lede {
+    font-size: 18px;
+  }
+
+  span.header {
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    padding: .5em;
+    background-color: red;
+    color: #e1e1e1;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 999
+  }
+
+  span.header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: transparent #760004 transparent transparent;
+    z-index: 99;
+  }
+
+  hr {
+    border: 0;
+    border: 1px solid grey;
+  }
+
+  ul {
+    display: block;
+    overflow: auto;
+    margin-bottom: 1em;
+  }
+
+  .bulleted li {
+    margin-left: 1.25em;
+  }
+
+  .box.outer {
+    position: relative;
+    margin-top: 3em;
+    background-color: #455560;
+    color: white;
+    z-index: 800;
+  }
+
+  .reveal {
+    position: relative;
+    width: 100%;
+    clear: both;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: rgba(250,250,250, .4);
+    box-shadow: inset 0 20px 20px -20px #454545;
+  }
+
+  .reveal:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -.75em;
+    border-color: #455560 transparent transparent transparent;
+    border-style: solid;
+    border-width: .75em;
+    z-index: 99;
+  }
+
+  .btn.btn-primary {
+    background-color: white;
+    color: #005795;
+  }
+
+  .btn.btn-primary:hover {
+    background-color: #e1e1e1;
+  }
+
+  button {
+    color: white;
+  }
+
   input[type]:not([type=range]),
   input[type=text],
   textarea {
@@ -19,8 +124,29 @@ class: sandbox
   }
 
   input.h3 {
-    border-bottom: 1px solid red !important;
+    border-bottom: 1px solid #005795 !important;
+    text-transform: capitalize;
   }
+
+  ::-webkit-input-placeholder {
+    color: #333;
+  }
+
+  input.h3::-webkit-input-placeholder {
+    font-weight: bold;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+   color: #333;
+ }
+
+ ::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;
+ }
+
+ :-ms-input-placeholder {
+   color: #333;
+ }
 </style>
 
 
@@ -28,10 +154,15 @@ class: sandbox
   Each SB employee is encouraged to create a task under this project and describe their idea to further SB's journey to be the best. Ideas can be simple cost savings efforts and they can be complex trans-formative efforts that will take a team of programmers.
 </p>
 
-<div class="box">
+<div class="box outer">
+
+  <span class="header">
+    What's the big idea?
+  </span>
+
   <section>
     <form action="">
-      <div class="third">
+      <div class="fourth">
 
         <h3>Category</h3>
 
@@ -40,44 +171,65 @@ class: sandbox
         <ul>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-1" name="category" value="category 1">
+              <input type="radio" class="radio" id="radio-category-1" name="category" value="1">
               <label for="radio-category-1">Servicing</label>
+              <div class="hidden reveal category1">
+                something hidden
+              </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-2" name="category" value="category2">
+              <input type="radio" class="radio" id="radio-category-2" name="category" value="2">
               <label for="radio-category-2">Default</label>
+              <div class="hidden reveal category2">
+                something hidden
+              </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-3" name="category" value="category 3">
+              <input type="radio" class="radio" id="radio-category-3" name="category" value="3">
               <label for="radio-category-3">Bankruptcy</label>
+              <div class="hidden reveal category3">
+                something hidden
+              </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-4" name="category" value="category 4">
+              <input type="radio" class="radio" id="radio-category-4" name="category" value="4">
               <label for="radio-category-4">Loss Mitigation</label>
+              <div class="hidden reveal category4">
+                something hidden
+              </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-5" name="category" value="category 5">
+              <input type="radio" class="radio" id="radio-category-5" name="category" value="5">
               <label for="radio-category-5">Information Technology</label>
+              <div class="hidden reveal category5">
+                something hidden
+              </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-6" name="category" value="category 6">
+              <input type="radio" class="radio" id="radio-category-6" name="category" value="6">
               <label for="radio-category-6">Accounting</label>
+              <div class="hidden reveal category6">
+                something hidden
+              </div>
             </div>
           </li>
           <li>
             <div class="formitem">
-              <input type="radio" class="radio" id="radio-category-7" name="category" value="category 7">
+              <input type="radio" class="radio" id="radio-category-7" name="category" value="7">
               <label for="radio-category-7">Administration</label>
+              <div class="hidden reveal category7">
+                something hidden
+              </div>
             </div>
           </li>
         </ul>
@@ -89,7 +241,7 @@ class: sandbox
         <ul>
           <li>
             <div class="formitem">
-              <input type="checkbox" class="switch" id="relation-1" name="relationship-1" checked>
+              <input type="checkbox" class="switch" id="relation-1" name="relationship-1">
               <label for="relation-1">Cost-Saving Idea</label>
             </div>
           </li>
@@ -108,7 +260,7 @@ class: sandbox
         </ul>
 
       </div>
-      <div class="two-thirds">
+      <div class="three-fourths">
         <div class="box">
           <input class="h3" type="text" placeholder="Title of Your Idea">
 
@@ -152,7 +304,7 @@ class: sandbox
 <hr>
 
 <div class="text-center">
-  <span class="h2">
+  <span class="h3">
     United in our journey to be the best; smart servicing for smart investors.
   </span>
 </div>

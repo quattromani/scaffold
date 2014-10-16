@@ -21,4 +21,4 @@ google_analytics: true
 google_analytics_id: UA-50387096-4
 jquery_version: 1.9.0
 
-footer: "This is my footer"
+footer: ""

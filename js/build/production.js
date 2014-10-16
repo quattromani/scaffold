@@ -329,6 +329,30 @@ $('input, textarea').placeholder();
     sandbox -- Version: 0.2.2 - Updated: 7/26/2014
     ========================================================================== */
 
+    $(function() {
+      $("input[type='radio']").click(function() {
+        var cat = $(this).val();
+
+        $(".hidden").hide();
+        $(".category" + cat).fadeIn(500);
+      });
+    });
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 /* ==========================================================================
     tooltips -- Version: 0.2.2 - Updated: 7/26/2014
     ========================================================================== */

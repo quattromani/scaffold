@@ -89,16 +89,21 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/_includes/head.html",
+		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/font-awesome.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/.htaccess",
+		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
+		"/Users/Q/Sites/scaffold/css/partials/typography.css",
+		"/Users/Q/Sites/scaffold/js/placeholder.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
-		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
 		"/Users/Q/Sites/scaffold/_site/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
-		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/css/main.min.css",
 		"/Users/Q/Sites/scaffold/js/main.js",
 		"/Users/Q/Sites/scaffold/js/sandbox.js",
@@ -111,7 +116,6 @@
 		"/Users/Q/Sites/scaffold/_includes/banner.html",
 		"/Users/Q/Sites/scaffold/SDLC/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/emails/index.html",
 		"/Users/Q/Sites/scaffold/patterns/box/index.html",
 		"/Users/Q/Sites/scaffold/patterns/breadcrumbs/index.html",
@@ -170,7 +174,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss",
 		"/Users/Q/Sites/scaffold/_includes/end_content.html",
 		"/Users/Q/Sites/scaffold/README.md",
@@ -213,10 +216,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
 		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
-		"/Users/Q/Sites/scaffold/css/partials/base.css",
-		"/Users/Q/Sites/scaffold/.gitignore",
-		"/Users/Q/Sites/scaffold/css/partials/videos.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_mistakes.scss"
+		"/Users/Q/Sites/scaffold/css/partials/base.css"
 	],
 	"find":
 	{
@@ -237,6 +237,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fontaw",
+			"fontawesome",
+			"red",
+			"></",
+			"sex",
+			"<label for=\"\"></label>",
+			"></",
 			"png",
 			"mod_headers",
 			"deflate",
@@ -357,14 +364,7 @@
 			"progre",
 			"border: none;",
 			"@import \"../globals/allGlobals\";",
-			"butt",
-			"link",
-			"glg",
-			"tight",
-			"rgba",
-			"opacity",
-			"background-",
-			"second"
+			"butt"
 		],
 		"highlight": true,
 		"in_selection": false,

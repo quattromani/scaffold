@@ -22,3 +22,10 @@ hr {
   border-top: 1px solid $text-light-grey;
   border-bottom: 1px solid $text-white;
 }
+
+hr.sandbox {
+  @extend %clearfix !optional;
+  @include margin($margin, 0);
+  border: 0;
+  border-top: 1px solid $text-light-grey;
+}
