@@ -140,3 +140,25 @@ $find-mistakes: false;
 
 // If you have to support IE8
 $support-legacy: true;
+
+// ---------------------------------------------------------------------- //
+// Decide on included components
+
+$jumpto: true;
+$mistakes: true;
+$styleguide: true;
+$audio: true;
+$carousel: true;
+$drop: true;
+$forms: true;
+$image-content-panel: true;
+$message-box: true;
+$modals: true;
+$pagination: true;
+$pills: true;
+$scrollTo: true;
+$syntax: true;
+$tables: true;
+$tooltips: true;
+$videos: true;
+

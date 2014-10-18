@@ -89,8 +89,8 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
+		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/font-awesome.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/.htaccess",
@@ -237,6 +237,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\";",
+			"@import ",
+			"support-legacy",
+			"header",
 			"outer",
 			"fontaw",
 			"fontawesome",
@@ -360,11 +364,7 @@
 			"transform",
 			".3",
 			"q",
-			"a {",
-			"transf",
-			"progre",
-			"border: none;",
-			"@import \"../globals/allGlobals\";"
+			"a {"
 		],
 		"highlight": true,
 		"in_selection": false,

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 // Mixins and Variables
 // All globals are combined in allGlobals.scss to reduce the nuber of updates necessary to add new files
 @import "globals/allGlobals";
@@ -10,54 +12,54 @@
 
 /* Modules */
 
-@import "partials/nav";
+@import "partials/nav",
 
-@import "partials/colors";
+        "partials/colors",
 
-@import "partials/typography";
+        "partials/typography",
 
-@import "partials/lists";
+        "partials/lists",
 
-@import "partials/summary";
+        "partials/summary",
 
-@import "partials/buttons";
+        "partials/buttons",
 
-@import "partials/pagination";
+        "partials/pagination",
 
-@import "partials/pills";
+        "partials/pills",
 
-@import "partials/message-box";
+        "partials/message-box",
 
-@import "partials/modals";
+        "partials/modals",
 
-@import "partials/tooltips";
+        "partials/tooltips",
 
-@import "partials/carousel";
+        "partials/carousel",
 
-@import "partials/accessibility";
+        "partials/accessibility",
 
-@import "partials/forms";
+        "partials/forms",
 
-@import "partials/drop";
+        "partials/drop",
 
-@import "partials/images";
+        "partials/images",
 
-@import "partials/image-content-panel";
+        "partials/image-content-panel",
 
-@import "partials/audio";
+        "partials/audio",
 
-@import "partials/videos";
+        "partials/videos",
 
-@import "partials/tables";
+        "partials/tables",
 
-@import "partials/modules";
+        "partials/modules",
 
-@import "partials/jumpTo";
+        "partials/jumpTo",
 
-@import "partials/styleguide";
+        "partials/styleguide",
 
-@import "partials/syntax";
+        "partials/syntax",
 
-@import "partials/mistakes";
+        "partials/mistakes",
 
-@import "partials/helpers";
+        "partials/helpers";
