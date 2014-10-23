@@ -6,17 +6,31 @@
 
   $.fn.tooltips = function() {
     $('.has-tooltip').each(function() {
-      if($(window).width() <= mediumBreakPoint && isTouch == true) {
+
         var tooltip = jQuery(this);
 
+        //open event
         tooltip.click(function() {
           tooltip.addClass('hover');
+          if ($('.page-cover').length == 0) {
+            $(".content").append($("<div>").attr("class","page-cover").bind('click', function() {
+              closeTip();
+            }));
+          }
         });
 
-        jQuery('*').not(tooltip).bind('click', function() {
-          tooltip.removeClass('hover');
+        //close event
+        tooltip.find('.close-tip-modal').bind('click', function() {
+          closeTip();
         });
-      }
+
+        //close funciton
+        var closeTip = function() {
+          event.stopPropagation();
+          tooltip.removeClass('hover');
+          $('.page-cover').remove();
+        };
+
     });
   }
 

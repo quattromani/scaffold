@@ -89,6 +89,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/js/tooltips.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
 		"/Users/Q/Sites/scaffold/_includes/head.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/font-awesome.scss",
@@ -97,7 +99,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/js/placeholder.js",
-		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
@@ -107,7 +108,6 @@
 		"/Users/Q/Sites/scaffold/css/main.min.css",
 		"/Users/Q/Sites/scaffold/js/main.js",
 		"/Users/Q/Sites/scaffold/js/sandbox.js",
-		"/Users/Q/Sites/scaffold/js/tooltips.js",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/patterns/tooltips/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
@@ -220,7 +220,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{

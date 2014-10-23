@@ -1745,7 +1745,6 @@ label + .pill,
     ========================================================================== */
 .has-tooltip {
   position: relative;
-  color: #ef272d;
   cursor: pointer; }
   .has-tooltip .tip {
     position: absolute;
@@ -1817,6 +1816,10 @@ label + .pill,
       margin-top: .5em;
       padding: .5em 0;
       border-top: 1px solid #b3b3b3; }
+    .has-tooltip .tip .close-tip-modal {
+      position: absolute;
+      top: 0;
+      right: 1em; }
   .has-tooltip:hover .tip, .has-tooltip.hover .tip {
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1850,6 +1853,20 @@ label + .pill,
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); } }
+
+.page-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 999; }
+  .ie .page-cover {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000, endColorstr=#26000000)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
+    zoom: 1; }
 
 /* ==========================================================================
     Carousel -- Version: 0.2.1 - Compiled: timestamp()

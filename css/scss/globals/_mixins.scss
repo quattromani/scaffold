@@ -65,9 +65,9 @@
     }
   }
 
- @if $support-legacy {
-  #{$property}: $pxValues;
- }
+  @if $support-legacy {
+    #{$property}: $pxValues;
+  }
   #{$property}: $remValues;
 }
 
@@ -155,15 +155,15 @@ $marginless-col-width: $width / $site-column-count;
   width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
   @if $n == $site-column-count {
     margin-left: 0;
-  } @else {
-    margin-left: $site-gutter-width;
+    } @else {
+      margin-left: $site-gutter-width;
+    }
   }
-}
 
-@mixin marginless-span($n: 1) {
-  width: ($n * $marginless-col-width);
-  margin-left: 0;
-}
+  @mixin marginless-span($n: 1) {
+    width: ($n * $marginless-col-width);
+    margin-left: 0;
+  }
 
 // remove margin from all last columns
 @mixin first() {
@@ -286,7 +286,7 @@ $marginless-col-width: $width / $site-column-count;
   will-change: transform;
   transform: rotate($degrees * 1deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
-      filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
   zoom: 1;
 }
 
@@ -307,4 +307,30 @@ $marginless-col-width: $width / $site-column-count;
   :-moz-placeholder           {@content}
   ::-moz-placeholder          {@content}
   :-ms-input-placeholder      {@content}
+}
+
+// Accessibly hide content:
+// snook.ca/archives/html_and_css/hiding-content-for-accessibility
+@mixin visually-hidden($state: hidden) {
+
+  @if ($state == undo) {
+    position: static;
+    overflow: visible;
+    width:  auto;
+    height: auto;
+    margin: auto;
+    clip:   auto;
+  }
+
+  @else {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
 }
