@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";;;AAOA,KAAM;EACJ,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;;;AAGjB,EAAG;EACD,UAAU,EAAE,WAAW;;;AAGzB,oBAAqB;EACnB,UAAU,ECWM,OAAO;;;ADRzB;EACG;EEYD,WAAW,EFXM,GAAG;EEYpB,aAAa,EFZI,GAAG;EEapB,cAAc,EFbG,GAAG;EEcpB,YAAY,EFdK,GAAG",
+"mappings": ";;;AAOA,KAAM;EACJ,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;;;AAGjB,EAAG;EACD,UAAU,EAAE,WAAW;;;AAGzB,oBAAqB;EACnB,UAAU,ECWM,OAAO;;;ADRzB;EACG;EESD,OAAO,EAAE,GAAyB",
 "sources": ["../scss/partials/tables.scss","../scss/globals/_vars.scss","../scss/globals/_mixins.scss"],
 "names": [],
 "file": "tables.css"

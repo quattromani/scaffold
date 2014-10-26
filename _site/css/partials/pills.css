@@ -10,10 +10,7 @@ label + .pill,
 .pill-white,
 .pill-error,
 .pill-success {
-  padding-top: 0.125em;
-  padding-right: 0.75em;
-  padding-bottom: 0.125em;
-  padding-left: 0.75em;
+  padding: 0.125em 0.75em;
   border-radius: 50px;
   background-clip: padding-box;
   background: #ccc;

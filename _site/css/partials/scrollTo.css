@@ -10,14 +10,8 @@
   *vertical-align: auto;
   right: 1em;
   bottom: .5em;
-  margin-top: 0.5em;
-  margin-right: 0;
-  margin-bottom: 0.5em;
-  margin-left: 0;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
   border-radius: 3px;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.1);

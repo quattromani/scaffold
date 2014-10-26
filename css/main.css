@@ -9,14 +9,8 @@ article, aside, figure, footer, header, hgroup, nav, section {
   display: block; }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   border: 0;
   background: transparent;
   list-style: none outside none;
@@ -64,23 +58,14 @@ textarea {
 .content {
   position: relative;
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 0;
-  padding-bottom: 1em;
-  padding-left: 0;
+  padding: 1em 0;
   z-index: 0; }
 
 .container {
   display: block;
   max-width: 1280px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  padding-top: 0;
-  padding-right: 1em;
-  padding-bottom: 0;
-  padding-left: 1em;
+  margin: 0 auto;
+  padding: 0 1em;
   overflow: visible; }
 
 /* ==========================
@@ -895,14 +880,8 @@ nav ul {
 	  Links
    ========================== */
 a {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   background: transparent;
   vertical-align: baseline;
   font-family: inherit;
@@ -1038,10 +1017,7 @@ p,
   word-wrap: break-word; }
   p:only-child,
   .p:only-child {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0; }
+    margin: 0; }
 
 .b {
   font-weight: 700; }
@@ -1054,10 +1030,7 @@ p,
 
 blockquote {
   width: 75%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   border-left: 3px solid currentColor;
   color: #ccc;
   font-style: italic;
@@ -1080,24 +1053,15 @@ sub {
   vertical-align: bottom; }
 
 mark {
-  padding-top: 0.25em;
-  padding-right: 0.25em;
-  padding-bottom: 0.25em;
-  padding-left: 0.25em;
+  padding: 0.25em;
   background: #ffda21; }
 
 /* ==========================
 	  Pre
    ========================== */
 pre {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  margin: 1em 0 0;
+  padding: 1em;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1145,14 +1109,8 @@ samp {
     Lists -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 ol {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 1.5em;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0 0 0 1.5em;
+  padding: 0; }
   ol li {
     list-style: decimal;
     list-style-position: outside; }
@@ -1160,19 +1118,10 @@ ol {
     margin-bottom: 0; }
 
 ul {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0;
+  padding: 0; }
   ul ul {
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0; }
+    margin: 0; }
 
 .bulleted ~ ul {
   margin-bottom: 0; }
@@ -1189,37 +1138,22 @@ ul {
   *display: inline;
   *vertical-align: auto; }
 .horizontal.slashes li {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  padding: 0; }
   .horizontal.slashes li:after {
     content: '/';
-    padding-top: 0;
-    padding-right: 0.5em;
-    padding-bottom: 0;
-    padding-left: 0.5em; }
+    padding: 0 0.5em; }
   .horizontal.slashes li.js-last:after {
     content: ''; }
 .horizontal.pipes li {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  padding: 0; }
   .horizontal.pipes li:after {
     content: '|';
-    padding-top: 0;
-    padding-right: 0.25em;
-    padding-bottom: 0;
-    padding-left: 0.5em; }
+    padding: 0 0.25em 0 0.5em; }
   .horizontal.pipes li.js-last:after {
     content: ''; }
 
 .vertical > li {
-  padding-top: 0.5em;
-  padding-right: 0;
-  padding-bottom: 0.5em;
-  padding-left: 0; }
+  padding: 0.5em 0; }
 .vertical.lined > li {
   overflow: auto;
   border-bottom: 1px dotted #ababab; }
@@ -1239,26 +1173,17 @@ dd {
     Summary -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 details {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 1em 0;
   background: #f2f2f2; }
   details p {
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em; }
+    padding: 1em; }
   details summary {
     display: inline-block;
     *zoom: 1;
     *display: inline;
     *vertical-align: auto;
     width: 100%;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding: 0.5em;
     background: #ccc;
     outline: none;
     color: #fff; }
@@ -1288,14 +1213,8 @@ button,
   *display: inline;
   *vertical-align: auto;
   min-width: 3em;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0.375em;
-  padding-right: 1em;
-  padding-bottom: 0.375em;
-  padding-left: 1em;
+  margin: 0;
+  padding: 0.375em 1em;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1427,27 +1346,18 @@ button,
   .button.btn-xl,
   button.btn-xl,
   .cta.btn-xl {
-    padding-top: 0.75em;
-    padding-right: 2em;
-    padding-bottom: 0.75em;
-    padding-left: 2em; }
+    padding: 0.75em 2em; }
   .btn.btn-lg,
   .button.btn-lg,
   button.btn-lg,
   .cta.btn-lg {
-    padding-top: 0.5em;
-    padding-right: 1.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1.5em; }
+    padding: 0.5em 1.5em; }
   .btn.btn-sm,
   .button.btn-sm,
   button.btn-sm,
   .cta.btn-sm {
     min-width: 0;
-    padding-top: 0.16667em;
-    padding-right: 0.66667em;
-    padding-bottom: 0.16667em;
-    padding-left: 0.66667em; }
+    padding: 0.16667em 0.66667em; }
   @media (max-width: 40em) {
     .btn.mobile-full,
     .button.mobile-full,
@@ -1509,17 +1419,11 @@ button,
 /* Firefox */
 @-moz-document url-prefix() {
   button::-moz-focus-inner {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: none; }
 
   input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: none; } }
 .ie button {
   overflow: visible;
@@ -1529,14 +1433,8 @@ button,
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 .pagination ol {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0;
+  padding: 0; }
 .pagination li {
   display: inline;
   position: relative; }
@@ -1565,10 +1463,7 @@ label + .pill,
 .pill-white,
 .pill-error,
 .pill-success {
-  padding-top: 0.125em;
-  padding-right: 0.75em;
-  padding-bottom: 0.125em;
-  padding-left: 0.75em;
+  padding: 0.125em 0.75em;
   border-radius: 50px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1709,10 +1604,7 @@ label + .pill,
   font-size: 4rem;
   cursor: pointer; }
 .modal .modal-header {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border-radius: 3px 3px 0 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1722,19 +1614,13 @@ label + .pill,
 .modal .modal-body {
   overflow: auto;
   max-height: 25em;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em; }
+  padding: 1em; }
   @media (max-width: 40em) {
     .modal .modal-body {
       max-height: 15.625em; } }
 .modal .modal-footer {
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border-radius: 0 0 3px 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1883,23 +1769,14 @@ label + .pill,
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
-  margin-top: -1em;
-  margin-right: -1em;
-  margin-bottom: -1em;
-  margin-left: -1em;
+  margin: -1em;
   overflow: hidden;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   position: absolute; }
   .visually-hidden.focusable:active, .visually-hidden.focusable:focus {
     clip: auto;
     height: auto;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin: 0;
     overflow: visible;
     position: static;
     width: auto; }
@@ -1922,10 +1799,7 @@ select {
   max-width: 100%;
   padding: 12px 10px;
   padding: 1.2rem 1rem;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
   border: 1px solid #e6e6e6;
   outline: none;
   border-radius: 3px;
@@ -1957,10 +1831,7 @@ select {
   select[type="radio"],
   select[type="checkbox"] {
     float: left;
-    margin-top: 0.25em;
-    margin-right: 0.5em;
-    margin-bottom: 1em;
-    margin-left: 0.1em; }
+    margin: 0.25em 0.5em 1em 0.1em; }
   input[type]:not([type=range]):focus,
   textarea:focus,
   select:focus {
@@ -1973,10 +1844,7 @@ textarea {
 
 input[type="checkbox"], input[type="radio"] {
   width: auto;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   border: 0; }
   input[type="checkbox"]:focus, input[type="radio"]:focus {
     outline: none;
@@ -2021,10 +1889,7 @@ input::-webkit-inner-spin-button {
     font-weight: normal;
     color: #e6e6e6;
     content: "\f078";
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     pointer-events: none;
     z-index: 1; }
   .select select {
@@ -2035,10 +1900,7 @@ input::-webkit-inner-spin-button {
   .select {
     border: 1px solid #e6e6e6; }
     .select select {
-      padding-top: 0.5em;
-      padding-right: 0.5em;
-      padding-bottom: 0.5em;
-      padding-left: 0.5em;
+      padding: 0.5em;
       border: none;
       -moz-appearance: window; } }
 ::-webkit-input-placeholder {
@@ -2135,29 +1997,17 @@ input.switch:checked ~ label:after {
   border: 3px dashed #e6e6e6;
   width: 300px;
   min-height: 300px;
-  margin-top: 2em;
-  margin-right: auto;
-  margin-bottom: 2em;
-  margin-left: auto; }
+  margin: 2em auto; }
   #holder.hover {
     border: 10px dashed #0c0; }
   #holder img {
     display: block;
-    margin-top: 1em;
-    margin-right: auto;
-    margin-bottom: 1em;
-    margin-left: auto; }
+    margin: 1em auto; }
   #holder p {
-    margin-top: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em; }
+    margin: 1em; }
 
 .fail {
-  padding-top: 0.2em;
-  padding-right: 0.2em;
-  padding-bottom: 0.2em;
-  padding-left: 0.2em;
+  padding: 0.2em;
   background: #ef272d;
   color: #fff; }
 
@@ -2233,20 +2083,14 @@ figcaption {
     ========================================================================== */
 .image-content-panel {
   position: relative;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
   color: #fff; }
   .image-content-panel .feature {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding: 0.5em;
     background: rgba(0, 0, 0, 0.35); }
     .ie .image-content-panel .feature {
       background: transparent;
@@ -2277,10 +2121,7 @@ video {
   top: 0;
   left: 0;
   max-width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0; }
+  margin: 0; }
   @media (max-width: 40em) {
     video video {
       height: auto; } }
@@ -2311,23 +2152,14 @@ tr:nth-of-type(even) {
 
 th,
 td {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em; }
+  padding: 1em; }
 
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
 .box-column {
-  margin-top: 0.5em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  margin: 0.5em 0 1em;
+  padding: 1em;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
@@ -2336,19 +2168,13 @@ td {
   overflow: visible; }
 
 hr {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 1em 0;
   border: 0;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #fff; }
 
 hr.sandbox {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 1em 0;
   border: 0;
   border-top: 1px solid #e6e6e6; }
 
@@ -2360,10 +2186,7 @@ hr.sandbox {
   bottom: 0;
   right: 0;
   width: auto;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
+  padding: 0.5em 1em;
   border: 0;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
@@ -2382,10 +2205,7 @@ hr.sandbox {
     Styleguide -- Version: 0.4.2  - Compiled: timestamp()
    ========================================================================== */
 .styleguide .colors, .styleguide .grid {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
@@ -2395,27 +2215,18 @@ hr.sandbox {
     .styleguide .colors, .styleguide .grid {
       margin-bottom: 1em; } }
 .styleguide .swatch {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 0 0 1em;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto; }
 .styleguide .swatch-color {
-  padding-top: 3.5em;
-  padding-right: 1em;
-  padding-bottom: 3.5em;
-  padding-left: 1em; }
+  padding: 3.5em 1em; }
   .styleguide .swatch-color.color-white {
     border: 1px solid #e6e6e6;
     border-bottom: none; }
 .styleguide .swatch-info {
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
+  padding: 0.5em;
   border: 1px solid #e6e6e6;
   border-top: none;
   background: #fff;
@@ -3409,10 +3220,7 @@ hr.sandbox {
   margin-right: 1em; }
 
 .image-center {
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   text-align: center; }
 
 .image-right {
@@ -3420,14 +3228,8 @@ hr.sandbox {
   margin-left: 1em; }
 
 .box {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  margin: 0 0 1em 0;
+  padding: 1em;
   border-radius: 3px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -3442,17 +3244,11 @@ hr.sandbox {
   background-clip: padding-box; }
 
 .bordered-solid {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px solid #ccc; }
 
 .bordered-dotted {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px dotted #ccc; }
 
 .bordered-left {
@@ -3537,10 +3333,7 @@ hr.sandbox {
 
   .bordered-left,
   .bordered-right {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: 0; }
 
   .column-count-2,

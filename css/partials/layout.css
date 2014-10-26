@@ -4,24 +4,15 @@
 .content {
   position: relative;
   overflow: auto;
-  padding-top: 1em;
-  padding-right: 0;
-  padding-bottom: 1em;
-  padding-left: 0;
+  padding: 1em 0;
   z-index: 0;
 }
 
 .container {
   display: block;
   max-width: 1280px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  padding-top: 0;
-  padding-right: 1em;
-  padding-bottom: 0;
-  padding-left: 1em;
+  margin: 0 auto;
+  padding: 0 1em;
   overflow: visible;
 }
 

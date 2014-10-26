@@ -17,10 +17,7 @@ select {
   max-width: 100%;
   padding: 12px 10px;
   padding: 1.2rem 1rem;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
   border: 1px solid #e6e6e6;
   outline: none;
   border-radius: 3px;
@@ -52,10 +49,7 @@ textarea[type="checkbox"],
 select[type="radio"],
 select[type="checkbox"] {
   float: left;
-  margin-top: 0.25em;
-  margin-right: 0.5em;
-  margin-bottom: 1em;
-  margin-left: 0.1em;
+  margin: 0.25em 0.5em 1em 0.1em;
 }
 input[type]:not([type=range]):focus,
 textarea:focus,
@@ -70,10 +64,7 @@ textarea {
 
 input[type="checkbox"], input[type="radio"] {
   width: auto;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   border: 0;
 }
 input[type="checkbox"]:focus, input[type="radio"]:focus {
@@ -123,10 +114,7 @@ input::-webkit-inner-spin-button {
   font-weight: normal;
   color: #e6e6e6;
   content: "\f078";
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   pointer-events: none;
   z-index: 1;
 }
@@ -141,10 +129,7 @@ input::-webkit-inner-spin-button {
     border: 1px solid #e6e6e6;
   }
   .select select {
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding: 0.5em;
     border: none;
     -moz-appearance: window;
   }

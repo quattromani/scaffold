@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/js/tooltips.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
 		"/Users/Q/Sites/scaffold/css/scss/main.scss",
@@ -211,7 +212,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
@@ -220,7 +220,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -237,6 +237,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mobile-",
 			"\";",
 			"@import ",
 			"support-legacy",
@@ -363,8 +364,7 @@
 			"progrsss",
 			"transform",
 			".3",
-			"q",
-			"a {"
+			"q"
 		],
 		"highlight": true,
 		"in_selection": false,

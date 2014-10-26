@@ -16,10 +16,7 @@ tr:nth-of-type(even) {
 
 th,
 td {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
 }
 
 /*# sourceMappingURL=tables.css.map */

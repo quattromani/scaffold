@@ -72,14 +72,8 @@
 	  Links
    ========================== */
 a {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   background: transparent;
   vertical-align: baseline;
   font-family: inherit;
@@ -242,10 +236,7 @@ p,
 }
 p:only-child,
 .p:only-child {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
 }
 
 .b {
@@ -262,10 +253,7 @@ p:only-child,
 
 blockquote {
   width: 75%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   border-left: 3px solid currentColor;
   color: #ccc;
   font-style: italic;
@@ -294,10 +282,7 @@ sub {
 }
 
 mark {
-  padding-top: 0.25em;
-  padding-right: 0.25em;
-  padding-bottom: 0.25em;
-  padding-left: 0.25em;
+  padding: 0.25em;
   background: #ffda21;
 }
 
@@ -305,14 +290,8 @@ mark {
 	  Pre
    ========================== */
 pre {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  margin: 1em 0 0;
+  padding: 1em;
   border-radius: 3px;
   background-clip: padding-box;
   background-color: white;

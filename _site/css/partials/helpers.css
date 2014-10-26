@@ -1007,10 +1007,7 @@
 }
 
 .image-center {
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -1020,14 +1017,8 @@
 }
 
 .box {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  margin: 0 0 1em 0;
+  padding: 1em;
   border-radius: 3px;
   background-clip: padding-box;
   border: 1px solid #e6e6e6;
@@ -1043,18 +1034,12 @@
 }
 
 .bordered-solid {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px solid #ccc;
 }
 
 .bordered-dotted {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   border: 1px dotted #ccc;
 }
 
@@ -1143,10 +1128,7 @@
 
   .bordered-left,
   .bordered-right {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 0;
     border: 0;
   }
 

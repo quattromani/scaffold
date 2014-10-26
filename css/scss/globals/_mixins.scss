@@ -18,23 +18,17 @@
   display: inline-block;
   *zoom: 1;
   *display: inline;
-  *vertical-align:auto;
+  *vertical-align: auto;
 }
 
 // Margin
-@mixin margin($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
-  margin-top: $top;
-  margin-right: $right;
-  margin-bottom: $bottom;
-  margin-left: $left;
+@mixin margin($top: 0, $right: null, $bottom: null, $left: null) {
+  margin: $top $right $bottom $left;
 }
 
 // Padding
-@mixin padding($top: 0, $right: $top or $left, $bottom: $top, $left: $right or $top) {
-  padding-top: $top;
-  padding-right: $right;
-  padding-bottom: $bottom;
-  padding-left: $left;
+@mixin padding($top: 0, $right: null, $bottom: null, $left: null) {
+  padding: $top $right $bottom $left;
 }
 
 // Rem Mixin
@@ -190,9 +184,9 @@ $marginless-col-width: $width / $site-column-count;
 
 @mixin flex($values) {
   -webkit-box-flex: $values;
-  -webkit-flex:  $values;
-  -ms-flex:  $values;
-  flex:  $values;
+  -webkit-flex: $values;
+  -ms-flex: $values;
+  flex: $values;
 }
 
 @mixin order($val) {
@@ -265,6 +259,7 @@ $marginless-col-width: $width / $site-column-count;
 @mixin vertical-align {
   position: relative;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 

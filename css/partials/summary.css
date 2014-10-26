@@ -2,17 +2,11 @@
     Summary -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 details {
-  margin-top: 1em;
-  margin-right: 0;
-  margin-bottom: 1em;
-  margin-left: 0;
+  margin: 1em 0;
   background: #f2f2f2;
 }
 details p {
-  padding-top: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
 }
 details summary {
   display: inline-block;
@@ -20,10 +14,7 @@ details summary {
   *display: inline;
   *vertical-align: auto;
   width: 100%;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
+  padding: 0.5em;
   background: #ccc;
   outline: none;
   color: #fff;

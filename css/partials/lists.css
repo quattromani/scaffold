@@ -2,14 +2,8 @@
     Lists -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 ol {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 1.5em;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0 0 0 1.5em;
+  padding: 0;
 }
 ol li {
   list-style: decimal;
@@ -20,20 +14,11 @@ ol ol {
 }
 
 ul {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 ul ul {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
 }
 
 .bulleted ~ ul {
@@ -55,43 +40,28 @@ ul ul {
   *vertical-align: auto;
 }
 .horizontal.slashes li {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
 }
 .horizontal.slashes li:after {
   content: '/';
-  padding-top: 0;
-  padding-right: 0.5em;
-  padding-bottom: 0;
-  padding-left: 0.5em;
+  padding: 0 0.5em;
 }
 .horizontal.slashes li.js-last:after {
   content: '';
 }
 .horizontal.pipes li {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
 }
 .horizontal.pipes li:after {
   content: '|';
-  padding-top: 0;
-  padding-right: 0.25em;
-  padding-bottom: 0;
-  padding-left: 0.5em;
+  padding: 0 0.25em 0 0.5em;
 }
 .horizontal.pipes li.js-last:after {
   content: '';
 }
 
 .vertical > li {
-  padding-top: 0.5em;
-  padding-right: 0;
-  padding-bottom: 0.5em;
-  padding-left: 0;
+  padding: 0.5em 0;
 }
 .vertical.lined > li {
   overflow: auto;
