@@ -5,7 +5,7 @@
 /* ==========================
 	  Reset
    ========================== */
-article, aside, figure, footer, header, hgroup, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
@@ -47,6 +47,20 @@ textarea {
   font-size: 1.6rem;
   line-height: 1.443;
   letter-spacing: .035em; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  vertical-align: baseline; }
+
+[hidden],
+template {
+  display: none; }
 
 .ie body[style] {
   font-size: 16px !important; }
@@ -903,6 +917,8 @@ a {
     color: #d31016; }
   a.muted, .muted a {
     color: #e6e6e6; }
+  a:active, a:hover {
+    outline: 0; }
 
 /* ==========================
 	  Headings
@@ -1019,9 +1035,6 @@ p,
   .p:only-child {
     margin: 0; }
 
-.b {
-  font-weight: 700; }
-
 .uppercase {
   text-transform: capitalize; }
 
@@ -1046,15 +1059,23 @@ abbr {
 address {
   font-style: normal; }
 
-sup {
-  vertical-align: text-top; }
+b,
+strong,
+.b {
+  font-weight: bold; }
 
-sub {
-  vertical-align: bottom; }
+dfn {
+  font-style: italic; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
 
 mark {
   padding: 0.25em;
-  background: #ffda21; }
+  background: #ffda21;
+  color: #454545; }
 
 /* ==========================
 	  Pre
@@ -1069,9 +1090,12 @@ pre {
   overflow: auto;
   word-wrap: break-word; }
 
+code,
 kbd,
+pre,
 samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-size: 1em;
   color: #3eb633; }
 
 .valid,
@@ -2102,10 +2126,6 @@ figcaption {
     Audio -- Version: 0.2.1 - Compiled: timestamp()
    ========================================================================== */
 audio {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
   max-width: 100%; }
   audio:not([controls]) {
     display: none; }
@@ -2114,10 +2134,6 @@ audio {
     Videos -- Version: 0.4.0.1 - Compiled: timestamp()
    ========================================================================== */
 video {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
   top: 0;
   left: 0;
   max-width: 100%;
@@ -2127,15 +2143,6 @@ video {
       height: auto; } }
   figure video {
     margin-bottom: 1em; }
-
-audio {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
-  max-width: 100%; }
-  audio:not([controls]) {
-    display: none; }
 
 /* ==========================================================================
     Tables -- Version: 0.4.1- Compiled: timestamp()
@@ -2169,6 +2176,9 @@ td {
 
 hr {
   margin: 1em 0;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
   border: 0;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #fff; }

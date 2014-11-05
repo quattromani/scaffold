@@ -9,7 +9,7 @@
 	  Reset
    ========================== */
 
-article, aside, figure, footer, header, hgroup, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -48,6 +48,19 @@ textarea {
   @include font-size($base-font-size);
   line-height: $base-line-height;
   letter-spacing: .035em;
+}
+
+audio,
+canvas,
+progress,
+video {
+  @include inline-block;
+  vertical-align: baseline;
+}
+
+[hidden],
+template {
+  display: none;
 }
 
 @if $support-legacy {

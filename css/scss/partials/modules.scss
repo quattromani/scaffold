@@ -18,6 +18,8 @@
 hr {
   @extend %clearfix !optional;
   @include margin($margin, 0);
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
   border: 0;
   border-top: 1px solid $text-light-grey;
   border-bottom: 1px solid $text-white;

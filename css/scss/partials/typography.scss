@@ -110,6 +110,11 @@ a {
   .muted & {
     color: $color-light-grey;
   }
+
+  &:active,
+  &:hover {
+    outline: 0;
+  }
 }
 
 /* ==========================
@@ -177,10 +182,6 @@ p,
   }
 }
 
-.b {
-  font-weight: 700;
-}
-
 .uppercase {
   text-transform: capitalize;
 }
@@ -211,17 +212,26 @@ address {
   font-style: normal;
 }
 
-sup {
-  vertical-align: text-top;
+b,
+strong,
+.b {
+  font-weight: bold;
 }
 
-sub {
-  vertical-align: bottom;
+dfn {
+  font-style: italic;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
 }
 
 mark {
   @include padding(.25em);
   background: $color-primary-yellow;
+  color: $text;
 }
 
 /* ==========================
@@ -236,9 +246,12 @@ pre {
   word-wrap: break-word;
 }
 
+code,
 kbd,
+pre,
 samp {
   font-family: $pre;
+  font-size: 1em;
   color: $color-primary-green;
 }
 

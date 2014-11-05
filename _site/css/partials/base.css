@@ -4,7 +4,7 @@
 /* ==========================
 	  Reset
    ========================== */
-article, aside, figure, footer, header, hgroup, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -46,6 +46,22 @@ textarea {
   font-size: 1.6rem;
   line-height: 1.443;
   letter-spacing: .035em;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  vertical-align: baseline;
+}
+
+[hidden],
+template {
+  display: none;
 }
 
 .ie body[style] {

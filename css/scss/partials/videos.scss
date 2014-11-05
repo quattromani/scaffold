@@ -6,7 +6,6 @@
    ========================================================================== */
 
 video {
-  @include inline-block();
   top: 0;
   left: 0;
   max-width: 100%;
@@ -20,14 +19,5 @@ video {
 
   figure & {
     margin-bottom: $margin;
-  }
-}
-
-audio {
-  @include inline-block();
-  max-width: 100%;
-
-  &:not([controls]) {
-    display: none;
   }
 }

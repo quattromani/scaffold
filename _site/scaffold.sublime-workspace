@@ -237,6 +237,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gradient",
+			"scss",
+			"ie9",
 			"mobile-",
 			"\";",
 			"@import ",
@@ -361,10 +364,7 @@
 			"transition",
 			"%",
 			"fontaw",
-			"progrsss",
-			"transform",
-			".3",
-			"q"
+			"progrsss"
 		],
 		"highlight": true,
 		"in_selection": false,
