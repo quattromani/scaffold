@@ -3,16 +3,17 @@
     Base -- Version: 0.2.1- Compiled: timestamp()
    ========================================================================== */
 /* ==========================
-	  Reset
+    Reset
    ========================== */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, figure, footer, header, hgroup, nav, section {
   display: block; }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   background: transparent;
+  list-style: none outside none;
   vertical-align: baseline; }
 
 html {
@@ -47,18 +48,7 @@ textarea {
   line-height: 1.443;
   letter-spacing: .035em; }
 
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
-  vertical-align: baseline; }
-
-[hidden],
-template {
+[hidden], template {
   display: none; }
 
 .ie body[style] {
@@ -1141,18 +1131,16 @@ ol {
     margin-bottom: 0; }
 
 ul {
-  margin: 0 0 0 1.5em;
+  margin: 0;
   padding: 0; }
-  ul li {
-    list-style: disc outside none; }
   ul ul {
     margin: 0; }
 
-.bare ~ ul {
+.bulleted ~ ul {
   margin-bottom: 0; }
-.bare li {
-  margin: 0;
-  list-style: outside none;
+.bulleted li {
+  list-style: outside disc;
+  margin-left: 1em;
   border-bottom: 0; }
 
 .horizontal li {
