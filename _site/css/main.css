@@ -1422,6 +1422,10 @@ button,
       .cta.mobile-full {
         margin-top: 1em; } }
 
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
 .cta {
   -webkit-box-shadow: inset 0 0 0 1px #ef272d;
   box-shadow: inset 0 0 0 1px #ef272d; }
@@ -1808,6 +1812,10 @@ label + .pill,
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
+legend {
+  padding: 0;
+  border: 0; }
+
 input,
 textarea,
 label,
@@ -1898,6 +1906,9 @@ datalist,
 input::-webkit-inner-spin-button {
   appearance: none;
   -webkit-appearance: none; }
+
+optgroup {
+  font-weight: 900; }
 
 .select {
   position: relative;

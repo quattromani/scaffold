@@ -217,6 +217,11 @@ button.btn-sm,
   }
 }
 
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
 .cta {
   box-shadow: inset 0 0 0 1px #ef272d;
 }

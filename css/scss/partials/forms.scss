@@ -5,6 +5,11 @@
     Forms -- Version: 0.4.0 - Compiled: #{timestamp()}
     ========================================================================== */
 
+    legend {
+      padding: 0;
+      border: 0;
+    }
+
     input,
     textarea,
     label,
@@ -94,6 +99,10 @@
     input::-webkit-inner-spin-button {
       appearance: none;
       -webkit-appearance: none;
+    }
+
+    optgroup {
+      font-weight: $font-weight-bold;
     }
 
     .select {

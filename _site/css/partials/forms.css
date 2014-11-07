@@ -1,6 +1,11 @@
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
+legend {
+  padding: 0;
+  border: 0;
+}
+
 input,
 textarea,
 label,
@@ -97,6 +102,10 @@ datalist,
 input::-webkit-inner-spin-button {
   appearance: none;
   -webkit-appearance: none;
+}
+
+optgroup {
+  font-weight: 900;
 }
 
 .select {

@@ -237,6 +237,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"legend",
+			"[disabled]",
+			"webki",
+			"bold",
+			"strong {",
+			"strong",
+			"[hidden]",
 			"gradient",
 			"scss",
 			"ie9",
@@ -357,14 +364,7 @@
 			"label",
 			"footer.c",
 			"font-s",
-			"progress",
-			"@include font-family",
-			"@include font-",
-			"bp",
-			"transition",
-			"%",
-			"fontaw",
-			"progrsss"
+			"progress"
 		],
 		"highlight": true,
 		"in_selection": false,
