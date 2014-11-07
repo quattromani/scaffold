@@ -8,12 +8,11 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   background: transparent;
-  list-style: none outside none;
   vertical-align: baseline; }
 
 html {
@@ -1142,16 +1141,18 @@ ol {
     margin-bottom: 0; }
 
 ul {
-  margin: 0;
+  margin: 0 0 0 1.5em;
   padding: 0; }
+  ul li {
+    list-style: disc outside none; }
   ul ul {
     margin: 0; }
 
-.bulleted ~ ul {
+.bare ~ ul {
   margin-bottom: 0; }
-.bulleted li {
-  list-style: outside disc;
-  margin-left: 1em;
+.bare li {
+  margin: 0;
+  list-style: outside none;
   border-bottom: 0; }
 
 .horizontal li {
@@ -2523,7 +2524,8 @@ hr.sandbox {
 .clear {
   clear: both; }
 
-.relative {
+/* Positioning */
+.place {
   position: relative; }
 
 .center {
@@ -2541,6 +2543,48 @@ hr.sandbox {
 .right {
   float: right;
   right: 0; }
+
+/* Margins */
+.margin {
+  margin: 1em; }
+  .margin.top.none {
+    margin-top: 0; }
+  .margin.top.quarter {
+    margin-top: 0.25em; }
+  .margin.top.half {
+    margin-top: 0.5em; }
+  .margin.right.none {
+    margin-right: 0; }
+  .margin.right.quarter {
+    margin-right: 0.25em; }
+  .margin.right.half {
+    margin-right: 0.5em; }
+  .margin.bottom.none {
+    margin-bottom: 0; }
+  .margin.bottom.quarter {
+    margin-bottom: 0.25em; }
+  .margin.bottom.half {
+    margin-bottom: 0.5em; }
+  .margin.left.none {
+    margin-left: 0; }
+  .margin.left.quarter {
+    margin-left: 0.25em; }
+  .margin.left.half {
+    margin-left: 0.5em; }
+
+/* Placement */
+.place.top {
+  top: 0; }
+  .place.top.right {
+    right: 0; }
+  .place.top.left {
+    left: 0; }
+.place.bottom {
+  bottom: 0; }
+  .place.bottom.right {
+    right: 0; }
+  .place.bottom.left {
+    left: 0; }
 
 .fs10 {
   font-size: 10px;

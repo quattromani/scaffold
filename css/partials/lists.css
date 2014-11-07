@@ -14,19 +14,22 @@ ol ol {
 }
 
 ul {
-  margin: 0;
+  margin: 0 0 0 1.5em;
   padding: 0;
+}
+ul li {
+  list-style: disc outside none;
 }
 ul ul {
   margin: 0;
 }
 
-.bulleted ~ ul {
+.bare ~ ul {
   margin-bottom: 0;
 }
-.bulleted li {
-  list-style: outside disc;
-  margin-left: 1em;
+.bare li {
+  margin: 0;
+  list-style: outside none;
   border-bottom: 0;
 }
 

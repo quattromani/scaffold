@@ -9,8 +9,21 @@
   clear: both;
 }
 
-.relative {
+/* Positioning */
+%relative {
   position: relative;
+}
+
+%absolute {
+  position: absolute;
+}
+
+%fixed {
+  position: fixed;
+}
+
+%static {
+  position: static;
 }
 
 .center {
@@ -25,6 +38,96 @@
 .right {
   float: right;
   right: 0;
+}
+
+/* Margins */
+.margin {
+  margin: $margin;
+
+  &.top {
+    &.none {
+      margin-top: 0;
+    }
+
+    &.quarter {
+      margin-top: $margin / 4;
+    }
+
+    &.half {
+      margin-top: $margin / 2;
+    }
+  }
+
+  &.right {
+    &.none {
+      margin-right: 0;
+    }
+
+    &.quarter {
+      margin-right: $margin / 4;
+    }
+
+    &.half {
+      margin-right: $margin / 2;
+    }
+  }
+
+  &.bottom {
+    &.none {
+      margin-bottom: 0;
+    }
+
+    &.quarter {
+      margin-bottom: $margin / 4;
+    }
+
+    &.half {
+      margin-bottom: $margin / 2;
+    }
+  }
+
+  &.left {
+    &.none {
+      margin-left: 0;
+    }
+
+    &.quarter {
+      margin-left: $margin / 4;
+    }
+
+    &.half {
+      margin-left: $margin / 2;
+    }
+  }
+}
+
+/* Placement */
+.place {
+  @extend %relative;
+
+  &.top {
+    top: 0;
+
+    &.right {
+      right: 0;
+    }
+
+    &.left {
+      left: 0;
+    }
+  }
+
+  &.bottom {
+    bottom: 0;
+
+    &.right {
+      right: 0;
+    }
+
+    &.left {
+      left: 0;
+    }
+  }
 }
 
 // Font Size Helpers

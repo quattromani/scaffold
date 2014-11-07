@@ -21,8 +21,12 @@ ol {
 }
 
 ul {
-  @include margin;
+  @include margin(0, 0, 0, ($margin * 1.5));
   @include padding;
+
+  li {
+    list-style: disc outside none;
+  }
 
   ul {
     @include margin;
@@ -30,14 +34,14 @@ ul {
 }
 
 // Bulleted List Items
-.bulleted {
+.bare {
   ~ ul {
     margin-bottom: 0;
   }
 
   li {
-    list-style: outside disc;
-    margin-left: $margin;
+    @include margin;
+    list-style: outside none;
     border-bottom: 0;
   }
 }

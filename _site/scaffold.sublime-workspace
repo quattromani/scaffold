@@ -89,6 +89,12 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
+		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
+		"/Users/Q/Sites/scaffold/css/partials/helpers.css",
+		"/Users/Q/Sites/scaffold/_site/css/partials/helpers.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/buttons.scss",
 		"/Users/Q/Sites/scaffold/js/tooltips.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
@@ -103,15 +109,12 @@
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
 		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
-		"/Users/Q/Sites/scaffold/_site/css/partials/helpers.css",
-		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/main.min.css",
 		"/Users/Q/Sites/scaffold/js/main.js",
 		"/Users/Q/Sites/scaffold/js/sandbox.js",
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/patterns/tooltips/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/index.html",
 		"/Users/Q/Sites/scaffold/_includes/banner.html",
@@ -192,7 +195,6 @@
 		"/Users/Q/Sites/scaffold/_includes/prototype.html",
 		"/Users/Q/Sites/scaffold/css/scss/theme/_buttons-theme.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/colors.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/index.html",
 		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/css/compliance-card.css",
 		"/Users/Q/Sites/scaffold/web-components/elements/compliance-card/compliance-card.html",
@@ -203,7 +205,6 @@
 		"/Users/Q/Sites/scaffold/_includes/foot.html",
 		"/Users/Q/Sites/scaffold/404.html",
 		"/Users/Q/Sites/scaffold/humans.txt",
-		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/audio.scss",
@@ -215,8 +216,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/css/partials/message-box.css",
-		"/Users/Q/Sites/scaffold/css/partials/base.css"
+		"/Users/Q/Sites/scaffold/css/partials/message-box.css"
 	],
 	"find":
 	{
@@ -237,6 +237,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bulleted",
+			".relative",
+			".fixed {",
+			".fixed",
+			".relative",
 			"legend",
 			"[disabled]",
 			"webki",
@@ -359,12 +364,7 @@
 			"transf",
 			"yellow",
 			"holder",
-			"disab",
-			"transf",
-			"label",
-			"footer.c",
-			"font-s",
-			"progress"
+			"disab"
 		],
 		"highlight": true,
 		"in_selection": false,
