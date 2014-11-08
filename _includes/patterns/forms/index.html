@@ -8,254 +8,254 @@
 
 <div class="box-column clear">
 
-    <p>* Indicates a required field</p>
+  <p>* Indicates a required field</p>
 
-    <form action="/" method="post" novalidate>
-        <fieldset>
-            <h3>Contact Information</h3>
-            <!-- First Name / Last Name -->
-            <div class="row clearfix">
-                <div class="column half">
-                    <div class="formitem first-name">
-                        <label class="required" for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="fname" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
-                        <span title="Please enter your First Name"></span>
-                    </div>
-                </div>
+  <form action="/" method="post" novalidate>
+    <fieldset>
+      <h3>Contact Information</h3>
+      <!-- First Name / Last Name -->
+      <div class="row clearfix">
+        <div class="column half">
+          <div class="formitem first-name">
+            <label class="required" for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="fname" pattern="[a-zA-Z]+" x-autocompletetype="given-name" tabindex="1" required>
+            <span title="Please enter your First Name"></span>
+          </div>
+        </div>
 
-                <div class="column half">
-                    <div class="formitem last-name">
-                        <label class="required" for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="3" required>
-                        <span title="Please enter your Last Name"></span>
-                    </div>
-                </div>
+        <div class="column half">
+          <div class="formitem last-name">
+            <label class="required" for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="lname" x-autocompletetype="surname" tabindex="3" required>
+            <span title="Please enter your Last Name"></span>
+          </div>
+        </div>
+      </div>
+      <!-- .First Name / Last Name -->
+
+      <!-- Service Address -->
+      <div class="row clearfix">
+        <div class="column half">
+
+          <div class="formitem address">
+            <label for="address" class="required">Service Address:</label>
+            <input type="text" id="address" name="address" pattern="[a-zA-Z\d\s\-\,\#\.\+]+" x-autocompletetype="street-address" tabindex="4" required>
+            <span title="Please enter your Service Address"></span>
+          </div>
+
+        </div>
+        <div class="column half">
+
+          <div class="formitem address2">
+            <label for="address2">Apt., Suite, or Floor:</label>
+            <input type="text" id="address2" name="address2" x-autocompletetype="address-line2" tabindex="5">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row clearfix">
+        <div class="column half">
+          <div class="formitem city">
+            <label for="city" class="required">City:</label>
+            <input type="text" id="city" name="city" x-autocompletetype="city" tabindex="6" required>
+            <span title="Please enter your City"></span>
+          </div>
+        </div>
+        <div class="column half">
+
+          <div class="column half">
+
+            <div class="formitem state">
+              <label for="state" class="required">State:</label>
+              <div class="select">
+                <select name="state" id="state" tabindex="7" x-autocompletetype="state" required>
+                  <option value="">Please Select a State</option>
+                  <option value="AL">Alabama</option>
+                  <option value="AK">Alaska</option>
+                  <option value="AZ">Arizona</option>
+                  <option value="AR">Arkansas</option>
+                  <option value="CA">California</option>
+                  <option value="CO" selected="selected">Colorado</option>
+                  <option value="CT">Connecticut</option>
+                  <option value="DE">Delaware</option>
+                  <option value="DC">District Of Columbia</option>
+                  <option value="FL">Florida</option>
+                  <option value="GA">Georgia</option>
+                  <option value="HI">Hawaii</option>
+                  <option value="ID">Idaho</option>
+                  <option value="IL">Illinois</option>
+                  <option value="IN">Indiana</option>
+                  <option value="IA">Iowa</option>
+                  <option value="KS">Kansas</option>
+                  <option value="KY">Kentucky</option>
+                  <option value="LA">Louisiana</option>
+                  <option value="ME">Maine</option>
+                  <option value="MD">Maryland</option>
+                  <option value="MA">Massachusetts</option>
+                  <option value="MI">Michigan</option>
+                  <option value="MN">Minnesota</option>
+                  <option value="MS">Mississippi</option>
+                  <option value="MO">Missouri</option>
+                  <option value="MT">Montana</option>
+                  <option value="NE">Nebraska</option>
+                  <option value="NV">Nevada</option>
+                  <option value="NH">New Hampshire</option>
+                  <option value="NJ">New Jersey</option>
+                  <option value="NM">New Mexico</option>
+                  <option value="NY">New York</option>
+                  <option value="NC">North Carolina</option>
+                  <option value="ND">North Dakota</option>
+                  <option value="OH">Ohio</option>
+                  <option value="OK">Oklahoma</option>
+                  <option value="OR">Oregon</option>
+                  <option value="PA">Pennsylvania</option>
+                  <option value="RI">Rhode Island</option>
+                  <option value="SC">South Carolina</option>
+                  <option value="SD">South Dakota</option>
+                  <option value="TN">Tennessee</option>
+                  <option value="TX">Texas</option>
+                  <option value="UT">Utah</option>
+                  <option value="VT">Vermont</option>
+                  <option value="VA">Virginia</option>
+                  <option value="WA">Washington</option>
+                  <option value="WV">West Virginia</option>
+                  <option value="WI">Wisconsin</option>
+                  <option value="WY">Wyoming</option>
+                </select>
+              </div>
             </div>
-            <!-- .First Name / Last Name -->
 
-            <!-- Service Address -->
-            <div class="row clearfix">
-                <div class="column half">
+          </div>
+          <div class="column half">
 
-                    <div class="formitem address">
-                        <label for="address" class="required">Service Address:</label>
-                        <input type="text" id="address" name="address" pattern="[a-zA-Z\d\s\-\,\#\.\+]+" autocomplete="street-address" tabindex="4" required>
-                        <span title="Please enter your Service Address"></span>
-                    </div>
-
-                </div>
-                <div class="column half">
-
-                    <div class="formitem address2">
-                        <label for="address2">Apt., Suite, or Floor:</label>
-                        <input type="text" id="address2" name="address2" autocomplete="address-line2" tabindex="5">
-                    </div>
-
-                </div>
+            <div class="formitem zip">
+              <label for="zip" class="required">ZIP Code:</label>
+              <input type="text" id="zip" name="zip" pattern="^\d{5,6}(?:[-\s]\d{4})?$" x-autocompletetype="postal-code" tabindex="8" required>
+              <span title="Please enter your ZIP"></span>
             </div>
 
-            <div class="row clearfix">
-                <div class="column half">
-                    <div class="formitem city">
-                        <label for="city" class="required">City:</label>
-                        <input type="text" id="city" name="city" autocomplete="locality" tabindex="6" required>
-                        <span title="Please enter your City"></span>
-                    </div>
-                </div>
-                <div class="column half">
+          </div>
 
-                    <div class="column half">
+        </div>
+      </div>
+      <!-- .Service Address -->
 
-                        <div class="formitem state">
-                            <label for="state" class="required">State:</label>
-                            <div class="select">
-                                <select name="state" id="state" tabindex="7" required>
-                                    <option value="">Please Select a State</option>
-                                    <option value="AL">Alabama</option>
-                                    <option value="AK">Alaska</option>
-                                    <option value="AZ">Arizona</option>
-                                    <option value="AR">Arkansas</option>
-                                    <option value="CA">California</option>
-                                    <option value="CO" selected="selected">Colorado</option>
-                                    <option value="CT">Connecticut</option>
-                                    <option value="DE">Delaware</option>
-                                    <option value="DC">District Of Columbia</option>
-                                    <option value="FL">Florida</option>
-                                    <option value="GA">Georgia</option>
-                                    <option value="HI">Hawaii</option>
-                                    <option value="ID">Idaho</option>
-                                    <option value="IL">Illinois</option>
-                                    <option value="IN">Indiana</option>
-                                    <option value="IA">Iowa</option>
-                                    <option value="KS">Kansas</option>
-                                    <option value="KY">Kentucky</option>
-                                    <option value="LA">Louisiana</option>
-                                    <option value="ME">Maine</option>
-                                    <option value="MD">Maryland</option>
-                                    <option value="MA">Massachusetts</option>
-                                    <option value="MI">Michigan</option>
-                                    <option value="MN">Minnesota</option>
-                                    <option value="MS">Mississippi</option>
-                                    <option value="MO">Missouri</option>
-                                    <option value="MT">Montana</option>
-                                    <option value="NE">Nebraska</option>
-                                    <option value="NV">Nevada</option>
-                                    <option value="NH">New Hampshire</option>
-                                    <option value="NJ">New Jersey</option>
-                                    <option value="NM">New Mexico</option>
-                                    <option value="NY">New York</option>
-                                    <option value="NC">North Carolina</option>
-                                    <option value="ND">North Dakota</option>
-                                    <option value="OH">Ohio</option>
-                                    <option value="OK">Oklahoma</option>
-                                    <option value="OR">Oregon</option>
-                                    <option value="PA">Pennsylvania</option>
-                                    <option value="RI">Rhode Island</option>
-                                    <option value="SC">South Carolina</option>
-                                    <option value="SD">South Dakota</option>
-                                    <option value="TN">Tennessee</option>
-                                    <option value="TX">Texas</option>
-                                    <option value="UT">Utah</option>
-                                    <option value="VT">Vermont</option>
-                                    <option value="VA">Virginia</option>
-                                    <option value="WA">Washington</option>
-                                    <option value="WV">West Virginia</option>
-                                    <option value="WI">Wisconsin</option>
-                                    <option value="WY">Wyoming</option>
-                                </select>
-                            </div>
-                        </div>
+      <!-- Phone / Alt Phone -->
+      <div class="row clearfix">
+        <div class="column half">
+          <div class="formitem phone-number">
+            <label for="phone-number" class="required">Phone Number</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" x-autocompletetype="phone-full" tabindex="9" required>
+            <span title="Gonna need dem digits"></span>
+          </div>
 
-                    </div>
-                    <div class="column half">
+        </div>
 
-                        <div class="formitem zip">
-                            <label for="zip" class="required">ZIP Code:</label>
-                            <input type="text" id="zip" name="zip" pattern="^\d{5,6}(?:[-\s]\d{4})?$" autocomplete="postal-code" tabindex="8" required>
-                            <span title="Please enter your ZIP"></span>
-                        </div>
+        <div class="column half">
+          <div class="formitem phone-number">
+            <label for="phone-number" class="">Alternate Phone Number</label>
+            <input type="tel" id="phone-number-alt" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="tel" x-autocompletetype="phone-full" tabindex="10">
+          </div>
 
-                    </div>
+        </div>
+      </div>
+      <!-- .Phone / Alt Phone -->
 
-                </div>
-            </div>
-            <!-- .Service Address -->
+      <!-- Email Address -->
+      <div class="row clearfix">
+        <div class="column half">
 
-            <!-- Phone / Alt Phone -->
-            <div class="row clearfix">
-                <div class="column half">
-                    <div class="formitem phone-number">
-                        <label for="phone-number" class="required">Phone Number</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="9" required>
-                        <span title="Gonna need dem digits"></span>
-                    </div>
+          <div class="formitem email">
+            <label for="email" class="required">Email Address:</label>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" x-autocompletetype="email" placeholder="milk@cereal.com" tabindex="11" required>
+            <span title="Please enter your Email Address"></span>
+          </div>
 
-                </div>
+        </div>
+        <div class="column half">
 
-                <div class="column half">
-                    <div class="formitem phone-number">
-                        <label for="phone-number" class="">Alternate Phone Number</label>
-                        <input type="tel" id="phone-number-alt" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="tel" autocomplete="tel" tabindex="10">
-                    </div>
+          <div class="formitem email">
+            <label for="url" class="required">Website:</label>
+            <input class="form-control" type="url" name="url" pattern="^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$" placeholder="http://website.com" tabindex="12">
+            <span title="Please enter your website address"></span>
+          </div>
 
-                </div>
-            </div>
-            <!-- .Phone / Alt Phone -->
+        </div>
+      </div>
+      <!-- .Email Address -->
 
-            <!-- Email Address -->
-            <div class="row clearfix">
-                <div class="column half">
+      <!-- Date Input -->
+      <div class="row clearfix">
+        <div class="half">
+          <div class="formitem">
+            <label for="startdate">Pick a Start Date</label>
+            <input id="startdate" type="date">
+          </div>
+        </div>
+        <div class="half">
+          <div class="formitem">
+            <label for="enddate">Pick an End Date</label>
+            <input id="enddate" type="date">
+          </div>
+        </div>
+      </div>
+      <!-- ./ Date Input -->
 
-                    <div class="formitem email">
-                        <label for="email" class="required">Email Address:</label>
-                        <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="11" required>
-                        <span title="Please enter your Email Address"></span>
-                    </div>
+      <!-- Textarea -->
+      <div class="row clearfix">
+        <div class="column half">
 
-                </div>
-                <div class="column half">
+          <div class="formitem textarea">
+            <label for="textarea">Leave a really complimentary comment about us here:</label>
+            <textarea id="textarea" tabindex="13"></textarea>
+          </div>
 
-                    <div class="formitem email">
-                        <label for="url" class="required">Website:</label>
-                        <input class="form-control" type="url" name="url" pattern="^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$" placeholder="http://website.com" tabindex="12">
-                        <span title="Please enter your website address"></span>
-                    </div>
+        </div>
+        <div class="half">
+          <label for="file">Choose a file:</label>
+          <input id="file" type="file">
+        </div>
+      </div>
+      <!-- .Textarea -->
+    </fieldset>
 
-                </div>
-            </div>
-            <!-- .Email Address -->
+    <hr>
 
-            <!-- Date Input -->
-            <div class="row clearfix">
-                <div class="half">
-                    <div class="formitem">
-                        <label for="startdate">Pick a Start Date</label>
-                        <input id="startdate" type="date">
-                    </div>
-                </div>
-                <div class="half">
-                    <div class="formitem">
-                        <label for="enddate">Pick an End Date</label>
-                        <input id="enddate" type="date">
-                    </div>
-                </div>
-            </div>
-            <!-- ./ Date Input -->
+    <fieldset>
+      <h3>Checkbox &amp; Radio Inputs</h3>
 
-            <!-- Textarea -->
-            <div class="row clearfix">
-                <div class="column half">
+      <!-- Radio / Select -->
+      <div class="row clearfix">
+        <div class="column full">
 
-                    <div class="formitem textarea">
-                        <label for="textarea">Leave a really complimentary comment about us here:</label>
-                        <textarea id="textarea" tabindex="13"></textarea>
-                    </div>
+          <ul>
+            <li>
+              <div class="formitem">
+                <input type="checkbox" class="switch" id="switch-this" name="switch-this" checked>
+                <label for="switch-this">I choose this</label>
+              </div>
+              <div class="formitem">
+                <input type="checkbox" class="switch" id="switch-that" name="switch-that">
+                <label for="switch-that">I choose that</label>
+              </div>
+            </li>
+            <li>
+              <div class="formitem">
+                <input type="radio" class="radio" id="radio-this" name="sex" value="male">
+                <label for="radio-this">Male</label>
+              </div>
+              <div class="formitem">
+                <input type="radio" class="radio" id="radio-that" name="sex" value="female">
+                <label for="radio-that">Female</label>
+              </div>
+            </li>
+          </ul>
 
-                </div>
-                <div class="half">
-                    <label for="file">Choose a file:</label>
-                    <input id="file" type="file">
-                </div>
-            </div>
-            <!-- .Textarea -->
-        </fieldset>
-
-        <hr>
-
-        <fieldset>
-            <h3>Checkbox &amp; Radio Inputs</h3>
-
-            <!-- Radio / Select -->
-            <div class="row clearfix">
-                <div class="column full">
-
-                    <ul>
-                        <li>
-                            <div class="formitem">
-                                <input type="checkbox" class="switch" id="switch-this" name="switch-this" checked>
-                                <label for="switch-this">I choose this</label>
-                            </div>
-                            <div class="formitem">
-                                <input type="checkbox" class="switch" id="switch-that" name="switch-that">
-                                <label for="switch-that">I choose that</label>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="formitem">
-                                <input type="radio" class="radio" id="radio-this" name="sex" value="male">
-                                <label for="radio-this">Male</label>
-                            </div>
-                            <div class="formitem">
-                                <input type="radio" class="radio" id="radio-that" name="sex" value="female">
-                                <label for="radio-that">Female</label>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <!-- .Radio / Select -->
-        </fieldset>
+        </div>
+      </div>
+      <!-- .Radio / Select -->
+    </fieldset>
 
 {% highlight html %}
 <input type="checkbox" class="switch" id="switch-this" name="switch-this" checked>
@@ -271,68 +271,68 @@
 <label for="radio-that">Female</label>
 {% endhighlight %}
 
-        <hr>
+    <hr>
 
-        <fieldset>
-            <div class="row clearfix">
-                <div class="column full">
-                    <h3>Datalist Field</h3>
+    <fieldset>
+      <div class="row clearfix">
+        <div class="column full">
+          <h3>Datalist Field</h3>
+          <div class="formitem">
+            <label for="browsers">Internet Browsers</label>
+            <input type="text" list="browsers" name="browsers" placeholder="Type your favorite browser" tabindex="17" >
+            <datalist id="browsers">
+              <option value="Internet Explorer" label="Ugh!">
+                <option value="Firefox" label="Meh">
+                  <option value="Chrome" label="Yay!">
+                    <option value="Opera" label="??">
+                      <option value="Safari" label="huh?">
+                      </datalist>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+
+              <hr>
+
+              <fieldset>
+                <div class="row">
+                  <div class="full">
+                    <h3>Search Field</h3>
                     <div class="formitem">
-                        <label for="browsers">Internet Browsers</label>
-                        <input type="text" list="browsers" name="browsers" placeholder="Type your favorite browser" tabindex="17" >
-                        <datalist id="browsers">
-                            <option value="Internet Explorer" label="Ugh!">
-                                <option value="Firefox" label="Meh">
-                                    <option value="Chrome" label="Yay!">
-                                        <option value="Opera" label="??">
-                                            <option value="Safari" label="huh?">
-                                            </datalist>
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
+                      <input type="search" placeholder="search events by keyword">
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
 
-                            <hr>
+              <hr>
 
-                            <fieldset>
-                                <div class="row">
-                                    <div class="full">
-                                        <h3>Search Field</h3>
-                                        <div class="formitem">
-                                            <input type="search" placeholder="search events by keyword">
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
+              <div id="fillit">
+                If you see this, leave this form field blank.
+                <input id="improve" type="text" name="confirm" value="">
+              </div>
 
-                            <hr>
+              <fieldset>
+                <div class="formitem">
+                  <button class="btn btn-primary" type="submit" name="submit" value="submit">
+                    <span>Submit</span>
+                  </button>
 
-                            <div id="fillit">
-                                If you see this, leave this form field blank.
-                                <input id="improve" type="text" name="confirm" value="">
-                            </div>
+                  <button type="reset" name="reset" value="reset">
+                    <span>Clear</span>
+                  </button>
+                </div>
+              </fieldset>
 
-                            <fieldset>
-                                <div class="formitem">
-                                    <button class="btn btn-primary" type="submit" name="submit" value="submit">
-                                        <span>Submit</span>
-                                    </button>
-
-                                    <button type="reset" name="reset" value="reset">
-                                        <span>Clear</span>
-                                    </button>
-                                </div>
-                            </fieldset>
-
-                        </form>
+            </form>
 
 {% highlight html %}
 <fieldset>
-    <div class="formitem">
-        <label for="generic" class="visually-hidden">Generic</label>
-        <input type="text" id="" class="" name="" value="" placeholder="Generic" tabindex="21" required>
-    </div>
+  <div class="formitem">
+    <label for="generic" class="visually-hidden">Generic</label>
+    <input type="text" id="" class="" name="" value="" placeholder="Generic" tabindex="21" required>
+  </div>
 </fieldset>
 {% endhighlight %}
 
-                </div>
+          </div>

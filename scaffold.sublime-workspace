@@ -89,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
@@ -172,7 +173,6 @@
 		"/Users/Q/Sites/scaffold/styleguide/typography/inline_text/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/icons/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/headings/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/modals/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/progress.scss",
