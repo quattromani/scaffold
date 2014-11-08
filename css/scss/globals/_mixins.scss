@@ -31,6 +31,18 @@
   padding: $top $right $bottom $left;
 }
 
+// Calc
+@mixin calc($prop, $val, $fallback: null) {
+  // IE8? sorry
+  @if $support-legacy {
+    #{$prop}: $fallback;
+  }
+  @each $pre in -webkit-, -moz- {
+    #{$prop}: $pre + calc(#{$val});
+  }
+  #{$prop}: calc(#{$val});
+}
+
 // Rem Mixin
 @function strip-unit($num) {
   @return $num / ($num * 0 + 1);
