@@ -1950,7 +1950,7 @@ optgroup {
 .required:after {
   content: '*'; }
 
-#fillit {
+.fillit {
   display: none; }
 
 input[type="file"]::-webkit-file-upload-button {

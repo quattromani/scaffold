@@ -89,6 +89,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/sandbox/counters/index.html",
+		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
@@ -214,9 +216,7 @@
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/layout.scss",
-		"/Users/Q/Sites/scaffold/css/partials/message-box.css"
+		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss"
 	],
 	"find":
 	{
@@ -237,6 +237,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"high",
+			"autocomplete=\"",
 			"bulleted",
 			".relative",
 			".fixed {",
@@ -362,9 +364,7 @@
 			"300",
 			"select",
 			"transf",
-			"yellow",
-			"holder",
-			"disab"
+			"yellow"
 		],
 		"highlight": true,
 		"in_selection": false,
