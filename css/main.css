@@ -1216,7 +1216,7 @@ details {
 
 /* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .btn,
 .button,
 button,
@@ -1445,6 +1445,23 @@ html input[disabled] {
 .ie button {
   overflow: visible;
   width: auto; }
+
+/* Button Bar */
+.button-bar {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+  white-space: nowrap; }
+  .button-bar .btn {
+    border-radius: 0; }
+  .button-bar .button-bar-item {
+    display: table-cell;
+    width: auto;
+    border-left: 1px solid #e1e1e1; }
+  .button-bar .button-bar-item:first-of-type {
+    border-left: none; }
 
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()

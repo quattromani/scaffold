@@ -3,168 +3,168 @@
 
 /* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.btn,
-.button,
-button,
-.cta {
-  @include inline-block();
-  min-width: 3em;
-  @include margin;
-  @include padding(.375em, $padding);
-  @include border-radius;
-  border: 0;
-  background: none;
-  @include font-size($base-font-size);
-  font-family: $heading-font-alt;
-  font-weight: 700;
-  text-align: center;
-  color: $link;
-  cursor: pointer;
+    .btn,
+    .button,
+    button,
+    .cta {
+      @include inline-block();
+      min-width: 3em;
+      @include margin;
+      @include padding(.375em, $padding);
+      @include border-radius;
+      border: 0;
+      background: none;
+      @include font-size($base-font-size);
+      font-family: $heading-font-alt;
+      font-weight: 700;
+      text-align: center;
+      color: $link;
+      cursor: pointer;
 
-  &:hover {
-    background: darken($color-off-white, 5%);
-  }
+      &:hover {
+        background: darken($color-off-white, 5%);
+      }
 
-  &:focus {
-    background: darken($color-off-white, 20%);
-    background-image: 0;
-    outline: none;
-  }
+      &:focus {
+        background: darken($color-off-white, 20%);
+        background-image: 0;
+        outline: none;
+      }
 
-  &.btn-primary,
-  &.button-primary {
-    background: $color-button-primary;
-    color: $color-white;
+      &.btn-primary,
+      &.button-primary {
+        background: $color-button-primary;
+        color: $color-white;
 
-    &:hover {
-      background: $color-button-primary-hover;
-    }
-  }
+        &:hover {
+          background: $color-button-primary-hover;
+        }
+      }
 
-  &.btn-error {
-    background: $color-primary-red;
-    color: $color-white;
+      &.btn-error {
+        background: $color-primary-red;
+        color: $color-white;
 
-    &:hover {
-      background: lighten($color-primary-red, 25%);
-    }
-  }
+        &:hover {
+          background: lighten($color-primary-red, 25%);
+        }
+      }
 
-  &.btn-success {
-    background: $color-secondary-green;
-    color: $color-white;
+      &.btn-success {
+        background: $color-secondary-green;
+        color: $color-white;
 
-    &:hover {
-      background: $color-primary-green;
-    }
-  }
+        &:hover {
+          background: $color-primary-green;
+        }
+      }
 
-  &.btn-info {
-    background: $color-primary-blue;
-    color: $color-white;
+      &.btn-info {
+        background: $color-primary-blue;
+        color: $color-white;
 
-    &:hover {
-      background: lighten($color-primary-blue, 20%);
-    }
-  }
+        &:hover {
+          background: lighten($color-primary-blue, 20%);
+        }
+      }
 
-  &.btn-black {
-    background: $color-black;
-    color: $color-white;
+      &.btn-black {
+        background: $color-black;
+        color: $color-white;
 
-    &:hover {
-      background: $color-grey;
-    }
-  }
+        &:hover {
+          background: $color-grey;
+        }
+      }
 
-  &:disabled,
-  &.js-disabled,
-  &.disabled {
-    cursor: default;
-    background: $color-light-grey;
-    color: $text-grey;
-    pointer-events: none;
+      &:disabled,
+      &.js-disabled,
+      &.disabled {
+        cursor: default;
+        background: $color-light-grey;
+        color: $text-grey;
+        pointer-events: none;
 
-    &:hover,
-    &:active {
-      background: $color-light-grey;
-      color: $text-grey;
-    }
-  }
+        &:hover,
+        &:active {
+          background: $color-light-grey;
+          color: $text-grey;
+        }
+      }
 
-  &.block {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-
-  &.btn-xl {
-    @include padding(.75em, ($padding * 2));
-  }
-
-  &.btn-lg {
-    @include padding(.5em, ($padding * 1.5));
-  }
-
-  &.btn-sm {
-    min-width: 0;
-    @include padding(($padding / 6), ($padding / 1.5));
-  }
-
-  @media (max-width: $bp-small) {
-    &.mobile-full {
-      display: block;
-      width: 100%;
-
-      a {
+      &.block {
         display: block;
+        width: 100%;
         text-align: center;
       }
 
-      & + & {
-        margin-top: $margin;
+      &.btn-xl {
+        @include padding(.75em, ($padding * 2));
+      }
+
+      &.btn-lg {
+        @include padding(.5em, ($padding * 1.5));
+      }
+
+      &.btn-sm {
+        min-width: 0;
+        @include padding(($padding / 6), ($padding / 1.5));
+      }
+
+      @media (max-width: $bp-small) {
+        &.mobile-full {
+          display: block;
+          width: 100%;
+
+          a {
+            display: block;
+            text-align: center;
+          }
+
+          & + & {
+            margin-top: $margin;
+          }
+        }
+
       }
     }
 
-  }
-}
-
-button,
-html input {
-  &[disabled] {
-    cursor: default;
-  }
-}
-
-.cta {
-  @include box-shadow(inset 0 0 0 1px $color-primary-red);
-
-  &:hover {
-    background: none;
-    @include box-shadow(inset 0 0 0 1px $color-secondary-red);
-  }
-}
-
-@-webkit-keyframes rotation {
-  from { -webkit-transform: rotate(0deg); }
-  to { -webkit-transform: rotate(359deg); }
-}
-
-.progress {
-  &:active,
-  &.js-active {
-    i:before {
-      display: inline-block;
-      animation: rotation 1.5s infinite linear;
+    button,
+    html input {
+      &[disabled] {
+        cursor: default;
+      }
     }
-  }
-}
 
-/* Firefox */
+    .cta {
+      @include box-shadow(inset 0 0 0 1px $color-primary-red);
 
-@-moz-document url-prefix() {
+      &:hover {
+        background: none;
+        @include box-shadow(inset 0 0 0 1px $color-secondary-red);
+      }
+    }
+
+    @-webkit-keyframes rotation {
+      from { -webkit-transform: rotate(0deg); }
+      to { -webkit-transform: rotate(359deg); }
+    }
+
+    .progress {
+      &:active,
+      &.js-active {
+        i:before {
+          display: inline-block;
+          animation: rotation 1.5s infinite linear;
+        }
+      }
+    }
+
+    /* Firefox */
+
+    @-moz-document url-prefix() {
   // Remove button padding in FF
   button::-moz-focus-inner {
     @include padding;
@@ -187,3 +187,27 @@ html input {
   overflow: visible;
   width: auto;
 }
+
+/* Button Bar */
+.button-bar {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+  white-space: nowrap;
+
+  .btn {
+    border-radius: 0;
+  }
+
+  .button-bar-item {
+    display: table-cell;
+    width: auto;
+    border-left: 1px solid #e1e1e1;
+
+    &:first-of-type {
+    border-left: none;
+  }
+}
+
