@@ -89,8 +89,9 @@
 	},
 	"file_history":
 	[
-		"/Users/Q/Sites/scaffold/sandbox/counters/index.html",
+		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
+		"/Users/Q/Sites/scaffold/sandbox/counters/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
@@ -215,8 +216,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/pills.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/pills/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/accessibility.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/drop.scss"
+		"/Users/Q/Sites/scaffold/css/scss/partials/carousel.scss"
 	],
 	"find":
 	{
@@ -237,6 +237,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#fillit",
+			"fillit",
 			"high",
 			"autocomplete=\"",
 			"bulleted",
@@ -362,9 +364,7 @@
 			"00",
 			"330",
 			"300",
-			"select",
-			"transf",
-			"yellow"
+			"select"
 		],
 		"highlight": true,
 		"in_selection": false,

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Button Bar
+---
+
+<style>
+  .button-bar {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    white-space: nowrap;
+  }
+  .btn {
+    border-radius: 0;
+  }
+  .button-bar-item {
+    display: table-cell;
+    width: auto;
+    border-left: 1px solid #e1e1e1;
+  }
+  .button-bar-item:first-of-type {
+    border-left: none;
+  }
+</style>
+
+<div class="button-bar">
+  <button class="btn button-bar-item">
+    One
+  </button>
+  <button class="btn button-bar-item">
+    Two
+  </button>
+  <button class="btn button-bar-item">
+    Three
+  </button>
+</div>
