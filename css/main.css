@@ -1460,8 +1460,8 @@ html input[disabled] {
     display: table-cell;
     width: auto;
     border-left: 1px solid #e1e1e1; }
-  .button-bar .button-bar-item:first-of-type {
-    border-left: none; }
+    .button-bar .button-bar-item:first-of-type {
+      border-left: none; }
 
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
