@@ -553,17 +553,29 @@ section:only-child,
     Multi Column
    ========================== */
 [class*='two_column_'] {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
   column-count: 2;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
   column-gap: 2em;
 }
 
 [class*='three_column_'] {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
   column-count: 3;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
   column-gap: 2em;
 }
 
 [class*='four_column_'] {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
   column-count: 4;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
   column-gap: 2em;
 }
 
