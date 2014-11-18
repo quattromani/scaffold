@@ -241,6 +241,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sup",
 			"#fillit",
 			"fillit",
 			"high",
@@ -367,8 +368,7 @@
 			"g/200",
 			"00",
 			"330",
-			"300",
-			"select"
+			"300"
 		],
 		"highlight": true,
 		"in_selection": false,

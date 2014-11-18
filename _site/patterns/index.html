@@ -57,7 +57,7 @@
 <hr>
 
 
-    <p>Version: 0.2.5 -- Updated: 2014-11-15 09:22:33 -0700</p>
+    <p>Version: 0.2.5 -- Updated: 2014-11-17 20:39:33 -0700</p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->
@@ -939,6 +939,118 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
 &lt;span class=&quot;pill-success&quot;&gt;7&lt;/span&gt;
 
 &lt;label for=&quot;&quot;&gt;You purchased this item &lt;span class=&quot;pill-success&quot;&gt;23&lt;/span&gt; times&lt;/label&gt;</code></pre></div>
+</div>
+
+<span id="tabs-anchor" class="h2 jumpTo-anchor">Tabs</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="tabs">Isolate</a>
+</div>
+
+<p></p>
+
+<div class="box-column clear">
+
+    <!-- Tabs Component -->
+    <div class="tab-component">
+
+      <div class="tabs">
+        <ul>
+          <li class="js-active"><a class="h5" href="#" data-ref="#tab1"><span>Tab 1</span></a></li>
+          <li><a class="h5" href="#" data-ref="#tab2">Tab 2</a></li>
+          <li><a class="h5" href="#" data-ref="#tab3">Tab 3</a></li>
+          <li><a class="h5" href="#" data-ref="#tab4">Tab 4</a></li>
+          <li><a class="h5" href="#" data-ref="#tab5">Tab 5</a></li>
+          <li><a class="h5" href="#" data-ref="#tab6">Tab 6</a></li>
+        </ul>
+      </div>
+
+      <div class="tab-content-container">
+
+        <div id="tab1" class="tab-content js-active">
+          <h3>Tab 1 Content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.</p>
+        </div>
+
+        <div id="tab2" class="tab-content">
+          <h3>Tab 2 Content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, enim, dolor! Reiciendis, corporis, laudantium, odio illo dolores numquam eligendi expedita assumenda eaque doloremque quidem quam nam qui ducimus delectus nemo?</p>
+        </div>
+
+        <div id="tab3" class="tab-content">
+          <h3>Tab 3 Content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.</p>
+        </div>
+
+        <div id="tab4" class="tab-content">
+          <h3>Tab 4 Content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.</p>
+        </div>
+
+        <div id="tab5" class="tab-content">
+          <h3>Tab 5 Content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.</p>
+        </div>
+
+        <div id="tab6" class="tab-content">
+          <h3>Tab 6 Content</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.</p>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- .Tabs Component -->
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;div class=&quot;tab-component&quot;&gt;
+
+  &lt;div class=&quot;tabs&quot;&gt;
+    &lt;ul&gt;
+      &lt;li class=&quot;js-active&quot;&gt;&lt;a class=&quot;h5&quot; href=&quot;#&quot; data-ref=&quot;#tab1&quot;&gt;&lt;span&gt;Tab 1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&quot;h5&quot; href=&quot;#&quot; data-ref=&quot;#tab2&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&quot;h5&quot; href=&quot;#&quot; data-ref=&quot;#tab3&quot;&gt;Tab 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&quot;h5&quot; href=&quot;#&quot; data-ref=&quot;#tab4&quot;&gt;Tab 4&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&quot;h5&quot; href=&quot;#&quot; data-ref=&quot;#tab5&quot;&gt;Tab 5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&quot;h5&quot; href=&quot;#&quot; data-ref=&quot;#tab6&quot;&gt;Tab 6&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;tab-content-container&quot;&gt;
+
+    &lt;div id=&quot;tab1&quot; class=&quot;tab-content js-active&quot;&gt;
+      &lt;h3&gt;Tab 1 Content&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;tab2&quot; class=&quot;tab-content&quot;&gt;
+      &lt;h3&gt;Tab 2 Content&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, enim, dolor! Reiciendis, corporis, laudantium, odio illo dolores numquam eligendi expedita assumenda eaque doloremque quidem quam nam qui ducimus delectus nemo?&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;tab3&quot; class=&quot;tab-content&quot;&gt;
+      &lt;h3&gt;Tab 3 Content&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;tab4&quot; class=&quot;tab-content&quot;&gt;
+      &lt;h3&gt;Tab 4 Content&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;tab5&quot; class=&quot;tab-content&quot;&gt;
+      &lt;h3&gt;Tab 5 Content&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;tab6&quot; class=&quot;tab-content&quot;&gt;
+      &lt;h3&gt;Tab 6 Content&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sapiente odio hic expedita inventore nesciunt numquam placeat minus. Asperiores, repellendus ipsa magni sequi cum reprehenderit dignissimos aliquid ratione. Voluptatum, fugiat.&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</code></pre></div>
+
 </div>
 
 <span id="message-anchor" class="h2 jumpTo-anchor">Dynamic Message Boxes</span>
