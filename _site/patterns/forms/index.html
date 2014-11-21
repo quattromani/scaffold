@@ -18,7 +18,6 @@
   <meta name="robots" content="INDEX,FOLLOW" />
 
   <link rel="stylesheet" href="/scaffold/css/build/main.min.css" >
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -390,7 +389,32 @@
   &lt;/div&gt;
 &lt;/fieldset&gt;</code></pre></div>
 
-          </div>
+  <hr>
+
+  <p>Select elements are native parts of web forms; however, they will not naturally take links as values. Having the ability to create a dropdown that contains a series of links can be an effective method to minimize the real estate impact on the UI.</p>
+
+  <div class="select">
+    <select name="" class="selectLink">
+      <option value="null">Select a link</option>
+      <option value="http://google.com">Go</option>
+      <option value="http://google.com">Goo</option>
+      <option value="http://google.com">Goog</option>
+      <option value="http://google.com">Googl</option>
+      <option value="http://google.com">Google</option>
+    </select>
+  </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;div class=&quot;select&quot;&gt;
+  &lt;select name=&quot;&quot; class=&quot;selectLink&quot;&gt;
+    &lt;option value=&quot;null&quot;&gt;Select a link&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Go&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Goo&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Goog&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Googl&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Google&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;</code></pre></div>
+
+</div>
 
 
 

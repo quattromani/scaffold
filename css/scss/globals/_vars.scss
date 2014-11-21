@@ -107,10 +107,10 @@ $font-faces: (
   'NeueHaasGroteskDisp-Pro-75': ('NHaasGroteskDSPro-75Bd', 400),
   'fontawesome': ('icons/fontawesome-webfont', normal)
 );
-$font-path: 'fonts/';
+$font-path: '../fonts/';
 
 // Font Familes Variables
-$base-font: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+$base-font: 'NeueHaasGroteskDisp-Pro', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-alt: $arial;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;

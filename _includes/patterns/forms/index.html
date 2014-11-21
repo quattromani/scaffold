@@ -335,4 +335,31 @@
 </fieldset>
 {% endhighlight %}
 
-          </div>
+  <hr>
+
+  <p>Select elements are native parts of web forms; however, they will not naturally take links as values. Having the ability to create a dropdown that contains a series of links can be an effective method to minimize the real estate impact on the UI.</p>
+
+  <div class="select">
+    <select name="" class="selectLink">
+      <option value="null">Select a link</option>
+      <option value="http://google.com">Go</option>
+      <option value="http://google.com">Goo</option>
+      <option value="http://google.com">Goog</option>
+      <option value="http://google.com">Googl</option>
+      <option value="http://google.com">Google</option>
+    </select>
+  </div>
+{% highlight html %}
+<div class="select">
+  <select name="" class="selectLink">
+    <option value="null">Select a link</option>
+    <option value="http://google.com">Go</option>
+    <option value="http://google.com">Goo</option>
+    <option value="http://google.com">Goog</option>
+    <option value="http://google.com">Googl</option>
+    <option value="http://google.com">Google</option>
+  </select>
+</div>
+{% endhighlight %}
+
+</div>

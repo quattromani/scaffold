@@ -1,0 +1,69 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Accordion -- Version: 1.9.0.0 - Updated: 1/11/2014
+   ========================================================================== */
+
+.expandable {
+  li {
+    h6 {
+      margin-bottom: 0;
+      @include padding($padding/2 $padding);
+      border-bottom: 1px solid $color-light-grey;
+      background-color: $color-primary-blue;
+      color: $text-white;
+    }
+
+    &.js-notexpandable h6:after {
+      float: right;
+      font-family: $fontawesome;
+      content: '\f105';
+      color: inherit;
+    }
+
+    &.js-expandable {
+      cursor: pointer;
+
+      h6:after {
+        float: right;
+        font-family: $fontawesome;
+        content: '\f107';
+        color: inherit;
+      }
+
+      &.js-active h6:after {
+        @include rotate(-180);
+      }
+    }
+
+    ul {
+      display: none;
+
+      @include bp(bp-medium) {
+        border: none;
+      }
+    }
+
+    li {
+      @include padding(.5em);
+      border-bottom: 1px dotted $color-light-grey;
+    }
+
+    &.js-first {
+      @include border-radius($border-radius $border-radius 0 0);
+    }
+
+    &.js-last {
+      border-bottom: none;
+    }
+
+    &.liState {
+      background: $color-primary-blue;
+    }
+  }
+}
+
+.activeContent {
+  display: none;
+}

@@ -1,0 +1,60 @@
+/* ==========================================================================
+    Accordion -- Version: 1.9.0.0 - Updated: 1/11/2014
+   ========================================================================== */
+.expandable li h6 {
+  margin-bottom: 0;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #0099ed;
+  color: #fff;
+}
+.expandable li.js-notexpandable h6:after {
+  float: right;
+  font-family: "FontAwesome";
+  content: '\f105';
+  color: inherit;
+}
+.expandable li.js-expandable {
+  cursor: pointer;
+}
+.expandable li.js-expandable h6:after {
+  float: right;
+  font-family: "FontAwesome";
+  content: '\f107';
+  color: inherit;
+}
+.expandable li.js-expandable.js-active h6:after {
+  will-change: transform;
+  transform: rotate(-180deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(-180), M12=-sin(-180), M21=sin(-180), M22=cos(-180))";
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(-180), M12=-sin(-180), M21=sin(-180), M22=cos(-180));
+  zoom: 1;
+}
+.expandable li ul {
+  display: none;
+}
+@media (max-width: 62em) {
+  .expandable li ul {
+    border: none;
+  }
+}
+.expandable li li {
+  padding: 0.5em;
+  border-bottom: 1px dotted #e6e6e6;
+}
+.expandable li.js-first {
+  border-radius: 3px 3px 0 0;
+  background-clip: padding-box;
+}
+.expandable li.js-last {
+  border-bottom: none;
+}
+.expandable li.liState {
+  background: #0099ed;
+}
+
+.activeContent {
+  display: none;
+}
+
+/*# sourceMappingURL=accordion.css.map */

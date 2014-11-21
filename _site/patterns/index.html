@@ -18,7 +18,6 @@
   <meta name="robots" content="INDEX,FOLLOW" />
 
   <link rel="stylesheet" href="/scaffold/css/build/main.min.css" >
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -57,7 +56,7 @@
 <hr>
 
 
-    <p>Version: 0.2.5 -- Updated: 2014-11-17 20:39:33 -0700</p>
+    <p>Version: 0.2.5 -- Updated: 2014-11-20 19:37:21 -0700</p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->
@@ -450,7 +449,32 @@
   &lt;/div&gt;
 &lt;/fieldset&gt;</code></pre></div>
 
-          </div>
+  <hr>
+
+  <p>Select elements are native parts of web forms; however, they will not naturally take links as values. Having the ability to create a dropdown that contains a series of links can be an effective method to minimize the real estate impact on the UI.</p>
+
+  <div class="select">
+    <select name="" class="selectLink">
+      <option value="null">Select a link</option>
+      <option value="http://google.com">Go</option>
+      <option value="http://google.com">Goo</option>
+      <option value="http://google.com">Goog</option>
+      <option value="http://google.com">Googl</option>
+      <option value="http://google.com">Google</option>
+    </select>
+  </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;div class=&quot;select&quot;&gt;
+  &lt;select name=&quot;&quot; class=&quot;selectLink&quot;&gt;
+    &lt;option value=&quot;null&quot;&gt;Select a link&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Go&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Goo&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Goog&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Googl&lt;/option&gt;
+    &lt;option value=&quot;http://google.com&quot;&gt;Google&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;</code></pre></div>
+
+</div>
 
 <span id="lists-anchor" class="h2 jumpTo-anchor">Lists</span>
 
@@ -939,6 +963,76 @@ you to expand and collapse this text by clicking the triangle.&lt;/p&gt;
 &lt;span class=&quot;pill-success&quot;&gt;7&lt;/span&gt;
 
 &lt;label for=&quot;&quot;&gt;You purchased this item &lt;span class=&quot;pill-success&quot;&gt;23&lt;/span&gt; times&lt;/label&gt;</code></pre></div>
+</div>
+
+<span id="accordion-anchor" class="h2 jumpTo-anchor">Accordion</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="accordion">Isolate</a>
+</div>
+
+<p></p>
+
+<div class="box-column clear">
+
+  <!-- Accordion Component -->
+  <div class="accordion">
+    <div class="expandable">
+      <ul>
+        <li><h6>Lorem ipsum dolor</h6></li>
+        <li><h6>Lorem ipsum dolor</h6>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Ipsum</a></li>
+            <li><a href="">Dolor</a></li>
+            <li><a href="">Amet</a></li>
+            <li><a href="">Flipsum</a></li>
+          </ul>
+        </li>
+        <li><h6>Lorem ipsum dolor</h6></li>
+        <li><h6>Lorem ipsum dolor</h6></li>
+        <li><h6>Lorem ipsum dolor</h6>
+          <ul>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">Ipsum</a></li>
+            <li><a href="">Dolor</a></li>
+            <li><a href="">Amet</a></li>
+            <li><a href="">Flipsum</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- .Accordion Component -->
+
+<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;div class=&quot;accordion&quot;&gt;
+  &lt;div class=&quot;expandable&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;h6&gt;Lorem ipsum dolor&lt;/h6&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;h6&gt;Lorem ipsum dolor&lt;/h6&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Ipsum&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Dolor&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Amet&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Flipsum&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;h6&gt;Lorem ipsum dolor&lt;/h6&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;h6&gt;Lorem ipsum dolor&lt;/h6&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;h6&gt;Lorem ipsum dolor&lt;/h6&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Ipsum&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Dolor&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Amet&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;&quot;&gt;Flipsum&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre></div>
+
 </div>
 
 <span id="tabs-anchor" class="h2 jumpTo-anchor">Tabs</span>

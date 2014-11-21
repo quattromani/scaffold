@@ -190,6 +190,10 @@ p,
   font-variant: small-caps;
 }
 
+i {
+  font-style: normal;
+}
+
 blockquote {
   width: 75%;
   @include margin(0, auto);

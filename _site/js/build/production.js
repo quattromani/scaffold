@@ -53,6 +53,27 @@ $('.fonts').each(function(){
 });
 
 /* ==========================================================================
+    Accordion -- Version: 1.9.0.0 - Updated: 12/31/2013
+   ========================================================================== */
+
+$('.accordion .expandable ul li').each(function() {
+	if ($(this).has('ul').length) {
+		$(this).addClass('js-expandable');
+	} else {
+		$(this).addClass('js-notexpandable');
+	}
+});
+
+$('.accordion .expandable h6').click(function() {
+	var categoryText = $(this).text();
+	$(this).parent().addClass('js-active').find('ul').slideToggle(function() {
+		if ($(this).is(':hidden')) {
+			$(this).parent().removeClass('js-active');
+		}
+	});
+});
+
+/* ==========================================================================
     Main -- Version: 0.4.1 - Updated: 10/1/2014
     ========================================================================== */
 
@@ -369,70 +390,89 @@ $(function() {
 });
 
 /* ==========================================================================
+    Select with Link -- Version: 1.9.0.2 - Updated: 3/24/2014
+   ========================================================================== */
+
+(function($) {
+
+  $.fn.selectLink = function() {
+  	$('.selectLink').change(function(){
+  		// Ignore null value -- shown at top of dropdown
+  		if ($(this).val() != 'null'){
+  			window.location.href = $(this).val();
+  		}
+  	});
+  }
+
+}(jQuery));
+
+$('.selectLink').selectLink();
+/* ==========================================================================
     Tabs to Accordion -- Version: 1.9.0.2 - Updated: 1/7/2013
    ========================================================================== */
+
 $(function() {
-    tabCount = 1;
-    $('.tab-component').each(function(index){
-        $(this).addClass('onState_'+tabCount);
-        tabCount++;
-    });
+  tabCount = 1;
+  $('.tab-component').each(function(index){
+      $(this).addClass('onState_'+tabCount);
+      tabCount++;
+  });
 
-    buildAccordion();
+  buildAccordion();
 
-    $(window).bind("load", function(){
-        adjustContent();
-    });
+  $(window).bind("load", function(){
+      adjustContent();
+  });
 
-    $('[class*=onState_] .tabs li').click(function() {
-        var selected_tab = $(this).find('a').attr('data-ref');
-        var onState =  $(this).parent().parent().parent().attr('class');
-        var className = onState.split(" ");
-        var finalName = className.pop();
+  $('[class*=onState_] .tabs li').click(function() {
+      var selected_tab = $(this).find('a').attr('data-ref');
+      var onState =  $(this).parent().parent().parent().attr('class');
+      var className = onState.split(" ");
+      var finalName = className.pop();
 
-        $('.'+finalName+' .tabs li').removeClass('js-active');
-        $(this).addClass('js-active');
+      $('.'+finalName+' .tabs li').removeClass('js-active');
+      $(this).addClass('js-active');
 
-        if ($(window).width() > mediumBreakPoint) {
-            $('.'+finalName+' .tab-content').hide();
-            $('.'+finalName+' '+selected_tab).show();
-        } else {
-            $('.'+finalName+' .tab-content').slideUp();
-            $(this).next().slideDown();
-        }
+      if ($(window).width() > mediumBreakPoint) {
+          $('.'+finalName+' .tab-content').hide();
+          $('.'+finalName+' '+selected_tab).show();
+      } else {
+          $('.'+finalName+' .tab-content').slideUp();
+          $(this).next().slideDown();
+      }
 
-        return false;
-    });
+      return false;
+  });
 
-    $(window).resize(function() {
-       adjustContent();
-    });
+  $(window).resize(function() {
+     adjustContent();
+  });
 });
 
 function adjustContent() {
-    if ($(window).width() < mediumBreakPoint) {
-        $('[class*=onState_] .tabs ul').find('li.js-active').next('div').show();
-    } else {
-        $('.cloned').hide();
-        $('[class*=onState_]').each(function(index){
-            var onState =  $(this).attr('class');
-            var className = onState.split(" ");
-            var finalName = className.pop();
-            var toShow = $('.'+finalName+' .js-active a').attr('data-ref');
-            $('.'+finalName+' .tab-content-container').find(toShow).show();
-        });
-    }
+  if ($(window).width() < mediumBreakPoint) {
+      $('[class*=onState_] .tabs ul').find('li.js-active').next('div').show();
+  } else {
+      $('.cloned').hide();
+      $('[class*=onState_]').each(function(index){
+          var onState =  $(this).attr('class');
+          var className = onState.split(" ");
+          var finalName = className.pop();
+          var toShow = $('.'+finalName+' .js-active a').attr('data-ref');
+          $('.'+finalName+' .tab-content-container').find(toShow).show();
+      });
+  }
 }
 
 function buildAccordion(){
-    $('.tab-component .tabs ul li').each(function(){
-        id = $(this).find('a').attr('data-ref');
-        $(id).clone().removeAttr('id').addClass('cloned').insertAfter($(this)).hide();
+  $('.tab-component .tabs ul li').each(function(){
+      id = $(this).find('a').attr('data-ref');
+      $(id).clone().removeAttr('id').addClass('cloned').insertAfter($(this)).hide();
 
-        if ($(window).width() < mediumBreakPoint && $(this).hasClass('js-active')) {
-            $(id).clone().removeAttr('id').addClass('cloned').insertAfter($(this)).show();
-        }
-    });
+      if ($(window).width() < mediumBreakPoint && $(this).hasClass('js-active')) {
+          $(id).clone().removeAttr('id').addClass('cloned').insertAfter($(this)).show();
+      }
+  });
 }
 
 /* ==========================================================================
