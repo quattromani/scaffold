@@ -22,7 +22,7 @@ hr {
   box-sizing: content-box;
   border: 0;
   border-top: 1px solid $text-light-grey;
-  border-bottom: 1px solid $text-white;
+  border-bottom: 1px solid mix($site-background,$color-white,20%);;
 }
 
 hr.sandbox {

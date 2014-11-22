@@ -1467,6 +1467,9 @@ html input[disabled] {
       border-left: none; }
 
 /* ==========================================================================
+    Site Overrides -- Version: 0.4.0 - Compiled: timestamp()
+   ========================================================================== */
+/* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 .pagination ol {
@@ -2356,7 +2359,7 @@ hr {
   box-sizing: content-box;
   border: 0;
   border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid white; }
 
 hr.sandbox {
   margin: 1em 0;

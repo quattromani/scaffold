@@ -93,6 +93,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/partials/overrides.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/accordion/index.html",
 		"/Users/Q/Sites/scaffold/js/tabs.js",
 		"/Users/Q/Sites/scaffold/node_modules/grunt-contrib-yuidoc/node_modules/yuidocjs/node_modules/yui/selector-native/selector-native.js",
@@ -219,8 +220,7 @@
 		"/Users/Q/Sites/scaffold/_includes/end_content.html",
 		"/Users/Q/Sites/scaffold/README.md",
 		"/Users/Q/Sites/scaffold/_includes/footer.html",
-		"/Users/Q/Sites/scaffold/emails/templates/index.html",
-		"/Users/Q/Sites/scaffold/js/progress-bar-element.js"
+		"/Users/Q/Sites/scaffold/emails/templates/index.html"
 	],
 	"find":
 	{
