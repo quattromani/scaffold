@@ -29,7 +29,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
   zoom: 1;
 }
-@media (min-width: 68.75em) {
+@media (max-width: 68.75em) {
   .has-tooltip .tip-top, .has-tooltip .tip-bottom {
     left: 50%;
     transform: translateX(-50%);
@@ -106,7 +106,7 @@
     transform: translateX(-50%);
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .has-tooltip .tip {
     position: fixed;
     top: 50%;

@@ -15,6 +15,12 @@ $bp-big: 68.75em;
 $bp-medium: 62em;
 $bp-small: 40em;
 
+$breakpoints: (
+  'bp-big': (max-width: $bp-big),
+  'bp-medium': (max-width: $bp-medium),
+  'bp-small': (min-width: $bp-small)
+);
+
 // Sizing
 $padding: 1em;
 $margin: 1em;

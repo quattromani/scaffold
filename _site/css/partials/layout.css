@@ -64,7 +64,7 @@ section:only-child,
 .half:first-child {
   margin-left: 0;
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .half {
     float: left;
     width: 100%;
@@ -95,7 +95,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .third {
     float: left;
     width: 100%;
@@ -126,7 +126,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fourth {
     float: left;
     width: 100%;
@@ -158,7 +158,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fifth {
     float: left;
     width: 100%;
@@ -238,7 +238,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .eighth {
     float: left;
     width: 49%;
@@ -296,7 +296,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .tenth {
     float: left;
     width: 49%;
@@ -330,7 +330,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .eleventh {
     float: left;
     width: 49%;

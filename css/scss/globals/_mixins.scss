@@ -2,14 +2,13 @@
 
 // Breakpoint
 @mixin bp($point) {
-  @if $point == bp-medium {
-    @media (max-width: $bp-medium) { @content; }
+  @if map-has-key($breakpoints, $point) {
+    @media #{inspect(map-get($breakpoints, $point))} {
+      @content;
+    }
   }
-  @else if $point == bp-small {
-    @media (max-width: $bp-small)  { @content; }
-  }
-  @else if $point == bp-big {
-    @media (min-width: $bp-big)  { @content; }
+  @else {
+    @warn "Couldn't find a breakpoint named `#{$point}`.";
   }
 }
 
@@ -118,8 +117,8 @@
 @mixin word-wrap() {
   word-break: break-word;
   -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-          hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 @mixin clearfix() {
@@ -206,15 +205,14 @@ $trbl-position: null !default;
 }
 
 // Background Gradients
-@mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
-  background-color: $startColor;
-  background-image: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
-  background-image: -webkit-linear-gradient(top, $startColor, $endColor);
-  background-image:    -moz-linear-gradient(top, $startColor, $endColor);
-  background-image:     -ms-linear-gradient(top, $startColor, $endColor);
-  background-image:      -o-linear-gradient(top, $startColor, $endColor);
-  background-image:         linear-gradient(top, $startColor, $endColor);
-  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', EndColorStr='#{$endColor}')"; */
+@mixin background-gradient($from-color, $to-color) {
+    background-color: mix($from-color, $to-color); /* Fallback */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from-color), to($to-color));
+    background-image: -webkit-linear-gradient(top, $from-color, $to-color);
+    background-image: -moz-linear-gradient(top, $from-color, $to-color);
+    background-image: -ms-linear-gradient(top, $from-color, $to-color);
+    background-image: -o-linear-gradient(top, $from-color, $to-color);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$from-color}', EndColorStr='#{$to-color}')";
 }
 
 @mixin horizontal-gradient($startColor, $to, $endColor: 100%) {
@@ -300,36 +298,34 @@ $trbl-position: null !default;
   column-gap: $gap;
 }
 
-
 @mixin placeholder {
   ::-webkit-input-placeholder {@content}
-  :-moz-placeholder           {@content}
-  ::-moz-placeholder          {@content}
-  :-ms-input-placeholder      {@content}
+  :-moz-placeholder {@content}
+  ::-moz-placeholder {@content}
+  :-ms-input-placeholder {@content}
 }
 
-// Accessibly hide content:
-// snook.ca/archives/html_and_css/hiding-content-for-accessibility
-@mixin visually-hidden($state: hidden) {
-
-  @if ($state == undo) {
-    position: static;
-    overflow: visible;
-    width:  auto;
-    height: auto;
-    margin: auto;
-    clip:   auto;
+// Responsive Images
+@mixin image-2x($image, $w: 100%, $h: auto) {
+  @media
+  (min--moz-device-pixel-ratio: 1.3),
+  (-o-min-device-pixel-ratio: 2.6/2),
+  (-webkit-min-device-pixel-ratio: 1.3),
+  (min-device-pixel-ratio: 1.3),
+  (min-resolution: 1.3dppx) {
+    background-image: url($image);
+    background-size: $w $h;
   }
+}
 
-  @else {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-
+// Accessibly hide content
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  @include margin(-1em);
+  @include padding;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

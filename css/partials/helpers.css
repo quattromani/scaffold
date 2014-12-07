@@ -99,7 +99,7 @@
     font-size: 0.54688rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs10 {
     font-size: 7.5px;
     font-size: 0.46875rem;
@@ -116,7 +116,7 @@
     font-size: 0.60156rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs11 {
     font-size: 8.25px;
     font-size: 0.51563rem;
@@ -133,7 +133,7 @@
     font-size: 0.65625rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs12 {
     font-size: 9px;
     font-size: 0.5625rem;
@@ -150,7 +150,7 @@
     font-size: 0.71094rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs13 {
     font-size: 9.75px;
     font-size: 0.60938rem;
@@ -167,7 +167,7 @@
     font-size: 0.76563rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs14 {
     font-size: 10.5px;
     font-size: 0.65625rem;
@@ -184,7 +184,7 @@
     font-size: 0.82031rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs15 {
     font-size: 11.25px;
     font-size: 0.70313rem;
@@ -201,7 +201,7 @@
     font-size: 0.875rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs16 {
     font-size: 12px;
     font-size: 0.75rem;
@@ -218,7 +218,7 @@
     font-size: 0.92969rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs17 {
     font-size: 12.75px;
     font-size: 0.79688rem;
@@ -235,7 +235,7 @@
     font-size: 0.98438rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs18 {
     font-size: 13.5px;
     font-size: 0.84375rem;
@@ -252,7 +252,7 @@
     font-size: 1.03906rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs19 {
     font-size: 14.25px;
     font-size: 0.89063rem;
@@ -269,7 +269,7 @@
     font-size: 1.09375rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs20 {
     font-size: 15px;
     font-size: 0.9375rem;
@@ -286,7 +286,7 @@
     font-size: 1.14844rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs21 {
     font-size: 15.75px;
     font-size: 0.98438rem;
@@ -303,7 +303,7 @@
     font-size: 1.20313rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs22 {
     font-size: 16.5px;
     font-size: 1.03125rem;
@@ -320,7 +320,7 @@
     font-size: 1.25781rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs23 {
     font-size: 17.25px;
     font-size: 1.07813rem;
@@ -337,7 +337,7 @@
     font-size: 1.3125rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs24 {
     font-size: 18px;
     font-size: 1.125rem;
@@ -354,7 +354,7 @@
     font-size: 1.36719rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs25 {
     font-size: 18.75px;
     font-size: 1.17188rem;
@@ -371,7 +371,7 @@
     font-size: 1.42188rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs26 {
     font-size: 19.5px;
     font-size: 1.21875rem;
@@ -388,7 +388,7 @@
     font-size: 1.47656rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs27 {
     font-size: 20.25px;
     font-size: 1.26563rem;
@@ -405,7 +405,7 @@
     font-size: 1.53125rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs28 {
     font-size: 21px;
     font-size: 1.3125rem;
@@ -422,7 +422,7 @@
     font-size: 1.58594rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs29 {
     font-size: 21.75px;
     font-size: 1.35938rem;
@@ -439,7 +439,7 @@
     font-size: 1.64063rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs30 {
     font-size: 22.5px;
     font-size: 1.40625rem;
@@ -456,7 +456,7 @@
     font-size: 1.69531rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs31 {
     font-size: 23.25px;
     font-size: 1.45313rem;
@@ -473,7 +473,7 @@
     font-size: 1.75rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs32 {
     font-size: 24px;
     font-size: 1.5rem;
@@ -490,7 +490,7 @@
     font-size: 1.80469rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs33 {
     font-size: 24.75px;
     font-size: 1.54688rem;
@@ -507,7 +507,7 @@
     font-size: 1.85938rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs34 {
     font-size: 25.5px;
     font-size: 1.59375rem;
@@ -524,7 +524,7 @@
     font-size: 1.91406rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs35 {
     font-size: 26.25px;
     font-size: 1.64063rem;
@@ -541,7 +541,7 @@
     font-size: 1.96875rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs36 {
     font-size: 27px;
     font-size: 1.6875rem;
@@ -558,7 +558,7 @@
     font-size: 2.02344rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs37 {
     font-size: 27.75px;
     font-size: 1.73438rem;
@@ -575,7 +575,7 @@
     font-size: 2.07813rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs38 {
     font-size: 28.5px;
     font-size: 1.78125rem;
@@ -592,7 +592,7 @@
     font-size: 2.13281rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs39 {
     font-size: 29.25px;
     font-size: 1.82813rem;
@@ -609,7 +609,7 @@
     font-size: 2.1875rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs40 {
     font-size: 30px;
     font-size: 1.875rem;
@@ -626,7 +626,7 @@
     font-size: 2.24219rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs41 {
     font-size: 30.75px;
     font-size: 1.92188rem;
@@ -643,7 +643,7 @@
     font-size: 2.29688rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs42 {
     font-size: 31.5px;
     font-size: 1.96875rem;
@@ -660,7 +660,7 @@
     font-size: 2.35156rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs43 {
     font-size: 32.25px;
     font-size: 2.01563rem;
@@ -677,7 +677,7 @@
     font-size: 2.40625rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs44 {
     font-size: 33px;
     font-size: 2.0625rem;
@@ -694,7 +694,7 @@
     font-size: 2.46094rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs45 {
     font-size: 33.75px;
     font-size: 2.10938rem;
@@ -711,7 +711,7 @@
     font-size: 2.51563rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs46 {
     font-size: 34.5px;
     font-size: 2.15625rem;
@@ -728,7 +728,7 @@
     font-size: 2.57031rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs47 {
     font-size: 35.25px;
     font-size: 2.20313rem;
@@ -745,7 +745,7 @@
     font-size: 2.625rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs48 {
     font-size: 36px;
     font-size: 2.25rem;
@@ -762,7 +762,7 @@
     font-size: 2.67969rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs49 {
     font-size: 36.75px;
     font-size: 2.29688rem;
@@ -779,7 +779,7 @@
     font-size: 2.73438rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs50 {
     font-size: 37.5px;
     font-size: 2.34375rem;
@@ -796,7 +796,7 @@
     font-size: 2.78906rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs51 {
     font-size: 38.25px;
     font-size: 2.39063rem;
@@ -813,7 +813,7 @@
     font-size: 2.84375rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs52 {
     font-size: 39px;
     font-size: 2.4375rem;
@@ -830,7 +830,7 @@
     font-size: 2.89844rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs53 {
     font-size: 39.75px;
     font-size: 2.48438rem;
@@ -847,7 +847,7 @@
     font-size: 2.95313rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs54 {
     font-size: 40.5px;
     font-size: 2.53125rem;
@@ -864,7 +864,7 @@
     font-size: 3.00781rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs55 {
     font-size: 41.25px;
     font-size: 2.57813rem;
@@ -881,7 +881,7 @@
     font-size: 3.0625rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs56 {
     font-size: 42px;
     font-size: 2.625rem;
@@ -898,7 +898,7 @@
     font-size: 3.11719rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs57 {
     font-size: 42.75px;
     font-size: 2.67188rem;
@@ -915,7 +915,7 @@
     font-size: 3.17188rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs58 {
     font-size: 43.5px;
     font-size: 2.71875rem;
@@ -932,7 +932,7 @@
     font-size: 3.22656rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs59 {
     font-size: 44.25px;
     font-size: 2.76563rem;
@@ -949,7 +949,7 @@
     font-size: 3.28125rem;
   }
 }
-@media (max-width: 40em) {
+@media (min-width: 40em) {
   .fs60 {
     font-size: 45px;
     font-size: 2.8125rem;

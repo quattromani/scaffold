@@ -5,25 +5,7 @@
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: #{timestamp()}
    =========================================================================================== */
 
+.accessibility,
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  @include margin(-1em);
-  overflow: hidden;
-  @include padding;
-  position: absolute;
-
-  &.focusable {
-    &:active,
-    &:focus {
-      clip: auto;
-      height: auto;
-      @include margin;
-      overflow: visible;
-      position: static;
-      width: auto;
-    }
-  }
+  @include visually-hidden;
 }
