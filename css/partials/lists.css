@@ -35,6 +35,7 @@ ul ul {
 }
 .horizontal [class*='column-count-'] li {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto;

@@ -7,20 +7,21 @@
       @content;
     }
   }
-  @else {
-    @warn "Couldn't find a breakpoint named `#{$point}`.";
-  }
 }
 
 // Inline-Block IE
-@mixin inline-block {
+@mixin inline-block($alignment: baseline) {
   display: inline-block;
-  @if $support-legacy {
+  @if $alignment and $alignment != none {
+    vertical-align: $alignment;
+  }
+  @include support-legacy {
     *zoom: 1;
     *display: inline;
     *vertical-align: auto;
   }
 }
+
 
 // Margin
 @mixin margin($top: 0, $right: null, $bottom: null, $left: null) {
@@ -280,7 +281,9 @@ $trbl-position: null !default;
   will-change: transform;
   transform: rotate($degrees * 1deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
-  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+  @if $support-legacy {
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+  }
   zoom: 1;
 }
 
@@ -325,7 +328,16 @@ $trbl-position: null !default;
   -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
   -moz-filter: $filter-type+unquote('(#{$filter-amount})');
   -ms-filter: $filter-type+unquote('(#{$filter-amount})');
-  filter: $filter-type+unquote('(#{$filter-amount})');
+  @if $support-legacy {
+    filter: $filter-type+unquote('(#{$filter-amount})');
+  }
+}
+
+// $support-legacy mixin
+@mixin support-legacy {
+  @if $support-legacy {
+     @content;
+  }
 }
 
 // Accessibly hide content

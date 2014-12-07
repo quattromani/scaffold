@@ -18,6 +18,7 @@
 @media (max-width: 40em) {
   .pagination {
     display: inline-block;
+    vertical-align: baseline;
     *zoom: 1;
     *display: inline;
     *vertical-align: auto;

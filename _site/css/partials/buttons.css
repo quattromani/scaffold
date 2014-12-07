@@ -6,6 +6,7 @@
 button,
 .cta {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto;

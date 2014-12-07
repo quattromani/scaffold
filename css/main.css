@@ -78,6 +78,7 @@ section,
 .row {
   zoom: 1;
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto;
@@ -992,12 +993,14 @@ h6,
 .h5,
 .h6 {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto; }
 
 small {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto; }
@@ -1056,6 +1059,12 @@ b,
 strong,
 .b {
   font-weight: bold; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
 
 dfn {
   font-style: italic; }
@@ -1151,6 +1160,7 @@ ul {
   display: inline; }
 .horizontal [class*='column-count-'] li {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto; }
@@ -1196,6 +1206,7 @@ details {
     padding: 1em; }
   details summary {
     display: inline-block;
+    vertical-align: baseline;
     *zoom: 1;
     *display: inline;
     *vertical-align: auto;
@@ -1226,6 +1237,7 @@ details {
 button,
 .cta {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto;
@@ -1486,6 +1498,7 @@ html input[disabled] {
 @media (max-width: 40em) {
   .pagination {
     display: inline-block;
+    vertical-align: baseline;
     *zoom: 1;
     *display: inline;
     *vertical-align: auto;
@@ -1570,6 +1583,7 @@ label + .pill,
       border-left: none; }
     .tab-component .tabs li a {
       display: inline-block;
+      vertical-align: baseline;
       *zoom: 1;
       *display: inline;
       *vertical-align: auto;
@@ -1792,8 +1806,8 @@ label + .pill,
   color: #454545;
   z-index: 99999; }
   .modal .modal-container > .modal-content {
-    -webkit-box-shadow: 0 0 5px 2px #555;
-    box-shadow: 0 0 5px 2px #555; }
+    -webkit-box-shadow: 0 0 5px 2px #b3b3b3;
+    box-shadow: 0 0 5px 2px #b3b3b3; }
 .modal .modal-close {
   position: absolute;
   right: 1rem;
@@ -3362,6 +3376,7 @@ hr.sandbox {
 
 [class*='width-'] {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto; }

@@ -24,6 +24,8 @@ $breakpoints: (
 // Sizing
 $padding: 1em;
 $margin: 1em;
+// replace $padding and $margin units with $spacing when encountered
+$spacing: 1em;
 
 //Border-Radius
 $border-radius: 3px;
@@ -79,7 +81,7 @@ $info: $color-primary-blue;
 // Always declare site background fallback
 $site-background: $color-white;
 
-$site-alpha: .75;
+$site-alpha: .5;
 
 // Buttons
 $color-button-primary: $color-primary-red;

@@ -204,6 +204,7 @@ h6,
 .h5,
 .h6 {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto;
@@ -211,6 +212,7 @@ h6,
 
 small {
   display: inline-block;
+  vertical-align: baseline;
   *zoom: 1;
   *display: inline;
   *vertical-align: auto;
@@ -280,6 +282,14 @@ b,
 strong,
 .b {
   font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
 
 dfn {
