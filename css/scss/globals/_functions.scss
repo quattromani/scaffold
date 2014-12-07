@@ -1,0 +1,10 @@
+// Strip the units from a value
+@function strip-units($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+// Function checking if $value is a valid length
+@function is-valid-length($value) {
+  @return (type-of($value) == "number" and not unitless($value))
+       or (index(auto initial inherit 0, $value) != false);
+}

@@ -1,0 +1,65 @@
+// Column / Grid Control
+$width: 100%;   // total with of page
+$site-column-count: 12 !default;    // number of columns
+$site-gutter-width: 2% !default;  // margin between columns
+$marginless: 0;
+
+// math magic
+$col-width: ($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count;
+$col-total-width: $col-width + $site-gutter-width;
+
+$marginless-col-width: $width / $site-column-count;
+
+// create row
+@mixin row() {
+  @include clearfix;
+  @include inline-block;
+  width: $width;
+  margin-bottom: $margin;
+
+  &:only-child {
+    margin-bottom: 0;
+  }
+}
+
+// create a column
+@mixin col($n: 1) {
+  float: left;
+  @include span($n);
+}
+
+// create a marginless column
+@mixin marginless-col($n: 1) {
+  float: left;
+  @include marginless-span($n);
+}
+
+// element span n columns
+@mixin span($n: 1) {
+  width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
+  @if $n == $site-column-count {
+    margin-left: 0;
+    } @else {
+      margin-left: $site-gutter-width;
+    }
+  }
+
+  @mixin marginless-span($n: 1) {
+    width: ($n * $marginless-col-width);
+    margin-left: 0;
+  }
+
+// remove margin from all last columns
+@mixin first() {
+  margin-left: 0;
+}
+
+// prepend n blank columns
+@mixin prepend($n: 1) {
+  margin-left: $col-total-width * $n;
+}
+
+// append n blank columns
+@mixin append($n: 1) {
+  margin-right: $col-total-width * $n + $site-gutter-width;
+}

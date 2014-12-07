@@ -73,6 +73,8 @@ $info: $color-primary-blue;
 // Always declare site background fallback
 $site-background: $color-white;
 
+$site-alpha: .75;
+
 // Buttons
 $color-button-primary: $color-primary-red;
 $color-button-primary-hover: $color-secondary-red;
@@ -88,8 +90,6 @@ $form-focus: $color-light-grey;
 $base-font-reset: 10px; // makes easy base-10 math
 $base-font-size: 16;
 $base-line-height: 1.443;
-// Declare mixin need for px
-$support-legacy: true;
 
 // Font Weights
 $font-weight-light: 300;
@@ -161,4 +161,3 @@ $syntax: true;
 $tables: true;
 $tooltips: true;
 $videos: true;
-

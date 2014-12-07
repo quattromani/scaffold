@@ -32,8 +32,9 @@ section,
 section:before, section:after,
 .row:before,
 .row:after {
-  content: ' ';
   display: table;
+  content: ' ';
+  line-height: 0;
 }
 section:after,
 .row:after {

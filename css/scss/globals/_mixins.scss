@@ -16,9 +16,11 @@
 // Inline-Block IE
 @mixin inline-block {
   display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
+  @if $support-legacy {
+    *zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+  }
 }
 
 // Margin
@@ -31,16 +33,19 @@
   padding: $top $right $bottom $left;
 }
 
+// Sizing
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
 // Calc
-@mixin calc($prop, $val, $fallback: null) {
-  // IE8? sorry
+@mixin calc($prop, $expression, $fallback: null) {
   @if $support-legacy {
     #{$prop}: $fallback;
   }
-  @each $pre in -webkit-, -moz- {
-    #{$prop}: $pre + calc(#{$val});
-  }
-  #{$prop}: calc(#{$val});
+  #{$prop}: -webkit-calc(#{$expression});
+  #{$prop}: calc(#{$expression});
 }
 
 // Rem Mixin
@@ -91,11 +96,14 @@
 }
 
 // Font Size
-@mixin font-size($value, $base: $base-font-size) {
+@mixin font-size($value: $base-font-size, $base: $base-font-size) {
+  @if not unitless($value) {
+    $value: strip-units($value);
+  }
   @if $support-legacy {
     font-size: $value * 1px;
   }
-  font-size: $value * .1rem;
+  font-size: ($value / $base) *1rem;
 }
 
 // Text overflow
@@ -106,84 +114,38 @@
   white-space: nowrap;
 }
 
+// Word Wrap
+@mixin word-wrap() {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+}
+
 @mixin clearfix() {
   zoom: 1;
-
   &:before,
   &:after {
-    content: ' ';
     display: table;
+    content: ' ';
+    line-height: 0;
   }
-
   &:after {
     clear: both;
   }
 }
 
-// Column / Grid Control
-$width: 100%;   // total with of page
-$site-column-count: 12 !default;    // number of columns
-$site-gutter-width: 2% !default;  // margin between columns
-$marginless: 0;
-
-// math magic
-$col-width: ($width - ($site-gutter-width * ($site-column-count - 1))) / $site-column-count;
-$col-total-width: $col-width + $site-gutter-width;
-
-$marginless-col-width: $width / $site-column-count;
-
-// create row
-@mixin row() {
-  @include clearfix;
-  @include inline-block;
-  width: $width;
-  margin-bottom: $margin;
-
-  &:only-child {
-    margin-bottom: 0;
+// Top, Right, Bottom, Left
+$trbl-position: null !default;
+@mixin trbl($top: $trbl-position, $right: $trbl-position, $bottom: $trbl-position, $left: $trbl-position) {
+  @each $data in top $top, right $right, bottom $bottom, left $left {
+    #{nth($data, 1)}: nth($data, 2);
   }
 }
 
-// create a column
-@mixin col($n: 1) {
-  float: left;
-  @include span($n);
-}
-
-// create a marginless column
-@mixin marginless-col($n: 1) {
-  float: left;
-  @include marginless-span($n);
-}
-
-// element span n columns
-@mixin span($n: 1) {
-  width: ($n * $col-width) + (($n - 1) * $site-gutter-width);
-  @if $n == $site-column-count {
-    margin-left: 0;
-    } @else {
-      margin-left: $site-gutter-width;
-    }
-  }
-
-  @mixin marginless-span($n: 1) {
-    width: ($n * $marginless-col-width);
-    margin-left: 0;
-  }
-
-// remove margin from all last columns
-@mixin first() {
-  margin-left: 0;
-}
-
-// prepend n blank columns
-@mixin prepend($n: 1) {
-  margin-left: $col-total-width * $n;
-}
-
-// append n blank columns
-@mixin append($n: 1) {
-  margin-right: $col-total-width * $n + $site-gutter-width;
+// Margin
+@mixin margin($top: 0, $right: null, $bottom: null, $left: null) {
+  margin: $top $right $bottom $left;
 }
 
 // Flexbox
@@ -211,8 +173,10 @@ $marginless-col-width: $width / $site-column-count;
 // Opacity
 @mixin opacity($opacity) {
   opacity: $opacity;
-  $opacity-ie: ($opacity * 100);
-  filter: #{alpha(opacity=$opacity-ie)};
+  @if $support-legacy {
+    $opacity-ie: ($opacity * 100);
+    filter: #{alpha(opacity=$opacity-ie)};
+  }
 }
 
 // Background Clip
@@ -227,15 +191,17 @@ $marginless-col-width: $width / $site-column-count;
 }
 
 // RGBa Colors w/Fallback
-@mixin rgba($color, $alpha) {
+@mixin rgba($color, $alpha: $site-alpha) {
   $rgba: rgba($color, $alpha);
   $ie-hex-str: ie-hex-str($rgba);
   background: $rgba;
-  .ie & {
-    background: transparent;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str}, endColorstr=#{$ie-hex-str})";
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
-    zoom: 1
+  @if $support-legacy {
+    .ie & {
+      background: transparent;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str}, endColorstr=#{$ie-hex-str})";
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
+      zoom: 1
+    }
   }
 }
 
@@ -280,6 +246,24 @@ $marginless-col-width: $width / $site-column-count;
   position: relative;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@mixin coverer($position: absolute) {
+  position: $position;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Center an element vertically and horizontally
+@mixin centerer($position: absolute) {
+  position: $position;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -290,6 +274,9 @@ $marginless-col-width: $width / $site-column-count;
 
 // Transform
 @mixin rotate($degrees) {
+  @if not unitless($degrees) {
+    $degrees: strip-units($degrees);
+  }
   will-change: transform;
   transform: rotate($degrees * 1deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
