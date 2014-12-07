@@ -15,7 +15,7 @@
 .pagination li.js-last {
   margin-right: 0;
 }
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .pagination {
     display: inline-block;
     *zoom: 1;

@@ -39,7 +39,7 @@
   position: absolute;
   right: 1rem;
   font-size: 40px;
-  font-size: 2.5rem;
+  font-size: 4rem;
   cursor: pointer;
 }
 .modal .modal-header {
@@ -56,7 +56,7 @@
   max-height: 25em;
   padding: 1em;
 }
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .modal .modal-body {
     max-height: 15.625em;
   }

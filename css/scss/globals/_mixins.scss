@@ -33,9 +33,9 @@
 }
 
 // Sizing
-@mixin size($width, $height: $width) {
-  width: $width;
-  height: $height;
+@mixin size($w, $h: $w) {
+  width: $w;
+  height: $h;
 }
 
 // Calc
@@ -95,14 +95,14 @@
 }
 
 // Font Size
-@mixin font-size($value: $base-font-size, $base: $base-font-size) {
+@mixin font-size($value) {
   @if not unitless($value) {
     $value: strip-units($value);
   }
   @if $support-legacy {
     font-size: $value * 1px;
   }
-  font-size: ($value / $base) *1rem;
+  font-size: $value * .1rem;
 }
 
 // Text overflow
@@ -205,25 +205,22 @@ $trbl-position: null !default;
 }
 
 // Background Gradients
-@mixin background-gradient($from-color, $to-color) {
-    background-color: mix($from-color, $to-color); /* Fallback */
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from-color), to($to-color));
-    background-image: -webkit-linear-gradient(top, $from-color, $to-color);
-    background-image: -moz-linear-gradient(top, $from-color, $to-color);
-    background-image: -ms-linear-gradient(top, $from-color, $to-color);
-    background-image: -o-linear-gradient(top, $from-color, $to-color);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$from-color}', EndColorStr='#{$to-color}')";
+@mixin background-gradient($start-color, $end-color, $start-percent: 0%, $end-percent: 100%) {
+  background-image: -webkit-gradient(linear, left $start-percent, left $end-percent, from($start-color), to($end-color));
+  background-image: -webkit-linear-gradient(top, $start-color $start-percent, $end-color $end-percent);
+  background-image:  -moz-linear-gradient(top, $start-color $start-percent, $end-color $end-percent);
+  background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=0);
 }
 
-@mixin horizontal-gradient($startColor, $to, $endColor: 100%) {
-  /* fallback/image non-cover color */
-  background-color: $startColor;
-  background-image: -moz-linear-gradient(left, $startColor 0%, $to $endColor);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, $startColor), color-stop($endColor, $to));
-  background-image: -webkit-linear-gradient(left, $startColor 0%, $to $endColor);
-  background-image: -o-linear-gradient(left, $startColor 0%, $to $endColor);
-  background: -ms-linear-gradient(left, $startColor 0%, $to $endColor);
-  background: linear-gradient(to right, $startColor 0%, $to $endColor);
+@mixin horizontal-gradient($start-color, $end-color, $start-percent: 0%, $end-percent: 100%) {
+  background-image: -webkit-gradient(linear, $start-percent top, $end-percent top, from($start-color), to($end-color));
+  background-image: -webkit-linear-gradient(left, color-stop($start-color $start-percent), color-stop($end-color $end-percent));
+  background-image: -moz-linear-gradient(left, $start-color $start-percent, $end-color $end-percent);
+  background-image:  linear-gradient(to right, $start-color $start-percent, $end-color $end-percent);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=1);
 }
 
 // Box-Shadow
