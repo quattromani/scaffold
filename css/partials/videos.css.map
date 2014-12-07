@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";;;AAOA,KAAM;EACJ,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;ECwIf,MAAM,EAAE,CAAyB;;AA7I/B,wBAAiD;EDSjD,WAAM;IACJ,MAAM,EAAE,IAAI;;;AAIhB,YAAS;EACP,aAAa,EEKR,GAAG",
+"mappings": ";;;AAOA,KAAM;EACJ,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,SAAS,EAAE,IAAI;EC6If,MAAM,EAAE,CAAyB;;AAlJ/B,wBAAiD;EDSjD,WAAM;IACJ,MAAM,EAAE,IAAI;;;AAIhB,YAAS;EACP,aAAa,EEKR,GAAG",
 "sources": ["../scss/partials/videos.scss","../scss/globals/_mixins.scss","../scss/globals/_vars.scss"],
 "names": [],
 "file": "videos.css"
