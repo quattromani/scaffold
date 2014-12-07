@@ -56,4 +56,14 @@ textarea {
   font-size: 16px !important;
 }
 
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=base.css.map */

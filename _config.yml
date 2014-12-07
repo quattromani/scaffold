@@ -13,7 +13,7 @@ github_username:  quattromani
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: true
+highlighter: pygments
 
 exclude: ['node_modules', 'scss', 'DAM']
 

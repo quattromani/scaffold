@@ -83,7 +83,7 @@
         <h5>HTML5 doctype</h5>
 
         <p class="lede">Enforce standards mode in every browser possible with this simple doctype at the beginning of every HTML page.</p>
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;!doctype html&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!doctype html&gt;</span></code></pre></div>
       </li>
       <li>
         <div class="bulleted">
@@ -137,11 +137,11 @@
           </ul>
         </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;!-- Component Name --&gt;
-&lt;div class=&quot;componentName&quot;&gt;
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Component Name --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;componentName&quot;</span><span class="nt">&gt;</span>
   ...
-&lt;/div&gt;
-&lt;!-- ./Component Name --&gt;</code></pre></div>
+<span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- ./Component Name --&gt;</span></code></pre></div>
 
       </li>
     </ul>
@@ -180,13 +180,13 @@
           <li>Other</li>
         </ol>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">.some-div { color: #222; }
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.some-div</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span> <span class="p">}</span>
 
-.some-other-div,
-.some-additional-div {
-  margin: 0 auto;
-  color: #222;
-}</code></pre></div>
+<span class="nc">.some-other-div</span><span class="o">,</span>
+<span class="nc">.some-additional-div</span> <span class="p">{</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
     </li>
     <li>
@@ -194,28 +194,28 @@
 
       <p>Use a new line for every block, list or table element, and indent every such child element to show heirarchy and improve understanding. This applies to elements nested in Sass as well.</p>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">.print {
-  display: block;
-  margin: 0;
-  padding: 0 7px;
-  height: 30px;
-  background: #4f799f;
-  line-height: 30px;
-}
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.print</span> <span class="p">{</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">7px</span><span class="p">;</span>
+  <span class="k">height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#4f799f</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
 
-.print:hover { background: #265a83; }</code></pre></div>
+<span class="nc">.print</span><span class="nd">:hover</span> <span class="p">{</span> <span class="k">background</span><span class="o">:</span> <span class="m">#265a83</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
 
   </li>
   <li>
     <p>Avoid Qualifying ID and class names with type selectors</p>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">// this is bad
-ul#example { color: #ff0; }
-div.error { color: red; }</code></pre></div>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">//</span> <span class="nt">this</span> <span class="nt">is</span> <span class="nt">bad</span>
+<span class="nt">ul</span><span class="nf">#example</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#ff0</span><span class="p">;</span> <span class="p">}</span>
+<span class="nt">div</span><span class="nc">.error</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">// this is good
-#example { color: #0f0; }
-.error { color: green; }</code></pre></div>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">//</span> <span class="nt">this</span> <span class="nt">is</span> <span class="nt">good</span>
+<span class="nf">#example</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#0f0</span><span class="p">;</span> <span class="p">}</span>
+<span class="nc">.error</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
 
     <p>p.s. ID's are bad for CSS, only use ID's for javascript hooks when necessary</p>
   </li>
@@ -224,10 +224,10 @@ div.error { color: red; }</code></pre></div>
 
     <p>For color values that permit, 3 character hexadecimal is preferred</p>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">/* not recommended */
-color: #00ff00;</code></pre></div>
-<div class="highlight"><pre><code class="language-css" data-lang="css">/* recommended */
-color: #0f0;</code></pre></div>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* not recommended */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nf">#00ff00</span><span class="o">;</span></code></pre></div>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* recommended */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nf">#0f0</span><span class="o">;</span></code></pre></div>
 
   </li>
   <li>
@@ -245,29 +245,29 @@ color: #0f0;</code></pre></div>
   <li>
     <h5>Use the SMACSS Approach</h5>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">.componentName {
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.componentName</span> <span class="p">{</span>
 
-  Base {
-  ...
-  }
+  <span class="n">Base</span> <span class="err">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
 
-  Layout {
-  ...
-  }
+  <span class="nt">Layout</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
 
-  Module {
-  ...
-  }
+  <span class="nt">Module</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
 
-  State {
-  ...
-  }
+  <span class="nt">State</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
 
-  Theme {
-  ...
-  }
+  <span class="nt">Theme</span> <span class="p">{</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
 
-}</code></pre></div>
+<span class="err">}</span></code></pre></div>
 
 </li>
 <li>
@@ -335,47 +335,47 @@ color: #0f0;</code></pre></div>
       <p>The main.scss file serves as a "table of contents" and the @import directives should be listed with vendor dependencies first, then author dependencies and core stylesheets, then components.</p>
       <p>Organize the components imports in a manner that makes sense, in other words, group components with the component they extend or inherit from.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss">/* Mixins and Variables */
-// All globals are combined in allGlobals.scss to reduce the nuber of updates necessary to add new files
-@import &quot;global/allGlobals&quot;;
+<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="cm">/* Mixins and Variables */</span>
+<span class="c1">// All globals are combined in allGlobals.scss to reduce the nuber of updates necessary to add new files</span>
+<span class="k">@import</span> <span class="s2">&quot;global/allGlobals&quot;</span><span class="p">;</span>
 
-/* Base */
-@import &quot;partials/base&quot;;
+<span class="cm">/* Base */</span>
+<span class="k">@import</span> <span class="s2">&quot;partials/base&quot;</span><span class="p">;</span>
 
-/* Layout */
-@import &quot;partials/layout&quot;;
+<span class="cm">/* Layout */</span>
+<span class="k">@import</span> <span class="s2">&quot;partials/layout&quot;</span><span class="p">;</span>
 
-/* Modules */
+<span class="cm">/* Modules */</span>
 
-@import &quot;partials/colors&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/colors&quot;</span><span class="p">;</span>
 
-@import &quot;partials/typography&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/typography&quot;</span><span class="p">;</span>
 
-@import &quot;partials/helpers&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/helpers&quot;</span><span class="p">;</span>
 
-@import &quot;partials/lists&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/lists&quot;</span><span class="p">;</span>
 
-@import &quot;partials/buttons&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/buttons&quot;</span><span class="p">;</span>
 
-@import &quot;partials/pagination&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/pagination&quot;</span><span class="p">;</span>
 
-@import &quot;partials/accessibility&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/accessibility&quot;</span><span class="p">;</span>
 
-@import &quot;partials/forms&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/forms&quot;</span><span class="p">;</span>
 
-@import &quot;partials/images&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/images&quot;</span><span class="p">;</span>
 
-@import &quot;partials/videos&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/videos&quot;</span><span class="p">;</span>
 
-@import &quot;partials/modules&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/modules&quot;</span><span class="p">;</span>
 
-@import &quot;partials/jumpTo&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/jumpTo&quot;</span><span class="p">;</span>
 
-@import &quot;partials/_prototype&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/_prototype&quot;</span><span class="p">;</span>
 
-@import &quot;partials/_styleguide&quot;;
+<span class="k">@import</span> <span class="s2">&quot;partials/_styleguide&quot;</span><span class="p">;</span>
 
-/* Components */</code></pre></div>
+<span class="cm">/* Components */</span></code></pre></div>
 
     </li>
     <li>
@@ -494,23 +494,23 @@ color: #0f0;</code></pre></div>
 
       <p>banner - typically the "header" of the page</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;header role=&quot;banner&quot; class=&quot;header&quot;&gt;&lt;/header&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;header</span> <span class="na">role=</span><span class="s">&quot;banner&quot;</span> <span class="na">class=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;&lt;/header&gt;</span></code></pre></div>
 
 <p>navigation - any navigation list, typically the nav element</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;nav role=&quot;navigation&quot; class=&quot;nav&quot;&gt;&lt;/nav&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav&quot;</span><span class="nt">&gt;&lt;/nav&gt;</span></code></pre></div>
 
 <p>main - the main content area</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;section role=&quot;main&quot; class=&quot;main&quot;&gt;&lt;/main&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;section</span> <span class="na">role=</span><span class="s">&quot;main&quot;</span> <span class="na">class=</span><span class="s">&quot;main&quot;</span><span class="nt">&gt;&lt;/main&gt;</span></code></pre></div>
 
   <p>complimentary - information that is tangentially related to the main content</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;aside role=&quot;complimentary&quot; class=&quot;aside&quot;&gt;&lt;/aside&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;aside</span> <span class="na">role=</span><span class="s">&quot;complimentary&quot;</span> <span class="na">class=</span><span class="s">&quot;aside&quot;</span><span class="nt">&gt;&lt;/aside&gt;</span></code></pre></div>
 
   <p>contentinfo - contains information about the parent document such as copyrights and privacy statements</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">&lt;footer role=&quot;contentinfo&quot; class=&quot;footer&quot;&gt;&lt;/footer&gt;</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;footer</span> <span class="na">role=</span><span class="s">&quot;contentinfo&quot;</span> <span class="na">class=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;&lt;/footer&gt;</span></code></pre></div>
 
       </li>
       <li>

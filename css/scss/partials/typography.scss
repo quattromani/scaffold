@@ -253,7 +253,6 @@ pre {
   @include margin($margin, 0, 0);
   @include padding($padding);
   @include border-radius;
-  background-color: $color-light-light-grey;
   overflow: auto;
   word-wrap: break-word;
 }
