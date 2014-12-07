@@ -291,7 +291,7 @@ $trbl-position: null !default;
 }
 
 // Column Count
-@mixin columns($count, $gap) {
+@mixin columns($count: 3, $gap: $site-gutter-width) {
   -webkit-column-count: $count;
   -moz-column-count: $count;
   column-count: $count;
