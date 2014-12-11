@@ -33,7 +33,7 @@
   font-style: "normal";
 }
 .base-font {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .base-font-alt {
@@ -112,7 +112,7 @@ a:active, a:hover {
    ========================== */
 h1,
 .h1 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -134,7 +134,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -178,7 +178,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
@@ -194,7 +194,7 @@ h5,
 
 h6,
 .h6 {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
@@ -239,7 +239,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   word-wrap: break-word;
 }
 p:only-child,
@@ -352,7 +352,7 @@ samp {
 .logo {
   font-size: 40px;
   font-size: 4rem;
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bolder;
 }
 
@@ -360,7 +360,7 @@ samp {
 .division {
   font-size: 40px;
   font-size: 4rem;
-  font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   color: #ef272d;
