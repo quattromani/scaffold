@@ -3,22 +3,26 @@
 
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.jumpTo {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: auto;
-  @include padding(.5em, 1em);
-  border: 0;
-  @include border-radius;
-  background: rgba(0, 0, 0, .675);
-  appearance: none;
-  z-index: 999999;
-  transform: translateZ(0);
-  font-family: $pre;
-  color: #0f0;
-  text-indent: .01px;
-  text-overflow: '';
+@if $jumpTo {
+
+  .jumpTo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    @include padding(.5em, 1em);
+    border: 0;
+    @include border-radius;
+    background: rgba(0, 0, 0, .675);
+    appearance: none;
+    z-index: 999999;
+    transform: translateZ(0);
+    font-family: $pre;
+    color: #0f0;
+    text-indent: .01px;
+    text-overflow: '';
+  }
+
 }

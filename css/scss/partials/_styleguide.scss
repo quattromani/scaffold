@@ -3,55 +3,56 @@
 
 /* ==========================================================================
     Styleguide -- Version: 0.4.2  - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-// For Styleguide Demo ONLY!! Don't ever ingest this file...EVER!
+@if $styleguide {
 
-.styleguide {
+  .styleguide {
 
-  .colors {
-    @include padding($padding);
-    @include border-radius;
-    &.color-white {
-      outline: 1px solid lighten($color-light-grey, 30%);
+    .colors {
+      @include padding($padding);
+      @include border-radius;
+      &.color-white {
+        outline: 1px solid lighten($color-light-grey, 30%);
+      }
+      @media (max-width: $bp-medium) {
+        margin-bottom: $margin;
+      }
     }
-    @media (max-width: $bp-medium) {
-      margin-bottom: $margin;
-    }
-  }
 
-  .swatch {
-    @include margin(0,0,1em);
-    @include border-radius;
-    overflow: auto;
-  }
-  .swatch-color {
-    @include padding(3.5em, $padding);
-    &.color-white {
+    .swatch {
+      @include margin(0,0,1em);
+      @include border-radius;
+      overflow: auto;
+    }
+    .swatch-color {
+      @include padding(3.5em, $padding);
+      &.color-white {
+        border: 1px solid $color-light-grey;
+        border-bottom: none;
+      }
+    }
+    .swatch-info {
+      @include padding($padding / 2);
       border: 1px solid $color-light-grey;
-      border-bottom: none;
+      border-top: none;
+      background: $color-white;
+      color: $text;
+      text-align: center;
     }
-  }
-  .swatch-info {
-    @include padding($padding / 2);
-    border: 1px solid $color-light-grey;
-    border-top: none;
-    background: $color-white;
-    color: $text;
-    text-align: center;
-  }
 
-  .grid {
-    @extend .colors;
-    @include border-radius;
+    .grid {
+      @extend .colors;
+      @include border-radius;
       background: $color-secondary-blue;
-    &:nth-of-type(even) {
-      background: lighten($color-primary-blue, 20%);
+      &:nth-of-type(even) {
+        background: lighten($color-primary-blue, 20%);
+      }
     }
-  }
 
-  .prettyprint {
-    display: none;
-  }
+    .prettyprint {
+      display: none;
+    }
 
+  }
 }

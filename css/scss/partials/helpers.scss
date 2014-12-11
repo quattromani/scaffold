@@ -131,32 +131,32 @@
 }
 
 // Font Size Helpers
-@for $i from 10 through 60 {
-  .fs#{$i} {
-    @include font-size($i);
-    @include bp(bp-medium) {
-      @include font-size($i * .875)
-    }
+// @for $i from 10 through 60 {
+//   .fs#{$i} {
+//     @include font-size($i);
+//     @include bp(bp-medium) {
+//       @include font-size($i * .875)
+//     }
 
-    @include bp(bp-small) {
-      @include font-size($i * .75)
-    }
-  }
-}
+//     @include bp(bp-small) {
+//       @include font-size($i * .75)
+//     }
+//   }
+// }
 
 // Create widths in increments of 5%
-[class*='width-'] {
-  @include inline-block;
-}
+// [class*='width-'] {
+//   @include inline-block;
+// }
 
-$widths: 5;
-@while $widths <= 100 {
-  .width-#{$widths} {
-    width: ($widths * 1%);
-  }
+// $widths: 5;
+// @while $widths <= 100 {
+//   .width-#{$widths} {
+//     width: ($widths * 1%);
+//   }
 
-  $widths: $widths + 5 !global;
-}
+//   $widths: $widths + 5 !global;
+// }
 
 .text-left {
   text-align: left;

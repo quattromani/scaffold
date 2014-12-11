@@ -5,123 +5,126 @@
     Tabs -- Version: 1.9.0.4 - Updated: 11/17/2014
     ========================================================================== */
 
-    .tab-component {
-      .tab-content-container {
+@if $tabs {
+
+  .tab-component {
+    .tab-content-container {
+      @include padding(1em);
+      @include border-radius(0 0 $border-radius $border-radius);
+      background: $site-background;
+      @include box-shadow(0 1px 2px 0 $color-dark-grey);
+    }
+
+    .tabs {
+      display: table;
+      width: 100%;
+      box-shadow: 0 1px 2px 0 $color-dark-grey;
+      @include border-radius;
+
+      ul {
+        display: table-row;
+      }
+
+      li {
+        display: table-cell;
+        position: relative;
         @include padding(1em);
-        @include border-radius(0 0 $border-radius $border-radius);
-        background: $site-background;
-        @include box-shadow(0 1px 2px 0 $color-dark-grey);
-      }
+        @include border-radius($border-radius $border-radius 0 0);
+        border-left: 1px solid $color-grey;
+        @include background-gradient($color-light-grey, $color-grey);
+        color: $text;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
 
-      .tabs {
-        display: table;
-        width: 100%;
-        box-shadow: 0 1px 2px 0 $color-dark-grey;
-        @include border-radius;
-
-        ul {
-          display: table-row;
+        &.js-first {
+          border-left: none;
         }
 
-        li {
-          display: table-cell;
+        a {
+          @include inline-block;
           position: relative;
-          @include padding(1em);
-          @include border-radius($border-radius $border-radius 0 0);
-          border-left: 1px solid $color-grey;
-          @include background-gradient($color-light-grey, $color-grey);
-          color: $text;
-          text-align: center;
-          vertical-align: middle;
-          cursor: pointer;
-
-          &.js-first {
-            border-left: none;
-          }
-
-          a {
-            @include inline-block;
-            position: relative;
-            @include font-family($heading-font);
-            font-weight: normal;
-            text-decoration: none;
-          }
-
-          &.active,
-          &.js-active {
-            background: $site-background;
-            filter: none;
-
-            a {
-              color: $text;
-            }
-          }
+          @include font-family($heading-font);
+          font-weight: normal;
+          text-decoration: none;
         }
-      }
-      .tab-content {
-        display: none;
 
         &.active,
         &.js-active {
-          display: block;
-        }
-      }
-
-      @media (max-width: $bp-medium) {
-
-        .tabs {
-          display: block;
-
-          ul {
-            display: block;
-          }
-
-          li {
-            display: block;
-            border: none;
-            @include border-radius(0);
-            border-bottom: 1px solid $color-light-grey;
-            text-align: left;
-
-            &.js-last {
-              border-bottom: none;
-            }
-
-            a {
-              width: 100%;
-
-              &:after {
-                font-family: $fontawesome;
-                content: '\f107';
-                float: right;
-                @include transition(all, .5s, ease-in-out);
-              }
-
-            }
-            &.active, &.js-active {
-              a {
-                &:after {
-                  @include rotate(180);
-                  float: right;
-                }
-              }
-            }
-
-            &.js-first {
-              @include border-radius($border-radius $border-radius 0 0);
-            }
-          }
-        }
-
-        .tab-content-container {
-          display: none;
-        }
-
-        .tab-content {
-          @include padding(1em);
           background: $site-background;
           filter: none;
+
+          a {
+            color: $text;
+          }
+        }
+      }
+    }
+    .tab-content {
+      display: none;
+
+      &.active,
+      &.js-active {
+        display: block;
+      }
+    }
+
+    @media (max-width: $bp-medium) {
+
+      .tabs {
+        display: block;
+
+        ul {
+          display: block;
+        }
+
+        li {
+          display: block;
+          border: none;
+          @include border-radius(0);
+          border-bottom: 1px solid $color-light-grey;
+          text-align: left;
+
+          &.js-last {
+            border-bottom: none;
+          }
+
+          a {
+            width: 100%;
+
+            &:after {
+              font-family: $fontawesome;
+              content: '\f107';
+              float: right;
+              @include transition(all, .5s, ease-in-out);
+            }
+
+          }
+          &.active, &.js-active {
+            a {
+              &:after {
+                @include rotate(180);
+                float: right;
+              }
+            }
+          }
+
+          &.js-first {
+            @include border-radius($border-radius $border-radius 0 0);
+          }
         }
       }
 
+      .tab-content-container {
+        display: none;
+      }
+
+      .tab-content {
+        @include padding(1em);
+        background: $site-background;
+        filter: none;
+      }
     }
+  }
+
+}

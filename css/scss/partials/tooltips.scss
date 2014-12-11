@@ -5,145 +5,149 @@
     Tooltips -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    .has-tooltip {
-      position: relative;
-      cursor: pointer;
+@if $tooltips {
 
-      .tip {
-        position: absolute;
-        min-width: 15em;
-        max-width: 15em;
-        padding: .5em;
-        border-top: 3px solid $color-primary-red;
-        @include border-radius;
-        @include rgba($color-black, .7);
-        color: $color-white;
-        @include opacity(0);
-        @include transition;
-        cursor: default;
-        pointer-events: none;
-        z-index: 9999;
+  .has-tooltip {
+    position: relative;
+    cursor: pointer;
 
-        @include bp(bp-big) {
-          &-top,
-          &-bottom {
-            left: 50%;
-            transform: translateX(-50%);
-          }
+    .tip {
+      position: absolute;
+      min-width: 15em;
+      max-width: 15em;
+      padding: .5em;
+      border-top: 3px solid $color-primary-red;
+      @include border-radius;
+      @include rgba($color-black, .7);
+      color: $color-white;
+      @include opacity(0);
+      @include transition;
+      cursor: default;
+      pointer-events: none;
+      z-index: 9999;
 
-          &-top {
-            bottom: 100%;
-          }
-
-          &-bottom {
-            top: 100%;
-          }
-
-          &-left,
-          &-right {
-            top: 50%;
-            transform: translateY(-50%);
-
-            &:after {
-              position: absolute;
-              width: 0;
-              content: '';
-              top: 50%;
-              border-bottom: solid transparent .5em;
-              border-top: solid transparent .5em;
-              transform: translateY(-50%);
-            }
-          }
-
-          &-left {
-            right: calc(100% - .75em);
-            margin-right: 1em;
-
-            &:after {
-              right: -.5em;
-              border-left: solid transparent .5em;
-            }
-          }
-
-          &-right {
-            left: calc(100% - .75em);
-            margin-left: 1em;
-
-            &:after {
-              left: -.5em;
-              border-right: solid transparent .5em;
-            }
-          }
-        }
-
-        a {
-          color: $color-white;
-        }
-
-        .footer {
-          display: block;
-          margin-top: .5em;
-          padding: .5em 0;
-          border-top: 1px solid $color-dark-grey;
-        }
-
-        .close-tip-modal {
-          position: absolute;
-          top: 0;
-          right: 1em;
-        }
-      }
-
-      &:hover .tip,
-      &.hover .tip {
-        @include opacity(1);
-        pointer-events: auto;
-      }
-
-      .ie8 & {
-        .tip {
-          display: none;
-        }
-
-        &:hover .tip {
-          display: block;
-        }
-      }
-
-      @include bp(bp-medium) {
-        .tip {
-          position: absolute;
-          bottom: 100%;
+      @include bp(bp-big) {
+        &-top,
+        &-bottom {
           left: 50%;
-          width: 25em;
-          max-width: 90%;
-          margin: 0 auto;
           transform: translateX(-50%);
         }
-      }
 
-      @include bp(bp-small) {
-        .tip {
-          position: fixed;
+        &-top {
+          bottom: 100%;
+        }
+
+        &-bottom {
+          top: 100%;
+        }
+
+        &-left,
+        &-right {
           top: 50%;
-          bottom: inherit;
-          left: 0;
-          right: 0;
-          height: auto;
-          width: 25em;
-          max-width: 90%;
-          margin: 0 auto;
           transform: translateY(-50%);
+
+          &:after {
+            position: absolute;
+            width: 0;
+            content: '';
+            top: 50%;
+            border-bottom: solid transparent .5em;
+            border-top: solid transparent .5em;
+            transform: translateY(-50%);
+          }
+        }
+
+        &-left {
+          right: calc(100% - .75em);
+          margin-right: 1em;
+
+          &:after {
+            right: -.5em;
+            border-left: solid transparent .5em;
+          }
+        }
+
+        &-right {
+          left: calc(100% - .75em);
+          margin-left: 1em;
+
+          &:after {
+            left: -.5em;
+            border-right: solid transparent .5em;
+          }
         }
       }
+
+      a {
+        color: $color-white;
+      }
+
+      .footer {
+        display: block;
+        margin-top: .5em;
+        padding: .5em 0;
+        border-top: 1px solid $color-dark-grey;
+      }
+
+      .close-tip-modal {
+        position: absolute;
+        top: 0;
+        right: 1em;
+      }
     }
 
-    .page-cover {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      @include rgba($color-black, .15);
-      z-index: 999;
+    &:hover .tip,
+    &.hover .tip {
+      @include opacity(1);
+      pointer-events: auto;
     }
+
+    .ie8 & {
+      .tip {
+        display: none;
+      }
+
+      &:hover .tip {
+        display: block;
+      }
+    }
+
+    @include bp(bp-medium) {
+      .tip {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        width: 25em;
+        max-width: 90%;
+        margin: 0 auto;
+        transform: translateX(-50%);
+      }
+    }
+
+    @include bp(bp-small) {
+      .tip {
+        position: fixed;
+        top: 50%;
+        bottom: inherit;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 25em;
+        max-width: 90%;
+        margin: 0 auto;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .page-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include rgba($color-black, .15);
+    z-index: 999;
+  }
+
+}

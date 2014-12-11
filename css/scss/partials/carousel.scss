@@ -5,9 +5,13 @@
     Carousel -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    .carousel {
+@if $carousel {
 
-      .slick-dots button:before {
-        @include font-size(12);
-      }
+  .carousel {
+
+    .slick-dots button:before {
+      @include font-size(12);
     }
+  }
+
+}

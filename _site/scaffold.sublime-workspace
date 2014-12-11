@@ -93,6 +93,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Sites/scaffold/css/scss/globals/_functions.scss",
+		"/Users/Q/Sites/scaffold/package.json",
+		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
+		"/Users/Q/Sites/scaffold/css/partials/accessibility.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/overrides.scss",
 		"/Users/Q/Sites/scaffold/_includes/patterns/accordion/index.html",
 		"/Users/Q/Sites/scaffold/js/tabs.js",
@@ -129,7 +134,6 @@
 		"/Users/Q/Sites/scaffold/patterns/tabs/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/forms.scss",
 		"/Users/Q/Sites/scaffold/sandbox/counters/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
@@ -147,7 +151,6 @@
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/js/placeholder.js",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
-		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
 		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/main.min.css",
@@ -217,10 +220,7 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/_prototype.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/buttons/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/partials/glglyphs.scss",
-		"/Users/Q/Sites/scaffold/_includes/end_content.html",
-		"/Users/Q/Sites/scaffold/README.md",
-		"/Users/Q/Sites/scaffold/_includes/footer.html",
-		"/Users/Q/Sites/scaffold/emails/templates/index.html"
+		"/Users/Q/Sites/scaffold/_includes/end_content.html"
 	],
 	"find":
 	{
@@ -241,6 +241,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"filter",
+			"filters",
+			"$size",
+			"$to-color",
+			"$from-color",
+			"backgro",
+			"transform",
+			"@include rem",
+			"rem-calc",
+			"sizing",
 			"fillit",
 			"sup",
 			"#fillit",
@@ -358,17 +368,7 @@
 			"<a href=\"\">",
 			"pre",
 			"className",
-			"textarea",
-			"250/",
-			" image-focus-3",
-			"panel panel",
-			"/290",
-			"Who We Are",
-			"280",
-			"260",
-			"g/200",
-			"00",
-			"330"
+			"textarea"
 		],
 		"highlight": true,
 		"in_selection": false,

@@ -5,28 +5,32 @@
     Drag & Drop -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    #holder {
-      border: 3px dashed $color-light-grey;
-      width: 300px;
-      min-height: 300px;
-      @include margin(2em, auto);
+@if $drop {
 
-      &.hover {
-        border: 10px dashed #0c0;
-      }
+  #holder {
+    border: 3px dashed $color-light-grey;
+    width: 300px;
+    min-height: 300px;
+    @include margin(2em, auto);
 
-      img {
-        display: block;
-        @include margin(1em, auto);
-      }
-
-      p {
-        @include margin(1em);
-      }
+    &.hover {
+      border: 10px dashed #0c0;
     }
+
+    img {
+      display: block;
+      @include margin(1em, auto);
+    }
+
+    p {
+      @include margin(1em);
+    }
+  }
 
   .fail {
     @include padding(.2em);
     background: $color-primary-red;
     color: $color-white;
   }
+
+}

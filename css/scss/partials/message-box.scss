@@ -5,36 +5,6 @@
     Message Boxes -- Version: 0.2.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.message {
-  position: relative;
-  display: inline-block;
-  padding: 1em;
-  line-height: 1;
-}
-
-// Message Type Placeholder
-%message- {
-  display: flex;
-  align-items: center;
-  background: $color-light-light-grey;
-  font-weight: 700;
-
-  &:before {
-    display: flex;
-    align-items: center;
-    min-width: 3em;
-    @include font-family($fontawesome, 36);
-    padding: .25em 1em;
-  }
-}
-
-// List of Message Types
-$message-types: (
-  (loading, $color-grey, '\75'),
-  (valid, $color-secondary-green, '\43'),
-  (warning, $color-primary-red, '\33'),
-) !default;
-
 // Message Type @mixin
 @mixin message($color, $icon) {
   @extend %message-;
@@ -46,32 +16,67 @@ $message-types: (
   }
 }
 
-// Loop doing all the dumping
-@each $type, $color, $icon in $message-types {
-  .message-#{$type} {
-    @include message($color, $icon);
+@if $message-box {
+
+  .message {
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+    line-height: 1;
   }
+
+  // Message Type Placeholder
+  %message- {
+    display: flex;
+    align-items: center;
+    background: $color-light-light-grey;
+    font-weight: 700;
+
+    &:before {
+      display: flex;
+      align-items: center;
+      min-width: 3em;
+      @include font-family($fontawesome, 36);
+      padding: .25em 1em;
+    }
+  }
+
+  // List of Message Types
+  $message-types: (
+    (loading, $color-grey, '\75'),
+    (valid, $color-secondary-green, '\43'),
+    (warning, $color-primary-red, '\33'),
+  ) !default;
+
+  // Loop doing all the dumping
+  @each $type, $color, $icon in $message-types {
+    .message-#{$type} {
+      @include message($color, $icon);
+    }
+  }
+
+  @-webkit-keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
+  }
+
+  .info-box {
+    border-left: .3em solid currentColor;
+    background: $color-tertiary-blue;
+    color: $color-secondary-blue;
+  }
+
+  .error-box {
+    border-left: .3em solid currentColor;
+    background: $color-tertiary-red;
+    color: $color-secondary-red;
+  }
+
+  .valid-box {
+    border-left: .3em solid currentColor;
+    background: $color-tertiary-green;
+    color: $color-secondary-green;
+  }
+
 }
 
-@-webkit-keyframes rotation {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(359deg); }
-}
-
-.info-box {
-  border-left: .3em solid currentColor;
-  background: $color-tertiary-blue;
-  color: $color-secondary-blue;
-}
-
-.error-box {
-  border-left: .3em solid currentColor;
-  background: $color-tertiary-red;
-  color: $color-secondary-red;
-}
-
-.valid-box {
-  border-left: .3em solid currentColor;
-  background: $color-tertiary-green;
-  color: $color-secondary-green;
-}

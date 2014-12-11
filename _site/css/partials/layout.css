@@ -1,3 +1,6 @@
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: timestamp()
    ========================================================================== */
@@ -86,7 +89,7 @@ section:only-child,
 .third:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .third {
     float: left;
     width: 49%;
@@ -117,7 +120,7 @@ section:only-child,
 .fourth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .fourth {
     float: left;
     width: 49%;
@@ -149,7 +152,7 @@ section:only-child,
 .fifth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .fifth {
     float: left;
     width: 49%;
@@ -181,7 +184,7 @@ section:only-child,
 .sixth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .sixth {
     float: left;
     width: 32%;
@@ -205,7 +208,7 @@ section:only-child,
 .seventh:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .seventh {
     float: left;
     width: 32%;
@@ -229,7 +232,7 @@ section:only-child,
 .eighth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .eighth {
     float: left;
     width: 23.5%;
@@ -263,7 +266,7 @@ section:only-child,
 .ninth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .ninth {
     float: left;
     width: 32%;
@@ -287,7 +290,7 @@ section:only-child,
 .tenth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .tenth {
     float: left;
     width: 23.5%;
@@ -321,7 +324,7 @@ section:only-child,
 .eleventh:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .eleventh {
     float: left;
     width: 23.5%;
@@ -355,7 +358,7 @@ section:only-child,
 .twelfth:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .twelfth {
     float: left;
     width: 15%;
@@ -365,7 +368,7 @@ section:only-child,
     margin-left: 0;
   }
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .twelfth {
     float: left;
     width: 32%;
@@ -417,7 +420,7 @@ section:only-child,
 .two-fifths:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .two-fifths {
     float: left;
     width: 49%;
@@ -438,7 +441,7 @@ section:only-child,
 .three-fifths:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .three-fifths {
     float: left;
     width: 100%;
@@ -459,7 +462,7 @@ section:only-child,
 .four-fifths:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .four-fifths {
     float: left;
     width: 100%;
@@ -480,7 +483,7 @@ section:only-child,
 .two-thirds:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .two-thirds {
     float: left;
     width: 100%;
@@ -501,7 +504,7 @@ section:only-child,
 .three-fourths:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .three-fourths {
     float: left;
     width: 100%;
@@ -522,7 +525,7 @@ section:only-child,
 .three-eighths:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .three-eighths {
     float: left;
     width: 100%;
@@ -543,7 +546,7 @@ section:only-child,
 .five-eighths:first-child {
   margin-left: 0;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .five-eighths {
     float: left;
     width: 100%;

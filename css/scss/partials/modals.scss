@@ -5,73 +5,77 @@
     Modals -- Version: 0.4.0.1 - Updated: 4/28/2014
    ========================================================================== */
 
-.modal {
-  .modal-overlay {
-    position: fixed;
-    display: none;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: $color-black;
-    zoom: 1;
-    @include opacity($site-alpha);
-    z-index: 9999;
-  }
+@if $modals {
 
-  .modal-container {
-    display: none;
-    position: fixed;
-    overflow: visible;
-    top: 50%;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 45em;
-    max-width: 90%;
-    margin: auto;
-    margin-top: -16em;
-    @include border-radius;
-    background: none repeat scroll 0 0 $color-white;
-    color: $text;
-    z-index: 99999;
+  .modal {
+    .modal-overlay {
+      position: fixed;
+      display: none;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: $color-black;
+      zoom: 1;
+      @include opacity($site-alpha);
+      z-index: 9999;
+    }
 
-    > .modal-content {
-      @include box-shadow(0 0 5px 2px $color-dark-grey);
+    .modal-container {
+      display: none;
+      position: fixed;
+      overflow: visible;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: auto;
+      width: 45em;
+      max-width: 90%;
+      margin: auto;
+      margin-top: -16em;
+      @include border-radius;
+      background: none repeat scroll 0 0 $color-white;
+      color: $text;
+      z-index: 99999;
+
+      > .modal-content {
+        @include box-shadow(0 0 5px 2px $color-dark-grey);
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      right: 1rem;
+      @include font-size(40);
+      cursor: pointer;
+    }
+
+    .modal-header {
+      @include padding($spacing);
+      @include border-radius($border-radius $border-radius 0 0);
+      background: #f0f2f5;
+
+      h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0;
+      }
+    }
+
+    .modal-body {
+      overflow: auto;
+      max-height: 25em;
+      @include padding($spacing);
+
+      @include bp(bp-small) {
+        max-height: 15.625em;
+      }
+    }
+
+    .modal-footer {
+      overflow: auto;
+      @include padding($spacing);
+      @include border-radius(0 0 $border-radius $border-radius);
+      background: #f0f2f5;
     }
   }
 
-  .modal-close {
-    position: absolute;
-    right: 1rem;
-    @include font-size(40);
-    cursor: pointer;
-  }
-
-  .modal-header {
-    @include padding($spacing);
-    @include border-radius($border-radius $border-radius 0 0);
-    background: #f0f2f5;
-
-    h1, h2, h3, h4, h5, h6 {
-      margin-bottom: 0;
-    }
-  }
-
-  .modal-body {
-    overflow: auto;
-    max-height: 25em;
-    @include padding($spacing);
-
-    @include bp(bp-small) {
-      max-height: 15.625em;
-    }
-  }
-
-  .modal-footer {
-    overflow: auto;
-    @include padding($spacing);
-    @include border-radius(0 0 $border-radius $border-radius);
-    background: #f0f2f5;
-  }
 }

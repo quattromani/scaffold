@@ -1,4 +1,26 @@
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* Base */
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Base -- Version: 0.2.1- Compiled: timestamp()
    ========================================================================== */
@@ -64,6 +86,17 @@ textarea {
   max-width: 100%; }
 
 /* Layout */
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: timestamp()
    ========================================================================== */
@@ -137,7 +170,7 @@ section,
     margin-left: 0; }
   .third:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .third {
       float: left;
       width: 49%;
@@ -160,7 +193,7 @@ section,
     margin-left: 0; }
   .fourth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .fourth {
       float: left;
       width: 49%;
@@ -184,7 +217,7 @@ section,
     margin-left: 0; }
   .fifth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .fifth {
       float: left;
       width: 49%;
@@ -208,7 +241,7 @@ section,
     margin-left: 0; }
   .sixth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .sixth {
       float: left;
       width: 32%;
@@ -226,7 +259,7 @@ section,
     margin-left: 0; }
   .seventh:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .seventh {
       float: left;
       width: 32%;
@@ -244,7 +277,7 @@ section,
     margin-left: 0; }
   .eighth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .eighth {
       float: left;
       width: 23.5%;
@@ -269,7 +302,7 @@ section,
     margin-left: 0; }
   .ninth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .ninth {
       float: left;
       width: 32%;
@@ -287,7 +320,7 @@ section,
     margin-left: 0; }
   .tenth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .tenth {
       float: left;
       width: 23.5%;
@@ -312,7 +345,7 @@ section,
     margin-left: 0; }
   .eleventh:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .eleventh {
       float: left;
       width: 23.5%;
@@ -337,14 +370,14 @@ section,
     margin-left: 0; }
   .twelfth:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .twelfth {
       float: left;
       width: 15%;
       margin-left: 2%; }
       .twelfth:nth-child(6n) {
         margin-left: 0; } }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .twelfth {
       float: left;
       width: 32%;
@@ -384,7 +417,7 @@ section,
     margin-left: 0; }
   .two-fifths:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .two-fifths {
       float: left;
       width: 49%;
@@ -400,7 +433,7 @@ section,
     margin-left: 0; }
   .three-fifths:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .three-fifths {
       float: left;
       width: 100%;
@@ -416,7 +449,7 @@ section,
     margin-left: 0; }
   .four-fifths:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .four-fifths {
       float: left;
       width: 100%;
@@ -432,7 +465,7 @@ section,
     margin-left: 0; }
   .two-thirds:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .two-thirds {
       float: left;
       width: 100%;
@@ -448,7 +481,7 @@ section,
     margin-left: 0; }
   .three-fourths:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .three-fourths {
       float: left;
       width: 100%;
@@ -464,7 +497,7 @@ section,
     margin-left: 0; }
   .three-eighths:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .three-eighths {
       float: left;
       width: 100%;
@@ -480,7 +513,7 @@ section,
     margin-left: 0; }
   .five-eighths:first-child {
     margin-left: 0; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .five-eighths {
       float: left;
       width: 100%;
@@ -514,6 +547,17 @@ section,
   column-gap: 2em; }
 
 /* Modules */
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Nav -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
@@ -527,6 +571,17 @@ nav ul {
     display: table-cell;
     width: 20%; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
@@ -832,6 +887,17 @@ nav ul {
   -webkit-filter: none;
   filter: none; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
@@ -929,7 +995,7 @@ h1,
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     h1,
     .h1 {
       font-size: 36.75px;
@@ -946,7 +1012,7 @@ h2,
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     h2,
     .h2 {
       font-size: 31.5px;
@@ -963,7 +1029,7 @@ h3,
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     h3,
     .h3 {
       font-size: 26.25px;
@@ -1139,6 +1205,17 @@ samp {
   left: -.1em;
   color: #b3b3b3; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Lists -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
@@ -1204,6 +1281,17 @@ dt {
 dd {
   margin-left: 1em; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Summary -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
@@ -1237,6 +1325,17 @@ details {
   details[open] summary:before {
     content: "\f077"; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: timestamp()
     ========================================================================== */
@@ -1487,9 +1586,31 @@ html input[disabled] {
     .button-bar .button-bar-item:first-of-type {
       border-left: none; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Site Overrides -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Pagination -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
@@ -1514,6 +1635,17 @@ html input[disabled] {
     margin: 0 auto;
     text-align: center; } }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
@@ -1548,6 +1680,17 @@ label + .pill,
     background: #3eb633;
     color: #fff; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Tabs -- Version: 1.9.0.4 - Updated: 11/17/2014
     ========================================================================== */
@@ -1611,7 +1754,7 @@ label + .pill,
   display: none; }
   .tab-component .tab-content.active, .tab-component .tab-content.js-active {
     display: block; }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .tab-component .tabs {
     display: block; }
     .tab-component .tabs ul {
@@ -1656,9 +1799,20 @@ label + .pill,
     -webkit-filter: none;
     filter: none; } }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Accordion -- Version: 1.9.0.0 - Updated: 1/11/2014
-   ========================================================================== */
+    ========================================================================== */
 .expandable li h6 {
   margin-bottom: 0;
   padding: 0.5em 1em;
@@ -1687,7 +1841,7 @@ label + .pill,
     zoom: 1; }
 .expandable li ul {
   display: none; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .expandable li ul {
       border: none; } }
 .expandable li li {
@@ -1705,6 +1859,17 @@ label + .pill,
 .activeContent {
   display: none; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Message Boxes -- Version: 0.2.1 - Compiled: timestamp()
    ========================================================================== */
@@ -1780,6 +1945,17 @@ label + .pill,
   background: #c9efc6;
   color: #308e28; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Modals -- Version: 0.4.0.1 - Updated: 4/28/2014
    ========================================================================== */
@@ -1845,6 +2021,17 @@ label + .pill,
   background-clip: padding-box;
   background: #f0f2f5; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Tooltips -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
@@ -1875,7 +2062,7 @@ label + .pill,
       -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000, endColorstr=#B3000000)";
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
       zoom: 1; }
-    @media (min-width: 68.75em) {
+    @media (min-width: 75em) {
       .has-tooltip .tip-top, .has-tooltip .tip-bottom {
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -1933,7 +2120,7 @@ label + .pill,
     display: none; }
   .ie8 .has-tooltip:hover .tip {
     display: block; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .has-tooltip .tip {
       position: absolute;
       bottom: 100%;
@@ -1973,6 +2160,17 @@ label + .pill,
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#26000000,endColorstr=#26000000);
     zoom: 1; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Carousel -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
@@ -1980,6 +2178,17 @@ label + .pill,
   font-size: 12px;
   font-size: 1.2rem; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ===========================================================================================
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()
    =========================================================================================== */
@@ -1994,6 +2203,17 @@ label + .pill,
   clip: rect(0 0 0 0);
   overflow: hidden; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Forms -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
@@ -2210,6 +2430,17 @@ input.radio:checked ~ label:before {
 input.switch:checked ~ label:after {
   margin-left: 1.375em; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Drag & Drop -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
@@ -2231,6 +2462,17 @@ input.switch:checked ~ label:after {
   background: #ef272d;
   color: #fff; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Images -- Version: 0.4.1 - Compiled: timestamp()
    ========================================================================== */
@@ -2297,6 +2539,17 @@ figcaption {
 .ie9 svg:not(:root) {
   overflow: hidden; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Image Content Panels -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
@@ -2317,6 +2570,17 @@ figcaption {
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#59000000,endColorstr=#59000000);
       zoom: 1; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Audio -- Version: 0.2.1 - Compiled: timestamp()
    ========================================================================== */
@@ -2325,6 +2589,17 @@ audio {
   audio:not([controls]) {
     display: none; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Videos -- Version: 0.4.0.1 - Compiled: timestamp()
    ========================================================================== */
@@ -2338,6 +2613,17 @@ video {
   figure video {
     margin-bottom: 1em; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Tables -- Version: 0.4.1- Compiled: timestamp()
    ========================================================================== */
@@ -2355,6 +2641,17 @@ th,
 td {
   padding: 1em; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
@@ -2382,9 +2679,20 @@ hr.sandbox {
   border: 0;
   border-top: 1px solid #e6e6e6; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .jumpTo {
   position: fixed;
   bottom: 0;
@@ -2405,9 +2713,20 @@ hr.sandbox {
   text-indent: .01px;
   text-overflow: ''; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Styleguide -- Version: 0.4.2  - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .styleguide .colors, .styleguide .grid {
   padding: 1em;
   border-radius: 3px;
@@ -2415,7 +2734,7 @@ hr.sandbox {
   background-clip: padding-box; }
   .styleguide .colors.color-white, .styleguide .color-white.grid {
     outline: 1px solid white; }
-  @media (max-width: 62em) {
+  @media (max-width: 62.5em) {
     .styleguide .colors, .styleguide .grid {
       margin-bottom: 1em; } }
 .styleguide .swatch {
@@ -2446,284 +2765,184 @@ hr.sandbox {
 .styleguide .prettyprint {
   display: none; }
 
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
+/* ==========================================================================
+    Syntax Highlighter -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
 .highlight {
   background-color: #002b36;
   color: #93a1a1; }
-
-.highlight .c {
-  color: #586e75; }
-
-/* Comment */
-.highlight .err {
-  color: #93a1a1; }
-
-/* Error */
-.highlight .g {
-  color: #93a1a1; }
-
-/* Generic */
-.highlight .k {
-  color: #859900; }
-
-/* Keyword */
-.highlight .l {
-  color: #93a1a1; }
-
-/* Literal */
-.highlight .n {
-  color: #93a1a1; }
-
-/* Name */
-.highlight .o {
-  color: #859900; }
-
-/* Operator */
-.highlight .x {
-  color: #cb4b16; }
-
-/* Other */
-.highlight .p {
-  color: #93a1a1; }
-
-/* Punctuation */
-.highlight .cm {
-  color: #586e75; }
-
-/* Comment.Multiline */
-.highlight .cp {
-  color: #859900; }
-
-/* Comment.Preproc */
-.highlight .c1 {
-  color: #586e75; }
-
-/* Comment.Single */
-.highlight .cs {
-  color: #859900; }
-
-/* Comment.Special */
-.highlight .gd {
-  color: #2aa198; }
-
-/* Generic.Deleted */
-.highlight .ge {
-  color: #93a1a1;
-  font-style: italic; }
-
-/* Generic.Emph */
-.highlight .gr {
-  color: #dc322f; }
-
-/* Generic.Error */
-.highlight .gh {
-  color: #cb4b16; }
-
-/* Generic.Heading */
-.highlight .gi {
-  color: #859900; }
-
-/* Generic.Inserted */
-.highlight .go {
-  color: #93a1a1; }
-
-/* Generic.Output */
-.highlight .gp {
-  color: #93a1a1; }
-
-/* Generic.Prompt */
-.highlight .gs {
-  color: #93a1a1;
-  font-weight: bold; }
-
-/* Generic.Strong */
-.highlight .gu {
-  color: #cb4b16; }
-
-/* Generic.Subheading */
-.highlight .gt {
-  color: #93a1a1; }
-
-/* Generic.Traceback */
-.highlight .kc {
-  color: #cb4b16; }
-
-/* Keyword.Constant */
-.highlight .kd {
-  color: #268bd2; }
-
-/* Keyword.Declaration */
-.highlight .kn {
-  color: #859900; }
-
-/* Keyword.Namespace */
-.highlight .kp {
-  color: #859900; }
-
-/* Keyword.Pseudo */
-.highlight .kr {
-  color: #268bd2; }
-
-/* Keyword.Reserved */
-.highlight .kt {
-  color: #dc322f; }
-
-/* Keyword.Type */
-.highlight .ld {
-  color: #93a1a1; }
-
-/* Literal.Date */
-.highlight .m {
-  color: #2aa198; }
-
-/* Literal.Number */
-.highlight .s {
-  color: #2aa198; }
-
-/* Literal.String */
-.highlight .na {
-  color: #93a1a1; }
-
-/* Name.Attribute */
-.highlight .nb {
-  color: #B58900; }
-
-/* Name.Builtin */
-.highlight .nc {
-  color: #268bd2; }
-
-/* Name.Class */
-.highlight .no {
-  color: #cb4b16; }
-
-/* Name.Constant */
-.highlight .nd {
-  color: #268bd2; }
-
-/* Name.Decorator */
-.highlight .ni {
-  color: #cb4b16; }
-
-/* Name.Entity */
-.highlight .ne {
-  color: #cb4b16; }
-
-/* Name.Exception */
-.highlight .nf {
-  color: #268bd2; }
-
-/* Name.Function */
-.highlight .nl {
-  color: #93a1a1; }
-
-/* Name.Label */
-.highlight .nn {
-  color: #93a1a1; }
-
-/* Name.Namespace */
-.highlight .nx {
-  color: #93a1a1; }
-
-/* Name.Other */
-.highlight .py {
-  color: #93a1a1; }
-
-/* Name.Property */
-.highlight .nt {
-  color: #268bd2; }
-
-/* Name.Tag */
-.highlight .nv {
-  color: #268bd2; }
-
-/* Name.Variable */
-.highlight .ow {
-  color: #859900; }
-
-/* Operator.Word */
-.highlight .w {
-  color: #93a1a1; }
-
-/* Text.Whitespace */
-.highlight .mf {
-  color: #2aa198; }
-
-/* Literal.Number.Float */
-.highlight .mh {
-  color: #2aa198; }
-
-/* Literal.Number.Hex */
-.highlight .mi {
-  color: #2aa198; }
-
-/* Literal.Number.Integer */
-.highlight .mo {
-  color: #2aa198; }
-
-/* Literal.Number.Oct */
-.highlight .sb {
-  color: #586e75; }
-
-/* Literal.String.Backtick */
-.highlight .sc {
-  color: #2aa198; }
-
-/* Literal.String.Char */
-.highlight .sd {
-  color: #93a1a1; }
-
-/* Literal.String.Doc */
-.highlight .s2 {
-  color: #2aa198; }
-
-/* Literal.String.Double */
-.highlight .se {
-  color: #cb4b16; }
-
-/* Literal.String.Escape */
-.highlight .sh {
-  color: #93a1a1; }
-
-/* Literal.String.Heredoc */
-.highlight .si {
-  color: #2aa198; }
-
-/* Literal.String.Interpol */
-.highlight .sx {
-  color: #2aa198; }
-
-/* Literal.String.Other */
-.highlight .sr {
-  color: #dc322f; }
-
-/* Literal.String.Regex */
-.highlight .s1 {
-  color: #2aa198; }
-
-/* Literal.String.Single */
-.highlight .ss {
-  color: #2aa198; }
-
-/* Literal.String.Symbol */
-.highlight .bp {
-  color: #268bd2; }
-
-/* Name.Builtin.Pseudo */
-.highlight .vc {
-  color: #268bd2; }
-
-/* Name.Variable.Class */
-.highlight .vg {
-  color: #268bd2; }
-
-/* Name.Variable.Global */
-.highlight .vi {
-  color: #268bd2; }
-
-/* Name.Variable.Instance */
-.highlight .il {
-  color: #2aa198; }
-
-/* Literal.Number.Integer.Long */
+  .highlight .c {
+    color: #586e75; }
+  .highlight .err {
+    color: #93a1a1; }
+  .highlight .g {
+    color: #93a1a1; }
+  .highlight .k {
+    color: #859900; }
+  .highlight .l {
+    color: #93a1a1; }
+  .highlight .n {
+    color: #93a1a1; }
+  .highlight .o {
+    color: #859900; }
+  .highlight .x {
+    color: #cb4b16; }
+  .highlight .p {
+    color: #93a1a1; }
+  .highlight .cm {
+    color: #586e75; }
+  .highlight .cp {
+    color: #859900; }
+  .highlight .c1 {
+    color: #586e75; }
+  .highlight .cs {
+    color: #859900; }
+  .highlight .gd {
+    color: #2aa198; }
+  .highlight .ge {
+    color: #93a1a1;
+    font-style: italic; }
+  .highlight .gr {
+    color: #dc322f; }
+  .highlight .gh {
+    color: #cb4b16; }
+  .highlight .gi {
+    color: #859900; }
+  .highlight .go {
+    color: #93a1a1; }
+  .highlight .gp {
+    color: #93a1a1; }
+  .highlight .gs {
+    color: #93a1a1;
+    font-weight: bold; }
+  .highlight .gu {
+    color: #cb4b16; }
+  .highlight .gt {
+    color: #93a1a1; }
+  .highlight .kc {
+    color: #cb4b16; }
+  .highlight .kd {
+    color: #268bd2; }
+  .highlight .kn {
+    color: #859900; }
+  .highlight .kp {
+    color: #859900; }
+  .highlight .kr {
+    color: #268bd2; }
+  .highlight .kt {
+    color: #dc322f; }
+  .highlight .ld {
+    color: #93a1a1; }
+  .highlight .m {
+    color: #2aa198; }
+  .highlight .s {
+    color: #2aa198; }
+  .highlight .na {
+    color: #93a1a1; }
+  .highlight .nb {
+    color: #B58900; }
+  .highlight .nc {
+    color: #268bd2; }
+  .highlight .no {
+    color: #cb4b16; }
+  .highlight .nd {
+    color: #268bd2; }
+  .highlight .ni {
+    color: #cb4b16; }
+  .highlight .ne {
+    color: #cb4b16; }
+  .highlight .nf {
+    color: #268bd2; }
+  .highlight .nl {
+    color: #93a1a1; }
+  .highlight .nn {
+    color: #93a1a1; }
+  .highlight .nx {
+    color: #93a1a1; }
+  .highlight .py {
+    color: #93a1a1; }
+  .highlight .nt {
+    color: #268bd2; }
+  .highlight .nv {
+    color: #268bd2; }
+  .highlight .ow {
+    color: #859900; }
+  .highlight .w {
+    color: #93a1a1; }
+  .highlight .mf {
+    color: #2aa198; }
+  .highlight .mh {
+    color: #2aa198; }
+  .highlight .mi {
+    color: #2aa198; }
+  .highlight .mo {
+    color: #2aa198; }
+  .highlight .sb {
+    color: #586e75; }
+  .highlight .sc {
+    color: #2aa198; }
+  .highlight .sd {
+    color: #93a1a1; }
+  .highlight .s2 {
+    color: #2aa198; }
+  .highlight .se {
+    color: #cb4b16; }
+  .highlight .sh {
+    color: #93a1a1; }
+  .highlight .si {
+    color: #2aa198; }
+  .highlight .sx {
+    color: #2aa198; }
+  .highlight .sr {
+    color: #dc322f; }
+  .highlight .s1 {
+    color: #2aa198; }
+  .highlight .ss {
+    color: #2aa198; }
+  .highlight .bp {
+    color: #268bd2; }
+  .highlight .vc {
+    color: #268bd2; }
+  .highlight .vg {
+    color: #268bd2; }
+  .highlight .vi {
+    color: #268bd2; }
+  .highlight .il {
+    color: #2aa198; }
+
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
+.box-column, hr, hr.sandbox {
+  *zoom: 1; }
+  .box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+    content: " ";
+    display: table; }
+  .box-column:after, hr:after, hr.sandbox:after {
+    clear: both; }
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
@@ -2791,685 +3010,6 @@ hr.sandbox {
     right: 0; }
   .place.bottom.left {
     left: 0; }
-
-.fs10 {
-  font-size: 10px;
-  font-size: 1rem; }
-  @media (max-width: 62em) {
-    .fs10 {
-      font-size: 8.75px;
-      font-size: 0.875rem; } }
-  @media (max-width: 40em) {
-    .fs10 {
-      font-size: 7.5px;
-      font-size: 0.75rem; } }
-
-.fs11 {
-  font-size: 11px;
-  font-size: 1.1rem; }
-  @media (max-width: 62em) {
-    .fs11 {
-      font-size: 9.625px;
-      font-size: 0.9625rem; } }
-  @media (max-width: 40em) {
-    .fs11 {
-      font-size: 8.25px;
-      font-size: 0.825rem; } }
-
-.fs12 {
-  font-size: 12px;
-  font-size: 1.2rem; }
-  @media (max-width: 62em) {
-    .fs12 {
-      font-size: 10.5px;
-      font-size: 1.05rem; } }
-  @media (max-width: 40em) {
-    .fs12 {
-      font-size: 9px;
-      font-size: 0.9rem; } }
-
-.fs13 {
-  font-size: 13px;
-  font-size: 1.3rem; }
-  @media (max-width: 62em) {
-    .fs13 {
-      font-size: 11.375px;
-      font-size: 1.1375rem; } }
-  @media (max-width: 40em) {
-    .fs13 {
-      font-size: 9.75px;
-      font-size: 0.975rem; } }
-
-.fs14 {
-  font-size: 14px;
-  font-size: 1.4rem; }
-  @media (max-width: 62em) {
-    .fs14 {
-      font-size: 12.25px;
-      font-size: 1.225rem; } }
-  @media (max-width: 40em) {
-    .fs14 {
-      font-size: 10.5px;
-      font-size: 1.05rem; } }
-
-.fs15 {
-  font-size: 15px;
-  font-size: 1.5rem; }
-  @media (max-width: 62em) {
-    .fs15 {
-      font-size: 13.125px;
-      font-size: 1.3125rem; } }
-  @media (max-width: 40em) {
-    .fs15 {
-      font-size: 11.25px;
-      font-size: 1.125rem; } }
-
-.fs16 {
-  font-size: 16px;
-  font-size: 1.6rem; }
-  @media (max-width: 62em) {
-    .fs16 {
-      font-size: 14px;
-      font-size: 1.4rem; } }
-  @media (max-width: 40em) {
-    .fs16 {
-      font-size: 12px;
-      font-size: 1.2rem; } }
-
-.fs17 {
-  font-size: 17px;
-  font-size: 1.7rem; }
-  @media (max-width: 62em) {
-    .fs17 {
-      font-size: 14.875px;
-      font-size: 1.4875rem; } }
-  @media (max-width: 40em) {
-    .fs17 {
-      font-size: 12.75px;
-      font-size: 1.275rem; } }
-
-.fs18 {
-  font-size: 18px;
-  font-size: 1.8rem; }
-  @media (max-width: 62em) {
-    .fs18 {
-      font-size: 15.75px;
-      font-size: 1.575rem; } }
-  @media (max-width: 40em) {
-    .fs18 {
-      font-size: 13.5px;
-      font-size: 1.35rem; } }
-
-.fs19 {
-  font-size: 19px;
-  font-size: 1.9rem; }
-  @media (max-width: 62em) {
-    .fs19 {
-      font-size: 16.625px;
-      font-size: 1.6625rem; } }
-  @media (max-width: 40em) {
-    .fs19 {
-      font-size: 14.25px;
-      font-size: 1.425rem; } }
-
-.fs20 {
-  font-size: 20px;
-  font-size: 2rem; }
-  @media (max-width: 62em) {
-    .fs20 {
-      font-size: 17.5px;
-      font-size: 1.75rem; } }
-  @media (max-width: 40em) {
-    .fs20 {
-      font-size: 15px;
-      font-size: 1.5rem; } }
-
-.fs21 {
-  font-size: 21px;
-  font-size: 2.1rem; }
-  @media (max-width: 62em) {
-    .fs21 {
-      font-size: 18.375px;
-      font-size: 1.8375rem; } }
-  @media (max-width: 40em) {
-    .fs21 {
-      font-size: 15.75px;
-      font-size: 1.575rem; } }
-
-.fs22 {
-  font-size: 22px;
-  font-size: 2.2rem; }
-  @media (max-width: 62em) {
-    .fs22 {
-      font-size: 19.25px;
-      font-size: 1.925rem; } }
-  @media (max-width: 40em) {
-    .fs22 {
-      font-size: 16.5px;
-      font-size: 1.65rem; } }
-
-.fs23 {
-  font-size: 23px;
-  font-size: 2.3rem; }
-  @media (max-width: 62em) {
-    .fs23 {
-      font-size: 20.125px;
-      font-size: 2.0125rem; } }
-  @media (max-width: 40em) {
-    .fs23 {
-      font-size: 17.25px;
-      font-size: 1.725rem; } }
-
-.fs24 {
-  font-size: 24px;
-  font-size: 2.4rem; }
-  @media (max-width: 62em) {
-    .fs24 {
-      font-size: 21px;
-      font-size: 2.1rem; } }
-  @media (max-width: 40em) {
-    .fs24 {
-      font-size: 18px;
-      font-size: 1.8rem; } }
-
-.fs25 {
-  font-size: 25px;
-  font-size: 2.5rem; }
-  @media (max-width: 62em) {
-    .fs25 {
-      font-size: 21.875px;
-      font-size: 2.1875rem; } }
-  @media (max-width: 40em) {
-    .fs25 {
-      font-size: 18.75px;
-      font-size: 1.875rem; } }
-
-.fs26 {
-  font-size: 26px;
-  font-size: 2.6rem; }
-  @media (max-width: 62em) {
-    .fs26 {
-      font-size: 22.75px;
-      font-size: 2.275rem; } }
-  @media (max-width: 40em) {
-    .fs26 {
-      font-size: 19.5px;
-      font-size: 1.95rem; } }
-
-.fs27 {
-  font-size: 27px;
-  font-size: 2.7rem; }
-  @media (max-width: 62em) {
-    .fs27 {
-      font-size: 23.625px;
-      font-size: 2.3625rem; } }
-  @media (max-width: 40em) {
-    .fs27 {
-      font-size: 20.25px;
-      font-size: 2.025rem; } }
-
-.fs28 {
-  font-size: 28px;
-  font-size: 2.8rem; }
-  @media (max-width: 62em) {
-    .fs28 {
-      font-size: 24.5px;
-      font-size: 2.45rem; } }
-  @media (max-width: 40em) {
-    .fs28 {
-      font-size: 21px;
-      font-size: 2.1rem; } }
-
-.fs29 {
-  font-size: 29px;
-  font-size: 2.9rem; }
-  @media (max-width: 62em) {
-    .fs29 {
-      font-size: 25.375px;
-      font-size: 2.5375rem; } }
-  @media (max-width: 40em) {
-    .fs29 {
-      font-size: 21.75px;
-      font-size: 2.175rem; } }
-
-.fs30 {
-  font-size: 30px;
-  font-size: 3rem; }
-  @media (max-width: 62em) {
-    .fs30 {
-      font-size: 26.25px;
-      font-size: 2.625rem; } }
-  @media (max-width: 40em) {
-    .fs30 {
-      font-size: 22.5px;
-      font-size: 2.25rem; } }
-
-.fs31 {
-  font-size: 31px;
-  font-size: 3.1rem; }
-  @media (max-width: 62em) {
-    .fs31 {
-      font-size: 27.125px;
-      font-size: 2.7125rem; } }
-  @media (max-width: 40em) {
-    .fs31 {
-      font-size: 23.25px;
-      font-size: 2.325rem; } }
-
-.fs32 {
-  font-size: 32px;
-  font-size: 3.2rem; }
-  @media (max-width: 62em) {
-    .fs32 {
-      font-size: 28px;
-      font-size: 2.8rem; } }
-  @media (max-width: 40em) {
-    .fs32 {
-      font-size: 24px;
-      font-size: 2.4rem; } }
-
-.fs33 {
-  font-size: 33px;
-  font-size: 3.3rem; }
-  @media (max-width: 62em) {
-    .fs33 {
-      font-size: 28.875px;
-      font-size: 2.8875rem; } }
-  @media (max-width: 40em) {
-    .fs33 {
-      font-size: 24.75px;
-      font-size: 2.475rem; } }
-
-.fs34 {
-  font-size: 34px;
-  font-size: 3.4rem; }
-  @media (max-width: 62em) {
-    .fs34 {
-      font-size: 29.75px;
-      font-size: 2.975rem; } }
-  @media (max-width: 40em) {
-    .fs34 {
-      font-size: 25.5px;
-      font-size: 2.55rem; } }
-
-.fs35 {
-  font-size: 35px;
-  font-size: 3.5rem; }
-  @media (max-width: 62em) {
-    .fs35 {
-      font-size: 30.625px;
-      font-size: 3.0625rem; } }
-  @media (max-width: 40em) {
-    .fs35 {
-      font-size: 26.25px;
-      font-size: 2.625rem; } }
-
-.fs36 {
-  font-size: 36px;
-  font-size: 3.6rem; }
-  @media (max-width: 62em) {
-    .fs36 {
-      font-size: 31.5px;
-      font-size: 3.15rem; } }
-  @media (max-width: 40em) {
-    .fs36 {
-      font-size: 27px;
-      font-size: 2.7rem; } }
-
-.fs37 {
-  font-size: 37px;
-  font-size: 3.7rem; }
-  @media (max-width: 62em) {
-    .fs37 {
-      font-size: 32.375px;
-      font-size: 3.2375rem; } }
-  @media (max-width: 40em) {
-    .fs37 {
-      font-size: 27.75px;
-      font-size: 2.775rem; } }
-
-.fs38 {
-  font-size: 38px;
-  font-size: 3.8rem; }
-  @media (max-width: 62em) {
-    .fs38 {
-      font-size: 33.25px;
-      font-size: 3.325rem; } }
-  @media (max-width: 40em) {
-    .fs38 {
-      font-size: 28.5px;
-      font-size: 2.85rem; } }
-
-.fs39 {
-  font-size: 39px;
-  font-size: 3.9rem; }
-  @media (max-width: 62em) {
-    .fs39 {
-      font-size: 34.125px;
-      font-size: 3.4125rem; } }
-  @media (max-width: 40em) {
-    .fs39 {
-      font-size: 29.25px;
-      font-size: 2.925rem; } }
-
-.fs40 {
-  font-size: 40px;
-  font-size: 4rem; }
-  @media (max-width: 62em) {
-    .fs40 {
-      font-size: 35px;
-      font-size: 3.5rem; } }
-  @media (max-width: 40em) {
-    .fs40 {
-      font-size: 30px;
-      font-size: 3rem; } }
-
-.fs41 {
-  font-size: 41px;
-  font-size: 4.1rem; }
-  @media (max-width: 62em) {
-    .fs41 {
-      font-size: 35.875px;
-      font-size: 3.5875rem; } }
-  @media (max-width: 40em) {
-    .fs41 {
-      font-size: 30.75px;
-      font-size: 3.075rem; } }
-
-.fs42 {
-  font-size: 42px;
-  font-size: 4.2rem; }
-  @media (max-width: 62em) {
-    .fs42 {
-      font-size: 36.75px;
-      font-size: 3.675rem; } }
-  @media (max-width: 40em) {
-    .fs42 {
-      font-size: 31.5px;
-      font-size: 3.15rem; } }
-
-.fs43 {
-  font-size: 43px;
-  font-size: 4.3rem; }
-  @media (max-width: 62em) {
-    .fs43 {
-      font-size: 37.625px;
-      font-size: 3.7625rem; } }
-  @media (max-width: 40em) {
-    .fs43 {
-      font-size: 32.25px;
-      font-size: 3.225rem; } }
-
-.fs44 {
-  font-size: 44px;
-  font-size: 4.4rem; }
-  @media (max-width: 62em) {
-    .fs44 {
-      font-size: 38.5px;
-      font-size: 3.85rem; } }
-  @media (max-width: 40em) {
-    .fs44 {
-      font-size: 33px;
-      font-size: 3.3rem; } }
-
-.fs45 {
-  font-size: 45px;
-  font-size: 4.5rem; }
-  @media (max-width: 62em) {
-    .fs45 {
-      font-size: 39.375px;
-      font-size: 3.9375rem; } }
-  @media (max-width: 40em) {
-    .fs45 {
-      font-size: 33.75px;
-      font-size: 3.375rem; } }
-
-.fs46 {
-  font-size: 46px;
-  font-size: 4.6rem; }
-  @media (max-width: 62em) {
-    .fs46 {
-      font-size: 40.25px;
-      font-size: 4.025rem; } }
-  @media (max-width: 40em) {
-    .fs46 {
-      font-size: 34.5px;
-      font-size: 3.45rem; } }
-
-.fs47 {
-  font-size: 47px;
-  font-size: 4.7rem; }
-  @media (max-width: 62em) {
-    .fs47 {
-      font-size: 41.125px;
-      font-size: 4.1125rem; } }
-  @media (max-width: 40em) {
-    .fs47 {
-      font-size: 35.25px;
-      font-size: 3.525rem; } }
-
-.fs48 {
-  font-size: 48px;
-  font-size: 4.8rem; }
-  @media (max-width: 62em) {
-    .fs48 {
-      font-size: 42px;
-      font-size: 4.2rem; } }
-  @media (max-width: 40em) {
-    .fs48 {
-      font-size: 36px;
-      font-size: 3.6rem; } }
-
-.fs49 {
-  font-size: 49px;
-  font-size: 4.9rem; }
-  @media (max-width: 62em) {
-    .fs49 {
-      font-size: 42.875px;
-      font-size: 4.2875rem; } }
-  @media (max-width: 40em) {
-    .fs49 {
-      font-size: 36.75px;
-      font-size: 3.675rem; } }
-
-.fs50 {
-  font-size: 50px;
-  font-size: 5rem; }
-  @media (max-width: 62em) {
-    .fs50 {
-      font-size: 43.75px;
-      font-size: 4.375rem; } }
-  @media (max-width: 40em) {
-    .fs50 {
-      font-size: 37.5px;
-      font-size: 3.75rem; } }
-
-.fs51 {
-  font-size: 51px;
-  font-size: 5.1rem; }
-  @media (max-width: 62em) {
-    .fs51 {
-      font-size: 44.625px;
-      font-size: 4.4625rem; } }
-  @media (max-width: 40em) {
-    .fs51 {
-      font-size: 38.25px;
-      font-size: 3.825rem; } }
-
-.fs52 {
-  font-size: 52px;
-  font-size: 5.2rem; }
-  @media (max-width: 62em) {
-    .fs52 {
-      font-size: 45.5px;
-      font-size: 4.55rem; } }
-  @media (max-width: 40em) {
-    .fs52 {
-      font-size: 39px;
-      font-size: 3.9rem; } }
-
-.fs53 {
-  font-size: 53px;
-  font-size: 5.3rem; }
-  @media (max-width: 62em) {
-    .fs53 {
-      font-size: 46.375px;
-      font-size: 4.6375rem; } }
-  @media (max-width: 40em) {
-    .fs53 {
-      font-size: 39.75px;
-      font-size: 3.975rem; } }
-
-.fs54 {
-  font-size: 54px;
-  font-size: 5.4rem; }
-  @media (max-width: 62em) {
-    .fs54 {
-      font-size: 47.25px;
-      font-size: 4.725rem; } }
-  @media (max-width: 40em) {
-    .fs54 {
-      font-size: 40.5px;
-      font-size: 4.05rem; } }
-
-.fs55 {
-  font-size: 55px;
-  font-size: 5.5rem; }
-  @media (max-width: 62em) {
-    .fs55 {
-      font-size: 48.125px;
-      font-size: 4.8125rem; } }
-  @media (max-width: 40em) {
-    .fs55 {
-      font-size: 41.25px;
-      font-size: 4.125rem; } }
-
-.fs56 {
-  font-size: 56px;
-  font-size: 5.6rem; }
-  @media (max-width: 62em) {
-    .fs56 {
-      font-size: 49px;
-      font-size: 4.9rem; } }
-  @media (max-width: 40em) {
-    .fs56 {
-      font-size: 42px;
-      font-size: 4.2rem; } }
-
-.fs57 {
-  font-size: 57px;
-  font-size: 5.7rem; }
-  @media (max-width: 62em) {
-    .fs57 {
-      font-size: 49.875px;
-      font-size: 4.9875rem; } }
-  @media (max-width: 40em) {
-    .fs57 {
-      font-size: 42.75px;
-      font-size: 4.275rem; } }
-
-.fs58 {
-  font-size: 58px;
-  font-size: 5.8rem; }
-  @media (max-width: 62em) {
-    .fs58 {
-      font-size: 50.75px;
-      font-size: 5.075rem; } }
-  @media (max-width: 40em) {
-    .fs58 {
-      font-size: 43.5px;
-      font-size: 4.35rem; } }
-
-.fs59 {
-  font-size: 59px;
-  font-size: 5.9rem; }
-  @media (max-width: 62em) {
-    .fs59 {
-      font-size: 51.625px;
-      font-size: 5.1625rem; } }
-  @media (max-width: 40em) {
-    .fs59 {
-      font-size: 44.25px;
-      font-size: 4.425rem; } }
-
-.fs60 {
-  font-size: 60px;
-  font-size: 6rem; }
-  @media (max-width: 62em) {
-    .fs60 {
-      font-size: 52.5px;
-      font-size: 5.25rem; } }
-  @media (max-width: 40em) {
-    .fs60 {
-      font-size: 45px;
-      font-size: 4.5rem; } }
-
-[class*='width-'] {
-  display: inline-block;
-  vertical-align: baseline;
-  *zoom: 1;
-  *display: inline;
-  *vertical-align: auto; }
-
-.width-5 {
-  width: 5%; }
-
-.width-10 {
-  width: 10%; }
-
-.width-15 {
-  width: 15%; }
-
-.width-20 {
-  width: 20%; }
-
-.width-25 {
-  width: 25%; }
-
-.width-30 {
-  width: 30%; }
-
-.width-35 {
-  width: 35%; }
-
-.width-40 {
-  width: 40%; }
-
-.width-45 {
-  width: 45%; }
-
-.width-50 {
-  width: 50%; }
-
-.width-55 {
-  width: 55%; }
-
-.width-60 {
-  width: 60%; }
-
-.width-65 {
-  width: 65%; }
-
-.width-70 {
-  width: 70%; }
-
-.width-75 {
-  width: 75%; }
-
-.width-80 {
-  width: 80%; }
-
-.width-85 {
-  width: 85%; }
-
-.width-90 {
-  width: 90%; }
-
-.width-95 {
-  width: 95%; }
-
-.width-100 {
-  width: 100%; }
 
 .text-left {
   text-align: left; }
@@ -3593,7 +3133,7 @@ hr.sandbox {
   overflow: hidden;
   margin-bottom: 1em; }
 
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .tablet-hidden {
     display: none !important; }
 

@@ -11,8 +11,8 @@ $site-column-count: 12;
 $site-gutter-width: 2%;
 
 // Breakpoints
-$bp-big: 68.75em;
-$bp-medium: 62em;
+$bp-big: 75em;
+$bp-medium: 62.5em;
 $bp-small: 40em;
 
 $breakpoints: (
@@ -142,7 +142,6 @@ $small-body-text: ($base-font-size *.75);
 $disclaimer-text: $small-body-text;
 
 // ---------------------------------------------------------------------- //
-
 // Find and Highlight Mistakes
 $find-mistakes: false;
 
@@ -152,12 +151,13 @@ $support-legacy: true;
 // ---------------------------------------------------------------------- //
 // Decide on included components
 
-$jumpto: true;
-$mistakes: true;
+$jumpTo: true;
 $styleguide: true;
+$accordion: true;
 $audio: true;
 $carousel: true;
 $drop: true;
+$font-awesome: true;
 $forms: true;
 $image-content-panel: true;
 $message-box: true;
@@ -165,7 +165,9 @@ $modals: true;
 $pagination: true;
 $pills: true;
 $scrollTo: true;
+$summary: true;
 $syntax: true;
+$tabs: true;
 $tables: true;
 $tooltips: true;
 $videos: true;

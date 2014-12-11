@@ -5,17 +5,22 @@
     Image Content Panels -- Version: 0.2.1 - Compiled: #{timestamp()}
     ========================================================================== */
 
-    .image-content-panel {
-      position: relative;
-      @include margin;
-      color: $color-white;
+@if $image-content-panel {
 
-      .feature  {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        @include padding($padding / 2);
-        @include rgba($color-black, .35);
-      }
+  .image-content-panel {
+    position: relative;
+    @include margin;
+    color: $color-white;
+
+    .feature  {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      @include padding($padding / 2);
+      @include rgba($color-black, .35);
     }
+  }
+
+}
+

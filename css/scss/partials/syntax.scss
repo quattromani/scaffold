@@ -1,69 +1,232 @@
-.highlight { background-color: #002b36; color: #93a1a1 }
-.highlight .c { color: #586e75 } /* Comment */
-.highlight .err { color: #93a1a1 } /* Error */
-.highlight .g { color: #93a1a1 } /* Generic */
-.highlight .k { color: #859900 } /* Keyword */
-.highlight .l { color: #93a1a1 } /* Literal */
-.highlight .n { color: #93a1a1 } /* Name */
-.highlight .o { color: #859900 } /* Operator */
-.highlight .x { color: #cb4b16 } /* Other */
-.highlight .p { color: #93a1a1 } /* Punctuation */
-.highlight .cm { color: #586e75 } /* Comment.Multiline */
-.highlight .cp { color: #859900 } /* Comment.Preproc */
-.highlight .c1 { color: #586e75 } /* Comment.Single */
-.highlight .cs { color: #859900 } /* Comment.Special */
-.highlight .gd { color: #2aa198 } /* Generic.Deleted */
-.highlight .ge { color: #93a1a1; font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #dc322f } /* Generic.Error */
-.highlight .gh { color: #cb4b16 } /* Generic.Heading */
-.highlight .gi { color: #859900 } /* Generic.Inserted */
-.highlight .go { color: #93a1a1 } /* Generic.Output */
-.highlight .gp { color: #93a1a1 } /* Generic.Prompt */
-.highlight .gs { color: #93a1a1; font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: #cb4b16 } /* Generic.Subheading */
-.highlight .gt { color: #93a1a1 } /* Generic.Traceback */
-.highlight .kc { color: #cb4b16 } /* Keyword.Constant */
-.highlight .kd { color: #268bd2 } /* Keyword.Declaration */
-.highlight .kn { color: #859900 } /* Keyword.Namespace */
-.highlight .kp { color: #859900 } /* Keyword.Pseudo */
-.highlight .kr { color: #268bd2 } /* Keyword.Reserved */
-.highlight .kt { color: #dc322f } /* Keyword.Type */
-.highlight .ld { color: #93a1a1 } /* Literal.Date */
-.highlight .m { color: #2aa198 } /* Literal.Number */
-.highlight .s { color: #2aa198 } /* Literal.String */
-.highlight .na { color: #93a1a1 } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
-.highlight .nc { color: #268bd2 } /* Name.Class */
-.highlight .no { color: #cb4b16 } /* Name.Constant */
-.highlight .nd { color: #268bd2 } /* Name.Decorator */
-.highlight .ni { color: #cb4b16 } /* Name.Entity */
-.highlight .ne { color: #cb4b16 } /* Name.Exception */
-.highlight .nf { color: #268bd2 } /* Name.Function */
-.highlight .nl { color: #93a1a1 } /* Name.Label */
-.highlight .nn { color: #93a1a1 } /* Name.Namespace */
-.highlight .nx { color: #93a1a1 } /* Name.Other */
-.highlight .py { color: #93a1a1 } /* Name.Property */
-.highlight .nt { color: #268bd2 } /* Name.Tag */
-.highlight .nv { color: #268bd2 } /* Name.Variable */
-.highlight .ow { color: #859900 } /* Operator.Word */
-.highlight .w { color: #93a1a1 } /* Text.Whitespace */
-.highlight .mf { color: #2aa198 } /* Literal.Number.Float */
-.highlight .mh { color: #2aa198 } /* Literal.Number.Hex */
-.highlight .mi { color: #2aa198 } /* Literal.Number.Integer */
-.highlight .mo { color: #2aa198 } /* Literal.Number.Oct */
-.highlight .sb { color: #586e75 } /* Literal.String.Backtick */
-.highlight .sc { color: #2aa198 } /* Literal.String.Char */
-.highlight .sd { color: #93a1a1 } /* Literal.String.Doc */
-.highlight .s2 { color: #2aa198 } /* Literal.String.Double */
-.highlight .se { color: #cb4b16 } /* Literal.String.Escape */
-.highlight .sh { color: #93a1a1 } /* Literal.String.Heredoc */
-.highlight .si { color: #2aa198 } /* Literal.String.Interpol */
-.highlight .sx { color: #2aa198 } /* Literal.String.Other */
-.highlight .sr { color: #dc322f } /* Literal.String.Regex */
-.highlight .s1 { color: #2aa198 } /* Literal.String.Single */
-.highlight .ss { color: #2aa198 } /* Literal.String.Symbol */
-.highlight .bp { color: #268bd2 } /* Name.Builtin.Pseudo */
-.highlight .vc { color: #268bd2 } /* Name.Variable.Class */
-.highlight .vg { color: #268bd2 } /* Name.Variable.Global */
-.highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
-.highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Syntax Highlighter -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+@if $syntax {
+
+  //colors
+  $color_daintree_approx: #002b36;
+  $color_pewter_approx: #93a1a1;
+  $color_shuttle_gray_approx: #586e75;
+  $color_limeade_approx: #859900;
+  $color_orange_roughy_approx: #cb4b16;
+  $color_jungle_green_approx: #2aa198;
+  $color_alizarin_crimson_approx: #dc322f;
+  $color_curious_blue_approx: #268bd2;
+  $color_hot_toddy_approx: #b58900;
+
+  .highlight {
+    background-color: $color_daintree_approx;
+    color: $color_pewter_approx;
+    .c {
+      color: $color_shuttle_gray_approx;
+    }
+    .err {
+      color: $color_pewter_approx;
+    }
+    .g {
+      color: $color_pewter_approx;
+    }
+    .k {
+      color: $color_limeade_approx;
+    }
+    .l {
+      color: $color_pewter_approx;
+    }
+    .n {
+      color: $color_pewter_approx;
+    }
+    .o {
+      color: $color_limeade_approx;
+    }
+    .x {
+      color: $color_orange_roughy_approx;
+    }
+    .p {
+      color: $color_pewter_approx;
+    }
+    .cm {
+      color: $color_shuttle_gray_approx;
+    }
+    .cp {
+      color: $color_limeade_approx;
+    }
+    .c1 {
+      color: $color_shuttle_gray_approx;
+    }
+    .cs {
+      color: $color_limeade_approx;
+    }
+    .gd {
+      color: $color_jungle_green_approx;
+    }
+    .ge {
+      color: $color_pewter_approx;
+      font-style: italic;
+    }
+    .gr {
+      color: $color_alizarin_crimson_approx;
+    }
+    .gh {
+      color: $color_orange_roughy_approx;
+    }
+    .gi {
+      color: $color_limeade_approx;
+    }
+    .go {
+      color: $color_pewter_approx;
+    }
+    .gp {
+      color: $color_pewter_approx;
+    }
+    .gs {
+      color: $color_pewter_approx;
+      font-weight: bold;
+    }
+    .gu {
+      color: $color_orange_roughy_approx;
+    }
+    .gt {
+      color: $color_pewter_approx;
+    }
+    .kc {
+      color: $color_orange_roughy_approx;
+    }
+    .kd {
+      color: $color_curious_blue_approx;
+    }
+    .kn {
+      color: $color_limeade_approx;
+    }
+    .kp {
+      color: $color_limeade_approx;
+    }
+    .kr {
+      color: $color_curious_blue_approx;
+    }
+    .kt {
+      color: $color_alizarin_crimson_approx;
+    }
+    .ld {
+      color: $color_pewter_approx;
+    }
+    .m {
+      color: $color_jungle_green_approx;
+    }
+    .s {
+      color: $color_jungle_green_approx;
+    }
+    .na {
+      color: $color_pewter_approx;
+    }
+    .nb {
+      color: #B58900;
+    }
+    .nc {
+      color: $color_curious_blue_approx;
+    }
+    .no {
+      color: $color_orange_roughy_approx;
+    }
+    .nd {
+      color: $color_curious_blue_approx;
+    }
+    .ni {
+      color: $color_orange_roughy_approx;
+    }
+    .ne {
+      color: $color_orange_roughy_approx;
+    }
+    .nf {
+      color: $color_curious_blue_approx;
+    }
+    .nl {
+      color: $color_pewter_approx;
+    }
+    .nn {
+      color: $color_pewter_approx;
+    }
+    .nx {
+      color: $color_pewter_approx;
+    }
+    .py {
+      color: $color_pewter_approx;
+    }
+    .nt {
+      color: $color_curious_blue_approx;
+    }
+    .nv {
+      color: $color_curious_blue_approx;
+    }
+    .ow {
+      color: $color_limeade_approx;
+    }
+    .w {
+      color: $color_pewter_approx;
+    }
+    .mf {
+      color: $color_jungle_green_approx;
+    }
+    .mh {
+      color: $color_jungle_green_approx;
+    }
+    .mi {
+      color: $color_jungle_green_approx;
+    }
+    .mo {
+      color: $color_jungle_green_approx;
+    }
+    .sb {
+      color: $color_shuttle_gray_approx;
+    }
+    .sc {
+      color: $color_jungle_green_approx;
+    }
+    .sd {
+      color: $color_pewter_approx;
+    }
+    .s2 {
+      color: $color_jungle_green_approx;
+    }
+    .se {
+      color: $color_orange_roughy_approx;
+    }
+    .sh {
+      color: $color_pewter_approx;
+    }
+    .si {
+      color: $color_jungle_green_approx;
+    }
+    .sx {
+      color: $color_jungle_green_approx;
+    }
+    .sr {
+      color: $color_alizarin_crimson_approx;
+    }
+    .s1 {
+      color: $color_jungle_green_approx;
+    }
+    .ss {
+      color: $color_jungle_green_approx;
+    }
+    .bp {
+      color: $color_curious_blue_approx;
+    }
+    .vc {
+      color: $color_curious_blue_approx;
+    }
+    .vg {
+      color: $color_curious_blue_approx;
+    }
+    .vi {
+      color: $color_curious_blue_approx;
+    }
+    .il {
+      color: $color_jungle_green_approx;
+    }
+  }
+
+}

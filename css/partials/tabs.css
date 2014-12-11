@@ -1,3 +1,6 @@
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Tabs -- Version: 1.9.0.4 - Updated: 11/17/2014
     ========================================================================== */
@@ -65,7 +68,7 @@
 .tab-component .tab-content.active, .tab-component .tab-content.js-active {
   display: block;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .tab-component .tabs {
     display: block;
   }

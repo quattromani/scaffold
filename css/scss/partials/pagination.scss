@@ -5,29 +5,33 @@
     Pagination -- Version: 1.9.0.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.pagination {
-  ol {
-    @include margin;
-    @include padding;
-  }
+@if $pagination {
 
-  li {
-    display: inline;
-    position: relative;
-
-    a {
-      border: 0;
+  .pagination {
+    ol {
+      @include margin;
+      @include padding;
     }
 
-    &.js-last {
-      margin-right: 0;
+    li {
+      display: inline;
+      position: relative;
+
+      a {
+        border: 0;
+      }
+
+      &.js-last {
+        margin-right: 0;
+      }
+    }
+
+    @include bp(bp-small) {
+      @include inline-block();
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
     }
   }
 
-  @include bp(bp-small) {
-    @include inline-block();
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
 }

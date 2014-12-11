@@ -5,31 +5,35 @@
     Scroll To -- Version: 1.9.0.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.scrolltotop,
-%scrolltotop {
-  position: fixed;
-  @include inline-block;
-  right: 1em;
-  bottom: .5em;
-  @include margin(($margin / 2), 0);
-  @include padding(($padding / 2), $padding);
-  @include border-radius;
-  background: rgba(0, 0, 0, .1);
-  font-weight: 100;
-  z-index: 999999;
-  transform: translateZ(0);
+@if $scrollTo {
 
-  &:after {
-    padding-left: ($padding / 2);
-    font-family: $fontawesome;
-    font-size: inherit;
-    font-weight: inherit;
-    content: '\f093';
+  .scrolltotop,
+  %scrolltotop {
+    position: fixed;
+    @include inline-block;
+    right: 1em;
+    bottom: .5em;
+    @include margin(($margin / 2), 0);
+    @include padding(($padding / 2), $padding);
+    @include border-radius;
+    background: rgba(0, 0, 0, .1);
+    font-weight: 100;
+    z-index: 999999;
+    transform: translateZ(0);
+
+    &:after {
+      padding-left: ($padding / 2);
+      font-family: $fontawesome;
+      font-size: inherit;
+      font-weight: inherit;
+      content: '\f093';
+    }
   }
-}
 
-.scrolltotop-modal {
-  @extend %scrolltotop;
-  position: relative;
-  float: right;
+  .scrolltotop-modal {
+    @extend %scrolltotop;
+    position: relative;
+    float: right;
+  }
+
 }

@@ -5,18 +5,23 @@
     Videos -- Version: 0.4.0.1 - Compiled: #{timestamp()}
    ========================================================================== */
 
-video {
-  top: 0;
-  left: 0;
-  @include margin;
+@if $videos {
 
-  @include bp(bp-small) {
-    video {
-      height: auto;
+  video {
+    top: 0;
+    left: 0;
+    @include margin;
+
+    @include bp(bp-small) {
+      video {
+        height: auto;
+      }
+    }
+
+    figure & {
+      margin-bottom: $margin;
     }
   }
 
-  figure & {
-    margin-bottom: $margin;
-  }
 }
+

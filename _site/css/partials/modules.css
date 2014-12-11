@@ -1,3 +1,17 @@
+.box-column, hr, hr.sandbox {
+  *zoom: 1;
+}
+.box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
+  content: " ";
+  display: table;
+}
+.box-column:after, hr:after, hr.sandbox:after {
+  clear: both;
+}
+
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */

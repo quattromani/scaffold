@@ -5,36 +5,40 @@
     Pills -- Version: 1.9.0.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
-label + .pill,
-.pill + label {
-  margin-left: ($padding / 3);
-}
+@if $pills {
 
-.pill,
-%pill {
-  @include padding(.125em, .75em);
-  @include border-radius(50px);
-  background: $color-grey;
-  @include font-size(13);
-  @include font-family($heading-font-alt);
-  font-weight: 700;
-  color: inherit;
-
-  &-white {
-    @extend %pill;
-    background: $color-white;
-    @include box-shadow(inset 0 0 0 1px $text);
+  label + .pill,
+  .pill + label {
+    margin-left: ($padding / 3);
   }
 
-  &-error {
-    @extend %pill;
-    background: $color-primary-red;
-    color: $color-white;
+  .pill,
+  %pill {
+    @include padding(.125em, .75em);
+    @include border-radius(50px);
+    background: $color-grey;
+    @include font-size(13);
+    @include font-family($heading-font-alt);
+    font-weight: 700;
+    color: inherit;
+
+    &-white {
+      @extend %pill;
+      background: $color-white;
+      @include box-shadow(inset 0 0 0 1px $text);
+    }
+
+    &-error {
+      @extend %pill;
+      background: $color-primary-red;
+      color: $color-white;
+    }
+
+    &-success {
+      @extend %pill;
+      background: $color-primary-green;
+      color: $color-white;
+    }
   }
 
-  &-success {
-    @extend %pill;
-    background: $color-primary-green;
-    color: $color-white;
-  }
 }

@@ -1,3 +1,6 @@
+/*
+ * Image replacement
+ */
 /* ==========================================================================
     Tooltips -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
@@ -29,7 +32,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
   zoom: 1;
 }
-@media (min-width: 68.75em) {
+@media (min-width: 75em) {
   .has-tooltip .tip-top, .has-tooltip .tip-bottom {
     left: 50%;
     transform: translateX(-50%);
@@ -95,7 +98,7 @@
 .ie8 .has-tooltip:hover .tip {
   display: block;
 }
-@media (max-width: 62em) {
+@media (max-width: 62.5em) {
   .has-tooltip .tip {
     position: absolute;
     bottom: 100%;
