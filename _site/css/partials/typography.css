@@ -350,12 +350,16 @@ samp {
     Logo
    ========================== */
 .logo {
+  font-size: 40px;
+  font-size: 4rem;
   font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bolder;
 }
 
 .logo_slash,
 .division {
+  font-size: 40px;
+  font-size: 4rem;
   font-family: "NeueHaasGroteskDisp-Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
@@ -364,6 +368,8 @@ samp {
 }
 
 .division {
+  font-size: 40px;
+  font-size: 4rem;
   position: relative;
   left: -.1em;
   color: #b3b3b3;

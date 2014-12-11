@@ -12,7 +12,9 @@
 
 /* Modules */
 
-@import "partials/nav",
+@import "partials/helpers",
+
+		"partials/nav",
 
         "partials/colors",
 
@@ -66,6 +68,4 @@
 
         "partials/syntax",
 
-        "partials/mistakes",
-
-        "partials/helpers";
+        "partials/mistakes";

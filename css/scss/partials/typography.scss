@@ -284,18 +284,21 @@ samp {
    ========================== */
 
 .logo {
+  @include font-size(40);
   font-family: $base-font;
   font-weight: bolder;
 }
 
 .logo_slash,
 .division {
+  @include font-size(40);
   @include font-family($base-font);
   color: $color-primary-red;
   font-weight: 200;
 }
 
 .division {
+  @include font-size(40);
   position: relative;
   left: -.1em;
   color: $color-dark-grey;
