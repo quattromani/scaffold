@@ -12,11 +12,13 @@ $site-gutter-width: 2%;
 
 // Breakpoints
 $bp-big: 75em;
+$bp-bigger: 85em;
 $bp-medium: 62.5em;
 $bp-small: 40em;
 
 $breakpoints: (
   'bp-big': (min-width: $bp-big),
+  'bp-bigger': (min-width: $bp-bigger),
   'bp-medium': (max-width: $bp-medium),
   'bp-small': (max-width: $bp-small)
 );
