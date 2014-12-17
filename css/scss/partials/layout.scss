@@ -63,7 +63,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
-    &:nth-child(even) {
+    &:nth-child(3n) {
       @include first;
     }
   }
@@ -87,7 +87,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
-    &:nth-child(even) {
+    &:nth-child(3n) {
       @include first;
     }
   }
@@ -112,7 +112,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
-    &:nth-child(even) {
+    &:nth-child(odd) {
       @include first;
     }
   }
@@ -137,7 +137,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
-    &:nth-child(3n) {
+    &:nth-child(4n) {
       @include first;
     }
   }
@@ -157,7 +157,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
-    &:nth-child(3n) {
+    &:nth-child(3n+1) {
       @include first;
     }
   }
@@ -177,7 +177,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
 
-    &:nth-child(4n) {
+    &:nth-child(4n+1) {
       @include first;
     }
   }
@@ -205,7 +205,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
-    &:nth-child(3n) {
+    &:nth-child(3n+1) {
       @include first;
     }
   }
@@ -225,7 +225,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
 
-    &:nth-child(4n) {
+    &:nth-child(4n+1) {
       @include first;
     }
   }
@@ -253,7 +253,7 @@ section,
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
 
-    &:nth-child(4n) {
+    &:nth-child(4n+1) {
       @include first;
     }
   }
@@ -279,17 +279,9 @@ section,
   }
 
   @include bp(bp-medium) {
-    @include col($site-column-count / 6);
-
-    &:nth-child(6n) {
-      @include first;
-    }
-  }
-
-  @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
-    &:nth-child(3n) {
+    &:nth-child(3n+1) {
       @include first;
     }
   }

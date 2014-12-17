@@ -86,7 +86,7 @@ a {
   font-family: inherit;
   font-weight: 700;
   color: $link;
-  text-decoration: none;
+  text-decoration: $text-decoration;
   cursor: pointer;
   @include transition;
 

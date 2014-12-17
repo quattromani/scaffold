@@ -181,7 +181,7 @@ section,
       float: left;
       width: 49%;
       margin-left: 2%; }
-      .third:nth-child(even) {
+      .third:nth-child(3n) {
         margin-left: 0; } }
   @media (max-width: 40em) {
     .third {
@@ -204,7 +204,7 @@ section,
       float: left;
       width: 49%;
       margin-left: 2%; }
-      .fourth:nth-child(even) {
+      .fourth:nth-child(3n) {
         margin-left: 0; } }
   @media (max-width: 40em) {
     .fourth {
@@ -228,7 +228,7 @@ section,
       float: left;
       width: 49%;
       margin-left: 2%; }
-      .fifth:nth-child(even) {
+      .fifth:nth-child(odd) {
         margin-left: 0; } }
   @media (max-width: 40em) {
     .fifth {
@@ -252,7 +252,7 @@ section,
       float: left;
       width: 32%;
       margin-left: 2%; }
-      .sixth:nth-child(3n) {
+      .sixth:nth-child(4n) {
         margin-left: 0; } }
 
 .seventh {
@@ -270,7 +270,7 @@ section,
       float: left;
       width: 32%;
       margin-left: 2%; }
-      .seventh:nth-child(3n) {
+      .seventh:nth-child(3n+1) {
         margin-left: 0; } }
 
 .eighth {
@@ -288,7 +288,7 @@ section,
       float: left;
       width: 23.5%;
       margin-left: 2%; }
-      .eighth:nth-child(4n) {
+      .eighth:nth-child(4n+1) {
         margin-left: 0; } }
   @media (max-width: 40em) {
     .eighth {
@@ -313,7 +313,7 @@ section,
       float: left;
       width: 32%;
       margin-left: 2%; }
-      .ninth:nth-child(3n) {
+      .ninth:nth-child(3n+1) {
         margin-left: 0; } }
 
 .tenth {
@@ -331,7 +331,7 @@ section,
       float: left;
       width: 23.5%;
       margin-left: 2%; }
-      .tenth:nth-child(4n) {
+      .tenth:nth-child(4n+1) {
         margin-left: 0; } }
   @media (max-width: 40em) {
     .tenth {
@@ -356,7 +356,7 @@ section,
       float: left;
       width: 23.5%;
       margin-left: 2%; }
-      .eleventh:nth-child(4n) {
+      .eleventh:nth-child(4n+1) {
         margin-left: 0; } }
   @media (max-width: 40em) {
     .eleventh {
@@ -379,16 +379,9 @@ section,
   @media (max-width: 62.5em) {
     .twelfth {
       float: left;
-      width: 15%;
-      margin-left: 2%; }
-      .twelfth:nth-child(6n) {
-        margin-left: 0; } }
-  @media (max-width: 62.5em) {
-    .twelfth {
-      float: left;
       width: 32%;
       margin-left: 2%; }
-      .twelfth:nth-child(3n) {
+      .twelfth:nth-child(3n+1) {
         margin-left: 0; } }
 
 .golden-long {
