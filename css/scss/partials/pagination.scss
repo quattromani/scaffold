@@ -27,9 +27,8 @@
     }
 
     @include bp(bp-small) {
-      @include inline-block();
-      width: 100%;
-      margin: 0 auto;
+      @include inline-block;
+      @include horizontal-center;
       text-align: center;
     }
   }

@@ -18,7 +18,7 @@
       left: 0;
       width: 100%;
       @include padding($padding / 2);
-      @include rgba($color-black, .35);
+      @include rgba($color-black, $site-alpha);
     }
   }
 

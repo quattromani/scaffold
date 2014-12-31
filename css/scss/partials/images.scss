@@ -61,30 +61,39 @@ figcaption {
 }
 
 // Responsive Images
-[class*='image-focus-'] {
+%image-focus {
   min-height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.image-focus-1 {
-  background-position: left center;
-}
+.image-focus {
+  @extend %image-focus;
 
-.image-focus-2 {
-  background-position: 25% center;
-}
+  &-1 {
+    @extend %image-focus;
+    background-position: 25% center;
+  }
+  &-2 {
+    @extend %image-focus;
+    background-position: 25% center;
+  }
 
-.image-focus-3 {
-  background-position: 50% center;
-}
+  &-3 {
+    @extend %image-focus;
+    background-position: 50% center;
+  }
 
-.image-focus-4 {
-  background-position: 75% center;
-}
+  &-4 {
+    @extend %image-focus;
+    background-position: 75% center;
+  }
 
-.image-focus-5 {
-  background-position: right center;
+  &-5 {
+    @extend %image-focus;
+    background-position: right center;
+  }
 }
 
 // ie9 (.ie9)

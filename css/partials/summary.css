@@ -21,16 +21,20 @@ details summary {
   padding: 0.5em;
   background: #ccc;
   outline: none;
-  color: #fff;
+  color: #454545;
 }
 details summary::-webkit-details-marker {
   display: none;
 }
 details summary:before {
   display: inline-block;
+  vertical-align: baseline;
+  *zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
   width: 1em;
   height: 1em;
-  margin-right: .5em;
+  margin-right: 0.5em;
   content: "\f078";
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;

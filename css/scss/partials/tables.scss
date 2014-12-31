@@ -7,7 +7,7 @@
 
 @if $tables {
 
-    table {
+  table {
     width: 100%;
     max-width: 100%;
   }
@@ -22,7 +22,7 @@
 
   th,
   td {
-    @include padding(1em);
+    @include padding($spacing);
   }
 
 }

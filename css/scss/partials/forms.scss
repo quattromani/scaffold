@@ -72,6 +72,7 @@
           @include box-shadow(none);
         }
       }
+
       &[type="range"] {
         width: 100%;
         height: .5em;
@@ -86,6 +87,23 @@
           background-color: $color-grey;
           width: 1em;
           height: 1em;
+        }
+      }
+
+      &[type="number"] {
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          height: auto;
+        }
+      }
+
+      &[type="search"] {
+        -webkit-appearance: textfield;
+        @include box-sizing(content-box);
+
+        &::-webkit-search-cancel-button,
+        &::-webkit-search-decoration {
+          -webkit-appearance: none;
         }
       }
     }

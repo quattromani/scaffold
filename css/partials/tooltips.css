@@ -12,7 +12,7 @@
   position: absolute;
   min-width: 15em;
   max-width: 15em;
-  padding: .5em;
+  padding: 0.5em;
   border-top: 3px solid #ef272d;
   border-radius: 3px;
   background-clip: padding-box;
@@ -105,7 +105,10 @@
     left: 50%;
     width: 25em;
     max-width: 90%;
-    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
     transform: translateX(-50%);
   }
 }

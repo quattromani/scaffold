@@ -4,7 +4,6 @@
 /* ===========================================================================================
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()
    =========================================================================================== */
-.accessibility,
 .visually-hidden {
   position: absolute;
   width: 1px;

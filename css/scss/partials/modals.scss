@@ -63,10 +63,12 @@
     .modal-body {
       overflow: auto;
       max-height: 25em;
+      max-height: 45vh;
       @include padding($spacing);
 
       @include bp(bp-small) {
         max-height: 15.625em;
+        max-height: 30vh;
       }
     }
 

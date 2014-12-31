@@ -8,7 +8,7 @@
 @if $summary {
 
   details {
-    @include margin(1em, 0);
+    @include margin($spacing, 0);
     background: lighten($color-light-grey, 5%);
 
     p {
@@ -18,10 +18,10 @@
     summary {
       @include inline-block;
       width: 100%;
-      @include padding(.5em);
+      @include padding($spacing / 2);
       background: $color-grey;
       outline: none;
-      color: $color-white;
+      color: $text;
 
       // Hide the Default Marker
       &::-webkit-details-marker {
@@ -29,10 +29,10 @@
       }
 
       &:before {
-        display: inline-block;
+        @include inline-block;
         width: 1em;
         height: 1em;
-        margin-right: .5em;
+        margin-right: ($spacing / 2);
         content: "\f078";
         @include font-family($fontawesome);
       }

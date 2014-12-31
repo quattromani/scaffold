@@ -81,7 +81,7 @@
 a {
   @include margin;
   @include padding;
-  background: transparent;
+  background-color: transparent;
   vertical-align: baseline;
   font-family: inherit;
   font-weight: 700;
@@ -234,7 +234,8 @@ dfn {
   font-style: italic;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;

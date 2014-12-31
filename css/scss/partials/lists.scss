@@ -23,6 +23,7 @@ ol {
 ul {
   @include margin;
   @include padding;
+  list-style: none outside none;
 
   ul {
     @include margin;

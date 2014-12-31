@@ -9,7 +9,19 @@
     Reset
    ========================== */
 
-article, aside, figure, footer, header, hgroup, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
@@ -18,7 +30,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   @include padding;
   border: 0;
   background: transparent;
-  list-style: none outside none;
   vertical-align: baseline;
 }
 
@@ -32,7 +43,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 
   // trick to keep non-scrollbar => scrollbar pages from jumping
   @include bp(bp-bigger) {
@@ -76,4 +87,12 @@ svg,
 select,
 textarea {
   max-width: 100%;
+}
+
+audio,
+canvas,
+progress,
+video {
+  @include inline-block;
+  vertical-align: baseline;
 }

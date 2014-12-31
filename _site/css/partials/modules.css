@@ -1,14 +1,3 @@
-.box-column, hr, hr.sandbox {
-  *zoom: 1;
-}
-.box-column:before, hr:before, hr.sandbox:before, .box-column:after, hr:after, hr.sandbox:after {
-  content: " ";
-  display: table;
-}
-.box-column:after, hr:after, hr.sandbox:after {
-  clear: both;
-}
-
 /*
  * Image replacement
  */
@@ -16,6 +5,7 @@
     Modules -- Version: 0.4.0 - Compiled: timestamp()
    ========================================================================== */
 .box-column {
+  zoom: 1;
   margin: 0.5em 0 1em;
   padding: 1em;
   border: 1px solid #e6e6e6;
@@ -24,20 +14,35 @@
   background: #fff;
   overflow: visible;
 }
+.box-column:before, .box-column:after {
+  display: table;
+  content: ' ';
+  line-height: 0;
+}
+.box-column:after {
+  clear: both;
+}
 
-hr {
+hr, hr.sandbox {
+  zoom: 1;
   margin: 1em 0;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  height: 0;
   border: 0;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid white;
 }
-
+hr:before, hr.sandbox:before, hr:after, hr.sandbox:after {
+  display: table;
+  content: ' ';
+  line-height: 0;
+}
+hr:after, hr.sandbox:after {
+  clear: both;
+}
 hr.sandbox {
-  margin: 1em 0;
-  border: 0;
-  border-top: 1px solid #e6e6e6;
+  border-bottom: 0;
 }
 
 /*# sourceMappingURL=modules.css.map */

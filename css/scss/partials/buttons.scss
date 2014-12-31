@@ -5,6 +5,11 @@
     Buttons -- Version: 0.4.2 - Compiled: #{timestamp()}
     ========================================================================== */
 
+    button,
+    select {
+      text-transform: none;
+    }
+
     .btn,
     .button,
     button,

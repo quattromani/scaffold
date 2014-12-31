@@ -9,7 +9,7 @@
 
   .tab-component {
     .tab-content-container {
-      @include padding(1em);
+      @include padding($spacing);
       @include border-radius(0 0 $border-radius $border-radius);
       background: $site-background;
       @include box-shadow(0 1px 2px 0 $color-dark-grey);
@@ -28,7 +28,7 @@
       li {
         display: table-cell;
         position: relative;
-        @include padding(1em);
+        @include padding($spacing);
         @include border-radius($border-radius $border-radius 0 0);
         border-left: 1px solid $color-grey;
         @include background-gradient($color-light-grey, $color-grey);
@@ -120,7 +120,7 @@
       }
 
       .tab-content {
-        @include padding(1em);
+        @include padding($spacing);
         background: $site-background;
         filter: none;
       }

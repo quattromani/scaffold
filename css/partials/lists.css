@@ -19,6 +19,7 @@ ol ol {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none outside none;
 }
 ul ul {
   margin: 0;

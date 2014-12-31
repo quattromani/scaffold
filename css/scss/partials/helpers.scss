@@ -5,6 +5,12 @@
     Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
    ========================================================================== */
 
+.clearfix {
+  *zoom:1;
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+
 .clear {
   clear: both;
 }

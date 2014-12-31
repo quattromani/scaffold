@@ -22,6 +22,11 @@
   }
 }
 
+// Box Model Declaration
+@mixin box-sizing($box-model) {
+  -moz-box-sizing: $box-model;
+  box-sizing: $box-model;
+}
 
 // Margin
 @mixin margin($top: 0, $right: null, $bottom: null, $left: null) {
@@ -59,7 +64,7 @@
   $remValues: '';
 
   @for $i from 1 through $max {
-    $value: strip-unit(nth($values, $i));
+    $value: strip-units(nth($values, $i));
     $pxValues: #{$pxValues + $value*$base-font-reset/10};
 
     @if $i < $max {
@@ -68,7 +73,7 @@
   }
 
   @for $i from 1 through $max {
-    $value: strip-unit(nth($values, $i));
+    $value: strip-units(nth($values, $i));
     $remValues: #{$remValues + $value/10}rem;
 
     @if $i < $max {
@@ -275,6 +280,14 @@ $trbl-position: null !default;
   transform: translate(-50%, -50%);
 }
 
+// Horizontal Align
+@mixin horizontal-center {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 @mixin coverer($position: absolute) {
   position: $position;
   top: 0;
@@ -357,11 +370,29 @@ $trbl-position: null !default;
   }
 }
 
+// Event wrapper
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
 // $support-legacy mixin
 @mixin support-legacy {
   @if $support-legacy {
-     @content;
-  }
+   @content;
+ }
 }
 
 // Accessibly hide content

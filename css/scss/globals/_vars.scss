@@ -100,8 +100,8 @@ $form-focus: $color-light-grey;
 // Typography
 // Fonts
 $base-font-reset: 10px; // makes easy base-10 math
-$base-font-size: 16;
-$base-line-height: 1.443;
+$base-font-size: 16 !default;
+$base-line-height: 1.443 !default;
 
 // Font Weights
 $font-weight-light: 300;
@@ -149,6 +149,17 @@ $disclaimer-text: $small-body-text;
 
 // Find and Highlight Mistakes
 $find-mistakes: false;
+
+// Optional map of minimum browser versions to support. For example, to
+// remove support for IE 7 and earlier, set $browser-minimum-versions['ie']
+// to '8'.
+$browser-minimum-versions: (
+  'chrome':  null,
+  'firefox': null,
+  'ie':      null,
+  'safari':  null,
+  'opera':   null
+) !default;
 
 // If you have to support IE8
 $support-legacy: true;

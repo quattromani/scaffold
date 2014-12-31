@@ -15,7 +15,7 @@
       position: absolute;
       min-width: 15em;
       max-width: 15em;
-      padding: .5em;
+      @include padding($spacing /2);
       border-top: 3px solid $color-primary-red;
       @include border-radius;
       @include rgba($color-black, .7);
@@ -119,7 +119,7 @@
         left: 50%;
         width: 25em;
         max-width: 90%;
-        margin: 0 auto;
+        @include horizontal-center;
         transform: translateX(-50%);
       }
     }
@@ -144,8 +144,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    @include size(100%);
     @include rgba($color-black, .15);
     z-index: 999;
   }

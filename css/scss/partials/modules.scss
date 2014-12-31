@@ -6,9 +6,9 @@
    ========================================================================== */
 
 .box-column {
-  @extend %clearfix !optional;
-  @include margin($margin / 2, 0, $margin);
-  @include padding($padding);
+  @include clearfix;
+  @include margin($spacing / 2, 0, $spacing);
+  @include padding($spacing);
   border: 1px solid $color-light-grey;
   @include border-radius;
   background: $site-background;
@@ -16,18 +16,16 @@
 }
 
 hr {
-  @extend %clearfix !optional;
-  @include margin($margin, 0);
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+  @include clearfix;
+  @include margin($spacing, 0);
+  @include box-sizing(content-box);
+  height: 0;
   border: 0;
   border-top: 1px solid $text-light-grey;
   border-bottom: 1px solid mix($site-background,$color-white,20%);;
-}
 
-hr.sandbox {
-  @extend %clearfix !optional;
-  @include margin($margin, 0);
-  border: 0;
-  border-top: 1px solid $text-light-grey;
+  &.sandbox {
+    @extend hr;
+    border-bottom: 0;
+  }
 }
