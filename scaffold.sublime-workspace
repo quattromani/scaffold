@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"border-to",
+				"border-top-right-radius: "
+			],
+			[
+				"border-radius",
+				"border-top-left-radius: "
+			],
+			[
 				"no",
 				"nowrap"
 			],

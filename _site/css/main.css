@@ -4518,8 +4518,9 @@ hr, hr.sandbox {
     background: #54c2ff; }
 .styleguide .prettyprint {
   display: none; }
-.styleguide .viewport,
-.styleguide .loadtime {
+
+.viewport,
+.loadtime {
   position: fixed;
   bottom: 0;
   padding: 0.5em 1em;
@@ -4528,16 +4529,18 @@ hr, hr.sandbox {
   font-size: 10px;
   font-size: 1rem;
   color: #3eb633; }
-  .ie .styleguide .viewport, .ie
-  .styleguide .loadtime {
+  .ie .viewport, .ie
+  .loadtime {
     background: transparent;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AC000000, endColorstr=#AC000000)";
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AC000000,endColorstr=#AC000000);
     zoom: 1; }
-.styleguide .viewport {
+
+.viewport {
   right: 0;
   border-top-left-radius: 3px; }
-.styleguide .loadtime {
+
+.loadtime {
   left: 0;
   border-top-right-radius: 3px; }
 

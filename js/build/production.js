@@ -7,20 +7,15 @@ var mediumBreakPoint = 768;
 //calculate the time before calling the function in window.onload
 var beforeload = (new Date()).getTime();
 
-(function($) {
-
-  $.fn.loadtime = function() {
+function getPageLoadTime() {
     //calculate the current time in afterload
     var afterload = (new Date()).getTime();
     // now use the beforeload and afterload to calculate the seconds
     var seconds = (afterload - beforeload) / 1000;
     // Place the seconds in the innerHTML to show the results
-    $('.loadtime').text( + seconds + ' sec');
-  }
-
-}(jQuery));
-
-$('.loadtime').loadtime();
+    $('.loadtime').text( 'load time ' + seconds + ' sec');
+}
+window.onload = getPageLoadTime;
 
 /* ==========================================================================
     Styleguide -- Version: 0.4.1 - Updated: 2/22/2014

@@ -5,53 +5,56 @@
     Styleguide -- Version: 0.4.2  - Compiled: #{timestamp()}
     ========================================================================== */
 
-@if $styleguide {
+    @if $styleguide {
 
-  .styleguide {
+      .styleguide {
 
-    .colors {
-      @include padding($padding);
-      @include border-radius;
-      &.color-white {
-        outline: 1px solid lighten($color-light-grey, 30%);
+        .colors {
+          @include padding($padding);
+          @include border-radius;
+          &.color-white {
+            outline: 1px solid lighten($color-light-grey, 30%);
+          }
+          @media (max-width: $bp-medium) {
+            margin-bottom: $margin;
+          }
+        }
+
+        .swatch {
+          @include margin(0,0,1em);
+          @include border-radius;
+          overflow: auto;
+        }
+        .swatch-color {
+          @include padding(3.5em, $padding);
+          &.color-white {
+            border: 1px solid $color-light-grey;
+            border-bottom: none;
+          }
+        }
+        .swatch-info {
+          @include padding($padding / 2);
+          border: 1px solid $color-light-grey;
+          border-top: none;
+          background: $color-white;
+          color: $text;
+          text-align: center;
+        }
+
+        .grid {
+          @extend .colors;
+          @include border-radius;
+          background: $color-secondary-blue;
+          &:nth-of-type(even) {
+            background: lighten($color-primary-blue, 20%);
+          }
+        }
+
+        .prettyprint {
+          display: none;
+        }
+
       }
-      @media (max-width: $bp-medium) {
-        margin-bottom: $margin;
-      }
-    }
-
-    .swatch {
-      @include margin(0,0,1em);
-      @include border-radius;
-      overflow: auto;
-    }
-    .swatch-color {
-      @include padding(3.5em, $padding);
-      &.color-white {
-        border: 1px solid $color-light-grey;
-        border-bottom: none;
-      }
-    }
-    .swatch-info {
-      @include padding($padding / 2);
-      border: 1px solid $color-light-grey;
-      border-top: none;
-      background: $color-white;
-      color: $text;
-      text-align: center;
-    }
-
-    .grid {
-      @extend .colors;
-      @include border-radius;
-      background: $color-secondary-blue;
-      &:nth-of-type(even) {
-        background: lighten($color-primary-blue, 20%);
-      }
-    }
-
-    .prettyprint {
-      display: none;
     }
 
     .viewport,
@@ -74,6 +77,3 @@
       left: 0;
       border-top-right-radius: $border-radius;
     }
-
-  }
-}
