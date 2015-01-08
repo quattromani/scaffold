@@ -1212,6 +1212,10 @@ a {
     color: #e6e6e6; }
   a:active, a:hover {
     outline: 0; }
+  a[href^="http://"], a[href^="https://"] {
+    color: #ef272d; }
+    a[href^="http://"]:hover, a[href^="https://"]:hover {
+      color: #d31016; }
 
 /* ==========================
 	  Headings
@@ -4514,6 +4518,22 @@ hr, hr.sandbox {
     background: #54c2ff; }
 .styleguide .prettyprint {
   display: none; }
+.styleguide .viewport {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 0.5em 1em;
+  border-top-left-radius: 3px;
+  background: rgba(0, 0, 0, 0.675);
+  font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-size: 10px;
+  font-size: 1rem;
+  color: #3eb633; }
+  .ie .styleguide .viewport {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AC000000, endColorstr=#AC000000)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AC000000,endColorstr=#AC000000);
+    zoom: 1; }
 
 /*
  * Image replacement

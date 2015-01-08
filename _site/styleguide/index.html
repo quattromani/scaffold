@@ -59,7 +59,7 @@
 <hr>
 
 
-    <p>Version: 0.2.5 -- Updated: 2014-12-31 11:54:57 -0700</p>
+    <p>Version: 0.2.5 -- Updated: 2015-01-08 14:16:15 -0700</p>
 <hr>
 
 <!-- Loop through and include all styleguide sections -->
@@ -438,6 +438,7 @@
   <div class="vertical lined">
     <ul>
       <li><code>&lt;a&gt;</code> - <a href="#">This is a text link</a></li>
+      <li><code>&lt;a&gt;</code> - <a href="http://google.com">This is an external text link</a></li>
       <li><code>&lt;strong&gt;</code> - <strong>Strong is used to indicate strong importance</strong></li>
       <li><code>&lt;em&gt;</code> - <em>This text has added emphasis</em></li>
       <li><code>&lt;b&gt;</code> - The <b>b element</b> is stylistically different text from normal text, without any special importance</li>
@@ -467,7 +468,7 @@
         <code>&lt;tel&gt;</code> - <a class="tel" href="tel:+18008519530">1-800-851-9530</a>
       </li>
       <li>
-        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">31 Dec 2014</time>
+        <code>&lt;time&gt;</code> - <time class="post-date" datetime="2013-05-22" pubdate="">08 Jan 2015</time>
       </li>
       <li>
         <code>&lt;blockquote&gt;</code>
@@ -2858,6 +2859,36 @@
           <li>Other</li>
         </ol>
 
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.declaration-order</span> <span class="p">{</span>
+  <span class="c">/* Positioning */</span>
+  <span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+  <span class="k">top</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">right</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">bottom</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">left</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="k">z-index</span><span class="o">:</span> <span class="m">100</span><span class="p">;</span>
+
+  <span class="c">/* Box-model */</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+  <span class="k">float</span><span class="o">:</span> <span class="k">right</span><span class="p">;</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100px</span><span class="p">;</span>
+  <span class="k">height</span><span class="o">:</span> <span class="m">100px</span><span class="p">;</span>
+
+  <span class="c">/* Typography */</span>
+  <span class="k">font</span><span class="o">:</span> <span class="k">normal</span> <span class="m">13px</span> <span class="s2">&quot;Helvetica Neue&quot;</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">1</span><span class="o">.</span><span class="m">5</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#333</span><span class="p">;</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+
+  <span class="c">/* Visual */</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="m">#f5f5f5</span><span class="p">;</span>
+  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#e5e5e5</span><span class="p">;</span>
+  <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">3px</span><span class="p">;</span>
+
+  <span class="c">/* Misc */</span>
+  <span class="k">opacity</span><span class="o">:</span> <span class="m">1</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
 <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.some-div</span> <span class="p">{</span> <span class="k">color</span><span class="o">:</span> <span class="m">#222</span><span class="p">;</span> <span class="p">}</span>
 
 <span class="nc">.some-other-div</span><span class="o">,</span>
@@ -2957,11 +2988,17 @@
     Component Name -- Version: 1.0.0.0 - Updated: MM/DD/YYYY
    ========================================================================== */</code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">/*
-* Section chunks
-* get styled
-* as such
-*/</code></pre></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html">/**
+ * Helper class to truncate and add ellipsis to a string too long for it to fit
+ * on a single line.
+ * 1. Prevent content from wrapping, forcing it on a single line.
+ * 2. Add ellipsis at the end of the line.
+ */
+.ellipsis {
+  white-space: nowrap; /* 1 */
+  text-overflow: ellipsis; /* 2 */
+  overflow: hidden;
+}</code></pre></div>
 
 <div class="highlight"><pre><code class="language-html" data-lang="html">/* Hints get styled like this */</code></pre></div>
 
@@ -2991,20 +3028,20 @@
         </ul>
       </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">sass/
+<div class="highlight"><pre><code class="language-html" data-lang="html">scss/
 ├── main.scss
 ├── globals/
+|   ├── _functions.scss
+|   ├── _grid.scss
 |   ├── _mixins.scss
+|   ├── _placeholders.scss
 |   ├── _var.scss
 ├── partials/
-|   ├── _btn.scss
-|   ├── _list.scss
-|   ├── _nav.scss
-|   ├── _etc...
-├── theme/
-|   ├── _btn-theme.scss
+|   └── component/
+|       └── _component.scss
+|       └── _component-theme.scss
 └── vendor/
-└── _jquery.ui.core.scss</code></pre></div>
+    └── jquery.1.11.2.min.js</code></pre></div>
 
     </li>
     <li>
@@ -3228,6 +3265,7 @@
     </footer>
     <!-- ./Footer Component -->
 
+  <div class="viewport"></div>
     <!-- scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/scaffold/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>

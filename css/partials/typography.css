@@ -107,6 +107,12 @@ a.muted, .muted a {
 a:active, a:hover {
   outline: 0;
 }
+a[href^="http://"], a[href^="https://"] {
+  color: #ef272d;
+}
+a[href^="http://"]:hover, a[href^="https://"]:hover {
+  color: #d31016;
+}
 
 /* ==========================
 	  Headings

@@ -54,5 +54,16 @@
       display: none;
     }
 
+    .viewport {
+      position: fixed;
+      @include trbl(null,0,0,null);
+      @include padding($spacing / 2, $spacing);
+      border-top-left-radius: 3px;
+      @include rgba($color-black, .675);
+      font-family: $pre;
+      @include font-size(10);
+      color: $color-primary-green;
+    }
+
   }
 }

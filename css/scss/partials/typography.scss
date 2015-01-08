@@ -115,6 +115,15 @@ a {
   &:hover {
     outline: 0;
   }
+
+  &[href^="http://"],
+  &[href^="https://"] {
+    color: $link-external;
+
+    &:hover {
+      color: $link-external-hover;
+    }
+  }
 }
 
 /* ==========================
