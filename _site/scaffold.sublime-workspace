@@ -101,6 +101,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/js/_styleguide.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
 		"/Users/Q/Sites/scaffold/js/_loadtime.js",
 		"/Users/Q/Sites/scaffold/_config.yml",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/headings/index.html",
@@ -122,7 +124,6 @@
 		"/Users/Q/Sites/scaffold/styleguide/typography/headings/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/fonts/index.html",
 		"/Users/Q/Sites/scaffold/styleguide/typography/body_text/index.html",
-		"/Users/Q/Sites/scaffold/css/scss/partials/_styleguide.scss",
 		"/Users/Q/Sites/scaffold/styleguide/typography/icons/index.html",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_vars.scss",
 		"/Users/Q/Sites/scaffold/_includes/styleguide/typography/icons/index.html",
@@ -227,8 +228,7 @@
 		"/Users/Q/Sites/scaffold/patterns/lists/index.html",
 		"/Users/Q/Sites/scaffold/patterns/message-box/index.html",
 		"/Users/Q/Sites/scaffold/patterns/modals/index.html",
-		"/Users/Q/Sites/scaffold/patterns/pagination/index.html",
-		"/Users/Q/Sites/scaffold/patterns/pills/index.html"
+		"/Users/Q/Sites/scaffold/patterns/pagination/index.html"
 	],
 	"find":
 	{

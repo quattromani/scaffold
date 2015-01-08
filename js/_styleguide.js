@@ -51,7 +51,7 @@ $('.fonts').each(function(){
 });
 
 // Add a 'fold' line to prototype in mobile only
-var overlay = jQuery('<div class="fold"> </div>');
+var overlay = jQuery('<div class="fold">the fold</div>');
 $(window).resize(function() {
     overlay.appendTo(document.body);
 }).resize();

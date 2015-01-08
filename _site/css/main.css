@@ -4544,13 +4544,16 @@ hr, hr.sandbox {
   left: 0;
   border-top-right-radius: 3px; }
 
-.fold {
-  position: absolute;
-  top: 480px;
-  left: 0;
-  width: 100%;
-  border-top: 1px solid #3eb633;
-  z-index: 10000; }
+@media (max-width: 40em) {
+  .fold {
+    position: absolute;
+    top: 480px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid currentColor;
+    color: #0f0;
+    text-align: center;
+    z-index: 10000; } }
 
 /*
  * Image replacement
