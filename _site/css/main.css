@@ -4518,22 +4518,28 @@ hr, hr.sandbox {
     background: #54c2ff; }
 .styleguide .prettyprint {
   display: none; }
-.styleguide .viewport {
+.styleguide .viewport,
+.styleguide .loadtime {
   position: fixed;
-  right: 0;
   bottom: 0;
   padding: 0.5em 1em;
-  border-top-left-radius: 3px;
   background: rgba(0, 0, 0, 0.675);
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   font-size: 10px;
   font-size: 1rem;
   color: #3eb633; }
-  .ie .styleguide .viewport {
+  .ie .styleguide .viewport, .ie
+  .styleguide .loadtime {
     background: transparent;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AC000000, endColorstr=#AC000000)";
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AC000000,endColorstr=#AC000000);
     zoom: 1; }
+.styleguide .viewport {
+  right: 0;
+  border-top-left-radius: 3px; }
+.styleguide .loadtime {
+  left: 0;
+  border-top-right-radius: 3px; }
 
 /*
  * Image replacement

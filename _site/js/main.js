@@ -19,6 +19,7 @@ $(function() {
   }
 
 }(jQuery));
+
 $('.getYear').getYear();
 
 // Open all external links in a new window

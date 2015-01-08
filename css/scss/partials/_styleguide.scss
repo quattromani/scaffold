@@ -54,15 +54,25 @@
       display: none;
     }
 
-    .viewport {
+    .viewport,
+    .loadtime {
       position: fixed;
-      @include trbl(null,0,0,null);
+      bottom: 0;
       @include padding($spacing / 2, $spacing);
-      border-top-left-radius: 3px;
       @include rgba($color-black, .675);
       font-family: $pre;
       @include font-size(10);
       color: $color-primary-green;
+    }
+
+    .viewport {
+      right: 0;
+      border-top-left-radius: $border-radius;
+    }
+
+    .loadtime {
+      left: 0;
+      border-top-right-radius: $border-radius;
     }
 
   }

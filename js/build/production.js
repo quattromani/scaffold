@@ -1,6 +1,28 @@
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
 /* ==========================================================================
+    load time -- Version: 0.2.2 - Updated: 7/26/2014
+    ========================================================================== */
+
+//calculate the time before calling the function in window.onload
+var beforeload = (new Date()).getTime();
+
+(function($) {
+
+  $.fn.loadtime = function() {
+    //calculate the current time in afterload
+    var afterload = (new Date()).getTime();
+    // now use the beforeload and afterload to calculate the seconds
+    var seconds = (afterload - beforeload) / 1000;
+    // Place the seconds in the innerHTML to show the results
+    $('.loadtime').text( + seconds + ' sec');
+  }
+
+}(jQuery));
+
+$('.loadtime').loadtime();
+
+/* ==========================================================================
     Styleguide -- Version: 0.4.1 - Updated: 2/22/2014
     ========================================================================== */
 
@@ -114,6 +136,7 @@ $(function() {
   }
 
 }(jQuery));
+
 $('.getYear').getYear();
 
 // Open all external links in a new window
@@ -536,7 +559,7 @@ function buildAccordion(){
 $('.has-tooltip').tooltips();
 
 /* ==========================================================================
-    vieport -- Version: 0.2.2 - Updated: 7/26/2014
+    viewport -- Version: 0.2.2 - Updated: 7/26/2014
     ========================================================================== */
 
 (function($) {
