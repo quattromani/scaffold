@@ -69,6 +69,12 @@ $('.fonts').each(function(){
     $(this).prepend(fonts);
 });
 
+// Add a 'fold' line to prototype in mobile only
+var overlay = jQuery('<div class="fold"> </div>');
+$(window).resize(function() {
+    overlay.appendTo(document.body);
+}).resize();
+
 /* ==========================================================================
     Accordion -- Version: 1.9.0.0 - Updated: 12/31/2013
    ========================================================================== */

@@ -77,3 +77,12 @@
       left: 0;
       border-top-right-radius: $border-radius;
     }
+
+    .fold {
+      position: absolute;
+      top: 480px;
+      left: 0;
+      width: 100%;
+      border-top: 1px solid $color-primary-green;
+      z-index: 10000;
+    }
