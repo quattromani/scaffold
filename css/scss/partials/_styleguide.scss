@@ -88,5 +88,9 @@
         color: #0f0;
         text-align: center;
         z-index: 10000;
+        
+        &:before {
+	        content: 'fold';
+        }
       }
     }

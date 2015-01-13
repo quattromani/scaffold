@@ -43,6 +43,18 @@ ul {
   }
 }
 
+@mixin bulleted {
+  ~ ul {
+    margin-bottom: 0;
+  }
+
+  li {
+    list-style: outside disc;
+    margin-left: $margin;
+    border-bottom: 0;
+  }
+}
+
 // Horizontal List Items
 .horizontal {
   li {

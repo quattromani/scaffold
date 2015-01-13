@@ -42,8 +42,8 @@ html {
   font-weight: normal;
   font-size: 10px;
   color: #454545;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-box-sizing: border-box;
@@ -4553,7 +4553,9 @@ hr, hr.sandbox {
     border-top: 1px solid currentColor;
     color: #0f0;
     text-align: center;
-    z-index: 10000; } }
+    z-index: 10000; }
+    .fold:before {
+      content: 'fold'; } }
 
 /*
  * Image replacement

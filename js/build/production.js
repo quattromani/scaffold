@@ -13,7 +13,7 @@ function getPageLoadTime() {
     // now use the beforeload and afterload to calculate the seconds
     var seconds = (afterload - beforeload) / 1000;
     // Place the seconds in the innerHTML to show the results
-    $('.loadtime').text( 'load time ' + seconds + ' sec');
+    $('.loadtime').text( + seconds + ' sec');
 }
 window.onload = getPageLoadTime;
 

@@ -54,10 +54,6 @@
 }
 
 // Rem Mixin
-@function strip-unit($num) {
-  @return $num / ($num * 0 + 1);
-}
-
 @mixin rem($property, $values...) {
   $max: length($values);
   $pxValues: '';
@@ -153,9 +149,13 @@ $trbl-position: null !default;
   }
 }
 
-// Margin
-@mixin margin($top: 0, $right: null, $bottom: null, $left: null) {
-  margin: $top $right $bottom $left;
+// Position
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
 }
 
 // Flexbox
@@ -195,8 +195,8 @@ $trbl-position: null !default;
 }
 
 // Border Radius
-@mixin border-radius($radius: $border-radius) {
-  border-radius: $radius;
+@mixin border-radius($top: $border-radius, $right: null, $bottom: null, $left: null) {
+  border-radius: $top $right $bottom $left;
   @include background-clip;
 }
 
