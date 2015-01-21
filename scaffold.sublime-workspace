@@ -101,6 +101,11 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
+		"/Users/Q/Desktop/project/src/js/external-links.js",
+		"/Users/Q/Desktop/project/src/js/touch.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
+		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/base.scss",
 		"/Users/Q/Desktop/project/src/templates/partials/fonts.hbs",
 		"/Users/Q/Sites/scaffold/js/_styleguide.js",
@@ -133,11 +138,8 @@
 		"/Users/Q/Sites/scaffold/css/partials/images.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/images.scss",
 		"/Users/Q/Sites/scaffold/css/partials/image-content-panel.css.map",
-		"/Users/Q/Sites/scaffold/css/scss/partials/lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modals.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/modules.scss",
-		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
-		"/Users/Q/Sites/scaffold/css/main.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/pagination.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/videos.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_placeholders.scss",
@@ -226,9 +228,7 @@
 		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
 		"/Users/Q/Sites/scaffold/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/patterns/info-box/index.html",
-		"/Users/Q/Sites/scaffold/patterns/lists/index.html",
-		"/Users/Q/Sites/scaffold/patterns/message-box/index.html",
-		"/Users/Q/Sites/scaffold/patterns/modals/index.html"
+		"/Users/Q/Sites/scaffold/patterns/lists/index.html"
 	],
 	"find":
 	{
@@ -249,6 +249,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"line-height",
+			"line-h",
+			"font",
+			"place",
 			"top",
 			"muted",
 			"transf",
@@ -372,11 +376,7 @@
 			"background: $",
 			"primary",
 			"third",
-			"primary",
-			"secondary",
-			"tertiary",
-			"secondary",
-			"secondary-"
+			"primary"
 		],
 		"highlight": true,
 		"in_selection": false,

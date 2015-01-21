@@ -1,0 +1,46 @@
+---
+layout: default
+title: image cropping
+---
+
+<style>
+
+  img {
+    margin: 1em auto;
+  }
+
+  @media (max-width: 600px) {
+    .circle {
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: right;
+    }
+
+
+    .square {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      -webkit-filter: contrast(2);
+      filter: contrast(2);
+    }
+
+    .radius {
+      height: 300px;
+      width: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+      object-position: left;
+    }
+  }
+</style>
+
+<img src="http://fillmurray.com/g/1000/450" alt="fill murray">
+
+<img class="circle" src="http://fillmurray.com/g/1000/450" alt="fill murray">
+
+<img class="square" src="http://fillmurray.com/g/1000/450" alt="fill murray">
+
+<img class="radius" src="http://fillmurray.com/g/1000/450" alt="fill murray">

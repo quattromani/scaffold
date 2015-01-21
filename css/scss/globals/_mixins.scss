@@ -392,20 +392,20 @@ $trbl-position: null !default;
     &:focus {
       @content;
     }
-  } @else {
-    &:hover,
-    &:active,
-    &:focus {
-      @content;
+    } @else {
+      &:hover,
+      &:active,
+      &:focus {
+        @content;
+      }
     }
   }
-}
 
 // $support-legacy mixin
 @mixin support-legacy {
   @if $support-legacy {
-   @content;
- }
+    @content;
+  }
 }
 
 // Accessibly hide content
