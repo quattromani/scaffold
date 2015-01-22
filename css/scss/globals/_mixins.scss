@@ -419,3 +419,10 @@ $trbl-position: null !default;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@mixin image($position: null, $size: 320px, $radius: 0) {
+  @include size($size);
+  border-radius: $radius;
+  object-fit: cover;
+  object-position: $position;
+}
