@@ -101,6 +101,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Desktop/vero-beach/src/css/scss/base/_lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Desktop/project/src/js/external-links.js",
 		"/Users/Q/Desktop/project/src/js/touch.js",
@@ -227,8 +228,7 @@
 		"/Users/Q/Sites/scaffold/patterns/breadcrumbs/index.html",
 		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
 		"/Users/Q/Sites/scaffold/patterns/forms/index.html",
-		"/Users/Q/Sites/scaffold/patterns/info-box/index.html",
-		"/Users/Q/Sites/scaffold/patterns/lists/index.html"
+		"/Users/Q/Sites/scaffold/patterns/info-box/index.html"
 	],
 	"find":
 	{
@@ -249,6 +249,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"size",
 			"line-height",
 			"line-h",
 			"font",
@@ -375,8 +376,7 @@
 			"color-",
 			"background: $",
 			"primary",
-			"third",
-			"primary"
+			"third"
 		],
 		"highlight": true,
 		"in_selection": false,
