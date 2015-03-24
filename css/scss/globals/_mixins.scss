@@ -420,7 +420,7 @@ $trbl-position: null !default;
   overflow: hidden;
 }
 
-@mixin image($position: null, $size: 320px, $radius: 0) {
+@mixin responsive-image($position: null, $size: 320px, $radius: 0) {
   @include size($size);
   border-radius: $radius;
   object-fit: cover;

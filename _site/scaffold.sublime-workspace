@@ -101,6 +101,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Desktop/bridgeport/src/js/init.js",
+		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
+		"/Users/Q/Desktop/vero-beach/src/css/scss/base/_lists.scss",
 		"/Users/Q/Sites/scaffold/css/scss/globals/_mixins.scss",
 		"/Users/Q/Desktop/project/src/js/external-links.js",
 		"/Users/Q/Desktop/project/src/js/touch.js",
@@ -146,7 +149,6 @@
 		"/Users/Q/Sites/scaffold/css/scss/partials/helpers.scss",
 		"/Users/Q/Sites/scaffold/css/partials/pills.css",
 		"/Users/Q/Sites/scaffold/css/scss/partials/summary.scss",
-		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tabs.scss",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tooltips.scss",
 		"/Users/Q/Sites/scaffold/css/partials/tooltips.css",
@@ -226,9 +228,7 @@
 		"/Users/Q/Sites/scaffold/patterns/box/index.html",
 		"/Users/Q/Sites/scaffold/patterns/breadcrumbs/index.html",
 		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
-		"/Users/Q/Sites/scaffold/patterns/forms/index.html",
-		"/Users/Q/Sites/scaffold/patterns/info-box/index.html",
-		"/Users/Q/Sites/scaffold/patterns/lists/index.html"
+		"/Users/Q/Sites/scaffold/patterns/forms/index.html"
 	],
 	"find":
 	{
@@ -249,6 +249,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"srJobList ",
+			"srjoblist",
+			"size",
 			"line-height",
 			"line-h",
 			"font",
@@ -373,10 +376,7 @@
 			"primary",
 			"gray",
 			"color-",
-			"background: $",
-			"primary",
-			"third",
-			"primary"
+			"background: $"
 		],
 		"highlight": true,
 		"in_selection": false,

@@ -1,0 +1,11 @@
+.image-focus-center {
+  @include responsive-image($radius: 50%);
+}
+
+.image-focus-right {
+  @include responsive-image(right, $radius: 20%);
+}
+
+.image-focus-left {
+  @include responsive-image(left);
+}
