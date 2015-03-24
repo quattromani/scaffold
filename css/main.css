@@ -4711,12 +4711,14 @@ hr, hr.sandbox {
 .image-focus-center {
   width: 320px;
   height: 320px;
+  overflow: hidden;
   border-radius: 50%;
   object-fit: cover; }
 
 .image-focus-right {
   width: 320px;
   height: 320px;
+  overflow: hidden;
   border-radius: 20%;
   object-fit: cover;
   object-position: right; }
@@ -4724,6 +4726,7 @@ hr, hr.sandbox {
 .image-focus-left {
   width: 320px;
   height: 320px;
+  overflow: hidden;
   border-radius: 0;
   object-fit: cover;
   object-position: left; }
