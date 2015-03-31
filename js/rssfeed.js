@@ -248,7 +248,7 @@
 		// Add rows to output
 		$.each(rowArray, function(e) {
 
-			html += '<li class="rssRow '+row+'">' + rowArray[e]['html'] + '</li>';
+			html += '<li class="rssRow '+row+'">' + rowArray[e]['html'] + ' <a href="">Read More &raquo;</a></li>';
 
 			// Alternate row classes
 			if (row == 'odd') {
@@ -298,7 +298,7 @@
 	}
 
 	var _getMonthName = function(month) {
-		var name = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+		var name = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 		return name[month];
 	}
 
