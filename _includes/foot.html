@@ -3,10 +3,18 @@
     <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-{{ site.jquery_version}}.min.js"><\/script>')</script>
     <script src="{{ site.baseurl }}/js/build/production.min.js"></script>
 
+    <script type="text/javascript">
+    	$(document).ready(function () {
+    		$('#test').rssfeed('http://wardvillage.com/rss.php', {
+    			limit: 10
+    		});
+    	});
+    </script>
+
     {% if site.google_analytics %}
     {% include google_analytics.html %}
     {% endif %}
 
-    </body>
-</html>
-</html>
+  </body>
+  </html>
+  </html>

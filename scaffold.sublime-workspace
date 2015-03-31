@@ -26,9 +26,14 @@
 		]
 	},
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -101,6 +106,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/x_maxquattromani/_TWC/core/css/scss/partials/images.scss",
 		"/Users/Q/Desktop/bridgeport/src/js/init.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
 		"/Users/Q/Desktop/vero-beach/src/css/scss/base/_lists.scss",
@@ -227,12 +233,11 @@
 		"/Users/Q/Sites/scaffold/emails/index.html",
 		"/Users/Q/Sites/scaffold/patterns/box/index.html",
 		"/Users/Q/Sites/scaffold/patterns/breadcrumbs/index.html",
-		"/Users/Q/Sites/scaffold/patterns/carousel/index.html",
-		"/Users/Q/Sites/scaffold/patterns/forms/index.html"
+		"/Users/Q/Sites/scaffold/patterns/carousel/index.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -249,6 +254,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"size",
+			"images",
 			"srJobList ",
 			"srjoblist",
 			"size",
@@ -374,9 +381,7 @@
 			":focus",
 			"if",
 			"primary",
-			"gray",
-			"color-",
-			"background: $"
+			"gray"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -441,6 +446,7 @@
 	{
 		"height": 122.0
 	},
+	"pinned_build_system": "",
 	"replace":
 	{
 		"height": 66.0
@@ -449,6 +455,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -457,6 +464,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -465,6 +473,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
