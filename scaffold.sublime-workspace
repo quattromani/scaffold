@@ -254,6 +254,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"titletag",
+			"h4",
 			"size",
 			"images",
 			"srJobList ",
@@ -379,9 +381,7 @@
 			"box",
 			"outline: none",
 			":focus",
-			"if",
-			"primary",
-			"gray"
+			"if"
 		],
 		"highlight": true,
 		"in_selection": false,

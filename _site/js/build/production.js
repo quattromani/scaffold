@@ -578,7 +578,7 @@ $('input, textarea').placeholder();
 			if (options.linkredirect) feedLink = encodeURIComponent(feedLink);
 			rowArray[rowIndex]['html'] = '<'+ options.titletag +'><a href="'+ options.linkredirect + feedLink +'" title="View this feed at '+ feeds.title +'">'+ entry.title +'</a></'+ options.titletag +'>'
 
-			if (options.date && pubDate) rowArray[rowIndex]['html'] += '<div>'+ pubDate +'</div>'
+			if (options.date && pubDate) rowArray[rowIndex]['html'] += '<div class="pubDate">'+ pubDate +'</div>'
 			if (options.content) {
 
 				// Use feed snippet if available and optioned
@@ -640,7 +640,7 @@ $('input, textarea').placeholder();
 		// Add rows to output
 		$.each(rowArray, function(e) {
 
-			html += '<li class="rssRow '+row+'">' + rowArray[e]['html'] + ' <a href="">Read More &raquo;</a></li>';
+			html += '<li class="rssRow '+row+'">' + rowArray[e]['html'] + ' <a class="read-more" href="">Read More &raquo;</a></li>';
 
 			// Alternate row classes
 			if (row == 'odd') {
