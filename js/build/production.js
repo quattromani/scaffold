@@ -593,6 +593,8 @@ $('input, textarea').placeholder();
 				}
 
 				rowArray[rowIndex]['html'] += '<p>'+ content +'</p>'
+				rowArray[rowIndex]['html'] += '<a class="read-more" href="'+ options.linkredirect + feedLink +'">Read More &raquo;</a>'
+
 			}
 
 			// Add any media
@@ -640,7 +642,7 @@ $('input, textarea').placeholder();
 		// Add rows to output
 		$.each(rowArray, function(e) {
 
-			html += '<li class="rssRow '+row+'">' + rowArray[e]['html'] + ' <a class="read-more" href="">Read More &raquo;</a></li>';
+			html += '<li class="rssRow '+row+'">' + rowArray[e]['html'] + '</li>';
 
 			// Alternate row classes
 			if (row == 'odd') {
