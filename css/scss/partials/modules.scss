@@ -22,7 +22,7 @@ hr {
   height: 0;
   border: 0;
   border-top: 1px solid $text-light-grey;
-  border-bottom: 1px solid mix($site-background,$color-white,20%);;
+  border-bottom: 1px solid mix($site-background,$color-white,20%);
 
   &.sandbox {
     @extend hr;

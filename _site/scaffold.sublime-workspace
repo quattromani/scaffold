@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"row",
+				"rowIndex"
+			],
+			[
 				"border-to",
 				"border-top-right-radius: "
 			],
@@ -106,6 +110,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/js/rssfeed.js",
+		"/Users/Q/Sites/scaffold/_includes/foot.html",
 		"/Users/Q/Sites/x_maxquattromani/_TWC/core/css/scss/partials/images.scss",
 		"/Users/Q/Desktop/bridgeport/src/js/init.js",
 		"/Users/Q/Sites/scaffold/css/scss/partials/tables.scss",
@@ -206,7 +212,6 @@
 		"/Users/Q/Sites/scaffold/patterns/index.html",
 		"/Users/Q/Sites/scaffold/js/accordion.js",
 		"/Users/Q/Sites/scaffold/patterns/accordion/index.html",
-		"/Users/Q/Sites/scaffold/_includes/foot.html",
 		"/Users/Q/Sites/scaffold/_includes/patterns/forms/index.html",
 		"/Users/Q/Sites/scaffold/patterns/select/index.html",
 		"/Users/Q/Sites/scaffold/js/vendor/jquery.cookie.min.js",
@@ -232,8 +237,7 @@
 		"/Users/Q/Sites/scaffold/SDLC/index.html",
 		"/Users/Q/Sites/scaffold/emails/index.html",
 		"/Users/Q/Sites/scaffold/patterns/box/index.html",
-		"/Users/Q/Sites/scaffold/patterns/breadcrumbs/index.html",
-		"/Users/Q/Sites/scaffold/patterns/carousel/index.html"
+		"/Users/Q/Sites/scaffold/patterns/breadcrumbs/index.html"
 	],
 	"find":
 	{
@@ -254,6 +258,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"snippet",
+			"media",
+			"medi",
+			"titletag",
+			"h4",
+			"title",
 			"titletag",
 			"h4",
 			"size",
@@ -375,13 +385,7 @@
 			"h4",
 			"30%",
 			"</a>",
-			"<a class=\"achievement-name\"",
-			"<a href=\"\">Achievement",
-			"></",
-			"box",
-			"outline: none",
-			":focus",
-			"if"
+			"<a class=\"achievement-name\""
 		],
 		"highlight": true,
 		"in_selection": false,
