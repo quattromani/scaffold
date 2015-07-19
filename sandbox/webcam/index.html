@@ -4,4 +4,48 @@ title: Web camera
 class: webcam
 ---
 
-<iframe src="http://webcampub.multivista.com/index.cfm?fuseaction=aPublicWebcam.embed&amp;WebcamPublicEmbedUID=2C009DEC-8AA9-4AD2-972E-546B3F710197&amp;width=660&amp;height=484&amp;" width="660" height="484"></iframe>
+<style>
+	iframe.mrec {
+		height: 250px;
+		width: 300px;
+	}
+
+	iframe.full {
+		height: 800px;
+		width: 1140px;
+	}
+	.iframe-mrec {
+		position: relative;
+		width: 300px;
+		height: 250px;
+	}
+	.iframe-link {
+		position:absolute;
+		top: 0;
+		left: 0;
+		display: inline-block;
+		width: 500px;
+		height: 500px;
+		z-index: 5;
+	}
+
+	.iframe-mrec img {
+		position: absolute;
+		bottom: .5em;
+		right: .5em;
+		width: 80px;
+		height: 80px;
+		opacity: 0.5;
+		filter:alpha(opacity=50);
+	}
+</style>
+
+<div class="iframe-mrec">
+	<img src="/images/tcc.png" alt="">
+	<iframe onload=reSize() class="mrec" id="ifrm" src="http://webcampub.multivista.com/index.cfm?fuseaction=aPublicWebcam.embed&WebcamPublicEmbedUID=2DC4A369-ABFD-43AA-8EB4-01722771D6AF&amp;width=300&amp;height=250&amp;"></iframe>
+	<a class="iframe-link" href="http://www.towercitycenter.com/info/publicsquare"></a>
+</div>
+
+<hr>
+
+<iframe class="full" src="http://webcampub.multivista.com/index.cfm?fuseaction=aPublicWebcam.embed&WebcamPublicEmbedUID=2DC4A369-ABFD-43AA-8EB4-01722771D6AF&amp;width=1140&amp;height=600&amp;"></iframe>
