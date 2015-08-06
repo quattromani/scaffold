@@ -1,0 +1,2379 @@
+/* Three Column Grid */
+.span-16 .columnGroup {
+  padding:5px;
+  text-align:center;
+  float:left;
+  width:200px;
+}
+.span-16 .columnGroup .cnt-row {
+  border:1px solid #DCDCDC;
+  padding:15px;
+  margin-bottom:10px;
+  text-align:center;
+}
+.span-15 .columnGroup {
+  padding:5px;
+  text-align:center;
+  float:left;
+  width:186px;
+}
+.span-15 .columnGroup .cnt-row {
+  border:1px solid #DCDCDC;
+  padding:14px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+
+.span-24 .columnGroup {
+  padding:5px;
+  text-align:center;
+  float:left;
+  width:175px;
+}
+.span-24 .columnGroup .cnt-row {
+  border:1px solid #DCDCDC;
+  padding:14px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+
+/* uls */;
+ul.bassUlh {
+  margin-left:0;
+  padding-left:0;
+}
+
+.bassUlh li {
+  display:inline;
+  float:left;
+  list-style-type:none;
+}
+
+ul.bassUl {
+  margin-left:0;
+  padding:0;
+  list-style-type:none;
+}
+
+ul.bassUl li.bassUlLi {
+  display:block;
+  clear:both;
+  margin-bottom:18px;
+}
+
+.alphaFilter ul {
+  list-style-type:none;
+  padding:5px 0 0;
+}
+
+.alphaFilter ul li {
+  float:left;
+  padding:2px 13px 2px 0;
+  text-align:center;
+  text-transform:uppercase;
+  width:10px;
+}
+
+.alphaFilter ul li a {
+  float:left;
+  width:10px;
+}
+
+/* pagination stuff */
+.paginationRow {
+  margin:2em 0;
+  text-align:center;
+}
+
+ul.pager {
+  padding:10px 0;
+  text-align:center;
+}
+
+ul.pager li {
+  display:inline;
+  padding:0 10px;
+}
+
+ul.pagerPrevInfoNext {
+  padding:5px 0;
+}
+
+ul.pagerPrevInfoNext li {
+  display:inline;
+  padding:0 10px;
+}
+.expandablePagination {
+  cursor:pointer;
+  color:#1889AB;
+}
+
+/*etc*/
+.modalBubble {
+  background-color:#fff;
+}
+
+/*hmmm needs rounded corners or something */
+.retailer {
+  font-weight:bold;
+}
+
+.infoBarView {
+  height:1.8em;
+  margin-bottom:1em;
+}
+
+.infoBarViewLeft {
+  float:left;
+  width:48%;
+}
+
+.infoBarViewRight {
+  float:right;
+  text-align:right;
+  width:48%;
+}
+
+.opt-02 .bugFont {
+  text-align:right;
+}
+
+.bugFont {
+  background-color:#FFC;
+  clear:both;
+  font-size:11px;
+  margin:1em 0 0 !important;
+  padding:0 !important;
+}
+
+
+.userImageTinyNameOnSide {
+  margin-bottom:-2px;
+}
+
+.userImageMediumNameOnRight {
+  margin-bottom:-2px;
+}
+
+/* we now have explicit link class parameter settings to separate the link class from the text class */
+a.blackLink {
+  color:#000;
+}
+
+
+
+/* app header styles */
+.smallAppHeader h3 {
+  font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-size:12px;
+}
+
+/* parameter header style classes */
+.blockDefault {
+  display:block;
+  font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-size:12px;
+  margin-top:.5em;
+}
+
+.vertAlignTextTop {
+  vertical-align:text-top;
+}
+
+.italic {
+  font-style:italic;
+}
+.blueBold {
+  font-weight: bold;
+  color:#0087AD;
+}
+
+/* parameter wrapper style classes  */
+.displayNone {
+  display:none;
+}
+
+
+
+/* ***** end tab navigation *****
+logged in stuff - stuff shown only when logged in
+.loggedin{display:none;}
+our infinate carousel stuff */
+.carouselFancy600 {
+  width:600px;
+  height:300px;
+  overflow:scroll;
+}
+
+.carouselFancy900 {
+  width:900px;
+  height:300px;
+  overflow:scroll;
+}
+
+.textholder {
+  /*text-align:left; too specific here in global land! */
+  font-size:12px;
+  font-family:Verdana, Geneva, sans-serif;
+  color:#FFF;
+  padding:6px;
+}
+
+/* all bass tables */
+tr.oddRow {
+  background-color:#f5f5f5;
+}
+
+/****************** custom tables ************************************/
+table.profileTable {
+  background-color:#fff;
+  border-collapse:collapse;
+  border-spacing:0;
+  margin-top:1em;
+  width:100%;
+  border-width:0;
+}
+
+table.prettyProfileTable {
+  background-color:#fff;
+  border-collapse:collapse;
+  border-spacing:0;
+  margin-top:1em;
+  width:100%;
+}
+
+table.standardTable {
+  background-color:#fff;
+  border-collapse:collapse;
+  border-spacing:0;
+  margin-top:1em;
+  width:100%;
+}
+
+.standardTable table {
+  margin:0;
+  background:transparent;
+}
+
+.profileTable {
+  width:90%;
+}
+
+.standardTable {
+  padding:0 2px 2px;
+  margin:0;
+  font-family:tahoma,helvetica,sans-serif;
+  font-size:10px;
+  line-height:1em;
+}
+
+table.profileTable tr td:first-child {
+  min-width: 160px;
+}
+
+.filterRowDiv {
+  background-color:#eee;
+  width:100%;
+  height: 30px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+
+.filterRowDiv table{
+  width:20%;
+  float:right;
+}
+
+.filterRowTable {
+  background-color:#eee;
+  width:100%;
+}
+
+table.standardTable th {
+  background-color:#fff;
+  color:#333;
+  font:normal bold normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+}
+
+table.profileTable th {
+  background-color:#fff;
+  color:#333;
+  font:normal bold normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+}
+
+table.prettyProfileTable th {
+  background-color:#fff;
+  color:#333;
+  font:normal bold normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+  width:250px; /* this being set at such a global level may mess with things */
+}
+
+/****************** custom th's ************************************/
+.filterRow th {
+  padding:2px;
+  margin:2px;
+  vertical-align:middle !important;
+}
+
+.profileTable th {
+  background-color:#fff;
+  text-align:left;
+  padding-right:20px;
+  padding-top:4px;
+  padding-bottom:8px;
+  margin:0;
+  font-family:tahoma,helvetica,sans-serif;
+  color:#333;
+  font-size:10px;
+  line-height:1.2em;
+  font-weight:bold;
+  width:250px;
+  vertical-align: top;
+}
+
+.standardTable th {
+  font-weight:bold;
+  background-color:transparent;
+  color:#333;
+}
+
+table.profileTable th.fieldSetInstructions {
+  text-align:center;
+}
+
+/****************** all tr's *************************************
+***************** custom tr's ************************************/
+table.standardTable tr.filterRow {
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  height:30px;
+}
+
+/****************** custom td's **********************************/
+table.profileTable td {
+  background-color:transparent;
+  border-color:#ccc;
+  border-style:solid;
+  color:#333;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+  padding:5px;
+  text-align:left;
+  vertical-align:top;
+  border-width:0;
+}
+
+table.prettyProfileTable td {
+  background-color:transparent;
+  border-color:#ccc;
+  border-style:solid;
+  border-width:0;
+  color:#333;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+  padding:5px;
+  text-align:left;
+  vertical-align:top;
+}
+
+table.standardTable td {
+  background-color:transparent;
+  border-color:#ccc;
+  border-style:solid;
+  border-width:0;
+  color:#333;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+  padding:5px;
+  text-align:left;
+  vertical-align:top;
+}
+
+.standardTable td.firstRow {
+  padding-top:16px;
+}
+
+.standardTable td.lastRow {
+  padding-bottom:16px;
+}
+
+.profileTable td {
+  margin:0;
+  padding-left:5px;
+  padding-top:4px;
+  padding-bottom:4px;
+  vertical-align:middle;
+  background:transparent;
+}
+
+.standardTable td {
+  vertical-align:middle;
+  font-family:tahoma,helvetica,sans-serif;
+  font-size:12px;
+  line-height:1em;
+  border:0;
+  padding:6px 2px;
+  background:transparent;
+}
+
+table .header {width:auto}
+/************************** all tablenotes ***************************/
+.tablenote {
+  font-family:tahoma,helvetica,sans-serif;
+  color:#000;
+  font-size:10px;
+  line-height:1.2em;
+  font-style:italic;
+  font-weight:normal;
+}
+
+table.profileTable td label {
+  border:none;
+  font-weight:bold;
+}
+
+table.prettyProfileTable td label {
+  border:none;
+  font-weight:bold;
+}
+
+table.standardTable td label {
+  border:none;
+  font-weight:bold;
+}
+
+/* gallery table stuff */
+.gallery2CellNumber0 {
+  width:50%;
+}
+
+.gallery2CellNumber1 {
+  width:50%;
+}
+
+.gallery3CellNumber0 {
+  width:33%;
+}
+
+.gallery3CellNumber1 {
+  width:33%;
+}
+
+.gallery3CellNumber2 {
+  width:33%;
+}
+
+.gallery4CellNumber0 {
+  width:25%;
+}
+
+.gallery4CellNumber1 {
+  width:25%;
+}
+
+.gallery4CellNumber2 {
+  width:25%;
+}
+
+.gallery4CellNumber3 {
+  width:25%;
+}
+
+.gallery5CellNumber0 {
+  width:20%;
+}
+
+.gallery5CellNumber1 {
+  width:20%;
+}
+
+.gallery5CellNumber2 {
+  width:20%;
+}
+
+.gallery5CellNumber3 {
+  width:20%;
+}
+
+.gallery5CellNumber4 {
+  width:20%;
+}
+
+.gallery6CellNumber1 {
+  width:16%;
+}
+
+.gallery6CellNumber2 {
+  width:16%;
+}
+
+.gallery6CellNumber3 {
+  width:16%;
+}
+
+.gallery6CellNumber4 {
+  width:16%;
+}
+
+.gallery6CellNumber5 {
+  width:16%;
+}
+
+.gallery6CellNumber6 {
+  width:16%;
+}
+
+.galleryActionLeft {
+  text-align:left;
+  width:26px;
+}
+
+.galleryActionRight {
+  text-align:right;
+  width:26px;
+}
+
+.galleryCell .PLACEHOLDER {
+  text-align:center;
+}
+
+.galleryCell div {
+  margin-bottom:2px;
+  position: relative;
+}
+
+.galleryCell {
+  padding-bottom:18px;
+}
+
+.galleryFormatFirst {
+  position:absolute;
+  padding:1px;
+}
+
+/* these 3 are pretty custom right now for group-members and brand-fans */
+.galleryTable td {
+  background:transparent;
+  vertical-align:top;
+}
+
+.galleryTable {
+  margin:0;
+  border-bottom:0 solid #ccdde9;
+}
+
+table.profileTable td input[type=text] {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:90%;
+}
+
+table.profileTable td.mf_eventRsvp___eventRsvpPhone input[type=text] {
+	background-color: #eee;
+	border: 1px solid #aaa;
+	color: #111;
+	font: normal normal normal 12px/15px "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif !important;
+	margin: 0;
+	width: 33px;
+}
+#users-new-profileTable table.profileTable tbody tr td.users___smsPhone input.autotab,
+.users___smsPhone input.autotab {
+  width:auto !important;}
+
+table.profileTable td input[type=text].phone3Field {
+  width:auto;}
+
+table.profileTable td select {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:auto;
+}
+
+table.profileTable td textarea {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:90%;
+}
+
+table.prettyProfileTable td input {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:auto;
+}
+
+table.prettyProfileTable td select {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:auto;
+}
+
+table.prettyProfileTable td textarea {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:100%;
+}
+
+table.standardTable td input {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:auto;
+}
+
+table.standardTable td select {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:auto;
+}
+
+table.standardTable td textarea {
+  background-color:#eee;
+  border:1px solid #aaa;
+  color:#111;
+  font:normal normal normal 12px/15px "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif !important;
+  margin:0;
+  width:100%;
+}
+
+table.profileTable td input[type=checkbox] {
+  margin-right:2px;
+  margin-top:-2px;
+  vertical-align:top;
+  width:3%;
+}
+
+table.prettyProfileTable td input[type=checkbox] {
+  margin-right:2px;
+  margin-top:-2px;
+  vertical-align:top;
+}
+
+table.standardTable td input[type=checkbox] {
+  margin-right:2px;
+  margin-top:-2px;
+  vertical-align:top;
+}
+
+table.profileTable td input[type=radio] {
+  margin-right:2px;
+  margin-top:-2px;
+  vertical-align:text-top;
+}
+
+table.prettyProfileTable td input[type=radio] {
+  margin-right:2px;
+  margin-top:-2px;
+  vertical-align:text-top;
+}
+
+table.standardTable td input[type=radio] {
+  margin-right:2px;
+  margin-top:-2px;
+  vertical-align:text-top;
+}
+
+.profileTable td input {
+  scrollbar-arrow-color:#9ff;
+  color:#333;
+}
+
+.profileTable td select {
+  scrollbar-arrow-color:#9ff;
+  color:#333;
+}
+
+.profileTable td textarea {
+  scrollbar-arrow-color:#9ff;
+  color:#333;
+}
+
+.standardTable th input {
+  font-size:8px;
+  font-family:verdana, arial;
+  background:#ecf3f9;
+}
+
+.standardTable th select {
+  font-size:9px;
+  font-family:verdana, arial;
+  background:#ecf3f9;
+  scrollbar-arrow-color:#ecf3f9;
+}
+
+.cnt-row .pipelist select {
+  font-size:9px;
+  font-family:verdana, arial;
+  background:#ecf3f9;
+  scrollbar-arrow-color:#ecf3f9;
+}
+
+.grayBorder {
+  border:1px solid #ccc;
+}
+
+/* used on a radio buttons */
+ul.itemActions {
+  margin-left:0;
+  padding-left:0;
+  white-space:nowrap;
+}
+
+.itemActions li {
+  list-style-type:none;
+}
+
+a.adminFooterLinks:link {
+  color:silver !important;
+}
+
+a.adminFooterLinks:visited {
+  color:silver !important;
+}
+
+a.adminFooterLinks:active {
+  color:#000 !important;
+}
+
+a.adminFooterLinks:hover {
+  color:#000 !important;
+}
+
+/* #narrow column became .leftColumn */
+.leftColumn .instructions {
+  border-bottom:1px solid #ccc;
+  color:#999;
+  font-size:11px;
+  letter-spacing:.5px;
+  margin:1em 0 5px -12px;
+  padding-left:12px;
+  text-transform:uppercase;
+}
+
+.leftColumn .nbsearch {
+  width:100%;
+}
+
+.leftColumn .nbsearch input[type=text] {
+  width:65%;
+}
+
+/* Fieldsets  lots of these dont quite seem up to spec for the new layout engine.
+========================================================================================================
+
+the new way of alex , but bagus thinks these dont need to be so damn specific
+?? these aren't mine - ab
+************ these were panic put back for sing, but should die this week *********************/
+.s19-right-150 {
+  float:right;
+  width:565px;
+}
+
+/* 150x150 image on left in maincolumn  */
+.maincolumn-left-150 {
+  float:left;
+  padding-right:9px;
+  width:162px;
+  height:200px;
+}
+
+.mobile-left-40 {
+  float:left;
+  padding-right:9px;
+  width:40px;
+}
+
+.mobile-right-40 {
+  margin-left:60px;
+}
+
+.mobile-left-90 {
+  float:left;
+  padding-right:9px;
+  width:90px;
+}
+
+.mobile-left-110 {
+  float:left;
+  padding-right:9px;
+  width:110px;
+}
+
+
+/*.photoFrame {background-color: #E8E6E2;}*/
+.maincolumn-left-150 .photoFrame img {
+  border:1px solid #C1BEB8;
+  margin-top:5px;
+  margin-left:5px;
+}
+
+.blueBalloon {
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  width:100%;
+  background-color:#F0FCFF;
+  border:1px solid #A7EEFD;
+  padding: 8px;
+}
+
+.grayBalloon {
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  width:100%;
+  background-color:#FAF9F7;
+  border:1px solid #E7E7E7;
+  margin-left:1em;
+  margin-bottom:9px;
+  padding:0;
+  position:relative;
+}
+
+.yellowBalloon {
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  width:100%;
+  background-color:#FCFCEA;
+  border:2px solid #E3E875;
+}
+
+.grayBalloon .comment textarea#mf_comment2___comment {
+  color:#888;
+  overflow:auto;
+}
+
+.balloonComment {
+  background:url("/template-images/icon-comment-gray.gif") no-repeat scroll 0 0 transparent;
+}
+
+.balloonTailLeft > div {
+  margin-left:7px;
+}
+
+.balloonTailLeft > img {
+  float:left;
+  margin-top:15px;
+}
+
+.balloonTailTop > img {
+   display:none; /* perhaps some day bring this back */
+}
+
+
+/* Blue */
+.balloon-tail-top-blue {
+  border-bottom:medium solid #F0FCFF;
+}
+
+.balloon-tail-left-blue {
+  border-right:medium solid #F0FCFF;
+}
+
+.balloon-tail-bottom-blue {
+  border-top:medium solid #F0FCFF;
+}
+
+.balloon-tail-right-blue {
+  border-left:medium solid #F0FCFF;
+}
+
+/* Yellow */
+.balloon-tail-top-yellow {
+  border-bottom:medium solid #F0FCFF;
+}
+
+.balloon-tail-left-yellow {
+  border-right:medium solid #F0FCFF;
+}
+
+.balloon-tail-bottom-yellow {
+  border-top:medium solid #F0FCFF;
+}
+
+.balloon-tail-right-yellow {
+  border-left:medium solid #F0FCFF;
+}
+
+div.blueBalloon > * {
+  padding:5px 10px;
+}
+
+
+.blueBalloon .pipelist {
+  vertical-align: text-bottom;
+  margin:0;
+  padding:0;
+  line-height:1em;
+}
+
+/****************** end of field set and balloon stuff *************************/
+
+/* tinymce class implementations */
+.imagehalfwidth45{
+   max-width:45%;
+}
+.imagehalfwidth60{
+  /* these styles aren't used. you have to have the same definition in bass-interior.css or something */
+   max-width:60%;
+}
+.imagefullwidth{
+  /* these styles aren't used. you have to have the same definition in bass-interior.css or something */
+  max-width:100%;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+	clear: both;
+}
+.text-right {
+	text-align: right;
+}
+
+/*file upload stuff */
+.fileUploadControlPanel div.fileUploadButton {
+  margin:0 2px 5px;
+  padding:2px;
+  border:1px solid #444;
+  background-color:#666;
+  color:#444;
+  font-size:9px;
+  text-transform:uppercase;
+  cursor:pointer;
+  overflow:hidden;
+}
+
+.fileUploadControlPanel .fileUploadButton:hover {
+  border:1px solid #444;
+  background-color:#888;
+  color:#FFF;
+}
+
+.fileUploadControlPanel {
+  float:right;
+  width:250px;
+}
+
+.fileUpload {
+  border:1px solid #ccc;
+  padding:2px;
+  width:350px;
+  height:120px;
+  overflow:hidden;
+}
+
+.fileUploadPreview {
+  float:left;
+}
+
+.whiteBody .contenth div.fileUploadInput {
+  background-color:#EEE;
+  padding:4px;
+  margin-top:1px;
+}
+
+span.fileUploadImagesOnlyActiveOption {
+  font-size:9px;
+  padding:1px;
+  margin:1px;
+  cursor:pointer;
+}
+
+span.fileUploadImagesOnlyInactiveOption {
+  font-size:9px;
+  padding:1px;
+  margin:1px;
+  cursor:pointer;
+}
+
+.fileUploadControlPanel div.fileUploadButton.active {
+  background-color:fff;
+  border:1px solid lime;
+}
+
+.photoPickerPrivate img {
+  opacity:0.3px;
+  border:1px solid #BBB;
+}
+
+.photoPickerPrivate {
+  color:#BBB;
+}
+
+.photoPickerInGroup img {
+  opacity:0.7px;
+  border:1px solid olive;
+}
+
+.photoPickerAccessible img {
+  border:1px solid #FFF;
+}
+
+.photoPickerPicked img {
+  border:1px solid lime;
+}
+
+.activityImage {
+  border:1px solid #eee;
+}
+
+.activityImageAlignLeft {
+  float:left;
+  margin-right:18px;
+}
+
+/* comment box NEW   why isnt this in the comments.css ??? */
+body div.comment textarea#mf_comment2___comment {
+  /*background:transparent;*/
+  background-color: #eee;
+  border:none;
+  color:#333;
+  font-size:12px;
+  font-weight:bold;
+  margin:5px 0;
+  width:100%;
+  outline:none;
+  height:70px;
+  overflow:auto;
+}
+
+div.grayBalloon div.fieldContainer {
+  padding:9px;
+}
+
+.controls {
+  list-style:none;
+  margin:10px 0;
+  padding:0;
+}
+
+ul.controls li {
+  float:left;
+}
+
+.controls .commentCancel {
+  background:none;
+  height:16px;
+  padding-left:15px;
+  font-size:12px;
+}
+
+div.controls span {
+  background:none repeat scroll 0 0 transparent;
+  display:inline;
+  left:0;
+  padding:0;
+  position:relative;
+  top:-9px;
+}
+
+div.cnt-bdy span.prompt {
+  background:url("/template-images/icon-comment-large-blue.gif") no-repeat scroll left 3px transparent;
+  display:block;
+  height:16px;
+  padding-left:15px;
+  font-size:12px;
+  margin-top:9px;
+}
+
+table.profileTable label input.grayBorder~img {
+  border:1px solid #ccc;
+  padding:3px;
+  margin-left:-7px;
+  margin-right:5px;
+}
+
+h3.productCommentListNewHeader {
+  background:url("/template-images/icon-comment-large-blue.gif") no-repeat 0 0;
+  padding-left:20px;
+}
+
+h3.listNewHeader {
+  background:url("/template-images/icon-comment.gif") no-repeat scroll 0 3px transparent;
+  color:#888;
+  font-weight:bold;
+  font-size:1em;
+  margin-top:18px;
+  margin-bottom:18px;
+  margin-left:22px;
+  padding-left:18px;
+}
+
+/*
+* ------------------------------- complex form ----------------------
+* stuff belongs to project style...*/
+table#outfitDetailDisplay {
+  width:50%;
+}
+
+table#outfitDetails td {
+  margin-bottom:25px;
+  margin-left:-30px;
+}
+
+td span.priceSymbol {
+  margin-left:-5px;
+  margin-right:3px;
+  position:relative;
+}
+
+table#outfitDetails input.invalid {
+  background-color:red !important;
+  color:yellow !important;
+}
+
+div#psAddItem {
+  width:75%;
+  position:relative;
+  top:3px;
+  padding-bottom:4px;
+  border-bottom:2px solid #AAA;
+  margin-bottom:9px;
+}
+
+div#psAddItem a {
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+div#psAddItem a:hover {
+  text-decoration:underline;
+  color:red;
+}
+
+/*
+* ------------------------------- video thumbnails -------------------*/
+/*div.playBtn-overlay {
+  position:relative;
+  background:url("/images/project-style/video-play-button.png") no-repeat scroll 0 0 transparent !important;
+  height:99px;
+  width:140px;
+  left:140px;
+  top:-230px;
+  z-index:999;
+  cursor:pointer;
+}*/
+
+
+div.playBtn-small-overlay {
+  position:relative;
+  background:url("/images/tools/video-overlay-play-btn-small.png") no-repeat scroll 0 0 transparent !important;
+  height:25px;
+  width:40px;
+  left:88px;
+  top:-75px;
+  z-index:999;
+  cursor:pointer;
+
+}
+
+div.playBtn-overlay {
+  position:absolute;
+  background:url("/images/project-style/video-play-button.png") no-repeat scroll 0 0 transparent !important;
+  height:99px;
+  width:140px;
+  left:140px;
+  top:130px;
+  z-index:999;
+  cursor:pointer;
+}
+
+
+div.playBtn-small-alpha-overlay {
+  position:relative;
+  background:url("/images/project-style/video-play-button-layer-small.png") no-repeat scroll 0 0 transparent !important;
+  height:34px;
+  width:50px;
+  left:88px;
+  top:-75px;
+  z-index:999;
+  cursor:pointer;
+}
+
+div.playBtn-overlay-abs {
+  position:absolute;
+  background:url("/images/project-style/video-play-button.png") no-repeat scroll 0 0 transparent !important;
+  height:99px;
+  width:140px;
+  left:140px;
+  top:130px;
+  z-index:999;
+  cursor:pointer;
+}
+
+/*stuff from the old admin-template.css
+used in help decho mallchooser stuff */
+div.inlineFlyout {
+  display:inline;
+  position:relative;
+}
+
+div.inlineFlyout ul {
+  display:none;
+  left:0;
+  padding:0;
+  position:absolute;
+  top:0;
+  width:80px;
+}
+
+div.inlineFlyout ul li {
+  background-color:#FFF;
+  list-style:none outside none;
+  border-bottom:3px solid #CCC;
+  padding:0 4px;
+}
+
+div.inlineFlyout:hover ul {
+  display:block;
+}
+
+/*******************************************************action buttons *******************************
+alex, how much of this is still needed in the record action world
+action Buttons - used to be its own file. */
+.actionButtonBox {
+  float:right;
+  margin:0 0 15px 15px;
+}
+
+.actionButtons {
+  list-style:none;
+  clear:both;
+  padding:0;
+  float:left;
+  min-width:108px;
+  width:auto !important;
+}
+
+.actionButtonsHorizontal {
+  width:auto;
+  margin:0;
+}
+
+.actionButtons li {
+  background:url("/template-images/opt-03-divider.gif") no-repeat scroll 0 100% transparent;
+  font-size:11px;
+  padding:4px;
+}
+
+.actionButtons li.last-child {
+  background:none;
+}
+
+.actionButtonsHorizontal li {
+  background:none;
+}
+
+.actionButtons li a {
+  display:block;
+}
+
+.actionButtons li a span {
+  display:block;
+  float:left;
+  height:16px;
+  margin-right:5px;
+  margin-top:1px;
+  width:16px;
+}
+
+/* twitter NOT IN LISTS */
+div.ab-twitter {
+  float:left;
+  height:16px;
+  width:16px;
+  margin-right:3px;
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll;
+  cursor:pointer;
+  background-position:-221px -1px;
+}
+
+/* facebook NOT IN LISTS */
+div.ab-facebook {
+  float:left;
+  height:16px;
+  width:16px;
+  margin-right:3px;
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll;
+  cursor:pointer;
+  background-position:-238px -1px;
+}
+
+/* message NOT IN LISTS */
+div.ab-message {
+  float:left;
+  height:16px;
+  width:16px;
+  margin-right:3px;
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll;
+  cursor:pointer;
+  background-position:-255px -1px;
+}
+
+/* share NOT IN LISTS */
+div.ab-share {
+  float:left;
+  height:16px;
+  width:16px;
+  margin-right:3px;
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll;
+  cursor:pointer;
+  background-position:-272px -1px;
+}
+
+.actionButtons li.ab-join a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -1px;
+}
+
+.actionButtons li.ab-join a.unfollow span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -1px;
+}
+
+.actionButtons li.ab-add a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -1px;
+}
+
+.actionButtons li.ab-addBuddy a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -1px;
+}
+
+.actionButtons li.ab-messageReply a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -1px;
+}
+
+.actionButtons li.ab-addAsListItemToList a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -1px;
+}
+
+.actionButtons li.ab-follow a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -1px;
+}
+
+.actionButtons li.ab-join a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+.actionButtons li.ab-join a.unfollow:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -18px;
+}
+
+.actionButtons li.ab-add a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-addBuddy a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-messageReply a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-addAsListItemToList a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-follow a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-join a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-join a.unfollow:active span {
+ background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -18px;
+}
+.actionButtons li.ab-add a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-addBuddy a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-messageReply a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-addAsListItemToList a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+.actionButtons li.ab-follow a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll 0 -18px;
+}
+
+/* print */
+.actionButtons li.ab-print a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -17px -1px;
+}
+
+.actionButtons li.ab-print a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -17px -18px;
+}
+
+.actionButtons li.ab-print a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -17px -18px;
+}
+
+/* flag */
+.actionButtons li.ab-flag a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -34px -1px;
+}
+
+.actionButtons li.ab-flag a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -34px -18px;
+}
+
+.actionButtons li.ab-flag a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -34px -18px;
+}
+
+/* user */
+.actionButtons li.ab-user a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -51px -1px;
+}
+
+.actionButtons li.ab-user a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -51px -18px;
+}
+
+.actionButtons li.ab-user a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -51px -18px;
+}
+
+/* prefs */
+.actionButtons li.ab-prefs a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -68px -1px;
+}
+
+.actionButtons li.ab-prefs a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -68px -18px;
+}
+
+.actionButtons li.ab-prefs a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -68px -18px;
+}
+
+/* generic */
+.actionButtons li.ab-generic a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -85px -1px;
+}
+
+.actionButtons li.ab-generic a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -85px -18px;
+}
+
+.actionButtons li.ab-generic a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -85px -18px;
+}
+
+/* approve */
+.actionButtons li.ab-approve a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -102px -1px;
+}
+
+.actionButtons li.ab-approve a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -102px -18px;
+}
+
+.actionButtons li.ab-approve a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -102px -18px;
+}
+
+.actionButtons li.ab-edit a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -119px -1px;
+}
+
+.actionButtons li.ab-editProfile a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -119px -1px;
+}
+
+.actionButtons li.ab-edit a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -119px -18px;
+}
+
+.actionButtons li.ab-editProfile a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -119px -18px;
+}
+
+.actionButtons li.ab-edit a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -119px -18px;
+}
+
+.actionButtons li.ab-editProfile a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -119px -18px;
+}
+
+/* [open] -- change this to something meaningful -- looks like a comment ballon */
+.actionButtons li.ab-open a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -136px -1px;
+}
+
+.actionButtons li.ab-open a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -136px -18px;
+}
+
+.actionButtons li.ab-open a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -136px -18px;
+}
+
+/* feature */
+.actionButtons li.ab-feature a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -153px -1px;
+}
+
+.actionButtons li.ab-feature a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -153px -18px;
+}
+
+.actionButtons li.ab-feature a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -153px -18px;
+}
+
+/* sponsor */
+.actionButtons li.ab-sponsor a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -170px -1px;
+}
+
+.actionButtons li.ab-sponsor a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -170px -18px;
+}
+
+.actionButtons li.ab-sponsor a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -170px -18px;
+}
+
+.actionButtons li.ab-delete a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -1px;
+}
+
+.actionButtons li.ab-deny a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -1px;
+}
+
+.actionButtons li.ab-delete a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -18px;
+}
+
+.actionButtons li.ab-delete a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -18px;
+}
+
+.actionButtons li.ab-deny a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -18px;
+}
+
+.actionButtons li.ab-deny a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -187px -18px;
+}
+
+.actionButtons li.ab-request a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -204px -1px;
+}
+
+.actionButtons li.ab-reply a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -204px -1px;
+}
+
+.actionButtons li.ab-request a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -204px -18px;
+}
+
+.actionButtons li.ab-request a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -204px -18px;
+}
+
+.actionButtons li.ab-reply a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -204px -18px;
+}
+
+.actionButtons li.ab-reply a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -204px -18px;
+}
+
+/* twitter */
+.actionButtons li.ab-twitter a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -221px -1px;
+}
+
+.actionButtons li.ab-twitter a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -221px -18px;
+}
+
+.actionButtons li.ab-twitter a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -221px -18px;
+}
+
+div.ab-twitter:hover {
+  background-position:-221px -18px;
+}
+
+div.ab-twitter:active {
+  background-position:-221px -18px;
+}
+
+/* facebook */
+.actionButtons li.ab-facebook a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -238px -1px;
+}
+
+.actionButtons li.ab-facebook a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -238px -18px;
+}
+
+.actionButtons li.ab-facebook a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -238px -18px;
+}
+
+div.ab-facebook:hover {
+  background-position:-238px -18px;
+}
+
+div.ab-facebook:active {
+  background-position:-238px -18px;
+}
+
+/* message */
+.actionButtons li.ab-message a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -255px -1px;
+}
+
+.actionButtons li.ab-message a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -255px -18px;
+}
+
+.actionButtons li.ab-message a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -255px -18px;
+}
+
+div.ab-message:hover {
+  background-position:-255px -18px;
+}
+
+div.ab-message:active {
+  background-position:-255px -18px;
+}
+
+/* share */
+.actionButtons li.ab-share a span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -272px -1px;
+}
+
+.actionButtons li.ab-share a:hover span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -272px -18px;
+}
+
+.actionButtons li.ab-share a:active span {
+  background:transparent url('/template-images/bg-actionbuttonsprite.png') no-repeat scroll -272px -18px;
+}
+
+div.ab-share:hover {
+  background-position:-272px -18px;
+}
+
+div.ab-share:active {
+  background-position:-272px -18px;
+}
+
+.actionButtons a {
+  color:#999;
+}
+
+.actionButtons a:link {
+  color:#999;
+}
+
+.actionButtons a:visited {
+  color:#999;
+}
+
+.actionButtons a:hover {
+  color:#0087ad;
+}
+
+.actionButtons a:active {
+  color:#0087ad;
+}
+
+/*.actionButtons li a:link,
+.actionButtons li a:visited{
+color:#6A6865;
+}
+.actionButtons li a:hover,
+.actionButtons li a:active{
+color:#0087ad;
+}*/
+div.recordActionBottomCleared {
+  clear:both;
+}
+
+.recordActionTopCleared {
+  clear:both;
+}
+
+div.recordAction___commentRecordActions {
+  float:right;
+  text-align:right;
+}
+
+table.standardTable ul.horzlist li {
+  display:block;
+  margin:0;
+  padding:0;
+}
+
+.recordActionEditLink {
+  background-color:olive !important;
+  color:#FFF !important;
+  border:2px solid #F5DEB3;
+  z-index:10000;
+  padding:0 2px;
+}
+
+.adminlinks a {
+  background-color:transparent;
+  color:#920010;
+}
+
+.adminlinks a:link {
+  background-color:transparent;
+  color:#eb001f !important;
+}
+
+.adminlinks a:visited {
+  background-color:transparent;
+  color:#eb001f !important;
+}
+
+.adminlinks a:hover {
+  background-color:transparent;
+  color:#920010 !important;
+}
+
+.adminlinks a:active {
+  background-color:transparent;
+  color:#920010 !important;
+}
+
+
+div.mBox01 div.mBoxTopLeft,
+div.mBox01 div.mBoxTopRight,
+div.mBox01 div.mBoxBottomRight,
+div.mBox01 div.mBoxBottomLeft {
+  width:40px;
+  height:40px;
+  background-repeat:no-repeat;
+}
+div.mBox01 div.mBoxTopLeft {
+  background-position:top left;
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01CornerSprite.png');
+}
+div.mBox01 div.mBoxTopRight {
+  background-position:top right;
+  cursor:pointer;
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01CornerSprite.png');
+}
+div.mBox01 div.mBoxBottomRight {
+  background-position:bottom right;
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01CornerSprite.png');
+}
+div.mBox01 div.mBoxBottomLeft {
+  background-position:bottom left;
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01CornerSprite.png');
+}
+
+div.mBox01 div.mBoxTopCenter,
+div.mBox01 div.mBoxBottomCenter {
+  height:40px;
+  width:100px;
+  background-repeat:repeat-x;
+}
+div.mBox01 div.mBoxTopCenter {
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01HorizontalSprite.png');
+}
+div.mBox01 div.mBoxBottomCenter {
+  background-position:bottom;
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01HorizontalSprite.png');
+}
+
+div.mBox01 div.mBoxMiddleLeft,
+div.mBox01 div.mBoxMiddleRight {
+  width:40px;
+  height:100px;
+  background-repeat:repeat-y;
+}
+div.mBox01 div.mBoxMiddleLeft {
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01VerticalSprite.png');
+}
+div.mBox01 div.mBoxMiddleRight {
+  background-position:right;
+  background-image:url('http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/01/mBoxVersion01VerticalSprite.png');
+}
+
+
+div.mBox02 div.mBoxTopLeft {
+  width:20px;
+  height:20px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02CornerSprite.png);
+  background-repeat:no-repeat;
+  background-position:top left;
+}
+
+div.mBox02 div.mBoxTopRight {
+  width:20px;
+  height:20px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02CornerSprite.png);
+  background-repeat:no-repeat;
+  background-position:top right;
+}
+
+div.mBox02 div.mBoxBottomRight {
+  width:20px;
+  height:20px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02CornerSprite.png);
+  background-repeat:no-repeat;
+  background-position:bottom right;
+}
+
+div.mBox02 div.mBoxBottomLeft {
+  width:20px;
+  height:20px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02CornerSprite.png);
+  background-repeat:no-repeat;
+  background-position:bottom left;
+}
+
+div.mBox02 div.mBoxTopCenter {
+  height:20px;
+  width:100px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02HorizontalSprite.png);
+  background-repeat:repeat-x;
+}
+
+div.mBox02 div.mBoxBottomCenter {
+  height:20px;
+  width:100px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02HorizontalSprite.png);
+  background-repeat:repeat-x;
+  background-position:bottom;
+}
+
+div.mBox02 div.mBoxMiddleLeft {
+  width:20px;
+  height:100px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02VerticalSprite.png);
+  background-repeat:repeat-y;
+}
+
+div.mBox02 div.mBoxMiddleRight {
+  width:20px;
+  height:100px;
+  background-image:url(http://bass.shoptopia.com/sites/all/themes/shoptalk/images/mBox/02/mBoxVersion02VerticalSprite.png);
+  background-repeat:repeat-y;
+  background-position:right;
+}
+div.mBox02 div.mBoxContentFrame { background-color: black !important; font-family: Arial; font-size:12px; }
+div.mBox02 div.mBoxAlert { padding:24px; text-align:left; color:#FFF !important; }
+div.mBox02 div.mBoxAlert h1 { color:#FFF !important; font-weight:bold; }
+
+div#mBoxLoading {
+  height:16px;
+  padding:80px;
+  width:16px;
+  /*background-image:url(http://www.shoptopia.com/sites/all/themes/shoptalk/images/mBox/03/radial-blur.png);*/
+  background-color:transparent;
+  background-repeat:no-repeat;
+}
+
+
+/* --- FOLLOW  BUTTON --- */
+.genericButton {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 25%, #dedede 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#ffffff), color-stop(75%,#dedede)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 25%,#dedede 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 25%,#dedede 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 25%,#dedede 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dedede',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #ffffff 25%,#dedede 75%); /* W3C */
+  border:1px solid #c2c2c2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow:-1px 1px 3px #666;
+  -webkit-box-shadow:-1px 1px 3px #666;
+  box-shadow:-1px 1px 3px #666;
+  color:#000;
+  font:bold 12px/12px Arial, Helvetica, sans-serif;
+  padding:5px 12px 5px 7px;
+  text-decoration:none;
+}
+.genericButton:hover {
+  background: #dedede; /* Old browsers */
+  background: -moz-linear-gradient(top, #dedede 25%, #ffffff 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#dedede), color-stop(75%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #dedede 25%,#ffffff 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #dedede 25%,#ffffff 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #dedede 25%,#ffffff 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #dedede 25%,#ffffff 75%); /* W3C */
+  text-decoration: none !important;
+}
+/* --- twoStateButton --- works for 'following' and 'unfollow' */
+a.twoStateButton {
+  background: #673957; /* Old browsers */
+  background: -moz-linear-gradient(top, #673957 25%, #8d528d 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#673957), color-stop(75%,#8d528d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #673957 25%,#8d528d 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #673957 25%,#8d528d 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #673957 25%,#8d528d 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673957', endColorstr='#8d528d',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #673957 25%,#8d528d 75%); /* W3C */
+  border:1px solid #502742;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow:-1px 1px 3px #666;
+  -webkit-box-shadow:-1px 1px 3px #666;
+  box-shadow:-1px 1px 3px #666;
+  color:#fff !important;
+  font:bold 12px/12px Arial, Helvetica, sans-serif;
+  padding:5px 12px 5px 7px;
+  text-decoration:none;
+}
+a.twoStateButton span {
+  background:transparent url(/theme/global/images/content/checkmark.png) 0 4px no-repeat;
+  display:inline-block;
+  height:20px;
+  padding:0 6px 0 0;
+  margin:-5px 0;
+  width:16px;
+}
+a.twoStateButton:hover {
+  background: #bb2829; /* Old browsers */
+  background: -moz-linear-gradient(top, #bb2829 25%, #ee484a 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#bb2829), color-stop(75%,#ee484a)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #bb2829 25%,#ee484a 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #bb2829 25%,#ee484a 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #bb2829 25%,#ee484a 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb2829', endColorstr='#ee484a',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #bb2829 25%,#ee484a 75%); /* W3C */
+  border:1px solid #9a2626;
+  text-decoration: none !important;
+}
+a.twoStateButton:hover span {
+  background:transparent url(/theme/global/images/content/x.png) 0 6px no-repeat;
+  display:inline-block;
+  height:20px;
+  padding:0 6px 0 0;
+  margin:-5px 0;
+  width:10px;
+}
+
+
+/*project style button*/
+.projectStyleBtnTall {
+  background: #b51a37; /* Old browsers */
+  background: -moz-linear-gradient(top, #b51a37 25%, #d12243 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#b51a37), color-stop(75%,#d12243)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b51a37 25%,#d12243 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b51a37 25%,#d12243 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #b51a37 25%,#d12243 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51a37', endColorstr='#d12243',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #b51a37 25%,#d12243 75%); /* W3C */
+  border:1px solid #b51a37;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow:-1px 1px 3px #666;
+  -webkit-box-shadow:-1px 1px 3px #666;
+  box-shadow:-1px 1px 3px #666;
+  color:#fff;
+  font:bold 14px/14px Arial, Helvetica, sans-serif;
+  margin:10px 0px;
+  padding:10px 20px;
+  text-align:center;
+  text-decoration:none;
+  cursor:pointer;
+}
+.projectStyleBtnShort:hover,
+.projectStyleBtnTall:hover {
+  background: #d12243; /* Old browsers */
+  background: -moz-linear-gradient(top, #d12243 25%, #b51a37 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#d12243), color-stop(75%,#b51a37)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d12243 25%,#b51a37 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d12243 25%,#b51a37 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #d12243 25%,#b51a37 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d12243', endColorstr='#b51a37',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #d12243 25%,#b51a37 75%); /* W3C */
+}
+.projectStyleBtnShort {
+  background: #b51a37; /* Old browsers */
+  background: -moz-linear-gradient(top, #b51a37 25%, #d12243 75%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#b51a37), color-stop(75%,#d12243)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b51a37 25%,#d12243 75%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b51a37 25%,#d12243 75%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #b51a37 25%,#d12243 75%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51a37', endColorstr='#d12243',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #b51a37 25%,#d12243 75%); /* W3C */
+  border:1px solid #b51a37;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow:-1px 1px 3px #666;
+  -webkit-box-shadow:-1px 1px 3px #666;
+  box-shadow:-1px 1px 3px #666;
+  color:#fff;
+  font:bold 12px/12px Arial, Helvetica, sans-serif;
+  margin:0px;
+  padding:9px 20px;
+  text-align:center;
+  text-decoration:none;
+  cursor:pointer;
+}
+.w300 {
+  width:260px;
+}
+
+.buttonImageLeft {
+  height:16px;
+  width:16px;
+  vertical-align:text-top;
+  margin-right:5px;
+}
+
+.buttonDiv12pxText {
+  padding:5px 0 18px;
+}
+
+#in-the-spotlight .mf_feature___featureTeaser p {
+font-size: 1.15em;
+}
+
+#features {
+  font-family:Verdana,sans-serif;
+}
+
+.containedAppStaged {  background:url("http://bass.shoptopia.com/template-images/staged.gif") ;}
+.parameterStaged {  background:url("http://bass.shoptopia.com/template-images/staged.gif") ;}
+
+
+.semiOpaque { opacity:.2}
+
+
+/*voting - basics */
+.voteLever {
+  width: 280px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 37px;
+  height: 34px;
+  cursor:pointer;
+}
+
+.voteLever-disabled {
+
+}
+
+.voteLever-down {
+
+}
+
+.voteLever-up {
+
+}
+
+.voteLever-up:hover {
+
+}
+
+.voteTotal {
+  float: right;
+  margin-right: 75px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #686868;
+  font-size: 13px;
+  line-height: 12px;
+}
+
+.voteTotalDigits {
+  color: #005C73;
+  font-size: 16px;
+}
+
+.contestantNamesGallery {
+  font-size: 13px;
+  line-height: 11px;
+}
+
+
+/* mBox necesity css for overlay: */
+div#mBox_overlay {
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /*ie*/
+  filter: alpha(opacity=0);/*ie*/
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+}
+
+/* mBox necesity css for the mBox itself: */
+div.mBox {
+  zoom:1; /*ie*/
+  position:fixed;
+  top:50%;
+  left:50%;
+  opacity:0;
+  text-align:left; /* ie */
+}
+/* end mBox necessities */
+
+/* ingress-centric mBox styles */
+div.mBox div.content.has_buttons {
+  margin-bottom:30px;
+}
+div.mBox .mBox_button {
+  border-radius: 4px;
+  box-shadow:-1px 1px 3px #666;
+  font: 14px/14px Arial, Helvetica, sans-serif;
+  height:14px;
+  padding:10px 20px;
+  text-align:center;
+  text-decoration:none;
+  cursor:pointer;
+}
+div.mBox_alert div.non_button {
+  background: none repeat scroll 0 0 transparent !important;
+  border: medium none !important;
+  box-shadow: none !important;
+  padding: 10px 5px;
+}
+div.mBox .mBox_button.misc,
+div.mBox .mBox_button.dismiss {
+  color:black;
+  font-weight: normal;
+  background:#895005 url(http://images.shoptopia.com/ingress/images/bg-btn-silver.png) 0 0 repeat-x; /* Old browsers */
+  border:1px solid #DEDEDE;
+}
+
+div.mBox .mBox_button.misc:hover,
+div.mBox .mBox_button.dismiss:hover {
+  background:#895005 url(http://images.shoptopia.com/ingress/images/bg-btn-silver.png) 0 -35px repeat-x; /* Old browsers */
+}
+
+div.mBox .mBox_button.affirm {
+  color:white;
+  font-weight: bold;
+  background: #a87b04  url(http://images.shoptopia.com/ingress/images/bg-ingressbtn.png) 0 0 repeat-x;
+  border:1px solid #895005;
+}
+div.mBox .mBox_button.affirm:hover {
+  background: #a87b04  url(http://images.shoptopia.com/ingress/images/bg-ingressbtn.png) 0 -35px repeat-x;
+}
+
+
+
+
+
+div.mBox_confirm,
+div.mBox_alert {
+  background-color: black;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 5px 5px 0 black;
+  color: white !important;
+  padding: 30px;
+}
+div.mBox_standard,
+div.mBox_sew_login {
+  border-radius: 14px;
+  background-color:white;
+  padding:20px 30px;
+  box-shadow: 0 0 8px 4px #777;
+}
+div.mBox_standard div.close,
+div.mBox_sew_login div.close {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 31px 31px 31px 31px;
+  box-shadow: 0 0 8px 0 #777;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  right: -17.5px;
+  text-align: center;
+  top: -17.5px;
+  width: 25px;
+  cursor:pointer;
+}
+/* end mBox*/
+
+
+/* ----- Fall Into Fashion Articles ----- */
+@font-face {
+  font-family: 'BlackJackRegular';
+  src: url('http://athena-images.mallfinder.com/d/fonts/blackjack/black_jack-webfont.eot');
+  src: local('☺'),
+       url('http://athena-images.mallfinder.com/d/fonts/blackjack/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://athena-images.mallfinder.com/d/fonts/blackjack/black_jack-webfont.woff') format('woff'),
+       url('http://athena-images.mallfinder.com/d/fonts/blackjack/black_jack-webfont.ttf') format('truetype'),
+       url('http://athena-images.mallfinder.com/d/fonts/blackjack/black_jack-webfont.svg#BlackJackRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* pipelist and horzlist _copied_ here from /theme/global/css/content.css */
+ul.horzlist {padding:0;margin:0}
+.horzlist,.horzlist li {  display: inline-block;  /*float:left;*/  list-style-type: none;  padding-right: 9px;  margin-right: 9px;}
+ul.pipelist, ul.pipelist li {list-style-type: none; margin: 0; padding: 0;}
+ul.pipelist li{border-right: 1px solid #ddd; margin:0 6px 0 0; padding:0 5px 0 0;}
+ul.pipelist li:last-child{border-right: none; padding-right:0;}
+ul.dottedPipeList li { margin:0px; padding:0px 10px; float:left; border-right:1px dotted black; list-style-type:none; width:auto; }
+ul.dottedPipeList li:first-child { padding-left:0px; }
+ul.dottedPipeList li:last-child { border:none; }
+ul.dottedPipeList li:first-child,
+ul.dottedPipeList li:last-child,
+ul.dottedPipeList { margin:0px; padding:0 6px; }
+
+.bubbleFooterLinks {position:relative}
+
+.quickConfigDiv {border:1px solid #ccc;
+  background:white;
+  -mox-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  position:absolute;
+  padding:4px 0 4px 4px;
+  top:-20px;
+  width:190px;
+  z-index:1000;
+  left:65px;
+}
+.quickConfigDiv a {
+	line-height:17px;
+}
+.bubble-wrpr.bottom18margin {
+  margin-bottom:18px;
+}
+.noBottomMargin {
+  margin-bottom:0;
+}
+/*.oddRow {font-size:24px !important}*/
+/* for quickConfig links */
+.parameter-bubble-wrpr.ul-format-bubble-wrpr ul.bassUl {margin-bottom: 0;}
+.parameter-bubble-wrpr.ul-format-bubble-wrpr ul.bassUl li.bassUlLi {margin-bottom:0 !important; border:0;}
+
+.recordAction___topRecordActions ul.pipelist li.addThisSimpleCustomImage-wrapper {
+    top: -2px !important;
+}
+a.addThisShareButtonLink:link, a.addThisShareButtonLink:visited {
+    background: url("http://www.shortpumpmall.com/d/sew/buttonShare.png") no-repeat scroll 0 -20px transparent;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 51px;
+}
+a.addThisShareButtonLink:link img, a.addThisShareButtonLink:link span {
+    display: none;
+}
+a.addThisShareButtonLink:hover, a.addThisShareButtonLink:active, a.addThisShareButtonLink:focus {
+    background-position: 0 0;
+}
+
+/* helpText : Tooltip/Help text popup parameter styling... */
+div.helpText {
+  position: absolute !important;
+  display: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+  opacity: 0.8;
+  padding: 10px;
+  z-index: 999;
+  width: 200px;
+}
+
+.helpIcon {
+  background-color: black;
+  color: white;
+  font-family: 'Helvetica';
+  padding: 2px;
+  text-align: center;
+  border-radius: 50%;
+  width: 15px !important;
+  height: 15px !important;
+  float: right;
+  cursor: pointer;
+}
+
+.helpWrapper {
+  position: relative;
+}
+.border1pxBlack {
+  border: 1px solid black;
+}
+.altColor { /* feel free to change. i used it for some instructions*/
+  color: #AF3E3E;
+}
+
+/* app specific shit that wouldn't be here..*/
+
+.StoreInstance___CCAmex {
+    width: 61px;
+    height: 41px;
+    background: url(/theme/global/images/content/credit-card-icon-sprite.png) 59px 0px;
+    float:left;
+}
+
+.StoreInstance___CCDiscover {
+    width: 61px;
+    height: 41px;
+    background: url(/theme/global/images/content/credit-card-icon-sprite.png) 126px 0px;
+    float:left;
+}
+.StoreInstance___CCMasterCard {
+    width: 61px;
+    height: 41px;
+    background: url(/theme/global/images/content/credit-card-icon-sprite.png) 192px 0px;
+    float:left;
+}
+.StoreInstance___CCVisa {
+  width: 61px;
+  height: 41px;
+  background: url(/theme/global/images/content/credit-card-icon-sprite.png) 258px 0px;
+  float:left;
+}

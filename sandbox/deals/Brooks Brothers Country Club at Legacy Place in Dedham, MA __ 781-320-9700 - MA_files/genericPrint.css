@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* Generic SEW Print Styles */
+#primary,
+footer,
+#social,
+#topAd,
+#topad,
+#login-user,
+#socialnav,
+#shoptopiacopy,
+#search,
+.adBlock-300-250,
+#more-in-spotlight,
+#sidebarMap,
+.visit-share,
+#sidebarNav {
+	display:none;
+}
+
+/* ----- Black Friday Deals Print Styles ----- */
+.blackfriday #promoGroupTabs,
+.blackfriday h1.header {
+	display:none;
+}
+.blackfriday h2.header:after {
+	content:url("/d/sew/bfd-header2012.png");
+	display:block;
+}
+.blackfriday a:link {
+	text-decoration:none;
+}
+.blackfriday a:link:after {content:"";}
+.blackfriday .deals {
+	page-break-after:always;
+	page-break-inside:avoid!important;
+}
+.blackfriday p.dealsCompName {
+	margin-bottom:0;
+	padding:15px 0 0;
+}
+.blackfriday h4 {
+	font-size:1.5em;
+	margin:4pt 0 10pt;
+}

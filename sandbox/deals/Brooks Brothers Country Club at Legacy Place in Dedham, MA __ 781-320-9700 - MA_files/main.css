@@ -1,0 +1,599 @@
+@font-face {
+  font-family: 'Deal Flow Icons';
+  src: url("../fonts/icomoon.eot?l89g08");
+  src: url("../fonts/icomoon.eot?#iefixl89g08") format("embedded-opentype"), url("../fonts/icomoon.woff?l89g08") format("woff"), url("../fonts/icomoon.ttf?l89g08") format("truetype"), url("../fonts/icomoon.svg?l89g08#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#deal-flow {
+  font-size: 16px;
+  line-height: 1.4em;
+  overflow: hidden; }
+  #deal-flow * {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  #deal-flow h2 {
+    margin-top: 0 !important; }
+  #deal-flow button {
+    position: static;
+    left: auto;
+    right: auto;
+    width: auto;
+    height: auto; }
+  #deal-flow .select {
+    width: auto;
+    height: 2em;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 0.9em;
+    line-height: 1;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    border: 1px solid #aaa; }
+  #deal-flow .icon {
+    font-family: 'Deal Flow Icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 1.42em;
+    line-height: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    #deal-flow .icon.icon--grid:before {
+      content: "\e600"; }
+    #deal-flow .icon.icon--list:before {
+      content: "\e601"; }
+  #deal-flow .notice {
+    display: block;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 0.875em;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.4em 0.5em;
+    margin: 0 0 1em;
+    background-color: #fff;
+    border: 1px solid;
+    color: #bf2734;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    transition: all 200ms; }
+    #deal-flow .notice.notice--active, #deal-flow .tile:hover .notice, #deal-flow .tile:active .notice {
+      color: #951e28; }
+    #deal-flow .notice.notice--big {
+      padding: 0.2em 0.3em;
+      font-size: 1.375em;
+      line-height: 1.4em; }
+    #deal-flow .notice.notice--subdue, #deal-flow .notice.notice--ends-outside-week {
+      color: #333336;
+      background: #e1e1e1;
+      border-color: #e1e1e1; }
+      #deal-flow .notice.notice--subdue.notice--active, #deal-flow .tile:hover .notice.notice--subdue, #deal-flow .tile:active .notice.notice--subdue, #deal-flow .notice.notice--ends-outside-week.notice--active, #deal-flow .tile:hover .notice.notice--ends-outside-week, #deal-flow .tile:active .notice.notice--ends-outside-week {
+        color: #333336;
+        background: #c8c8c8;
+        border-color: #c8c8c8; }
+    #deal-flow .notice.notice--important, #deal-flow .notice.notice--ends-today, #deal-flow .notice.notice--ends-tomorrow {
+      color: #fff;
+      background: #bf2734;
+      border-color: #bf2734; }
+      #deal-flow .notice.notice--important.notice--active, #deal-flow .tile:hover .notice.notice--important, #deal-flow .tile:active .notice.notice--important, #deal-flow .notice.notice--ends-today.notice--active, #deal-flow .tile:hover .notice.notice--ends-today, #deal-flow .tile:active .notice.notice--ends-today, #deal-flow .notice.notice--ends-tomorrow.notice--active, #deal-flow .tile:hover .notice.notice--ends-tomorrow, #deal-flow .tile:active .notice.notice--ends-tomorrow {
+        color: #fff;
+        background: #951e28;
+        border-color: #951e28; }
+  #deal-flow .bubble {
+    display: inline-block;
+    min-width: 1.8em;
+    height: 1.8em;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 700;
+    border-radius: 1.4em;
+    color: #fff;
+    background: #bf2734;
+    text-align: center;
+    padding: 0.2em;
+    -webkit-transition: background-color 200ms;
+    -moz-transition: background-color 200ms;
+    transition: background-color 200ms; }
+    #deal-flow .bubble.bubble--active, #deal-flow .tile:hover .bubble, #deal-flow .tile:active .bubble {
+      background: #951e28; }
+  #deal-flow .title {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.875em;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    border: none;
+    padding: 0;
+    margin: 0 0 0.4em;
+    color: #000; }
+    #deal-flow .title.title--secondary {
+      font-size: 1.3em;
+      line-height: 1.4em;
+      font-weight: 700;
+      margin-bottom: 0.65em;
+      color: #666; }
+  #deal-flow .filter {
+    display: inline-block;
+    margin: 0 2.4em 1em 0; }
+    #deal-flow .filter:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #deal-flow .filter__title {
+    display: inline-block;
+    font-weight: 700;
+    float: left;
+    margin-right: 0.8em;
+    padding-top: 0.2em; }
+  #deal-flow .filter__control {
+    float: left; }
+  #deal-flow .toggle {
+    display: inline-block;
+    margin: 0 0 1em; }
+    #deal-flow .toggle:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #deal-flow .toggle__switch {
+    display: inline-block;
+    color: #a3a3a3;
+    cursor: pointer;
+    float: left;
+    margin-right: 0.8em; }
+    #deal-flow .toggle__switch:hover, #deal-flow .toggle__switch:active, #deal-flow .toggle__switch:focus, #deal-flow .toggle__switch.toggle__switch--active {
+      color: #082c41; }
+  #deal-flow .tile {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    display: block;
+    position: relative;
+    text-decoration: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important; }
+    #deal-flow .tile:hover .tile__title, #deal-flow .tile:active .tile__title {
+      color: #18cca7 !important; }
+    #deal-flow .tile:hover .tile__thumbnail-mask:after, #deal-flow .tile:active .tile__thumbnail-mask:after {
+      opacity: 1; }
+    #deal-flow .tile.tile--expand, #deal-flow .tile-list__content.tile-list__content--list .tile {
+      max-width: none;
+      margin-bottom: 0; }
+      #deal-flow .tile.tile--expand .tile__wrap, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__wrap {
+        min-height: 172px;
+        padding: 1em 0 1em 10.1em;
+        border: none;
+        border-top: 1px solid #b0b0b0;
+        background: #fff; }
+        @media (max-width: 450px) {
+          #deal-flow .tile.tile--expand .tile__wrap, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__wrap {
+            padding-left: 6em; } }
+      #deal-flow .tile.tile--expand .tile__logo, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__logo {
+        margin-left: 1em; }
+      #deal-flow .tile.tile--expand .tile__logo-image, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__logo-image {
+        margin: 0; }
+      #deal-flow .tile.tile--expand .tile__logo-text, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__logo-text {
+        text-align: left; }
+      #deal-flow .tile.tile--expand .tile__thumbnail, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__thumbnail {
+        position: absolute;
+        top: 1em;
+        left: 0;
+        width: 10.1em; }
+        @media (max-width: 450px) {
+          #deal-flow .tile.tile--expand .tile__thumbnail, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__thumbnail {
+            width: 6em; } }
+      #deal-flow .tile.tile--expand .notice, #deal-flow .tile-list__content.tile-list__content--list .tile .notice {
+        width: 10.8em;
+        position: absolute;
+        top: 1rem;
+        right: 0; }
+        @media (max-width: 680px) {
+          #deal-flow .tile.tile--expand .notice, #deal-flow .tile-list__content.tile-list__content--list .tile .notice {
+            position: static;
+            margin-left: 1rem; } }
+      #deal-flow .tile.tile--expand .tile__title, #deal-flow .tile-list__content.tile-list__content--list .tile .tile__title,
+      #deal-flow .tile.tile--expand .tile__subtitle,
+      #deal-flow .tile-list__content.tile-list__content--list .tile .tile__subtitle {
+        padding-left: 1rem; }
+      #deal-flow .tile.tile--expand.tile--stacked:before, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked:before, #deal-flow .tile.tile--expand.tile--stacked:after, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked:after {
+        display: none; }
+      #deal-flow .tile.tile--expand.tile--stacked .tile__thumbnail:before, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked .tile__thumbnail:before, #deal-flow .tile.tile--expand.tile--stacked .tile__thumbnail:after, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked .tile__thumbnail:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #eeebeb;
+        box-shadow: inset 0 0 0 1px #b0b0b0;
+        z-index: 5; }
+      #deal-flow .tile.tile--expand.tile--stacked .tile__thumbnail:before, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked .tile__thumbnail:before {
+        top: 3px;
+        left: -3px; }
+      #deal-flow .tile.tile--expand.tile--stacked .tile__thumbnail:after, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked .tile__thumbnail:after {
+        top: 6px;
+        left: -6px;
+        z-index: 1; }
+        @media (max-width: 500px) {
+          #deal-flow .tile.tile--expand.tile--stacked .tile__thumbnail:after, #deal-flow .tile-list__content.tile-list__content--list .tile.tile--stacked .tile__thumbnail:after {
+            display: none; } }
+    @media (min-width: 500px) {
+      #deal-flow .tile.tile--stacked .tile__wrap {
+        min-height: 178px !important; }
+      #deal-flow .tile.tile--stacked:before, #deal-flow .tile.tile--stacked:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #eeebeb;
+        box-shadow: inset 0 0 0 1px #b0b0b0;
+        z-index: 5; }
+      #deal-flow .tile.tile--stacked:before {
+        top: 3px;
+        left: -3px; }
+      #deal-flow .tile.tile--stacked:after {
+        top: 6px;
+        left: -6px;
+        z-index: 1; } }
+  #deal-flow .tile__wrap {
+    border: 1px solid #b0b0b0;
+    background: #fff;
+    padding: 0.7em;
+    position: relative;
+    z-index: 10; }
+  #deal-flow .tile__logo {
+    height: 3.06em;
+    margin-bottom: 0.6em;
+    position: relative; }
+  #deal-flow .tile__logo-image {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: none; }
+  #deal-flow .tile__logo-text {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #000; }
+  #deal-flow .tile__thumbnail {
+    display: block;
+    margin-bottom: 0.6em; }
+  #deal-flow .tile__thumbnail-mask {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    z-index: 10;
+    border: 1px solid #b0b0b0; }
+    #deal-flow .tile__thumbnail-mask:before {
+      content: '';
+      display: block;
+      padding-top: 86.5%; }
+    #deal-flow .tile__thumbnail-mask:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-shadow: inset 0 0 0 3px #18cca7, inset 0 0 50px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      -webkit-transition: opacity 200ms;
+      -moz-transition: opacity 200ms;
+      transition: opacity 200ms; }
+  #deal-flow .tile__thumbnail-image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: none;
+    box-shadow: none;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  #deal-flow .bubble {
+    position: absolute;
+    top: -0.5em;
+    right: -0.5em;
+    z-index: 15; }
+    @media (max-width: 500px) {
+      #deal-flow .bubble {
+        font-size: 0.8em;
+        line-height: 1.4em;
+        top: -0.4em;
+        right: -0.4em; } }
+  #deal-flow .tile__title {
+    color: #000;
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    font-style: normal;
+    padding: 0;
+    margin: 0 0 0.5em;
+    border: none;
+    text-transform: none;
+    word-break: break-word;
+    letter-spacing: 0;
+    -webkit-transition: color 200ms;
+    -moz-transition: color 200ms;
+    transition: color 200ms; }
+    #deal-flow .tile__title a {
+      color: #000;
+      text-decoration: none; }
+      #deal-flow .tile__title a:hover {
+        text-decoration: underline; }
+    @media (max-width: 500px) {
+      #deal-flow .tile__title {
+        font-size: 1.1em;
+        line-height: 1.2em; } }
+  #deal-flow .tile__subtitle {
+    color: #666;
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-style: normal;
+    text-transform: none;
+    margin: 0 !important;
+    word-break: break-word;
+    letter-spacing: 0; }
+  #deal-flow .container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 1.6em !important;
+    margin: 0 !important;
+    background: #fff !important; }
+    @media (max-width: 500px) {
+      #deal-flow .container {
+        padding: 1em !important; } }
+  #deal-flow .layout {
+    margin-bottom: 1.25em; }
+    #deal-flow .layout:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #deal-flow .layout__left {
+    float: left;
+    width: 50%; }
+  #deal-flow .layout__right {
+    float: right;
+    width: 50%; }
+  @media (min-width: 700px) {
+    #deal-flow .layout__main {
+      width: 62.5%;
+      float: left;
+      padding-right: 0.5em; }
+    #deal-flow .layout__aside {
+      width: 36.5%;
+      float: right;
+      padding-left: 0.5em; } }
+  #deal-flow .logo {
+    width: 247px;
+    height: 74px;
+    margin: 0 auto 1.875em;
+    position: relative;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid #dadada; }
+  #deal-flow .logo__image {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: none; }
+  #deal-flow .logo__text {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: -0.55em 0 0 0;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    border: none;
+    color: #000; }
+  #deal-flow .icon-list {
+    display: inline-block;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0; }
+  #deal-flow .icon-list__item {
+    display: inline-block;
+    float: left;
+    margin: 0 0.5em 0.5em 0 !important;
+    cursor: pointer;
+    list-style: none !important; }
+    #deal-flow .icon-list__item:last-child {
+      margin-right: 0 !important; }
+  #deal-flow .icon-list__description {
+    display: inline-block;
+    float: left;
+    padding: 0.4em 0.5em 0 0; }
+  #deal-flow .icon-list__icon {
+    display: block;
+    width: 2.31em;
+    height: 2.31em;
+    margin: 0;
+    box-shadow: none;
+    border: none; }
+    #deal-flow .icon-list__icon:hover {
+      opacity: 0.75; }
+    #deal-flow .icon-list__icon:active {
+      opacity: 0.5; }
+  #deal-flow .featured-image {
+    display: table;
+    width: 100%;
+    background: #ebe9e9;
+    border: 1px solid #b2b2b2;
+    margin-bottom: 1.25em; }
+  #deal-flow .featured-image__wrapper {
+    vertical-align: middle; }
+  #deal-flow .featured-image__image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    box-shadow: none; }
+    #deal-flow .featured-image__image.featured-image__image--fallback {
+      max-width: 279px;
+      max-height: 242px; }
+  #deal-flow .blocks {
+    display: block;
+    list-style: none !important;
+    width: 100%;
+    margin: 0 !important;
+    padding: 1.6em 0 !important;
+    background: #3f3b37;
+    color: #fff;
+    word-wrap: break-word; }
+    #deal-flow .blocks:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media (max-width: 800px) {
+      #deal-flow .blocks {
+        padding: 0 !important; } }
+  #deal-flow .blocks__block {
+    width: 25%;
+    min-height: 84px;
+    float: left;
+    border-right: 1px solid #2e2b28;
+    box-shadow: 1px 0 0 #625e5b;
+    padding: 0 1.6em;
+    margin: 0 !important;
+    list-style: none !important; }
+    #deal-flow .blocks__block:last-child {
+      border-right: none;
+      box-shadow: none; }
+    @media (max-width: 800px) {
+      #deal-flow .blocks__block {
+        width: 100%;
+        border-right: none;
+        box-shadow: none;
+        padding: 1.6em;
+        border-bottom: 1px solid #2e2b28;
+        box-shadow: 0 1px 0 #625e5b; }
+        #deal-flow .blocks__block:last-child {
+          border-bottom: none;
+          box-shadow: none; } }
+  #deal-flow .blocks__title,
+  #deal-flow .blocks__description {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: none;
+    color: #fff !important;
+    margin: 0 0 0.5em !important; }
+  #deal-flow .blocks__title {
+    font-weight: 700; }
+  #deal-flow .blocks__description {
+    font-weight: 400; }
+  #deal-flow .blocks__link,
+  #deal-flow a.blocks__link:link,
+  #deal-flow a.blocks__link:visited {
+    color: #18cca7 !important;
+    text-decoration: none !important;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 700; }
+    #deal-flow .blocks__link:hover, #deal-flow .blocks__link:active,
+    #deal-flow a.blocks__link:link:hover,
+    #deal-flow a.blocks__link:link:active,
+    #deal-flow a.blocks__link:visited:hover,
+    #deal-flow a.blocks__link:visited:active {
+      text-decoration: underline !important; }
+  #deal-flow .copy {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #000; }
+    #deal-flow .copy p {
+      font-family: "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 1em;
+      line-height: 1.4em;
+      font-weight: 400;
+      margin: 0 0 1em;
+      color: #000; }
+  #deal-flow .tile-list {
+    font-size: 16px;
+    line-height: 1.4em;
+    margin-bottom: 1.6em; }
+    #deal-flow .tile-list.tile-list--alt {
+      width: calc(100% + 3.2em);
+      margin-left: -1.6em;
+      padding: 1.6em 1.6em 0.6em;
+      background: #ebe9e9;
+      border-top: 1px solid #dadada;
+      border-bottom: 1px solid #dadada; }
+      @media (max-width: 500px) {
+        #deal-flow .tile-list.tile-list--alt {
+          width: calc(100% + 2em);
+          margin-left: -1em;
+          padding: 1em; } }
+  #deal-flow .tile-list__header:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #deal-flow .tile-list__header .filter,
+  #deal-flow .tile-list__header .toggle {
+    float: left; }
+  #deal-flow .tile-list__header .title {
+    margin: -0.6em 0 0.4em !important; }
+  #deal-flow .tile-list__content {
+    position: relative;
+    width: calc(100% + 16px);
+    max-width: 808px;
+    margin: 0 auto;
+    left: -8px; }
+    #deal-flow .tile-list__content.tile-list__content--loaded .tile {
+      opacity: 1; }
+    #deal-flow .tile-list__content.tile-list__content--list .tile {
+      width: calc(100% - 16px); }
+    #deal-flow .tile-list__content.tile-list__content--full-width {
+      max-width: none; }
+    #deal-flow .tile-list__content .tile {
+      width: 186px;
+      margin: 0 8px 16px 8px;
+      float: left;
+      opacity: 0; }
+    @media (max-width: 500px) {
+      #deal-flow .tile-list__content:not(.tile-list__content--list) {
+        width: calc(100% + 8px);
+        left: -4px; }
+        #deal-flow .tile-list__content:not(.tile-list__content--list) .tile {
+          width: calc(50% - 8px);
+          margin: 0 4px 8px 4px; } }
+
+/*# sourceMappingURL=main.css.map */

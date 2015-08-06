@@ -146,7 +146,7 @@
         <div class="column half">
           <div class="formitem phone-number">
             <label for="phone-number" class="required">Phone Number</label>
-            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" x-autocompletetype="phone-full" tabindex="9" required>
+            <input class="masked" type="tel" id="phone-number" name="phone-number" placeholder="(XXX)XXX-XXXX" pattern="\(\d{3}\)\d{3}\-\d{4}" x-autocompletetype="phone-full" tabindex="9" required>
             <span title="Gonna need dem digits"></span>
           </div>
 
@@ -155,7 +155,7 @@
         <div class="column half">
           <div class="formitem phone-number">
             <label for="phone-number" class="">Alternate Phone Number</label>
-            <input type="tel" id="phone-number-alt" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="tel" x-autocompletetype="phone-full" tabindex="10">
+            <input class="masked" type="tel" id="phone-number-alt" name="phone-number" placeholder="(XXX)XXX-XXXX" pattern="\(\d{3}\)\d{3}\-\d{4}" name="tel" x-autocompletetype="phone-full" tabindex="10">
           </div>
 
         </div>

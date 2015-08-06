@@ -1,0 +1,102 @@
+.featureOnHomePageMain-cnt-row .mf_feature___featureImage {
+  float:left;
+  margin-right:15px;
+  vertical-align: top;
+}
+#body-features > .container {
+    width: 100%;
+}
+#body-features #contentwrapper {
+    width: 100%;
+}
+.feature-adminMode .span-2,
+.feature-adminMode .span-3{
+   border: 0px solid red;
+   padding:1px;
+}
+.feature-adminMode .span-7 .span-4,
+.feature-adminMode .span-7 .span-3{
+  margin-right:0;
+}
+.feature-adminMode .evenRow {
+  background-color: #eee;
+}
+.feature-adminMode .oddRow {
+  background-color: #fff;
+}
+.gallery5-format-bubble-wrpr .mf_feature___featureImage {
+  position:relative;
+  top:0;
+  left:0;
+  margin:0;
+  padding:0;
+  line-height:0;
+}
+.gallery5-format-bubble-wrpr .mf_feature___featureImage a {
+  display:block;
+}
+.gallery5-format-bubble-wrpr .featureOnHomePageMainGalleryDiv {
+  position:relative;
+  width:190px;
+  height:190px;
+  border: 4px white solid;
+  overflow:hidden;
+}
+.gallery5-format-bubble-wrpr .overflowContainer {
+  position:absolute;
+  top:0;
+  left:0;
+  display:block;
+  height:380px;
+  width:190px;
+}
+.gallery5-format-bubble-wrpr .overflowContainer:hover,
+.gallery5-format-bubble-wrpr .overflowContainer:focus {
+  position:absolute;
+  top:-190px;
+  left:0;
+}
+.gallery5-format-bubble-wrpr .galleryCell div {
+  margin-bottom:0;
+}
+#content .gallery5-format-bubble-wrpr .galleryCell .adminlinks {
+  display:none;
+  visibility:hidden;
+}
+
+#content .gallery5-format-bubble-wrpr .mf_feature___featureSubTitle {
+  position:relative;
+  padding-left:5px;
+  padding-right:5px;
+  font-size:12px;
+  font-family: Georgia, serif;
+}
+#content .gallery5-format-bubble-wrpr .mf_feature___featureSubTitle a {
+  font-style:normal;
+  color:#000;
+  text-decoration:none;
+  font-family: Georgia, serif;
+  font-size:12px;
+}
+#content .gallery5-format-bubble-wrpr .mf_feature___featureSubTitle .moreAlways {
+  font-style:italic;
+  color:#b56a07;
+  font-family: Georgia, serif;
+  font-size:12px;
+}
+#content .gallery5-format-bubble-wrpr .mf_feature___featureShortTitle {
+  position:relative;
+  font-size:18px;
+  font-weight:bold;
+  padding-left:5px;
+  padding-right:5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-nav-active {
+  color:#F2F08E;
+}
+.carousel-nav-inactive {
+  color:#999;
+}
+
+.quizQuestionChoice-cnt-bdy .bassUl .bassUlLi { margin-bottom:2px;}

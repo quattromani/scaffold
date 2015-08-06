@@ -1,0 +1,182 @@
+/* anytimec.css 4.1060 (anytime.css 4.1060)
+Copyright 2008-2010 Andrew M. Andrews III (www.AMA3.com). Some Rights 
+Reserved. This work licensed under the Creative Commons Attribution-
+Noncommercial-Share Alike 3.0 Unported License except in jurisdicitons
+for which the license has been ported by Creative Commons International,
+where the work is licensed under the applicable ported license instead.
+For a copy of the unported license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+or send a letter to Creative Commons, 171 Second Street, Suite 300,
+San Francisco, California, 94105, USA.  For ported versions of the
+license, visit http://creativecommons.org/international/
+Any+Time is a trademark of Andrew M. Andrews III. */
+.AnyTime-pkr div, .AnyTime-pkr li, .AnyTime-pkr ul, .AnyTime-pkr table, .AnyTime-pkr td, .AnyTime-pkr th, .AnyTime-pkr tr
+{border:0;font:inherit;font-size:x-small;list-style-type:none;margin:0;padding:0;white-space:nowrap;}
+.AnyTime-win
+{background-color:#F9F9FF;border:1px solid #999;font:normal normal normal x-small/normal sans-serif;padding-bottom:0.2em;}
+.AnyTime-pkr
+{}
+.AnyTime-pkr .AnyTime-cloak
+{background-color:#CCC;opacity:0.7;filter:alpha(opacity=70);}
+.AnyTime-pkr .AnyTime-hdr
+{color:#606061;font-family:Arial,Helvetica,sans-serif;font-size:medium;font-weight:normal;height:1em;margin:0;padding:0;text-align:center;}
+.AnyTime-pkr .AnyTime-x-btn
+{background-color:#FCFCFF;border:1px solid #F99;color:#FF9F9F;cursor:default;float:right;font-size:xx-small;margin:0.2em;text-align:center;width:1.5em;}
+.AnyTime-pkr .AnyTime-btn
+{background-color:#FCFCFE;border-top:1px solid #909091;border-left:1px solid #909091;color:#606062;cursor:default;float:left;font-family:Arial,Helvetica,sans-serif;height:1.3em;}
+.AnyTime-pkr .AnyTime-body
+{padding:0.5em;}
+.AnyTime-pkr .AnyTime-date
+{float:left;padding:0 0.5em;}
+.AnyTime-pkr .AnyTime-lbl
+{clear:left;color:#606063;font-family:Arial,Helvetica,sans-serif;font-size:100%;font-weight:normal;font-style:normal;height:1.3em;margin:0;padding:0;text-align:center;}
+.AnyTime-pkr .AnyTime-lbl-yr, .AnyTime-pkr .AnyTime-lbl-mon, .AnyTime-pkr .AnyTime-lbl-dom, .AnyTime-pkr .AnyTime-lbl-hr, .AnyTime-pkr .AnyTime-lbl-min, .AnyTime-pkr .AnyTime-lbl-sec
+{}
+.AnyTime-pkr .AnyTime-yrs
+{height:2em;text-align:center;width:17.5em;}
+.AnyTime-pkr .AnyTime-yrs-past-btn
+{width:2.75em;border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-yr-prior-btn, .AnyTime-pkr .AnyTime-yr-cur-btn, .AnyTime-pkr .AnyTime-yr-next-btn
+{width:3.5em;border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-yrs-ahead-btn
+{width:2.75em;border-bottom:1px solid #909091;border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-mons
+{height:3.5em;text-align:center;width:17.4em;}
+.AnyTime-pkr .AnyTime-mon-btn
+{width:2.7em;}
+.AnyTime-pkr .AnyTime-mon1-btn, .AnyTime-pkr .AnyTime-mon2-btn, .AnyTime-pkr .AnyTime-mon3-btn, .AnyTime-pkr .AnyTime-mon4-btn, .AnyTime-pkr .AnyTime-mon5-btn
+{}
+.AnyTime-pkr .AnyTime-mon6-btn
+{border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-mon7-btn
+{border-bottom:1px solid #909091;clear:left;}
+.AnyTime-pkr .AnyTime-mon8-btn, .AnyTime-pkr .AnyTime-mon9-btn, .AnyTime-pkr .AnyTime-mon10-btn, .AnyTime-pkr .AnyTime-mon11-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-mon12-btn
+{border-bottom:1px solid #909091;border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-dom-table
+{background-color:#F6F6FF;border:1px solid #CCC;}
+.AnyTime-pkr .AnyTime-dom-head
+{}
+.AnyTime-pkr tr.AnyTime-dow
+{}
+.AnyTime-pkr th.AnyTime-dow
+{background-color:#F6F6FE;color:#606064;font-family:Arial,Helvetica,sans-serif;font-size:95%;font-weight:normal;font-style:normal;}
+.AnyTime-pkr .AnyTime-dow1, .AnyTime-pkr .AnyTime-dow2, .AnyTime-pkr .AnyTime-dow3, .AnyTime-pkr .AnyTime-dow4, .AnyTime-pkr .AnyTime-dow5, .AnyTime-pkr .AnyTime-dow6, .AnyTime-pkr .AnyTime-dow7
+{}
+.AnyTime-pkr .AnyTime-dom-body
+{}
+.AnyTime-pkr .AnyTime-wk
+{}
+.AnyTime-pkr .AnyTime-wk1, .AnyTime-pkr .AnyTime-wk2, .AnyTime-pkr .AnyTime-wk3, .AnyTime-pkr .AnyTime-wk4, .AnyTime-pkr .AnyTime-wk5, .AnyTime-pkr .AnyTime-wk6
+{}
+.AnyTime-pkr .AnyTime-dom-btn
+{float:none;text-align:right;padding-right:0.5em;width:2em;}
+.AnyTime-pkr .AnyTime-dom-btn-filled
+{}
+.AnyTime-pkr .AnyTime-dom-btn-empty
+{border:0;}
+.AnyTime-pkr .AnyTime-dom-btn-empty-above-filled, .AnyTime-pkr .AnyTime-dom-btn-empty-before-filled
+{}
+.AnyTime-pkr .AnyTime-dom-btn-empty-after-filled
+{border-left:1px solid #909091;}
+.AnyTime-pkr .AnyTime-dom-btn-empty-below-filled
+{border-top:1px solid #909091;}
+.AnyTime-pkr .AnyTime-time
+{float:left;padding:0 0.5em 0 0;text-align:center;}
+.AnyTime-pkr .AnyTime-hrs
+{float:left;padding-left:0.5em;padding-right:0.5em;text-align:center;width:6.2em;}
+.AnyTime-pkr .AnyTime-hrs-am, .AnyTime-pkr .AnyTime-hrs-pm
+{float:left;width:3.1em;}
+.AnyTime-pkr .AnyTime-hr-btn
+{text-align:right;padding-right:0.25em;width:2.75em;}
+.AnyTime-pkr .AnyTime-hr0-btn, .AnyTime-pkr .AnyTime-hr1-btn, .AnyTime-pkr .AnyTime-hr2-btn, .AnyTime-pkr .AnyTime-hr3-btn, .AnyTime-pkr .AnyTime-hr4-btn, .AnyTime-pkr .AnyTime-hr5-btn, .AnyTime-pkr .AnyTime-hr6-btn, .AnyTime-pkr .AnyTime-hr7-btn, .AnyTime-pkr .AnyTime-hr8-btn, .AnyTime-pkr .AnyTime-hr9-btn, .AnyTime-pkr .AnyTime-hr10-btn
+{}
+.AnyTime-pkr .AnyTime-hr11-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-hr12-btn, .AnyTime-pkr .AnyTime-hr13-btn, .AnyTime-pkr .AnyTime-hr14-btn, .AnyTime-pkr .AnyTime-hr15-btn, .AnyTime-pkr .AnyTime-hr16-btn, .AnyTime-pkr .AnyTime-hr17-btn, .AnyTime-pkr .AnyTime-hr18-btn, .AnyTime-pkr .AnyTime-hr19-btn, .AnyTime-pkr .AnyTime-hr20-btn, .AnyTime-pkr .AnyTime-hr21-btn, .AnyTime-pkr .AnyTime-hr22-btn
+{border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-hr23-btn
+{border-right:1px solid #909091;border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-mins
+{float:left;padding-left:0.5em;padding-right:0.5em;text-align:center;width:3.2em;}
+.AnyTime-pkr .AnyTime-mins-tens, .AnyTime-pkr .AnyTime-mins-ones
+{float:left;width:1.6em;}
+.AnyTime-pkr .AnyTime-min-ten-btn
+{float:left;text-align:center;width:1.5em;}
+.AnyTime-pkr .AnyTime-min00-btn, .AnyTime-pkr .AnyTime-min10-btn, .AnyTime-pkr .AnyTime-min20-btn, .AnyTime-pkr .AnyTime-min30-btn, .AnyTime-pkr .AnyTime-min40-btn
+{}
+.AnyTime-pkr .AnyTime-min50-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-min-one-btn
+{border-right:1px solid #909091;float:left;text-align:center;width:1.5em;}
+.AnyTime-pkr .AnyTime-min0-btn, .AnyTime-pkr .AnyTime-min1-btn, .AnyTime-pkr .AnyTime-min2-btn, .AnyTime-pkr .AnyTime-min3-btn, .AnyTime-pkr .AnyTime-min4-btn, .AnyTime-pkr .AnyTime-min5-btn, .AnyTime-pkr .AnyTime-min6-btn, .AnyTime-pkr .AnyTime-min7-btn, .AnyTime-pkr .AnyTime-min8-btn
+{}
+.AnyTime-pkr .AnyTime-min9-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-secs
+{float:left;padding-left:0.5em;padding-right:0.5em;text-align:center;width:3.2em;}
+.AnyTime-pkr .AnyTime-secs-tens, .AnyTime-pkr .AnyTime-secs-ones
+{float:left;width:1.6em;}
+.AnyTime-pkr .AnyTime-sec-ten-btn
+{float:left;text-align:center;width:1.5em;}
+.AnyTime-pkr .AnyTime-sec00-btn, .AnyTime-pkr .AnyTime-sec10-btn, .AnyTime-pkr .AnyTime-sec20-btn, .AnyTime-pkr .AnyTime-sec30-btn, .AnyTime-pkr .AnyTime-sec40-btn
+{}
+.AnyTime-pkr .AnyTime-sec50-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-sec-one-btn
+{border-right:1px solid #909091;float:left;text-align:center;width:1.5em;}
+.AnyTime-pkr .AnyTime-sec0-btn, .AnyTime-pkr .AnyTime-sec1-btn, .AnyTime-pkr .AnyTime-sec2-btn, .AnyTime-pkr .AnyTime-sec3-btn, .AnyTime-pkr .AnyTime-sec4-btn, .AnyTime-pkr .AnyTime-sec5-btn, .AnyTime-pkr .AnyTime-sec6-btn, .AnyTime-pkr .AnyTime-sec7-btn, .AnyTime-pkr .AnyTime-sec8-btn
+{}
+.AnyTime-pkr .AnyTime-sec9-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-offs
+{clear:left;float:left;padding-left:0.5em;padding-top:0.5em;text-align:center;}
+.AnyTime-pkr .AnyTime-off-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-off-cur-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-off-select-btn
+{width:1.5em;border-bottom:1px solid #909091;border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-yr-selector
+{}
+.AnyTime-pkr .AnyTime-hdr-yr-selector
+{}
+.AnyTime-pkr .AnyTime-body-yr-selector
+{padding:1em;}
+.AnyTime-pkr .AnyTime-yr-mil, .AnyTime-pkr .AnyTime-yr-cent, .AnyTime-pkr .AnyTime-yr-dec, .AnyTime-pkr .AnyTime-yr-yr
+{float:left;width:1.6em;}
+.AnyTime-pkr .AnyTime-mil-btn, .AnyTime-pkr .AnyTime-cent-btn, .AnyTime-pkr .AnyTime-dec-btn, .AnyTime-pkr .AnyTime-yr-btn
+{float:left;text-align:center;width:1.5em;}
+.AnyTime-pkr .AnyTime-mil0-btn, .AnyTime-pkr .AnyTime-mil1-btn, .AnyTime-pkr .AnyTime-mil2-btn, .AnyTime-pkr .AnyTime-mil3-btn, .AnyTime-pkr .AnyTime-mil4-btn, .AnyTime-pkr .AnyTime-mil5-btn, .AnyTime-pkr .AnyTime-mil6-btn, .AnyTime-pkr .AnyTime-mil7-btn, .AnyTime-pkr .AnyTime-mil8-btn, .AnyTime-pkr .AnyTime-cent0-btn, .AnyTime-pkr .AnyTime-cent1-btn, .AnyTime-pkr .AnyTime-cent2-btn, .AnyTime-pkr .AnyTime-cent3-btn, .AnyTime-pkr .AnyTime-cent4-btn, .AnyTime-pkr .AnyTime-cent5-btn, .AnyTime-pkr .AnyTime-cent6-btn, .AnyTime-pkr .AnyTime-cent7-btn, .AnyTime-pkr .AnyTime-cent8-btn, .AnyTime-pkr .AnyTime-dec0-btn, .AnyTime-pkr .AnyTime-dec1-btn, .AnyTime-pkr .AnyTime-dec2-btn, .AnyTime-pkr .AnyTime-dec3-btn, .AnyTime-pkr .AnyTime-dec4-btn, .AnyTime-pkr .AnyTime-dec5-btn, .AnyTime-pkr .AnyTime-dec6-btn, .AnyTime-pkr .AnyTime-dec7-btn, .AnyTime-pkr .AnyTime-dec8-btn
+{}
+.AnyTime-pkr .AnyTime-mil9-btn, .AnyTime-pkr .AnyTime-cent9-btn, .AnyTime-pkr .AnyTime-dec9-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-yr0-btn, .AnyTime-pkr .AnyTime-yr1-btn, .AnyTime-pkr .AnyTime-yr2-btn, .AnyTime-pkr .AnyTime-yr3-btn, .AnyTime-pkr .AnyTime-yr4-btn, .AnyTime-pkr .AnyTime-yr5-btn, .AnyTime-pkr .AnyTime-yr6-btn, .AnyTime-pkr .AnyTime-yr7-btn, .AnyTime-pkr .AnyTime-yr8-btn
+{border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-yr9-btn
+{border-bottom:1px solid #909091;border-right:1px solid #909091;}
+.AnyTime-pkr .AnyTime-yr-era
+{float:left;padding-left:1em;width:3em;}
+.AnyTime-pkr .AnyTime-era-btn
+{border-right:1px solid #909091;text-align:center;width:3em;}
+.AnyTime-pkr .AnyTime-bce-btn
+{}
+.AnyTime-pkr .AnyTime-ce-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-off-selector
+{}
+.AnyTime-pkr .AnyTime-hdr-off-selector
+{}
+.AnyTime-pkr .AnyTime-body-off-selector
+{margin:0.5em;}
+.AnyTime-pkr .AnyTime-off-off
+{}
+.AnyTime-pkr .AnyTime-off-off-btn
+{border-right:1px solid #909091;clear:left;padding-left:1em;padding-right:1em;text-align:left;}
+.AnyTime-pkr .AnyTime-off-off-last-btn
+{border-bottom:1px solid #909091;}
+.AnyTime-pkr .AnyTime-cur-btn
+{ /* background-color:#B7B7B7;color:#FCFCFE;font-weight:bold; */}
+.AnyTime-pkr .AnyTime-focus-btn
+{ /* border:1px dashed black;height:1.2em; */ }

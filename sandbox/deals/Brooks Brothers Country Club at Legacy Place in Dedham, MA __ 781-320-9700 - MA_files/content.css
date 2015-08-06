@@ -1,0 +1,161 @@
+/*****************************************************************************************/
+/*                  common styles                                                        */
+/*                  only things that need to be availalable to all themes                */
+/*                  and things that arent bass system stuff                              */
+/*                  no fonts or colors or anything.                                      */
+/*                                                                                       */
+
+.byline {padding-bottom:.5em;}
+.clearBoth {clear: both;}
+.clearM { clear:both } /*until i figure out what we really use */
+.div18 {margin-bottom:18px}
+.fakeLink { cursor:pointer; }
+.horzlist,.horzlist li {  display: inline-block;  /*float:left;*/  list-style-type: none;  padding-right: 9px;  margin-right: 9px;}
+.noborder, .noborder img {    border: none!important;    text-decoration: none!important;}
+.zero {height:0px;width:100%;margin:0px;padding:0px;line-height:0px;clear:both;}
+
+ul.pipelist, ul.pipelist li {list-style-type: none; margin: 0; padding: 0;}
+ul.pipelist li{border-right: 1px solid #ddd; margin:0 6px 0 0; padding:0 5px 0 0;}
+ul.pipelist li:last-child{border-right: none; padding-right:0;}
+ul.dottedPipeList li { margin:0px; padding:0px 10px; float:left; border-right:1px dotted black; list-style-type:none; width:auto; }
+ul.dottedPipeList li:first-child { padding-left:0px; }
+ul.dottedPipeList li:last-child { border:none; }
+ul.dottedPipeList li:first-child,
+ul.dottedPipeList li:last-child,
+ul.dottedPipeList { margin:0px; padding:0 6px; }
+
+/* some global stuff */
+.bubble-wrpr{margin-bottom:1em;}
+p:last-child {margin-bottom:0px;padding-bottom: 0px !important;} /* not sure why it wasnt collapsing without important. */
+.alignLeft {text-align: left;}
+.alignRight {text-align: right;}
+.floatLeft {float: left;}
+.floatRight {float: right;}
+
+/* record actions */
+ul.addThisShareButtonList li.addThisShareButtonListItem { position:relative; bottom:6px;}
+ul.addThisShareButtonList li.addThisShareButtonListItem a.addThisShareButtonLink {height:20px; width:51px; display:block; margin-bottom:4px;}
+/* global record action styles */
+ul.addThisShareButtonList li.addThisShareButtonListItem a.addThisShareButtonLink:link {    background: url("/images/buttons/icon-share-sprite.jpg") repeat scroll 0 -20px transparent;}
+ul.addThisShareButtonList li.addThisShareButtonListItem a.addThisShareButtonLink:hover {    background: url("/images/buttons/icon-share-sprite.jpg") repeat scroll 0 0px transparent;}
+/*img.addThisShareButtonSprite*/
+img.addThisShareButtonSprite {opacity:0.0;}
+
+/* global app header classes */
+.headerPullOne {margin-left:-10px;}
+.headerPullTwo {margin-left:-20px;}
+.headerAltColor {color:#ea0101;}
+
+
+
+/* hover html jquery styles */
+.parameterRollover {
+  display:none;
+  background-color:#fff;
+  -mox-box-shadow:0 0 7px #666;
+  -webkit-box-shadow:0 0 7px #666;
+  box-shadow:0 0 7px #666;
+  padding:10px;
+  position:absolute;
+  top:70px;
+}
+
+/* my feed */
+#storeNewsSubscribe { margin-bottom:25px; }
+#my-stores .myStoreRight-cnt-row { margin: 5px 0px; }
+.myStoreRight-cnt-row a:link { /* background:#efefef; border:1px solid #cccccc; border-radius:2px; padding:4px; color:#000000; */ background-clip: padding-box; background-color: #E4E4E4; background-image: -moz-linear-gradient(center bottom , #E4E4E4 0%, #EEEEEE 70%); border: 1px solid #B4B4B4; border-radius: 3px 3px 3px 3px; color: #333333; line-height: 13px; margin: 3px 0 3px 0; padding: 3px 19px 3px 6px; position: relative; }
+#content .myStoreRight-cnt-bdy ul { margin:0; }
+#addStores { margin-bottom: 8px; }
+input#addStoreSubmit { border:none; background:#dddddd; padding: 5px; border-top-right-radius:5px; border-top-left-radius: 5px; font-weight:bold; cursor:pointer; }
+input#addStoreSubmit:hover { background: #cccccc; }
+.myStoreRight-cnt-bdy .chzn-choices,
+.myStoreRight-cnt-bdy .chzn-select { width: 235px !important; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+#addStores .search-field { width: 25px !important; height: 25px !important; }
+#addStores .chzn-container { float: left; margin-right:10px; margin-bottom: 5px; }
+#addStores .chzn-container-multi .chzn-choices .search-field input { height: 25px; }
+
+.mf_activity___activityLineage a img,
+.activityLink img { 
+  padding:10px; 
+  border: none;
+}
+
+.h3avBadge {display:inline}
+
+a.joinMomtopia, a.momtopiaHome, a.momtopiaResources, a.momtopiaEvents {display:block}
+
+
+
+.bugFont {display:none;}
+
+div.userPhotos-cnt-row { float:left; margin-right:10px; }
+div.userPhotos-cnt-row img { width:112px; height:112px; }
+
+div.shopVert1Tabs ul.horzlist, div.shopVert1Tabs li { display:block; padding: 0px; margin:0px; font-weight:bold; font-size: 1.1em; line-height:1.9;}
+div.shopVert1Tabs li { list-style-type:none; margin:0px; padding:0px 0px 0px 10px; background-color: transparent; }
+div.shopVert1Tabs li:hover { background-color: #333; }
+div.shopVert1Tabs li a { color:#333; }
+div.shopVert1Tabs li:hover a { color:white; }
+
+
+div.user-bubble-wrpr.view-function-bubble-wrpr.styled-format-bubble-wrpr img.avatarImage { float:left; margin-right:40px; }
+
+div.edituser input[name='userCity'] { width:125px; margin-right:15px; }
+div.edituser div.userState {margin-top:10px;}
+div.edituser textarea {width:270px; }
+div.edituser div.userDescription { clear:both; }
+div.edituser div.fieldContainer { margin:5px 0px; }
+
+
+
+
+.infoHover { font-size: 0.9em; color:#683957; text-decoration: underline; }
+span.infoHover { margin:0 10px;}
+
+
+div.edituser div.leftSide { border-right:2px solid #777; padding-right:40px; float:left; width:410px; }
+div.edituser div.rightSide { width:500px; margin-left:490px; }
+div.edituser div.rightSide .picture { float:none; margin: 0 0 30px 0; border-bottom: 2px solid #777; }
+div.edituser #submit { clear:both; margin:40px 0; display:block}
+
+/*
+purple #683957
+dark grey #333
+light grey bg #e3e2df
+*/
+
+/*body#body-user div.leftColumn5,
+body#body-user-edit div.leftColumn5,
+body#body-user-programs div.leftColumn5,
+body#body-user-settings div.leftColumn5,
+body#body-user-messages div.leftColumn5,
+body#body-user-card div.leftColumn5,
+body#body-user-photos div.leftColumn5,
+body#body-user-friends div.leftColumn5,
+body#body-user-followers div.leftColumn5,
+body#body-user-lists div.leftColumn5,
+body#body-user-talk div.leftColumn5,
+body#body-user-activity div.leftColumn5,
+body#body-user-follow-feed div.leftColumn5 { background-color: #e3e2df; height:100%; padding-top:10px; }
+
+div#profileLeftSideNav { color: #333; font-weight:bold; }
+div#profileLeftSideNav a { font-weight:normal; }
+div#profileLeftSideNav div.userName { color: #683957; }
+div#profileLeftSideNav a:link, div#profileLeftSideNav a:visited { color:#333; text-decoration: none;}
+div#profileLeftSideNav a:hover, div#profileLeftSideNav a:active { color:white; text-decoration: none;}
+div#profileLeftSideNav img.avatar { float:left; margin:0px 10px 10px 10px; border:3px solid white;}
+div#profileLeftSideNav ul.nav { clear:both; margin:0px; padding:0px; background-color: transparent; }*/
+
+div.user-bubble-wrpr.view-function-bubble-wrpr div.users___name { padding-top:20px; }
+div.user-bubble-wrpr.view-function-bubble-wrpr div.users___mall_active,
+div.user-bubble-wrpr.view-function-bubble-wrpr div.users___userState { font-weight:bold; font-size: 1em; }
+div.users___mall_active span.viewHeader,
+div.users___userState span.viewHeader { text-transform: uppercase; font-size: 0.8em; display:block; background-color:transparent !important; margin: 11px 0px 0px; padding:0px;  }
+
+
+div.passwordReset li { list-style-type:none; margin: 20px 0; padding:0 }
+div.passwordReset ul { margin:0; padding:0 }
+div.passwordReset label { width:130px; display:block; float:left; }
+
+
+

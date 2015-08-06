@@ -1,0 +1,77 @@
+
+.infiniteCarousel {
+  position: relative;
+}
+
+div.infiniteCarousel.w600, div.infiniteCarousel.w600 div.wrapper {
+  height:102px;
+}
+
+div.infiniteCarousel div.wrapper {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel.w300 .wrapper {
+  width: 220px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  left: 26px; /* (width of containter - width of wrapper )/2 */
+}
+
+.infiniteCarousel.w600 .wrapper {
+  /*border:1px solid red;*/
+  width: 560px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  left: 12px; /* (width of containter - width of wrapper )/2 */
+}
+
+.infiniteCarousel .wrapper ul {
+  /*width: 840px;  single item * n */
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel ul li {
+  display:inline-block;
+  padding: 0px 3px;
+}
+
+.infiniteCarousel ul li a img {
+  display:block;
+}
+
+.infiniteCarousel .arrow {
+  display: block;
+  height: 11px;
+  width: 11px;
+  background: url(/sites/all/themes/shoptalk/images/infinitecarousel/arrows.gif) no-repeat 0 0;
+  text-indent: -9999px;
+  position: absolute;
+  top: 45px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.infiniteCarousel .forward {
+  background-position: 0 0;
+  right: -3px;
+}
+
+.infiniteCarousel .back {
+  background-position: 0 -11px;
+  left: -6px;
+}
+
+/* specializations: */
+
+/* article Items */
+div.articleItem-cnt-bdy { margin:30px 0px; }
+div.articleItem-cnt-bdy .infiniteCarousel div.articleItemImage { /*border-right:1px dotted #CBCBCB;*/ padding: 0 16px 0 0 !important; margin:0 15px 0 0 !important; }
+div.articleItem-cnt-bdy .infiniteCarousel { height:120px; }
+div.articleItem-cnt-bdy .infiniteCarousel ul {  margin:0px !important; padding:0px !important; }
+div.articleItem-cnt-bdy .infiniteCarousel li { margin:0px !important; padding:0px !important; width:117px; }
+div.articleItem-cnt-bdy .infiniteCarousel .wrapper { left:20px !important; height:120px !important; width:575px !important; margin:0px 11px !important; }
