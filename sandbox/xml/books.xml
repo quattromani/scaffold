@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+    <book title="CSS Mastery" imageurl="images/css.jpg">
+    <description>
+    info goes here.
+    </description>
+    </book>
+
+    <book title="Professional ASP.NET" imageurl="images/asp.jpg">
+    <description>
+    info goes here.
+    </description>
+    </book>
+
+    <book title="Learning jQuery" imageurl="images/lj.jpg">
+    <description>
+    info goes here.
+    </description>
+    </book>
+</books>
