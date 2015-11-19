@@ -7,38 +7,34 @@ title: Parse XML
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
 <script>
-$(document).ready(function()
-      {
-        $.get('US-Partner-Sample-Feed.xml', function(d){
-        $('#content').append('<h1>Jobs In Your Area</h1>');
-        $('#content').append('<dl />');
+  $(document).ready(function()
+  {
+    $.get('US-Partner-Sample-Feed.xml', function(d){
+      $('#content').append('<h1>Other Jobs In Your Area</h1><hr>');
+      $('#content').append('<dl />');
 
-        $(d).find('job').each(function(){
+      $(d).find('job').each(function(){
 
-            var $job = $(this);
-            var title = $job.find('title').text();
-            var jobid = $job.find('jobid').text();
-            var description = $job.find('description').text();
-            var companyname = $job.find('companyname').text();
-            var activedate = $job.find('activedate').text();
-            var expiresdate = $job.find('expiresdate').text();
-            var category = $job.find('category');
-            var categoryids = category.find('categoryids');
-            var categoryname = categoryids.find('CategoryName').text();
-            var applyurl = $job.find('applyurl').text();
+        var $job = $(this);
+        var title = $job.find('title').text();
+        var jobid = $job.find('jobid').text();
+        var description = $job.find('description').text();
+        var companyname = $job.find('companyname').text();
+        var activedate = $job.find('activedate').text();
+        var expiresdate = $job.find('expiresdate').text();
+        var category = $job.find('category');
+        var categoryids = category.find('categoryids');
+        var categoryname = categoryids.find('CategoryName').text();
+        var applyurl = $job.find('applyurl').text();
 
-            var html = '<h3>' + title + '</h3>';
-            html += '<h4>' + companyname + '</h4>';
-            html += '<p><strong>Job ID: </strong>' + jobid + '</p>';
-            html += '<p> ' + description + '</p>';
-            html += '</dd>';
-            html += '<p><strong>Posted: </strong>' + activedate + '</p>';
-            html += '<p><strong>Expires: </strong>' + expiresdate + '</p>';
-            html += '<a href="' + applyurl + ' " target="_blank">Apply Now <i class="fa fa-external-link"></i></a>';
-            html += '<hr>';
-            $('dl').append($(html));
+        var html = '<h3>' + title + '</h3>';
+        html += '<h4>' + companyname + '</h4>';
+        html += '</dd>';
+        html += '<a href="' + applyurl + ' " target="_blank">Learn More / Apply <i class="fa fa-angle-right"></i></a>';
+        html += '<hr>';
+        $('dl').append($(html));
 
-        });
+      });
     });
 });
 </script>
