@@ -118,6 +118,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Q/Sites/scaffold/sandbox/suggestion-box/index.html",
+		"/Users/Q/Sites/scaffold/sandbox/flip-card/index.html",
 		"/Users/Q/Sites/scaffold/sandbox/xml/index.html",
 		"/Users/Q/Sites/scaffold/_site/css/scss/partials/typography.scss",
 		"/Users/Q/Sites/scaffold/sandbox/xml/US-Partner-Sample-Feed.xml",
@@ -243,9 +245,7 @@
 		"/Users/Q/Sites/scaffold/css/partials/typography.css",
 		"/Users/Q/Sites/scaffold/js/placeholder.js",
 		"/Users/Q/Sites/scaffold/Gruntfile.js",
-		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html",
-		"/Users/Q/Sites/scaffold/css/main.min.css",
-		"/Users/Q/Sites/scaffold/js/main.js"
+		"/Users/Q/Sites/scaffold/_includes/patterns/tooltips/index.html"
 	],
 	"find":
 	{
