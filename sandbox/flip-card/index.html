@@ -1,0 +1,107 @@
+---
+layout: sandbox
+title: Flip Card
+class: sandbox
+---
+
+<style>
+  /* entire container, keeps perspective */
+  .flip-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+  }
+  /* flip the pane when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+  }
+
+  .flip-container,
+  .front,
+  .back {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* flip speed goes here */
+  .flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    position: relative;
+  }
+
+
+  /* hide back of pane during swap */
+  .front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  }
+
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+  }
+
+  /* back, initially hidden pane */
+  .back {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    background-color: #fafafa;
+  }
+
+  .back a {
+    display: block;
+    text-align: center;
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: calc(100% - 4rem);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    display: block;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+</style>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+      <a href="http://google.com"><img src="/scaffold/media/images/381.png" alt=""></a>
+    </div>
+    <div class="back">
+      <address>
+        <strong>LOCATION:</strong><br>
+        <span>12550 North Mainstreet / Map 4</span><br>
+        <strong>PHONE:</strong><br>
+        <span>(909) 646-8942</span>
+        <br><br>
+        <a href="#">Visit Store Page</a>
+      </address>
+    </div>
+  </div>
+</div>
