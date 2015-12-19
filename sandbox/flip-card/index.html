@@ -80,14 +80,13 @@ class: sandbox
     background-color: #fafafa;
   }
 
-  address {
-    padding: 1rem 2rem;
+  a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
   }
 
-  .back a {
-    display: block;
-    color: #b53d3b;
-    text-align: center;
+  address {
+    padding: 1rem 2rem;
   }
 
   img {
@@ -120,6 +119,12 @@ class: sandbox
     text-transform: uppercase;
   }
 
+  footer a {
+    display: block;
+    color: #b53d3b;
+    text-align: center;
+  }
+
 </style>
 
 <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -136,7 +141,7 @@ class: sandbox
       </header>
       <address>
         <span>12550 North Mainstreet / Map 4</span><br>
-        <span>(909) 646-8942</span>
+        <span><a href="tel:1-909-646-8942">(909) 646-8942</a></span>
       </address>
       <footer>
         <a href="#">Visit Store Page</a>
